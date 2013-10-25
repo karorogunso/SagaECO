@@ -1,5 +1,7 @@
 SagaECO
 =======
+This Server file is  Emil Chronicle Online
+and Need some custom Client to help
 
 This Project is C#
 
