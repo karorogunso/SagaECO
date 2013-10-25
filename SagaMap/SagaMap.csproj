@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BA626AB6-C9C8-4C27-8B40-AC959FC603B9}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SagaMap</RootNamespace>
+    <AssemblyName>SagaMap</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="SagaDB, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\SagaDB\bin\Debug\SagaDB.dll</HintPath>
+    </Reference>
+    <Reference Include="SagaLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\SagaLib\bin\Debug\SagaLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActorEventHandlers\ItemEventHandler.cs" />
+    <Compile Include="ActorEventHandlers\PCEventHandler.cs" />
+    <Compile Include="AtCommand.cs" />
+    <Compile Include="Configuration\Configuration.cs" />
+    <Compile Include="Localization\Languages\Chinese.cs" />
+    <Compile Include="Localization\Languages\English.cs" />
+    <Compile Include="Manager\LocalManager.cs" />
+    <Compile Include="Localization\Strings.cs" />
+    <Compile Include="Manager\MapClientManager.cs" />
+    <Compile Include="Manager\MapManager.cs" />
+    <Compile Include="Map.cs" />
+    <Compile Include="Network\Client\MapClient.Actor.cs" />
+    <Compile Include="Network\Client\MapClient.Chat.cs" />
+    <Compile Include="Network\Client\MapClient.cs" />
+    <Compile Include="MapServer.cs" />
+    <Compile Include="Network\Client\MapClient.Item.cs" />
+    <Compile Include="Network\Client\MapClient.Login.cs" />
+    <Compile Include="Packets\Client\Actor\CSMG_ACTOR_REQUEST_PC_INFO.cs" />
+    <Compile Include="Packets\Client\Actor\CSMG_PLAYER_MOVE.cs" />
+    <Compile Include="Packets\Client\Actor\CSMG_PLAYER_MAP_LOADED.cs" />
+    <Compile Include="Packets\Client\Chat\CSMG_CHAT_EMOTION.cs" />
+    <Compile Include="Packets\Client\Chat\CSMG_CHAT_SIT.cs" />
+    <Compile Include="Packets\Client\Chat\CSMG_CHAT_MOTION.cs" />
+    <Compile Include="Packets\Client\Chat\CSMG_CHAT_PUBLIC.cs" />
+    <Compile Include="Packets\Client\Item\CSMG_ITEM_EQUIPT.cs" />
+    <Compile Include="Packets\Client\Item\CSMG_ITEM_GET.cs" />
+    <Compile Include="Packets\Client\Item\CSMG_ITEM_DROP.cs" />
+    <Compile Include="Packets\Client\Login\CSMG_LOGOUT.cs" />
+    <Compile Include="Packets\Client\Login\CSMG_CHAR_SLOT.cs" />
+    <Compile Include="Packets\Client\Login\CSMG_LOGIN.cs" />
+    <Compile Include="Packets\Client\Login\CSMG_PING.cs" />
+    <Compile Include="Packets\Client\Login\CSMG_SEND_VERSION.cs" />
+    <Compile Include="Packets\Server\Actor\SSMG_ACTOR_DELETE.cs" />
+    <Compile Include="Packets\Server\Actor\SSMG_ACTOR_MOVE.cs" />
+    <Compile Include="Packets\Server\Actor\SSMG_ACTOR_PC_INFO.cs" />
+    <Compile Include="Packets\Server\Actor\SSMG_ACTOR_PC_APPEAR.cs" />
+    <Compile Include="Packets\Server\Actor\SSMG_PLAYER_JOB.cs" />
+    <Compile Include="Packets\Server\Actor\SSMG_PLAYER_LEVEL.cs" />
+    <Compile Include="Packets\Server\Actor\SSMG_PLAYER_EXP.cs" />
+    <Compile Include="Packets\Server\Actor\SSMG_PLAYER_STATUS_EXTEND.cs" />
+    <Compile Include="Packets\Server\Chat\SSMG_CHAT_EMOTION.cs" />
+    <Compile Include="Packets\Server\Chat\SSMG_CHAT_MOTION.cs" />
+    <Compile Include="Packets\Server\Chat\SSMG_CHAT_PUBLIC.cs" />
+    <Compile Include="Packets\Server\Chat\SSMG_SYSTEM_MESSAGE.cs" />
+    <Compile Include="Packets\Server\Item\SSMG_ITEM_EQUIP.cs" />
+    <Compile Include="Packets\Server\Item\SSMG_ITEM_CONTAINER_CHANGE.cs" />
+    <Compile Include="Packets\Server\Item\SSMG_ITEM_ACTOR_DISAPPEAR.cs" />
+    <Compile Include="Packets\Server\Item\SSMG_ITEM_ACTOR_APPEAR.cs" />
+    <Compile Include="Packets\Server\Item\SSMG_ITEM_DELETE.cs" />
+    <Compile Include="Packets\Server\Item\SSMG_ITEM_COUNT_UPDATE.cs" />
+    <Compile Include="Packets\Server\Item\SSMG_ITEM_ADD.cs" />
+    <Compile Include="Packets\Server\Item\SSMG_ITEM_INFO.cs" />
+    <Compile Include="Packets\Server\Login\SSMG_LOGOUT.cs" />
+    <Compile Include="Packets\Server\Login\SSMG_LOGIN_FINISHED.cs" />
+    <Compile Include="Packets\Server\Login\SSMG_LOGIN_ACK.cs" />
+    <Compile Include="Packets\Server\Login\SSMG_LOGIN_ALLOWED.cs" />
+    <Compile Include="Packets\Server\Login\SSMG_PONG.cs" />
+    <Compile Include="Packets\Server\Login\SSMG_VERSION_ACK.cs" />
+    <Compile Include="Packets\Server\Actor\SSMG_PLAYER_HPMPSP.cs" />
+    <Compile Include="Packets\Server\Actor\SSMG_PLAYER_STATUS.cs" />
+    <Compile Include="Packets\Server\Actor\SSMG_PLAYER_MAX_HPMPSP.cs" />
+    <Compile Include="Packets\Server\Actor\SSMG_PLAYER_MAX_CAPACITY.cs" />
+    <Compile Include="Packets\Server\Actor\SSMG_PLAYER_CAPACITY.cs" />
+    <Compile Include="Packets\Server\Actor\SSMG_PLAYER_INFO.cs" />
+    <Compile Include="Packets\Server\Actor\SSMG_ACTOR_OPTION.cs" />
+    <Compile Include="Packets\Server\Actor\SSMG_ACTOR_MODE.cs" />
+    <Compile Include="Packets\Server\Actor\SSMG_ACTOR_SPEED.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

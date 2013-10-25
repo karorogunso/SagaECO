@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Config>
+    <Name>Chara1</Name>
+    <MacroCode Version="1.0">
+        <ALT>
+            <CODE KEY="0">/turn1</CODE>
+            <CODE KEY="1">/bye</CODE>
+            <CODE KEY="2">/speak</CODE>
+            <CODE KEY="3">/nod</CODE>
+            <CODE KEY="4">/joy</CODE>
+            <CODE KEY="5">/no</CODE>
+            <CODE KEY="6">/sit</CODE>
+            <CODE KEY="7">/relax</CODE>
+            <CODE KEY="8">/yahoo</CODE>
+            <CODE KEY="9">/turn2</CODE>
+            <CODE KEY="A">/*sweat3</CODE>
+            <CODE KEY="B">/*note</CODE>
+            <CODE KEY="C">/*anger2</CODE>
+            <CODE KEY="D">/*stone</CODE>
+            <CODE KEY="E">/chair</CODE>
+            <CODE KEY="F">/*scissors</CODE>
+            <CODE KEY="G">/*paper</CODE>
+            <CODE KEY="H">/*startle</CODE>
+            <CODE KEY="I">/bow</CODE>
+            <CODE KEY="J">/*daze</CODE>
+            <CODE KEY="K">/*surprised2</CODE>
+            <CODE KEY="L">/disappoint</CODE>
+            <CODE KEY="M">/*sweat2</CODE>
+            <CODE KEY="N">/*sweat1</CODE>
+            <CODE KEY="O">/slump</CODE>
+            <CODE KEY="P">/tired</CODE>
+            <CODE KEY="Q">/jump</CODE>
+            <CODE KEY="R">/break</CODE>
+            <CODE KEY="S">/*line</CODE>
+            <CODE KEY="T">/pon</CODE>
+            <CODE KEY="U">/*sorry</CODE>
+            <CODE KEY="V">/*smile</CODE>
+            <CODE KEY="W">/dogeza</CODE>
+            <CODE KEY="X">/*anger1</CODE>
+            <CODE KEY="Y">/*thx</CODE>
+            <CODE KEY="Z">/*surprised1</CODE>
+        </ALT>
+        <CTR>
+            <CODE KEY="1">/*ok!</CODE>
+            <CODE KEY="2">/*ok?</CODE>
+            <CODE KEY="3">/*allright</CODE>
+            <CODE KEY="4">/*fight</CODE>
+            <CODE KEY="5">/*help</CODE>
+            <CODE KEY="A">/ui_status</CODE>
+            <CODE KEY="C">/ui_sc_ctrl</CODE>
+            <CODE KEY="D">/ui_sc_def</CODE>
+            <CODE KEY="E">/ui_party</CODE>
+            <CODE KEY="F">/ui_friend</CODE>
+            <CODE KEY="I">/ui_item</CODE>
+            <CODE KEY="K">/ui_macro</CODE>
+            <CODE KEY="L">/ui_commentlist</CODE>
+            <CODE KEY="M">/ui_map</CODE>
+            <CODE KEY="N">/ui_comment</CODE>
+            <CODE KEY="O">/ui_system</CODE>
+            <CODE KEY="Q">/ui_equip</CODE>
+            <CODE KEY="R">/ui_ring</CODE>
+            <CODE KEY="S">/ui_skill</CODE>
+            <CODE KEY="T">/ssmode</CODE>
+            <CODE KEY="W">/ui_worldmap</CODE>
+            <CODE KEY="X">/ui_sc_alt</CODE>
+            <CODE KEY="Y">/ui_quest</CODE>
+            <CODE KEY="Z">/ui_main</CODE>
+        </CTR>
+    </MacroCode>
+    <ShortcutCode Version="1.0">
+        <NONE />
+        <ALT />
+        <CTR />
+    </ShortcutCode>
+</Config>

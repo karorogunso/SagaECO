@@ -1,0 +1,2637 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Config>
+ <Name>WindowParam</Name>
+ <WindowParam Version="1.0">
+  <UI_SHOP_BUY>
+   <BASE>
+    <CODE KEY="cx">506</CODE>
+    <CODE KEY="cy">301</CODE>
+    <CODE KEY="px">100</CODE>
+    <CODE KEY="py">60</CODE>
+    <CODE KEY="cx_min">506</CODE>
+    <CODE KEY="cx_max">600</CODE>
+    <CODE KEY="cy_min">301</CODE>
+    <CODE KEY="cy_max">500</CODE>
+    <CODE KEY="listofs_y">69</CODE>
+    <CODE KEY="listofs_y2">46</CODE>
+   </BASE>
+   <TABCTRL>
+    <CODE KEY="px">0</CODE>
+    <CODE KEY="py">24</CODE>
+    <CODE KEY="cx">205</CODE>
+    <CODE KEY="cy">40</CODE>
+   </TABCTRL>
+   <BUYBTN>
+    <CODE KEY="px">40</CODE>
+    <CODE KEY="py">276</CODE>
+    <CODE KEY="frombottom">25</CODE>
+   </BUYBTN>
+   <CANCELBTN>
+    <CODE KEY="px">124</CODE>
+    <CODE KEY="py">276</CODE>
+    <CODE KEY="frombottom">25</CODE>
+   </CANCELBTN>
+   <CHKBOX>
+    <CODE KEY="px">9</CODE>
+    <CODE KEY="py">182</CODE>
+    <CODE KEY="cx">10</CODE>
+    <CODE KEY="cy">10</CODE>
+   </CHKBOX>
+   <LEFTICON>
+    <CODE KEY="px">13</CODE>
+    <CODE KEY="py">51</CODE>
+   </LEFTICON>
+   <R_SCROLLBAR>
+    <CODE KEY="py">24</CODE>
+    <CODE KEY="fromright">22</CODE>
+    <CODE KEY="frombottom">36</CODE>
+   </R_SCROLLBAR>
+   <R_ICON>
+    <CODE KEY="px">214</CODE>
+    <CODE KEY="py">24</CODE>
+   </R_ICON>
+   <UPBTN>
+    <CODE KEY="py">44</CODE>
+    <CODE KEY="fromright">41</CODE>
+   </UPBTN>
+   <DOWNBTN>
+    <CODE KEY="py">53</CODE>
+    <CODE KEY="fromright">41</CODE>
+   </DOWNBTN>
+   <NUMEDIT>
+    <CODE KEY="py">44</CODE>
+    <CODE KEY="fromright">66</CODE>
+   </NUMEDIT>
+   <PRICEPIC>
+    <CODE KEY="px">267</CODE>
+    <CODE KEY="py">46</CODE>
+    <CODE KEY="cx">72</CODE>
+    <CODE KEY="cy">12</CODE>
+   </PRICEPIC>
+   <NUMPIC>
+    <CODE KEY="py">46</CODE>
+    <CODE KEY="cx">72</CODE>
+    <CODE KEY="cy">12</CODE>
+    <CODE KEY="fromright">96</CODE>
+   </NUMPIC>
+   <ITEMNAME>
+    <CODE KEY="px">257</CODE>
+    <CODE KEY="py">23</CODE>
+    <CODE KEY="cx">224</CODE>
+    <CODE KEY="cy">18</CODE>
+   </ITEMNAME>
+   <CANEQUIPPIC>
+    <CODE KEY="px">261</CODE>
+    <CODE KEY="py">65</CODE>
+    <CODE KEY="cx">66</CODE>
+    <CODE KEY="cy">14</CODE>
+   </CANEQUIPPIC>
+   <TRYBTN>
+    <CODE KEY="px">333</CODE>
+    <CODE KEY="py">65</CODE>
+    <CODE KEY="cx">63</CODE>
+    <CODE KEY="cy">18</CODE>
+   </TRYBTN>
+   <TEXTEXT>
+    <CODE KEY="px">24</CODE>
+    <CODE KEY="py">142</CODE>
+   </TEXTEXT>
+   <VLINE>
+    <CODE KEY="px">205</CODE>
+    <CODE KEY="py">16</CODE>
+   </VLINE>
+   <HLINE>
+    <CODE KEY="px">1</CODE>
+    <CODE KEY="py">131</CODE>
+    <CODE KEY="cx">204</CODE>
+   </HLINE>
+   <MONEYFRAME>
+    <CODE KEY="px">110</CODE>
+    <CODE KEY="py">140</CODE>
+    <CODE KEY="cx">90</CODE>
+    <CODE KEY="cy">16</CODE>
+   </MONEYFRAME>
+   <PAYFRAME>
+    <CODE KEY="px">110</CODE>
+    <CODE KEY="py">200</CODE>
+    <CODE KEY="cx">90</CODE>
+    <CODE KEY="cy">16</CODE>
+   </PAYFRAME>
+   <PRICEFRAME>
+    <CODE KEY="px">294</CODE>
+    <CODE KEY="py">44</CODE>
+    <CODE KEY="cx">110</CODE>
+    <CODE KEY="cy">16</CODE>
+   </PRICEFRAME>
+   <NUMFRAME>
+    <CODE KEY="py">44</CODE>
+    <CODE KEY="cx">25</CODE>
+    <CODE KEY="cy">16</CODE>
+    <CODE KEY="fromright">68</CODE>
+   </NUMFRAME>
+   <PRICE>
+    <CODE KEY="px">294</CODE>
+    <CODE KEY="py">47</CODE>
+    <CODE KEY="cx">110</CODE>
+    <CODE KEY="cy">12</CODE>
+   </PRICE>
+   <BUYNUM>
+    <CODE KEY="py">47</CODE>
+    <CODE KEY="cx">25</CODE>
+    <CODE KEY="cy">12</CODE>
+    <CODE KEY="fromright">64</CODE>
+   </BUYNUM>
+   <MONEYSTR>
+    <CODE KEY="px">115</CODE>
+    <CODE KEY="py">142</CODE>
+    <CODE KEY="cx">80</CODE>
+    <CODE KEY="cy">16</CODE>
+   </MONEYSTR>
+   <PAYSTR>
+    <CODE KEY="px">140</CODE>
+    <CODE KEY="py">202</CODE>
+    <CODE KEY="cx">50</CODE>
+    <CODE KEY="cy">12</CODE>
+   </PAYSTR>
+  </UI_SHOP_BUY>
+  <UI_SHOP_SELL>
+   <BASE>
+    <CODE KEY="px">100</CODE>
+    <CODE KEY="py">60</CODE>
+    <CODE KEY="cx">506</CODE>
+    <CODE KEY="cy">301</CODE>
+    <CODE KEY="cx_min">506</CODE>
+    <CODE KEY="cx_max">600</CODE>
+    <CODE KEY="cy_min">301</CODE>
+    <CODE KEY="cy_max">500</CODE>
+    <CODE KEY="basefromright">205</CODE>
+    <CODE KEY="listofs_y">46</CODE>
+   </BASE>
+   <TABCTRL>
+    <CODE KEY="py">24</CODE>
+    <CODE KEY="cy">16</CODE>
+   </TABCTRL>
+   <SELLBTN>
+    <CODE KEY="px">34</CODE>
+    <CODE KEY="py">276</CODE>
+    <CODE KEY="frombottom">25</CODE>
+   </SELLBTN>
+   <CANCELBTN>
+    <CODE KEY="px">113</CODE>
+    <CODE KEY="py">276</CODE>
+    <CODE KEY="frombottom">25</CODE>
+   </CANCELBTN>
+   <CHKBOX>
+    <CODE KEY="px">8</CODE>
+    <CODE KEY="py">182</CODE>
+    <CODE KEY="cx">10</CODE>
+    <CODE KEY="cy">10</CODE>
+   </CHKBOX>
+   <R_ICON>
+    <CODE KEY="px">12</CODE>
+    <CODE KEY="py">51</CODE>
+   </R_ICON>
+   <L_SCROLLBAR>
+    <CODE KEY="py">24</CODE>
+    <CODE KEY="fromcenter_x">21</CODE>
+    <CODE KEY="frombottom">11</CODE>
+   </L_SCROLLBAR>
+   <L_ICON>
+    <CODE KEY="px">9</CODE>
+    <CODE KEY="py">24</CODE>
+    <CODE KEY="cx">36</CODE>
+    <CODE KEY="cy">36</CODE>
+   </L_ICON>
+   <UPBTN>
+    <CODE KEY="py">44</CODE>
+    <CODE KEY="cx">14</CODE>
+    <CODE KEY="cy">8</CODE>
+    <CODE KEY="fromcenter_x">41</CODE>
+   </UPBTN>
+   <DOWNBTN>
+    <CODE KEY="py">53</CODE>
+    <CODE KEY="cx">14</CODE>
+    <CODE KEY="cy">8</CODE>
+    <CODE KEY="fromcenter_x">41</CODE>
+   </DOWNBTN>
+   <ITEMNAME>
+    <CODE KEY="px">56</CODE>
+    <CODE KEY="py">24</CODE>
+    <CODE KEY="cy">18</CODE>
+    <CODE KEY="fromcenter_x">21</CODE>
+   </ITEMNAME>
+   <PRICEPIC>
+    <CODE KEY="px">62</CODE>
+    <CODE KEY="py">46</CODE>
+    <CODE KEY="cx">72</CODE>
+    <CODE KEY="cy">12</CODE>
+   </PRICEPIC>
+   <NUMPIC>
+    <CODE KEY="py">46</CODE>
+    <CODE KEY="cx">72</CODE>
+    <CODE KEY="cy">12</CODE>
+    <CODE KEY="fromcenter_x">98</CODE>
+   </NUMPIC>
+   <NUMEDIT>
+    <CODE KEY="py">44</CODE>
+    <CODE KEY="cx">27</CODE>
+    <CODE KEY="cy">15</CODE>
+    <CODE KEY="fromcenter_x">66</CODE>
+   </NUMEDIT>
+   <TEXTEXT>
+    <CODE KEY="py">142</CODE>
+    <CODE KEY="fromcenter_x">23</CODE>
+   </TEXTEXT>
+   <HLINE>
+    <CODE KEY="py">131</CODE>
+   </HLINE>
+   <MONEYFRAME>
+    <CODE KEY="px">112</CODE>
+    <CODE KEY="py">140</CODE>
+    <CODE KEY="cx">84</CODE>
+    <CODE KEY="cy">16</CODE>
+   </MONEYFRAME>
+   <PAYFRAME>
+    <CODE KEY="px">112</CODE>
+    <CODE KEY="py">204</CODE>
+    <CODE KEY="cx">84</CODE>
+    <CODE KEY="cy">16</CODE>
+   </PAYFRAME>
+   <PRICEFRAME>
+    <CODE KEY="px">89</CODE>
+    <CODE KEY="py">44</CODE>
+    <CODE KEY="cx">104</CODE>
+    <CODE KEY="cy">16</CODE>
+   </PRICEFRAME>
+   <NUMFRAME>
+    <CODE KEY="py">44</CODE>
+    <CODE KEY="cx">27</CODE>
+    <CODE KEY="cy">15</CODE>
+    <CODE KEY="fromcenter_x">69</CODE>
+   </NUMFRAME>
+   <PRICESTR>
+    <CODE KEY="px">103</CODE>
+    <CODE KEY="py">47</CODE>
+    <CODE KEY="cx">87</CODE>
+    <CODE KEY="cy">16</CODE>
+   </PRICESTR>
+   <NUMSTR>
+    <CODE KEY="py">47</CODE>
+    <CODE KEY="cx">22</CODE>
+    <CODE KEY="cy">16</CODE>
+    <CODE KEY="fromcenter_x">63</CODE>
+   </NUMSTR>
+   <MONEYSTR>
+    <CODE KEY="px">112</CODE>
+    <CODE KEY="py">143</CODE>
+    <CODE KEY="cx">81</CODE>
+    <CODE KEY="cy">16</CODE>
+   </MONEYSTR>
+   <PAYSTR>
+    <CODE KEY="px">135</CODE>
+    <CODE KEY="py">207</CODE>
+    <CODE KEY="cx">85</CODE>
+    <CODE KEY="cy">16</CODE>
+   </PAYSTR>
+  </UI_SHOP_SELL>
+  <UI_SYSTEM>
+   <BASE>
+    <CODE KEY="cx">410</CODE>
+    <CODE KEY="cy">350</CODE>
+    <CODE KEY="px">42</CODE>
+    <CODE KEY="py">64</CODE>
+   </BASE>
+  </UI_SYSTEM>
+  <UI_STATUS>
+   <BASE>
+    <CODE KEY="cx">160</CODE>
+    <CODE KEY="cy">460</CODE>
+    <CODE KEY="px">5</CODE>
+    <CODE KEY="py">154</CODE>
+   </BASE>
+   <BASE2>
+    <CODE KEY="cx">160</CODE>
+    <CODE KEY="cy">172</CODE>
+    <CODE KEY="px">5</CODE>
+    <CODE KEY="py">154</CODE>
+   </BASE2>
+  </UI_STATUS>
+  <UI_SYNTHESIS>
+   <BASE>
+    <CODE KEY="cx">562</CODE>
+    <CODE KEY="cy">370</CODE>
+    <CODE KEY="px">CENTER</CODE>
+    <CODE KEY="py">CENTER</CODE>
+   </BASE>
+   <BASE2>
+    <CODE KEY="cx">482</CODE>
+    <CODE KEY="cy">370</CODE>
+    <CODE KEY="px">CENTER</CODE>
+    <CODE KEY="py">CENTER</CODE>
+   </BASE2>
+  </UI_SYNTHESIS>
+  <UI_TRADE>
+   <BASE>
+    <CODE KEY="cx">431</CODE>
+    <CODE KEY="cy">260</CODE>
+    <CODE KEY="px">100</CODE>
+    <CODE KEY="py">60</CODE>
+   </BASE>
+  </UI_TRADE>
+  <UI_WAREHOUSE>
+   <BASE>
+    <CODE KEY="cx">520</CODE>
+    <CODE KEY="cy">282</CODE>
+    <CODE KEY="px">150</CODE>
+    <CODE KEY="py">64</CODE>
+   </BASE>
+  </UI_WAREHOUSE>
+  <UI_WAREHOUSE_SEND>
+   <BASE>
+    <CODE KEY="px">342</CODE>
+    <CODE KEY="py">64</CODE>
+    <CODE KEY="cx">240</CODE>
+    <CODE KEY="cy">400</CODE>
+   </BASE>
+   <OKBTN>
+    <CODE KEY="px">64</CODE>
+    <CODE KEY="py">370</CODE>
+    <CODE KEY="cx">56</CODE>
+    <CODE KEY="cy">16</CODE>
+   </OKBTN>
+   <CANCELBTN>
+    <CODE KEY="px">122</CODE>
+    <CODE KEY="py">370</CODE>
+    <CODE KEY="cx">56</CODE>
+    <CODE KEY="cy">16</CODE>
+   </CANCELBTN>
+   <SCBAR_ITEMLIST>
+    <CODE KEY="px">207</CODE>
+    <CODE KEY="py">50</CODE>
+    <CODE KEY="cx">16</CODE>
+    <CODE KEY="cy">215</CODE>
+   </SCBAR_ITEMLIST>
+   <SCBAR_PLACELIST>
+    <CODE KEY="px">207</CODE>
+    <CODE KEY="py">281</CODE>
+    <CODE KEY="cx">16</CODE>
+    <CODE KEY="cy">75</CODE>
+   </SCBAR_PLACELIST>
+   <ICONS>
+    <CODE KEY="px">22</CODE>
+    <CODE KEY="py">50</CODE>
+    <CODE KEY="cx">36</CODE>
+    <CODE KEY="cy">36</CODE>
+   </ICONS>
+   <CURRENTSTC>
+    <CODE KEY="px">10</CODE>
+    <CODE KEY="py">25</CODE>
+    <CODE KEY="cx">220</CODE>
+    <CODE KEY="cy">18</CODE>
+   </CURRENTSTC>
+   <PLACELIST>
+    <CODE KEY="px">22</CODE>
+    <CODE KEY="py">285</CODE>
+    <CODE KEY="cx">180</CODE>
+    <CODE KEY="cy">68</CODE>
+   </PLACELIST>
+  </UI_WAREHOUSE_SEND>
+  <UI_WHISPER>
+   <BASE>
+    <CODE KEY="cx">360</CODE>
+    <CODE KEY="cy">130</CODE>
+    <CODE KEY="px">342</CODE>
+    <CODE KEY="py">64</CODE>
+   </BASE>
+   <PARAM>
+    <CODE KEY="cy_min">130</CODE>
+    <CODE KEY="cy_max">390</CODE>
+   </PARAM>
+  </UI_WHISPER>
+  <UI_THEATER>
+   <BASE>
+    <CODE KEY="cx">462</CODE>
+    <CODE KEY="cy">198</CODE>
+    <CODE KEY="px">CENTER</CODE>
+    <CODE KEY="py">CENTER</CODE>
+   </BASE>
+  </UI_THEATER>
+  <UI_STALL_SET>
+   <BASE>
+    <CODE KEY="cx">506</CODE>
+    <CODE KEY="cy">301</CODE>
+    <CODE KEY="px">120</CODE>
+    <CODE KEY="py">100</CODE>
+    <CODE KEY="cx_min">506</CODE>
+    <CODE KEY="cx_max">600</CODE>
+    <CODE KEY="cy_min">301</CODE>
+    <CODE KEY="cy_max">500</CODE>
+    <CODE KEY="vline_x">205</CODE>
+   </BASE>
+   <TABCTRL>
+    <CODE KEY="px">1</CODE>
+    <CODE KEY="py">24</CODE>
+    <CODE KEY="cx">204</CODE>
+    <CODE KEY="cy">96</CODE>
+   </TABCTRL>
+   <PRICEEDIT>
+    <CODE KEY="px">294</CODE>
+    <CODE KEY="py">44</CODE>
+    <CODE KEY="cx">104</CODE>
+    <CODE KEY="cy">16</CODE>
+   </PRICEEDIT>
+   <ITEMNAME>
+    <CODE KEY="px">49</CODE>
+    <CODE KEY="py">23</CODE>
+    <CODE KEY="cx">224</CODE>
+    <CODE KEY="cy">18</CODE>
+   </ITEMNAME>
+   <COMMENT>
+    <CODE KEY="px">10</CODE>
+    <CODE KEY="py">225</CODE>
+    <CODE KEY="cx">187</CODE>
+    <CODE KEY="cy">45</CODE>
+   </COMMENT>
+   <HILOW>
+    <CODE KEY="px">98</CODE>
+    <CODE KEY="py">180</CODE>
+    <CODE KEY="cx">98</CODE>
+    <CODE KEY="cy">16</CODE>
+   </HILOW>
+   <L_SC>
+    <CODE KEY="px">189</CODE>
+    <CODE KEY="py">50</CODE>
+    <CODE KEY="cy">73</CODE>
+   </L_SC>
+   <OKBTN>
+    <CODE KEY="px">40</CODE>
+    <CODE KEY="py">276</CODE>
+    <CODE KEY="frombottom">25</CODE>
+   </OKBTN>
+   <CANCELBTN>
+    <CODE KEY="px">124</CODE>
+    <CODE KEY="py">276</CODE>
+    <CODE KEY="frombottom">25</CODE>
+   </CANCELBTN>
+   <CHKBOX>
+    <CODE KEY="px">186</CODE>
+    <CODE KEY="py">126</CODE>
+    <CODE KEY="cx">10</CODE>
+    <CODE KEY="cy">10</CODE>
+   </CHKBOX>
+   <L_ICONS>
+    <CODE KEY="px">9</CODE>
+    <CODE KEY="py">51</CODE>
+   </L_ICONS>
+   <R_ICONS>
+    <CODE KEY="px">214</CODE>
+    <CODE KEY="py">24</CODE>
+   </R_ICONS>
+   <R_SC>
+    <CODE KEY="py">24</CODE>
+    <CODE KEY="fromright">20</CODE>
+    <CODE KEY="frombottom">11</CODE>
+   </R_SC>
+   <HLINE>
+    <CODE KEY="py">131</CODE>
+   </HLINE>
+   <PRICEPIC>
+    <CODE KEY="px">267</CODE>
+    <CODE KEY="py">46</CODE>
+   </PRICEPIC>
+   <NUMPIC>
+    <CODE KEY="py">46</CODE>
+    <CODE KEY="fromright">98</CODE>
+   </NUMPIC>
+   <SELLKINDNUM>
+    <CODE KEY="px">98</CODE>
+    <CODE KEY="py">140</CODE>
+    <CODE KEY="cx">98</CODE>
+    <CODE KEY="cy">16</CODE>
+   </SELLKINDNUM>
+   <TOTALSELLPRICE>
+    <CODE KEY="px">98</CODE>
+    <CODE KEY="py">160</CODE>
+    <CODE KEY="cx">98</CODE>
+    <CODE KEY="cy">16</CODE>
+   </TOTALSELLPRICE>
+   <SELLNUM>
+    <CODE KEY="py">44</CODE>
+    <CODE KEY="cx">28</CODE>
+    <CODE KEY="cy">16</CODE>
+    <CODE KEY="fromright">71</CODE>
+   </SELLNUM>
+   <L_TEXTS>
+    <CODE KEY="px">9</CODE>
+    <CODE KEY="py">142</CODE>
+    <CODE KEY="cx">187</CODE>
+    <CODE KEY="cy">16</CODE>
+   </L_TEXTS>
+   <SELLNUMSTR>
+    <CODE KEY="py">47</CODE>
+    <CODE KEY="cx">22</CODE>
+    <CODE KEY="cy">12</CODE>
+    <CODE KEY="fromright">68</CODE>
+   </SELLNUMSTR>
+  </UI_STALL_SET>
+  <UI_STALL_SELL>
+   <BASE>
+    <CODE KEY="px">120</CODE>
+    <CODE KEY="py">100</CODE>
+    <CODE KEY="cx">516</CODE>
+    <CODE KEY="cy">312</CODE>
+    <CODE KEY="cx_min">516</CODE>
+    <CODE KEY="cx_max">600</CODE>
+    <CODE KEY="cy_min">312</CODE>
+    <CODE KEY="cy_max">500</CODE>
+    <CODE KEY="vline_x">215</CODE>
+    <CODE KEY="listofs_y">69</CODE>
+    <CODE KEY="listofs_y2">46</CODE>
+   </BASE>
+   <TABCTRL>
+    <CODE KEY="px">0</CODE>
+    <CODE KEY="py">24</CODE>
+   </TABCTRL>
+   <L_SC>
+    <CODE KEY="px">192</CODE>
+    <CODE KEY="py">51</CODE>
+    <CODE KEY="cy">72</CODE>
+   </L_SC>
+   <OKBTN>
+    <CODE KEY="px">33</CODE>
+    <CODE KEY="py">290</CODE>
+    <CODE KEY="frombottom">22</CODE>
+   </OKBTN>
+   <CANCELBTN>
+    <CODE KEY="px">117</CODE>
+    <CODE KEY="py">290</CODE>
+    <CODE KEY="frombottom">22</CODE>
+   </CANCELBTN>
+   <L_ICONS>
+    <CODE KEY="px">9</CODE>
+    <CODE KEY="py">51</CODE>
+   </L_ICONS>
+   <R_ICONS>
+    <CODE KEY="px">224</CODE>
+    <CODE KEY="py">28</CODE>
+   </R_ICONS>
+   <CANEQUIPIMG>
+    <CODE KEY="px">53</CODE>
+    <CODE KEY="py">72</CODE>
+    <CODE KEY="cx">66</CODE>
+    <CODE KEY="cy">14</CODE>
+   </CANEQUIPIMG>
+   <TRYBTN>
+    <CODE KEY="px">125</CODE>
+    <CODE KEY="py">72</CODE>
+    <CODE KEY="cx">63</CODE>
+    <CODE KEY="cy">18</CODE>
+   </TRYBTN>
+   <R_SC>
+    <CODE KEY="py">24</CODE>
+    <CODE KEY="fromright">20</CODE>
+    <CODE KEY="frombottom">11</CODE>
+   </R_SC>
+   <ITEMNAME>
+    <CODE KEY="px">49</CODE>
+    <CODE KEY="py">25</CODE>
+    <CODE KEY="cx">224</CODE>
+    <CODE KEY="cy">18</CODE>
+   </ITEMNAME>
+   <HLINE>
+    <CODE KEY="py">131</CODE>
+   </HLINE>
+   <PRICEPIC>
+    <CODE KEY="px">277</CODE>
+    <CODE KEY="py">51</CODE>
+   </PRICEPIC>
+   <NUMPIC>
+    <CODE KEY="py">51</CODE>
+    <CODE KEY="fromright">99</CODE>
+   </NUMPIC>
+   <L_TEXTS>
+    <CODE KEY="px">9</CODE>
+    <CODE KEY="py">142</CODE>
+   </L_TEXTS>
+   <NUMFRAME>
+    <CODE KEY="py">51</CODE>
+    <CODE KEY="cx">27</CODE>
+    <CODE KEY="cy">16</CODE>
+    <CODE KEY="fromright">71</CODE>
+   </NUMFRAME>
+   <PRICEFRAME>
+    <CODE KEY="px">304</CODE>
+    <CODE KEY="py">51</CODE>
+    <CODE KEY="cy">16</CODE>
+    <CODE KEY="fromright">107</CODE>
+   </PRICEFRAME>
+   <L_FRAMES>
+    <CODE KEY="px">108</CODE>
+    <CODE KEY="py">140</CODE>
+    <CODE KEY="cx">98</CODE>
+    <CODE KEY="cy">16</CODE>
+   </L_FRAMES>
+   <COMMENTFRAME>
+    <CODE KEY="px">18</CODE>
+    <CODE KEY="py">242</CODE>
+    <CODE KEY="cx">186</CODE>
+    <CODE KEY="cy">43</CODE>
+   </COMMENTFRAME>
+   <COMMENTSTR>
+    <CODE KEY="px">22</CODE>
+    <CODE KEY="py">245</CODE>
+    <CODE KEY="cx">178</CODE>
+    <CODE KEY="cy">55</CODE>
+   </COMMENTSTR>
+   <PRICESTR>
+    <CODE KEY="px">314</CODE>
+    <CODE KEY="py">55</CODE>
+    <CODE KEY="cy">16</CODE>
+    <CODE KEY="fromright">108</CODE>
+   </PRICESTR>
+   <NUMSTR>
+    <CODE KEY="py">55</CODE>
+    <CODE KEY="cx">27</CODE>
+    <CODE KEY="cy">16</CODE>
+    <CODE KEY="fromright">67</CODE>
+   </NUMSTR>
+   <BUYPRICESTR>
+    <CODE KEY="px">110</CODE>
+    <CODE KEY="py">142</CODE>
+    <CODE KEY="cx">91</CODE>
+    <CODE KEY="cy">14</CODE>
+   </BUYPRICESTR>
+   <PAYCAPSTR>
+    <CODE KEY="px">145</CODE>
+    <CODE KEY="py">182</CODE>
+    <CODE KEY="cx">60</CODE>
+    <CODE KEY="cy">20</CODE>
+   </PAYCAPSTR>
+  </UI_STALL_SELL>
+  <UI_SHORTCUT>
+   <BASE>
+    <CODE KEY="px">230</CODE>
+    <CODE KEY="py">18</CODE>
+    <CODE KEY="cx">400</CODE>
+    <CODE KEY="cy">32</CODE>
+   </BASE>
+   <BASE2>
+    <CODE KEY="cx">400</CODE>
+    <CODE KEY="cy">28</CODE>
+   </BASE2>
+  </UI_SHORTCUT>
+  <UI_PET_REPAIR>
+   <BASE>
+    <CODE KEY="cx">280</CODE>
+    <CODE KEY="cy">325</CODE>
+    <CODE KEY="px">CENTER</CODE>
+    <CODE KEY="py">CENTER</CODE>
+   </BASE>
+  </UI_PET_REPAIR>
+  <UI_REPAIR>
+   <BASE>
+    <CODE KEY="cx">200</CODE>
+    <CODE KEY="cy">340</CODE>
+    <CODE KEY="px">CENTER</CODE>
+    <CODE KEY="py">CENTER</CODE>
+   </BASE>
+  </UI_REPAIR>
+  <UI_REINFORCE>
+   <BASE>
+    <CODE KEY="cx">400</CODE>
+    <CODE KEY="cy">320</CODE>
+    <CODE KEY="px">CENTER</CODE>
+    <CODE KEY="py">CENTER</CODE>
+   </BASE>
+  </UI_REINFORCE>
+  <UI_REINFORCE_LIST>
+   <BASE>
+    <CODE KEY="cx">320</CODE>
+    <CODE KEY="cy">295</CODE>
+    <CODE KEY="px">CENTER</CODE>
+    <CODE KEY="py">CENTER</CODE>
+   </BASE>
+   <OKBTN>
+    <CODE KEY="px">100</CODE>
+   </OKBTN>
+   <CANCELBTN>
+    <CODE KEY="px">200</CODE>
+   </CANCELBTN>
+  </UI_REINFORCE_LIST>
+  <UI_RECRUIT_COMMENT_SET>
+   <BASE>
+    <CODE KEY="cx">241</CODE>
+    <CODE KEY="cy">141</CODE>
+    <CODE KEY="px">5</CODE>
+    <CODE KEY="py">50</CODE>
+   </BASE>
+   <OKBTN>
+    <CODE KEY="px">55</CODE>
+    <CODE KEY="py">116</CODE>
+    <CODE KEY="cx">56</CODE>
+    <CODE KEY="cy">16</CODE>
+   </OKBTN>
+   <CANCELBTN>
+    <CODE KEY="px">140</CODE>
+    <CODE KEY="py">116</CODE>
+    <CODE KEY="cx">56</CODE>
+    <CODE KEY="cy">16</CODE>
+   </CANCELBTN>
+   <TYPEBTN>
+    <CODE KEY="px">123</CODE>
+    <CODE KEY="py">22</CODE>
+    <CODE KEY="cx">14</CODE>
+    <CODE KEY="cy">14</CODE>
+   </TYPEBTN>
+   <TITLEIMG>
+    <CODE KEY="px">9</CODE>
+    <CODE KEY="py">43</CODE>
+    <CODE KEY="cx">36</CODE>
+    <CODE KEY="cy">12</CODE>
+   </TITLEIMG>
+   <MAINIMG>
+    <CODE KEY="px">9</CODE>
+    <CODE KEY="py">63</CODE>
+    <CODE KEY="cx">24</CODE>
+    <CODE KEY="cy">12</CODE>
+   </MAINIMG>
+   <RECRUITSTC>
+    <CODE KEY="px">8</CODE>
+    <CODE KEY="py">24</CODE>
+    <CODE KEY="cx">45</CODE>
+    <CODE KEY="cy">10</CODE>
+   </RECRUITSTC>
+   <TYPESTC>
+    <CODE KEY="px">55</CODE>
+    <CODE KEY="py">21</CODE>
+    <CODE KEY="cx">65</CODE>
+    <CODE KEY="cy">16</CODE>
+   </TYPESTC>
+   <TITLEEDT>
+    <CODE KEY="px">42</CODE>
+    <CODE KEY="py">40</CODE>
+    <CODE KEY="cx">185</CODE>
+    <CODE KEY="cy">16</CODE>
+   </TITLEEDT>
+   <MAINEDT>
+    <CODE KEY="px">42</CODE>
+    <CODE KEY="py">63</CODE>
+    <CODE KEY="cx">185</CODE>
+    <CODE KEY="cy">42</CODE>
+   </MAINEDT>
+  </UI_RECRUIT_COMMENT_SET>
+  <UI_RECRUIT_COMMENT>
+   <BASE>
+    <CODE KEY="px">5</CODE>
+    <CODE KEY="py">50</CODE>
+    <CODE KEY="cx">715</CODE>
+    <CODE KEY="cy">403</CODE>
+   </BASE>
+   <DOWNBTN>
+    <CODE KEY="px">127</CODE>
+    <CODE KEY="py">26</CODE>
+    <CODE KEY="cx">14</CODE>
+    <CODE KEY="cy">14</CODE>
+   </DOWNBTN>
+   <LEFTBTN>
+    <CODE KEY="px">615</CODE>
+    <CODE KEY="py">24</CODE>
+    <CODE KEY="cx">16</CODE>
+    <CODE KEY="cy">16</CODE>
+   </LEFTBTN>
+   <RIGHTBTN>
+    <CODE KEY="px">688</CODE>
+    <CODE KEY="py">24</CODE>
+    <CODE KEY="cx">16</CODE>
+    <CODE KEY="cy">16</CODE>
+   </RIGHTBTN>
+   <UPDATEBTN>
+    <CODE KEY="px">550</CODE>
+    <CODE KEY="py">23</CODE>
+    <CODE KEY="cx">56</CODE>
+    <CODE KEY="cy">17</CODE>
+   </UPDATEBTN>
+   <PARTYBTN_BASE>
+    <CODE KEY="px">316</CODE>
+    <CODE KEY="py">71</CODE>
+    <CODE KEY="cx">18</CODE>
+    <CODE KEY="cy">18</CODE>
+    <CODE KEY="y_offset">22</CODE>
+   </PARTYBTN_BASE>
+   <WHISPERBTN_BASE>
+    <CODE KEY="px">334</CODE>
+    <CODE KEY="py">71</CODE>
+    <CODE KEY="cx">18</CODE>
+    <CODE KEY="cy">18</CODE>
+    <CODE KEY="y_offset">22</CODE>
+   </WHISPERBTN_BASE>
+   <SORTBTN_TITLE>
+    <CODE KEY="px">9</CODE>
+    <CODE KEY="py">48</CODE>
+    <CODE KEY="cx">186</CODE>
+    <CODE KEY="cy">18</CODE>
+   </SORTBTN_TITLE>
+   <SORTBTN_NAME>
+    <CODE KEY="px">196</CODE>
+    <CODE KEY="py">48</CODE>
+    <CODE KEY="cx">157</CODE>
+    <CODE KEY="cy">18</CODE>
+   </SORTBTN_NAME>
+   <SORTBTN_MAINTEXT>
+    <CODE KEY="px">354</CODE>
+    <CODE KEY="py">48</CODE>
+    <CODE KEY="cx">214</CODE>
+    <CODE KEY="cy">18</CODE>
+   </SORTBTN_MAINTEXT>
+   <SORTBTN_MAPNAME>
+    <CODE KEY="px">569</CODE>
+    <CODE KEY="py">48</CODE>
+    <CODE KEY="cx">136</CODE>
+    <CODE KEY="cy">18</CODE>
+   </SORTBTN_MAPNAME>
+   <TITLESTC_BASE>
+    <CODE KEY="px">8</CODE>
+    <CODE KEY="py">66</CODE>
+    <CODE KEY="cx">188</CODE>
+    <CODE KEY="cy">23</CODE>
+   </TITLESTC_BASE>
+   <NAMESTC_BASE>
+    <CODE KEY="px">195</CODE>
+    <CODE KEY="py">66</CODE>
+    <CODE KEY="cx">159</CODE>
+    <CODE KEY="cy">23</CODE>
+   </NAMESTC_BASE>
+   <MAINTEXTSTC_BASE>
+    <CODE KEY="px">353</CODE>
+    <CODE KEY="py">66</CODE>
+    <CODE KEY="cx">216</CODE>
+    <CODE KEY="cy">23</CODE>
+   </MAINTEXTSTC_BASE>
+   <MAPNAMESTC_BASE>
+    <CODE KEY="px">568</CODE>
+    <CODE KEY="py">66</CODE>
+    <CODE KEY="cx">138</CODE>
+    <CODE KEY="cy">23</CODE>
+   </MAPNAMESTC_BASE>
+   <RECRUITSTC>
+    <CODE KEY="px">10</CODE>
+    <CODE KEY="py">28</CODE>
+    <CODE KEY="cx">45</CODE>
+    <CODE KEY="cy">10</CODE>
+   </RECRUITSTC>
+   <TYPESTC>
+    <CODE KEY="px">60</CODE>
+    <CODE KEY="py">24</CODE>
+    <CODE KEY="cx">65</CODE>
+    <CODE KEY="cy">16</CODE>
+   </TYPESTC>
+   <PAGESTC>
+    <CODE KEY="px">634</CODE>
+    <CODE KEY="py">24</CODE>
+    <CODE KEY="cx">50</CODE>
+    <CODE KEY="cy">16</CODE>
+   </PAGESTC>
+  </UI_RECRUIT_COMMENT>
+  <UI_RECIPE>
+   <BASE>
+    <CODE KEY="cx">230</CODE>
+    <CODE KEY="cy">420</CODE>
+   </BASE>
+   <ORIGINITEMICON>
+    <CODE KEY="px">9</CODE>
+    <CODE KEY="py">29</CODE>
+    <CODE KEY="cx">36</CODE>
+    <CODE KEY="cy">36</CODE>
+   </ORIGINITEMICON>
+   <USEITEMICON>
+    <CODE KEY="px">9</CODE>
+    <CODE KEY="py">116</CODE>
+    <CODE KEY="cx">36</CODE>
+    <CODE KEY="cy">36</CODE>
+   </USEITEMICON>
+   <MAT1ICON>
+    <CODE KEY="px">9</CODE>
+    <CODE KEY="py">235</CODE>
+    <CODE KEY="cx">36</CODE>
+    <CODE KEY="cy">36</CODE>
+   </MAT1ICON>
+   <MAT2ICON>
+    <CODE KEY="px">9</CODE>
+    <CODE KEY="py">281</CODE>
+    <CODE KEY="cx">36</CODE>
+    <CODE KEY="cy">36</CODE>
+   </MAT2ICON>
+   <MAT3ICON>
+    <CODE KEY="px">9</CODE>
+    <CODE KEY="py">327</CODE>
+    <CODE KEY="cx">36</CODE>
+    <CODE KEY="cy">36</CODE>
+   </MAT3ICON>
+   <MAT4ICON>
+    <CODE KEY="px">9</CODE>
+    <CODE KEY="py">373</CODE>
+    <CODE KEY="cx">36</CODE>
+    <CODE KEY="cy">36</CODE>
+   </MAT4ICON>
+   <SKILLICON>
+    <CODE KEY="px">9</CODE>
+    <CODE KEY="py">185</CODE>
+    <CODE KEY="cx">36</CODE>
+    <CODE KEY="cy">36</CODE>
+   </SKILLICON>
+   <USEITEMSTR>
+    <CODE KEY="px">9</CODE>
+    <CODE KEY="py">95</CODE>
+    <CODE KEY="cx">91</CODE>
+    <CODE KEY="cy">16</CODE>
+   </USEITEMSTR>
+   <USESKILLSTR>
+    <CODE KEY="px">9</CODE>
+    <CODE KEY="py">160</CODE>
+    <CODE KEY="cx">91</CODE>
+    <CODE KEY="cy">16</CODE>
+   </USESKILLSTR>
+   <LEARN>
+    <CODE KEY="px">9</CODE>
+    <CODE KEY="py">75</CODE>
+    <CODE KEY="cx">91</CODE>
+    <CODE KEY="cy">16</CODE>
+   </LEARN>
+   <CHGBTN>
+    <CODE KEY="px">165</CODE>
+    <CODE KEY="py">75</CODE>
+    <CODE KEY="cx">56</CODE>
+    <CODE KEY="cy">16</CODE>
+   </CHGBTN>
+   <HLINE1>
+    <CODE KEY="py">95</CODE>
+   </HLINE1>
+   <HLINE2>
+    <CODE KEY="py">160</CODE>
+   </HLINE2>
+   <HLINE3>
+    <CODE KEY="py">225</CODE>
+   </HLINE3>
+  </UI_RECIPE>
+  <UI_RECIPE_LIST>
+   <BASE>
+    <CODE KEY="cx">240</CODE>
+    <CODE KEY="cy">420</CODE>
+   </BASE>
+   <NUM>
+    <CODE KEY="px">150</CODE>
+    <CODE KEY="py">29</CODE>
+    <CODE KEY="cx">76</CODE>
+    <CODE KEY="cy">16</CODE>
+   </NUM>
+   <LIST>
+    <CODE KEY="px">4</CODE>
+    <CODE KEY="py">55</CODE>
+    <CODE KEY="cx">212</CODE>
+    <CODE KEY="cy">361</CODE>
+   </LIST>
+   <SCBAR>
+    <CODE KEY="px">220</CODE>
+    <CODE KEY="py">55</CODE>
+    <CODE KEY="cx">16</CODE>
+    <CODE KEY="cy">361</CODE>
+   </SCBAR>
+   <STARNUM>
+    <CODE KEY="px">15</CODE>
+    <CODE KEY="py">30</CODE>
+    <CODE KEY="cx">115</CODE>
+    <CODE KEY="cy">16</CODE>
+   </STARNUM>
+  </UI_RECIPE_LIST>
+  <UI_QUEST>
+   <BASE>
+    <CODE KEY="px">400</CODE>
+    <CODE KEY="py">250</CODE>
+    <CODE KEY="cx">335</CODE>
+    <CODE KEY="cy">252</CODE>
+   </BASE>
+   <TITLE>
+    <CODE KEY="px">6</CODE>
+    <CODE KEY="py">27</CODE>
+    <CODE KEY="cy">18</CODE>
+    <CODE KEY="fromright">6</CODE>
+   </TITLE>
+   <CLIENT>
+    <CODE KEY="px">69</CODE>
+    <CODE KEY="py">44</CODE>
+    <CODE KEY="cy">18</CODE>
+    <CODE KEY="fromright">6</CODE>
+   </CLIENT>
+   <TIME>
+    <CODE KEY="px">69</CODE>
+    <CODE KEY="py">61</CODE>
+    <CODE KEY="cy">18</CODE>
+    <CODE KEY="fromright">6</CODE>
+   </TIME>
+   <QUESTCNT>
+    <CODE KEY="px">100</CODE>
+    <CODE KEY="cx">100</CODE>
+    <CODE KEY="cy">18</CODE>
+    <CODE KEY="frombottom">25</CODE>
+   </QUESTCNT>
+   <ADJUST>
+    <CODE KEY="cx">94</CODE>
+    <CODE KEY="cy">18</CODE>
+    <CODE KEY="fromright">100</CODE>
+    <CODE KEY="frombottom">25</CODE>
+   </ADJUST>
+   <CLIENTPIC>
+    <CODE KEY="px">8</CODE>
+    <CODE KEY="py">48</CODE>
+    <CODE KEY="cx">96</CODE>
+    <CODE KEY="cy">12</CODE>
+   </CLIENTPIC>
+   <TIMEPIC>
+    <CODE KEY="px">8</CODE>
+    <CODE KEY="py">66</CODE>
+    <CODE KEY="cx">96</CODE>
+    <CODE KEY="cy">12</CODE>
+   </TIMEPIC>
+   <STATEPIC>
+    <CODE KEY="px">140</CODE>
+    <CODE KEY="py">84</CODE>
+    <CODE KEY="cx">96</CODE>
+    <CODE KEY="cy">12</CODE>
+   </STATEPIC>
+   <CONTENTPIC>
+    <CODE KEY="px">8</CODE>
+    <CODE KEY="py">84</CODE>
+    <CODE KEY="cx">96</CODE>
+    <CODE KEY="cy">12</CODE>
+   </CONTENTPIC>
+   <QUESTCNTPIC>
+    <CODE KEY="px">8</CODE>
+    <CODE KEY="cx">96</CODE>
+    <CODE KEY="cy">12</CODE>
+    <CODE KEY="frombottom">20</CODE>
+   </QUESTCNTPIC>
+   <ADJUSTPIC>
+    <CODE KEY="cx">96</CODE>
+    <CODE KEY="cy">12</CODE>
+    <CODE KEY="fromright">135</CODE>
+    <CODE KEY="frombottom">20</CODE>
+   </ADJUSTPIC>
+   <CONTENTFRAME>
+    <CODE KEY="px">8</CODE>
+    <CODE KEY="py">98</CODE>
+    <CODE KEY="fromright">8</CODE>
+    <CODE KEY="frombottom">25</CODE>
+   </CONTENTFRAME>
+   <CONTENTSTR>
+    <CODE KEY="px">10</CODE>
+    <CODE KEY="py">100</CODE>
+   </CONTENTSTR>
+   <WMAPBTN>
+    <CODE KEY="px">235</CODE>
+    <CODE KEY="py">49</CODE>
+    <CODE KEY="cx">94</CODE>
+    <CODE KEY="cy">18</CODE>
+   </WMAPBTN>
+  </UI_QUEST>
+  <UI_QUEST_LIST>
+   <BASE>
+    <CODE KEY="cx">285</CODE>
+    <CODE KEY="cy">266</CODE>
+    <CODE KEY="px">CENTER</CODE>
+    <CODE KEY="py">CENTER</CODE>
+   </BASE>
+   <KIND>
+    <CODE KEY="px">80</CODE>
+    <CODE KEY="py">10</CODE>
+    <CODE KEY="cx">100</CODE>
+    <CODE KEY="cy">20</CODE>
+   </KIND>
+   <LIMIT>
+    <CODE KEY="px">80</CODE>
+    <CODE KEY="py">30</CODE>
+    <CODE KEY="cx">100</CODE>
+    <CODE KEY="cy">20</CODE>
+   </LIMIT>
+   <LIST>
+    <CODE KEY="px">10</CODE>
+    <CODE KEY="py">74</CODE>
+    <CODE KEY="cx">250</CODE>
+    <CODE KEY="cy">147</CODE>
+   </LIST>
+   <DETAILBTN>
+    <CODE KEY="px">172</CODE>
+    <CODE KEY="py">10</CODE>
+    <CODE KEY="cx">103</CODE>
+    <CODE KEY="cy">18</CODE>
+   </DETAILBTN>
+   <OKBTN>
+    <CODE KEY="px">140</CODE>
+    <CODE KEY="py">229</CODE>
+    <CODE KEY="cx">56</CODE>
+    <CODE KEY="cy">16</CODE>
+   </OKBTN>
+   <CANCELBTN>
+    <CODE KEY="px">200</CODE>
+    <CODE KEY="py">229</CODE>
+    <CODE KEY="cx">56</CODE>
+    <CODE KEY="cy">16</CODE>
+   </CANCELBTN>
+   <SCBAR>
+    <CODE KEY="px">264</CODE>
+    <CODE KEY="py">74</CODE>
+    <CODE KEY="cx">16</CODE>
+    <CODE KEY="cy">147</CODE>
+   </SCBAR>
+   <SUBJUGATEBTN>
+    <CODE KEY="px">10</CODE>
+    <CODE KEY="py">53</CODE>
+    <CODE KEY="cx">40</CODE>
+    <CODE KEY="cy">17</CODE>
+   </SUBJUGATEBTN>
+   <GATHERBTN>
+    <CODE KEY="px">53</CODE>
+    <CODE KEY="py">53</CODE>
+    <CODE KEY="cx">40</CODE>
+    <CODE KEY="cy">17</CODE>
+   </GATHERBTN>
+   <TRANSPORTBTN>
+    <CODE KEY="px">96</CODE>
+    <CODE KEY="py">53</CODE>
+    <CODE KEY="cx">40</CODE>
+    <CODE KEY="cy">17</CODE>
+   </TRANSPORTBTN>
+  </UI_QUEST_LIST>
+  <UI_MAIL>
+   <BASE>
+    <CODE KEY="cx">602</CODE>
+    <CODE KEY="cy">252</CODE>
+    <CODE KEY="px">100</CODE>
+    <CODE KEY="py">154</CODE>
+   </BASE>
+  </UI_MAIL>
+  <UI_MAIL_SEND>
+   <BASE>
+    <CODE KEY="cx">428</CODE>
+    <CODE KEY="cy">246</CODE>
+    <CODE KEY="px">100</CODE>
+    <CODE KEY="py">154</CODE>
+   </BASE>
+  </UI_MAIL_SEND>
+  <UI_MAIL_READ>
+   <BASE>
+    <CODE KEY="cx">428</CODE>
+    <CODE KEY="cy">250</CODE>
+    <CODE KEY="px">100</CODE>
+    <CODE KEY="py">154</CODE>
+   </BASE>
+  </UI_MAIL_READ>
+  <UI_JOBSWITCH>
+   <BASE>
+    <CODE KEY="cx">300</CODE>
+    <CODE KEY="cy">420</CODE>
+    <CODE KEY="px">80</CODE>
+    <CODE KEY="py">80</CODE>
+   </BASE>
+  </UI_JOBSWITCH>
+  <UI_ITEMINFO>
+   <BASE>
+    <CODE KEY="cx">300</CODE>
+    <CODE KEY="cy">300</CODE>
+    <CODE KEY="px">AUTO</CODE>
+    <CODE KEY="py">AUTO</CODE>
+   </BASE>
+   <PARAM>
+    <CODE KEY="cy_min">200</CODE>
+    <CODE KEY="cy_max">400</CODE>
+    <CODE KEY="param_0">100</CODE>
+    <CODE KEY="param_1">160</CODE>
+    <CODE KEY="detail_px">16</CODE>
+    <CODE KEY="detail_r_fromright">25</CODE>
+   </PARAM>
+  </UI_ITEMINFO>
+  <UI_GOLEM_WAREHOUSE>
+   <BASE>
+    <CODE KEY="cx">418</CODE>
+    <CODE KEY="cy">290</CODE>
+    <CODE KEY="px">342</CODE>
+    <CODE KEY="py">64</CODE>
+   </BASE> 
+  </UI_GOLEM_WAREHOUSE>
+  <UI_GOLEM_SELL_SET>
+   <BASE>
+    <CODE KEY="px">120</CODE>
+    <CODE KEY="py">100</CODE>
+    <CODE KEY="cx">506</CODE>
+    <CODE KEY="cy">301</CODE>
+    <CODE KEY="cx_min">506</CODE>
+    <CODE KEY="cx_max">600</CODE>
+    <CODE KEY="cy_min">301</CODE>
+    <CODE KEY="cy_max">500</CODE>
+    <CODE KEY="vline_x">209</CODE>
+   </BASE>
+   <TABCTRL>
+    <CODE KEY="px">1</CODE>
+    <CODE KEY="py">22</CODE>
+    <CODE KEY="cy">26</CODE>
+   </TABCTRL>
+   <CATEGORYBTN>
+    <CODE KEY="px">86</CODE>
+    <CODE KEY="py">126</CODE>
+    <CODE KEY="cx">14</CODE>
+    <CODE KEY="cy">12</CODE>
+   </CATEGORYBTN>
+   <CHKBOX>
+    <CODE KEY="px">186</CODE>
+    <CODE KEY="py">126</CODE>
+    <CODE KEY="cx">10</CODE>
+    <CODE KEY="cy">10</CODE>
+   </CHKBOX>
+   <HILOWPRICEEDIT>
+    <CODE KEY="px">98</CODE>
+    <CODE KEY="py">180</CODE>
+    <CODE KEY="cx">98</CODE>
+    <CODE KEY="cy">16</CODE>
+   </HILOWPRICEEDIT>
+   <COMMENTEDIT>
+    <CODE KEY="px">10</CODE>
+    <CODE KEY="py">225</CODE>
+    <CODE KEY="cx">187</CODE>
+    <CODE KEY="cy">45</CODE>
+   </COMMENTEDIT>
+   <ITEMNAME>
+    <CODE KEY="px">48</CODE>
+    <CODE KEY="py">24</CODE>
+    <CODE KEY="cy">18</CODE>
+    <CODE KEY="fromright">24</CODE>
+   </ITEMNAME>
+   <PRICEEDIT>
+    <CODE KEY="px">291</CODE>
+    <CODE KEY="py">44</CODE>
+    <CODE KEY="cx">112</CODE>
+    <CODE KEY="cy">16</CODE>
+   </PRICEEDIT>
+   <OKBTN>
+    <CODE KEY="px">41</CODE>
+    <CODE KEY="py">276</CODE>
+    <CODE KEY="frombottom">25</CODE>
+   </OKBTN>
+   <CANCELBTN>
+    <CODE KEY="px">124</CODE>
+    <CODE KEY="py">276</CODE>
+    <CODE KEY="frombottom">25</CODE>
+   </CANCELBTN>
+   <ITEMSTATIC>
+    <CODE KEY="px">13</CODE>
+    <CODE KEY="py">126</CODE>
+    <CODE KEY="cx">20</CODE>
+    <CODE KEY="cy">10</CODE>
+   </ITEMSTATIC>
+   <CATEGORYSTATIC>
+    <CODE KEY="px">43</CODE>
+    <CODE KEY="py">126</CODE>
+    <CODE KEY="cx">40</CODE>
+    <CODE KEY="cy">10</CODE>
+   </CATEGORYSTATIC>
+   <REGCATALOGSTATIC>
+    <CODE KEY="px">120</CODE>
+    <CODE KEY="py">126</CODE>
+    <CODE KEY="cx">54</CODE>
+    <CODE KEY="cy">10</CODE>
+   </REGCATALOGSTATIC>
+   <L_ICONS>
+    <CODE KEY="px">9</CODE>
+    <CODE KEY="py">48</CODE>
+   </L_ICONS>
+   <R_ICONS>
+    <CODE KEY="px">214</CODE>
+    <CODE KEY="py">24</CODE>
+   </R_ICONS>
+   <L_SC>
+    <CODE KEY="px">191</CODE>
+    <CODE KEY="py">50</CODE>
+    <CODE KEY="cy">73</CODE>
+   </L_SC>
+   <R_SC>
+    <CODE KEY="py">24</CODE>
+    <CODE KEY="cy">266</CODE>
+    <CODE KEY="fromright">20</CODE>
+    <CODE KEY="frombottom">11</CODE>
+   </R_SC>
+   <PRICEPIC>
+    <CODE KEY="px">264</CODE>
+    <CODE KEY="py">46</CODE>
+   </PRICEPIC>
+   <NUMPIC>
+    <CODE KEY="py">46</CODE>
+    <CODE KEY="fromright">98</CODE>
+   </NUMPIC>
+   <NUMFRAME>
+    <CODE KEY="py">44</CODE>
+    <CODE KEY="cx">28</CODE>
+    <CODE KEY="cy">16</CODE>
+    <CODE KEY="fromright">71</CODE>
+   </NUMFRAME>
+   <PRICEFRAME>
+    <CODE KEY="px">294</CODE>
+    <CODE KEY="py">44</CODE>
+    <CODE KEY="cy">16</CODE>
+    <CODE KEY="fromright">107</CODE>
+   </PRICEFRAME>
+   <L_TEXTFRAMES>
+    <CODE KEY="px">98</CODE>
+    <CODE KEY="py">140</CODE>
+    <CODE KEY="cx">98</CODE>
+    <CODE KEY="cy">16</CODE>
+   </L_TEXTFRAMES>
+   <COMMENTFRAME>
+    <CODE KEY="px">10</CODE>
+    <CODE KEY="py">225</CODE>
+    <CODE KEY="cx">187</CODE>
+    <CODE KEY="cy">43</CODE>
+   </COMMENTFRAME>
+   <CATEGORYFRAME>
+    <CODE KEY="px">43</CODE>
+    <CODE KEY="py">124</CODE>
+    <CODE KEY="cx">40</CODE>
+    <CODE KEY="cy">16</CODE>
+   </CATEGORYFRAME>
+   <L_STRSBASE>
+    <CODE KEY="px">11</CODE>
+    <CODE KEY="py">142</CODE>
+    <CODE KEY="cx">179</CODE>
+    <CODE KEY="cy">16</CODE>
+   </L_STRSBASE>
+   <NUMSTR>
+    <CODE KEY="py">47</CODE>
+    <CODE KEY="cx">28</CODE>
+    <CODE KEY="cy">12</CODE>
+    <CODE KEY="fromright">68</CODE>
+   </NUMSTR>
+  </UI_GOLEM_SELL_SET>
+  <UI_GOLEM_SELL>
+   <BASE>
+    <CODE KEY="px">120</CODE>
+    <CODE KEY="py">100</CODE>
+    <CODE KEY="cx">516</CODE>
+    <CODE KEY="cy">312</CODE>
+    <CODE KEY="cx_min">516</CODE>
+    <CODE KEY="cx_max">600</CODE>
+    <CODE KEY="cy_min">312</CODE>
+    <CODE KEY="cy_max">500</CODE>
+    <CODE KEY="vline_x">215</CODE>
+    <CODE KEY="listofs_y">69</CODE>
+    <CODE KEY="listofs_y2">46</CODE>
+   </BASE>
+   <TABCTRL>
+    <CODE KEY="px">1</CODE>
+    <CODE KEY="py">24</CODE>
+   </TABCTRL>
+   <OKBTN>
+    <CODE KEY="px">33</CODE>
+    <CODE KEY="frombottom">22</CODE>
+   </OKBTN>
+   <CANCELBTN>
+    <CODE KEY="px">117</CODE>
+    <CODE KEY="frombottom">22</CODE>
+   </CANCELBTN>
+   <L_ICONS>
+    <CODE KEY="px">9</CODE>
+    <CODE KEY="py">51</CODE>
+   </L_ICONS>
+   <R_ICONS>
+    <CODE KEY="px">224</CODE>
+    <CODE KEY="py">28</CODE>
+   </R_ICONS>
+   <L_SC>
+    <CODE KEY="px">192</CODE>
+    <CODE KEY="py">51</CODE>
+    <CODE KEY="cy">70</CODE>
+   </L_SC>
+   <R_SC>
+    <CODE KEY="py">24</CODE>
+    <CODE KEY="fromright">20</CODE>
+    <CODE KEY="frombottom">11</CODE>
+   </R_SC>
+   <ITEMNAME>
+    <CODE KEY="px">51</CODE>
+    <CODE KEY="py">28</CODE>
+    <CODE KEY="cy">18</CODE>
+    <CODE KEY="fromright">26</CODE>
+   </ITEMNAME>
+   <HLINE>
+    <CODE KEY="py">131</CODE>
+   </HLINE>
+   <PRICEPIC>
+    <CODE KEY="px">277</CODE>
+    <CODE KEY="py">51</CODE>
+   </PRICEPIC>
+   <NUMPIC>
+    <CODE KEY="py">51</CODE>
+    <CODE KEY="fromright">99</CODE>
+   </NUMPIC>
+   <L_PICTEXTS>
+    <CODE KEY="px">9</CODE>
+    <CODE KEY="py">142</CODE>
+   </L_PICTEXTS>
+   <NUMFRAME>
+    <CODE KEY="py">51</CODE>
+    <CODE KEY="cx">27</CODE>
+    <CODE KEY="cy">16</CODE>
+    <CODE KEY="fromright">71</CODE>
+   </NUMFRAME>
+   <PRICEFRAME>
+    <CODE KEY="px">304</CODE>
+    <CODE KEY="py">51</CODE>
+    <CODE KEY="cy">16</CODE>
+    <CODE KEY="fromright">107</CODE>
+   </PRICEFRAME>
+   <CANEQUIPIMG>
+    <CODE KEY="px">55</CODE>
+    <CODE KEY="py">72</CODE>
+    <CODE KEY="cx">66</CODE>
+    <CODE KEY="cy">14</CODE>
+   </CANEQUIPIMG>
+   <TRYBTN>
+    <CODE KEY="px">127</CODE>
+    <CODE KEY="py">72</CODE>
+    <CODE KEY="cx">63</CODE>
+    <CODE KEY="cy">18</CODE>
+   </TRYBTN>
+   <L_TEXTFRAMES>
+    <CODE KEY="px">108</CODE>
+    <CODE KEY="py">140</CODE>
+    <CODE KEY="cy">16</CODE>
+    <CODE KEY="fromcenterx">10</CODE>
+   </L_TEXTFRAMES>
+   <COMMENTFRAME>
+    <CODE KEY="px">18</CODE>
+    <CODE KEY="py">242</CODE>
+    <CODE KEY="cx">186</CODE>
+    <CODE KEY="cy">43</CODE>
+   </COMMENTFRAME>
+   <COMMENT>
+    <CODE KEY="px">22</CODE>
+    <CODE KEY="py">245</CODE>
+    <CODE KEY="cx">178</CODE>
+    <CODE KEY="cy">55</CODE>
+   </COMMENT>
+   <PRICESTR>
+    <CODE KEY="px">414</CODE>
+    <CODE KEY="py">55</CODE>
+    <CODE KEY="cy">16</CODE>
+    <CODE KEY="fromright">107</CODE>
+   </PRICESTR>
+   <NUMSTR>
+    <CODE KEY="py">54</CODE>
+    <CODE KEY="cx">27</CODE>
+    <CODE KEY="cy">16</CODE>
+    <CODE KEY="fromright">69</CODE>
+   </NUMSTR>
+   <BUYPRICESTR>
+    <CODE KEY="px">110</CODE>
+    <CODE KEY="py">142</CODE>
+    <CODE KEY="cx">91</CODE>
+    <CODE KEY="cy">14</CODE>
+   </BUYPRICESTR>
+   <PAYCAPSTR>
+    <CODE KEY="px">144</CODE>
+    <CODE KEY="py">182</CODE>
+    <CODE KEY="cx">60</CODE>
+    <CODE KEY="cy">20</CODE>
+   </PAYCAPSTR>
+  </UI_GOLEM_SELL>
+  <UI_GOLEM_BUY_SET>
+   <BASE>
+    <CODE KEY="px">150</CODE>
+    <CODE KEY="py">64</CODE>
+    <CODE KEY="cx">506</CODE>
+    <CODE KEY="cy">301</CODE>
+    <CODE KEY="cx_min">506</CODE>
+    <CODE KEY="cx_max">600</CODE>
+    <CODE KEY="cy_min">301</CODE>
+    <CODE KEY="cy_max">500</CODE>
+    <CODE KEY="center_x">209</CODE>
+   </BASE>
+   <TABCTRL>
+    <CODE KEY="px">1</CODE>
+    <CODE KEY="py">24</CODE>
+    <CODE KEY="cy">48</CODE>
+   </TABCTRL>
+   <CATEGORYBTN>
+    <CODE KEY="px">86</CODE>
+    <CODE KEY="py">128</CODE>
+    <CODE KEY="cx">14</CODE>
+    <CODE KEY="cy">12</CODE>
+   </CATEGORYBTN>
+   <CHKBOX>
+    <CODE KEY="px">186</CODE>
+    <CODE KEY="py">128</CODE>
+    <CODE KEY="cx">10</CODE>
+    <CODE KEY="cy">10</CODE>
+   </CHKBOX>
+   <BUYLIMITEDIT>
+    <CODE KEY="px">98</CODE>
+    <CODE KEY="py">205</CODE>
+    <CODE KEY="cx">100</CODE>
+    <CODE KEY="cy">12</CODE>
+   </BUYLIMITEDIT>
+   <COMMENTEDIT>
+    <CODE KEY="px">11</CODE>
+    <CODE KEY="py">228</CODE>
+    <CODE KEY="cx">185</CODE>
+    <CODE KEY="cy">43</CODE>
+   </COMMENTEDIT>
+   <PRICEEDIT>
+    <CODE KEY="px">304</CODE>
+    <CODE KEY="py">44</CODE>
+    <CODE KEY="cx">96</CODE>
+    <CODE KEY="cy">16</CODE>
+   </PRICEEDIT>
+   <NUMEDIT>
+    <CODE KEY="py">44</CODE>
+    <CODE KEY="cx">32</CODE>
+    <CODE KEY="cy">16</CODE>
+    <CODE KEY="fromright">71</CODE>
+   </NUMEDIT>
+   <OKBTN>
+    <CODE KEY="px">41</CODE>
+    <CODE KEY="py">276</CODE>
+    <CODE KEY="frombottom">25</CODE>
+   </OKBTN>
+   <CANCELBTN>
+    <CODE KEY="px">124</CODE>
+    <CODE KEY="py">276</CODE>
+    <CODE KEY="frombottom">25</CODE>
+   </CANCELBTN>
+   <R_ICONS>
+    <CODE KEY="px">9</CODE>
+    <CODE KEY="py">24</CODE>
+   </R_ICONS>
+   <UPBTN>
+    <CODE KEY="py">44</CODE>
+    <CODE KEY="cx">14</CODE>
+    <CODE KEY="cy">8</CODE>
+    <CODE KEY="fromright">41</CODE>
+   </UPBTN>
+   <DOWNBTN>
+    <CODE KEY="py">53</CODE>
+    <CODE KEY="cx">14</CODE>
+    <CODE KEY="cy">8</CODE>
+    <CODE KEY="fromright">41</CODE>
+   </DOWNBTN>
+   <ITEMNAME>
+    <CODE KEY="px">52</CODE>
+    <CODE KEY="py">24</CODE>
+    <CODE KEY="cx">224</CODE>
+    <CODE KEY="cy">18</CODE>
+   </ITEMNAME>
+   <ITEMSTATIC>
+    <CODE KEY="px">13</CODE>
+    <CODE KEY="py">129</CODE>
+    <CODE KEY="cx">20</CODE>
+    <CODE KEY="cy">10</CODE>
+   </ITEMSTATIC>
+   <CATEGORYSTATIC>
+    <CODE KEY="px">43</CODE>
+    <CODE KEY="py">129</CODE>
+    <CODE KEY="cx">40</CODE>
+    <CODE KEY="cy">10</CODE>
+   </CATEGORYSTATIC>
+   <REGCATALOGSTATIC>
+    <CODE KEY="px">120</CODE>
+    <CODE KEY="py">129</CODE>
+    <CODE KEY="cx">54</CODE>
+    <CODE KEY="cy">10</CODE>
+   </REGCATALOGSTATIC>
+   <L_ICONS>
+    <CODE KEY="px">9</CODE>
+    <CODE KEY="py">51</CODE>
+   </L_ICONS>
+   <R_SC>
+    <CODE KEY="py">24</CODE>
+    <CODE KEY="cy">266</CODE>
+    <CODE KEY="fromright">20</CODE>
+    <CODE KEY="frombottom">11</CODE>
+   </R_SC>
+   <L_SC>
+    <CODE KEY="px">191</CODE>
+    <CODE KEY="py">50</CODE>
+    <CODE KEY="cy">73</CODE>
+   </L_SC>
+   <PRICEPIC>
+    <CODE KEY="px">56</CODE>
+    <CODE KEY="py">46</CODE>
+   </PRICEPIC>
+   <NUMPIC>
+    <CODE KEY="py">46</CODE>
+    <CODE KEY="fromright">98</CODE>
+   </NUMPIC>
+   <PRICEFRAME>
+    <CODE KEY="px">292</CODE>
+    <CODE KEY="py">44</CODE>
+    <CODE KEY="cy">16</CODE>
+    <CODE KEY="fromright">107</CODE>
+   </PRICEFRAME>
+   <NUMFRAME>
+    <CODE KEY="py">44</CODE>
+    <CODE KEY="cx">30</CODE>
+    <CODE KEY="cy">16</CODE>
+    <CODE KEY="fromright">72</CODE>
+   </NUMFRAME>
+   <L_TEXTSFRAME>
+    <CODE KEY="px">98</CODE>
+    <CODE KEY="py">145</CODE>
+    <CODE KEY="cx">98</CODE>
+    <CODE KEY="cy">16</CODE>
+   </L_TEXTSFRAME>
+   <CATEGORYFRAME>
+    <CODE KEY="px">43</CODE>
+    <CODE KEY="py">127</CODE>
+    <CODE KEY="cx">40</CODE>
+    <CODE KEY="cy">16</CODE>
+   </CATEGORYFRAME>
+   <COMMENTFRAME>
+    <CODE KEY="px">10</CODE>
+    <CODE KEY="py">228</CODE>
+    <CODE KEY="cx">187</CODE>
+    <CODE KEY="cy">43</CODE>
+   </COMMENTFRAME>
+   <NUMSTR>
+    <CODE KEY="py">47</CODE>
+    <CODE KEY="cx">31</CODE>
+    <CODE KEY="cy">12</CODE>
+    <CODE KEY="fromright">67</CODE>
+   </NUMSTR>
+   <L_STRS>
+    <CODE KEY="px">150</CODE>
+    <CODE KEY="py">148</CODE>
+    <CODE KEY="cx">130</CODE>
+    <CODE KEY="cy">12</CODE>
+   </L_STRS>
+   <L_PICTEXTS>
+    <CODE KEY="px">9</CODE>
+    <CODE KEY="py">147</CODE>
+    <CODE KEY="cx">219</CODE>
+    <CODE KEY="cy">16</CODE>
+   </L_PICTEXTS>
+  </UI_GOLEM_BUY_SET>
+  <UI_GOLEM_BUY>
+   <BASE>
+    <CODE KEY="px">100</CODE>
+    <CODE KEY="py">60</CODE>
+    <CODE KEY="cx">513</CODE>
+    <CODE KEY="cy">301</CODE>
+    <CODE KEY="cx_min">513</CODE>
+    <CODE KEY="cx_max">600</CODE>
+    <CODE KEY="cy_min">301</CODE>
+    <CODE KEY="cy_max">500</CODE>
+    <CODE KEY="vline_x">215</CODE>
+   </BASE>
+   <SELLBTN>
+    <CODE KEY="px">30</CODE>
+    <CODE KEY="frombottom">25</CODE>
+   </SELLBTN>
+   <CANCELBTN>
+    <CODE KEY="px">120</CODE>
+    <CODE KEY="frombottom">25</CODE>
+   </CANCELBTN>
+   <L_SC1>
+    <CODE KEY="px">195</CODE>
+    <CODE KEY="py">50</CODE>
+    <CODE KEY="cy">73</CODE>
+   </L_SC1>
+   <L_SC2>
+    <CODE KEY="px">195</CODE>
+    <CODE KEY="py">140</CODE>
+    <CODE KEY="cy">73</CODE>
+   </L_SC2>
+   <R_SC>
+    <CODE KEY="py">24</CODE>
+    <CODE KEY="cy">266</CODE>
+    <CODE KEY="fromright">20</CODE>
+    <CODE KEY="frombottom">11</CODE>
+   </R_SC>
+   <TABCTRL>
+    <CODE KEY="px">0</CODE>
+    <CODE KEY="py">24</CODE>
+    <CODE KEY="cx">215</CODE>
+    <CODE KEY="cy">24</CODE>
+   </TABCTRL>
+   <L_ICONS1>
+    <CODE KEY="px">13</CODE>
+    <CODE KEY="py">51</CODE>
+   </L_ICONS1>
+   <L_ICONS2>
+   </L_ICONS2>
+   <R_ICONS>
+    <CODE KEY="px">224</CODE>
+    <CODE KEY="py">24</CODE>
+   </R_ICONS>
+   <ITEMNAME>
+    <CODE KEY="px">49</CODE>
+    <CODE KEY="py">23</CODE>
+    <CODE KEY="cx">224</CODE>
+    <CODE KEY="cy">18</CODE>
+   </ITEMNAME>
+   <HLINE>
+    <CODE KEY="py">131</CODE>
+   </HLINE>
+   <PRICEPIC>
+    <CODE KEY="px">62</CODE>
+   </PRICEPIC>
+   <NUMPIC>
+    <CODE KEY="fromright">86</CODE>
+   </NUMPIC>
+   <NUMFRAME>
+    <CODE KEY="py">44</CODE>
+    <CODE KEY="cx">31</CODE>
+    <CODE KEY="cy">16</CODE>
+    <CODE KEY="fromright">56</CODE>
+   </NUMFRAME>
+   <ITEMNAMEFRAME>
+    <CODE KEY="px">49</CODE>
+    <CODE KEY="py">24</CODE>
+    <CODE KEY="cy">16</CODE>
+    <CODE KEY="fromright">25</CODE>
+   </ITEMNAMEFRAME>
+   <PRICEFRAME>
+    <CODE KEY="px">304</CODE>
+    <CODE KEY="py">44</CODE>
+    <CODE KEY="cy">16</CODE>
+    <CODE KEY="fromright">104</CODE>
+   </PRICEFRAME>
+   <MONEYFRAME>
+    <CODE KEY="px">110</CODE>
+    <CODE KEY="py">220</CODE>
+    <CODE KEY="cx">98</CODE>
+    <CODE KEY="cy">16</CODE>
+   </MONEYFRAME>
+   <PRICESTR>
+    <CODE KEY="px">314</CODE>
+    <CODE KEY="py">47</CODE>
+    <CODE KEY="cy">12</CODE>
+    <CODE KEY="fromright">106</CODE>
+   </PRICESTR>
+   <NUMSTR>
+    <CODE KEY="py">47</CODE>
+    <CODE KEY="cx">30</CODE>
+    <CODE KEY="cy">12</CODE>
+    <CODE KEY="fromright">51</CODE>
+   </NUMSTR>
+   <MONEYSTR>
+    <CODE KEY="px">100</CODE>
+    <CODE KEY="py">222</CODE>
+    <CODE KEY="cx">105</CODE>
+    <CODE KEY="cy">22</CODE>
+   </MONEYSTR>
+   <L_PICTEXTS>
+    <CODE KEY="px">9</CODE>
+    <CODE KEY="py">223</CODE>
+    <CODE KEY="cx">219</CODE>
+    <CODE KEY="cy">16</CODE>
+   </L_PICTEXTS>
+  </UI_GOLEM_BUY>
+  <UI_GOLEM_LIST>
+   <BASE>
+    <CODE KEY="cx">390</CODE>
+    <CODE KEY="cy">230</CODE>
+    <CODE KEY="px">CENTER</CODE>
+    <CODE KEY="py">CENTER</CODE>
+   </BASE>
+  </UI_GOLEM_LIST>
+  <UI_FRIEND_LIST>
+   <BASE>
+    <CODE KEY="px">242</CODE>
+    <CODE KEY="py">64</CODE>
+    <CODE KEY="cx">586</CODE>
+    <CODE KEY="cy">300</CODE>
+    <CODE KEY="cy_min">140</CODE>
+    <CODE KEY="cy_max">440</CODE>
+   </BASE>
+   <TABCTRL>
+    <CODE KEY="px">1</CODE>
+    <CODE KEY="py">30</CODE>
+    <CODE KEY="cy">16</CODE>
+   </TABCTRL>
+   <CHGLAYOUT>
+    <CODE KEY="px">568</CODE>
+    <CODE KEY="py">53</CODE>
+    <CODE KEY="cx">12</CODE>
+    <CODE KEY="cy">12</CODE>
+   </CHGLAYOUT>
+   <MAILBTN>
+    <CODE KEY="px">540</CODE>
+    <CODE KEY="py">24</CODE>
+    <CODE KEY="cx">40</CODE>
+    <CODE KEY="cy">16</CODE>
+   </MAILBTN>
+   <RINGINFOBTN>
+    <CODE KEY="px">456</CODE>
+    <CODE KEY="py">24</CODE>
+    <CODE KEY="cx">78</CODE>
+    <CODE KEY="cy">17</CODE>
+   </RINGINFOBTN>
+   <COMMENTEDIT>
+    <CODE KEY="px">129</CODE>
+    <CODE KEY="py">73</CODE>
+    <CODE KEY="cx">412</CODE>
+    <CODE KEY="cy">15</CODE>
+   </COMMENTEDIT>
+   <COMMENTEDITFRAME>
+    <CODE KEY="px">130</CODE>
+    <CODE KEY="py">76</CODE>
+    <CODE KEY="cx">390</CODE>
+    <CODE KEY="cy">15</CODE>
+   </COMMENTEDITFRAME>
+   <SCBAR>
+    <CODE KEY="px">562</CODE>
+    <CODE KEY="py">71</CODE>
+    <CODE KEY="frombottom">10</CODE>
+   </SCBAR>
+   <COMMENTBTN>
+    <CODE KEY="cx_min">108</CODE>
+    <CODE KEY="cx_max">412</CODE>
+   </COMMENTBTN>
+   <BUTTON_0_DEF>
+    <CODE KEY="px">9</CODE>
+    <CODE KEY="cx">108</CODE>
+   </BUTTON_0_DEF>
+   <BUTTON_1_DEF>
+    <CODE KEY="px">118</CODE>
+    <CODE KEY="cx">108</CODE>
+   </BUTTON_1_DEF>
+   <BUTTON_2_DEF>
+    <CODE KEY="px">227</CODE>
+    <CODE KEY="cx">87</CODE>
+   </BUTTON_2_DEF>
+   <BUTTON_3_DEF>
+    <CODE KEY="px">315</CODE>
+    <CODE KEY="cx">167</CODE>
+   </BUTTON_3_DEF>
+   <BUTTON_4_DEF>
+    <CODE KEY="px">483</CODE>
+    <CODE KEY="cx">78</CODE>
+   </BUTTON_4_DEF>
+   <BUTTON_5_DEF>
+    <CODE KEY="px">0</CODE>
+    <CODE KEY="cx">0</CODE>
+   </BUTTON_5_DEF>
+   <BUTTON_0_RING>
+    <CODE KEY="px">9</CODE>
+    <CODE KEY="cx">108</CODE>
+   </BUTTON_0_RING>
+   <BUTTON_1_RING>
+    <CODE KEY="px">118</CODE>
+    <CODE KEY="cx">88</CODE>
+   </BUTTON_1_RING>
+   <BUTTON_2_RING>
+    <CODE KEY="px">207</CODE>
+    <CODE KEY="cx">77</CODE>
+   </BUTTON_2_RING>
+   <BUTTON_3_RING>
+    <CODE KEY="px">285</CODE>
+    <CODE KEY="cx">121</CODE>
+   </BUTTON_3_RING>
+   <BUTTON_4_RING>
+    <CODE KEY="px">407</CODE>
+    <CODE KEY="cx">89</CODE>
+   </BUTTON_4_RING>
+   <BUTTON_5_RING>
+    <CODE KEY="px">497</CODE>
+    <CODE KEY="cx">65</CODE>
+   </BUTTON_5_RING>
+   <FIRSTGETTERTYPECHKBOX>
+    <CODE KEY="px">320</CODE>
+    <CODE KEY="py">32</CODE>
+    <CODE KEY="cx">12</CODE>
+    <CODE KEY="cy">12</CODE>
+   </FIRSTGETTERTYPECHKBOX>
+   <FIRSTGETTERTYPELAMP>
+    <CODE KEY="px">320</CODE>
+    <CODE KEY="py">30</CODE>
+    <CODE KEY="cx">12</CODE>
+    <CODE KEY="cy">12</CODE>
+   </FIRSTGETTERTYPELAMP>
+   <FIRSTGETTERTYPESTC>
+    <CODE KEY="px">332</CODE>
+    <CODE KEY="py">26</CODE>
+    <CODE KEY="cx">192</CODE>
+    <CODE KEY="cy">20</CODE>
+   </FIRSTGETTERTYPESTC>
+  </UI_FRIEND_LIST>
+  <UI_FLOATING_GARDEN>
+   <BASE>
+    <CODE KEY="cx">210</CODE>
+    <CODE KEY="cy">365</CODE>
+    <CODE KEY="px">120</CODE>
+    <CODE KEY="py">100</CODE>
+   </BASE>
+  </UI_FLOATING_GARDEN>
+  <UI_CHOICE>
+   <BASE>
+    <CODE KEY="cx">320</CODE>
+    <CODE KEY="cy">AUTO</CODE>
+    <CODE KEY="px">CENTER</CODE>
+    <CODE KEY="py">CENTER</CODE>
+   </BASE>
+  </UI_CHOICE>
+  <UI_NPC_TALK>
+   <BASE>
+    <CODE KEY="cx">336</CODE>
+    <CODE KEY="cy">256</CODE>
+    <CODE KEY="px">CENTER</CODE>
+    <CODE KEY="py">CENTER</CODE>
+   </BASE>
+  </UI_NPC_TALK>
+  <UI_INPUT_STRING>
+   <BASE>
+    <CODE KEY="cx">286</CODE>
+    <CODE KEY="cy">52</CODE>
+    <CODE KEY="px">CENTER</CODE>
+    <CODE KEY="py">CENTER</CODE>
+   </BASE>
+  </UI_INPUT_STRING>  
+  <UI_BBS>
+   <BASE>
+    <CODE KEY="cx">632</CODE>
+    <CODE KEY="cy">440</CODE>
+    <CODE KEY="px">50</CODE>
+    <CODE KEY="py">54</CODE>
+   </BASE>
+  </UI_BBS>
+  <UI_CHANGE_BEW>
+   <BASE>
+    <CODE KEY="cx">450</CODE>
+    <CODE KEY="cy">255</CODE>
+    <CODE KEY="px">80</CODE>
+    <CODE KEY="py">80</CODE>
+   </BASE>
+  </UI_CHANGE_BEW>
+  <UI_FURNITURESET>
+   <BASE>
+    <CODE KEY="cx">219</CODE>
+    <CODE KEY="cy">105</CODE>
+   </BASE>
+   <BASE2>
+    <CODE KEY="cx">219</CODE>
+    <CODE KEY="cy">157</CODE>
+   </BASE2>
+   <POSSTR>
+    <CODE KEY="px">6</CODE>
+    <CODE KEY="py">20</CODE>
+   </POSSTR>
+   <HELPSTR>
+    <CODE KEY="px">28</CODE>
+    <CODE KEY="py">36</CODE>
+   </HELPSTR>
+   <DIR1STR>
+    <CODE KEY="px">23</CODE>
+    <CODE KEY="py">55</CODE>
+   </DIR1STR>
+   <DIRBTN>
+    <CODE KEY="px">58</CODE>
+    <CODE KEY="py">51</CODE>
+   </DIRBTN>
+   <HLINE1>
+    <CODE KEY="py">80</CODE>
+   </HLINE1>
+   <DIR2STR>
+    <CODE KEY="px">23</CODE>
+    <CODE KEY="py">88</CODE>
+   </DIR2STR>
+   <DIRED>
+    <CODE KEY="px">68</CODE>
+    <CODE KEY="py">85</CODE>
+    <CODE KEY="cx">28</CODE>
+    <CODE KEY="cy">14</CODE>
+   </DIRED>
+   <SNAPSTR>
+    <CODE KEY="px">108</CODE>
+    <CODE KEY="py">88</CODE>
+   </SNAPSTR>
+   <SNAPED>
+    <CODE KEY="px">185</CODE>
+    <CODE KEY="py">85</CODE>
+    <CODE KEY="cx">28</CODE>
+    <CODE KEY="cy">14</CODE>
+   </SNAPED>
+   <NOWPOSSTR>
+    <CODE KEY="px">23</CODE>
+    <CODE KEY="py">108</CODE>
+   </NOWPOSSTR>
+   <HLINE2>
+    <CODE KEY="py">128</CODE>
+   </HLINE2>
+   <OKBTN>
+    <CODE KEY="px">93</CODE>
+    <CODE KEY="py">83</CODE>
+   </OKBTN>
+   <CANCELBTN>
+    <CODE KEY="px">157</CODE>
+    <CODE KEY="py">83</CODE>
+   </CANCELBTN>
+   <OKBTN2>
+    <CODE KEY="px">93</CODE>
+    <CODE KEY="py">137</CODE>
+   </OKBTN2>
+   <CANCELBTN2>
+    <CODE KEY="px">157</CODE>
+    <CODE KEY="py">137</CODE>
+   </CANCELBTN2>
+   <EXPBTN>
+    <CODE KEY="px">206</CODE>
+    <CODE KEY="py">63</CODE>
+   </EXPBTN>
+  </UI_FURNITURESET>
+  <UI_MOVEITEMNUM>
+   <BASE>
+    <CODE KEY="px">32</CODE>
+    <CODE KEY="py">64</CODE>
+    <CODE KEY="cx">154</CODE>
+    <CODE KEY="cy">105</CODE>
+   </BASE>
+   <ICON>
+    <CODE KEY="px">11</CODE>
+    <CODE KEY="py">32</CODE>
+    <CODE KEY="cx">36</CODE>
+    <CODE KEY="cy">36</CODE>
+   </ICON>
+   <OKBTN>
+    <CODE KEY="px">16</CODE>
+    <CODE KEY="py">78</CODE>
+    <CODE KEY="cx">56</CODE>
+    <CODE KEY="cy">16</CODE>
+   </OKBTN>
+   <CANCELBTN>
+    <CODE KEY="px">84</CODE>
+    <CODE KEY="py">78</CODE>
+    <CODE KEY="cx">56</CODE>
+    <CODE KEY="cy">16</CODE>
+   </CANCELBTN>
+   <UPBTN>
+    <CODE KEY="px">132</CODE>
+    <CODE KEY="py">48</CODE>
+    <CODE KEY="cx">14</CODE>
+    <CODE KEY="cy">8</CODE>
+   </UPBTN>
+   <DOWNBTN>
+    <CODE KEY="px">132</CODE>
+    <CODE KEY="py">58</CODE>
+    <CODE KEY="cx">14</CODE>
+    <CODE KEY="cy">8</CODE>
+   </DOWNBTN>
+   <EDIT>
+    <CODE KEY="px">97</CODE>
+    <CODE KEY="py">47</CODE>
+    <CODE KEY="cx">32</CODE>
+    <CODE KEY="cy">12</CODE>
+   </EDIT>
+   <TEXT>
+    <CODE KEY="px">11</CODE>
+    <CODE KEY="py">11</CODE>
+    <CODE KEY="cx">122</CODE>
+    <CODE KEY="cy">12</CODE>
+   </TEXT>
+   <HAVENUM>
+    <CODE KEY="px">51</CODE>
+    <CODE KEY="py">36</CODE>
+   </HAVENUM>
+   <MOVENUM>
+    <CODE KEY="px">96</CODE>
+    <CODE KEY="py">36</CODE>
+   </MOVENUM>
+   <ARROW>
+    <CODE KEY="px">85</CODE>
+    <CODE KEY="py">53</CODE>
+   </ARROW>
+   <FRAME_LEFT>
+    <CODE KEY="px">50</CODE>
+    <CODE KEY="py">48</CODE>
+    <CODE KEY="cx">32</CODE>
+    <CODE KEY="cy">18</CODE>
+   </FRAME_LEFT>
+   <FRAME_RIGHT>
+    <CODE KEY="px">95</CODE>
+    <CODE KEY="py">48</CODE>
+    <CODE KEY="cx">32</CODE>
+    <CODE KEY="cy">18</CODE>
+   </FRAME_RIGHT>
+  </UI_MOVEITEMNUM>
+  <UI_TEST1>
+   <BASE>
+    <CODE KEY="px">256</CODE>
+    <CODE KEY="py">256</CODE>
+    <CODE KEY="cx">666</CODE>
+    <CODE KEY="cy">472</CODE>
+   </BASE>
+   <ETCDATA>
+    <CODE KEY="listoffset_y">94</CODE>
+   </ETCDATA>
+   <LISTSCBAR>
+    <CODE KEY="px">631</CODE>
+    <CODE KEY="py">81</CODE>
+    <CODE KEY="cx">16</CODE>
+    <CODE KEY="cy">368</CODE>
+   </LISTSCBAR>
+   <ITEMNAME>
+    <CODE KEY="px">291</CODE>
+    <CODE KEY="py">83</CODE>
+    <CODE KEY="cx">261</CODE>
+    <CODE KEY="cy">24</CODE>
+   </ITEMNAME>
+   <ITEMPRICE>
+    <CODE KEY="px">466</CODE>
+    <CODE KEY="py">143</CODE>
+    <CODE KEY="cx">81</CODE>
+    <CODE KEY="cy">22</CODE>
+   </ITEMPRICE>
+   <NUMIMG>
+    <CODE KEY="px">550</CODE>
+    <CODE KEY="py">144</CODE>
+    <CODE KEY="cx">128</CODE>
+    <CODE KEY="cy">13</CODE>
+   </NUMIMG>
+   <LINEUPICON>
+    <CODE KEY="px">248</CODE>
+    <CODE KEY="py">84</CODE>
+    <CODE KEY="cx">36</CODE>
+    <CODE KEY="cy">36</CODE>
+   </LINEUPICON>
+   <NUMEDIT>
+    <CODE KEY="px">579</CODE>
+    <CODE KEY="py">143</CODE>
+    <CODE KEY="cx">25</CODE>
+    <CODE KEY="cy">22</CODE>
+   </NUMEDIT>
+   <UPBTN>
+    <CODE KEY="px">606</CODE>
+    <CODE KEY="py">143</CODE>
+    <CODE KEY="cx">14</CODE>
+    <CODE KEY="cy">8</CODE>
+   </UPBTN>
+   <DOWNBTN>
+    <CODE KEY="px">606</CODE>
+    <CODE KEY="py">158</CODE>
+    <CODE KEY="cx">14</CODE>
+    <CODE KEY="cy">8</CODE>
+   </DOWNBTN>
+   <SUMMARY>
+    <CODE KEY="px">291</CODE>
+    <CODE KEY="py">109</CODE>
+    <CODE KEY="cx">332</CODE>
+    <CODE KEY="cy">32</CODE>
+   </SUMMARY>
+   <NEEDPOINTIMG>
+    <CODE KEY="px">392</CODE>
+    <CODE KEY="py">144</CODE>
+    <CODE KEY="cx">70</CODE>
+    <CODE KEY="cy">13</CODE>
+   </NEEDPOINTIMG>
+   <CANEQUIPIMG>
+    <CODE KEY="px">251</CODE>
+    <CODE KEY="py">143</CODE>
+    <CODE KEY="cx">66</CODE>
+    <CODE KEY="cy">14</CODE>
+   </CANEQUIPIMG>
+   <TRYBTN>
+    <CODE KEY="px">321</CODE>
+    <CODE KEY="py">143</CODE>
+    <CODE KEY="cx">63</CODE>
+    <CODE KEY="cy">22</CODE>
+   </TRYBTN>
+   <CAUTIONIMG>
+    <CODE KEY="px">23</CODE>
+    <CODE KEY="py">412</CODE>
+    <CODE KEY="cx">198</CODE>
+    <CODE KEY="cy">13</CODE>
+   </CAUTIONIMG>
+   <BUYBTN>
+    <CODE KEY="px">51</CODE>
+    <CODE KEY="py">433</CODE>
+    <CODE KEY="cx">56</CODE>
+    <CODE KEY="cy">18</CODE>
+   </BUYBTN>
+   <CANCELBTN>
+    <CODE KEY="px">135</CODE>
+    <CODE KEY="py">433</CODE>
+    <CODE KEY="cx">56</CODE>
+    <CODE KEY="cy">18</CODE>
+   </CANCELBTN>
+   <OPENCHRGPAGEBTN>
+    <CODE KEY="px">20</CODE>
+    <CODE KEY="py">351</CODE>
+    <CODE KEY="cx">203</CODE>
+    <CODE KEY="cy">38</CODE>
+   </OPENCHRGPAGEBTN>
+   <OPENCOUPONPAGEBTN>
+    <CODE KEY="px">127</CODE>
+    <CODE KEY="py">351</CODE>
+    <CODE KEY="cx">96</CODE>
+    <CODE KEY="cy">38</CODE>
+   </OPENCOUPONPAGEBTN>
+   <OPENHELPPAGEBTN>
+    <CODE KEY="px">173</CODE>
+    <CODE KEY="py">15</CODE>
+    <CODE KEY="cx">41</CODE>
+    <CODE KEY="cy">20</CODE>
+   </OPENHELPPAGEBTN>
+   <CATEGORYNAME>
+    <CODE KEY="px">394</CODE>
+    <CODE KEY="py">33</CODE>
+    <CODE KEY="cx">232</CODE>
+    <CODE KEY="cy">21</CODE>
+   </CATEGORYNAME>
+   <CATEGORYMENUBTN>
+    <CODE KEY="px">628</CODE>
+    <CODE KEY="py">34</CODE>
+    <CODE KEY="cx">18</CODE>
+    <CODE KEY="cy">19</CODE>
+   </CATEGORYMENUBTN>
+   <CARTICONS>
+    <CODE KEY="px">31</CODE>
+    <CODE KEY="py">72</CODE>
+    <CODE KEY="cx">36</CODE>
+    <CODE KEY="cy">36</CODE>
+   </CARTICONS>
+   <PAYSTC>
+    <CODE KEY="px">129</CODE>
+    <CODE KEY="py">177</CODE>
+    <CODE KEY="cx">90</CODE>
+    <CODE KEY="cy">16</CODE>
+   </PAYSTC>
+   <CAPSTC>
+    <CODE KEY="px">129</CODE>
+    <CODE KEY="py">197</CODE>
+    <CODE KEY="cx">90</CODE>
+    <CODE KEY="cy">16</CODE>
+   </CAPSTC>
+   <TOTALCAPSTC>
+    <CODE KEY="px">129</CODE>
+    <CODE KEY="py">217</CODE>
+    <CODE KEY="cx">90</CODE>
+    <CODE KEY="cy">16</CODE>
+   </TOTALCAPSTC>
+   <VCASHSTC>
+    <CODE KEY="px">118</CODE>
+    <CODE KEY="py">258</CODE>
+    <CODE KEY="cx">101</CODE>
+    <CODE KEY="cy">22</CODE>
+   </VCASHSTC>
+   <BUYPOINTSTC>
+    <CODE KEY="px">118</CODE>
+    <CODE KEY="py">286</CODE>
+    <CODE KEY="cx">101</CODE>
+    <CODE KEY="cy">22</CODE>
+   </BUYPOINTSTC>
+   <REMAINPOINTSTC>
+    <CODE KEY="px">118</CODE>
+    <CODE KEY="py">314</CODE>
+    <CODE KEY="cx">101</CODE>
+    <CODE KEY="cy">22</CODE>
+   </REMAINPOINTSTC>
+   <SPPOINTSTC>
+    <CODE KEY="px">118</CODE>
+    <CODE KEY="py">342</CODE>
+    <CODE KEY="cx">101</CODE>
+    <CODE KEY="cy">22</CODE>
+   </SPPOINTSTC>
+   <PAYIMG>
+    <CODE KEY="px">25</CODE>
+    <CODE KEY="py">178</CODE>
+    <CODE KEY="cx">128</CODE>
+    <CODE KEY="cy">13</CODE>
+   </PAYIMG>
+   <CAPIMG>
+    <CODE KEY="px">25</CODE>
+    <CODE KEY="py">198</CODE>
+    <CODE KEY="cx">128</CODE>
+    <CODE KEY="cy">13</CODE>
+   </CAPIMG>
+   <TOTALCAPIMG>
+    <CODE KEY="px">25</CODE>
+    <CODE KEY="py">218</CODE>
+    <CODE KEY="cx">128</CODE>
+    <CODE KEY="cy">13</CODE>
+   </TOTALCAPIMG>
+   <VCASHIMG>
+    <CODE KEY="px">23</CODE>
+    <CODE KEY="py">262</CODE>
+    <CODE KEY="cx">83</CODE>
+    <CODE KEY="cy">15</CODE>
+   </VCASHIMG>
+   <BUYPOINTIMG>
+    <CODE KEY="px">23</CODE>
+    <CODE KEY="py">290</CODE>
+    <CODE KEY="cx">83</CODE>
+    <CODE KEY="cy">15</CODE>
+   </BUYPOINTIMG>
+   <REMAINPOINTIMG>
+    <CODE KEY="px">23</CODE>
+    <CODE KEY="py">318</CODE>
+    <CODE KEY="cx">83</CODE>
+    <CODE KEY="cy">15</CODE>
+   </REMAINPOINTIMG>
+   <SPPOINTIMG>
+    <CODE KEY="px">23</CODE>
+    <CODE KEY="py">346</CODE>
+    <CODE KEY="cx">83</CODE>
+    <CODE KEY="cy">15</CODE>
+   </SPPOINTIMG>
+   <EXCAPTION>
+    <CODE KEY="px">0</CODE>
+    <CODE KEY="py">16</CODE>
+    <CODE KEY="cx">230</CODE>
+    <CODE KEY="cy">22</CODE>
+   </EXCAPTION>
+  </UI_TEST1>
+  <UI_TEST2>
+   <BASE>
+    <CODE KEY="px">0</CODE>
+    <CODE KEY="py">16</CODE>
+    <CODE KEY="cx">219</CODE>
+    <CODE KEY="cy">410</CODE>
+   </BASE>
+   <TRYCHRTEX>
+    <CODE KEY="px">0</CODE>
+    <CODE KEY="py">16</CODE>
+    <CODE KEY="cx">219</CODE>
+    <CODE KEY="cy">394</CODE>
+   </TRYCHRTEX>
+   <OKBTN>
+    <CODE KEY="px">150</CODE>
+    <CODE KEY="py">384</CODE>
+    <CODE KEY="cx">56</CODE>
+    <CODE KEY="cy">16</CODE>
+   </OKBTN>
+   <EQRESETBTN>
+    <CODE KEY="px">16</CODE>
+    <CODE KEY="py">384</CODE>
+    <CODE KEY="cx">56</CODE>
+    <CODE KEY="cy">16</CODE>
+   </EQRESETBTN>
+   <MOTIONCHGBTN>
+    <CODE KEY="px">12</CODE>
+    <CODE KEY="py">350</CODE>
+    <CODE KEY="cx">64</CODE>
+    <CODE KEY="cy">22</CODE>
+   </MOTIONCHGBTN>
+   <CAMZOOMINBTN>
+    <CODE KEY="px">157</CODE>
+    <CODE KEY="py">350</CODE>
+    <CODE KEY="cx">21</CODE>
+    <CODE KEY="cy">22</CODE>
+   </CAMZOOMINBTN>
+   <CAMZOOMOUTBTN>
+    <CODE KEY="px">185</CODE>
+    <CODE KEY="py">350</CODE>
+    <CODE KEY="cx">21</CODE>
+    <CODE KEY="cy">22</CODE>
+   </CAMZOOMOUTBTN>
+   <COMMENT>
+    <CODE KEY="px">2</CODE>
+    <CODE KEY="py">333</CODE>
+    <CODE KEY="cx">212</CODE>
+    <CODE KEY="cy">14</CODE>
+   </COMMENT>
+   <HLINE>
+    <CODE KEY="px">1</CODE>
+    <CODE KEY="py">374</CODE>
+    <CODE KEY="cx">217</CODE>
+    <CODE KEY="cy">1</CODE>
+   </HLINE>
+  </UI_TEST2>
+  <UI_MINIMAP>
+   <BASE>
+    <CODE KEY="py">26</CODE>
+    <CODE KEY="winrightfromscrright">10</CODE>
+   </BASE>
+  </UI_MINIMAP>
+  <UI_EQUIP>
+   <BASE>
+    <CODE KEY="py">250</CODE>
+    <CODE KEY="cx">128</CODE>
+    <CODE KEY="cy">336</CODE>
+    <CODE KEY="winrightfromscrright">8</CODE>
+   </BASE>
+  </UI_EQUIP>
+  <UI_ITEM>
+   <BASE>
+    <CODE KEY="py">182</CODE>
+    <CODE KEY="cx">219</CODE>
+    <CODE KEY="cy">74</CODE>
+    <CODE KEY="winrightfromscrright">8</CODE>
+   </BASE>
+  </UI_ITEM>
+  <UI_SKILL>
+   <BASE1>
+    <CODE KEY="px">5</CODE>
+    <CODE KEY="cx">150</CODE>
+    <CODE KEY="cy">150</CODE>
+   </BASE1>
+   <BASE2>
+    <CODE KEY="px">5</CODE>
+    <CODE KEY="cx">286</CODE>
+    <CODE KEY="cy">275</CODE>
+   </BASE2>
+   <ETC>
+    <CODE KEY="winbottomfromscrbottom">367</CODE>
+   </ETC>
+  </UI_SKILL>
+  <UI_LOG>
+   <BASE>
+    <CODE KEY="px">5</CODE>
+    <CODE KEY="cx">500</CODE>
+    <CODE KEY="cy">160</CODE>
+    <CODE KEY="winbottomfromscrbottom">192</CODE>
+   </BASE>
+  </UI_LOG>
+  <UI_LINECHAT>
+   <BASE>
+    <CODE KEY="px">5</CODE>
+    <CODE KEY="winbottomfromscrbottom">25</CODE>
+   </BASE>
+  </UI_LINECHAT>
+  <UI_MAINWIN>
+   <BASE>
+    <CODE KEY="px">5</CODE>
+    <CODE KEY="py">5</CODE>
+   </BASE>
+  </UI_MAINWIN>
+  <UI_DESKTOP>
+   <CONNECTLAMP>
+    <CODE KEY="py">3</CODE>
+    <CODE KEY="fromscrright">150</CODE>
+    <CODE KEY="ofs_x">14</CODE>
+   </CONNECTLAMP>
+   <SSMODEBTN>
+    <CODE KEY="py">2</CODE>
+    <CODE KEY="fromscrright">193</CODE>
+   </SSMODEBTN>
+   <EXPMODE>
+    <CODE KEY="py">3</CODE>
+    <CODE KEY="expmodeimg">545</CODE>
+    <CODE KEY="expmodestr">472</CODE>
+    <CODE KEY="percentimg">442</CODE>
+    <CODE KEY="remaintmimg">427</CODE>
+    <CODE KEY="remaintmstr">356</CODE>
+   </EXPMODE>
+   <CHGSHOPBTN>
+    <CODE KEY="py">2</CODE>
+    <CODE KEY="cx">88</CODE>
+    <CODE KEY="cy">15</CODE>
+    <CODE KEY="fromscrright">285</CODE>
+   </CHGSHOPBTN>
+   <BROWSERBTN>
+    <CODE KEY="py">2</CODE>
+    <CODE KEY="cx">88</CODE>
+    <CODE KEY="cy">15</CODE>
+    <CODE KEY="fromscrright">285</CODE>
+   </BROWSERBTN>
+  </UI_DESKTOP>
+  <UI_LOGINDLG>
+   <BASE>
+    <CODE KEY="cx">248</CODE>
+    <CODE KEY="cy">248</CODE>
+   </BASE>
+   <LOGINBTN>
+    <CODE KEY="px">52</CODE>
+    <CODE KEY="py">222</CODE>
+    <CODE KEY="cx">56</CODE>
+    <CODE KEY="cy">16</CODE>
+   </LOGINBTN>
+   <EXITBTN>
+    <CODE KEY="px">140</CODE>
+    <CODE KEY="py">222</CODE>
+    <CODE KEY="cx">56</CODE>
+    <CODE KEY="cy">16</CODE>
+   </EXITBTN>
+   <SVRLIST>
+    <CODE KEY="px">8</CODE>
+    <CODE KEY="py">24</CODE>
+    <CODE KEY="cx">232</CODE>
+    <CODE KEY="cy">136</CODE>
+   </SVRLIST>
+   <IDSV>
+    <CODE KEY="px">4</CODE>
+    <CODE KEY="py">172</CODE>
+    <CODE KEY="cx">12</CODE>
+    <CODE KEY="cy">12</CODE>
+   </IDSV>
+   <PSWSV>
+    <CODE KEY="px">4</CODE>
+    <CODE KEY="py">198</CODE>
+    <CODE KEY="cx">12</CODE>
+    <CODE KEY="cy">12</CODE>
+   </PSWSV>
+   <IDPIC>
+    <CODE KEY="px">20</CODE>
+    <CODE KEY="py">172</CODE>
+    <CODE KEY="cx">48</CODE>
+    <CODE KEY="cy">12</CODE>
+   </IDPIC>
+   <PSWPIC>
+    <CODE KEY="px">20</CODE>
+    <CODE KEY="py">198</CODE>
+    <CODE KEY="cx">48</CODE>
+    <CODE KEY="cy">12</CODE>
+   </PSWPIC>
+   <IDEDIT>
+    <CODE KEY="px">64</CODE>
+    <CODE KEY="py">170</CODE>
+    <CODE KEY="cx">172</CODE>
+    <CODE KEY="cy">14</CODE>
+   </IDEDIT>
+   <PSWEDIT>
+    <CODE KEY="px">64</CODE>
+    <CODE KEY="py">196</CODE>
+    <CODE KEY="cx">172</CODE>
+    <CODE KEY="cy">14</CODE>
+   </PSWEDIT>
+   <SCBAR>
+    <CODE KEY="px">224</CODE>
+    <CODE KEY="py">24</CODE>
+    <CODE KEY="cx">16</CODE>
+    <CODE KEY="cy">136</CODE>
+   </SCBAR>
+   <GVZ_TAB>
+    <CODE KEY="px">1</CODE>
+    <CODE KEY="py">168</CODE>
+    <CODE KEY="cx">246</CODE>
+    <CODE KEY="cy">19</CODE>
+   </GVZ_TAB>
+   <BASE2>
+    <CODE KEY="cx">248</CODE>
+    <CODE KEY="cy">272</CODE>
+   </BASE2>
+   <LOGINBTN2>
+    <CODE KEY="px">52</CODE>
+    <CODE KEY="py">246</CODE>
+    <CODE KEY="cx">56</CODE>
+    <CODE KEY="cy">16</CODE>
+   </LOGINBTN2>
+   <EXITBTN2>
+    <CODE KEY="px">140</CODE>
+    <CODE KEY="py">246</CODE>
+    <CODE KEY="cx">56</CODE>
+    <CODE KEY="cy">16</CODE>
+   </EXITBTN2>
+   <IDSV2>
+    <CODE KEY="px">4</CODE>
+    <CODE KEY="py">196</CODE>
+    <CODE KEY="cx">12</CODE>
+    <CODE KEY="cy">12</CODE>
+   </IDSV2>
+   <PSWSV2>
+    <CODE KEY="px">4</CODE>
+    <CODE KEY="py">222</CODE>
+    <CODE KEY="cx">12</CODE>
+    <CODE KEY="cy">12</CODE>
+   </PSWSV2>
+   <IDPIC2>
+    <CODE KEY="px">20</CODE>
+    <CODE KEY="py">196</CODE>
+    <CODE KEY="cx">48</CODE>
+    <CODE KEY="cy">12</CODE>
+   </IDPIC2>
+   <PSWPIC2>
+    <CODE KEY="px">20</CODE>
+    <CODE KEY="py">222</CODE>
+    <CODE KEY="cx">48</CODE>
+    <CODE KEY="cy">12</CODE>
+   </PSWPIC2>
+   <IDEDIT2>
+    <CODE KEY="px">64</CODE>
+    <CODE KEY="py">194</CODE>
+    <CODE KEY="cx">172</CODE>
+    <CODE KEY="cy">14</CODE>
+   </IDEDIT2>
+   <PSWEDIT2>
+    <CODE KEY="px">64</CODE>
+    <CODE KEY="py">220</CODE>
+    <CODE KEY="cx">172</CODE>
+    <CODE KEY="cy">14</CODE>
+   </PSWEDIT2>
+
+   <GVZ_CHKBOX>
+    <CODE KEY="px">32</CODE>
+    <CODE KEY="py">222</CODE>
+    <CODE KEY="cx">12</CODE>
+    <CODE KEY="cy">12</CODE>
+   </GVZ_CHKBOX>
+   <GVZ_STATIC>
+    <CODE KEY="px">48</CODE>
+    <CODE KEY="py">218</CODE>
+    <CODE KEY="cx">172</CODE>
+    <CODE KEY="cy">16</CODE>
+   </GVZ_STATIC>
+  </UI_LOGINDLG>
+  <UI_UPITEMSTATEWND>
+   <BASE>
+    <CODE KEY="px">384</CODE>
+    <CODE KEY="py">56</CODE>
+    <CODE KEY="cx">16</CODE>
+    <CODE KEY="cy">40</CODE>
+   </BASE>
+  </UI_UPITEMSTATEWND>
+ </WindowParam>
+</Config>
