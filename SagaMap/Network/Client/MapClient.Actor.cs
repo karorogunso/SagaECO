@@ -72,5 +72,33 @@ namespace SagaMap.Network.Client
             Logger.ShowInfo(this.netIO.DumpData(p1));
             this.netIO.SendPacket(p1);
         }
+
+
+
+
+        internal void SendItemAdd(Item item, ContainerType containerType, InventoryAddResult result, int p)
+        {
+            throw new NotImplementedException();
+        }
+
+        internal void OnItemEquipt(Packets.Client.CSMG_ITEM_EQUIPT cSMG_ITEM_EQUIPT)
+        {
+            throw new NotImplementedException();
+        }
+
+        internal void OnItemGet(Packets.Client.CSMG_ITEM_GET cSMG_ITEM_GET)
+        {
+            throw new NotImplementedException();
+        }
+
+        internal void OnItemDrop(Packets.Client.CSMG_ITEM_DROP cSMG_ITEM_DROP)
+        {
+            throw new NotImplementedException();
+        }
+
+        internal void SendItems()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
