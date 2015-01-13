@@ -61,7 +61,7 @@ namespace SagaLogin.Packets.Server
         }
 
         /// <summary>
-        /// ¥²¥¹¥ÈID²Ğ¤ê•rég         
+        /// ƒQƒXƒgIDc‚èŠÔ         
         /// </summary>
         public uint RestTestTime
         {
@@ -70,9 +70,9 @@ namespace SagaLogin.Packets.Server
                 this.PutUInt(value, 10);
             }
         }
-        
+
         /// <summary>
-        /// ¥²¥¹¥ÈIDÆÚÏŞ¡¡(1970ÄEÔÂ1ÈÕ0•r0·Ö0ÃE«¤é¤ÎÃEı£©08/01/11¤è¤E
+        /// ƒQƒXƒgIDŠúŒÀ@(1970”N1Œ1“ú00•ª0•b‚©‚ç‚Ì•b”j08/01/11‚æ‚è 
         /// End time of trial(second count since 1st Jan. 1970)
         /// </summary>
         public uint TestEndTime
