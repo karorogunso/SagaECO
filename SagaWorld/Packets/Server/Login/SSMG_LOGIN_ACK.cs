@@ -10,23 +10,23 @@ namespace SagaWorld.Packets.Server
     {
         /*
          * result 
-           00000000: ³É¹¦ 
-           fffffffe: GAME_SMSG_LOGIN_ERR_UNKNOWN_ACC,"ID¤Þ¤¿¤Ï¥Ñ¥¹¥E`¥É¤¬ß`¤¤¤Þ¤¹" 
-           fffffffd: GAME_SMSG_LOGIN_ERR_BADPASS,"ID¤Þ¤¿¤Ï¥Ñ¥¹¥E`¥É¤¬ß`¤¤¤Þ¤¹" 
-           fffffffc: GAME_SMSG_LOGIN_ERR_BFALOCK,"¤³¤Î¥¢¥«¥¦¥?È¤ÏÕJÔ^™CÄÜ¤¬¥í¥Ã¥¯¤µ¤EÆ¤¤¤Þ¤¹" 
-           fffffffb: GAME_SMSG_LOGIN_ERR_ALREADY,"¼È¤Ë¥í¥°¥¤¥?·¤Æ¤¤¤Þ¤¹$r¬FÔÚ¤Î¥í¥°¥¤¥?´‘B¤?E»¥Ã¥È¤¤¤¿¤·¤Þ¤¹" 
-           fffffffa: GAME_SMSG_LOGIN_ERR_IPBLOCK,"¬FÔÚ¥á¥?Æ¥Ê¥?¹ÖÐ¤Ç¤¹" 
-           fffffff5: GAME_SMSG_GHLOGIN_ERR_101,"¥²©`¥àÁÏ½?¬Î´’B¤¤¤«¡¢Àî·ÃÆÚégÇÐ¤EÇ¤¹¡£$rºEgµÇåh¤Î·½¤ÏÕ?Ê½µÇåh¤?ªœg¤Þ¤»¤¯¤À¤µ¤¤¡£" 
-           fffffff4: GAME_SMSG_GHLOGIN_ERR_102,"ÕJÔ^¤µ¤EÆ¤¤¤Ê¤¤¡¢¤Þ¤¿¤ÏÀî·ÃÍ£Ö¹¤µ¤E¿ID ¤Ç¤¹¡£" 
-           fffffff3: GAME_SMSG_GHLOGIN_ERR_103,"ÕJÔ^¤µ¤EÆ¤¤¤Ê¤¤¡¢¤Þ¤¿¤ÏÀî·ÃÍ£Ö¹¤µ¤E¿ID ¤Ç¤¹¡£" 
-           fffffff2: GAME_SMSG_GHLOGIN_ERR_104,"ÕJÔ^¤µ¤EÆ¤¤¤Ê¤¤¡¢¤Þ¤¿¤ÏÀî·ÃÍ£Ö¹¤µ¤E¿ID ¤Ç¤¹¡£" 
-           fffffff1: GAME_SMSG_GHLOGIN_ERR_105,"ECO¤ÏÕ?Ê½¥µ©`¥Ó¥¹¤È¤Ê¤ê¤Þ¤·¤¿¡£$r¥¬¥?Û©`¤Î¥¢¥È¥é¥¯¥·¥ç¥?»¥?¿©`¤Ç¡¢¥¢¥È¥é¥¯¥·¥ç¥?D¤Î¼~¸¶¤±„IÀí¤?ªîŠ¤¤¤·¤Þ¤¹¡£" 
-           fffffff0: GAME_SMSG_GHLOGIN_ERR_106,"¦Â¥µ©`¥Ó¥¹¤Ï½KÁË¤·¤Þ¤·¤¿¡£Õ?Ê½¥µ©`¥Ó¥¹é_Ê¼¤Þ¤Ç¤ª´?¤Á¤¯¤À¤µ¤¤¡£" 
-           ffffffef: GAME_SMSG_GHLOGIN_ERR_107,"¤ªÔE·ÆÚég¤Ï½KÁË¤·¤Þ¤·¤¿¡£$r¸Ä¤á¤Æ¥¢¥È¥é¥¯¥·¥ç¥?»¥?¿©`¤ÇID¤Î×?É¤?ªîŠ¤¤¤·¤Þ¤¹¡£" 
-           ffffffee: AME_SMSG_GHLOGIN_ERR_108,"¤´ÈE¦¤µ¤E¿¡¸¤ªÔE·ID¡¹¤Ï¥¯¥í©`¥º¥É¥Ù©`¥¿¥Æ¥¹¥È¤Î¶¨EÊ?¡¢$rÏÈ×Å20,000Ãî{”¤ÎµÇåh½KÁËáá¤Ë°kÐÐ¤µ¤E¿ID¤Ç¤¹¡£$r¿Ö¤EEê¤Þ¤¹¤¬¡¢¤´ÈE¦¤µ¤E¿¡¸¤ªÔE·ID¡¹¤Ï¤½¤Î¤Þ¤ÞË?Ö¤·¤Æ¤¤¤¿¤À¤­¡¢$r´Î»ØŒgÊ©Óè¶¨¤Î¥Ù©`¥¿¥Æ¥¹¥È¤?ª´?¤Á¤¯¤À¤µ¤¤¡£$r£¨´Î»ØŒgÊ©Óè¶¨¤Î¥Ù©`¥¿¥Æ¥¹¥È¤ÏECO¹«Ê½¥µ¥¤¥È¤Ç¤´°¸ÄÚ¤¤¤¿¤·¤Þ¤¹¡££©" 
-           ffffffed: GAME_SMSG_GHLOGIN_ERR_109,"ÕJÔ^Óè‚ä¥¨¥é©`109" 
-           ffffffec: GAME_SMSG_GHLOGIN_ERR_110,"ÕJÔ^Óè‚ä¥¨¥é©`110" 
-           ¤½¤EÔÍE GAME_SMSG_LOGIN_ERR_ERR,"²»Ã?Ê¥¨¥é©`(%d)" 
+           00000000: ¬Œ÷ 
+           fffffffe: GAME_SMSG_LOGIN_ERR_UNKNOWN_ACC,"ID‚Ü‚½‚ÍƒpƒXƒ[ƒh‚ªˆá‚¢‚Ü‚·" 
+           fffffffd: GAME_SMSG_LOGIN_ERR_BADPASS,"ID‚Ü‚½‚ÍƒpƒXƒ[ƒh‚ªˆá‚¢‚Ü‚·" 
+           fffffffc: GAME_SMSG_LOGIN_ERR_BFALOCK,"‚±‚ÌƒAƒJƒEƒ“ƒg‚Í”FØ‹@”\‚ªƒƒbƒN‚³‚ê‚Ä‚¢‚Ü‚·" 
+           fffffffb: GAME_SMSG_LOGIN_ERR_ALREADY,"Šù‚ÉƒƒOƒCƒ“‚µ‚Ä‚¢‚Ü‚·$rŒ»Ý‚ÌƒƒOƒCƒ“ó‘Ô‚ðƒŠƒZƒbƒg‚¢‚½‚µ‚Ü‚·" 
+           fffffffa: GAME_SMSG_LOGIN_ERR_IPBLOCK,"Œ»Ýƒƒ“ƒeƒiƒ“ƒX’†‚Å‚·" 
+           fffffff5: GAME_SMSG_GHLOGIN_ERR_101,"ƒQ[ƒ€—¿‹à‚ª–¢•¥‚¢‚©A—˜—pŠúŠÔØ‚ê‚Å‚·B$rŠÈ’P“o˜^‚Ì•û‚Í³Ž®“o˜^‚ð‚¨Ï‚Ü‚¹‚­‚¾‚³‚¢B" 
+           fffffff4: GAME_SMSG_GHLOGIN_ERR_102,"”FØ‚³‚ê‚Ä‚¢‚È‚¢A‚Ü‚½‚Í—˜—p’âŽ~‚³‚ê‚½ID ‚Å‚·B" 
+           fffffff3: GAME_SMSG_GHLOGIN_ERR_103,"”FØ‚³‚ê‚Ä‚¢‚È‚¢A‚Ü‚½‚Í—˜—p’âŽ~‚³‚ê‚½ID ‚Å‚·B" 
+           fffffff2: GAME_SMSG_GHLOGIN_ERR_104,"”FØ‚³‚ê‚Ä‚¢‚È‚¢A‚Ü‚½‚Í—˜—p’âŽ~‚³‚ê‚½ID ‚Å‚·B" 
+           fffffff1: GAME_SMSG_GHLOGIN_ERR_105,"ECO‚Í³Ž®ƒT[ƒrƒX‚Æ‚È‚è‚Ü‚µ‚½B$rƒKƒ“ƒz[‚ÌƒAƒgƒ‰ƒNƒVƒ‡ƒ“ƒZƒ“ƒ^[‚ÅAƒAƒgƒ‰ƒNƒVƒ‡ƒ“ID‚Ì•R•t‚¯ˆ—‚ð‚¨Šè‚¢‚µ‚Ü‚·B" 
+           fffffff0: GAME_SMSG_GHLOGIN_ERR_106,"ƒÀƒT[ƒrƒX‚ÍI—¹‚µ‚Ü‚µ‚½B³Ž®ƒT[ƒrƒXŠJŽn‚Ü‚Å‚¨‘Ò‚¿‚­‚¾‚³‚¢B" 
+           ffffffef: GAME_SMSG_GHLOGIN_ERR_107,"‚¨ŽŽ‚µŠúŠÔ‚ÍI—¹‚µ‚Ü‚µ‚½B$r‰ü‚ß‚ÄƒAƒgƒ‰ƒNƒVƒ‡ƒ“ƒZƒ“ƒ^[‚ÅID‚Ìì¬‚ð‚¨Šè‚¢‚µ‚Ü‚·B" 
+           ffffffee: AME_SMSG_GHLOGIN_ERR_108,"‚²“ü—Í‚³‚ê‚½u‚¨ŽŽ‚µIDv‚ÍƒNƒ[ƒYƒhƒx[ƒ^ƒeƒXƒg‚Ì’èˆõ”A$ræ’…20,000–¼—l‚Ì“o˜^I—¹Œã‚É”­s‚³‚ê‚½ID‚Å‚·B$r‹°‚ê“ü‚è‚Ü‚·‚ªA‚²“ü—Í‚³‚ê‚½u‚¨ŽŽ‚µIDv‚Í‚»‚Ì‚Ü‚ÜŠŽ‚µ‚Ä‚¢‚½‚¾‚«A$rŽŸ‰ñŽÀŽ{—\’è‚Ìƒx[ƒ^ƒeƒXƒg‚ð‚¨‘Ò‚¿‚­‚¾‚³‚¢B$riŽŸ‰ñŽÀŽ{—\’è‚Ìƒx[ƒ^ƒeƒXƒg‚ÍECOŒöŽ®ƒTƒCƒg‚Å‚²ˆÄ“à‚¢‚½‚µ‚Ü‚·Bj" 
+           ffffffed: GAME_SMSG_GHLOGIN_ERR_109,"”FØ—\”õƒGƒ‰[109" 
+           ffffffec: GAME_SMSG_GHLOGIN_ERR_110,"”FØ—\”õƒGƒ‰[110" 
+           ‚»‚êˆÈŠO: GAME_SMSG_LOGIN_ERR_ERR,"•s–¾‚ÈƒGƒ‰[(%d)" 
         */
         public enum Result
         {

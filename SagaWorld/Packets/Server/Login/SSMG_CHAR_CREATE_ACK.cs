@@ -9,13 +9,13 @@ namespace SagaWorld.Packets.Server
     public class SSMG_CHAR_CREATE_ACK : Packet
     {
         /*
-         * 0x00000000: 成功 
-        0xffffffa0: GAME_SMSG_CHRCREATE_E_NAME_BADCHAR,"キャラクタ?`名に使用できない文字が使われています" 
-        0xffffff9f: GAME_SMSG_CHRCREATE_E_NAME_TOO_SHORT,"キャラクタ?`名が短すぎます" 
-        0xffffff9e: GAME_SMSG_CHRCREATE_E_NAME_CONFLICT,"既に同じ名前のキャラクタ?`が存在します" 
-        0xffffff9d: GAME_SMSG_CHRCREATE_E_ALREADY_SLOT,"既にキャラクタ?`が存在します" 
-        0xffffff9c: GAME_SMSG_CHRCREATE_E_NAME_TOO_LONG,"キャラクタ?`名が?Lすぎます" 
-        ソレ以外　: GAME_SMSG_CHRCREATE_E_ERROR,"不明なキャラ作成エラ?`(%d)" 
+         * 0x00000000: 惉岟 
+        0xffffffa0: GAME_SMSG_CHRCREATE_E_NAME_BADCHAR,"僉儍儔僋僞乕柤偵巊梡偱偒側偄暥帤偑巊傢傟偰偄傑偡" 
+        0xffffff9f: GAME_SMSG_CHRCREATE_E_NAME_TOO_SHORT,"僉儍儔僋僞乕柤偑抁偡偓傑偡" 
+        0xffffff9e: GAME_SMSG_CHRCREATE_E_NAME_CONFLICT,"婛偵摨偠柤慜偺僉儍儔僋僞乕偑懚嵼偟傑偡" 
+        0xffffff9d: GAME_SMSG_CHRCREATE_E_ALREADY_SLOT,"婛偵僉儍儔僋僞乕偑懚嵼偟傑偡" 
+        0xffffff9c: GAME_SMSG_CHRCREATE_E_NAME_TOO_LONG,"僉儍儔僋僞乕柤偑挿偡偓傑偡" 
+        僜儗埲奜丂: GAME_SMSG_CHRCREATE_E_ERROR,"晄柧側僉儍儔嶌惉僄儔乕(%d)" 
 
         */
         public enum Result
