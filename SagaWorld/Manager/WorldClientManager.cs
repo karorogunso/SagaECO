@@ -39,13 +39,13 @@ namespace SagaWorld.Manager
 
             this.commandTable.Add(0x0001, new Packets.Client.CSMG_SEND_VERSION());
             this.commandTable.Add(0x000A, new Packets.Client.CSMG_PING());
+            this.commandTable.Add(0x001F, new Packets.Client.CSMG_LOGIN());
             this.commandTable.Add(0x002A, new Packets.Client.CSMG_CHAR_STATUS());
+            this.commandTable.Add(0x0032, new Packets.Client.CSMG_REQUEST_MAP_SERVER());
             this.commandTable.Add(0x00A0, new Packets.Client.CSMG_CHAR_CREATE());
             this.commandTable.Add(0x00A5, new Packets.Client.CSMG_CHAR_DELETE());
             this.commandTable.Add(0x00A7, new Packets.Client.CSMG_CHAR_SELECT());
-            this.commandTable.Add(0x001F, new Packets.Client.CSMG_LOGIN());
-            this.commandTable.Add(0x0032, new Packets.Client.CSMG_REQUEST_MAP_SERVER());
-            //this.commandTable.Add(0x015F, new Packets.Client.CSMG_SEND_GUID());
+            //this.commandTable.Add(0x00C9, new Packets.Client.WISPER());
 
 
             this.waitressQueue = new AutoResetEvent(false);
