@@ -1,8 +1,7 @@
 SagaECO
 =======
 
-!! THIS IS DEV_1.0 Branch Not Master !!
-!! IF YOU GIT AND GOT BUG... DONT BLAME ME BECAUSE IT'S DEV VERSION !!
+#Master branch#
 
 This Server file is Emil Chronicle Online and Need Some coder to help to fix this.
 This Project is C#
