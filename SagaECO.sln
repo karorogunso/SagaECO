@@ -1,6 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{FCFB805F-0F37-4F43-9BF8-7FA82CE098AB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SagaLib", "SagaLib\SagaLib.csproj", "{DDDDCDA1-0D7C-48F3-A4D1-84219C43E195}"
@@ -16,6 +18,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SagaMap", "SagaMap\SagaMap.csproj", "{BA626AB6-C9C8-4C27-8B40-AC959FC603B9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PacketViewer", "PacketViewer\PacketViewer.csproj", "{F0C18487-5FBB-43BD-B175-5F8B83B925DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SagaWorld", "SagaWorld\SagaWorld.csproj", "{CF4F2A7E-52CF-421E-9F60-1AD31C8739AF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +55,10 @@ Global
 		{F0C18487-5FBB-43BD-B175-5F8B83B925DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F0C18487-5FBB-43BD-B175-5F8B83B925DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F0C18487-5FBB-43BD-B175-5F8B83B925DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF4F2A7E-52CF-421E-9F60-1AD31C8739AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF4F2A7E-52CF-421E-9F60-1AD31C8739AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF4F2A7E-52CF-421E-9F60-1AD31C8739AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF4F2A7E-52CF-421E-9F60-1AD31C8739AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
