@@ -32,17 +32,43 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Configuration\Configuration.cs" />
+    <Compile Include="WorldServer.cs" />
+    <Compile Include="Manager\WorldClientManager.cs" />
+    <Compile Include="Network\Client\WorldClient.cs" />
+    <Compile Include="Packets\Client\Login\CSMG_CHAR_CREATE.cs" />
+    <Compile Include="Packets\Client\Login\CSMG_CHAR_DELETE.cs" />
+    <Compile Include="Packets\Client\Login\CSMG_CHAR_SELECT.cs" />
+    <Compile Include="Packets\Client\Login\CSMG_CHAR_STATUS.cs" />
+    <Compile Include="Packets\Client\Login\CSMG_LOGIN.cs" />
+    <Compile Include="Packets\Client\Login\CSMG_PING.cs" />
+    <Compile Include="Packets\Client\Login\CSMG_REQUEST_MAP_SERVER.cs" />
+    <Compile Include="Packets\Client\Login\CSMG_SEND_GUID.cs" />
+    <Compile Include="Packets\Client\Login\CSMG_SEND_VERSION.cs" />
+    <Compile Include="Packets\Server\Login\SSMG_CHAR_CREATE_ACK.cs" />
+    <Compile Include="Packets\Server\Login\SSMG_CHAR_DATA.cs" />
+    <Compile Include="Packets\Server\Login\SSMG_CHAR_DELETE_ACK.cs" />
+    <Compile Include="Packets\Server\Login\SSMG_CHAR_EQUIP.cs" />
+    <Compile Include="Packets\Server\Login\SSMG_CHAR_SELECT_ACK.cs" />
+    <Compile Include="Packets\Server\Login\SSMG_CHAR_STATUS.cs" />
+    <Compile Include="Packets\Server\Login\SSMG_LOGIN_ACK.cs" />
+    <Compile Include="Packets\Server\Login\SSMG_LOGIN_ALLOWED.cs" />
+    <Compile Include="Packets\Server\Login\SSMG_PONG.cs" />
+    <Compile Include="Packets\Server\Login\SSMG_SEND_TO_MAP_SERVER.cs" />
+    <Compile Include="Packets\Server\Login\SSMG_VERSION_ACK.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -92,20 +92,20 @@ namespace SagaWorld.Network.Client
         public void OnLogin(Packets.Client.CSMG_LOGIN p)
         {
             p.GetContent();
-            if (LoginServer.accountDB.CheckPassword(p.UserName, p.Password, this.frontWord, this.backWord))
+            if (WorldServer.accountDB.CheckPassword(p.UserName, p.Password, this.frontWord, this.backWord))
             {
                 Packets.Server.SSMG_LOGIN_ACK p1 = new SagaWorld.Packets.Server.SSMG_LOGIN_ACK();
                 p1.LoginResult = SagaWorld.Packets.Server.SSMG_LOGIN_ACK.Result.OK;
                 this.netIO.SendPacket(p1);
 
-                account = LoginServer.accountDB.GetUser(p.UserName);
+                account = WorldServer.accountDB.GetUser(p.UserName);
 
-                uint[] charIDs = LoginServer.charDB.GetCharIDs(account.AccountID);
+                uint[] charIDs = WorldServer.charDB.GetCharIDs(account.AccountID);
 
                 account.Characters = new List<ActorPC>();
                 for (int i = 0; i < charIDs.Length; i++)
                 {
-                    account.Characters.Add(LoginServer.charDB.GetChar(charIDs[i]));
+                    account.Characters.Add(WorldServer.charDB.GetChar(charIDs[i]));
                 }
 
                 this.SendCharData();
@@ -122,7 +122,7 @@ namespace SagaWorld.Network.Client
         public void OnCharCreate(Packets.Client.CSMG_CHAR_CREATE p)
         {
             Packets.Server.SSMG_CHAR_CREATE_ACK p1 = new SagaWorld.Packets.Server.SSMG_CHAR_CREATE_ACK();
-            if (LoginServer.charDB.CharExists(p.Name))
+            if (WorldServer.charDB.CharExists(p.Name))
             {
                 p1.CreateResult = SagaWorld.Packets.Server.SSMG_CHAR_CREATE_ACK.Result.GAME_SMSG_CHRCREATE_E_NAME_CONFLICT;
             }
@@ -176,7 +176,7 @@ namespace SagaWorld.Network.Client
                     pc.Inventory.AddItem(ContainerType.BODY, ItemFactory.Instance.GetItem(10020114));
                     pc.Inventory.AddItem(ContainerType.BODY, ItemFactory.Instance.GetItem(60010082));
 
-                    LoginServer.charDB.CreateChar(pc, account.AccountID);
+                    WorldServer.charDB.CreateChar(pc, account.AccountID);
                     account.Characters.Add(pc);
                     p1.CreateResult = SagaWorld.Packets.Server.SSMG_CHAR_CREATE_ACK.Result.OK;
                 }
@@ -195,7 +195,7 @@ namespace SagaWorld.Network.Client
             ActorPC pc = chr.First();
             if (account.DeletePassword.ToLower() == p.DeletePassword.ToLower())
             {
-                LoginServer.charDB.DeleteChar(pc);
+                WorldServer.charDB.DeleteChar(pc);
                 account.Characters.Remove(pc);
                 p1.DeleteResult = SagaWorld.Packets.Server.SSMG_CHAR_DELETE_ACK.Result.OK;
             }
