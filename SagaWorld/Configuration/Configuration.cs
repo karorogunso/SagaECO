@@ -48,6 +48,9 @@ namespace SagaWorld
                         case "port":
                             this.port = int.Parse(i.InnerText);
                             break;
+                        case "worldport":
+                            this.port = int.Parse(i.InnerText);
+                            break;
                         case "dbhost":
                             this.dbhost = i.InnerText;
                             break;
