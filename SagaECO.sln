@@ -1,6 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{FCFB805F-0F37-4F43-9BF8-7FA82CE098AB}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SagaLib", "SagaLib\SagaLib.csproj", "{DDDDCDA1-0D7C-48F3-A4D1-84219C43E195}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PacketProxy", "PacketProxy\PacketProxy.csproj", "{683AA9B5-D5E4-4A27-8EF3-39AC1DBDC86E}"
@@ -12,8 +14,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountCreator", "AccountCreator\AccountCreator.csproj", "{FEFF63EF-01AC-415B-957F-BE91F770E4C9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SagaMap", "SagaMap\SagaMap.csproj", "{BA626AB6-C9C8-4C27-8B40-AC959FC603B9}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{FCFB805F-0F37-4F43-9BF8-7FA82CE098AB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PacketViewer", "PacketViewer\PacketViewer.csproj", "{F0C18487-5FBB-43BD-B175-5F8B83B925DE}"
 EndProject
