@@ -104,7 +104,7 @@ namespace SagaWorld
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine("======================================================================");
             Console.ForegroundColor = ConsoleColor.Cyan;
-            Console.WriteLine("           SagaECO Login Server - Internal Beta Version                ");
+            Console.WriteLine("           SagaECO World Server - Internal Beta Version                ");
             Console.WriteLine("           (C)2008 The SagaECO Project Development Team                ");
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine("======================================================================");
