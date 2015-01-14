@@ -11,12 +11,12 @@ namespace SagaMap.Packets.Server
         public enum Options
         {
             NONE = 0,
-            NO_TRADE = 0x00000001, // ･ﾈ･�ｩ`･ﾉｲｻﾔSｿﾉ
-            NO_PARTY = 0x00000002, // ･ﾑｩ`･ﾆ･｣ｲｻﾔSｿﾉ
-            NO_SPIRIT_POSSESSION, // 捜ﾒﾀｲｻﾔSｿﾉ
-            NO_RING, //0x00000008 ･�･ｰｲｻﾔSｿﾉ
-            //0x00000010 ﾌKﾉ朎x談､ｷ､ﾊ､､
-            //0x00000020 ﾗIﾕ畏憧ｻﾔSｿﾉ
+            NO_TRADE = 0x00000001, // トレード不許可
+            NO_PARTY = 0x00000002, // パーティ不許可
+            NO_SPIRIT_POSSESSION, // 憑依不許可
+            NO_RING, //0x00000008 リング不許可
+            //0x00000010 蘇生選択しない
+            //0x00000020 作業請負不許可
         }
 
         public SSMG_ACTOR_OPTION()

@@ -10,23 +10,23 @@ namespace SagaMap.Packets.Server
     {
         /*
          * result 
-           00000000: 成功 
-           fffffffe: GAME_SMSG_LOGIN_ERR_UNKNOWN_ACC,"IDまたはパスワードが違います" 
-           fffffffd: GAME_SMSG_LOGIN_ERR_BADPASS,"IDまたはパスワードが違います" 
-           fffffffc: GAME_SMSG_LOGIN_ERR_BFALOCK,"このアカウントは認証機能がロックされています" 
-           fffffffb: GAME_SMSG_LOGIN_ERR_ALREADY,"既にログインしています$r現在のログイン状態をリセットいたします" 
-           fffffffa: GAME_SMSG_LOGIN_ERR_IPBLOCK,"現在メンテナンス中です" 
-           fffffff5: GAME_SMSG_GHLOGIN_ERR_101,"ゲーム料金が未払いか、利用期間切れです。$r簡単登録の方は正式登録をお済ませください。" 
-           fffffff4: GAME_SMSG_GHLOGIN_ERR_102,"認証されていない、または利用停止されたID です。" 
-           fffffff3: GAME_SMSG_GHLOGIN_ERR_103,"認証されていない、または利用停止されたID です。" 
-           fffffff2: GAME_SMSG_GHLOGIN_ERR_104,"認証されていない、または利用停止されたID です。" 
-           fffffff1: GAME_SMSG_GHLOGIN_ERR_105,"ECOは正式サービスとなりました。$rガンホーのアトラクションセンターで、アトラクションIDの紐付け処理をお願いします。" 
-           fffffff0: GAME_SMSG_GHLOGIN_ERR_106,"βサービスは終了しました。正式サービス開始までお待ちください。" 
-           ffffffef: GAME_SMSG_GHLOGIN_ERR_107,"お試し期間は終了しました。$r改めてアトラクションセンターでIDの作成をお願いします。" 
-           ffffffee: AME_SMSG_GHLOGIN_ERR_108,"ご入力された「お試しID」はクローズドベータテストの定員数、$r先着20,000名様の登録終了後に発行されたIDです。$r恐れ入りますが、ご入力された「お試しID」はそのまま所持していただき、$r次回実施予定のベータテストをお待ちください。$r（次回実施予定のベータテストはECO公式サイトでご案内いたします。）" 
-           ffffffed: GAME_SMSG_GHLOGIN_ERR_109,"認証予備エラー109" 
-           ffffffec: GAME_SMSG_GHLOGIN_ERR_110,"認証予備エラー110" 
-           それ以外: GAME_SMSG_LOGIN_ERR_ERR,"不明なエラー(%d)" 
+           00000000: 惉岟 
+           fffffffe: GAME_SMSG_LOGIN_ERR_UNKNOWN_ACC,"ID傑偨偼僷僗儚乕僪偑堘偄傑偡" 
+           fffffffd: GAME_SMSG_LOGIN_ERR_BADPASS,"ID傑偨偼僷僗儚乕僪偑堘偄傑偡" 
+           fffffffc: GAME_SMSG_LOGIN_ERR_BFALOCK,"偙偺傾僇僂儞僩偼擣徹婡擻偑儘僢僋偝傟偰偄傑偡" 
+           fffffffb: GAME_SMSG_LOGIN_ERR_ALREADY,"婛偵儘僌僀儞偟偰偄傑偡$r尰嵼偺儘僌僀儞忬懺傪儕僙僢僩偄偨偟傑偡" 
+           fffffffa: GAME_SMSG_LOGIN_ERR_IPBLOCK,"尰嵼儊儞僥僫儞僗拞偱偡" 
+           fffffff5: GAME_SMSG_GHLOGIN_ERR_101,"僎乕儉椏嬥偑枹暐偄偐丄棙梡婜娫愗傟偱偡丅$r娙扨搊榐偺曽偼惓幃搊榐傪偍嵪傑偣偔偩偝偄丅" 
+           fffffff4: GAME_SMSG_GHLOGIN_ERR_102,"擣徹偝傟偰偄側偄丄傑偨偼棙梡掆巭偝傟偨ID 偱偡丅" 
+           fffffff3: GAME_SMSG_GHLOGIN_ERR_103,"擣徹偝傟偰偄側偄丄傑偨偼棙梡掆巭偝傟偨ID 偱偡丅" 
+           fffffff2: GAME_SMSG_GHLOGIN_ERR_104,"擣徹偝傟偰偄側偄丄傑偨偼棙梡掆巭偝傟偨ID 偱偡丅" 
+           fffffff1: GAME_SMSG_GHLOGIN_ERR_105,"ECO偼惓幃僒乕價僗偲側傝傑偟偨丅$r僈儞儂乕偺傾僩儔僋僔儑儞僙儞僞乕偱丄傾僩儔僋僔儑儞ID偺昍晅偗張棟傪偍婅偄偟傑偡丅" 
+           fffffff0: GAME_SMSG_GHLOGIN_ERR_106,"兝僒乕價僗偼廔椆偟傑偟偨丅惓幃僒乕價僗奐巒傑偱偍懸偪偔偩偝偄丅" 
+           ffffffef: GAME_SMSG_GHLOGIN_ERR_107,"偍帋偟婜娫偼廔椆偟傑偟偨丅$r夵傔偰傾僩儔僋僔儑儞僙儞僞乕偱ID偺嶌惉傪偍婅偄偟傑偡丅" 
+           ffffffee: AME_SMSG_GHLOGIN_ERR_108,"偛擖椡偝傟偨乽偍帋偟ID乿偼僋儘乕僘僪儀乕僞僥僗僩偺掕堳悢丄$r愭拝20,000柤條偺搊榐廔椆屻偵敪峴偝傟偨ID偱偡丅$r嫲傟擖傝傑偡偑丄偛擖椡偝傟偨乽偍帋偟ID乿偼偦偺傑傑強帩偟偰偄偨偩偒丄$r師夞幚巤梊掕偺儀乕僞僥僗僩傪偍懸偪偔偩偝偄丅$r乮師夞幚巤梊掕偺儀乕僞僥僗僩偼ECO岞幃僒僀僩偱偛埬撪偄偨偟傑偡丅乯" 
+           ffffffed: GAME_SMSG_GHLOGIN_ERR_109,"擣徹梊旛僄儔乕109" 
+           ffffffec: GAME_SMSG_GHLOGIN_ERR_110,"擣徹梊旛僄儔乕110" 
+           偦傟埲奜: GAME_SMSG_LOGIN_ERR_ERR,"晄柧側僄儔乕(%d)" 
         */
         public enum Result
         {
@@ -70,9 +70,9 @@ namespace SagaMap.Packets.Server
                 this.PutUInt(value, 8);
             }
         }
-        
+
         /// <summary>
-        /// ゲストID期限　(1970年1月1日0時0分0秒からの秒数）08/01/11より 
+        /// 僎僗僩ID婜尷丂(1970擭1寧1擔0帪0暘0昩偐傜偺昩悢乯08/01/11傛傝 
         /// End time of trial(second count since 1st Jan. 1970)
         /// </summary>
         public uint TestEndTime

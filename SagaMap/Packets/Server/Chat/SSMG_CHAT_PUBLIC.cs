@@ -16,11 +16,11 @@ namespace SagaMap.Packets.Server
         }
 
         /// <summary>
-        /// -1 : システムメッセージ(黄) 
-        ///0 : 管理者メッセージ(桃) 
-        ///1-9999 : PCユーザー 
-        ///10000-30000 : ペット 
-        ///他 : 飛空庭設置ペットなど 
+        /// -1 : 僔僗僥儉儊僢僙乕僕(墿) 
+        ///0 : 娗棟幰儊僢僙乕僕(搷) 
+        ///1-9999 : PC儐乕僓乕 
+        ///10000-30000 : 儁僢僩 
+        ///懠 : 旘嬻掚愝抲儁僢僩側偳 
         /// </summary>
         public uint ActorID
         {

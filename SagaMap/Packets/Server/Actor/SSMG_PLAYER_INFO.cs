@@ -370,17 +370,17 @@ namespace SagaMap.Packets.Server
         }
 
         /*         
-        ABYTE onehand_motion;// 左手モーションタイプ size=3 { 片手, 両手, 攻撃}
-        ABYTE twohand_motion;// 右手モーションタイプ size=3 chr_act_tbl.csvを参照する
-        ABYTE  riding_motion;// 乗り物モーションタイプ size=3
+        ABYTE onehand_motion;// 嵍庤儌乕僔儑儞僞僀僾 size=3 { 曅庤, 椉庤, 峌寕}
+        ABYTE twohand_motion;// 塃庤儌乕僔儑儞僞僀僾 size=3 chr_act_tbl.csv傪嶲徠偡傞
+        ABYTE  riding_motion;// 忔傝暔儌乕僔儑儞僞僀僾 size=3
         int  ridepet_id; //(itemid
-        byte ridepet_color;//ロボ用
-        int range     //武器の射程
+        byte ridepet_color;//儘儃梡
+        int range     //晲婍偺幩掱
         int unknown   //0?
-        int mode1   //2 r0fa7参照
-        int mode2   //0 r0fa7参照
+        int mode1   //2 r0fa7嶲徠
+        int mode2   //0 r0fa7嶲徠
         byte  unknown //0?
-        byte  guest //ゲストIDかどうか (07/11/22より)
+        byte  guest //僎僗僩ID偐偳偆偐 (07/11/22傛傝)
         */
     }
 }

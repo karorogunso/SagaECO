@@ -25,11 +25,11 @@ namespace SagaMap.Packets.Server
                 this.PutUInt(value.identified, 16);
                 this.PutUShort(value.durability, 20);
                 this.PutUShort(value.maxDurability, 22);
-                this.PutUShort(0, 24); // 残り強化回数
-                this.PutByte(0, 26); //  染色
+                this.PutUShort(0, 24); // 巆傝嫮壔夞悢
+                this.PutByte(0, 26); //  愼怓
                 this.PutUShort(value.stack, 27);
                 this.PutUInt(value.BaseData.price, 29);
-                this.PutUShort(0, 33); // 商品個数
+                this.PutUShort(0, 33); // 彜昳屄悢
                 this.PutUShort(value.BaseData.possessionWeight, 35);
                 //this.PutUShort(value.BaseData.weight, 37);
                 //this.PutUShort(value.BaseData.volume, 39);
@@ -81,21 +81,21 @@ namespace SagaMap.Packets.Server
                     }
                 }
                 /*
-                  short  atk_speed;      // ペットステ（攻撃速度
-short  mgk_speed;      // ペットステ（詠唱速度
-short  heal_stamina?;  // ペットステ？（スタミナ回復力？倉では参照されない。
+                  short  atk_speed;      // 儁僢僩僗僥乮峌寕懍搙
+short  mgk_speed;      // 儁僢僩僗僥乮塺彞懍搙
+short  heal_stamina?;  // 儁僢僩僗僥丠乮僗僞儈僫夞暅椡丠憅偱偼嶲徠偝傟側偄丅
 
 DWORD  unknown6;       //
  WORD  unknown7;       //
-DWORD  price;          // 商品の値段（露天商）（上の方のpriceの値と一致するとは限らない
- WORD  num;            // 販売個数（露天商）（上の方の個数と一緒?
+DWORD  price;          // 彜昳偺抣抜乮業揤彜乯乮忋偺曽偺price偺抣偲堦抳偡傞偲偼尷傜側偄
+ WORD  num;            // 斕攧屄悢乮業揤彜乯乮忋偺曽偺屄悢偲堦弿?
 DWORD  unknown8;       //
  WORD  unknown9;       //
 
- WORD  name_length;    // 次の名前の文字列長と同じ？
- TSTR  name;           // 固有ネーム（ペットの名前とか
-                         //（";ab";という名前ならname_length = 0003, name = 03 'a' 'b' '\0'
- BYTE  unknown10;      // 0固定？
+ WORD  name_length;    // 師偺柤慜偺暥帤楍挿偲摨偠丠
+ TSTR  name;           // 屌桳僱乕儉乮儁僢僩偺柤慜偲偐
+                         //乮";ab";偲偄偆柤慜側傜name_length = 0003, name = 03 'a' 'b' '\0'
+ BYTE  unknown10;      // 0屌掕丠
 
                  */
 
