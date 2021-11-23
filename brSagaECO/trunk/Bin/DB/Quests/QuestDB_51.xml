@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Flag:0c47-->
+<QuestDB GroupID="51">
+  <Quest>
+    <!--タイニー酒屋-->
+    <ID>12020900</ID>
+    <Name>宝贝,给我爱之花束吧！(Lv ?)</Name>
+    <Type>GATHER</Type>
+    <Time>60</Time>
+    <RewardItem>10034600</RewardItem>
+    <RewardCount>1</RewardCount>
+    <RequiredQuestPoints>1</RequiredQuestPoints>
+    <DungeonID>0</DungeonID>
+    <MinLV>255</MinLV>
+    <MaxLv>255</MaxLv>
+    <Job>NONE</Job>
+    <JobType>NOVICE</JobType>
+    <Race>NONE</Race>
+    <Gender>NONE</Gender>
+    <!--Detail Information-->
+    <!--愛の花束をあつめてベイビー！-->
+    <EXP>0</EXP>
+    <JEXP>0</JEXP>
+    <Gold>0</Gold>
+    <Fame>1</Fame>
+    <ObjectID1>10005500</ObjectID1>
+    <Count1>5</Count1>
+  </Quest>
+  <Quest>
+    <!--タイニー酒屋-->
+    <ID>12020901</ID>
+    <Name>用解毒果实做食品(Lv ?)</Name>
+    <Type>GATHER</Type>
+    <Time>60</Time>
+    <RewardItem>10034600</RewardItem>
+    <RewardCount>1</RewardCount>
+    <RequiredQuestPoints>1</RequiredQuestPoints>
+    <DungeonID>0</DungeonID>
+    <MinLV>255</MinLV>
+    <MaxLv>255</MaxLv>
+    <Job>NONE</Job>
+    <JobType>NOVICE</JobType>
+    <Race>NONE</Race>
+    <Gender>NONE</Gender>
+    <!--Detail Information-->
+    <!--毒消しの実で離乳食作り！-->
+    <EXP>0</EXP>
+    <JEXP>0</JEXP>
+    <Gold>0</Gold>
+    <Fame>1</Fame>
+    <ObjectID1>10003200</ObjectID1>
+    <Count1>5</Count1>
+  </Quest>
+  <Quest>
+    <!--タイニー酒屋-->
+    <ID>12020902</ID>
+    <Name>用暖石蒸桑拿(Lv ?)</Name>
+    <Type>GATHER</Type>
+    <Time>60</Time>
+    <RewardItem>10034600</RewardItem>
+    <RewardCount>1</RewardCount>
+    <RequiredQuestPoints>1</RequiredQuestPoints>
+    <DungeonID>0</DungeonID>
+    <MinLV>255</MinLV>
+    <MaxLv>255</MaxLv>
+    <Job>NONE</Job>
+    <JobType>NOVICE</JobType>
+    <Race>NONE</Race>
+    <Gender>NONE</Gender>
+    <!--Detail Information-->
+    <!--ホカホカ石でサウナ！-->
+    <EXP>0</EXP>
+    <JEXP>0</JEXP>
+    <Gold>0</Gold>
+    <Fame>1</Fame>
+    <ObjectID1>10038001</ObjectID1>
+    <Count1>5</Count1>
+  </Quest>
+  <Quest>
+    <!--タイニー酒屋-->
+    <ID>12020903</ID>
+    <Name>泰迪的神药熊胆(Lv ?)</Name>
+    <Type>GATHER</Type>
+    <Time>60</Time>
+    <RewardItem>10034600</RewardItem>
+    <RewardCount>1</RewardCount>
+    <RequiredQuestPoints>1</RequiredQuestPoints>
+    <DungeonID>0</DungeonID>
+    <MinLV>255</MinLV>
+    <MaxLv>255</MaxLv>
+    <Job>NONE</Job>
+    <JobType>NOVICE</JobType>
+    <Race>NONE</Race>
+    <Gender>NONE</Gender>
+    <!--Detail Information-->
+    <!--ネイティブの秘薬、クマノイ！-->
+    <EXP>0</EXP>
+    <JEXP>0</JEXP>
+    <Gold>0</Gold>
+    <Fame>1</Fame>
+    <ObjectID1>10004700</ObjectID1>
+    <Count1>5</Count1>
+  </Quest>
+  <Quest>
+    <!--タイニー酒屋-->
+    <ID>12020904</ID>
+    <Name>非常食品巧克力(Lv ?)</Name>
+    <Type>GATHER</Type>
+    <Time>60</Time>
+    <RewardItem>10034600</RewardItem>
+    <RewardCount>1</RewardCount>
+    <RequiredQuestPoints>1</RequiredQuestPoints>
+    <DungeonID>0</DungeonID>
+    <MinLV>255</MinLV>
+    <MaxLv>255</MaxLv>
+    <Job>NONE</Job>
+    <JobType>NOVICE</JobType>
+    <Race>NONE</Race>
+    <Gender>NONE</Gender>
+    <!--Detail Information-->
+    <!--非常食にチョコレート！-->
+    <EXP>0</EXP>
+    <JEXP>0</JEXP>
+    <Gold>0</Gold>
+    <Fame>1</Fame>
+    <ObjectID1>10009200</ObjectID1>
+    <Count1>5</Count1>
+  </Quest>
+</QuestDB>

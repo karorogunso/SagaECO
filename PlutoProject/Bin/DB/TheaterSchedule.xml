@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TheaterSchedule>
+  <Movie>
+    <Name>Clannad OP</Name>
+    <MapID>30191000</MapID>
+    <Ticket>10047700</Ticket>
+    <URL>mms://www.sagaeco.com/clannad</URL>
+    <StartTime>14:00</StartTime>
+    <Duration>5</Duration>
+  </Movie>
+  <Movie>
+    <Name>Clannad OP</Name>
+    <MapID>30191000</MapID>
+    <Ticket>10047700</Ticket>
+    <URL>mms://www.sagaeco.com/clannad</URL>
+    <StartTime>14:30</StartTime>
+    <Duration>30</Duration>
+  </Movie>
+  <Movie>
+    <Name>Clannad OP</Name>
+    <MapID>30191000</MapID>
+    <Ticket>10047700</Ticket>
+    <URL>mms://www.sagaeco.com/clannad</URL>
+    <StartTime>15:00</StartTime>
+    <Duration>5</Duration>
+  </Movie>
+  <Movie>
+    <Name>Clannad OP</Name>
+    <MapID>30191000</MapID>
+    <Ticket>10047700</Ticket>
+    <URL>mms://www.sagaeco.com/clannad</URL>
+    <StartTime>15:30</StartTime>
+    <Duration>5</Duration>
+  </Movie>
+  <Movie>
+    <Name>Clannad OP</Name>
+    <MapID>30191000</MapID>
+    <Ticket>10047700</Ticket>
+    <URL>mms://www.sagaeco.com/clannad</URL>
+    <StartTime>17:00</StartTime>
+    <Duration>5</Duration>
+  </Movie>
+  <Movie>
+    <Name>Clannad OP</Name>
+    <MapID>30191000</MapID>
+    <Ticket>10047700</Ticket>
+    <URL>mms://www.sagaeco.com/clannad</URL>
+    <StartTime>17:15</StartTime>
+    <Duration>5</Duration>
+  </Movie>
+  <Movie>
+    <Name>Clannad OP</Name>
+    <MapID>30191000</MapID>
+    <Ticket>10047700</Ticket>
+    <URL>mms://www.sagaeco.com/clannad</URL>
+    <StartTime>17:30</StartTime>
+    <Duration>5</Duration>
+  </Movie>
+  <Movie>
+    <Name>Clannad OP</Name>
+    <MapID>30191000</MapID>
+    <Ticket>10047700</Ticket>
+    <URL>mms://www.sagaeco.com/clannad</URL>
+    <StartTime>17:30</StartTime>
+    <Duration>5</Duration>
+  </Movie>
+  <Movie>
+    <Name>Clannad OP</Name>
+    <MapID>30191000</MapID>
+    <Ticket>10047700</Ticket>
+    <URL>mms://www.sagaeco.com/clannad</URL>
+    <StartTime>18:45</StartTime>
+    <Duration>5</Duration>
+  </Movie>
+  <Movie>
+    <Name>Clannad OP</Name>
+    <MapID>30191000</MapID>
+    <Ticket>10047700</Ticket>
+    <URL>mms://www.sagaeco.com/clannad</URL>
+    <StartTime>19:00</StartTime>
+    <Duration>5</Duration>
+  </Movie>
+  <Movie>
+    <Name>Clannad OP</Name>
+    <MapID>30191000</MapID>
+    <Ticket>10047700</Ticket>
+    <URL>mms://www.sagaeco.com/clannad</URL>
+    <StartTime>19:10</StartTime>
+    <Duration>5</Duration>
+  </Movie>
+  <Movie>
+    <Name>Clannad OP</Name>
+    <MapID>30191000</MapID>
+    <Ticket>10047700</Ticket>
+    <URL>mms://www.sagaeco.com/clannad</URL>
+    <StartTime>19:25</StartTime>
+    <Duration>5</Duration>
+  </Movie>
+  <Movie>
+    <Name>Clannad OP</Name>
+    <MapID>30191000</MapID>
+    <Ticket>10047700</Ticket>
+    <URL>mms://www.sagaeco.com/clannad</URL>
+    <StartTime>19:35</StartTime>
+    <Duration>5</Duration>
+  </Movie>
+
+</TheaterSchedule>
+ 

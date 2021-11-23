@@ -1,0 +1,1637 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SmartEngine.Network</name>
+    </assembly>
+    <members>
+        <member name="P:SmartEngine.Network.Utils.FactoryList`2.Instance">
+            <summary>
+            Return an instance of 
+            </summary>
+        </member>
+        <member name="T:SmartEngine.Network.Utils.FactoryList`2.SingletonHolder">
+            <summary>
+            Sealed class to avoid any heritage from this helper class
+            </summary>
+        </member>
+        <member name="M:SmartEngine.Network.Utils.FactoryList`2.SingletonHolder.#cctor">
+            <summary>
+            Explicit static constructor to tell C# compiler not to mark type as beforefieldinit
+            </summary>
+        </member>
+        <member name="T:SmartEngine.Network.Database.MySQLConnectivity">
+            <summary>
+            带处理队列的Mysql数据库连接器
+            </summary>
+        </member>
+        <member name="M:SmartEngine.Network.Database.MySQLConnectivity.Init(System.String,System.Int32,System.String,System.String,System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="host">Mysql服务器</param>
+            <param name="port">端口</param>
+            <param name="database">数据库名</param>
+            <param name="user">用户名</param>
+            <param name="pass">密码</param>
+        </member>
+        <member name="M:SmartEngine.Network.Database.MySQLConnectivity.Connect">
+            <summary>
+            开始连接Mysql服务器
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SmartEngine.Network.Database.MySQLConnectivity.Shutdown">
+            <summary>
+            关闭Mysql连接
+            </summary>
+        </member>
+        <member name="M:SmartEngine.Network.Database.MySQLConnectivity.ToSQLDateTime(System.DateTime)">
+            <summary>
+            将DateTime转换成Mysql安全的日期字符串
+            </summary>
+            <param name="date">日期</param>
+            <returns>字符串</returns>
+        </member>
+        <member name="M:SmartEngine.Network.Database.MySQLConnectivity.CheckSQLString(System.String@)">
+            <summary>
+            检查字符串是否包含非法字符（防SQL注入），并将其修改为安全字符串
+            </summary>
+            <param name="str"></param>
+        </member>
+        <member name="M:SmartEngine.Network.Database.MySQLConnectivity.CheckSQLString(System.String)">
+            <summary>
+            检查字符串是否包含非法字符（防SQL注入）
+            </summary>
+            <param name="str">需检查的字符</param>
+            <returns>安全的字符串</returns>
+        </member>
+        <member name="P:SmartEngine.Network.Database.MySQLConnectivity.CanClose">
+            <summary>
+            是否可以关闭Mysql连接（是否已处理完全部查询）
+            </summary>
+        </member>
+        <member name="T:SmartEngine.Network.Map.Map`1">
+            <summary>
+            地图类
+            </summary>
+            <typeparam name="T">地图广播事件类型的枚举，其0,1必须为APPEAR, DISAPPEAR</typeparam>
+        </member>
+        <member name="M:SmartEngine.Network.Map.Map`1.GetRandomPosAroundActor(SmartEngine.Network.Map.Actor)">
+            <summary>
+            取得指定Actor周围一个随机坐标
+            </summary>
+            <param name="actor"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SmartEngine.Network.Map.Map`1.GetActor(System.UInt32)">
+            <summary>
+            按照ID取得Actor
+            </summary>
+            <param name="id">ID</param>
+            <returns>Actor</returns>
+        </member>
+        <member name="M:SmartEngine.Network.Map.Map`1.RegisterActor(SmartEngine.Network.Map.Actor)">
+            <summary>
+            注册一个Actor，并自动赋予一个ActorID（从0x40000000开始)
+            </summary>
+            <param name="nActor">需注册的Actor</param>
+            <returns>是否成功</returns>
+        </member>
+        <member name="M:SmartEngine.Network.Map.Map`1.RegisterActor(SmartEngine.Network.Map.Actor,System.UInt32)">
+            <summary>
+            按照给定的ActorID注册一个Actor
+            </summary>
+            <param name="nActor">需注册的Actor</param>
+            <param name="actorID">指定的ActorID，若已经有重复则返回false</param>
+            <returns>是否成功</returns>
+        </member>
+        <member name="M:SmartEngine.Network.Map.Map`1.OnActorVisibilityChange(SmartEngine.Network.Map.Actor)">
+            <summary>
+            广播Actor可见度已改变
+            </summary>
+            <param name="dActor">可见度改变的Actor</param>
+        </member>
+        <member name="M:SmartEngine.Network.Map.Map`1.DeleteActor(SmartEngine.Network.Map.Actor)">
+            <summary>
+            从地图中删除某指定Actor
+            </summary>
+            <param name="dActor"></param>
+        </member>
+        <member name="M:SmartEngine.Network.Map.Map`1.OnDeleteActor(SmartEngine.Network.Map.Actor)">
+            <summary>
+            删除Actor时触发的事件
+            </summary>
+            <param name="actor"></param>
+        </member>
+        <member name="M:SmartEngine.Network.Map.Map`1.MoveActor(SmartEngine.Network.Map.Actor,SmartEngine.Network.Map.MoveArg)">
+            <summary>
+            移动Actor
+            </summary>
+            <param name="mActor"></param>
+            <param name="arg"></param>
+        </member>
+        <member name="M:SmartEngine.Network.Map.Map`1.MoveActor(SmartEngine.Network.Map.Actor,SmartEngine.Network.Map.MoveArg,System.Boolean)">
+            <summary>
+            移动Actor
+            </summary>
+            <param name="mActor"></param>
+            <param name="arg"></param>
+            <param name="sendToSelf"></param>
+        </member>
+        <member name="M:SmartEngine.Network.Map.Map`1.GetRegionPlayerCount(System.Int32)">
+            <summary>
+            取得某个地区玩家Actor总数
+            </summary>
+            <param name="region"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SmartEngine.Network.Map.Map`1.MoveStepIsInRange(SmartEngine.Network.Map.Actor,SmartEngine.Network.Map.MoveArg)">
+            <summary>
+            检查移动是否合法
+            </summary>
+            <param name="mActor"></param>
+            <param name="to"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SmartEngine.Network.Map.Map`1.GetRegion(System.Int32,System.Int32)">
+            <summary>
+            根据坐标生成区域ID
+            </summary>
+            <param name="x"></param>
+            <param name="y"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SmartEngine.Network.Map.Map`1.SendVisibleActorsToActor(SmartEngine.Network.Map.Actor)">
+            <summary>
+            广播某Actor的可见度
+            </summary>
+            <param name="jActor"></param>
+        </member>
+        <member name="M:SmartEngine.Network.Map.Map`1.TeleportActor(SmartEngine.Network.Map.Actor,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            瞬移某Actor
+            </summary>
+            <param name="sActor"></param>
+            <param name="x"></param>
+            <param name="y"></param>
+            <param name="z"></param>
+        </member>
+        <member name="M:SmartEngine.Network.Map.Map`1.SendEventToAllActorsWhoCanSeeActor(`0,SmartEngine.Network.Map.MapEventArgs,SmartEngine.Network.Map.Actor,System.Boolean)">
+            <summary>
+            广播事件给可见Actor
+            </summary>
+            <param name="etype">事件类型</param>
+            <param name="args">参数</param>
+            <param name="sActor">触发事件的Actor</param>
+            <param name="sendToSourceActor">是否广播给源Actor</param>
+        </member>
+        <member name="M:SmartEngine.Network.Map.Map`1.OnEvent(`0,SmartEngine.Network.Map.MapEventArgs,SmartEngine.Network.Map.Actor,SmartEngine.Network.Map.Actor)">
+            <summary>
+            当广播事件时调用的方法
+            </summary>
+            <param name="etype">事件类型</param>
+            <param name="args">参数</param>
+            <param name="sActor">触发事件的源Actor</param>
+            <param name="dActor">触发事件的目标Actor</param>
+        </member>
+        <member name="M:SmartEngine.Network.Map.Map`1.SendEventToAllActors(`0,SmartEngine.Network.Map.MapEventArgs,SmartEngine.Network.Map.Actor,System.Boolean)">
+            <summary>
+            广播事件给所有Actor
+            </summary>
+            <param name="etype">事件类型</param>
+            <param name="args">参数</param>
+            <param name="sActor">触发事件的源Actor</param>
+            <param name="sendToSourceActor">是否广播给源Actor</param>
+        </member>
+        <member name="M:SmartEngine.Network.Map.Map`1.SendActorToMap(SmartEngine.Network.Map.Actor,SmartEngine.Network.Map.Map{`0},System.Int32,System.Int32,System.Int32)">
+            <summary>
+            将指定Actor传送到另外一个地图的某个坐标
+            </summary>
+            <param name="mActor"></param>
+            <param name="newMap">新地图</param>
+            <param name="x"></param>
+            <param name="y"></param>
+            <param name="z"></param>
+        </member>
+        <member name="M:SmartEngine.Network.Map.Map`1.SendActorToMap(SmartEngine.Network.Map.Actor,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            将指定Actor传送到指定地图的指定坐标
+            </summary>
+            <param name="mActor"></param>
+            <param name="mapid">地图ID</param>
+            <param name="x"></param>
+            <param name="y"></param>
+            <param name="z"></param>
+        </member>
+        <member name="P:SmartEngine.Network.Map.Map`1.Actors">
+            <summary>
+            取得当前地图的Actor列表
+            </summary>
+        </member>
+        <member name="M:SevenZip.ICoder.Code(System.IO.Stream,System.IO.Stream,System.Int64,System.Int64,SevenZip.ICodeProgress)">
+            <summary>
+            Codes streams.
+            </summary>
+            <param name="inStream">
+            input Stream.
+            </param>
+            <param name="outStream">
+            output Stream.
+            </param>
+            <param name="inSize">
+            input Size. -1 if unknown.
+            </param>
+            <param name="outSize">
+            output Size. -1 if unknown.
+            </param>
+            <param name="progress">
+            callback progress reference.
+            </param>
+            <exception cref="T:SevenZip.DataErrorException">
+            if input stream is not valid
+            </exception>
+        </member>
+        <member name="T:SmartEngine.Network.Database.Cache.CacheDataInfo`2">
+            <summary>
+            Cache保存數據的結構
+            </summary>
+            <typeparam name="KeyType">Key的類型</typeparam>
+            <typeparam name="ValueType">數據的類型</typeparam>
+        </member>
+        <member name="P:SmartEngine.Network.Database.Cache.CacheDataInfo`2.LastModifyTime">
+            <summary>
+             最後修改時間
+            </summary>
+        </member>
+        <member name="P:SmartEngine.Network.Database.Cache.CacheDataInfo`2.IsNeedToWrite">
+            <summary>
+            需要寫回DB?
+            </summary>
+        </member>
+        <member name="P:SmartEngine.Network.Database.Cache.CacheDataInfo`2.Key">
+            <summary>
+            Key值(例如CharID、ItemID)
+            </summary>
+        </member>
+        <member name="P:SmartEngine.Network.Database.Cache.CacheDataInfo`2.Value">
+            <summary>
+            Value值(例如ActorPC、Item)
+            </summary>
+        </member>
+        <member name="P:SmartEngine.Network.Database.Cache.CacheDataInfo`2.Action">
+            <summary>
+            行為
+            </summary>
+        </member>
+        <member name="T:SmartEngine.Network.Utils.FixedCapacityList`1">
+            <summary>
+            容量固定的列表类，用于快速进行索引，并且无需动态改变容量的列表
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:SmartEngine.Network.Utils.FixedCapacityList`1.Insert(System.Int32,`0)">
+            <summary>
+            在指定index出放入item,若原index不为空，则出错
+            </summary>
+            <param name="index">索引</param>
+            <param name="item">对象</param>
+        </member>
+        <member name="M:SmartEngine.Network.Utils.FixedCapacityList`1.Add2(`0)">
+            <summary>
+            添加一个项目并返回其Index
+            </summary>
+            <param name="item">项目</param>
+            <returns>该项目的Index</returns>
+        </member>
+        <member name="T:SmartEngine.Network.Singleton`1">
+            <summary>
+            Lazy-loading singleton
+            </summary>
+            <typeparam name="T">The type to have the singleton instance of</typeparam>
+        </member>
+        <member name="M:SmartEngine.Network.Singleton`1.#ctor">
+            <summary>
+            Private constructor to avoid external instantiation. 
+            </summary>
+            <remarks>
+            This is present to keep the compiler from providing a default public constructor
+            </remarks>
+        </member>
+        <member name="P:SmartEngine.Network.Singleton`1.Instance">
+            <summary>
+            Return an instance of 
+            </summary>
+        </member>
+        <member name="T:SmartEngine.Network.Singleton`1.SingletonHolder">
+            <summary>
+            Sealed class to avoid any heritage from this helper class
+            </summary>
+        </member>
+        <member name="M:SmartEngine.Network.Singleton`1.SingletonHolder.#cctor">
+            <summary>
+            Explicit static constructor to tell C# compiler not to mark type as beforefieldinit
+            </summary>
+        </member>
+        <member name="M:SmartEngine.Network.Tasks.TaskManager.Start">
+            <summary>
+            启动任务管理器线程池
+            </summary>
+        </member>
+        <member name="M:SmartEngine.Network.Tasks.TaskManager.RegisterTask(SmartEngine.Network.Tasks.Task)">
+            <summary>
+            注册任务，通常不需要调用，直接调用Task.Activate()即可
+            </summary>
+            <param name="task">任务</param>
+        </member>
+        <member name="M:SmartEngine.Network.Tasks.TaskManager.RemoveTask(SmartEngine.Network.Tasks.Task)">
+            <summary>
+            注销任务，通常不需要调用，直接调用Task.Deactivate()即可
+            </summary>
+            <param name="task"></param>
+        </member>
+        <member name="P:SmartEngine.Network.Tasks.TaskManager.RegisteredTasks">
+            <summary>
+            已注册的任务列表
+            </summary>
+        </member>
+        <member name="T:SmartEngine.Network.DefaultClient`1">
+            <summary>
+            用于连接的默认客户端
+            </summary>
+            <typeparam name="T">封包Opcode枚举</typeparam>
+        </member>
+        <member name="T:SmartEngine.Network.Session`1">
+            <summary>
+            会话类，每个已经建立的连接都将拥有一个自己的会话实例
+            </summary>
+            <typeparam name="T">封包Opcode枚举</typeparam>
+        </member>
+        <member name="P:SmartEngine.Network.Session`1.Connected">
+            <summary>
+            该连接是否已经连接上
+            </summary>
+        </member>
+        <member name="P:SmartEngine.Network.Session`1.ClientManager">
+            <summary>
+            该Session所属ClientManager
+            </summary>
+        </member>
+        <member name="P:SmartEngine.Network.Session`1.Network">
+            <summary>
+            该Session的网络层
+            </summary>
+        </member>
+        <member name="M:SmartEngine.Network.DefaultClient`1.Connect(System.Int32)">
+            <summary>
+            尝试连接服务器
+            </summary>
+            <param name="times">重试次数</param>
+            <returns>是否成功</returns>
+        </member>
+        <member name="M:SmartEngine.Network.DefaultClient`1.RegisterPacketHandler(`0,SmartEngine.Network.Packet{`0})">
+            <summary>
+            注册封包处理类
+            </summary>
+            <param name="opcode">Opcode</param>
+            <param name="packetHandler">对应的处理类</param>
+        </member>
+        <member name="P:SmartEngine.Network.DefaultClient`1.Host">
+            <summary>
+            服务器的Host
+            </summary>
+        </member>
+        <member name="P:SmartEngine.Network.DefaultClient`1.Port">
+            <summary>
+            服务器的端口
+            </summary>
+        </member>
+        <member name="P:SmartEngine.Network.DefaultClient`1.Encrypt">
+            <summary>
+            封包是否会被加密，默认为True
+            </summary>
+        </member>
+        <member name="P:SmartEngine.Network.DefaultClient`1.AutoLock">
+            <summary>
+            处理封包时，是否自动上同步锁，默认为false
+            </summary>
+        </member>
+        <member name="F:SmartEngine.Network.Database.Cache.WriteCache`2.CacheData">
+            <summary>
+            數據保存的地方
+            </summary>
+        </member>
+        <member name="F:SmartEngine.Network.Database.Cache.WriteCache`2.Registered">
+            <summary>
+            保存準備存的數據的地方
+            </summary>
+        </member>
+        <member name="F:SmartEngine.Network.Database.Cache.WriteCache`2.MaxWaitTime">
+            <summary>
+            最大等待寫入時間(MicroSec)
+            </summary>
+        </member>
+        <member name="F:SmartEngine.Network.Database.Cache.WriteCache`2.SaveDataCountPerTimes">
+            <summary>
+            每次寫入的數據量
+            </summary>
+        </member>
+        <member name="F:SmartEngine.Network.Database.Cache.WriteCache`2.Closing">
+            <summary>
+            是否要結束了
+            </summary>
+        </member>
+        <member name="F:SmartEngine.Network.Database.Cache.WriteCache`2.DBHandler">
+            <summary>
+            Cache存取DB的界面
+            </summary>
+        </member>
+        <member name="M:SmartEngine.Network.Database.Cache.WriteCache`2.Flush">
+            <summary>
+            將數據寫入DB
+            (預設寫入 SaveDataCountPerTimes 筆資料)
+            </summary>
+        </member>
+        <member name="M:SmartEngine.Network.Database.Cache.WriteCache`2.FlushAll">
+            <summary>
+            將全部數據寫入DB
+            </summary>
+        </member>
+        <member name="F:SmartEngine.Network.Database.Cache.WriteCache`2.SaveThread">
+            <summary>
+            數據儲存的Thread
+            </summary>
+        </member>
+        <member name="M:SmartEngine.Network.Database.Cache.WriteCache`2.SaveData">
+            <summary>
+            數據儲存的Thread所執行的Method
+            </summary>
+        </member>
+        <member name="P:SmartEngine.Network.Database.Cache.WriteCache`2.Count">
+            <summary>
+            目前內含數據數量
+            </summary>
+        </member>
+        <member name="T:SmartEngine.Network.Packet`1">
+            <summary>
+            会自动扩充缓存的封包类
+            </summary>
+            <typeparam name="T">Opcode的枚举</typeparam>
+        </member>
+        <member name="F:SmartEngine.Network.Packet`1.data">
+            <summary>
+            缓存区
+            </summary>
+        </member>
+        <member name="M:SmartEngine.Network.Packet`1.#ctor(System.Int32)">
+            <summary>
+            创建一个新的封包实例，并给予初始大小（避免自动扩充时重新分配内存）
+            </summary>
+            <param name="capacity">初始大小</param>
+        </member>
+        <member name="M:SmartEngine.Network.Packet`1.#ctor">
+            <summary>
+            创建一个空的封包实例
+            </summary>
+        </member>
+        <member name="M:SmartEngine.Network.Packet`1.New">
+            <summary>
+            返回一个封包实例
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SmartEngine.Network.Packet`1.Parse(SmartEngine.Network.Session{`0})">
+            <summary>
+            封包处理过程
+            </summary>
+        </member>
+        <member name="M:SmartEngine.Network.Packet`1.EnsureLength(System.Int32)">
+            <summary>
+            确保有足够的缓存区，不够则自动扩充
+            </summary>
+            <param name="len">长度</param>
+        </member>
+        <member name="M:SmartEngine.Network.Packet`1.SetLength">
+            <summary>
+            将封包长度写入头4个字节
+            </summary>
+        </member>
+        <member name="M:SmartEngine.Network.Packet`1.GetString(System.UInt16)">
+            <summary>
+            取得UNICODE字符串
+            </summary>
+            <param name="index">字符串所在偏移</param>
+            <returns>字符串</returns>
+        </member>
+        <member name="M:SmartEngine.Network.Packet`1.GetString">
+            <summary>
+            取得在某个指定偏移的字符串
+            </summary>
+            <returns>字符串</returns>
+        </member>
+        <member name="M:SmartEngine.Network.Packet`1.PutString(System.String,System.UInt16)">
+            <summary>
+            将Unicode字符串写入指定偏移
+            </summary>
+            <param name="s">要写入的字符串.</param>
+            <param name="index">偏移.</param>
+            <param name="allocSpace">是否自动分配内存</param>
+        </member>
+        <member name="M:SmartEngine.Network.Packet`1.PutString(System.String)">
+            <summary>
+            在当前偏移处写入字符串
+            </summary>
+            <param name="s">String to insert.</param>
+        </member>
+        <member name="M:SmartEngine.Network.Packet`1.GetByte(System.UInt16)">
+            <summary>
+            在指定偏移处取得一个Byte
+            </summary>
+            <param name="index">偏移</param>
+            <returns>结果</returns>
+        </member>
+        <member name="M:SmartEngine.Network.Packet`1.GetByte">
+            <summary>
+            在位置取得一个Byte
+            </summary>
+            <returns>byte.</returns>
+        </member>
+        <member name="M:SmartEngine.Network.Packet`1.PutByte(System.Byte,System.UInt16)">
+            <summary>
+            在指定偏移处写入一个字节
+            </summary>
+            <param name="b">字节</param>
+            <param name="index">偏移</param>
+        </member>
+        <member name="M:SmartEngine.Network.Packet`1.PutByte(System.Byte)">
+            <summary>
+            在当前位置写入一个字节
+            </summary>
+            <param name="b">Byte to insert.</param>
+        </member>
+        <member name="M:SmartEngine.Network.Packet`1.GetUShort(System.UInt16)">
+            <summary>
+            在指定位置取得一个ushort
+            </summary>
+            <param name="index">偏移</param>
+            <returns>The ushort value at the index.</returns>
+        </member>
+        <member name="M:SmartEngine.Network.Packet`1.GetUShort">
+            <summary>
+            Get the ushort at the current offset.
+            </summary>
+            <returns>The ushort value at the offset.</returns>
+        </member>
+        <member name="M:SmartEngine.Network.Packet`1.PutUShort(System.UInt16,System.UInt16)">
+            <summary>
+            Put the given ushort at the given index.
+            </summary>
+            <param name="s">Ushort to insert.</param>
+            <param name="index">Index to insert at.</param>
+        </member>
+        <member name="M:SmartEngine.Network.Packet`1.PutUShort(System.UInt16)">
+            <summary>
+            Put the given ushort at the current offset.
+            </summary>
+            <param name="s"></param>
+        </member>
+        <member name="M:SmartEngine.Network.Packet`1.GetShort(System.UInt16)">
+            <summary>
+            Get the short at the given index.
+            </summary>
+            <param name="index">Index of the short.</param>
+            <returns>The short value at the index.</returns>
+        </member>
+        <member name="M:SmartEngine.Network.Packet`1.GetShort">
+            <summary>
+            Get the short at the current offset.
+            </summary>
+            <returns>The short value at the offset.</returns>
+        </member>
+        <member name="M:SmartEngine.Network.Packet`1.PutShort(System.Int16,System.UInt16)">
+            <summary>
+            Put the given short at the given index.
+            </summary>
+            <param name="s">Short to insert.</param>
+            <param name="index">Index to insert at.</param>
+        </member>
+        <member name="M:SmartEngine.Network.Packet`1.PutShort(System.Int16)">
+            <summary>
+            Put the given short at the current offset.
+            </summary>
+            <param name="s">Short to insert.</param>
+        </member>
+        <member name="M:SmartEngine.Network.Packet`1.GetBytes(System.UInt16,System.UInt16)">
+            <summary>
+            Get a set of bytes from a given location.
+            </summary>
+            <param name="count">Number of bytes to get.</param>
+            <param name="index">Indec from where to get bytes.</param>
+            <returns>Byte array.</returns>
+        </member>
+        <member name="M:SmartEngine.Network.Packet`1.GetBytes(System.UInt16)">
+            <summary>
+            Get a certain amount of bytes from the current offset.
+            </summary>
+            <param name="count">Number of bytes to read.</param>
+            <returns>Byte array.</returns>
+        </member>
+        <member name="M:SmartEngine.Network.Packet`1.PutBytes(System.Byte[],System.UInt16)">
+            <summary>
+            Put some given bytes at a given position in the data array.
+            </summary>
+            <param name="bdata">bytes to add to the data array</param>
+            <param name="index">position to add the bytes to</param>
+        </member>
+        <member name="M:SmartEngine.Network.Packet`1.PutBytes(System.Byte[])">
+            <summary>
+            Put some given bytes at the current offset in the data array.
+            </summary>
+            <param name="bdata">bytes to add to the data array</param>
+        </member>
+        <member name="M:SmartEngine.Network.Packet`1.GetInt(System.UInt16)">
+            <summary>
+            Get the int at the given index.
+            </summary>
+            <param name="index">Index of the int.</param>
+            <returns>The int value at the index.</returns>
+        </member>
+        <member name="M:SmartEngine.Network.Packet`1.GetInt">
+            <summary>
+            Get the int at the current offset.
+            </summary>
+            <returns>The int value at the offset.</returns>
+        </member>
+        <member name="M:SmartEngine.Network.Packet`1.PutInt(System.Int32,System.UInt16)">
+            <summary>
+            Put the given int at the given index.
+            </summary>
+            <param name="s">Int to insert.</param>
+            <param name="index">Index to insert at.</param>
+        </member>
+        <member name="M:SmartEngine.Network.Packet`1.PutInt(System.Int32)">
+            <summary>
+            Put the given int at the current offset in the data.
+            </summary>
+            <param name="s">Int to insert.</param>
+        </member>
+        <member name="M:SmartEngine.Network.Packet`1.GetUInt(System.UInt16)">
+            <summary>
+            Get the uint at the given index.
+            </summary>
+            <param name="index">Index of the uint.</param>
+            <returns>The uint value at the index.</returns>
+        </member>
+        <member name="M:SmartEngine.Network.Packet`1.GetUInt">
+            <summary>
+            Get the uint at the current offset.
+            </summary>
+            <returns>The uint value at the offset.</returns>
+        </member>
+        <member name="M:SmartEngine.Network.Packet`1.PutUInt(System.UInt32,System.UInt16)">
+            <summary>
+            Put the given uint at the given index.
+            </summary>
+            <param name="s">uint to insert.</param>
+            <param name="index">Index to insert at.</param>
+        </member>
+        <member name="M:SmartEngine.Network.Packet`1.PutUInt(System.UInt32)">
+            <summary>
+            Put the given uint at the current offset.
+            </summary>
+            <param name="s">uint to insert</param>
+        </member>
+        <member name="M:SmartEngine.Network.Packet`1.GetFloat(System.UInt16)">
+            <summary>
+            Get the float at the given index.
+            </summary>
+            <param name="index">Index of the float.</param>
+            <returns>The float value at the index.</returns>
+        </member>
+        <member name="M:SmartEngine.Network.Packet`1.GetFloat">
+            <summary>
+            Get the  float at the current offset.
+            </summary>
+            <returns>The float value at the offset.</returns>
+        </member>
+        <member name="M:SmartEngine.Network.Packet`1.PutFloat(System.Single,System.UInt16)">
+            <summary>
+            Put the given float at the given index.
+            </summary>
+            <param name="s">Float to insert.</param>
+            <param name="index">Index to insert at.</param>
+        </member>
+        <member name="M:SmartEngine.Network.Packet`1.PutFloat(System.Single)">
+            <summary>
+            Put the given float at the current offset in the data.
+            </summary>
+            <param name="s">Float to insert.</param>
+        </member>
+        <member name="M:SmartEngine.Network.Packet`1.GetSubBits(System.UInt16,System.Int32,System.Int32)">
+            <summary>
+            在某位开始读取指定位数的整数
+            </summary>
+            <param name="index">字节位移</param>
+            <param name="offset">偏移位数</param>
+            <param name="length">长度位数</param>
+            <returns>结果</returns>
+        </member>
+        <member name="M:SmartEngine.Network.Packet`1.PutSubBits(System.Int64,System.UInt16,System.Int32,System.Int32)">
+            <summary>
+            在某字节偏移的位偏移处开始写入某指定位数的整数
+            </summary>
+            <param name="value">需要写入的整数</param>
+            <param name="index">字节偏移</param>
+            <param name="offset">位偏移</param>
+            <param name="length">位长度</param>
+        </member>
+        <member name="P:SmartEngine.Network.Packet`1.Buffer">
+            <summary>
+            取得缓存区
+            </summary>
+        </member>
+        <member name="P:SmartEngine.Network.Packet`1.Capacity">
+            <summary>
+            缓存区最大容量
+            </summary>
+        </member>
+        <member name="P:SmartEngine.Network.Packet`1.Length">
+            <summary>
+            封包长度
+            </summary>
+        </member>
+        <member name="P:SmartEngine.Network.Packet`1.Encrypt">
+            <summary>
+            该封包是否需要加密
+            </summary>
+        </member>
+        <member name="P:SmartEngine.Network.Packet`1.ID">
+            <summary>
+            封包Opcode
+            </summary>
+        </member>
+        <member name="P:SmartEngine.Network.Packet`1.Sender">
+            <summary>
+            用于发送此封包的Socket
+            </summary>
+        </member>
+        <member name="T:SmartEngine.Network.Global">
+            <summary>
+            用于保存一些静态共用变量的类
+            </summary>
+        </member>
+        <member name="F:SmartEngine.Network.Global.Encoding">
+            <summary>
+            网络层字符串使用的编码，默认为UTF-8
+            </summary>
+        </member>
+        <member name="F:SmartEngine.Network.Global.Random">
+            <summary>
+            线程安全的随机数生成器
+            </summary>
+        </member>
+        <member name="F:SmartEngine.Network.Global.NeutralDate">
+            <summary>
+            时间0，用于将DateTime转换成int
+            </summary>
+        </member>
+        <member name="M:SmartEngine.Network.Global.DateToInt(System.DateTime)">
+            <summary>
+            将一个DateTime实例转换成int
+            </summary>
+            <param name="date">日期实例</param>
+            <returns></returns>
+        </member>
+        <member name="M:SmartEngine.Network.Global.IntToDate(System.Int32)">
+            <summary>
+            将int还原成DateTime实例
+            </summary>
+            <param name="date">以int表示的日期</param>
+            <returns></returns>
+        </member>
+        <member name="P:SmartEngine.Network.Global.PacketSession">
+            <summary>
+            取得一个跟时间相关的Packet唯一ID，用于识别内部通讯封包来源
+            </summary>
+        </member>
+        <member name="T:SmartEngine.Network.AESEncryption">
+            <summary>
+            使用AES算法的加密算法实现
+            </summary>
+        </member>
+        <member name="T:SmartEngine.Network.Encryption">
+            <summary>
+            使用类似RSA的算法交换密钥的加密抽象类，需被继承后才能使用
+            </summary>
+        </member>
+        <member name="F:SmartEngine.Network.Encryption.key">
+            <summary>
+            交换得到的加解密密钥
+            </summary>
+        </member>
+        <member name="M:SmartEngine.Network.Encryption.MakePrivateKey">
+            <summary>
+            生成私钥
+            </summary>
+        </member>
+        <member name="M:SmartEngine.Network.Encryption.GetKeyExchangeBytes">
+            <summary>
+            生成密钥交换用数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SmartEngine.Network.Encryption.MakeKey(System.String)">
+            <summary>
+            根据公钥和私钥生成最终密钥
+            </summary>
+            <param name="keyExchangeBytes"></param>
+        </member>
+        <member name="M:SmartEngine.Network.Encryption.Create">
+            <summary>
+            创建新实例
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SmartEngine.Network.Encryption.Encrypt(System.Byte[],System.Int32,System.Int32)">
+            <summary>
+            加密缓存区
+            </summary>
+            <param name="src">缓存区</param>
+            <param name="offset">开始加密的偏移</param>
+        </member>
+        <member name="M:SmartEngine.Network.Encryption.Decrypt(System.Byte[],System.Int32,System.Int32)">
+            <summary>
+            解密缓存区
+            </summary>
+            <param name="src">缓存区</param>
+            <param name="offset">开始解密的偏移</param>
+        </member>
+        <member name="P:SmartEngine.Network.Encryption.Implementation">
+            <summary>
+            加密所使用的具体实现，默认为AES加密
+            </summary>
+        </member>
+        <member name="P:SmartEngine.Network.Encryption.IsReady">
+            <summary>
+            加密算法是否就绪
+            </summary>
+        </member>
+        <member name="T:SevenZip.DataErrorException">
+            <summary>
+            The exception that is thrown when an error in input stream occurs during decoding.
+            </summary>
+        </member>
+        <member name="T:SevenZip.InvalidParamException">
+            <summary>
+            The exception that is thrown when the value of an argument is outside the allowable range.
+            </summary>
+        </member>
+        <member name="M:SevenZip.ICodeProgress.SetProgress(System.Int64,System.Int64)">
+            <summary>
+            Callback progress.
+            </summary>
+            <param name="inSize">
+            input size. -1 if unknown.
+            </param>
+            <param name="outSize">
+            output size. -1 if unknown.
+            </param>
+        </member>
+        <member name="T:SevenZip.CoderPropID">
+            <summary>
+            Provides the fields that represent properties idenitifiers for compressing.
+            </summary>
+        </member>
+        <member name="F:SevenZip.CoderPropID.DictionarySize">
+            <summary>
+            Specifies size of dictionary.
+            </summary>
+        </member>
+        <member name="F:SevenZip.CoderPropID.UsedMemorySize">
+            <summary>
+            Specifies size of memory for PPM*.
+            </summary>
+        </member>
+        <member name="F:SevenZip.CoderPropID.Order">
+            <summary>
+            Specifies order for PPM methods.
+            </summary>
+        </member>
+        <!-- 对于成员“F:SevenZip.CoderPropID.PosStateBits”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“F:SevenZip.CoderPropID.LitContextBits”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“F:SevenZip.CoderPropID.LitPosBits”忽略有格式错误的 XML 注释 -->
+        <member name="F:SevenZip.CoderPropID.NumFastBytes">
+            <summary>
+            Specifies number of fast bytes for LZ*.
+            </summary>
+        </member>
+        <member name="F:SevenZip.CoderPropID.MatchFinder">
+            <summary>
+            Specifies match finder. LZMA: "BT2", "BT4" or "BT4B".
+            </summary>
+        </member>
+        <member name="F:SevenZip.CoderPropID.NumPasses">
+            <summary>
+            Specifies number of passes.
+            </summary>
+        </member>
+        <member name="F:SevenZip.CoderPropID.Algorithm">
+            <summary>
+            Specifies number of algorithm.
+            </summary>
+        </member>
+        <member name="F:SevenZip.CoderPropID.MultiThread">
+            <summary>
+            Specifies multithread mode.
+            </summary>
+        </member>
+        <member name="F:SevenZip.CoderPropID.EndMarker">
+            <summary>
+            Specifies mode with end marker.
+            </summary>
+        </member>
+        <member name="M:SmartEngine.Network.VirtualFileSystem.LPK.LpkFile.GetInfo(System.String)">
+            <summary>
+            取得文件元信息
+            </summary>
+            <param name="name">文件名</param>
+            <returns>元信息</returns>
+        </member>
+        <member name="M:SmartEngine.Network.VirtualFileSystem.LPK.LpkFile.Exists(System.String)">
+            <summary>
+            检查某文件是否存在
+            </summary>
+            <param name="fileName">文件名</param>
+            <returns></returns>
+        </member>
+        <member name="M:SmartEngine.Network.VirtualFileSystem.LPK.LpkFile.AddFile(System.String,System.IO.Stream)">
+            <summary>
+            向压缩包添加文件
+            </summary>
+            <param name="fileName">文件名</param>
+            <param name="inStream">要添加的文件的流</param>
+        </member>
+        <member name="M:SmartEngine.Network.VirtualFileSystem.LPK.LpkFile.AddFile(System.String,System.IO.Stream,SevenZip.ICodeProgress)">
+            <summary>
+            向压缩包添加文件
+            </summary>
+            <param name="fileName">文件名</param>
+            <param name="inStream">要添加的文件的流</param>
+            <param name="progress">压缩进度回调对象</param>
+        </member>
+        <member name="M:SmartEngine.Network.VirtualFileSystem.LPK.LpkFile.OpenFile(System.String)">
+            <summary>
+            从压缩包解压某文件到内存
+            </summary>
+            <param name="fileName">文件名</param>
+            <returns></returns>
+        </member>
+        <member name="M:SmartEngine.Network.VirtualFileSystem.LPK.LpkFile.OpenFile(System.String,SevenZip.ICodeProgress)">
+            <summary>
+            从压缩包解压某文件到内存
+            </summary>
+            <param name="fileName">文件名</param>
+            <param name="progress">解压进度回调对象</param>
+            <returns></returns>
+        </member>
+        <member name="P:SmartEngine.Network.VirtualFileSystem.LPK.LpkFile.GetFileNames">
+            <summary>
+            取得所有文件的元信息
+            </summary>
+            <returns>元信息</returns>
+        </member>
+        <member name="P:SmartEngine.Network.VirtualFileSystem.LPK.LpkFile.FileCount">
+            <summary>
+            文件总数
+            </summary>
+        </member>
+        <member name="P:SmartEngine.Network.VirtualFileSystem.LPK.LpkFile.TotalSize">
+            <summary>
+            总大小
+            </summary>
+        </member>
+        <member name="P:SmartEngine.Network.VirtualFileSystem.LPK.LpkFile.TotalCompressedSize">
+            <summary>
+            总压缩后大小
+            </summary>
+        </member>
+        <member name="T:SmartEngine.Network.ClientManager">
+            <summary>
+            客户端管理器主类，不应继承此类而是ClientManager(T)，包含了关键区同步实现"/>
+            </summary>    
+        </member>
+        <member name="M:SmartEngine.Network.ClientManager.AddThread(System.Threading.Thread)">
+            <summary>
+            添加线程
+            </summary>
+            <param name="thread">线程</param>
+        </member>
+        <member name="M:SmartEngine.Network.ClientManager.AddThread(System.String,System.Threading.Thread)">
+            <summary>
+            添加线程
+            </summary>
+            <param name="name">名称</param>
+            <param name="thread">线程</param>
+        </member>
+        <member name="M:SmartEngine.Network.ClientManager.RemoveThread(System.String)">
+            <summary>
+            删除线程
+            </summary>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:SmartEngine.Network.ClientManager.GetThread(System.String)">
+            <summary>
+            取得线程
+            </summary>
+            <param name="name">名称</param>
+            <returns>线程</returns>
+        </member>
+        <member name="M:SmartEngine.Network.ClientManager.checkCriticalArea">
+            <summary>
+            死锁探测器
+            </summary>
+        </member>
+        <member name="M:SmartEngine.Network.ClientManager.PrintAllThreads">
+            <summary>
+            在控制台打印出当前线程运行情况，以及其调用堆栈
+            </summary>
+        </member>
+        <member name="M:SmartEngine.Network.ClientManager.EnterCriticalArea">
+            <summary>
+            进入关键区
+            </summary>
+        </member>
+        <member name="M:SmartEngine.Network.ClientManager.LeaveCriticalArea">
+            <summary>
+            离开关键区
+            </summary>
+        </member>
+        <member name="M:SmartEngine.Network.ClientManager.LeaveCriticalArea(System.Threading.Thread)">
+            <summary>
+            强制某个线程离开关键区
+            </summary>
+            <param name="blocker">上锁的线程</param>
+        </member>
+        <member name="P:SmartEngine.Network.ClientManager.Blocked">
+            <summary>
+            主锁是否已闭塞
+            </summary>
+        </member>
+        <member name="T:SmartEngine.Network.ClientManager`1">
+            <summary>
+            客户端管理器
+            </summary>
+            <typeparam name="T">封包Opcode枚举</typeparam>
+        </member>
+        <member name="M:SmartEngine.Network.ClientManager`1.NeedSendPacket(SmartEngine.Network.NetIO{`0})">
+            <summary>
+            将NetIO实例加入封包发送队列
+            </summary>
+            <param name="netio">NetIO实例</param>
+        </member>
+        <member name="M:SmartEngine.Network.ClientManager`1.NewSession">
+            <summary>
+            建立一个新的Session实例
+            </summary>
+            <returns>新Session</returns>
+        </member>
+        <member name="M:SmartEngine.Network.ClientManager`1.RegisterPacketHandler(`0,SmartEngine.Network.Packet{`0})">
+            <summary>
+            注册封包处理类
+            </summary>
+            <param name="opcode">Opcode</param>
+            <param name="packetHandler">对应的处理类</param>
+        </member>
+        <member name="P:SmartEngine.Network.ClientManager`1.Clients">
+            <summary>
+            目前连线的客户端
+            </summary>
+        </member>
+        <member name="P:SmartEngine.Network.ClientManager`1.MaxNewConnections">
+            <summary>
+            一次能够接收的最大连接数
+            </summary>
+        </member>
+        <member name="P:SmartEngine.Network.ClientManager`1.Port">
+            <summary>
+            服务器监听的端口
+            </summary>
+        </member>
+        <member name="T:SmartEngine.Network.Utils.BitMask`1">
+            <summary>
+            原子掩码类的泛型封装
+            </summary>
+            <typeparam name="T">一个枚举类型</typeparam>
+        </member>
+        <member name="M:SmartEngine.Network.Utils.BitMask`1.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:SmartEngine.Network.Utils.BitMask`1.#ctor(SmartEngine.Network.Utils.BitMask)">
+            <summary>
+            
+            </summary>
+            <param name="ori"></param>
+        </member>
+        <member name="M:SmartEngine.Network.Utils.BitMask`1.Test(`0)">
+            <summary>
+            检测某个标识
+            </summary>
+            <param name="Mask">标识</param>
+            <returns>值</returns>
+        </member>
+        <member name="M:SmartEngine.Network.Utils.BitMask`1.SetValue(`0,System.Boolean)">
+            <summary>
+            设定某标识的值
+            </summary>
+            <param name="bitmask">标识</param>
+            <param name="val">真值</param>
+        </member>
+        <member name="M:SmartEngine.Network.Utils.BitMask`1.op_Implicit(SmartEngine.Network.Utils.BitMask)~SmartEngine.Network.Utils.BitMask{`0}">
+            <summary>
+            强制转换
+            </summary>
+            <param name="ori"></param>
+            <returns></returns>
+        </member>
+        <member name="P:SmartEngine.Network.Utils.BitMask`1.Value">
+            <summary>
+            此子掩码32位整数值
+            </summary>
+        </member>
+        <member name="T:SmartEngine.Network.Utils.BitMask">
+            <summary>
+            子掩码标识类
+            </summary>
+        </member>
+        <member name="M:SmartEngine.Network.Utils.BitMask.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:SmartEngine.Network.Utils.BitMask.Test(System.Object)">
+            <summary>
+            检测某个标识
+            </summary>
+            <param name="Mask">标识</param>
+            <returns>值</returns>        
+        </member>
+        <member name="M:SmartEngine.Network.Utils.BitMask.Test(System.Int32)">
+            <summary>
+            检测某个标识
+            </summary>
+            <param name="Mask">标识</param>
+            <returns>值</returns>        
+        </member>
+        <member name="M:SmartEngine.Network.Utils.BitMask.SetValue(System.Object,System.Boolean)">
+            <summary>
+            设定某标识的值
+            </summary>
+            <param name="bitmask">标识</param>
+            <param name="val">真值</param>        
+        </member>
+        <member name="M:SmartEngine.Network.Utils.BitMask.SetValue(System.Int32,System.Boolean)">
+            <summary>
+            设定某标识的值
+            </summary>
+            <param name="bitmask">标识</param>
+            <param name="val">真值</param>
+        </member>
+        <member name="P:SmartEngine.Network.Utils.BitMask.Value">
+            <summary>
+            子掩码值
+            </summary>
+        </member>
+        <member name="T:SmartEngine.Network.VirtualFileSystem.FileSystems">
+            <summary>
+            文件系统类型
+            </summary>
+        </member>
+        <member name="F:SmartEngine.Network.VirtualFileSystem.FileSystems.Real">
+            <summary>
+            真实文件系统
+            </summary>
+        </member>
+        <member name="F:SmartEngine.Network.VirtualFileSystem.FileSystems.LPK">
+            <summary>
+            LPK压缩归档文件
+            </summary>
+        </member>
+        <member name="F:SmartEngine.Network.VirtualFileSystem.FileSystems.Engine">
+            <summary>
+            使用引擎的虚拟文件系统
+            </summary>
+        </member>
+        <member name="T:SmartEngine.Network.VirtualFileSystem.VirtualFileSystemManager">
+            <summary>
+            虚拟文件系统管理器
+            </summary>
+        </member>
+        <member name="T:SmartEngine.Network.Tasks.Task">
+            <summary>
+            任务，可用于定时器，或者某些需要重复执行的服务器系统任务
+            </summary>
+        </member>
+        <member name="F:SmartEngine.Network.Tasks.Task.dueTime">
+            <summary>
+            启动延迟(ms)
+            </summary>
+        </member>
+        <member name="F:SmartEngine.Network.Tasks.Task.period">
+            <summary>
+            运行周期(ms)
+            </summary>
+        </member>
+        <member name="F:SmartEngine.Network.Tasks.Task.NextUpdateTime">
+            <summary>
+            下次执行时间
+            </summary>
+        </member>
+        <member name="M:SmartEngine.Network.Tasks.Task.#ctor(System.Int32,System.Int32,System.String)">
+            <summary>
+            创建一个新任务实例
+            </summary>
+            <param name="dueTime">启动延迟</param>
+            <param name="period">运行周期</param>
+            <param name="name">名称</param>
+        </member>
+        <member name="M:SmartEngine.Network.Tasks.Task.CallBack">
+            <summary>
+            任务每次运行时调用的回调函数
+            </summary>
+        </member>
+        <member name="M:SmartEngine.Network.Tasks.Task.Activate">
+            <summary>
+            激活任务
+            </summary>
+        </member>
+        <member name="M:SmartEngine.Network.Tasks.Task.Deactivate">
+            <summary>
+            将任务处于非激活状态
+            </summary>
+        </member>
+        <member name="P:SmartEngine.Network.Tasks.Task.Name">
+            <summary>
+            任务名称
+            </summary>
+        </member>
+        <member name="P:SmartEngine.Network.Tasks.Task.Activated">
+            <summary>
+            任务是否处于活动状态
+            </summary>
+        </member>
+        <member name="T:SmartEngine.Network.Logger">
+            <summary>
+            控制台用Logger
+            </summary>
+        </member>
+        <member name="T:SmartEngine.Network.Database.Cache.ICacheDBHandler`2">
+            <summary>
+            Cache存取DB的界面
+            </summary>
+            <typeparam name="KeyType">Key的類型</typeparam>
+            <typeparam name="ValueType">數據的型別</typeparam>
+        </member>
+        <member name="M:SmartEngine.Network.Database.Cache.ICacheDBHandler`2.LoadData(`0)">
+            <summary>
+            讀取數據
+            </summary>
+            <param name="key">ID</param>
+            <returns>數據</returns>
+        </member>
+        <member name="M:SmartEngine.Network.Database.Cache.ICacheDBHandler`2.SaveData(System.Collections.Generic.List{`1}@)">
+            <summary>
+            寫入數據
+            </summary>
+            <param name="data">數據</param>
+            <returns>寫入結果</returns>
+        </member>
+        <member name="M:SmartEngine.Network.Database.Cache.ICacheDBHandler`2.CreateData(`0,`1)">
+            <summary>
+            創建數據
+            </summary>
+            <param name="key">ID</param>
+            <param name="data">數據</param>
+            <returns>寫入結果</returns>
+            <remarks>INSERT INTO `Table` (ID,...) VALUES (Key,....);</remarks>
+        </member>
+        <member name="M:SmartEngine.Network.Database.Cache.ICacheDBHandler`2.DeleteData(System.Collections.Generic.List{`1}@)">
+            <summary>
+            刪除數據
+            </summary>
+            <param name="data">數據</param>
+            <returns>刪除結果</returns>
+        </member>
+        <member name="M:SmartEngine.Network.Database.Cache.ICacheDBHandler`2.IsConnected">
+            <summary>
+            DB連線狀態
+            </summary>
+        </member>
+        <member name="M:SmartEngine.Network.Database.Cache.ICacheDBHandler`2.GetMaxID``1">
+            <summary>
+            取得ID(PK)最大值
+            </summary>
+            <returns></returns>
+            <typeparam name="T">数据的类型</typeparam>
+            <remarks>SELECT `ID` FROM `Table` ORDER BY `ID` DESC LIMIT 1</remarks>
+        </member>
+        <member name="T:SmartEngine.Network.Database.Cache.ICacheDBSaveResult">
+            <summary>
+            寫入的結果
+            </summary>
+        </member>
+        <member name="P:SmartEngine.Network.Utils.FactoryString`2.Instance">
+            <summary>
+            Return an instance of 
+            </summary>
+        </member>
+        <member name="T:SmartEngine.Network.Utils.FactoryString`2.SingletonHolder">
+            <summary>
+            Sealed class to avoid any heritage from this helper class
+            </summary>
+        </member>
+        <member name="M:SmartEngine.Network.Utils.FactoryString`2.SingletonHolder.#cctor">
+            <summary>
+            Explicit static constructor to tell C# compiler not to mark type as beforefieldinit
+            </summary>
+        </member>
+        <member name="T:SmartEngine.Network.Utils.Factory`2">
+            <summary>
+            通用CSV/XML读取器
+            </summary>
+            <typeparam name="K">类自身，用于创建Singleton</typeparam>
+            <typeparam name="T">读取后数据类型</typeparam>
+        </member>
+        <member name="P:SmartEngine.Network.Utils.Factory`2.Instance">
+            <summary>
+            Return an instance of 
+            </summary>
+        </member>
+        <member name="T:SmartEngine.Network.Utils.Factory`2.SingletonHolder">
+            <summary>
+            Sealed class to avoid any heritage from this helper class
+            </summary>
+        </member>
+        <member name="M:SmartEngine.Network.Utils.Factory`2.SingletonHolder.#cctor">
+            <summary>
+            Explicit static constructor to tell C# compiler not to mark type as beforefieldinit
+            </summary>
+        </member>
+        <member name="T:SmartEngine.Network.Database.Cache.Cache`2">
+            <summary>
+            数据库缓存类
+            </summary>
+            <typeparam name="KeyType">Key</typeparam>
+            <typeparam name="ValueType">Value</typeparam>
+        </member>
+        <member name="F:SmartEngine.Network.Database.Cache.Cache`2.capacity">
+            <summary>
+            可容納的最大量
+            </summary>
+        </member>
+        <member name="F:SmartEngine.Network.Database.Cache.Cache`2.EldestRemoveCount">
+            <summary>
+            一次移除多少個數據
+            </summary>
+        </member>
+        <member name="F:SmartEngine.Network.Database.Cache.Cache`2.CacheData">
+            <summary>
+            數據保存的地方
+            </summary>
+        </member>
+        <member name="F:SmartEngine.Network.Database.Cache.Cache`2.SaveTimeInterval">
+            <summary>
+            每隔多久寫入一次數據(MicroSec)
+            </summary>
+        </member>
+        <member name="F:SmartEngine.Network.Database.Cache.Cache`2.Closing">
+            <summary>
+            是否要結束了
+            </summary>
+        </member>
+        <member name="F:SmartEngine.Network.Database.Cache.Cache`2.DBWriter">
+            <summary>
+            寫入數據的類別
+            </summary>
+        </member>
+        <member name="F:SmartEngine.Network.Database.Cache.Cache`2.DBHandler">
+            <summary>
+            存取DB類別
+            </summary>
+        </member>
+        <member name="F:SmartEngine.Network.Database.Cache.Cache`2.MaxIdentity">
+            <summary>
+            最大的Key值
+            </summary>
+        </member>
+        <member name="M:SmartEngine.Network.Database.Cache.Cache`2.Add(`0,`1)">
+            <summary>
+            新增或更新數據
+            </summary>
+            <param name="key"></param>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SmartEngine.Network.Database.Cache.Cache`2.Remove(`0)">
+            <summary>
+            從Cache中移除數據
+            </summary>
+            <param name="key">key</param>
+        </member>
+        <member name="M:SmartEngine.Network.Database.Cache.Cache`2.IsFull">
+            <summary>
+            是否滿了
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SmartEngine.Network.Database.Cache.Cache`2.RemoveEldest">
+            <summary>
+            移除最舊的數據(前 EldestRemoveCount 個)
+            </summary>
+        </member>
+        <member name="M:SmartEngine.Network.Database.Cache.Cache`2.Get(`0)">
+            <summary>
+            取得數據
+            </summary>
+            <param name="key">key</param>
+            <returns>數據</returns>
+        </member>
+        <member name="M:SmartEngine.Network.Database.Cache.Cache`2.Save(`0,`1)">
+            <summary>
+            儲存數據
+            </summary>
+            <param name="key">Key</param>
+            <param name="data">數據</param>
+        </member>
+        <member name="M:SmartEngine.Network.Database.Cache.Cache`2.Save(SmartEngine.Network.Database.Cache.CacheDataInfo{`0,`1}@)">
+            <summary>
+            儲存數據
+            </summary>
+            <param name="info">數據</param>
+        </member>
+        <member name="M:SmartEngine.Network.Database.Cache.Cache`2.GetNewIdentity">
+            <summary>
+            取得新的ID
+            </summary>
+        </member>
+        <member name="M:SmartEngine.Network.Database.Cache.Cache`2.Create(`1)">
+            <summary>
+            建立數據
+            </summary>
+            <param name="data">數據</param>
+            <returns>ID</returns>
+        </member>
+        <member name="M:SmartEngine.Network.Database.Cache.Cache`2.Delete(`0,`1)">
+            <summary>
+            刪除一筆數據
+            </summary>
+            <param name="key">Key</param>
+            <param name="data"></param>
+        </member>
+        <member name="M:SmartEngine.Network.Database.Cache.Cache`2.Delete(`0)">
+            <summary>
+            刪除一筆數據
+            </summary>
+            <param name="key">Key</param>
+        </member>
+        <member name="F:SmartEngine.Network.Database.Cache.Cache`2.SaveThread">
+            <summary>
+            數據儲存的Thread
+            </summary>
+        </member>
+        <member name="M:SmartEngine.Network.Database.Cache.Cache`2.SaveData">
+            <summary>
+            數據儲存的Thread所執行的Method
+            </summary>
+        </member>
+        <member name="M:SmartEngine.Network.Database.Cache.Cache`2.IncraseIdentity(`0)">
+            <summary>
+            增加Key值 (+1)
+            </summary>
+            <remarks>(不須處理ThreadSafe問題)</remarks>
+        </member>
+        <member name="P:SmartEngine.Network.Database.Cache.Cache`2.Capacity">
+            <summary>
+            最大容量
+            </summary>
+        </member>
+        <member name="P:SmartEngine.Network.Database.Cache.Cache`2.Count">
+            <summary>
+            目前內含數據數量
+            </summary>
+        </member>
+        <member name="P:SmartEngine.Network.Database.Cache.Cache`2.Item(`0)">
+            <summary>
+            取得數據
+            </summary>
+            <param name="key">Key</param>
+            <returns>數據</returns>
+        </member>
+        <member name="T:SmartEngine.Network.NetIO`1">
+            <summary>
+            网络层IO类
+            </summary>
+            <typeparam name="T">封包Opcode枚举</typeparam>
+        </member>
+        <member name="F:SmartEngine.Network.NetIO`1.Crypt">
+            <summary>
+            加密算法实例
+            </summary>
+        </member>
+        <member name="F:SmartEngine.Network.NetIO`1.client">
+            <summary>
+            绑定的客户端
+            </summary>
+        </member>
+        <member name="F:SmartEngine.Network.NetIO`1.sendQueue">
+            <summary>
+            封包发送队列
+            </summary>
+        </member>
+        <member name="F:SmartEngine.Network.NetIO`1.usedSendBuffer">
+            <summary>
+            已用发送缓存
+            </summary>
+        </member>
+        <member name="F:SmartEngine.Network.NetIO`1.commandTable">
+            <summary>
+            Command table contains the commands that need to be called when a
+            packet is received. Key will be the packet type
+            </summary>
+        </member>
+        <member name="M:SmartEngine.Network.NetIO`1.#ctor(System.Net.Sockets.Socket,System.Collections.Generic.Dictionary{`0,SmartEngine.Network.Packet{`0}},SmartEngine.Network.Session{`0})">
+            <summary>
+            创建一个新的IO实例
+            </summary>
+            <param name="sock">需要绑定的Socket</param>
+            <param name="commandTable">封包处理类注册表</param>
+            <param name="client">绑定的客户端</param>
+        </member>
+        <member name="M:SmartEngine.Network.NetIO`1.StartPacketParsing">
+            <summary>
+            开始启动主封包处理过程，通常在交换完加密密钥后调用
+            </summary>
+        </member>
+        <member name="M:SmartEngine.Network.NetIO`1.SetMode(SmartEngine.Network.Mode)">
+            <summary>
+            设置当前网络层模式，客户端或服务器端
+            </summary>
+            <param name="mode">需要设定的模式</param>
+        </member>
+        <member name="M:SmartEngine.Network.NetIO`1.ReceiveKeyExchange(System.IAsyncResult)">
+            <summary>
+            密钥交换处理函数
+            </summary>
+            <param name="ar"></param>
+        </member>
+        <member name="M:SmartEngine.Network.NetIO`1.Disconnect">
+            <summary>
+            断开连接
+            </summary>
+        </member>
+        <member name="M:SmartEngine.Network.NetIO`1.DumpData(SmartEngine.Network.Packet{`0})">
+            <summary>
+            将指定封包内容转换成Hex字符串
+            </summary>
+            <param name="p">封包</param>
+            <returns>Hex字符串</returns>
+        </member>
+        <member name="M:SmartEngine.Network.NetIO`1.SendPacket(SmartEngine.Network.Packet{`0},System.Boolean)">
+            <summary>
+            发送封包
+            </summary>
+            <param name="p">需要发送的封包</param>
+            <param name="noWarper">是否不需要封装封包头，仅用于交换密钥，其余时候不建议使用</param>
+        </member>
+        <member name="P:SmartEngine.Network.NetIO`1.Socket">
+            <summary>
+            本NetIO绑定的套接字
+            </summary>
+        </member>
+        <member name="P:SmartEngine.Network.NetIO`1.Disconnected">
+            <summary>
+            标识该IO是否处于断线状态
+            </summary>
+        </member>
+        <member name="P:SmartEngine.Network.NetIO`1.Encrypt">
+            <summary>
+            是否需要加密、解密封包
+            </summary>
+        </member>
+        <member name="P:SmartEngine.Network.NetIO`1.AutoLock">
+            <summary>
+            是否在处理封包时自动上锁，建议在不需要同步的服务期间内部通讯设置为false
+            </summary>
+        </member>
+        <member name="P:SmartEngine.Network.NetIO`1.UpStreamBand">
+            <summary>
+            当前平均使用的上行带宽，以字节为单位
+            </summary>
+        </member>
+        <member name="P:SmartEngine.Network.NetIO`1.DownStreamBand">
+            <summary>
+            当前平均使用的下行带宽，以字节为单位
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Spawns>
+  <spawn rate="14">
+    <!--迷宮の結晶体-->
+    <id>30030051</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>2</amount>
+    <range>128</range>
+    <delay>120</delay>
+  </spawn>
+  <spawn rate="14">
+    <!--レムレス-->
+    <id>10450300</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>2</amount>
+    <range>128</range>
+    <delay>120</delay>
+  </spawn>
+  <spawn rate="14">
+    <!--フォックストロットＢ３-->
+    <id>10810300</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>1</amount>
+    <range>128</range>
+    <delay>0</delay>
+  </spawn>
+  <spawn rate="14">
+    <!--ヘルダイバー-->
+    <id>10400300</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>2</amount>
+    <range>128</range>
+    <delay>120</delay>
+  </spawn>
+  <spawn rate="14">
+    <!--ホウオウ-->
+    <id>26050003</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>4</amount>
+    <range>128</range>
+    <delay>120</delay>
+  </spawn>
+  <spawn rate="14">
+    <!--ヘビーバット-->
+    <id>10020700</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>5</amount>
+    <range>128</range>
+    <delay>120</delay>
+  </spawn>
+  <spawn rate="14">
+    <!--かかし大将-->
+    <id>10670900</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>5</amount>
+    <range>128</range>
+    <delay>120</delay>
+  </spawn>
+  <spawn rate="100">
+    <!--迷宮の結晶体-->
+    <id>30030051</id>
+    <x>90</x>
+    <y>90</y>
+    <amount>1</amount>
+    <range>1</range>
+    <delay>0</delay>
+  </spawn>
+</Spawns>

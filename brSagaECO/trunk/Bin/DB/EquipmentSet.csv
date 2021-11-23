@@ -1,0 +1,2 @@
+#ID,Name,HeadID,HeadAcceID,FaceID,FaceAcceID,ChestAcceID,UpperBodyID,LowerBodyID,BackID,LeftHandID,RightHandID,ShoseID,SocksID,PetID,EffectID,bstr,bagi,bvit,bint,bdex,bmag,bspeed,baspd,bcspd,bdef,bdef_add,bmdef,bmdef_add,bmhp,bmsp,bmmp,bguard,bsavoid,blavoid,bcriaviud,bshit,blhit,bcri,baskill1,bpskill1
+1,暗杀者的隐秘装束(向日葵T1),50045700,50045700,0,0,0,0,0,0,60012200,60012200,0,0,0,0,100,100,100,100,100,100,0,0,0,7,125,9,123,10000,10000,10000,50,0,0,100,0,0,100,3434,0

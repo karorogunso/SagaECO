@@ -1,0 +1,3 @@
+#被配置会使用配置的信息,未配置的使用默认信息,,,,,
+#弹数,是否氪金,抽卡道具,C级概率,UC级概率,R级概率,SR级概率
+#SessionID,PayFlag,ItemID,CommonRate,UnCommonRate,RarityRate,SuperRarityRate

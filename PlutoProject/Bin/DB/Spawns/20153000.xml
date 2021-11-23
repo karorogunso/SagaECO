@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Spawns>
+  <spawn>
+    <!--ライチ　                         LV78-->
+    <id>10110400</id>
+    <map>20153000</map>
+    <x>32</x>
+    <y>25</y>
+    <amount>2</amount>
+    <range>16</range>
+    <delay>10</delay>
+  </spawn>
+  <spawn>
+    <!--プラチナム　                   LV76-->
+    <id>26090700</id>
+    <map>20153000</map>
+    <x>32</x>
+    <y>25</y>
+    <amount>2</amount>
+    <range>16</range>
+    <delay>10</delay>
+  </spawn>
+  <spawn>
+    <!--ギガントR　                     LV65-->
+    <id>10830100</id>
+    <map>20153000</map>
+    <x>32</x>
+    <y>25</y>
+    <amount>1</amount>
+    <range>16</range>
+    <delay>60</delay>
+  </spawn>
+  <spawn>
+    <!--ギガントR　                     LV65-->
+    <id>10830100</id>
+    <map>20153000</map>
+    <x>32</x>
+    <y>25</y>
+    <amount>1</amount>
+    <range>16</range>
+    <delay>10</delay>
+  </spawn>
+  <spawn>
+    <!--ギガントR　                     LV65-->
+    <id>10830100</id>
+    <map>20153000</map>
+    <x>32</x>
+    <y>25</y>
+    <amount>1</amount>
+    <range>16</range>
+    <delay>120</delay>
+  </spawn>
+  <spawn>
+    <!--ギガントR　                     LV65-->
+    <id>10830100</id>
+    <map>20153000</map>
+    <x>32</x>
+    <y>25</y>
+    <amount>1</amount>
+    <range>16</range>
+    <delay>120</delay>
+  </spawn>
+  <spawn>
+    <!--機械のかたまり-->
+    <id>30330000</id>
+    <map>20153000</map>
+    <x>32</x>
+    <y>25</y>
+    <amount>1</amount>
+    <range>16</range>
+    <delay>1620</delay>
+  </spawn>
+  <spawn>
+    <!--コンテナ６-->
+    <id>30280006</id>
+    <map>20153000</map>
+    <x>32</x>
+    <y>25</y>
+    <amount>1</amount>
+    <range>16</range>
+    <delay>2100</delay>
+  </spawn>
+  <spawn>
+    <!--木箱８-->
+    <id>30290008</id>
+    <map>20153000</map>
+    <x>32</x>
+    <y>25</y>
+    <amount>1</amount>
+    <range>16</range>
+    <delay>1920</delay>
+  </spawn>
+</Spawns>

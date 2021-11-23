@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Spawns>
+  <spawn rate="100">
+    <!--キメラ　黄-->
+    <id>10430700</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>3</amount>
+    <range>128</range>
+    <delay>120</delay>
+  </spawn>
+  <spawn rate="50">
+    <!--エンジェルフェザー-->
+    <id>10270000</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>2</amount>
+    <range>128</range>
+    <delay>120</delay>
+  </spawn>
+  <spawn rate="10">
+    <!--コランダム-->
+    <id>26130900</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>3</amount>
+    <range>128</range>
+    <delay>120</delay>
+  </spawn>
+  <spawn rate="10">
+    <!--スケルトンラピエレ-->
+    <id>10190100</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>4</amount>
+    <range>128</range>
+    <delay>120</delay>
+  </spawn>
+  <spawn rate="10">
+    <!--クリムゾンバウ-->
+    <id>10120100</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>3</amount>
+    <range>128</range>
+    <delay>120</delay>
+  </spawn>
+  <spawn rate="10">
+    <!--コケトリス-->
+    <id>10010100</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>2</amount>
+    <range>128</range>
+    <delay>120</delay>
+  </spawn>
+  <spawn rate="10">
+    <!--ドラッキー黒-->
+    <id>10020900</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>6</amount>
+    <range>128</range>
+    <delay>120</delay>
+  </spawn>
+  <spawn rate="100">
+    <!--プチメタリカ-->
+    <id>10001002</id>
+    <x>90</x>
+    <y>90</y>
+    <amount>1</amount>
+    <range>10</range>
+    <delay>0</delay>
+  </spawn>
+  <spawn rate="100">
+    <!--迷子のメタリカ-->
+    <id>10001001</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>1</amount>
+    <range>128</range>
+    <delay>0</delay>
+  </spawn>
+  <spawn rate="100">
+    <!--迷子のメタリカ-->
+    <id>10001001</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>1</amount>
+    <range>128</range>
+    <delay>0</delay>
+  </spawn>
+</Spawns>

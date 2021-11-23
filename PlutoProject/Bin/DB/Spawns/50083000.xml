@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Spawns>
+  <spawn>
+    <!--ＤＥＭ－００-->
+    <id>19070006</id>
+    <map>50083000</map>
+    <x>47</x>
+    <y>36</y>
+    <amount>1</amount>
+    <range>0</range>
+    <delay>0</delay>
+  </spawn>
+  <spawn>
+    <!--ＤＥＭ－００-->
+    <id>19070006</id>
+    <map>50083000</map>
+    <x>54</x>
+    <y>40</y>
+    <amount>1</amount>
+    <range>0</range>
+    <delay>0</delay>
+  </spawn>
+  <spawn>
+    <!--ＤＥＭ－００-->
+    <id>19070006</id>
+    <map>50083000</map>
+    <x>54</x>
+    <y>29</y>
+    <amount>1</amount>
+    <range>0</range>
+    <delay>0</delay>
+  </spawn>
+</Spawns>

@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapNameModifier", "MapNameModifier.csproj", "{4F28170E-2B91-4735-B6ED-0D148D277D3C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Web|Any CPU = Web|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F28170E-2B91-4735-B6ED-0D148D277D3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F28170E-2B91-4735-B6ED-0D148D277D3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F28170E-2B91-4735-B6ED-0D148D277D3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F28170E-2B91-4735-B6ED-0D148D277D3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F28170E-2B91-4735-B6ED-0D148D277D3C}.Web|Any CPU.ActiveCfg = Web|Any CPU
+		{4F28170E-2B91-4735-B6ED-0D148D277D3C}.Web|Any CPU.Build.0 = Web|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Spawns>
+  <spawn rate="14">
+    <!--迷宮の結晶体-->
+    <id>30030051</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>2</amount>
+    <range>128</range>
+    <delay>120</delay>
+  </spawn>
+  <spawn rate="14">
+    <!--スペルキャスター-->
+    <id>10410000</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>5</amount>
+    <range>128</range>
+    <delay>120</delay>
+  </spawn>
+  <spawn rate="14">
+    <!--キメラ　灰-->
+    <id>10431000</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>3</amount>
+    <range>128</range>
+    <delay>120</delay>
+  </spawn>
+  <spawn rate="14">
+    <!--ブリキングＲＸ３-->
+    <id>26000003</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>5</amount>
+    <range>128</range>
+    <delay>120</delay>
+  </spawn>
+  <spawn rate="14">
+    <!--ドラッキー　紫-->
+    <id>10020200</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>4</amount>
+    <range>128</range>
+    <delay>120</delay>
+  </spawn>
+  <spawn rate="14">
+    <!--キメラ-->
+    <id>10430000</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>5</amount>
+    <range>128</range>
+    <delay>120</delay>
+  </spawn>
+  <spawn rate="14">
+    <!--ブリキングキャノン-->
+    <id>10380000</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>2</amount>
+    <range>128</range>
+    <delay>120</delay>
+  </spawn>
+  <spawn rate="100">
+    <!--迷宮の結晶体-->
+    <id>30030051</id>
+    <x>90</x>
+    <y>90</y>
+    <amount>1</amount>
+    <range>1</range>
+    <delay>0</delay>
+  </spawn>
+</Spawns>

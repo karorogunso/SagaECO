@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Flag:0c16-->
+<QuestDB GroupID="64">
+
+  <Quest>
+    <!--ブリーダーギルド受付-->
+    <ID>25200001</ID>
+    <Name>第一实验</Name>
+    <Type>TRANSPORT</Type>
+    <Time>5</Time>
+    <RewardItem>0</RewardItem>
+    <RewardCount>0</RewardCount>
+    <RequiredQuestPoints>1</RequiredQuestPoints>
+    <DungeonID>0</DungeonID>
+    <MinLV>1</MinLV>
+    <MaxLv>255</MaxLv>
+    <Job>NONE</Job>
+    <JobType>NOVICE</JobType>
+    <Race>NONE</Race>
+    <Gender>NONE</Gender>
+    <!--Detail Information-->
+    <!--ブリーダーギルド-->
+    <EXP>0</EXP>
+    <JEXP>0</JEXP>
+    <Gold>0</Gold>
+    <Fame>0</Fame>
+    <NPCSource>11001374</NPCSource>
+    <NPCDestination>11001375</NPCDestination>
+    <ObjectID1>10052310</ObjectID1>
+    <Count1>1</Count1>
+  </Quest>
+</QuestDB>

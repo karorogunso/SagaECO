@@ -1,0 +1,25 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+using SagaDB.Actor;
+using SagaMap.Scripting;
+
+using SagaLib;
+using SagaScript.Chinese.Enums;
+namespace SagaScript.M50082000
+{
+    public class S11002214 : Event
+    {
+        public S11002214()
+        {
+            this.EventID = 11002214;
+        }
+
+        public override void OnEvent(ActorPC pc)
+        {
+            Say(pc, 0, 0, "有朋友$R;" +
+            "不是你處。$R;", "");
+        }
+    }
+}

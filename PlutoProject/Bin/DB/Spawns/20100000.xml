@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Spawns>
+  <spawn>
+    <!--ゴースト-->
+    <id>10680000</id>
+    <map>20100000</map>
+    <x>12</x>
+    <y>12</y>
+    <amount>3</amount>
+    <range>11</range>
+    <delay>10</delay>
+  </spawn>
+  <spawn>
+    <!--スペクター-->
+    <id>10690000</id>
+    <map>20100000</map>
+    <x>12</x>
+    <y>12</y>
+    <amount>3</amount>
+    <range>11</range>
+    <delay>10</delay>
+  </spawn>
+  <spawn>
+    <!--あやしいツボ-->
+    <id>30300001</id>
+    <map>20100000</map>
+    <x>12</x>
+    <y>12</y>
+    <amount>1</amount>
+    <range>11</range>
+    <delay>180</delay>
+  </spawn>
+</Spawns>

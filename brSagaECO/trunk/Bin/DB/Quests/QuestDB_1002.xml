@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Flag:0c00-->
+<QuestDB GroupID="1002">
+  <Quest>
+    <!--凯提之盾-->
+    <ID>90100201</ID>
+    <Name>取得猫灵的盾</Name>
+    <Type>GATHER</Type>
+    <Time>7200</Time>
+    <RewardItem>10017700</RewardItem>
+    <RewardCount>1</RewardCount>
+    <RequiredQuestPoints>1</RequiredQuestPoints>
+    <DungeonID>0</DungeonID>
+    <MinLV>1</MinLV>
+    <MaxLv>120</MaxLv>
+    <Job>NONE</Job>
+    <JobType>NOVICE</JobType>
+    <Race>NONE</Race>
+    <Gender>NONE</Gender>
+    <!--Detail Information-->
+    <!--龟背入手-->
+    <EXP>0</EXP>
+    <JEXP>0</JEXP>
+    <Gold>0</Gold>
+    <Fame>1</Fame>
+    <ObjectID1>10062300</ObjectID1>
+    <Count1>5</Count1>
+  </Quest>
+</QuestDB>

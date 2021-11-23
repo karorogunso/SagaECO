@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Flag:0c37-->
+<QuestDB GroupID="49">
+  <Quest>
+    <!--大タタラ場-->
+    <ID>12020600</ID>
+    <Name>收集鹽鐵吧(Lv 34)</Name>
+    <Type>GATHER</Type>
+    <Time>1440</Time>
+    <RewardItem>0</RewardItem>
+    <RewardCount>0</RewardCount>
+    <RequiredQuestPoints>1</RequiredQuestPoints>
+    <DungeonID>0</DungeonID>
+    <MinLV>34</MinLV>
+    <MaxLv>255</MaxLv>
+    <Job>NONE</Job>
+    <JobType>NOVICE</JobType>
+    <Race>NONE</Race>
+    <Gender>NONE</Gender>
+    <!--Detail Information-->
+    <!--炎鉄集め-->
+    <EXP>5876</EXP>
+    <JEXP>5876</JEXP>
+    <Gold>2800</Gold>
+    <Fame>1</Fame>
+    <ObjectID1>10015701</ObjectID1>
+    <Count1>1</Count1>
+  </Quest>
+  <Quest>
+    <!--大タタラ場-->
+    <ID>12020601</ID>
+    <Name>收集冰鐵吧(Lv 34)</Name>
+    <Type>GATHER</Type>
+    <Time>1440</Time>
+    <RewardItem>0</RewardItem>
+    <RewardCount>0</RewardCount>
+    <RequiredQuestPoints>1</RequiredQuestPoints>
+    <DungeonID>0</DungeonID>
+    <MinLV>34</MinLV>
+    <MaxLv>255</MaxLv>
+    <Job>NONE</Job>
+    <JobType>NOVICE</JobType>
+    <Race>NONE</Race>
+    <Gender>NONE</Gender>
+    <!--Detail Information-->
+    <!--氷鉄集め-->
+    <EXP>5876</EXP>
+    <JEXP>5876</JEXP>
+    <Gold>2800</Gold>
+    <Fame>1</Fame>
+    <ObjectID1>10015703</ObjectID1>
+    <Count1>1</Count1>
+  </Quest>
+  <Quest>
+    <!--大タタラ場-->
+    <ID>12020602</ID>
+    <Name>收集鬼鐵吧(Lv 39)</Name>
+    <Type>GATHER</Type>
+    <Time>1440</Time>
+    <RewardItem>0</RewardItem>
+    <RewardCount>0</RewardCount>
+    <RequiredQuestPoints>1</RequiredQuestPoints>
+    <DungeonID>0</DungeonID>
+    <MinLV>39</MinLV>
+    <MaxLv>255</MaxLv>
+    <Job>NONE</Job>
+    <JobType>NOVICE</JobType>
+    <Race>NONE</Race>
+    <Gender>NONE</Gender>
+    <!--Detail Information-->
+    <!--鬼鉄集め-->
+    <EXP>7595</EXP>
+    <JEXP>7595</JEXP>
+    <Gold>3200</Gold>
+    <Fame>1</Fame>
+    <ObjectID1>10015702</ObjectID1>
+    <Count1>1</Count1>
+  </Quest>
+  <Quest>
+    <!--大タタラ場-->
+    <ID>12020603</ID>
+    <Name>收集鏡鐵吧(Lv 44)</Name>
+    <Type>GATHER</Type>
+    <Time>1440</Time>
+    <RewardItem>0</RewardItem>
+    <RewardCount>0</RewardCount>
+    <RequiredQuestPoints>1</RequiredQuestPoints>
+    <DungeonID>0</DungeonID>
+    <MinLV>44</MinLV>
+    <MaxLv>255</MaxLv>
+    <Job>NONE</Job>
+    <JobType>NOVICE</JobType>
+    <Race>NONE</Race>
+    <Gender>NONE</Gender>
+    <!--Detail Information-->
+    <!--軽鉄集め-->
+    <EXP>9468</EXP>
+    <JEXP>9468</JEXP>
+    <Gold>3600</Gold>
+    <Fame>1</Fame>
+    <ObjectID1>10015800</ObjectID1>
+    <Count1>1</Count1>
+  </Quest>
+</QuestDB>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TreasureDB>
+  <TreasureList GroupName="GUILD">
+    <Item rate="10" count="1">50031209</Item>
+    <Item rate="10" count="1">50031250</Item>
+    <Item rate="10" count="1">50031309</Item>
+    <Item rate="10" count="1">50042010</Item>
+    <Item rate="10" count="1">50027100</Item>
+    <Item rate="10" count="1">50011209</Item>
+    <Item rate="10" count="1">50011700</Item>
+    <Item rate="10" count="1">10050604</Item>
+    <Item rate="100" count="1">50041050</Item>
+    <Item rate="100" count="1">50001650</Item>
+    <Item rate="130" count="1">50003552</Item>
+    <Item rate="130" count="1">50070050</Item>
+    <Item rate="180" count="1">50070051</Item>
+    <Item rate="180" count="1">50070251</Item>
+    <Item rate="200" count="1">50070252</Item>
+    <Item rate="300" count="1">50027000</Item>
+    <Item rate="300" count="1">50001952</Item>
+    <Item rate="340" count="1">50024750</Item>
+    <Item rate="340" count="1">50003753</Item>
+    <Item rate="360" count="1">50012253</Item>
+    <Item rate="360" count="1">60000451</Item>
+    <Item rate="360" count="1">60001851</Item>
+    <Item rate="360" count="1">60000550</Item>
+    <Item rate="400" count="1">60000350</Item>
+    <Item rate="400" count="1">50053404</Item>
+    <Item rate="300" count="1">50028000</Item>
+    <Item rate="300" count="1">10000609</Item>
+    <Item rate="400" count="3">10009111</Item>
+    <Item rate="3500" count="1">10024500</Item>
+  </TreasureList>
+</TreasureDB>

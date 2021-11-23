@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Spawns>
+  <spawn rate="14">
+    <!--迷宮の結晶体-->
+    <id>30030051</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>2</amount>
+    <range>128</range>
+    <delay>120</delay>
+  </spawn>
+  <spawn rate="14">
+    <!--ジャージーワーム-->
+    <id>10055000</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>5</amount>
+    <range>128</range>
+    <delay>120</delay>
+  </spawn>
+  <spawn rate="14">
+    <!--ベガ-->
+    <id>10640000</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>5</amount>
+    <range>128</range>
+    <delay>120</delay>
+  </spawn>
+  <spawn rate="14">
+    <!--バンシー-->
+    <id>26010400</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>5</amount>
+    <range>128</range>
+    <delay>120</delay>
+  </spawn>
+  <spawn rate="14">
+    <!--ケイブフィッシュ-->
+    <id>10060002</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>5</amount>
+    <range>128</range>
+    <delay>120</delay>
+  </spawn>
+  <spawn rate="14">
+    <!--ブーピー-->
+    <id>10220700</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>2</amount>
+    <range>128</range>
+    <delay>120</delay>
+  </spawn>
+  <spawn rate="14">
+    <!--オイリー-->
+    <id>10000901</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>2</amount>
+    <range>128</range>
+    <delay>120</delay>
+  </spawn>
+  <spawn rate="100">
+    <!--迷宮の結晶体-->
+    <id>30030051</id>
+    <x>90</x>
+    <y>90</y>
+    <amount>1</amount>
+    <range>1</range>
+    <delay>0</delay>
+  </spawn>
+  <spawn rate="100">
+    <!--赤蛇お夏-->
+    <id>10450100</id>
+    <x>90</x>
+    <y>90</y>
+    <amount>1</amount>
+    <range>10</range>
+    <delay>0</delay>
+  </spawn>
+</Spawns>

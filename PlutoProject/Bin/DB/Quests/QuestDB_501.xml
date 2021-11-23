@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Flag:0c68-->
+<QuestDB GroupID="501">
+  <Quest>
+    <!--TEST-->
+    <ID>50000001</ID>
+    <Name> 封测塔第一层攻略！</Name>
+    <Type>HUNT</Type>
+    <Time>120</Time>
+    <RequiredQuestPoints>0</RequiredQuestPoints>
+    <DungeonID>0</DungeonID>
+    <MinLV>40</MinLV>
+    <MaxLv>255</MaxLv>
+    <Job>NONE</Job>
+    <JobType>NOVICE</JobType>
+    <Race>NONE</Race>
+    <Gender>NONE</Gender>
+
+    <EXP>100000</EXP>
+    <JEXP>100000</JEXP>
+    <Gold>100000</Gold>
+    <Fame>1</Fame>
+    <ObjectID1>91000000</ObjectID1>
+    <Count1>1</Count1>
+    <Party>True</Party>
+  </Quest>
+  <Quest>
+    <!--TEST-->
+    <ID>50000002</ID>
+    <Name> 封测塔第二层攻略！</Name>
+    <Type>HUNT</Type>
+    <Time>120</Time>
+    <RequiredQuestPoints>0</RequiredQuestPoints>
+    <DungeonID>0</DungeonID>
+    <MinLV>40</MinLV>
+    <MaxLv>255</MaxLv>
+    <Job>NONE</Job>
+    <JobType>NOVICE</JobType>
+    <Race>NONE</Race>
+    <Gender>NONE</Gender>
+
+    <EXP>150000</EXP>
+    <JEXP>150000</JEXP>
+    <Gold>100000</Gold>
+    <Fame>1</Fame>
+    <ObjectID1>91000001</ObjectID1>
+    <Count1>1</Count1>
+    <Party>True</Party>
+  </Quest>
+</QuestDB>

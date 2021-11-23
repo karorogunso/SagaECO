@@ -1,0 +1,3591 @@
+Revision: 238
+Author: liiir1985@hotmail.com
+Date: 18:34:34, 2008年11月16日
+Message:
+forgotten file
+----
+Added : /trunk/SagaMap/Scripting/Item.cs
+
+Revision: 237
+Author: liiir1985@hotmail.com
+Date: 18:27:47, 2008年11月16日
+Message:
+arrow,bullet,bow,gun are now full implemented
+----
+Modified : /trunk/ConfigFiles/SagaLogin.xml
+Modified : /trunk/ConfigFiles/SagaMap.xml
+Modified : /trunk/SagaDB/Item/Inventory.cs
+Modified : /trunk/SagaDB/Item/Item.cs
+Modified : /trunk/SagaECO.sln
+Modified : /trunk/SagaLogin/Configuration/Configuration.cs
+Modified : /trunk/SagaLogin/LoginServer.cs
+Modified : /trunk/SagaMap/ActorEventHandlers/PCEventHandler.cs
+Modified : /trunk/SagaMap/AtCommand.cs
+Modified : /trunk/SagaMap/Configuration/Configuration.cs
+Modified : /trunk/SagaMap/Manager/ExperienceManager.cs
+Modified : /trunk/SagaMap/Manager/ScriptManager.cs
+Modified : /trunk/SagaMap/MapServer.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.Item.cs
+Modified : /trunk/SagaMap/PC/StatusFactory.Item.cs
+Modified : /trunk/SagaMap/SagaMap.csproj
+Modified : /trunk/SagaMap/Scripting/Event.Commands.Quest.cs
+Modified : /trunk/SagaMap/Scripting/Event.Commands.cs
+Modified : /trunk/SagaMap/Skill/SkillHandler.SkillAttack.cs
+Modified : /trunk/SagaMap/Skill/SkillHandler.SkillManager.cs
+Modified : /trunk/SagaScript/SagaScript.csproj
+
+Revision: 236
+Author: liiir1985@hotmail.com
+Date: 19:33:09, 2008年11月15日
+Message:
+More possession bug fixed
+----
+Modified : /trunk/SagaMap/Configuration/Configuration.cs
+Modified : /trunk/SagaMap/Mob/MobAttack.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.Item.cs
+Modified : /trunk/SagaMap/Packets/Server/Actor/SSMG_PLAYER_INFO.cs
+
+Revision: 235
+Author: liiir1985@hotmail.com
+Date: 18:22:13, 2008年11月15日
+Message:
+multiple login fix
+----
+Modified : /trunk/SagaLogin/Network/Client/LoginClient.Login.cs
+
+Revision: 234
+Author: liiir1985@hotmail.com
+Date: 17:19:51, 2008年11月15日
+Message:
+bug fixes:
+Groove skills
+passive skill reset after death
+possession bug
+----
+Modified : /trunk/AccessDataBase/ECO.mdb
+Modified : /trunk/SagaLogin/Manager/LoginClientManager.cs
+Modified : /trunk/SagaLogin/Network/Client/LoginClient.Login.cs
+Modified : /trunk/SagaLogin/Network/Client/LoginClient.cs
+Modified : /trunk/SagaMap/ActorEventHandlers/PCEventHandler.cs
+Modified : /trunk/SagaMap/Mob/AICommands/Attack.cs
+Modified : /trunk/SagaMap/Mob/AICommands/Chase.cs
+Modified : /trunk/SagaMap/Mob/MobAI.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.Login.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.Skill.cs
+Modified : /trunk/SagaMap/Packets/Server/Actor/SSMG_PLAYER_INFO.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Global/Groove.cs
+Modified : /trunk/SagaMap/Skill/SkillHandler.SkillAttack.cs
+
+Revision: 233
+Author: happy61@gmail.com
+Date: 18:10:45, 2008年11月14日
+Message:
+1、ADD Access 支持
+----
+Added : /trunk/AccessDataBase
+Added : /trunk/AccessDataBase/ECO.mdb
+Modified : /trunk/ConfigFiles/SagaLogin.xml
+Added : /trunk/SagaDB/AccessAccountDB.cs
+Added : /trunk/SagaDB/AccessActorDb.cs
+Added : /trunk/SagaDB/AccessConnectivity.cs
+Modified : /trunk/SagaDB/SagaDB.csproj
+Modified : /trunk/SagaLogin/Configuration/Configuration.cs
+Modified : /trunk/SagaLogin/LoginServer.cs
+Modified : /trunk/SagaMap/AtCommand.cs
+Modified : /trunk/SagaMap/Configuration/Configuration.cs
+Modified : /trunk/SagaMap/MapServer.cs
+
+Revision: 232
+Author: liiir1985@hotmail.com
+Date: 0:02:00, 2008年11月11日
+Message:
+bugfix: use item while another is using another item causes problem
+----
+Modified : /trunk/SagaMap/ActorEventHandlers/PCEventHandler.cs
+Modified : /trunk/SagaMap/Map.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.Item.cs
+Modified : /trunk/SagaMap/Packets/Server/Item/SSMG_ITEM_USE.cs
+
+Revision: 231
+Author: liiir1985@hotmail.com
+Date: 22:22:50, 2008年11月10日
+Message:
+bugfix: if client failed in exchanging encryption key, client won't be deleted properly, and this will cause problem while iterating Clients Collection.
+bugfix: if player get kicked from party while he's offline, will cause problem
+----
+Modified : /trunk/SagaDB/Actor/Actor.cs
+Modified : /trunk/SagaDB/Actor/ActorEventHandler.cs
+Modified : /trunk/SagaDB/Actor/ActorPC.cs
+Modified : /trunk/SagaDB/Actor/Enums.cs
+Modified : /trunk/SagaMap/ActorEventHandlers/ItemEventHandler.cs
+Modified : /trunk/SagaMap/ActorEventHandlers/MobEventHandler.cs
+Modified : /trunk/SagaMap/ActorEventHandlers/NullEventHandler.cs
+Modified : /trunk/SagaMap/ActorEventHandlers/PCEventHandler.cs
+Modified : /trunk/SagaMap/ActorEventHandlers/PetEventHandler.cs
+Modified : /trunk/SagaMap/AtCommand.cs
+Modified : /trunk/SagaMap/Manager/PartyManager.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.cs
+Modified : /trunk/SagaMap/Scripting/Event.Commands.cs
+Modified : /trunk/SagaMap/Skill/Additions/Global/鈍足.cs
+
+Revision: 230
+Author: 171782061@qq.com
+Date: 18:33:33, 2008年11月10日
+Message:
+
+----
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Global/BowMastery.cs
+Modified : /trunk/SagaMap/Skill/SkillHandler.SkillManager.cs
+
+Revision: 229
+Author: 171782061@qq.com
+Date: 16:57:14, 2008年11月10日
+Message:
+
+----
+Added : /trunk/SagaMap/Skill/SkillDefinations/Global/BowMastery.cs
+
+Revision: 228
+Author: 171782061@qq.com
+Date: 16:28:53, 2008年11月10日
+Message:
+Archer skills added
+----
+Modified : /trunk/SagaECO.sln
+Modified : /trunk/SagaMap/SagaMap.csproj
+Added : /trunk/SagaMap/Skill/SkillDefinations/Archer
+Added : /trunk/SagaMap/Skill/SkillDefinations/Archer/BowCancel.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Archer/ChargeArrow.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Archer/ConArrow.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Archer/DistanceArrow.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Archer/EarthArrow.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Archer/FireArrow.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Archer/LAvoUp.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Archer/LHitUp.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Archer/WaterArrow.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Archer/WindArrow.cs
+Modified : /trunk/SagaMap/Skill/SkillHandler.SkillManager.cs
+
+Revision: 227
+Author: liiir1985@hotmail.com
+Date: 21:59:13, 2008年11月8日
+Message:
+Sign/Recruitment implemented
+script updated
+----
+Modified : /trunk/SagaDB/Actor/ActorEventHandler.cs
+Modified : /trunk/SagaDB/Actor/ActorPC.cs
+Modified : /trunk/SagaDB/Item/Item.cs
+Modified : /trunk/SagaMap/ActorEventHandlers/ItemEventHandler.cs
+Modified : /trunk/SagaMap/ActorEventHandlers/MobEventHandler.cs
+Modified : /trunk/SagaMap/ActorEventHandlers/NullEventHandler.cs
+Modified : /trunk/SagaMap/ActorEventHandlers/PCEventHandler.cs
+Modified : /trunk/SagaMap/ActorEventHandlers/PetEventHandler.cs
+Modified : /trunk/SagaMap/Manager/MapClientManager.cs
+Added : /trunk/SagaMap/Manager/RecuitmentManager.cs
+Modified : /trunk/SagaMap/Map.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.Chat.cs
+Added : /trunk/SagaMap/Network/Client/MapClient.Community.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.NPC.cs
+Added : /trunk/SagaMap/Packets/Client/Chat/CSMG_CHAT_SIGN.cs
+Added : /trunk/SagaMap/Packets/Client/Community
+Added : /trunk/SagaMap/Packets/Client/Community/CSMG_COMMUNITY_RECRUIT.cs
+Added : /trunk/SagaMap/Packets/Client/Community/CSMG_COMMUNITY_RECRUIT_CREATE.cs
+Added : /trunk/SagaMap/Packets/Client/Community/CSMG_COMMUNITY_RECRUIT_DELETE.cs
+Modified : /trunk/SagaMap/Packets/Server/Actor/SSMG_ACTOR_PC_INFO.cs
+Modified : /trunk/SagaMap/Packets/Server/Actor/SSMG_ACTOR_PET_APPEAR.cs
+Modified : /trunk/SagaMap/Packets/Server/Actor/SSMG_PLAYER_INFO.cs
+Modified : /trunk/SagaMap/Packets/Server/Actor/SSMG_PLAYER_JOB.cs
+Modified : /trunk/SagaMap/Packets/Server/Actor/SSMG_PLAYER_LEVEL.cs
+Added : /trunk/SagaMap/Packets/Server/Chat/SSMG_CHAT_SIGN.cs
+Added : /trunk/SagaMap/Packets/Server/Community
+Added : /trunk/SagaMap/Packets/Server/Community/SSMG_COMMUNITY_RECRUIT.cs
+Added : /trunk/SagaMap/Packets/Server/Community/SSMG_COMMUNITY_RECRUIT_CREATE.cs
+Added : /trunk/SagaMap/Packets/Server/Community/SSMG_COMMUNITY_RECRUIT_DELETE.cs
+Modified : /trunk/SagaMap/SagaMap.csproj
+Added : /trunk/SagaScript/Chinese/NPC标识枚举/中央城市標示3.cs
+Modified : /trunk/SagaScript/Chinese/NPC标识枚举/猫灵系列任务.cs
+Added : /trunk/SagaScript/Chinese/NPC标识枚举/阿伊恩市標示.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/上城垃圾桶.cs
+Deleted : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/垃圾桶-12000005.cs
+Deleted : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/垃圾桶-12000007.cs
+Deleted : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/垃圾桶-12000009.cs
+Deleted : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/垃圾桶-12000011.cs
+Deleted : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/垃圾桶-12000017.cs
+Deleted : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/垃圾桶-12000018.cs
+Deleted : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/垃圾桶-12000019.cs
+Deleted : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/垃圾桶-12000021.cs
+Deleted : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/垃圾桶-12000022.cs
+Deleted : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/垃圾桶-12000069.cs
+Deleted : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/垃圾桶-12000070.cs
+Deleted : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/垃圾桶-12000071.cs
+Deleted : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/垃圾桶-12000072.cs
+Deleted : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/垃圾桶-12000073.cs
+Deleted : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/垃圾桶-12000074.cs
+Deleted : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/垃圾桶-12000075.cs
+Deleted : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/垃圾桶-12000076.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/見習鐵匠阿魯斯-11000510.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城北邊吊橋(10023400)/上城北邊吊橋垃圾桶.cs
+Deleted : /trunk/SagaScript/Chinese/中央城市/上城北邊吊橋(10023400)/垃圾桶-12000013.cs
+Deleted : /trunk/SagaScript/Chinese/中央城市/上城北邊吊橋(10023400)/垃圾桶-12000015.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城南邊吊橋(10023300)/上城南邊吊橋垃圾桶.cs
+Deleted : /trunk/SagaScript/Chinese/中央城市/上城南邊吊橋(10023300)/垃圾桶-12000010.cs
+Deleted : /trunk/SagaScript/Chinese/中央城市/上城南邊吊橋(10023300)/垃圾桶-12000012.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城東邊吊橋(10023100)/上城東邊吊橋垃圾桶.cs
+Deleted : /trunk/SagaScript/Chinese/中央城市/上城東邊吊橋(10023100)/垃圾桶-12000014.cs
+Deleted : /trunk/SagaScript/Chinese/中央城市/上城東邊吊橋(10023100)/垃圾桶-12000016.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城西邊吊橋(10023200)/上城西邊吊橋垃圾桶.cs
+Deleted : /trunk/SagaScript/Chinese/中央城市/上城西邊吊橋(10023200)/垃圾桶-12000006.cs
+Deleted : /trunk/SagaScript/Chinese/中央城市/上城西邊吊橋(10023200)/垃圾桶-12000008.cs
+Added : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/下城垃圾桶.cs
+Deleted : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/垃圾桶-12000023.cs
+Deleted : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/垃圾桶-12000024.cs
+Deleted : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/垃圾桶-12000025.cs
+Deleted : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/垃圾桶-12000026.cs
+Deleted : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/垃圾桶-12000027.cs
+Deleted : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/垃圾桶-12000028.cs
+Deleted : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/垃圾桶-12000029.cs
+Deleted : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/垃圾桶-12000030.cs
+Deleted : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/垃圾桶-12000031.cs
+Deleted : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/垃圾桶-12000032.cs
+Deleted : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/垃圾桶-12000033.cs
+Deleted : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/垃圾桶-12000034.cs
+Deleted : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/垃圾桶-12000035.cs
+Deleted : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/垃圾桶-12000036.cs
+Deleted : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/垃圾桶-12000037.cs
+Deleted : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/垃圾桶-12000038.cs
+Deleted : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/垃圾桶-12000039.cs
+Deleted : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/垃圾桶-12000040.cs
+Deleted : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/垃圾桶-12000041.cs
+Deleted : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/垃圾桶-12000042.cs
+Deleted : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/垃圾桶-12000043.cs
+Deleted : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/垃圾桶-12000044.cs
+Deleted : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/垃圾桶-12000045.cs
+Deleted : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/垃圾桶-12000046.cs
+Deleted : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/垃圾桶-12000047.cs
+Deleted : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/垃圾桶-12000048.cs
+Deleted : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/垃圾桶-12000049.cs
+Deleted : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/垃圾桶-12000050.cs
+Deleted : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/垃圾桶-12000051.cs
+Deleted : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/垃圾桶-12000052.cs
+Added : /trunk/SagaScript/Japanese
+Added : /trunk/SagaScript/Japanese/NPCフラグ
+Added : /trunk/SagaScript/Japanese/NPCフラグ/IronSouthFlag.cs
+Added : /trunk/SagaScript/Japanese/NPCフラグ/JobFlags.cs
+Added : /trunk/SagaScript/Japanese/NPCフラグ/TeddyLandFlags.cs
+Added : /trunk/SagaScript/Japanese/NPCフラグ/アップタウンフラグ.cs
+Added : /trunk/SagaScript/Japanese/NPCフラグ/アップタウンフラグ2.cs
+Added : /trunk/SagaScript/Japanese/NPCフラグ/アップタウンフラグ3.cs
+Added : /trunk/SagaScript/Japanese/NPCフラグ/ネコマタフラグ.cs
+Added : /trunk/SagaScript/Japanese/NPCフラグ/ノーザンフラグ.cs
+Added : /trunk/SagaScript/Japanese/アクロポリスシティ
+Added : /trunk/SagaScript/Japanese/アクロポリスシティ/アップタウン
+Added : /trunk/SagaScript/Japanese/アクロポリスシティ/アップタウン/ギルド元宮ロビー1F(30110000)
+Added : /trunk/SagaScript/Japanese/アクロポリスシティ/アップタウン/ギルド元宮ロビー1F(30110000)/ギルド元宮ガイド-11000000.cs
+Added : /trunk/SagaScript/Japanese/アクロポリスシティ/アップタウン/ギルド元宮ロビー1F(30110000)/転送-10000164.cs
+Added : /trunk/SagaScript/Japanese/アクロポリスシティ/アップタウン北可動橋(10023400)
+Added : /trunk/SagaScript/Japanese/アクロポリスシティ/アップタウン北可動橋(10023400)/アイテムチケット交換機-12001014.cs
+Added : /trunk/SagaScript/Japanese/アクロポリスシティ/アップタウン北可動橋(10023400)/アイテムチケット交換機-12001015.cs
+Added : /trunk/SagaScript/Japanese/アクロポリスシティ/アップタウン北可動橋(10023400)/アップタウン北門守衛-10000033.cs
+Added : /trunk/SagaScript/Japanese/アクロポリスシティ/アップタウン北可動橋(10023400)/ギルド商人-11000627.cs
+Added : /trunk/SagaScript/Japanese/アクロポリスシティ/アップタウン北可動橋(10023400)/ゴミ箱？.cs
+Added : /trunk/SagaScript/Japanese/アクロポリスシティ/アップタウン北可動橋(10023400)/初心者案内人-11000535.cs
+Added : /trunk/SagaScript/Japanese/アクロポリスシティ/アップタウン北可動橋(10023400)/復活の戦士-11000350.cs
+Added : /trunk/SagaScript/Japanese/アクロポリスシティ/アップタウン南可動橋(10023300)
+Added : /trunk/SagaScript/Japanese/アクロポリスシティ/アップタウン南可動橋(10023300)/アイテムチケット交換機-12001018.cs
+Added : /trunk/SagaScript/Japanese/アクロポリスシティ/アップタウン南可動橋(10023300)/アイテムチケット交換機-12001019.cs
+Added : /trunk/SagaScript/Japanese/アクロポリスシティ/アップタウン南可動橋(10023300)/アップタウン南門守衛-10000023.cs
+Added : /trunk/SagaScript/Japanese/アクロポリスシティ/アップタウン南可動橋(10023300)/ギルド商人-11000626.cs
+Added : /trunk/SagaScript/Japanese/アクロポリスシティ/アップタウン南可動橋(10023300)/ゴミ箱？.cs
+Added : /trunk/SagaScript/Japanese/アクロポリスシティ/アップタウン南可動橋(10023300)/初心者案内人-11000534.cs
+Added : /trunk/SagaScript/Japanese/アクロポリスシティ/アップタウン南可動橋(10023300)/復活の戦士-11000349.cs
+Added : /trunk/SagaScript/Japanese/アクロポリスシティ/アップタウン東可動橋(10023100)
+Added : /trunk/SagaScript/Japanese/アクロポリスシティ/アップタウン東可動橋(10023100)/アイテムチケット交換機-12001016.cs
+Added : /trunk/SagaScript/Japanese/アクロポリスシティ/アップタウン東可動橋(10023100)/アイテムチケット交換機-12001017.cs
+Added : /trunk/SagaScript/Japanese/アクロポリスシティ/アップタウン東可動橋(10023100)/アップタウン東門守衛-10000003.cs
+Added : /trunk/SagaScript/Japanese/アクロポリスシティ/アップタウン東可動橋(10023100)/ギルド商人-11000624.cs
+Added : /trunk/SagaScript/Japanese/アクロポリスシティ/アップタウン東可動橋(10023100)/ゴミ箱？.cs
+Added : /trunk/SagaScript/Japanese/アクロポリスシティ/アップタウン東可動橋(10023100)/初心者案内人-11000532.cs
+Added : /trunk/SagaScript/Japanese/アクロポリスシティ/アップタウン東可動橋(10023100)/復活の戦士-11000347.cs
+Added : /trunk/SagaScript/Japanese/アクロポリスシティ/アップタウン西可動橋(10023200)
+Added : /trunk/SagaScript/Japanese/アクロポリスシティ/アップタウン西可動橋(10023200)/アイテムチケット交換機-12001012.cs
+Added : /trunk/SagaScript/Japanese/アクロポリスシティ/アップタウン西可動橋(10023200)/アイテムチケット交換機-12001013.cs
+Added : /trunk/SagaScript/Japanese/アクロポリスシティ/アップタウン西可動橋(10023200)/アップタウン西門守衛-10000013.cs
+Added : /trunk/SagaScript/Japanese/アクロポリスシティ/アップタウン西可動橋(10023200)/ギルド商人-11000625.cs
+Added : /trunk/SagaScript/Japanese/アクロポリスシティ/アップタウン西可動橋(10023200)/ゴミ箱？.cs
+Added : /trunk/SagaScript/Japanese/アクロポリスシティ/アップタウン西可動橋(10023200)/初心者案内人-11000533.cs
+Added : /trunk/SagaScript/Japanese/アクロポリスシティ/アップタウン西可動橋(10023200)/復活の戦士-11000348.cs
+Added : /trunk/SagaScript/Japanese/アクロポリスシティ/ダウンタウン
+Added : /trunk/SagaScript/Japanese/アクロポリスシティ/ダウンタウン/下町の上品なおばさん-11000001.cs
+Added : /trunk/SagaScript/Japanese/アクロポリスシティ/ダウンタウン/物知りな男-11000071.cs
+Added : /trunk/SagaScript/Japanese/アクロポリスシティ/ダウンタウン/酒屋(30010000)
+Added : /trunk/SagaScript/Japanese/アクロポリスシティ/ダウンタウン/酒屋(30010000)/酒屋マスター-11000002.cs
+Added : /trunk/SagaScript/Japanese/アクロポリスシティ/北アクロニア平原(10014000)
+Added : /trunk/SagaScript/Japanese/アクロポリスシティ/北アクロニア平原(10014000)/アイテム精製師-11000121.cs
+Added : /trunk/SagaScript/Japanese/アクロポリスシティ/北アクロニア平原(10014000)/ギルド商人-11000053.cs
+Added : /trunk/SagaScript/Japanese/アクロポリスシティ/北アクロニア平原(10014000)/トム-11000091.cs
+Added : /trunk/SagaScript/Japanese/アクロポリスシティ/北アクロニア平原(10014000)/パーティー募集広場-12002036.cs
+Added : /trunk/SagaScript/Japanese/アクロポリスシティ/北アクロニア平原(10014000)/北口守衛-11000133.cs
+Added : /trunk/SagaScript/Japanese/アクロポリスシティ/北アクロニア平原(10014000)/北口守衛-11000134.cs
+Added : /trunk/SagaScript/Japanese/アクロポリスシティ/北アクロニア平原(10014000)/食料品店のおばちゃん-11000124.cs
+Added : /trunk/SagaScript/Japanese/チュートリアル
+Added : /trunk/SagaScript/Japanese/チュートリアル/どこかの廃墟(50032000)
+Added : /trunk/SagaScript/Japanese/チュートリアル/どこかの廃墟(50032000)/DEM-00-13000174.cs
+Added : /trunk/SagaScript/Japanese/チュートリアル/どこかの廃墟(50032000)/DEM-00-13000175.cs
+Added : /trunk/SagaScript/Japanese/チュートリアル/どこかの廃墟(50032000)/ティタ-13000165.cs
+Added : /trunk/SagaScript/Japanese/チュートリアル/どこかの廃墟(50032000)/不明-13000172.cs
+Added : /trunk/SagaScript/Japanese/チュートリアル/どこかの廃墟(50032000)/不明-13000173.cs
+Added : /trunk/SagaScript/Japanese/チュートリアル/どこかの廃墟(50032000)/機器獵犬-13000172.cs
+Added : /trunk/SagaScript/Japanese/チュートリアル/どこかの廃墟(50032000)/機器獵犬-13000173.cs
+Added : /trunk/SagaScript/Japanese/チュートリアル/アクロポリスシティ指令室(50030000)
+Added : /trunk/SagaScript/Japanese/チュートリアル/アクロポリスシティ指令室(50030000)/オペレーター-13000163.cs
+Added : /trunk/SagaScript/Japanese/チュートリアル/アクロポリスシティ指令室(50030000)/オペレーター-13000164.cs
+Added : /trunk/SagaScript/Japanese/チュートリアル/アクロポリスシティ指令室(50030000)/不明-18000186.cs
+Added : /trunk/SagaScript/Japanese/チュートリアル/アクロポリスシティ指令室(50030000)/司令官-13000162.cs
+Added : /trunk/SagaScript/Japanese/チュートリアル/アクロポリスシティ指令室(50030000)/転送用-10000117.cs
+Added : /trunk/SagaScript/Japanese/チュートリアル/アクロポリスシティ通路(50031000)
+Added : /trunk/SagaScript/Japanese/チュートリアル/アクロポリスシティ通路(50031000)/DEM-00-13000160.cs
+Added : /trunk/SagaScript/Japanese/チュートリアル/アクロポリスシティ通路(50031000)/ティタ-13000167.cs
+Added : /trunk/SagaScript/Japanese/チュートリアル/アクロポリスシティ通路(50031000)/ティタ-13000168.cs
+Added : /trunk/SagaScript/Japanese/チュートリアル/アクロポリスシティ通路(50031000)/ティタ-13000169.cs
+Added : /trunk/SagaScript/Japanese/チュートリアル/アクロポリスシティ通路(50031000)/不明-13000161.cs
+Added : /trunk/SagaScript/Japanese/チュートリアル/アクロポリスシティ通路(50031000)/不明-13000166.cs
+Added : /trunk/SagaScript/Japanese/チュートリアル/アクロポリスシティ通路(50031000)/転送用-10000118.cs
+Added : /trunk/SagaScript/Japanese/チュートリアル/タイタニア世界(30204000)
+Added : /trunk/SagaScript/Japanese/チュートリアル/タイタニア世界(30204000)/ティタ-13000177.cs
+Added : /trunk/SagaScript/Japanese/チュートリアル/タイタニア世界(30204000)/ティタ-18000184.cs
+Modified : /trunk/SagaScript/SagaScript.csproj
+
+Revision: 226
+Author: liiir1985@hotmail.com
+Date: 18:25:19, 2008年11月7日
+Message:
+JP client' packet structure updated
+bug in !item atcommand fixed
+bugfix: Marionette doesn't deactivate after death
+----
+Modified : /trunk/SagaDB/MySQLActorDB.cs
+Modified : /trunk/SagaECO.sln
+Modified : /trunk/SagaMap/ActorEventHandlers/PCEventHandler.cs
+Modified : /trunk/SagaMap/AtCommand.cs
+Added : /trunk/SagaMap/Localization/Languages/Japanese.cs
+Modified : /trunk/SagaMap/Manager/LocalManager.cs
+Modified : /trunk/SagaMap/Packets/Server/Actor/SSMG_ACTOR_PET_APPEAR.cs
+Modified : /trunk/SagaMap/Packets/Server/Actor/SSMG_PLAYER_EXP.cs
+Modified : /trunk/SagaMap/Packets/Server/Actor/SSMG_PLAYER_INFO.cs
+Modified : /trunk/SagaMap/Packets/Server/Actor/SSMG_PLAYER_LEVEL.cs
+Modified : /trunk/SagaMap/Packets/Server/NPC/SSMG_NPC_SHOP_BUY.cs
+Modified : /trunk/SagaMap/SagaMap.csproj
+
+Revision: 225
+Author: liiir1985@hotmail.com
+Date: 3:27:29, 2008年11月6日
+Message:
+Japanese client is now supported(pre- compilation)
+Japanese database added
+----
+Added : /trunk/DB/JP
+Added : /trunk/DB/JP/SkillDB.csv
+Added : /trunk/DB/JP/item.csv
+Added : /trunk/DB/JP/marionette.csv
+Added : /trunk/DB/JP/monster.csv
+Added : /trunk/DB/JP/npc.csv
+Added : /trunk/DB/JP/pet.csv
+Added : /trunk/MapInfo/JP
+Added : /trunk/MapInfo/JP/MapInfo.zip
+Modified : /trunk/SagaDB/Item/Enums.cs
+Modified : /trunk/SagaLib/Global.cs
+Modified : /trunk/SagaMap/ActorEventHandlers/PCEventHandler.cs
+Modified : /trunk/SagaMap/ActorEventHandlers/PetEventHandler.cs
+Modified : /trunk/SagaMap/AtCommand.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.Actor.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.Skill.cs
+Modified : /trunk/SagaMap/Packets/Server/Actor/SSMG_ACTOR_PC_INFO.cs
+Modified : /trunk/SagaMap/Packets/Server/Actor/SSMG_ACTOR_PET_APPEAR.cs
+Modified : /trunk/SagaMap/Packets/Server/Actor/SSMG_PLAYER_INFO.cs
+Modified : /trunk/SagaMap/Packets/Server/Actor/SSMG_PLAYER_LEVEL.cs
+Modified : /trunk/SagaMap/Packets/Server/Chat/SSMG_CHAT_MOTION.cs
+Modified : /trunk/Tools/MapNameModifier/Form1.Designer.cs
+Modified : /trunk/Tools/MapNameModifier/Form1.cs
+
+Revision: 224
+Author: liiir1985@hotmail.com
+Date: 19:04:46, 2008年11月4日
+Message:
+almost all scout skills implemented
+----
+Modified : /trunk/SagaDB/Actor/Status.cs
+Modified : /trunk/SagaMap/ActorEventHandlers/PCEventHandler.cs
+Modified : /trunk/SagaMap/Manager/ExperienceManager.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.Actor.cs
+Modified : /trunk/SagaMap/Packets/Server/Actor/SSMG_PLAYER_GOLD_UPDATE.cs
+Modified : /trunk/SagaMap/Packets/Server/Actor/SSMG_PLAYER_LEVEL.cs
+Modified : /trunk/SagaMap/Packets/Server/Actor/SSMG_PLAYER_SIZE.cs
+Modified : /trunk/SagaMap/SagaMap.csproj
+Modified : /trunk/SagaMap/Skill/Additions/Global/DefaultPassiveSkill.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Global/AxeMastery.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Global/ShortSwordHitUP.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Global/ThrowMastery.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Scout/AvoidMeleeUp.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Scout/Brandish.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Scout/ConThrow.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Scout/ConThrust.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Scout/CriUp.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Scout/ShortSwordCancel.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Scout/SummerSaltKick.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Scout/VitalAttack.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Swordman/ATKUp.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Swordman/Counter.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Swordman/HitMeleeUp.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Swordman/Parry.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Swordman/SwordCancel.cs
+Modified : /trunk/SagaMap/Skill/SkillHandler.CalcHitCri.cs
+Modified : /trunk/SagaMap/Skill/SkillHandler.SkillManager.cs
+Modified : /trunk/Tools/EvenIdToScript/Form1.vb
+
+Revision: 223
+Author: liiir1985@hotmail.com
+Date: 13:17:13, 2008年11月4日
+Message:
+modified random function to include the max value
+more scout skill
+----
+Modified : /trunk/SagaLib/Global.cs
+Modified : /trunk/SagaMap/SagaMap.csproj
+Added : /trunk/SagaMap/Skill/SkillDefinations/Scout/ConThrow.cs
+Modified : /trunk/SagaMap/Skill/SkillHandler.SkillManager.cs
+
+Revision: 222
+Author: liiir1985@hotmail.com
+Date: 1:22:49, 2008年11月4日
+Message:
+Scout skill: hiding added
+support for throwing weapon added(inventory class updated)
+----
+Modified : /trunk/SagaDB/Item/Enums.cs
+Modified : /trunk/SagaDB/Item/Inventory.cs
+Modified : /trunk/SagaDB/Item/Item.cs
+Modified : /trunk/SagaLib/Tasks/TaskManager.cs
+Modified : /trunk/SagaMap/Map.cs
+Modified : /trunk/SagaMap/Mob/AICommands/Attack.cs
+Modified : /trunk/SagaMap/Mob/AICommands/Chase.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.Chat.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.Item.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.Marionette.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.Skill.cs
+Modified : /trunk/SagaMap/SagaMap.csproj
+Modified : /trunk/SagaMap/Scripting/Event.Commands.cs
+Modified : /trunk/SagaMap/Skill/Additions/Global/DefaultBuff.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Scout
+Added : /trunk/SagaMap/Skill/SkillDefinations/Scout/Hiding.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Wizard/Decoy.cs
+Modified : /trunk/SagaMap/Skill/SkillHandler.SkillAttack.cs
+Modified : /trunk/SagaMap/Skill/SkillHandler.SkillManager.cs
+Modified : /trunk/SagaMap/Skill/SkillHandler.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/菲爾-11000078.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/魔術-11000076.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/黑佰特-11000079.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/冒險家行會(30050000)/冒險家總管-11000025.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/劍士行會(30040000)/劍士總管-11000015.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/弓手行會(30043000)/弓手總管-11000018.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/白之聖堂(30120000)/白之聖堂祭司-11000041.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/礦工行會(30045000)/礦工總管-11000020.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/農夫行會(30047000)/農夫總管-11000022.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/騎士行會(30041000)/騎士總管-11000016.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/魔法系行會(30044000)/魔法系總管-11000019.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/黑之聖堂(30121000)/黑之聖堂祭司-11000042.cs
+
+Revision: 221
+Author: liiir1985@hotmail.com
+Date: 1:02:55, 2008年10月31日
+Message:
+another critical bug in map.cs
+----
+Modified : /trunk/SagaMap/ActorEventHandlers/MobEventHandler.cs
+Modified : /trunk/SagaMap/ActorEventHandlers/PetEventHandler.cs
+Modified : /trunk/SagaMap/Map.cs
+
+Revision: 220
+Author: liiir1985@hotmail.com
+Date: 20:06:20, 2008年10月30日
+Message:
+forgotten file
+----
+Modified : /trunk/sqlfile/main.sql
+
+Revision: 219
+Author: liiir1985@hotmail.com
+Date: 20:05:01, 2008年10月30日
+Message:
+more wizard skills implemented
+----
+Modified : /trunk/DB/SkillDB.csv
+Modified : /trunk/DB/SkillList.xml
+Modified : /trunk/SagaDB/Actor/Status.cs
+Modified : /trunk/SagaMap/Manager/MapClientManager.cs
+Modified : /trunk/SagaMap/PC/StatusFactory.cs
+Modified : /trunk/SagaMap/SagaMap.csproj
+Added : /trunk/SagaMap/Skill/SkillDefinations/Wizard/DancingSword.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Wizard/EnergyShield.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Wizard/MagicShield.cs
+Modified : /trunk/SagaMap/Skill/SkillHandler.SkillAttack.cs
+Modified : /trunk/SagaMap/Skill/SkillHandler.SkillManager.cs
+Modified : /trunk/SagaMap/Skill/SkillHandler.cs
+Modified : /trunk/SagaScript/Templetes/復活.cs
+
+Revision: 218
+Author: liiir1985@hotmail.com
+Date: 12:55:15, 2008年10月30日
+Message:
+change statpoints skillpoints into ushort
+script update
+----
+Modified : /trunk/SagaDB/Actor/ActorPC.cs
+Modified : /trunk/SagaDB/MySQLActorDB.cs
+Modified : /trunk/SagaMap/Manager/ExperienceManager.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.Actor.cs
+Modified : /trunk/SagaMap/SagaMap.csproj
+Added : /trunk/SagaMap/Skill/SkillDefinations/Wizard/EnergyBlast.cs
+Modified : /trunk/SagaMap/Skill/SkillHandler.SkillAttack.cs
+Modified : /trunk/SagaMap/Skill/SkillHandler.SkillManager.cs
+Added : /trunk/SagaScript/Chinese/NPC标识枚举/2轉任務標示.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/傢俱匠人-11000794.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/千姬-11000260.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/咖啡館店員 印章負責人-11001258.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/嚮導機械人-11000339.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/嚮導機械人-11000369.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/嚮導機械人-11000370.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/嚮導機械人-11000371.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/嚮導機械人-11000372.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/埃琳娜-11000155.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/尼貝諾特髮型屋-11000115.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/撒帕涅-11000508.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/村裡的老人-11000070.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/獨奏-11000509.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/老爺爺的朋友-11000083.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/見習鐵匠阿魯斯-11000510.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/軍團管理員-11000250.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/黑哈因髮型屋-11000411.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/上城北邊吊橋(10023400)/上城北門守衛-10000033.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/上城南邊吊橋(10023300)/上城南門守衛-10000023.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/上城東邊吊橋(10023100)/上城東門守衛-10000003.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/老爺爺的部下-11000084.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/黑佰特-11000079.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/劍士行會(30040000)/劍士總管-11000015.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/弓手行會(30043000)/弓手總管-11000018.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/騎士行會(30041000)/騎士總管-11000016.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/黑之聖堂(30121000)/黑之聖堂祭司-11000042.cs
+Modified : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/湖畔的微微-11000725.cs
+Added : /trunk/SagaScript/Chinese/阿伊恩市
+Added : /trunk/SagaScript/Chinese/阿伊恩市/阿伊恩市咖啡館(30010004)
+Added : /trunk/SagaScript/Chinese/阿伊恩市/阿伊恩市咖啡館(30010004)/咖啡館店員-11000271.cs
+Added : /trunk/SagaScript/Chinese/阿伊恩市/阿伊恩市咖啡館(30010004)/鳳老頭-11000591.cs
+Modified : /trunk/SagaScript/SagaScript.csproj
+Added : /trunk/SagaScript/Templetes/復活.cs
+Deleted : /trunk/SagaScript/復活.cs
+Added : /trunk/sqlfile/update_r218.sql
+
+Revision: 217
+Author: liiir1985@hotmail.com
+Date: 1:22:43, 2008年10月29日
+Message:
+new skills of wizard
+improved defaultbuff class to support timer
+----
+Modified : /trunk/SagaDB/Mob/Enums.cs
+Modified : /trunk/SagaLib/Global.cs
+Modified : /trunk/SagaMap/Mob/AICommands/Attack.cs
+Modified : /trunk/SagaMap/Mob/AICommands/Chase.cs
+Modified : /trunk/SagaMap/Mob/AICommands/Move.cs
+Modified : /trunk/SagaMap/Mob/MobAI.cs
+Modified : /trunk/SagaMap/Mob/MobAttack.cs
+Modified : /trunk/SagaMap/PC/StatusFactory.cs
+Modified : /trunk/SagaMap/SagaMap.csproj
+Modified : /trunk/SagaMap/Skill/Additions/Global/DefaultBuff.cs
+Added : /trunk/SagaMap/Skill/Additions/Global/Poison.cs
+Added : /trunk/SagaMap/Skill/Additions/Global/Silence.cs
+Added : /trunk/SagaMap/Skill/Additions/Global/Stone.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Wizard/EnergyGroove.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Wizard/MagPoison.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Wizard/MagSilence.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Wizard/MagStone.cs
+Modified : /trunk/SagaMap/Skill/SkillHandler.SkillAttack.cs
+Modified : /trunk/SagaMap/Skill/SkillHandler.SkillManager.cs
+Modified : /trunk/SagaMap/Tasks/Mob/Respawn.cs
+
+Revision: 216
+Author: liiir1985@hotmail.com
+Date: 16:04:23, 2008年10月28日
+Message:
+bugs in shaman weapon skills fixed
+a tiny bug in respawning mobs fixed, which causes player not able to attack mob.
+----
+Modified : /trunk/SagaDB/Actor/Actor.cs
+Modified : /trunk/SagaDB/Actor/Buff.cs
+Modified : /trunk/SagaMap/ActorEventHandlers/MobEventHandler.cs
+Modified : /trunk/SagaMap/ActorEventHandlers/PCEventHandler.cs
+Modified : /trunk/SagaMap/ActorEventHandlers/PetEventHandler.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Swordman/StunBlow.cs
+Modified : /trunk/SagaMap/Tasks/Mob/Respawn.cs
+
+Revision: 215
+Author: liiir1985@hotmail.com
+Date: 14:11:14, 2008年10月28日
+Message:
+critical bug in map.cs fixed(cannot see other player)
+some small bugs in skills fixed
+a tiny bug in FindPath fixed
+----
+Modified : /trunk/SagaDB/Actor/Status.cs
+Modified : /trunk/SagaMap/Map.cs
+Modified : /trunk/SagaMap/Mob/MobAI.cs
+Modified : /trunk/SagaMap/PC/StatusFactory.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Shaman/EarthWeapon.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Shaman/FireWeapon.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Shaman/WaterWeapon.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Shaman/WindWeapon.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Swordman/BanishBlow.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Swordman/Charge.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Vates/HolyWeapon.cs
+Modified : /trunk/SagaMap/Skill/SkillHandler.cs
+Modified : /trunk/SagaScript/復活.cs
+
+Revision: 214
+Author: liiir1985@hotmail.com
+Date: 11:58:09, 2008年10月28日
+Message:
+icon update
+database update
+bug in gun/bow/rifle fixed
+----
+Modified : /trunk/DB/item.csv
+Modified : /trunk/DB/pet.csv
+Modified : /trunk/SagaDB/Item/Item.cs
+Modified : /trunk/SagaLogin/SagaLogin.csproj
+Added : /trunk/SagaLogin/icon2.ico
+Modified : /trunk/SagaMap/Icon1.ico
+Modified : /trunk/SagaMap/Network/Client/MapClient.Item.cs
+
+Revision: 213
+Author: liiir1985@hotmail.com
+Date: 21:58:44, 2008年10月27日
+Message:
+forgotten file
+----
+Added : /trunk/SagaDB/Actor/ActorShadow.cs
+Modified : /trunk/SagaMap/Scripting/Event.Commands.Quest.cs
+
+Revision: 212
+Author: liiir1985@hotmail.com
+Date: 20:05:10, 2008年10月22日
+Message:
+Some Wizard skills implemented
+----
+Modified : /trunk/SagaDB/Actor/Actor.cs
+Modified : /trunk/SagaDB/Actor/ActorPC.cs
+Modified : /trunk/SagaDB/Actor/ActorPet.cs
+Modified : /trunk/SagaDB/Actor/Enums.cs
+Modified : /trunk/SagaDB/Map/MapInfo.cs
+Modified : /trunk/SagaDB/SagaDB.csproj
+Modified : /trunk/SagaECO.sln
+Modified : /trunk/SagaMap/ActorEventHandlers/MobEventHandler.cs
+Modified : /trunk/SagaMap/ActorEventHandlers/PCEventHandler.cs
+Modified : /trunk/SagaMap/ActorEventHandlers/PetEventHandler.cs
+Modified : /trunk/SagaMap/AtCommand.cs
+Modified : /trunk/SagaMap/Localization/Languages/Chinese.cs
+Modified : /trunk/SagaMap/Localization/Languages/English.cs
+Modified : /trunk/SagaMap/Localization/Languages/TChinese.cs
+Modified : /trunk/SagaMap/Localization/Strings.cs
+Modified : /trunk/SagaMap/Map.cs
+Modified : /trunk/SagaMap/Mob/AICommands/Attack.cs
+Modified : /trunk/SagaMap/Mob/AICommands/Move.cs
+Modified : /trunk/SagaMap/Mob/MobAI.cs
+Modified : /trunk/SagaMap/Mob/MobSpawnManager.cs
+Modified : /trunk/SagaMap/Packets/Server/Actor/SSMG_ACTOR_PC_INFO.cs
+Modified : /trunk/SagaMap/Packets/Server/Actor/SSMG_ACTOR_PET_APPEAR.cs
+Modified : /trunk/SagaMap/SagaMap.csproj
+Modified : /trunk/SagaMap/Scripting/Event.Commands.Quest.cs
+Modified : /trunk/SagaMap/Scripting/Event.Commands.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Wizard
+Added : /trunk/SagaMap/Skill/SkillDefinations/Wizard/Decoy.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Wizard/EnergyOne.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Wizard/EnergyShock.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Wizard/EnergySpear.cs
+Modified : /trunk/SagaMap/Skill/SkillHandler.SkillManager.cs
+
+Revision: 211
+Author: liiir1985@hotmail.com
+Date: 11:36:39, 2008年10月21日
+Message:
+bug fix
+----
+Modified : /trunk/SagaMap/Map.cs
+
+Revision: 210
+Author: liiir1985@hotmail.com
+Date: 1:00:22, 2008年10月21日
+Message:
+More swordsman skills
+tried to fix the "invisible" actors bug
+----
+Modified : /trunk/PacketProxy/Program.cs
+Modified : /trunk/SagaDB/Actor/Actor.cs
+Modified : /trunk/SagaDB/Actor/Buff.4.cs
+Modified : /trunk/SagaDB/Actor/Status.cs
+Modified : /trunk/SagaMap/ActorEventHandlers/MobEventHandler.cs
+Modified : /trunk/SagaMap/ActorEventHandlers/PetEventHandler.cs
+Modified : /trunk/SagaMap/Map.cs
+Modified : /trunk/SagaMap/Mob/AICommands/Attack.cs
+Modified : /trunk/SagaMap/Mob/MobAI.cs
+Modified : /trunk/SagaMap/Mob/MobSpawnManager.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.Skill.cs
+Modified : /trunk/SagaMap/PC/StatusFactory.cs
+Modified : /trunk/SagaMap/SagaMap.csproj
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Elementaler/EarthGroove.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Elementaler/FireGroove.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Elementaler/LavaFlow.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Elementaler/WaterGroove.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Elementaler/WindGroove.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Global/AxeHitUP.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Global/AxeMastery.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Global/HPRecoverUP.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Global/MPRecoverUP.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Global/MaceMastery.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Global/MaxHPUp.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Global/MaxMPUp.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Global/MaxSPUp.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Global/SPRecoverUP.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Global/ShortSwordMastery.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Global/SwordHitUP.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Global/SwordMastery.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/ISkill.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Shaman/ColdBlast.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Shaman/EarthBlast.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Shaman/EarthShield.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Shaman/EarthWeapon.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Shaman/FireBlast.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Shaman/FireBolt.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Shaman/FireShield.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Shaman/FireWeapon.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Shaman/IceArrow.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Shaman/LandKlug.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Shaman/LightningBlast.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Shaman/ThunderBall.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Shaman/WaterShield.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Shaman/WaterWeapon.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Shaman/WindShield.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Shaman/WindWeapon.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Swordman/ATKUp.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Swordman/BanishBlow.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Swordman/Blow.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Swordman/Charge.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Swordman/ConfuseBlow.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Swordman/Counter.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Swordman/Feint.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Swordman/HitMeleeUp.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Swordman/Iai.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Swordman/Iai2.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Swordman/Iai3.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Swordman/Parry.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Swordman/Provocation.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Swordman/SlowBlow.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Swordman/StunBlow.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Swordman/SwordCancel.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Vates/Healing.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Vates/HolyGroove.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Vates/HolyShield.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Vates/HolyWeapon.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Vates/LightOne.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Vates/Resurrection.cs
+Modified : /trunk/SagaMap/Skill/SkillHandler.SkillAttack.cs
+Modified : /trunk/SagaMap/Skill/SkillHandler.SkillManager.cs
+Modified : /trunk/SagaMap/Skill/SkillHandler.cs
+
+Revision: 209
+Author: liiir1985@hotmail.com
+Date: 0:29:30, 2008年10月20日
+Message:
+More swordsman skills implemented
+ISkill interface extended
+----
+Modified : /trunk/SagaDB/Actor/ActorEventHandler.cs
+Modified : /trunk/SagaDB/Actor/ActorMob.cs
+Modified : /trunk/SagaDB/Actor/Buff.1.cs
+Modified : /trunk/SagaDB/Actor/Status.cs
+Modified : /trunk/SagaECO.sln
+Modified : /trunk/SagaMap/ActorEventHandlers/ItemEventHandler.cs
+Modified : /trunk/SagaMap/ActorEventHandlers/MobEventHandler.cs
+Modified : /trunk/SagaMap/ActorEventHandlers/NullEventHandler.cs
+Modified : /trunk/SagaMap/ActorEventHandlers/PCEventHandler.cs
+Modified : /trunk/SagaMap/ActorEventHandlers/PetEventHandler.cs
+Modified : /trunk/SagaMap/AtCommand.cs
+Modified : /trunk/SagaMap/Localization/Languages/Chinese.cs
+Modified : /trunk/SagaMap/Localization/Languages/English.cs
+Modified : /trunk/SagaMap/Localization/Languages/TChinese.cs
+Modified : /trunk/SagaMap/Localization/Strings.cs
+Modified : /trunk/SagaMap/Map.cs
+Modified : /trunk/SagaMap/Mob/AICommands/Chase.cs
+Modified : /trunk/SagaMap/Mob/AICommands/Move.cs
+Modified : /trunk/SagaMap/Mob/MobAI.cs
+Modified : /trunk/SagaMap/Mob/MobAttack.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.Actor.cs
+Modified : /trunk/SagaMap/SagaMap.csproj
+Added : /trunk/SagaMap/Skill/Additions/Global/Confuse.cs
+Modified : /trunk/SagaMap/Skill/Additions/Global/DefaultBuff.cs
+Added : /trunk/SagaMap/Skill/Additions/Global/Stun.cs
+Added : /trunk/SagaMap/Skill/Additions/Global/硬直.cs
+Added : /trunk/SagaMap/Skill/Additions/Global/鈍足.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Elementaler/EarthGroove.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Elementaler/FireGroove.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Elementaler/LavaFlow.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Elementaler/WaterGroove.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Elementaler/WindGroove.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Global/AxeMastery.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Global/HPRecoverUP.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Global/MPRecoverUP.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Global/MaceMastery.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Global/MaxHPUp.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Global/MaxMPUp.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Global/MaxSPUp.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Global/SPRecoverUP.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Global/ShortSwordMastery.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Global/SwordMastery.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/ISkill.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Shaman/ColdBlast.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Shaman/EarthBlast.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Shaman/EarthShield.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Shaman/EarthWeapon.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Shaman/FireBlast.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Shaman/FireBolt.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Shaman/FireShield.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Shaman/FireWeapon.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Shaman/IceArrow.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Shaman/LandKlug.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Shaman/LightningBlast.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Shaman/ThunderBall.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Shaman/WaterShield.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Shaman/WaterWeapon.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Shaman/WindShield.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Shaman/WindWeapon.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Swordman/ATKUp.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Swordman/BanishBlow.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Swordman/Blow.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Swordman/Charge.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Swordman/ConfuseBlow.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Swordman/Counter.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Swordman/Feint.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Swordman/HitMeleeUp.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Swordman/Iai.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Swordman/Parry.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Swordman/Provocation.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Swordman/SlowBlow.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Swordman/StunBlow.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Vates/Healing.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Vates/HolyGroove.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Vates/HolyShield.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Vates/HolyWeapon.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Vates/LightOne.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Vates/Resurrection.cs
+Modified : /trunk/SagaMap/Skill/SkillHandler.CalcHitCri.cs
+Modified : /trunk/SagaMap/Skill/SkillHandler.SkillAttack.cs
+Modified : /trunk/SagaMap/Skill/SkillHandler.SkillManager.cs
+
+Revision: 208
+Author: liiir1985@hotmail.com
+Date: 23:22:07, 2008年10月18日
+Message:
+More swordsman skill added
+----
+Added : /trunk/SagaDB/Actor/Buff.4.cs
+Modified : /trunk/SagaDB/SagaDB.csproj
+Modified : /trunk/SagaMap/ActorEventHandlers/PCEventHandler.cs
+Modified : /trunk/SagaMap/Map.cs
+Modified : /trunk/SagaMap/Mob/MobAI.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.Actor.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.Item.cs
+Modified : /trunk/SagaMap/PC/StatusFactory.cs
+Modified : /trunk/SagaMap/SagaMap.csproj
+Deleted : /trunk/SagaMap/Skill/SkillDefinations/Druid
+Added : /trunk/SagaMap/Skill/SkillDefinations/Global/AxeMastery.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Global/Groove.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Global/HPRecoverUP.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Global/MaceMastery.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Global/MaxHPUp.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Global/MaxSPUp.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Global/SPRecoverUP.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Global/ShortSwordMastery.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Global/SwordMastery.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Shaman/EarthWeapon.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Shaman/FireWeapon.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Shaman/WaterWeapon.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Shaman/WindWeapon.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Swordman
+Added : /trunk/SagaMap/Skill/SkillDefinations/Swordman/ATKUp.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Swordman/Blow.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Swordman/Charge.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Swordman/HitMeleeUp.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Swordman/Iai.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Vates (Copy from path: /trunk/SagaMap/Skill/SkillDefinations/Druid, Revision, 206)
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Vates/Healing.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Vates/HolyGroove.cs (Copy from path: /trunk/SagaMap/Skill/SkillDefinations/Druid/HolyGroove.cs, Revision, 207)
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Vates/HolyShield.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Vates/HolyWeapon.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Vates/LightOne.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Vates/Resurrection.cs
+Modified : /trunk/SagaMap/Skill/SkillHandler.SkillAttack.cs
+Modified : /trunk/SagaMap/Skill/SkillHandler.SkillManager.cs
+Modified : /trunk/SagaMap/Skill/SkillHandler.cs
+Modified : /trunk/Tools/APathfinding/Form1.cs
+
+Revision: 207
+Author: liiir1985@hotmail.com
+Date: 20:15:54, 2008年10月17日
+Message:
+new skill template(Groove)
+5 groove skills implemented
+skill delay implemented
+----
+Modified : /trunk/DB/SkillDB.csv
+Modified : /trunk/PacketProxy/Program.cs
+Modified : /trunk/SagaDB/Actor/ActorSkill.cs
+Modified : /trunk/SagaDB/Skill/Skill.cs
+Modified : /trunk/SagaDB/Skill/SkillFactory.cs
+Modified : /trunk/SagaLib/Global.cs
+Modified : /trunk/SagaMap/ActorEventHandlers/PCEventHandler.cs
+Modified : /trunk/SagaMap/Localization/Languages/Chinese.cs
+Modified : /trunk/SagaMap/Localization/Languages/English.cs
+Modified : /trunk/SagaMap/Localization/Languages/TChinese.cs
+Modified : /trunk/SagaMap/Localization/Strings.cs
+Modified : /trunk/SagaMap/Map.cs
+Modified : /trunk/SagaMap/Mob/AICommands/Chase.cs
+Modified : /trunk/SagaMap/Mob/AICommands/Move.cs
+Modified : /trunk/SagaMap/Mob/MobAI.Events.cs
+Modified : /trunk/SagaMap/Mob/MobAI.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.Skill.cs
+Modified : /trunk/SagaMap/Packets/Server/Actor/SSMG_ACTOR_SKILL_MOVE.cs
+Modified : /trunk/SagaMap/SagaMap.csproj
+Added : /trunk/SagaMap/Skill/Additions/Global/CannotMove.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Druid/HolyGroove.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Elementaler/EarthGroove.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Elementaler/FireGroove.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Elementaler/LavaFlow.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Elementaler/WaterGroove.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Elementaler/WindGroove.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Global/Groove.cs
+Modified : /trunk/SagaMap/Skill/SkillHandler.SkillManager.cs
+Modified : /trunk/SagaMap/Tasks/PC/SkillCast.cs
+Modified : /trunk/Tools/MapNameModifier/Form1.Designer.cs
+Modified : /trunk/Tools/MapNameModifier/Form1.cs
+
+Revision: 206
+Author: liiir1985@hotmail.com
+Date: 23:02:56, 2008年10月16日
+Message:
+More druid skills implemented
+equipment requirement check implemented
+bug in matk equipments fixed
+----
+Added : /trunk/SagaDB/Actor/Buff.6.cs
+Modified : /trunk/SagaDB/SagaDB.csproj
+Modified : /trunk/SagaLib/Global.cs
+Modified : /trunk/SagaMap/ActorEventHandlers/PCEventHandler.cs
+Modified : /trunk/SagaMap/AtCommand.cs
+Modified : /trunk/SagaMap/Mob/AICommands/Attack.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.Item.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.Skill.cs
+Modified : /trunk/SagaMap/PC/StatusFactory.Item.cs
+Modified : /trunk/SagaMap/Packets/Server/Actor/SSMG_ACTOR_BUFF.cs
+Modified : /trunk/SagaMap/Packets/Server/Item/SSMG_ITEM_EQUIP.cs
+Added : /trunk/SagaMap/Packets/Server/Party/SSMG_PARTY_MEMBER_BUFF.cs
+Modified : /trunk/SagaMap/SagaMap.csproj
+Modified : /trunk/SagaMap/Scripting/Event.Commands.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Druid
+Added : /trunk/SagaMap/Skill/SkillDefinations/Druid/Healing.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Druid/HolyShield.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Druid/HolyWeapon.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Druid/LightOne.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Druid/Resurrection.cs
+Modified : /trunk/SagaMap/Skill/SkillHandler.Possession.cs
+Modified : /trunk/SagaMap/Skill/SkillHandler.SkillAttack.cs
+Modified : /trunk/SagaMap/Skill/SkillHandler.SkillManager.cs
+Modified : /trunk/SagaScript/SagaScript.csproj
+Added : /trunk/SagaScript/復活.cs
+
+Revision: 205
+Author: liiir1985@hotmail.com
+Date: 14:00:36, 2008年10月16日
+Message:
+little bug in bitmask fixed
+possession damage is now implemented
+been attacked will now interrupt the possession preparation
+----
+Modified : /trunk/SagaLib/BitMask.cs
+Modified : /trunk/SagaMap/ActorEventHandlers/PCEventHandler.cs
+Modified : /trunk/SagaMap/Map.MapEventArgs.cs
+Modified : /trunk/SagaMap/Map.cs
+Modified : /trunk/SagaMap/Mob/MobAI.Events.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.Actor.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.Skill.cs
+Modified : /trunk/SagaMap/Packets/Client/Possession/CSMG_POSSESSION_CANCEL.cs
+Modified : /trunk/SagaMap/Packets/Server/Item/SSMG_ITEM_ACTIVE.cs
+Modified : /trunk/SagaMap/Packets/Server/Item/SSMG_ITEM_ACTIVE_FLOOR.cs
+Modified : /trunk/SagaMap/Packets/Server/Skill/SSMG_SKILL_ACTIVE.cs
+Modified : /trunk/SagaMap/Packets/Server/Skill/SSMG_SKILL_ACTIVE_ACTOR.cs
+Modified : /trunk/SagaMap/Packets/Server/Skill/SSMG_SKILL_ACTIVE_FLOOR.cs
+Modified : /trunk/SagaMap/Packets/Server/Skill/SSMG_SKILL_COMBO_ATTACK_RESULT.cs
+Modified : /trunk/SagaMap/SagaMap.csproj
+Added : /trunk/SagaMap/Skill/SkillHandler.Possession.cs
+Modified : /trunk/SagaMap/Skill/SkillHandler.SkillAttack.cs
+
+Revision: 204
+Author: liiir1985@hotmail.com
+Date: 0:02:02, 2008年10月16日
+Message:
+Convert all files to utf-8 encoding
+----
+Modified : /trunk/SagaDB/Actor/ActorEventHandler.cs
+Modified : /trunk/SagaDB/ActorDB.cs
+Modified : /trunk/SagaDB/MySQLActorDB.cs
+Modified : /trunk/SagaLib/Client.cs
+Modified : /trunk/SagaLib/ClientMananger.cs
+Modified : /trunk/SagaLib/Global.cs
+Modified : /trunk/SagaLib/Logger.cs
+Modified : /trunk/SagaLib/NetIO.cs
+Modified : /trunk/SagaLib/Packet.cs
+Modified : /trunk/SagaLib/Tasks/MultiRunTask.cs
+Modified : /trunk/SagaLib/Tasks/SingleRunTask.cs
+Modified : /trunk/SagaLogin/Manager/LoginClientManager.cs
+Modified : /trunk/SagaLogin/Network/Client/LoginClient.Login.cs
+Modified : /trunk/SagaLogin/Network/Client/LoginClient.Map.cs
+Modified : /trunk/SagaLogin/Network/Client/LoginClient.cs
+Modified : /trunk/SagaLogin/Packets/Client/Chat/CSMG_CHAT_WHISPER.cs
+Modified : /trunk/SagaLogin/Packets/Client/FriendList/CSMG_FRIEND_ADD.cs
+Modified : /trunk/SagaLogin/Packets/Client/FriendList/CSMG_FRIEND_ADD_REPLY.cs
+Modified : /trunk/SagaLogin/Packets/Client/FriendList/CSMG_FRIEND_DELETE.cs
+Modified : /trunk/SagaLogin/Packets/Client/FriendList/CSMG_FRIEND_DETAIL_UPDATE.cs
+Modified : /trunk/SagaLogin/Packets/Client/FriendList/CSMG_FRIEND_MAP_UPDATE.cs
+Modified : /trunk/SagaLogin/Packets/Client/Login/CSMG_CHAR_CREATE.cs
+Modified : /trunk/SagaLogin/Packets/Client/Login/CSMG_CHAR_DELETE.cs
+Modified : /trunk/SagaLogin/Packets/Client/Login/CSMG_CHAR_SELECT.cs
+Modified : /trunk/SagaLogin/Packets/Client/Login/CSMG_CHAR_STATUS.cs
+Modified : /trunk/SagaLogin/Packets/Client/Login/CSMG_LOGIN.cs
+Modified : /trunk/SagaLogin/Packets/Client/Login/CSMG_PING.cs
+Modified : /trunk/SagaLogin/Packets/Client/Login/CSMG_REQUEST_MAP_SERVER.cs
+Modified : /trunk/SagaLogin/Packets/Client/Login/CSMG_SEND_GUID.cs
+Modified : /trunk/SagaLogin/Packets/Client/Login/CSMG_SEND_VERSION.cs
+Modified : /trunk/SagaLogin/Packets/Map/INTERN_LOGIN_REGISTER.cs
+Modified : /trunk/SagaLogin/Packets/Server/Chat/SSMG_CHAT_WHISPER.cs
+Modified : /trunk/SagaLogin/Packets/Server/Chat/SSMG_CHAT_WHISPER_FAILED.cs
+Modified : /trunk/SagaLogin/Packets/Server/FriendList/SSMG_FRIEND_ADD.cs
+Modified : /trunk/SagaLogin/Packets/Server/FriendList/SSMG_FRIEND_ADD_FAILED.cs
+Modified : /trunk/SagaLogin/Packets/Server/FriendList/SSMG_FRIEND_ADD_OK.cs
+Modified : /trunk/SagaLogin/Packets/Server/FriendList/SSMG_FRIEND_CHAR_INFO.cs
+Modified : /trunk/SagaLogin/Packets/Server/FriendList/SSMG_FRIEND_DELETE_FAILED.cs
+Modified : /trunk/SagaLogin/Packets/Server/FriendList/SSMG_FRIEND_DETAIL_UPDATE.cs
+Modified : /trunk/SagaLogin/Packets/Server/FriendList/SSMG_FRIEND_MAP_UPDATE.cs
+Modified : /trunk/SagaLogin/Packets/Server/FriendList/SSMG_FRIEND_STATUS_UPDATE.cs
+Modified : /trunk/SagaLogin/Packets/Server/Login/SSMG_CHAR_CREATE_ACK.cs
+Modified : /trunk/SagaLogin/Packets/Server/Login/SSMG_CHAR_DATA.cs
+Modified : /trunk/SagaLogin/Packets/Server/Login/SSMG_CHAR_DELETE_ACK.cs
+Modified : /trunk/SagaLogin/Packets/Server/Login/SSMG_CHAR_EQUIP.cs
+Modified : /trunk/SagaLogin/Packets/Server/Login/SSMG_CHAR_SELECT_ACK.cs
+Modified : /trunk/SagaLogin/Packets/Server/Login/SSMG_CHAR_STATUS.cs
+Modified : /trunk/SagaLogin/Packets/Server/Login/SSMG_LOGIN_ACK.cs
+Modified : /trunk/SagaLogin/Packets/Server/Login/SSMG_LOGIN_ALLOWED.cs
+Modified : /trunk/SagaLogin/Packets/Server/Login/SSMG_PONG.cs
+Modified : /trunk/SagaLogin/Packets/Server/Login/SSMG_SEND_TO_MAP_SERVER.cs
+Modified : /trunk/SagaLogin/Packets/Server/Login/SSMG_VERSION_ACK.cs
+Modified : /trunk/SagaMap/AtCommand.cs
+Modified : /trunk/SagaMap/Manager/MapManager.cs
+Modified : /trunk/SagaMap/Map.Item.cs
+Modified : /trunk/SagaMap/Map.MapEventArgs.cs
+Modified : /trunk/SagaMap/Map.MapInstance.cs
+Modified : /trunk/SagaMap/Map.Utility.cs
+Modified : /trunk/SagaMap/Map.cs
+Modified : /trunk/SagaMap/Packets/Client/Actor/CSMG_ACTOR_REQUEST_PC_INFO.cs
+Modified : /trunk/SagaMap/Packets/Client/Actor/CSMG_PLAYER_MAP_LOADED.cs
+Modified : /trunk/SagaMap/Packets/Client/Actor/CSMG_PLAYER_MOVE.cs
+Modified : /trunk/SagaMap/Packets/Client/Actor/CSMG_PLAYER_RETURN_HOME.cs
+Modified : /trunk/SagaMap/Packets/Client/Actor/CSMG_PLAYER_STATS_PRE_CALC.cs
+Modified : /trunk/SagaMap/Packets/Client/Actor/CSMG_PLAYER_STATS_PRE_UP.cs
+Modified : /trunk/SagaMap/Packets/Client/Chat/CSMG_CHAT_EMOTION.cs
+Modified : /trunk/SagaMap/Packets/Client/Chat/CSMG_CHAT_MOTION.cs
+Modified : /trunk/SagaMap/Packets/Client/Chat/CSMG_CHAT_PARTY.cs
+Modified : /trunk/SagaMap/Packets/Client/Chat/CSMG_CHAT_PUBLIC.cs
+Modified : /trunk/SagaMap/Packets/Client/Chat/CSMG_CHAT_SIT.cs
+Modified : /trunk/SagaMap/Packets/Client/Item/CSMG_ITEM_DROP.cs
+Modified : /trunk/SagaMap/Packets/Client/Item/CSMG_ITEM_EQUIPT.cs
+Modified : /trunk/SagaMap/Packets/Client/Item/CSMG_ITEM_GET.cs
+Modified : /trunk/SagaMap/Packets/Client/Item/CSMG_ITEM_MOVE.cs
+Modified : /trunk/SagaMap/Packets/Client/Item/CSMG_ITEM_USE.cs
+Modified : /trunk/SagaMap/Packets/Client/Login/CSMG_CHAR_SLOT.cs
+Modified : /trunk/SagaMap/Packets/Client/Login/CSMG_LOGIN.cs
+Modified : /trunk/SagaMap/Packets/Client/Login/CSMG_LOGOUT.cs
+Modified : /trunk/SagaMap/Packets/Client/Login/CSMG_PING.cs
+Modified : /trunk/SagaMap/Packets/Client/Login/CSMG_SEND_VERSION.cs
+Modified : /trunk/SagaMap/Packets/Client/NPC/CSMG_NPC_EVENT_START.cs
+Modified : /trunk/SagaMap/Packets/Client/NPC/CSMG_NPC_SELECT.cs
+Modified : /trunk/SagaMap/Packets/Client/NPC/CSMG_NPC_SHOP_BUY.cs
+Modified : /trunk/SagaMap/Packets/Client/NPC/CSMG_NPC_SHOP_CLOSE.cs
+Modified : /trunk/SagaMap/Packets/Client/NPC/CSMG_NPC_SHOP_SELL.cs
+Modified : /trunk/SagaMap/Packets/Client/Party/CSMG_PARTY_INVITE.cs
+Modified : /trunk/SagaMap/Packets/Client/Party/CSMG_PARTY_INVITE_ANSWER.cs
+Modified : /trunk/SagaMap/Packets/Client/Party/CSMG_PARTY_KICK.cs
+Modified : /trunk/SagaMap/Packets/Client/Party/CSMG_PARTY_NAME.cs
+Modified : /trunk/SagaMap/Packets/Client/Party/CSMG_PARTY_QUIT.cs
+Modified : /trunk/SagaMap/Packets/Client/Possession/CSMG_POSSESSION_CANCEL.cs
+Modified : /trunk/SagaMap/Packets/Client/Possession/CSMG_POSSESSION_REQUEST.cs
+Modified : /trunk/SagaMap/Packets/Client/Quest/CSMG_QUEST_DETAIL_REQUEST.cs
+Modified : /trunk/SagaMap/Packets/Client/Quest/CSMG_QUEST_SELECT.cs
+Modified : /trunk/SagaMap/Packets/Client/Skill/CSMG_SKILL_ATTACK.cs
+Modified : /trunk/SagaMap/Packets/Client/Skill/CSMG_SKILL_CAST.cs
+Modified : /trunk/SagaMap/Packets/Client/Skill/CSMG_SKILL_CHANGE_BATTLE_STATUS.cs
+Modified : /trunk/SagaMap/Packets/Client/Skill/CSMG_SKILL_LEARN.cs
+Modified : /trunk/SagaMap/Packets/Client/Skill/CSMG_SKILL_LEVEL_UP.cs
+Modified : /trunk/SagaMap/Packets/Client/Trade/CSMG_TRADE_CANCEL.cs
+Modified : /trunk/SagaMap/Packets/Client/Trade/CSMG_TRADE_CONFIRM.cs
+Modified : /trunk/SagaMap/Packets/Client/Trade/CSMG_TRADE_ITEM.cs
+Modified : /trunk/SagaMap/Packets/Client/Trade/CSMG_TRADE_PERFORM.cs
+Modified : /trunk/SagaMap/Packets/Client/Trade/CSMG_TRADE_REQUEST.cs
+Modified : /trunk/SagaMap/Packets/Client/Trade/CSMG_TRADE_REQUEST_ANSWER.cs
+Modified : /trunk/SagaMap/Packets/Login/INTERN_LOGIN_REGISTER.cs
+Modified : /trunk/SagaMap/Packets/Server/Actor/SSMG_ACTOR_DELETE.cs
+Modified : /trunk/SagaMap/Packets/Server/Actor/SSMG_ACTOR_LEVEL_UP.cs
+Modified : /trunk/SagaMap/Packets/Server/Actor/SSMG_ACTOR_MOB_APPEAR.cs
+Modified : /trunk/SagaMap/Packets/Server/Actor/SSMG_ACTOR_MOB_DELETE.cs
+Modified : /trunk/SagaMap/Packets/Server/Actor/SSMG_ACTOR_MODE.cs
+Modified : /trunk/SagaMap/Packets/Server/Actor/SSMG_ACTOR_MOVE.cs
+Modified : /trunk/SagaMap/Packets/Server/Actor/SSMG_ACTOR_OPTION.cs
+Modified : /trunk/SagaMap/Packets/Server/Actor/SSMG_ACTOR_PC_APPEAR.cs
+Modified : /trunk/SagaMap/Packets/Server/Actor/SSMG_ACTOR_PET_APPEAR.cs
+Modified : /trunk/SagaMap/Packets/Server/Actor/SSMG_ACTOR_PET_DELETE.cs
+Modified : /trunk/SagaMap/Packets/Server/Actor/SSMG_ACTOR_SKILL_APPEAR.cs
+Modified : /trunk/SagaMap/Packets/Server/Actor/SSMG_ACTOR_SKILL_DELETE.cs
+Modified : /trunk/SagaMap/Packets/Server/Actor/SSMG_ACTOR_SKILL_MOVE.cs
+Modified : /trunk/SagaMap/Packets/Server/Actor/SSMG_ACTOR_SPEED.cs
+Modified : /trunk/SagaMap/Packets/Server/Actor/SSMG_PLAYER_CAPACITY.cs
+Modified : /trunk/SagaMap/Packets/Server/Actor/SSMG_PLAYER_CHANGE_MAP.cs
+Modified : /trunk/SagaMap/Packets/Server/Actor/SSMG_PLAYER_EXP.cs
+Modified : /trunk/SagaMap/Packets/Server/Actor/SSMG_PLAYER_GOLD_UPDATE.cs
+Modified : /trunk/SagaMap/Packets/Server/Actor/SSMG_PLAYER_HPMPSP.cs
+Modified : /trunk/SagaMap/Packets/Server/Actor/SSMG_PLAYER_INFO.cs
+Modified : /trunk/SagaMap/Packets/Server/Actor/SSMG_PLAYER_JOB.cs
+Modified : /trunk/SagaMap/Packets/Server/Actor/SSMG_PLAYER_LEVEL.cs
+Modified : /trunk/SagaMap/Packets/Server/Actor/SSMG_PLAYER_MAX_CAPACITY.cs
+Modified : /trunk/SagaMap/Packets/Server/Actor/SSMG_PLAYER_MAX_HPMPSP.cs
+Modified : /trunk/SagaMap/Packets/Server/Actor/SSMG_PLAYER_MODE.cs
+Modified : /trunk/SagaMap/Packets/Server/Actor/SSMG_PLAYER_SIZE.cs
+Modified : /trunk/SagaMap/Packets/Server/Actor/SSMG_PLAYER_STATS_PRE_CALC.cs
+Modified : /trunk/SagaMap/Packets/Server/Actor/SSMG_PLAYER_STATUS.cs
+Modified : /trunk/SagaMap/Packets/Server/Actor/SSMG_PLAYER_STATUS_EXTEND.cs
+Modified : /trunk/SagaMap/Packets/Server/Chat/SSMG_CHAT_EMOTION.cs
+Modified : /trunk/SagaMap/Packets/Server/Chat/SSMG_CHAT_MOTION.cs
+Modified : /trunk/SagaMap/Packets/Server/Chat/SSMG_CHAT_PARTY.cs
+Modified : /trunk/SagaMap/Packets/Server/Chat/SSMG_CHAT_PUBLIC.cs
+Modified : /trunk/SagaMap/Packets/Server/Chat/SSMG_SYSTEM_MESSAGE.cs
+Modified : /trunk/SagaMap/Packets/Server/Item/SSMG_ITEM_ACTIVE.cs
+Modified : /trunk/SagaMap/Packets/Server/Item/SSMG_ITEM_ACTIVE_FLOOR.cs
+Modified : /trunk/SagaMap/Packets/Server/Item/SSMG_ITEM_ACTOR_APPEAR.cs
+Modified : /trunk/SagaMap/Packets/Server/Item/SSMG_ITEM_ACTOR_DISAPPEAR.cs
+Modified : /trunk/SagaMap/Packets/Server/Item/SSMG_ITEM_ACTOR_EQUIP_UPDATE.cs
+Modified : /trunk/SagaMap/Packets/Server/Item/SSMG_ITEM_ADD.cs
+Modified : /trunk/SagaMap/Packets/Server/Item/SSMG_ITEM_CONTAINER_CHANGE.cs
+Modified : /trunk/SagaMap/Packets/Server/Item/SSMG_ITEM_COUNT_UPDATE.cs
+Modified : /trunk/SagaMap/Packets/Server/Item/SSMG_ITEM_DELETE.cs
+Modified : /trunk/SagaMap/Packets/Server/Item/SSMG_ITEM_EFFECT.cs
+Modified : /trunk/SagaMap/Packets/Server/Item/SSMG_ITEM_EQUIP.cs
+Modified : /trunk/SagaMap/Packets/Server/Item/SSMG_ITEM_GET_ERROR.cs
+Modified : /trunk/SagaMap/Packets/Server/Item/SSMG_ITEM_INFO.cs
+Modified : /trunk/SagaMap/Packets/Server/Item/SSMG_ITEM_USE.cs
+Modified : /trunk/SagaMap/Packets/Server/Login/SSMG_LOGIN_ACK.cs
+Modified : /trunk/SagaMap/Packets/Server/Login/SSMG_LOGIN_ALLOWED.cs
+Modified : /trunk/SagaMap/Packets/Server/Login/SSMG_LOGIN_FINISHED.cs
+Modified : /trunk/SagaMap/Packets/Server/Login/SSMG_LOGOUT.cs
+Modified : /trunk/SagaMap/Packets/Server/Login/SSMG_PONG.cs
+Modified : /trunk/SagaMap/Packets/Server/Login/SSMG_VERSION_ACK.cs
+Modified : /trunk/SagaMap/Packets/Server/NPC/SSMG_NPC_CURRENT_EVENT.cs
+Modified : /trunk/SagaMap/Packets/Server/NPC/SSMG_NPC_EVENT_END.cs
+Modified : /trunk/SagaMap/Packets/Server/NPC/SSMG_NPC_EVENT_START.cs
+Modified : /trunk/SagaMap/Packets/Server/NPC/SSMG_NPC_MESSAGE.cs
+Modified : /trunk/SagaMap/Packets/Server/NPC/SSMG_NPC_MESSAGE_END.cs
+Modified : /trunk/SagaMap/Packets/Server/NPC/SSMG_NPC_MESSAGE_START.cs
+Modified : /trunk/SagaMap/Packets/Server/NPC/SSMG_NPC_PLAY_SOUND.cs
+Modified : /trunk/SagaMap/Packets/Server/NPC/SSMG_NPC_SELECT.cs
+Modified : /trunk/SagaMap/Packets/Server/NPC/SSMG_NPC_SHOP_BUY.cs
+Modified : /trunk/SagaMap/Packets/Server/NPC/SSMG_NPC_SHOP_SELL.cs
+Modified : /trunk/SagaMap/Packets/Server/NPC/SSMG_NPC_SHOW_EFFECT.cs
+Modified : /trunk/SagaMap/Packets/Server/NPC/SSMG_NPC_WAIT.cs
+Modified : /trunk/SagaMap/Packets/Server/Party/SSMG_PARTY_DELETE.cs
+Modified : /trunk/SagaMap/Packets/Server/Party/SSMG_PARTY_INFO.cs
+Modified : /trunk/SagaMap/Packets/Server/Party/SSMG_PARTY_INVITE.cs
+Modified : /trunk/SagaMap/Packets/Server/Party/SSMG_PARTY_INVITE_RESULT.cs
+Modified : /trunk/SagaMap/Packets/Server/Party/SSMG_PARTY_KICK.cs
+Modified : /trunk/SagaMap/Packets/Server/Party/SSMG_PARTY_MEMBER.cs
+Modified : /trunk/SagaMap/Packets/Server/Party/SSMG_PARTY_MEMBER_DETAIL.cs
+Modified : /trunk/SagaMap/Packets/Server/Party/SSMG_PARTY_MEMBER_HPMPSP.cs
+Modified : /trunk/SagaMap/Packets/Server/Party/SSMG_PARTY_MEMBER_POSITION.cs
+Modified : /trunk/SagaMap/Packets/Server/Party/SSMG_PARTY_MEMBER_STATE.cs
+Modified : /trunk/SagaMap/Packets/Server/Party/SSMG_PARTY_NAME.cs
+Modified : /trunk/SagaMap/Packets/Server/Party/SSMG_PARTY_QUIT.cs
+Modified : /trunk/SagaMap/Packets/Server/Possession/SSMG_POSSESSION_CANCEL.cs
+Modified : /trunk/SagaMap/Packets/Server/Possession/SSMG_POSSESSION_RESULT.cs
+Modified : /trunk/SagaMap/Packets/Server/Quest/SSMG_QUEST_ACTIVATE.cs
+Modified : /trunk/SagaMap/Packets/Server/Quest/SSMG_QUEST_COUNT_UPDATE.cs
+Modified : /trunk/SagaMap/Packets/Server/Quest/SSMG_QUEST_DELETE.cs
+Modified : /trunk/SagaMap/Packets/Server/Quest/SSMG_QUEST_DETAIL.cs
+Modified : /trunk/SagaMap/Packets/Server/Quest/SSMG_QUEST_LIST.cs
+Modified : /trunk/SagaMap/Packets/Server/Quest/SSMG_QUEST_POINT.cs
+Modified : /trunk/SagaMap/Packets/Server/Quest/SSMG_QUEST_RESTTIME_UPDATE.cs
+Modified : /trunk/SagaMap/Packets/Server/Quest/SSMG_QUEST_STATUS_UPDATE.cs
+Modified : /trunk/SagaMap/Packets/Server/Quest/SSMG_QUEST_WINDOW.cs
+Modified : /trunk/SagaMap/Packets/Server/Skill/SSMG_SKILL_ACTIVE.cs
+Modified : /trunk/SagaMap/Packets/Server/Skill/SSMG_SKILL_ACTIVE_ACTOR.cs
+Modified : /trunk/SagaMap/Packets/Server/Skill/SSMG_SKILL_ACTIVE_FLOOR.cs
+Modified : /trunk/SagaMap/Packets/Server/Skill/SSMG_SKILL_ATTACK_RESULT.cs
+Modified : /trunk/SagaMap/Packets/Server/Skill/SSMG_SKILL_CAST_RESULT.cs
+Modified : /trunk/SagaMap/Packets/Server/Skill/SSMG_SKILL_CHANGE_BATTLE_STATUS.cs
+Modified : /trunk/SagaMap/Packets/Server/Skill/SSMG_SKILL_COMBO_ATTACK_RESULT.cs
+Modified : /trunk/SagaMap/Packets/Server/Skill/SSMG_SKILL_LEARN.cs
+Modified : /trunk/SagaMap/Packets/Server/Skill/SSMG_SKILL_LEVEL_UP.cs
+Modified : /trunk/SagaMap/Packets/Server/Skill/SSMG_SKILL_LIST.cs
+Modified : /trunk/SagaMap/Packets/Server/Theater/SSMG_THEATER_INFO.cs
+Modified : /trunk/SagaMap/Packets/Server/Trade/SSMG_TRADE_END.cs
+Modified : /trunk/SagaMap/Packets/Server/Trade/SSMG_TRADE_GOLD.cs
+Modified : /trunk/SagaMap/Packets/Server/Trade/SSMG_TRADE_ITEM_FOOT.cs
+Modified : /trunk/SagaMap/Packets/Server/Trade/SSMG_TRADE_ITEM_HEAD.cs
+Modified : /trunk/SagaMap/Packets/Server/Trade/SSMG_TRADE_ITEM_INFO.cs
+Modified : /trunk/SagaMap/Packets/Server/Trade/SSMG_TRADE_REQUEST.cs
+Modified : /trunk/SagaMap/Packets/Server/Trade/SSMG_TRADE_REQUEST_RESULT.cs
+Modified : /trunk/SagaMap/Packets/Server/Trade/SSMG_TRADE_START.cs
+Modified : /trunk/SagaMap/Packets/Server/Trade/SSMG_TRADE_STATUS.cs
+Modified : /trunk/SagaMap/Skill/Additions/Global/DefaultBuff.cs
+Modified : /trunk/SagaMap/Skill/Additions/Global/DefaultPassiveSkill.cs
+Modified : /trunk/SagaMap/Tasks/Item/DeleteItem.cs
+Modified : /trunk/SagaMap/Tasks/Mob/DeleteCorpse.cs
+Modified : /trunk/SagaMap/Tasks/Mob/Respawn.cs
+Modified : /trunk/SagaMap/Tasks/PC/CityRecover.cs
+Modified : /trunk/SagaMap/Tasks/PC/Marionette.cs
+Modified : /trunk/SagaMap/Tasks/PC/PossessionRecover.cs
+Modified : /trunk/SagaMap/Tasks/PC/QuestTime.cs
+Modified : /trunk/SagaMap/Tasks/PC/Regeneration.cs
+Modified : /trunk/SagaMap/Tasks/PC/SkillCast.cs
+
+Revision: 203
+Author: liiir1985@hotmail.com
+Date: 23:04:23, 2008年10月15日
+Message:
+encoding to utf-8
+----
+Modified : /trunk/SagaLogin/Network/Client/LoginClient.Chat.cs
+Modified : /trunk/SagaLogin/Network/Client/LoginClient.FriendList.cs
+Modified : /trunk/SagaMap/Manager/ExperienceManager.cs
+
+Revision: 202
+Author: liiir1985@hotmail.com
+Date: 22:44:48, 2008年10月15日
+Message:
+party exp/item sharing implemented
+----
+Modified : /trunk/SagaDB/Actor/ActorItem.cs
+Modified : /trunk/SagaMap/ActorEventHandlers/MobEventHandler.cs
+Modified : /trunk/SagaMap/Manager/ExperienceManager.cs
+Modified : /trunk/SagaMap/Manager/PartyManager.cs
+Modified : /trunk/SagaMap/Map.Item.cs
+Modified : /trunk/SagaMap/Mob/MobAI.Events.cs
+Modified : /trunk/SagaMap/Mob/MobAI.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.Item.cs
+Modified : /trunk/SagaMap/Skill/SkillHandler.SkillAttack.cs
+Modified : /trunk/SagaMap/Tasks/Item/DeleteItem.cs
+Modified : /trunk/Tools/MapNameModifier/Form1.cs
+Modified : /trunk/Tools/MapNameModifier/MapNameModifier.csproj
+
+Revision: 201
+Author: liiir1985@hotmail.com
+Date: 0:50:55, 2008年10月15日
+Message:
+deleting friend implemented
+party implemented except loot/exp sharing
+----
+Modified : /trunk/SagaDB/ActorDB.cs
+Modified : /trunk/SagaDB/MySQLActorDB.cs
+Modified : /trunk/SagaDB/Party/Party.cs
+Modified : /trunk/SagaLogin/Manager/LoginClientManager.cs
+Modified : /trunk/SagaLogin/Network/Client/LoginClient.FriendList.cs
+Added : /trunk/SagaLogin/Packets/Client/FriendList/CSMG_FRIEND_DELETE.cs
+Added : /trunk/SagaLogin/Packets/Server/FriendList/SSMG_FRIEND_DELETE_FAILED.cs
+Modified : /trunk/SagaLogin/SagaLogin.csproj
+Modified : /trunk/SagaMap/Manager/MapClientManager.cs
+Modified : /trunk/SagaMap/Manager/PartyManager.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.Party.cs
+Added : /trunk/SagaMap/Packets/Client/Party/CSMG_PARTY_KICK.cs
+Added : /trunk/SagaMap/Packets/Client/Party/CSMG_PARTY_NAME.cs
+Added : /trunk/SagaMap/Packets/Client/Party/CSMG_PARTY_QUIT.cs
+Added : /trunk/SagaMap/Packets/Server/Party/SSMG_PARTY_DELETE.cs
+Added : /trunk/SagaMap/Packets/Server/Party/SSMG_PARTY_KICK.cs
+Modified : /trunk/SagaMap/Packets/Server/Party/SSMG_PARTY_MEMBER.cs
+Modified : /trunk/SagaMap/Packets/Server/Party/SSMG_PARTY_NAME.cs
+Added : /trunk/SagaMap/Packets/Server/Party/SSMG_PARTY_QUIT.cs
+Modified : /trunk/SagaMap/SagaMap.csproj
+
+Revision: 200
+Author: liiir1985@hotmail.com
+Date: 19:54:13, 2008年10月14日
+Message:
+Party is now basically working
+----
+Modified : /trunk/SagaDB/Actor/ActorEventHandler.cs
+Modified : /trunk/SagaDB/ActorDB.cs
+Modified : /trunk/SagaDB/MySQLActorDB.cs
+Modified : /trunk/SagaDB/Party/Party.cs
+Modified : /trunk/SagaLogin/Network/Client/LoginClient.cs
+Modified : /trunk/SagaMap/ActorEventHandlers/ItemEventHandler.cs
+Modified : /trunk/SagaMap/ActorEventHandlers/MobEventHandler.cs
+Modified : /trunk/SagaMap/ActorEventHandlers/NullEventHandler.cs
+Modified : /trunk/SagaMap/ActorEventHandlers/PCEventHandler.cs
+Modified : /trunk/SagaMap/ActorEventHandlers/PetEventHandler.cs
+Modified : /trunk/SagaMap/Localization/Languages/Chinese.cs
+Modified : /trunk/SagaMap/Localization/Languages/English.cs
+Modified : /trunk/SagaMap/Localization/Languages/TChinese.cs
+Modified : /trunk/SagaMap/Localization/Strings.cs
+Modified : /trunk/SagaMap/Manager/MapClientManager.cs
+Modified : /trunk/SagaMap/Manager/PartyManager.cs
+Modified : /trunk/SagaMap/Map.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.Party.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.cs
+Added : /trunk/SagaMap/Packets/Client/Party
+Added : /trunk/SagaMap/Packets/Client/Party/CSMG_PARTY_INVITE.cs
+Added : /trunk/SagaMap/Packets/Client/Party/CSMG_PARTY_INVITE_ANSWER.cs
+Added : /trunk/SagaMap/Packets/Server/Party/SSMG_PARTY_INVITE.cs
+Added : /trunk/SagaMap/Packets/Server/Party/SSMG_PARTY_INVITE_RESULT.cs
+Modified : /trunk/SagaMap/Packets/Server/Party/SSMG_PARTY_NAME.cs
+Modified : /trunk/SagaMap/SagaMap.csproj
+Modified : /trunk/SagaScript/SagaScript.csproj
+
+Revision: 199
+Author: liiir1985@hotmail.com
+Date: 14:29:56, 2008年10月14日
+Message:
+encoding correction
+----
+Modified : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/仰望大海的泰迪-11000724.cs
+Modified : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/休息中的泰迪-11000717.cs
+Modified : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/休息中的泰迪-11000718.cs
+Modified : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/休息中的泰迪-11000737.cs
+Modified : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/休息中的泰迪-11000738.cs
+Modified : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/原居民泰迪-11000708.cs
+Modified : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/原居民泰迪-11000709.cs
+Modified : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/原居民泰迪-11000710.cs
+Modified : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/原居民泰迪-11000711.cs
+Modified : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/原居民泰迪-11000712.cs
+Modified : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/原居民泰迪-11000713.cs
+Modified : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/咖啡館店員-11000739.cs
+Modified : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/喜歡角色扮演的少女-11000919.cs
+Modified : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/寶貝-11000719.cs
+Modified : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/小鬼嘉布利-11000722.cs
+Modified : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/正在工作的泰迪-11000726.cs
+Modified : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/汪汪-11001202.cs
+Modified : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/泰迪-11000723.cs
+Modified : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/泰迪寶貝-11000714.cs
+Modified : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/泰迪寶貝-11000715.cs
+Modified : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/泰迪寶貝-11000716.cs
+Modified : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/活動木偶塞爾曼德-11000730.cs
+Modified : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/活動木偶愛伊斯-11000727.cs
+Modified : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/活動木偶曼陀蘿-11000731.cs
+Modified : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/活動木偶瑪歐斯-11000728.cs
+Modified : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/活動木偶皮諾-11000740.cs
+Modified : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/活動木偶礦石精靈-11000729.cs
+Modified : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/活動木偶虎姆拉-11000732.cs
+Modified : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/活動木偶電路機械-11000733.cs
+Modified : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/海盜泰迪-11000702.cs
+Modified : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/海盜泰迪-11000703.cs
+Modified : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/海盜泰迪-11000704.cs
+Modified : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/海盜泰迪-11000705.cs
+Modified : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/海盜泰迪-11000706.cs
+Modified : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/海盜泰迪-11000707.cs
+Modified : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/湖畔的微微-11000725.cs
+Modified : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/爬爬蟲凱莉娥-11000735.cs
+Modified : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/瑪瑪-11000721.cs
+Modified : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/甜心-11000720.cs
+Modified : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/行會商人-11000734.cs
+Modified : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/迪基凱勒-11000977.cs
+Modified : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/道具機-12001061.cs
+Modified : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/道具精製師-11000736.cs
+Modified : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/阿高普路斯泰迪-18000001.cs
+Modified : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/黑檀-11001203.cs
+Modified : /trunk/Tools/MapNameModifier/Form1.cs
+
+Revision: 198
+Author: liiir1985@hotmail.com
+Date: 14:16:34, 2008年10月14日
+Message:
+new scripts
+more party stuffs
+whisper implemented
+----
+Modified : /trunk/Ecoweb/Check.aspx.cs
+Modified : /trunk/SagaDB/MySQLActorDB.cs
+Modified : /trunk/SagaDB/Party/Party.cs
+Modified : /trunk/SagaDB/Properties
+Modified : /trunk/SagaLogin/Manager/LoginClientManager.cs
+Added : /trunk/SagaLogin/Network/Client/LoginClient.Chat.cs
+Added : /trunk/SagaLogin/Packets/Client/Chat
+Added : /trunk/SagaLogin/Packets/Client/Chat/CSMG_CHAT_WHISPER.cs
+Added : /trunk/SagaLogin/Packets/Server/Chat
+Added : /trunk/SagaLogin/Packets/Server/Chat/SSMG_CHAT_WHISPER.cs
+Added : /trunk/SagaLogin/Packets/Server/Chat/SSMG_CHAT_WHISPER_FAILED.cs
+Modified : /trunk/SagaLogin/Properties
+Modified : /trunk/SagaLogin/SagaLogin.csproj
+Modified : /trunk/SagaMap/Manager/MapClientManager.cs
+Modified : /trunk/SagaMap/Manager/PartyManager.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.Actor.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.Chat.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.Login.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.Party.cs
+Added : /trunk/SagaMap/Packets/Client/Chat/CSMG_CHAT_PARTY.cs
+Modified : /trunk/SagaMap/Packets/Server/Actor/SSMG_ACTOR_PC_INFO.cs
+Added : /trunk/SagaMap/Packets/Server/Chat/SSMG_CHAT_PARTY.cs
+Modified : /trunk/SagaMap/Packets/Server/Party/SSMG_PARTY_MEMBER.cs
+Added : /trunk/SagaMap/Packets/Server/Party/SSMG_PARTY_MEMBER_DETAIL.cs
+Added : /trunk/SagaMap/Packets/Server/Party/SSMG_PARTY_MEMBER_HPMPSP.cs
+Modified : /trunk/SagaMap/SagaMap.csproj
+Modified : /trunk/SagaMap/Tasks/PC/CityRecover.cs
+Modified : /trunk/SagaMap/Tasks/PC/PossessionRecover.cs
+Modified : /trunk/SagaMap/Tasks/PC/Regeneration.cs
+Modified : /trunk/SagaScript/Chinese/NPC标识枚举/中央城市標示2.cs
+Added : /trunk/SagaScript/Chinese/NPC标识枚举/泰迪島標識枚舉.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/嚮導機械人-11000339.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/嚮導機械人-11000369.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/嚮導機械人-11000370.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/嚮導機械人-11000371.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/嚮導機械人-11000372.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/泰迪-11000776.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/老爺爺的兒媳婦-11000085.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/老爺爺的孩子-11000081.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/老爺爺的朋友-11000083.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/行會商人-11000054.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/行會商人-11000618.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/上城北邊吊橋(10023400)/上城北門守衛-10000033.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/上城北邊吊橋(10023400)/行會商人-11000627.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/上城南邊吊橋(10023300)/上城南門守衛-10000023.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/上城南邊吊橋(10023300)/行會商人-11000626.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/上城東邊吊橋(10023100)/上城東門守衛-10000003.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/上城東邊吊橋(10023100)/行會商人-11000624.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/上城西邊吊橋(10023200)/上城西門守衛-10000013.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/上城西邊吊橋(10023200)/行會商人-11000625.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/健忘的老人-11000080.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/愛哭的男生-11000086.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/染色店阿姨-11000403.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/染色店阿姨-11000765.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/老爺爺的孫兒-11000082.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/老爺爺的部下-11000084.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/菲爾-11000078.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/行會商人-11000055.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/行會商人-11000619.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/魔術-11000076.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/黑佰特-11000079.cs
+Deleted : /trunk/SagaScript/Chinese/中央城市/冒險家行會
+Added : /trunk/SagaScript/Chinese/中央城市/冒險家行會(30050000)
+Added : /trunk/SagaScript/Chinese/中央城市/冒險家行會(30050000)/冒險家總管-11000025.cs
+Deleted : /trunk/SagaScript/Chinese/中央城市/劍士行會
+Added : /trunk/SagaScript/Chinese/中央城市/劍士行會(30040000)
+Added : /trunk/SagaScript/Chinese/中央城市/劍士行會(30040000)/劍士總管-11000015.cs
+Deleted : /trunk/SagaScript/Chinese/中央城市/商人行會
+Added : /trunk/SagaScript/Chinese/中央城市/商人行會(30051000)
+Added : /trunk/SagaScript/Chinese/中央城市/商人行會(30051000)/商人總管-11000026.cs
+Deleted : /trunk/SagaScript/Chinese/中央城市/弓手行會
+Added : /trunk/SagaScript/Chinese/中央城市/弓手行會(30043000)
+Added : /trunk/SagaScript/Chinese/中央城市/弓手行會(30043000)/弓手總管-11000018.cs
+Added : /trunk/SagaScript/Chinese/中央城市/白之聖堂(30120000)
+Added : /trunk/SagaScript/Chinese/中央城市/白之聖堂(30120000)/白之聖堂祭司-11000041.cs
+Deleted : /trunk/SagaScript/Chinese/中央城市/盜賊行會
+Added : /trunk/SagaScript/Chinese/中央城市/盜賊行會(30042000)
+Added : /trunk/SagaScript/Chinese/中央城市/盜賊行會(30042000)/盜賊總管-11000017.cs
+Deleted : /trunk/SagaScript/Chinese/中央城市/礦工行會
+Added : /trunk/SagaScript/Chinese/中央城市/礦工行會(30045000)
+Added : /trunk/SagaScript/Chinese/中央城市/礦工行會(30045000)/礦工總管-11000020.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/行會宮殿2樓(30111000)/行會宮殿嚮導-11000011.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/行會宮殿3樓(30112000)/行會宮殿嚮導-11000012.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/行會宮殿4樓(30113000)/行會宮殿嚮導-11000013.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/行會宮殿大樓中庭(30110000)/行會宮殿嚮導-11000000.cs
+Deleted : /trunk/SagaScript/Chinese/中央城市/農夫行會
+Added : /trunk/SagaScript/Chinese/中央城市/農夫行會(30047000)
+Added : /trunk/SagaScript/Chinese/中央城市/農夫行會(30047000)/農夫總管-11000022.cs
+Deleted : /trunk/SagaScript/Chinese/中央城市/騎士行會
+Added : /trunk/SagaScript/Chinese/中央城市/騎士行會(30041000)
+Added : /trunk/SagaScript/Chinese/中央城市/騎士行會(30041000)/騎士總管-11000016.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/魔法系行會(30044000)/魔法系總管-11000019.cs
+Added : /trunk/SagaScript/Chinese/中央城市/黑之聖堂(30121000)
+Added : /trunk/SagaScript/Chinese/中央城市/黑之聖堂(30121000)/黑之聖堂祭司-11000042.cs
+Modified : /trunk/SagaScript/Chinese/初始新手任务/東方海角(10018102)/道具箱11001412.cs
+Added : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)
+Added : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/仰望大海的泰迪-11000724.cs
+Added : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/休息中的泰迪-11000717.cs
+Added : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/休息中的泰迪-11000718.cs
+Added : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/休息中的泰迪-11000737.cs
+Added : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/休息中的泰迪-11000738.cs
+Added : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/原居民泰迪-11000708.cs
+Added : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/原居民泰迪-11000709.cs
+Added : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/原居民泰迪-11000710.cs
+Added : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/原居民泰迪-11000711.cs
+Added : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/原居民泰迪-11000712.cs
+Added : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/原居民泰迪-11000713.cs
+Added : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/咖啡館店員-11000739.cs
+Added : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/喜歡角色扮演的少女-11000919.cs
+Added : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/寶貝-11000719.cs
+Added : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/小鬼嘉布利-11000722.cs
+Added : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/正在工作的泰迪-11000726.cs
+Added : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/汪汪-11001202.cs
+Added : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/泰迪-11000723.cs
+Added : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/泰迪寶貝-11000714.cs
+Added : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/泰迪寶貝-11000715.cs
+Added : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/泰迪寶貝-11000716.cs
+Added : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/活動木偶塞爾曼德-11000730.cs
+Added : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/活動木偶愛伊斯-11000727.cs
+Added : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/活動木偶曼陀蘿-11000731.cs
+Added : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/活動木偶瑪歐斯-11000728.cs
+Added : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/活動木偶皮諾-11000740.cs
+Added : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/活動木偶礦石精靈-11000729.cs
+Added : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/活動木偶虎姆拉-11000732.cs
+Added : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/活動木偶電路機械-11000733.cs
+Added : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/海盜泰迪-11000702.cs
+Added : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/海盜泰迪-11000703.cs
+Added : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/海盜泰迪-11000704.cs
+Added : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/海盜泰迪-11000705.cs
+Added : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/海盜泰迪-11000706.cs
+Added : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/海盜泰迪-11000707.cs
+Added : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/湖畔的微微-11000725.cs
+Added : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/爬爬蟲凱莉娥-11000735.cs
+Added : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/瑪瑪-11000721.cs
+Added : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/甜心-11000720.cs
+Added : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/行會商人-11000734.cs
+Added : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/迪基凱勒-11000977.cs
+Added : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/道具機-12001061.cs
+Added : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/道具精製師-11000736.cs
+Added : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/阿高普路斯泰迪-18000001.cs
+Added : /trunk/SagaScript/Chinese/野外/泰迪島(10071000)/黑檀-11001203.cs
+Modified : /trunk/SagaScript/SagaScript.csproj
+
+Revision: 197
+Author: liiir1985@hotmail.com
+Date: 19:17:44, 2008年10月12日
+Message:
+Skill effect added
+friendlist implemented
+some party basic implemented
+----
+Modified : /trunk/DB/SkillDB.csv
+Modified : /trunk/SagaDB/Actor/ActorPC.cs
+Modified : /trunk/SagaDB/ActorDB.cs
+Modified : /trunk/SagaDB/Item/Item.cs
+Modified : /trunk/SagaDB/Map/MapInfoFactory.cs
+Modified : /trunk/SagaDB/MySQLActorDB.cs
+Added : /trunk/SagaDB/Party
+Added : /trunk/SagaDB/Party/Party.cs
+Modified : /trunk/SagaDB/SagaDB.csproj
+Modified : /trunk/SagaDB/Skill/Skill.cs
+Modified : /trunk/SagaDB/Skill/SkillFactory.cs
+Modified : /trunk/SagaLib/NetIO.cs
+Modified : /trunk/SagaLogin/Manager/LoginClientManager.cs
+Added : /trunk/SagaLogin/Network/Client/LoginClient.FriendList.cs
+Modified : /trunk/SagaLogin/Network/Client/LoginClient.Login.cs
+Modified : /trunk/SagaLogin/Network/Client/LoginClient.cs
+Added : /trunk/SagaLogin/Packets/Client/FriendList
+Added : /trunk/SagaLogin/Packets/Client/FriendList/CSMG_FRIEND_ADD.cs
+Added : /trunk/SagaLogin/Packets/Client/FriendList/CSMG_FRIEND_ADD_REPLY.cs
+Added : /trunk/SagaLogin/Packets/Client/FriendList/CSMG_FRIEND_DETAIL_UPDATE.cs
+Added : /trunk/SagaLogin/Packets/Client/FriendList/CSMG_FRIEND_MAP_UPDATE.cs
+Added : /trunk/SagaLogin/Packets/Server/FriendList
+Added : /trunk/SagaLogin/Packets/Server/FriendList/SSMG_FRIEND_ADD.cs
+Added : /trunk/SagaLogin/Packets/Server/FriendList/SSMG_FRIEND_ADD_FAILED.cs
+Added : /trunk/SagaLogin/Packets/Server/FriendList/SSMG_FRIEND_ADD_OK.cs
+Added : /trunk/SagaLogin/Packets/Server/FriendList/SSMG_FRIEND_CHAR_INFO.cs
+Added : /trunk/SagaLogin/Packets/Server/FriendList/SSMG_FRIEND_DETAIL_UPDATE.cs
+Added : /trunk/SagaLogin/Packets/Server/FriendList/SSMG_FRIEND_MAP_UPDATE.cs
+Added : /trunk/SagaLogin/Packets/Server/FriendList/SSMG_FRIEND_STATUS_UPDATE.cs
+Modified : /trunk/SagaLogin/SagaLogin.csproj
+Modified : /trunk/SagaMap/Manager/MapClientManager.cs
+Added : /trunk/SagaMap/Manager/PartyManager.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.Actor.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.Login.cs
+Added : /trunk/SagaMap/Network/Client/MapClient.Party.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.Skill.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.cs
+Added : /trunk/SagaMap/Packets/Server/Party
+Added : /trunk/SagaMap/Packets/Server/Party/SSMG_PARTY_INFO.cs
+Added : /trunk/SagaMap/Packets/Server/Party/SSMG_PARTY_MEMBER.cs
+Added : /trunk/SagaMap/Packets/Server/Party/SSMG_PARTY_MEMBER_POSITION.cs
+Added : /trunk/SagaMap/Packets/Server/Party/SSMG_PARTY_MEMBER_STATE.cs
+Added : /trunk/SagaMap/Packets/Server/Party/SSMG_PARTY_NAME.cs
+Modified : /trunk/SagaMap/SagaMap.csproj
+Modified : /trunk/SagaMap/Skill/SkillHandler.CalcElement.cs
+Modified : /trunk/SagaScript/Chinese/初始新手任务/東方海角(10018102)/道具箱11001412.cs
+Modified : /trunk/SagaScript/SagaScript.csproj
+Modified : /trunk/sqlfile/main.sql
+Added : /trunk/sqlfile/update_r197.sql
+
+Revision: 196
+Author: liiir1985@hotmail.com
+Date: 18:41:32, 2008年10月4日
+Message:
+more scripts
+bugs in sql fixed
+bug in pet system fixed
+bug in exp manager fixed
+bug in AIthread fixed
+bug in Move AICommand fixed
+----
+Added : /trunk/DB/skill.csv
+Modified : /trunk/SagaDB/Item/Enums.cs
+Modified : /trunk/SagaDB/Item/Item.cs
+Modified : /trunk/SagaDB/MySQLActorDB.cs
+Modified : /trunk/SagaLib/Global.cs
+Modified : /trunk/SagaMap/Manager/ExperienceManager.cs
+Modified : /trunk/SagaMap/Mob/AICommands/Move.cs
+Modified : /trunk/SagaMap/Mob/AIThread.cs
+Modified : /trunk/SagaMap/Mob/MobAI.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.Actor.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.Item.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.cs
+Modified : /trunk/SagaScript/Chinese/NPC标识枚举/中央城市标识枚举.cs
+Added : /trunk/SagaScript/Chinese/NPC标识枚举/中央城市標示2.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/老爺爺的兒媳婦-11000085.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/老爺爺的孩子-11000081.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/老爺爺的朋友-11000083.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/下城的優秀阿姨-11000001.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/健忘的老人-11000080.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/愛哭的男生-11000086.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/老爺爺的孫兒-11000082.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/老爺爺的部下-11000084.cs
+Added : /trunk/SagaScript/Chinese/中央城市/冒險家行會
+Added : /trunk/SagaScript/Chinese/中央城市/冒險家行會/冒險家總管-11000025.cs
+Added : /trunk/SagaScript/Chinese/中央城市/劍士行會
+Added : /trunk/SagaScript/Chinese/中央城市/劍士行會/劍士總管-11000015.cs
+Added : /trunk/SagaScript/Chinese/中央城市/商人行會
+Added : /trunk/SagaScript/Chinese/中央城市/商人行會/商人總管-11000026.cs
+Added : /trunk/SagaScript/Chinese/中央城市/弓手行會
+Added : /trunk/SagaScript/Chinese/中央城市/弓手行會/弓手總管-11000018.cs
+Added : /trunk/SagaScript/Chinese/中央城市/盜賊行會
+Added : /trunk/SagaScript/Chinese/中央城市/盜賊行會/盜賊總管-11000017.cs
+Added : /trunk/SagaScript/Chinese/中央城市/礦工行會
+Added : /trunk/SagaScript/Chinese/中央城市/礦工行會/礦工總管-11000020.cs
+Added : /trunk/SagaScript/Chinese/中央城市/行會宮殿2樓(30111000)/传送门-10000165.cs
+Added : /trunk/SagaScript/Chinese/中央城市/行會宮殿4樓(30113000)/传送门-10000167.cs
+Added : /trunk/SagaScript/Chinese/中央城市/行會宮殿5樓(30114000)/传送门-10000168.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/行會宮殿大樓中庭(30110000)/行會宮殿嚮導-11000000.cs
+Added : /trunk/SagaScript/Chinese/中央城市/農夫行會
+Added : /trunk/SagaScript/Chinese/中央城市/農夫行會/農夫總管-11000022.cs
+Added : /trunk/SagaScript/Chinese/中央城市/騎士行會
+Added : /trunk/SagaScript/Chinese/中央城市/騎士行會/騎士總管-11000016.cs
+Modified : /trunk/SagaScript/SagaScript.csproj
+
+Revision: 195
+Author: liiir1985@hotmail.com
+Date: 12:28:57, 2008年10月4日
+Message:
+Factory class improved , now it's very simple to parse xml files with it.
+MapFlags implemented
+New AI mode implemented(Missing Metalical ball)
+some basic research in theater
+----
+Added : /trunk/DB/MapFlags.xml
+Modified : /trunk/DB/monster.csv
+Modified : /trunk/DB/monster.xlsx
+Modified : /trunk/PacketProxy/Program.cs
+Modified : /trunk/SagaDB/Item/ItemFactory.cs
+Modified : /trunk/SagaDB/Map/MapInfo.cs
+Modified : /trunk/SagaDB/Map/MapInfoFactory.cs
+Modified : /trunk/SagaDB/Npc/NPCFactory.cs
+Modified : /trunk/SagaDB/Quests/Quest.cs
+Modified : /trunk/SagaDB/Quests/QuestFactory.cs
+Modified : /trunk/SagaLib/Factory.cs
+Modified : /trunk/SagaMap/AtCommand.cs
+Modified : /trunk/SagaMap/MapServer.cs
+Modified : /trunk/SagaMap/Mob/AICommands/Attack.cs
+Modified : /trunk/SagaMap/Mob/AICommands/Chase.cs
+Modified : /trunk/SagaMap/Mob/AICommands/Move.cs
+Modified : /trunk/SagaMap/Mob/EnumAI.cs
+Modified : /trunk/SagaMap/Mob/MobAI.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.Login.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.Quest.cs
+Added : /trunk/SagaMap/Packets/Server/Theater
+Added : /trunk/SagaMap/Packets/Server/Theater/SSMG_THEATER_INFO.cs
+Modified : /trunk/SagaMap/SagaMap.csproj
+Modified : /trunk/SagaMap/Scripting/Event.cs
+Added : /trunk/SagaMap/Tasks/PC/CityRecover.cs
+Added : /trunk/SagaMap/Tasks/PC/PossessionRecover.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/下城的優秀阿姨-11000001.cs
+
+Revision: 194
+Author: liiir1985@hotmail.com
+Date: 0:16:37, 2008年10月3日
+Message:
+bug in shaman's skills fixed
+AI management improved to save more resource
+bug in variable holder class fixed
+more scripts
+spawn files all added
+----
+Modified : /trunk/DB/Spawns/10001000.xml
+Modified : /trunk/DB/Spawns/10002000.xml
+Added : /trunk/DB/Spawns/10002001.xml
+Modified : /trunk/DB/Spawns/10003000.xml
+Modified : /trunk/DB/Spawns/10004000.xml
+Modified : /trunk/DB/Spawns/10014000.xml
+Added : /trunk/DB/Spawns/10014002.xml
+Added : /trunk/DB/Spawns/10014012.xml
+Added : /trunk/DB/Spawns/10014022.xml
+Added : /trunk/DB/Spawns/10014032.xml
+Added : /trunk/DB/Spawns/10014042.xml
+Added : /trunk/DB/Spawns/10014052.xml
+Added : /trunk/DB/Spawns/10014062.xml
+Added : /trunk/DB/Spawns/10014072.xml
+Added : /trunk/DB/Spawns/10014082.xml
+Added : /trunk/DB/Spawns/10014092.xml
+Modified : /trunk/DB/Spawns/10015000.xml
+Modified : /trunk/DB/Spawns/10017000.xml
+Added : /trunk/DB/Spawns/10017001.xml
+Modified : /trunk/DB/Spawns/10018000.xml
+Added : /trunk/DB/Spawns/10018001.xml
+Added : /trunk/DB/Spawns/10018002.xml
+Added : /trunk/DB/Spawns/10018003.xml
+Modified : /trunk/DB/Spawns/10019000.xml
+Added : /trunk/DB/Spawns/10019100.xml
+Modified : /trunk/DB/Spawns/10020000.xml
+Modified : /trunk/DB/Spawns/10022000.xml
+Added : /trunk/DB/Spawns/10023001.xml
+Modified : /trunk/DB/Spawns/10025000.xml
+Modified : /trunk/DB/Spawns/10028000.xml
+Modified : /trunk/DB/Spawns/10030000.xml
+Added : /trunk/DB/Spawns/10030001.xml
+Modified : /trunk/DB/Spawns/10031000.xml
+Modified : /trunk/DB/Spawns/10032000.xml
+Added : /trunk/DB/Spawns/10032001.xml
+Modified : /trunk/DB/Spawns/10034000.xml
+Added : /trunk/DB/Spawns/10034001.xml
+Added : /trunk/DB/Spawns/10034002.xml
+Modified : /trunk/DB/Spawns/10035000.xml
+Modified : /trunk/DB/Spawns/10042000.xml
+Added : /trunk/DB/Spawns/10042001.xml
+Modified : /trunk/DB/Spawns/10043000.xml
+Modified : /trunk/DB/Spawns/10046000.xml
+Modified : /trunk/DB/Spawns/10049000.xml
+Modified : /trunk/DB/Spawns/10050000.xml
+Modified : /trunk/DB/Spawns/10051000.xml
+Modified : /trunk/DB/Spawns/10054000.xml
+Added : /trunk/DB/Spawns/10054001.xml
+Added : /trunk/DB/Spawns/10054100.xml
+Modified : /trunk/DB/Spawns/10056000.xml
+Added : /trunk/DB/Spawns/10057000.xml
+Added : /trunk/DB/Spawns/10059100.xml
+Added : /trunk/DB/Spawns/10059101.xml
+Added : /trunk/DB/Spawns/10059102.xml
+Added : /trunk/DB/Spawns/10060000.xml
+Modified : /trunk/DB/Spawns/10061000.xml
+Added : /trunk/DB/Spawns/10062000.xml
+Modified : /trunk/DB/Spawns/10063000.xml
+Added : /trunk/DB/Spawns/10063100.xml
+Modified : /trunk/DB/Spawns/10064000.xml
+Added : /trunk/DB/Spawns/10064001.xml
+Modified : /trunk/DB/Spawns/10068000.xml
+Added : /trunk/DB/Spawns/10069000.xml
+Added : /trunk/DB/Spawns/10070000.xml
+Added : /trunk/DB/Spawns/10071000.xml
+Added : /trunk/DB/Spawns/10071001.xml
+Added : /trunk/DB/Spawns/20000000.xml
+Added : /trunk/DB/Spawns/20001000.xml
+Added : /trunk/DB/Spawns/20002000.xml
+Added : /trunk/DB/Spawns/20002003.xml
+Added : /trunk/DB/Spawns/20003000.xml
+Added : /trunk/DB/Spawns/20004000.xml
+Added : /trunk/DB/Spawns/20004002.xml
+Added : /trunk/DB/Spawns/20010000.xml
+Added : /trunk/DB/Spawns/20011000.xml
+Added : /trunk/DB/Spawns/20012000.xml
+Added : /trunk/DB/Spawns/20012002.xml
+Added : /trunk/DB/Spawns/20013000.xml
+Added : /trunk/DB/Spawns/20013001.xml
+Added : /trunk/DB/Spawns/20013003.xml
+Added : /trunk/DB/Spawns/20014000.xml
+Added : /trunk/DB/Spawns/20020000.xml
+Added : /trunk/DB/Spawns/20020001.xml
+Added : /trunk/DB/Spawns/20021000.xml
+Added : /trunk/DB/Spawns/20022000.xml
+Added : /trunk/DB/Spawns/20023000.xml
+Added : /trunk/DB/Spawns/20030000.xml
+Added : /trunk/DB/Spawns/20031000.xml
+Added : /trunk/DB/Spawns/20032000.xml
+Added : /trunk/DB/Spawns/20070000.xml
+Added : /trunk/DB/Spawns/20070001.xml
+Added : /trunk/DB/Spawns/20070002.xml
+Added : /trunk/DB/Spawns/20070003.xml
+Added : /trunk/DB/Spawns/20070004.xml
+Added : /trunk/DB/Spawns/20070005.xml
+Added : /trunk/DB/Spawns/20070006.xml
+Added : /trunk/DB/Spawns/20070007.xml
+Added : /trunk/DB/Spawns/20070008.xml
+Added : /trunk/DB/Spawns/20070010.xml
+Added : /trunk/DB/Spawns/20070011.xml
+Added : /trunk/DB/Spawns/20070012.xml
+Added : /trunk/DB/Spawns/20070013.xml
+Added : /trunk/DB/Spawns/20070014.xml
+Added : /trunk/DB/Spawns/20070015.xml
+Added : /trunk/DB/Spawns/20070016.xml
+Added : /trunk/DB/Spawns/20070017.xml
+Added : /trunk/DB/Spawns/20070018.xml
+Added : /trunk/DB/Spawns/20070020.xml
+Added : /trunk/DB/Spawns/20070021.xml
+Added : /trunk/DB/Spawns/20070022.xml
+Added : /trunk/DB/Spawns/20070023.xml
+Added : /trunk/DB/Spawns/20070024.xml
+Added : /trunk/DB/Spawns/20070025.xml
+Added : /trunk/DB/Spawns/20070026.xml
+Added : /trunk/DB/Spawns/20070027.xml
+Added : /trunk/DB/Spawns/20070028.xml
+Added : /trunk/DB/Spawns/20070030.xml
+Added : /trunk/DB/Spawns/20070031.xml
+Added : /trunk/DB/Spawns/20070032.xml
+Added : /trunk/DB/Spawns/20070033.xml
+Added : /trunk/DB/Spawns/20070034.xml
+Added : /trunk/DB/Spawns/20070035.xml
+Added : /trunk/DB/Spawns/20070036.xml
+Added : /trunk/DB/Spawns/20070037.xml
+Added : /trunk/DB/Spawns/20070038.xml
+Added : /trunk/DB/Spawns/20070100.xml
+Added : /trunk/DB/Spawns/20070101.xml
+Added : /trunk/DB/Spawns/20070102.xml
+Added : /trunk/DB/Spawns/20071009.xml
+Added : /trunk/DB/Spawns/20071019.xml
+Added : /trunk/DB/Spawns/20071029.xml
+Added : /trunk/DB/Spawns/20071039.xml
+Added : /trunk/DB/Spawns/20080000.xml
+Added : /trunk/DB/Spawns/20080006.xml
+Added : /trunk/DB/Spawns/20080007.xml
+Added : /trunk/DB/Spawns/20080008.xml
+Added : /trunk/DB/Spawns/20080009.xml
+Added : /trunk/DB/Spawns/20080010.xml
+Added : /trunk/DB/Spawns/20080011.xml
+Added : /trunk/DB/Spawns/20080015.xml
+Added : /trunk/DB/Spawns/20080016.xml
+Added : /trunk/DB/Spawns/20090000.xml
+Added : /trunk/DB/Spawns/20091000.xml
+Added : /trunk/DB/Spawns/20092000.xml
+Added : /trunk/DB/Spawns/20092001.xml
+Added : /trunk/DB/Spawns/20100000.xml
+Added : /trunk/DB/Spawns/20101000.xml
+Added : /trunk/DB/Spawns/20102000.xml
+Added : /trunk/DB/Spawns/20103000.xml
+Added : /trunk/DB/Spawns/20104000.xml
+Added : /trunk/DB/Spawns/20105000.xml
+Added : /trunk/DB/Spawns/20106000.xml
+Added : /trunk/DB/Spawns/20107000.xml
+Added : /trunk/DB/Spawns/20108000.xml
+Added : /trunk/DB/Spawns/20109000.xml
+Added : /trunk/DB/Spawns/20110000.xml
+Added : /trunk/DB/Spawns/20111000.xml
+Added : /trunk/DB/Spawns/20113000.xml
+Added : /trunk/DB/Spawns/20114000.xml
+Added : /trunk/DB/Spawns/20115000.xml
+Added : /trunk/DB/Spawns/20116000.xml
+Added : /trunk/DB/Spawns/20117000.xml
+Added : /trunk/DB/Spawns/20118000.xml
+Added : /trunk/DB/Spawns/20119000.xml
+Added : /trunk/DB/Spawns/20120000.xml
+Added : /trunk/DB/Spawns/20121000.xml
+Added : /trunk/DB/Spawns/20122000.xml
+Added : /trunk/DB/Spawns/20123000.xml
+Added : /trunk/DB/Spawns/20124000.xml
+Added : /trunk/DB/Spawns/20125000.xml
+Added : /trunk/DB/Spawns/20126000.xml
+Added : /trunk/DB/Spawns/20127000.xml
+Added : /trunk/DB/Spawns/20128000.xml
+Added : /trunk/DB/Spawns/20129000.xml
+Added : /trunk/DB/Spawns/20130000.xml
+Added : /trunk/DB/Spawns/20140000.xml
+Added : /trunk/DB/Spawns/20141000.xml
+Added : /trunk/DB/Spawns/20142000.xml
+Added : /trunk/DB/Spawns/20143000.xml
+Added : /trunk/DB/Spawns/20144000.xml
+Added : /trunk/DB/Spawns/20145000.xml
+Added : /trunk/DB/Spawns/20146000.xml
+Added : /trunk/DB/Spawns/20147000.xml
+Added : /trunk/DB/Spawns/20148000.xml
+Added : /trunk/DB/Spawns/20149000.xml
+Added : /trunk/DB/Spawns/20150000.xml
+Added : /trunk/DB/Spawns/20151000.xml
+Added : /trunk/DB/Spawns/20152000.xml
+Added : /trunk/DB/Spawns/20153000.xml
+Added : /trunk/DB/Spawns/20154000.xml
+Added : /trunk/DB/Spawns/20154001.xml
+Added : /trunk/DB/Spawns/20154002.xml
+Added : /trunk/DB/Spawns/20155000.xml
+Added : /trunk/DB/Spawns/20155001.xml
+Added : /trunk/DB/Spawns/20155002.xml
+Added : /trunk/DB/Spawns/20156000.xml
+Added : /trunk/DB/Spawns/20157000.xml
+Added : /trunk/DB/Spawns/20158000.xml
+Added : /trunk/DB/Spawns/20159000.xml
+Added : /trunk/DB/Spawns/20160000.xml
+Added : /trunk/DB/Spawns/20161000.xml
+Added : /trunk/DB/Spawns/20162000.xml
+Added : /trunk/DB/Spawns/20163000.xml
+Added : /trunk/DB/Spawns/20164000.xml
+Added : /trunk/DB/Spawns/30001000.xml
+Added : /trunk/DB/Spawns/30019009.xml
+Added : /trunk/DB/Spawns/30090001.xml
+Added : /trunk/DB/Spawns/30134000.xml
+Added : /trunk/DB/Spawns/30134001.xml
+Added : /trunk/DB/Spawns/30900000.xml
+Added : /trunk/DB/Spawns/50004000.xml
+Added : /trunk/DB/Spawns/50005000.xml
+Added : /trunk/DB/Spawns/50008000.xml
+Added : /trunk/DB/Spawns/50010000.xml
+Added : /trunk/DB/Spawns/50011000.xml
+Added : /trunk/DB/Spawns/50017000.xml
+Modified : /trunk/DB/Spawns/50031000.xml
+Modified : /trunk/SagaDB/Actor/ActorPC.cs
+Added : /trunk/SagaDB/Actor/Buff.3.cs
+Modified : /trunk/SagaDB/Actor/VariableHolder.cs
+Added : /trunk/SagaDB/Actor/VariableHolderA.cs
+Modified : /trunk/SagaDB/Mob/MobFactory.cs
+Modified : /trunk/SagaDB/SagaDB.csproj
+Modified : /trunk/SagaLib/Global.cs
+Modified : /trunk/SagaLib/Tasks/TaskManager.cs
+Modified : /trunk/SagaMap/ActorEventHandlers/MobEventHandler.cs
+Modified : /trunk/SagaMap/AtCommand.cs
+Modified : /trunk/SagaMap/Manager/ExperienceManager.cs
+Modified : /trunk/SagaMap/Mob/AICommands/Attack.cs
+Modified : /trunk/SagaMap/Mob/AIThread.cs
+Modified : /trunk/SagaMap/Mob/MobAI.cs
+Modified : /trunk/SagaMap/Mob/MobSpawnManager.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.Actor.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.Item.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Shaman/EarthShield.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Shaman/EarthWeapon.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Shaman/FireShield.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Shaman/FireWeapon.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Shaman/WaterShield.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Shaman/WaterWeapon.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Shaman/WindShield.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Shaman/WindWeapon.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/咖啡館(30010000)/咖啡館老闆-11000002.cs
+Modified : /trunk/Tools/MapNameModifier/Form1.Designer.cs
+Modified : /trunk/Tools/MapNameModifier/Form1.cs
+
+Revision: 193
+Author: liiir1985@hotmail.com
+Date: 15:22:15, 2008年10月2日
+Message:
+some more stuff in scripting
+more scripts added
+----
+Added : /trunk/DB/item.xlsx
+Modified : /trunk/DB/monster.csv
+Added : /trunk/DB/monster.xlsx
+Modified : /trunk/SagaDB/Actor/ActorPC.cs
+Modified : /trunk/SagaDB/Actor/VariableHolder.cs
+Modified : /trunk/SagaDB/Mob/Mob.cs
+Modified : /trunk/SagaDB/Mob/MobFactory.cs
+Modified : /trunk/SagaDB/MySQLActorDB.cs
+Modified : /trunk/SagaDB/MySQLConnectivity.cs
+Modified : /trunk/SagaLib/BitMask.cs
+Modified : /trunk/SagaMap/AtCommand.cs
+Modified : /trunk/SagaMap/Mob/AICommands/Attack.cs
+Added : /trunk/SagaMap/Mob/EnumAI.cs
+Modified : /trunk/SagaMap/Mob/MobAI.cs
+Modified : /trunk/SagaMap/Mob/MobSpawnManager.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.Actor.cs
+Modified : /trunk/SagaMap/SagaMap.csproj
+Modified : /trunk/SagaMap/Scripting/Event.Commands.cs
+Modified : /trunk/SagaMap/Skill/SkillHandler.CalcHitCri.cs
+Modified : /trunk/SagaScript/Chinese/NPC标识枚举/中央城市标识枚举.cs
+Added : /trunk/SagaScript/Chinese/NPC标识枚举/猫灵系列任务.cs
+Added : /trunk/SagaScript/Chinese/NPC标识枚举/诺顿标识枚举.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/上城北邊吊橋(10023400)/上城北門守衛-10000033.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/上城南邊吊橋(10023300)/上城南門守衛-10000023.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/上城東邊吊橋(10023100)/上城東門守衛-10000003.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/上城西邊吊橋(10023200)/上城西門守衛-10000013.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/下城的優秀阿姨-11000001.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/萬物博士-11000071.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/雪莉-11000077.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/咖啡館(30010000)/咖啡館老闆-11000002.cs
+Modified : /trunk/SagaScript/Chinese/中央城市/魔法系行會(30044000)/魔法系總管-11000019.cs
+Added : /trunk/SagaScript/Flagnotes.txt
+Modified : /trunk/SagaScript/SagaScript.csproj
+Deleted : /trunk/SagaScript/Test.cs
+Deleted : /trunk/SagaScript/司令官-13000162.cs
+Modified : /trunk/Tools/APathfinding
+Modified : /trunk/Tools/EvenIdToScript
+Modified : /trunk/Tools/MapNameModifier
+Modified : /trunk/Tools/MapNameModifier/Form1.Designer.cs
+Modified : /trunk/Tools/MapNameModifier/Form1.cs
+
+Revision: 192
+Author: liiir1985@hotmail.com
+Date: 14:51:33, 2008年10月1日
+Message:
+hit/avoid calculation implemented
+elements bonus on attack implemented
+----
+Modified : /trunk/SagaDB/Actor/Actor.cs
+Modified : /trunk/SagaDB/Actor/ActorMob.cs
+Modified : /trunk/SagaDB/Actor/ActorPC.cs
+Modified : /trunk/SagaDB/Actor/ActorPet.cs
+Modified : /trunk/SagaDB/Map/MapInfo.cs
+Modified : /trunk/SagaDB/Map/MapInfoFactory.cs
+Modified : /trunk/SagaDB/Mob/Mob.cs
+Modified : /trunk/SagaDB/Mob/MobFactory.cs
+Modified : /trunk/SagaLib/NetIO.cs
+Modified : /trunk/SagaLogin/LoginServer.cs
+Modified : /trunk/SagaMap/AtCommand.cs
+Modified : /trunk/SagaMap/Manager/ExperienceManager.cs
+Modified : /trunk/SagaMap/Map.MapEventArgs.cs
+Modified : /trunk/SagaMap/Map.Utility.cs
+Modified : /trunk/SagaMap/SagaMap.csproj
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Elementaler/LavaFlow.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Shaman/ColdBlast.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Shaman/EarthBlast.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Shaman/FireBlast.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Shaman/FireBolt.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Shaman/IceArrow.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Shaman/LandKlug.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Shaman/LightningBlast.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Shaman/ThunderBall.cs
+Added : /trunk/SagaMap/Skill/SkillHandler.CalcElement.cs
+Added : /trunk/SagaMap/Skill/SkillHandler.CalcHitCri.cs
+Modified : /trunk/SagaMap/Skill/SkillHandler.SkillAttack.cs
+Modified : /trunk/SagaMap/Skill/SkillHandler.cs
+Modified : /trunk/SagaMap/Tasks/PC/QuestTime.cs
+
+Revision: 191
+Author: liiir1985@hotmail.com
+Date: 22:28:05, 2008年9月30日
+Message:
+update mysql data lib
+npc trade implemented,
+bug in item stack update fixed
+bug in trade fixed
+gather type quest implemented
+----
+Modified : /trunk/Dependecies/MySql.Data.dll
+Added : /trunk/Dependecies/MySql.Data.pdb
+Added : /trunk/Dependecies/MySql.Data.xml
+Modified : /trunk/SagaDB/MySQLActorDB.cs
+Modified : /trunk/SagaLib/NetIO.cs
+Modified : /trunk/SagaMap/AtCommand.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.Item.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.NPC.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.Trade.cs
+Modified : /trunk/SagaMap/SagaMap.csproj
+Added : /trunk/SagaMap/Scripting/Event.Commands.Quest.cs
+Modified : /trunk/SagaMap/Scripting/Event.Commands.cs
+
+Revision: 190
+Author: liiir1985@hotmail.com
+Date: 9:57:10, 2008年9月27日
+Message:
+more skills implemented
+----
+Modified : /trunk
+Modified : /trunk/SagaDB/Actor/Actor.cs
+Modified : /trunk/SagaDB/Actor/ActorMob.cs
+Modified : /trunk/SagaDB/Actor/ActorPet.cs
+Modified : /trunk/SagaDB/Actor/Enums.cs
+Modified : /trunk/SagaDB/Actor/Status.cs
+Modified : /trunk/SagaDB/Item/Item.cs
+Modified : /trunk/SagaDB/SagaDB.csproj
+Modified : /trunk/SagaMap/Network/Client/MapClient.Actor.cs
+Modified : /trunk/SagaMap/PC/StatusFactory.Item.cs
+Modified : /trunk/SagaMap/PC/StatusFactory.cs
+Modified : /trunk/SagaMap/Packets/Server/Actor/SSMG_ACTOR_BUFF.cs
+Modified : /trunk/SagaMap/SagaMap.csproj
+Modified : /trunk/SagaMap/Skill/Additions/Global/DefaultBuff.cs
+Modified : /trunk/SagaMap/Skill/Additions/Global/DefaultPassiveSkill.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Elementaler/LavaFlow.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Global/MPRecoverUP.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Global/MaceMastery.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Global/MaxMPUp.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Shaman/ColdBlast.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Shaman/EarthBlast.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Shaman/EarthShield.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Shaman/EarthWeapon.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Shaman/FireBlast.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Shaman/FireShield.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Shaman/FireWeapon.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Shaman/LightningBlast.cs
+Deleted : /trunk/SagaMap/Skill/SkillDefinations/Shaman/MPRecoverUP.cs
+Deleted : /trunk/SagaMap/Skill/SkillDefinations/Shaman/MaxMPUp.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Shaman/WaterShield.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Shaman/WaterWeapon.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Shaman/WindShield.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Shaman/WindWeapon.cs
+Modified : /trunk/SagaMap/Skill/SkillHandler.SkillAttack.cs
+Modified : /trunk/SagaMap/Skill/SkillHandler.SkillManager.cs
+Modified : /trunk/SagaMap/Skill/SkillHandler.cs
+Modified : /trunk/SagaMap/Tasks/PC/Possession.cs
+
+Revision: 189
+Author: happy61@gmail.com
+Date: 8:09:48, 2008年9月27日
+Message:
+AccountCreator Update
+----
+Modified : /trunk/AccountCreator/Form1.Designer.cs
+Modified : /trunk/AccountCreator/Form1.cs
+
+Revision: 188
+Author: liiir1985@hotmail.com
+Date: 16:04:29, 2008年9月23日
+Message:
+more database
+----
+Modified : /trunk/DB/monster.csv
+
+Revision: 187
+Author: liiir1985@hotmail.com
+Date: 16:00:13, 2008年9月23日
+Message:
+database and config file updated
+----
+Modified : /trunk/ConfigFiles/SagaLogin.xml
+Modified : /trunk/ConfigFiles/SagaMap.xml
+Added : /trunk/DB/Spawns/10001000.xml
+Added : /trunk/DB/Spawns/10002000.xml
+Modified : /trunk/DB/Spawns/10003000.xml
+Added : /trunk/DB/Spawns/10004000.xml
+Modified : /trunk/DB/Spawns/10014000.xml
+Added : /trunk/DB/Spawns/10015000.xml
+Added : /trunk/DB/Spawns/10017000.xml
+Added : /trunk/DB/Spawns/10018000.xml
+Added : /trunk/DB/Spawns/10019000.xml
+Added : /trunk/DB/Spawns/10020000.xml
+Added : /trunk/DB/Spawns/10022000.xml
+Added : /trunk/DB/Spawns/10025000.xml
+Added : /trunk/DB/Spawns/10028000.xml
+Added : /trunk/DB/Spawns/10030000.xml
+Added : /trunk/DB/Spawns/10031000.xml
+Added : /trunk/DB/Spawns/10032000.xml
+Added : /trunk/DB/Spawns/10034000.xml
+Added : /trunk/DB/Spawns/10035000.xml
+Added : /trunk/DB/Spawns/10042000.xml
+Added : /trunk/DB/Spawns/10043000.xml
+Added : /trunk/DB/Spawns/10046000.xml
+Added : /trunk/DB/Spawns/10049000.xml
+Added : /trunk/DB/Spawns/10050000.xml
+Added : /trunk/DB/Spawns/10051000.xml
+Added : /trunk/DB/Spawns/10054000.xml
+Added : /trunk/DB/Spawns/10056000.xml
+Added : /trunk/DB/Spawns/10061000.xml
+Added : /trunk/DB/Spawns/10063000.xml
+Added : /trunk/DB/Spawns/10064000.xml
+Added : /trunk/DB/Spawns/10068000.xml
+Modified : /trunk/DB/monster.csv
+
+Revision: 186
+Author: liiir1985@hotmail.com
+Date: 15:47:43, 2008年9月23日
+Message:
+A bug in possession fixed
+trading implemented
+----
+Modified : /trunk/DB/monster.csv
+Modified : /trunk/SagaDB/AccountDB.cs
+Modified : /trunk/SagaDB/ActorDB.cs
+Modified : /trunk/SagaDB/Item/Inventory.cs
+Modified : /trunk/SagaDB/Item/Item.cs
+Modified : /trunk/SagaDB/MySQLActorDB.cs
+Modified : /trunk/SagaDB/SagaDB.csproj
+Modified : /trunk/SagaLib/Factory.cs
+Modified : /trunk/SagaLib/NetIO.cs
+Modified : /trunk/SagaLib/Packet.cs
+Modified : /trunk/SagaLib/SagaLib.csproj
+Modified : /trunk/SagaLib/Singleton.cs
+Modified : /trunk/SagaLogin/LoginServer.cs
+Modified : /trunk/SagaMap/ActorEventHandlers/PCEventHandler.cs
+Modified : /trunk/SagaMap/Localization/Languages/Chinese.cs
+Modified : /trunk/SagaMap/Localization/Languages/English.cs
+Modified : /trunk/SagaMap/Localization/Languages/TChinese.cs
+Modified : /trunk/SagaMap/Localization/Strings.cs
+Modified : /trunk/SagaMap/Manager/MapClientManager.cs
+Modified : /trunk/SagaMap/Map.MapInstance.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.Item.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.NPC.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.Possession.cs
+Added : /trunk/SagaMap/Network/Client/MapClient.Trade.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.cs
+Added : /trunk/SagaMap/Packets/Client/Trade
+Added : /trunk/SagaMap/Packets/Client/Trade/CSMG_TRADE_CANCEL.cs
+Added : /trunk/SagaMap/Packets/Client/Trade/CSMG_TRADE_CONFIRM.cs
+Added : /trunk/SagaMap/Packets/Client/Trade/CSMG_TRADE_ITEM.cs
+Added : /trunk/SagaMap/Packets/Client/Trade/CSMG_TRADE_PERFORM.cs
+Added : /trunk/SagaMap/Packets/Client/Trade/CSMG_TRADE_REQUEST.cs
+Added : /trunk/SagaMap/Packets/Client/Trade/CSMG_TRADE_REQUEST_ANSWER.cs
+Modified : /trunk/SagaMap/Packets/Server/Actor/SSMG_PLAYER_SIZE.cs
+Added : /trunk/SagaMap/Packets/Server/Trade
+Added : /trunk/SagaMap/Packets/Server/Trade/SSMG_TRADE_END.cs
+Added : /trunk/SagaMap/Packets/Server/Trade/SSMG_TRADE_GOLD.cs
+Added : /trunk/SagaMap/Packets/Server/Trade/SSMG_TRADE_ITEM_FOOT.cs
+Added : /trunk/SagaMap/Packets/Server/Trade/SSMG_TRADE_ITEM_HEAD.cs
+Added : /trunk/SagaMap/Packets/Server/Trade/SSMG_TRADE_ITEM_INFO.cs
+Added : /trunk/SagaMap/Packets/Server/Trade/SSMG_TRADE_REQUEST.cs
+Added : /trunk/SagaMap/Packets/Server/Trade/SSMG_TRADE_REQUEST_RESULT.cs
+Added : /trunk/SagaMap/Packets/Server/Trade/SSMG_TRADE_START.cs
+Added : /trunk/SagaMap/Packets/Server/Trade/SSMG_TRADE_STATUS.cs
+Modified : /trunk/SagaMap/SagaMap.csproj
+Modified : /trunk/SagaMap/Scripting/Event.Commands.cs
+Modified : /trunk/SagaMap/Tasks/Mob/DeleteCorpse.cs
+Added : /trunk/SagaMap/Tasks/PC/QuestTime.cs
+Modified : /trunk/sqlfile/main.sql
+Added : /trunk/sqlfile/update_r186.sql
+
+Revision: 185
+Author: liiir1985@hotmail.com
+Date: 23:51:49, 2008年9月18日
+Message:
+Quest system implemented
+----
+Modified : /trunk/SagaMap/Localization/Languages/Chinese.cs
+Modified : /trunk/SagaMap/Localization/Languages/English.cs
+Modified : /trunk/SagaMap/Localization/Languages/TChinese.cs
+Modified : /trunk/SagaMap/Localization/Strings.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.Actor.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.Login.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.NPC.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.Quest.cs
+Modified : /trunk/SagaMap/SagaMap.csproj
+Modified : /trunk/SagaMap/Scripting/Event.Commands.cs
+Modified : /trunk/SagaMap/Scripting/Event.Events.cs
+Modified : /trunk/SagaMap/Scripting/Event.cs
+Modified : /trunk/SagaMap/Skill/SkillHandler.SkillAttack.cs
+Modified : /trunk/SagaScript
+Modified : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/咖啡館的麥當娜-11000106.cs
+Added : /trunk/SagaScript/Chinese/中央城市/咖啡館(30010000)
+Added : /trunk/SagaScript/Chinese/中央城市/咖啡館(30010000)/咖啡館老闆-11000002.cs
+Added : /trunk/SagaScript/Chinese/野外
+Added : /trunk/SagaScript/Chinese/野外/奧克魯尼亞南部平原(10031000)
+Added : /trunk/SagaScript/Chinese/野外/奧克魯尼亞南部平原(10031000)/出差的咖啡館店員-11000988.cs
+Added : /trunk/SagaScript/Chinese/野外/奧克魯尼亞南部平原(10031000)/列特-11000098.cs
+Added : /trunk/SagaScript/Chinese/野外/奧克魯尼亞南部平原(10031000)/南門守衛-11000131.cs
+Added : /trunk/SagaScript/Chinese/野外/奧克魯尼亞南部平原(10031000)/南門守衛-11000132.cs
+Added : /trunk/SagaScript/Chinese/野外/奧克魯尼亞南部平原(10031000)/咖啡館店員-11000437.cs
+Added : /trunk/SagaScript/Chinese/野外/奧克魯尼亞南部平原(10031000)/垃圾桶-12000020.cs
+Added : /trunk/SagaScript/Chinese/野外/奧克魯尼亞南部平原(10031000)/垃圾桶-12000053.cs
+Added : /trunk/SagaScript/Chinese/野外/奧克魯尼亞南部平原(10031000)/尼庫爾勒-11000097.cs
+Added : /trunk/SagaScript/Chinese/野外/奧克魯尼亞南部平原(10031000)/普麗緹小姐-11000170.cs
+Added : /trunk/SagaScript/Chinese/野外/奧克魯尼亞南部平原(10031000)/維多利娜-11000137.cs
+Added : /trunk/SagaScript/Chinese/野外/奧克魯尼亞南部平原(10031000)/行會商人-11000052.cs
+Added : /trunk/SagaScript/Chinese/野外/奧克魯尼亞南部平原(10031000)/路標-12002022.cs
+Added : /trunk/SagaScript/Chinese/野外/奧克魯尼亞南部平原(10031000)/道具精製師-11000120.cs
+Added : /trunk/SagaScript/Chinese/野外/奧克魯尼亞南部平原(10031000)/鑑定師-11000457.cs
+Added : /trunk/SagaScript/Chinese/野外/奧克魯尼亞南部平原(10031000)/隊伍招募廣場-12002034.cs
+Added : /trunk/SagaScript/Chinese/野外/奧克魯尼亞南部平原(10031000)/隊伍招募廣場-12002035.cs
+Added : /trunk/SagaScript/Chinese/野外/奧克魯尼亞南部平原(10031000)/食品店老婆婆-11000124.cs
+Modified : /trunk/SagaScript/SagaScript.csproj
+
+Revision: 184
+Author: liiir1985@hotmail.com
+Date: 21:32:27, 2008年9月18日
+Message:
+Convert all database to utf-8 encoding
+add npc database and parsing
+A general factory class is implemented, it makes reading csv  or xml(not implemented) database much easier
+More quest related stuffs implemented
+----
+Modified : /trunk/DB/SkillDB.csv
+Modified : /trunk/DB/item.csv
+Modified : /trunk/DB/mapname.csv
+Modified : /trunk/DB/marionette.csv
+Modified : /trunk/DB/monster.csv
+Modified : /trunk/DB/npc.csv
+Modified : /trunk/DB/pet.csv
+Added : /trunk/Ecoweb/Check.aspx
+Added : /trunk/Ecoweb/Check.aspx.cs
+Modified : /trunk/SagaDB/Actor/ActorPC.cs
+Modified : /trunk/SagaDB/Item/ItemFactory.cs
+Modified : /trunk/SagaDB/MySQLActorDB.cs
+Added : /trunk/SagaDB/Npc
+Added : /trunk/SagaDB/Npc/NPC.cs
+Added : /trunk/SagaDB/Npc/NPCFactory.cs
+Modified : /trunk/SagaDB/Quests/Quest.cs
+Modified : /trunk/SagaDB/Quests/QuestType.cs
+Modified : /trunk/SagaDB/SagaDB.csproj
+Added : /trunk/SagaLib/Factory.cs
+Modified : /trunk/SagaLib/SagaLib.csproj
+Modified : /trunk/SagaMap/Localization/Languages/Chinese.cs
+Modified : /trunk/SagaMap/Localization/Languages/English.cs
+Modified : /trunk/SagaMap/Localization/Languages/TChinese.cs
+Modified : /trunk/SagaMap/Localization/Strings.cs
+Modified : /trunk/SagaMap/Manager/ExperienceManager.cs
+Modified : /trunk/SagaMap/MapServer.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.Quest.cs
+Modified : /trunk/SagaMap/Packets/Server/NPC/SSMG_NPC_SHOP_BUY.cs
+Added : /trunk/SagaMap/Packets/Server/Quest/SSMG_QUEST_DELETE.cs
+Modified : /trunk/SagaMap/SagaMap.csproj
+Added : /trunk/SagaMap/Scripting/Event.Commands.cs
+Added : /trunk/SagaMap/Scripting/Event.Events.cs
+Modified : /trunk/SagaMap/Scripting/Event.cs
+Modified : /trunk/Tools/MapNameModifier/Form1.Designer.cs
+Modified : /trunk/Tools/MapNameModifier/Form1.cs
+Modified : /trunk/sqlfile/main.sql
+Added : /trunk/sqlfile/update_r184.sql
+
+Revision: 183
+Author: liiir1985@hotmail.com
+Date: 12:02:41, 2008年9月16日
+Message:
+More quest stuff
+----
+Modified : /trunk/SagaDB/Actor/ActorPC.cs
+Modified : /trunk/SagaDB/MySQLActorDB.cs
+Modified : /trunk/SagaLogin/Network/Client/LoginClient.Login.cs
+Modified : /trunk/SagaMap
+Modified : /trunk/SagaMap/Network/Client/MapClient.Login.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.Quest.cs
+Added : /trunk/SagaMap/Packets/Server/Quest/SSMG_QUEST_COUNT_UPDATE.cs
+Added : /trunk/SagaMap/Packets/Server/Quest/SSMG_QUEST_POINT.cs
+Added : /trunk/SagaMap/Packets/Server/Quest/SSMG_QUEST_RESTTIME_UPDATE.cs
+Added : /trunk/SagaMap/Packets/Server/Quest/SSMG_QUEST_STATUS_UPDATE.cs
+Added : /trunk/SagaMap/Packets/Server/Quest/SSMG_QUEST_WINDOW.cs
+Modified : /trunk/SagaMap/SagaMap.csproj
+Modified : /trunk/sqlfile/main.sql
+Modified : /trunk/sqlfile/update_r182.sql
+
+Revision: 182
+Author: liiir1985@hotmail.com
+Date: 23:29:56, 2008年9月15日
+Message:
+Quest DB updated
+More quest stuff implemented
+Login server now won't load skill/map database anymore
+Traditional Chinese added
+----
+Modified : /trunk
+Deleted : /trunk/DB/QuestDB.xml
+Added : /trunk/DB/Quests
+Added : /trunk/DB/Quests/QuestDB_1.xml
+Added : /trunk/DB/Quests/QuestDB_10.xml
+Added : /trunk/DB/Quests/QuestDB_11.xml
+Added : /trunk/DB/Quests/QuestDB_12.xml
+Added : /trunk/DB/Quests/QuestDB_13.xml
+Added : /trunk/DB/Quests/QuestDB_14.xml
+Added : /trunk/DB/Quests/QuestDB_15.xml
+Added : /trunk/DB/Quests/QuestDB_16.xml
+Added : /trunk/DB/Quests/QuestDB_17.xml
+Added : /trunk/DB/Quests/QuestDB_18.xml
+Added : /trunk/DB/Quests/QuestDB_19.xml
+Added : /trunk/DB/Quests/QuestDB_2.xml
+Added : /trunk/DB/Quests/QuestDB_20.xml
+Added : /trunk/DB/Quests/QuestDB_21.xml
+Added : /trunk/DB/Quests/QuestDB_22.xml
+Added : /trunk/DB/Quests/QuestDB_23.xml
+Added : /trunk/DB/Quests/QuestDB_24.xml
+Added : /trunk/DB/Quests/QuestDB_25.xml
+Added : /trunk/DB/Quests/QuestDB_26.xml
+Added : /trunk/DB/Quests/QuestDB_27.xml
+Added : /trunk/DB/Quests/QuestDB_28.xml
+Added : /trunk/DB/Quests/QuestDB_29.xml
+Added : /trunk/DB/Quests/QuestDB_3.xml
+Added : /trunk/DB/Quests/QuestDB_30.xml
+Added : /trunk/DB/Quests/QuestDB_31.xml
+Added : /trunk/DB/Quests/QuestDB_32.xml
+Added : /trunk/DB/Quests/QuestDB_33.xml
+Added : /trunk/DB/Quests/QuestDB_34.xml
+Added : /trunk/DB/Quests/QuestDB_35.xml
+Added : /trunk/DB/Quests/QuestDB_36.xml
+Added : /trunk/DB/Quests/QuestDB_37.xml
+Added : /trunk/DB/Quests/QuestDB_38.xml
+Added : /trunk/DB/Quests/QuestDB_39.xml
+Added : /trunk/DB/Quests/QuestDB_4.xml
+Added : /trunk/DB/Quests/QuestDB_40.xml
+Added : /trunk/DB/Quests/QuestDB_41.xml
+Added : /trunk/DB/Quests/QuestDB_42.xml
+Added : /trunk/DB/Quests/QuestDB_43.xml
+Added : /trunk/DB/Quests/QuestDB_44.xml
+Added : /trunk/DB/Quests/QuestDB_45.xml
+Added : /trunk/DB/Quests/QuestDB_46.xml
+Added : /trunk/DB/Quests/QuestDB_47.xml
+Added : /trunk/DB/Quests/QuestDB_48.xml
+Added : /trunk/DB/Quests/QuestDB_49.xml
+Added : /trunk/DB/Quests/QuestDB_5.xml
+Added : /trunk/DB/Quests/QuestDB_50.xml
+Added : /trunk/DB/Quests/QuestDB_51.xml
+Added : /trunk/DB/Quests/QuestDB_52.xml
+Added : /trunk/DB/Quests/QuestDB_53.xml
+Added : /trunk/DB/Quests/QuestDB_54.xml
+Added : /trunk/DB/Quests/QuestDB_55.xml
+Added : /trunk/DB/Quests/QuestDB_56.xml
+Added : /trunk/DB/Quests/QuestDB_6.xml
+Added : /trunk/DB/Quests/QuestDB_7.xml
+Added : /trunk/DB/Quests/QuestDB_8.xml
+Added : /trunk/DB/Quests/QuestDB_9.xml
+Modified : /trunk/SagaDB
+Modified : /trunk/SagaDB/Actor/ActorPC.cs
+Modified : /trunk/SagaDB/ActorDB.cs
+Modified : /trunk/SagaDB/MySQLActorDB.cs
+Modified : /trunk/SagaDB/Quests/Quest.cs
+Added : /trunk/SagaDB/Quests/QuestFactory.cs
+Modified : /trunk/SagaDB/Quests/QuestType.cs
+Modified : /trunk/SagaDB/SagaDB.csproj
+Modified : /trunk/SagaLib
+Modified : /trunk/SagaLogin
+Modified : /trunk/SagaLogin/LoginServer.cs
+Modified : /trunk/SagaLogin/Network/Client/LoginClient.Login.cs
+Modified : /trunk/SagaMap
+Modified : /trunk/SagaMap/AtCommand.cs
+Added : /trunk/SagaMap/Localization/Languages/TChinese.cs
+Modified : /trunk/SagaMap/Manager/LocalManager.cs
+Modified : /trunk/SagaMap/Manager/MapClientManager.cs
+Modified : /trunk/SagaMap/MapServer.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.Login.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.Quest.cs
+Added : /trunk/SagaMap/Packets/Client/Quest/CSMG_QUEST_SELECT.cs
+Added : /trunk/SagaMap/Packets/Server/Quest/SSMG_QUEST_ACTIVATE.cs
+Modified : /trunk/SagaMap/Packets/Server/Quest/SSMG_QUEST_LIST.cs
+Modified : /trunk/SagaMap/Properties
+Modified : /trunk/SagaMap/SagaMap.csproj
+Modified : /trunk/SagaMap/Scripting/Event.cs
+Modified : /trunk/SagaScript/SagaScript.csproj
+Modified : /trunk/Tools/EvenIdToScript
+Modified : /trunk/Tools/MapNameModifier/Form1.cs
+Modified : /trunk/sqlfile/main.sql
+Added : /trunk/sqlfile/update_r182.sql
+
+Revision: 181
+Author: liiir1985@hotmail.com
+Date: 0:00:32, 2008年9月15日
+Message:
+Rewrote the whole TaskManager
+A new progress bar is implemented
+some basic packet definition for quest is added
+quest database added
+----
+Added : /trunk/DB/QuestDB.xml
+Modified : /trunk/PacketProxy/Program.cs
+Modified : /trunk/SagaDB/Item/ItemFactory.cs
+Modified : /trunk/SagaDB/Map/MapInfoFactory.cs
+Modified : /trunk/SagaDB/Mob/MobFactory.cs
+Added : /trunk/SagaDB/Quests
+Added : /trunk/SagaDB/Quests/Quest.cs
+Added : /trunk/SagaDB/Quests/QuestType.cs
+Modified : /trunk/SagaDB/SagaDB.csproj
+Modified : /trunk/SagaDB/Skill/SkillFactory.cs
+Modified : /trunk/SagaLib/Logger.cs
+Modified : /trunk/SagaLib/SagaLib.csproj
+Modified : /trunk/SagaLib/Tasks/MultiRunTask.cs
+Added : /trunk/SagaLib/Tasks/TaskManager.cs
+Modified : /trunk/SagaMap/AtCommand.cs
+Modified : /trunk/SagaMap/Manager/MapClientManager.cs
+Modified : /trunk/SagaMap/Mob/MobSpawnManager.cs
+Added : /trunk/SagaMap/Network/Client/MapClient.Quest.cs
+Added : /trunk/SagaMap/Packets/Client/Quest
+Added : /trunk/SagaMap/Packets/Client/Quest/CSMG_QUEST_DETAIL_REQUEST.cs
+Modified : /trunk/SagaMap/Packets/Server/Item/SSMG_ITEM_ACTOR_EQUIP_UPDATE.cs
+Added : /trunk/SagaMap/Packets/Server/Quest
+Added : /trunk/SagaMap/Packets/Server/Quest/SSMG_QUEST_DETAIL.cs
+Added : /trunk/SagaMap/Packets/Server/Quest/SSMG_QUEST_LIST.cs
+Modified : /trunk/SagaMap/SagaMap.csproj
+Modified : /trunk/Tools/MapNameModifier/Form1.Designer.cs
+Modified : /trunk/Tools/MapNameModifier/Form1.cs
+
+Revision: 180
+Author: liiir1985@hotmail.com
+Date: 18:08:17, 2008年9月11日
+Message:
+bugfix: clear pet after player log off
+2 scripting commands added(ChangePlayerJob LearnSkill)
+the first class changing quest is implemented
+----
+Modified : /trunk/DB/SkillList.xml
+Modified : /trunk/SagaLib/BitMask.cs
+Modified : /trunk/SagaMap/Mob/MobSpawnManager.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.cs
+Modified : /trunk/SagaMap/Scripting/Event.cs
+Added : /trunk/SagaScript/Chinese/NPC标识枚举
+Added : /trunk/SagaScript/Chinese/NPC标识枚举/中央城市标识枚举.cs
+Deleted : /trunk/SagaScript/Chinese/下城(10024000)
+Added : /trunk/SagaScript/Chinese/中央城市
+Added : /trunk/SagaScript/Chinese/中央城市/上城(10023000)
+Added : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/上城北門守衛-11000377.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/上城南門守衛-11000376.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/上城東門守衛-11000374.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/上城西門守衛-11000375.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/北方告示板1-12001040.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/北方告示板2-12001041.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/南方告示板1-12001042.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/南方告示板2-12001043.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/嚮導機械人-11000339.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/嚮導機械人-11000369.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/嚮導機械人-11000370.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/嚮導機械人-11000371.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/嚮導機械人-11000372.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/垃圾桶-12000005.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/垃圾桶-12000007.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/垃圾桶-12000009.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/垃圾桶-12000011.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/垃圾桶-12000017.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/垃圾桶-12000018.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/垃圾桶-12000019.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/垃圾桶-12000021.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/垃圾桶-12000022.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/垃圾桶-12000069.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/垃圾桶-12000070.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/垃圾桶-12000071.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/垃圾桶-12000072.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/垃圾桶-12000073.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/垃圾桶-12000074.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/垃圾桶-12000075.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/垃圾桶-12000076.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/埃琳娜-11000155.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/委託告示板-12002072.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/尼貝諾特髮型屋-11000115.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/撒帕涅-11000508.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/村裡的老人-11000070.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/東方告示板1-12001044.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/東方告示板2-12001045.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/泰迪-11000776.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/獨奏-11000509.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/老爺爺的兒媳婦-11000085.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/老爺爺的孩子-11000081.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/老爺爺的朋友-11000083.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/行會商人-11000054.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/行會商人-11000618.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/西方告示板1-12001046.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/西方告示板2-12001047.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/見習鐵匠阿魯斯-11000510.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/軍團成員招募告示板1-12001053.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/軍團成員招募告示板2-12001054.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/軍團管理員-11000250.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/道具票交換機-12001032.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/道具票交換機-12001033.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/道具票交換機-12001034.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/道具票交換機-12001035.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/道具票交換機-12001036.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/道具票交換機-12001037.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/道具票交換機-12001038.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/道具票交換機-12001039.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/道具票交換機-12001052.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城(10023000)/黑哈因髮型屋-11000411.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城北邊吊橋(10023400)
+Added : /trunk/SagaScript/Chinese/中央城市/上城北邊吊橋(10023400)/上城北門守衛-10000033.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城北邊吊橋(10023400)/初心者嚮導-11000535.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城北邊吊橋(10023400)/垃圾桶-12000013.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城北邊吊橋(10023400)/垃圾桶-12000015.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城北邊吊橋(10023400)/復活戰士-11000350.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城北邊吊橋(10023400)/行會商人-11000627.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城北邊吊橋(10023400)/道具票交換機-12001014.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城北邊吊橋(10023400)/道具票交換機-12001015.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城南邊吊橋(10023300)
+Added : /trunk/SagaScript/Chinese/中央城市/上城南邊吊橋(10023300)/上城南門守衛-10000023.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城南邊吊橋(10023300)/初心者嚮導-11000534.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城南邊吊橋(10023300)/垃圾桶-12000010.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城南邊吊橋(10023300)/垃圾桶-12000012.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城南邊吊橋(10023300)/復活戰士-11000349.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城南邊吊橋(10023300)/行會商人-11000626.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城南邊吊橋(10023300)/道具票交換機-12001018.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城南邊吊橋(10023300)/道具票交換機-12001019.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城東邊吊橋(10023100)
+Added : /trunk/SagaScript/Chinese/中央城市/上城東邊吊橋(10023100)/上城東門守衛-10000003.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城東邊吊橋(10023100)/初心者嚮導-11000532.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城東邊吊橋(10023100)/垃圾桶-12000014.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城東邊吊橋(10023100)/垃圾桶-12000016.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城東邊吊橋(10023100)/復活戰士-11000347.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城東邊吊橋(10023100)/行會商人-11000624.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城東邊吊橋(10023100)/道具票交換機-12001016.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城東邊吊橋(10023100)/道具票交換機-12001017.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城西邊吊橋(10023200)
+Added : /trunk/SagaScript/Chinese/中央城市/上城西邊吊橋(10023200)/上城西門守衛-10000013.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城西邊吊橋(10023200)/初心者嚮導-11000533.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城西邊吊橋(10023200)/垃圾桶-12000006.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城西邊吊橋(10023200)/垃圾桶-12000008.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城西邊吊橋(10023200)/復活戰士-11000348.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城西邊吊橋(10023200)/行會商人-11000625.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城西邊吊橋(10023200)/道具票交換機-12001012.cs
+Added : /trunk/SagaScript/Chinese/中央城市/上城西邊吊橋(10023200)/道具票交換機-12001013.cs
+Added : /trunk/SagaScript/Chinese/中央城市/下城(10024000)
+Added : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/下城的優秀阿姨-11000001.cs
+Added : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/健忘的老人-11000080.cs
+Added : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/北方的露天商店店員-11000009.cs
+Added : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/南方的露天商店店員-11000008.cs
+Added : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/卡魯利涅-11000108.cs
+Added : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/咖啡館的麥當娜-11000106.cs
+Added : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/嚮導機械人-11000338.cs
+Added : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/嚮導機械人-11000340.cs
+Added : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/嚮導機械人-11000341.cs
+Added : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/嚮導機械人-11000367.cs
+Added : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/嚮導機械人-11000368.cs
+Added : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/地下告示板-12001048.cs
+Added : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/地下告示板-12001049.cs
+Added : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/地下告示板-12001050.cs
+Added : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/地下告示板-12001051.cs
+Added : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/垃圾桶-12000023.cs
+Added : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/垃圾桶-12000024.cs
+Added : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/垃圾桶-12000025.cs
+Added : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/垃圾桶-12000026.cs
+Added : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/垃圾桶-12000027.cs
+Added : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/垃圾桶-12000028.cs
+Added : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/垃圾桶-12000029.cs
+Added : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/垃圾桶-12000030.cs
+Added : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/垃圾桶-12000031.cs
+Added : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/垃圾桶-12000032.cs
+Added : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/垃圾桶-12000033.cs
+Added : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/垃圾桶-12000034.cs
+Added : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/垃圾桶-12000035.cs
+Added : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/垃圾桶-12000036.cs
+Added : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/垃圾桶-12000037.cs
+Added : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/垃圾桶-12000038.cs
+Added : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/垃圾桶-12000039.cs
+Added : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/垃圾桶-12000040.cs
+Added : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/垃圾桶-12000041.cs
+Added : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/垃圾桶-12000042.cs
+Added : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/垃圾桶-12000043.cs
+Added : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/垃圾桶-12000044.cs
+Added : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/垃圾桶-12000045.cs
+Added : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/垃圾桶-12000046.cs
+Added : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/垃圾桶-12000047.cs
+Added : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/垃圾桶-12000048.cs
+Added : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/垃圾桶-12000049.cs
+Added : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/垃圾桶-12000050.cs
+Added : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/垃圾桶-12000051.cs
+Added : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/垃圾桶-12000052.cs
+Added : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/塗鴉機械-12001009.cs
+Added : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/愛哭的男生-11000086.cs
+Added : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/東方的露天商店店員-11000006.cs
+Added : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/染色店阿姨-11000403.cs
+Added : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/染色店阿姨-11000765.cs
+Added : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/湯姆的媽媽-11000107.cs
+Added : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/老爺爺的孫兒-11000082.cs
+Added : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/老爺爺的部下-11000084.cs
+Added : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/菲爾-11000078.cs
+Added : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/萬物博士-11000071.cs
+Added : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/行會商人-11000055.cs
+Added : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/行會商人-11000619.cs
+Added : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/街上的男孩-11000049.cs
+Added : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/西方的露天商店店員-11000007.cs
+Added : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/西軍騎士團團員-11000905.cs
+Added : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/道具票交換機-12001020.cs
+Added : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/道具票交換機-12001021.cs
+Added : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/道具票交換機-12001022.cs
+Added : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/道具票交換機-12001023.cs
+Added : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/雪莉-11000077.cs
+Added : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/魔術-11000076.cs
+Added : /trunk/SagaScript/Chinese/中央城市/下城(10024000)/黑佰特-11000079.cs
+Added : /trunk/SagaScript/Chinese/中央城市/行會宮殿2樓(30111000)
+Added : /trunk/SagaScript/Chinese/中央城市/行會宮殿2樓(30111000)/行會宮殿嚮導-11000011.cs
+Added : /trunk/SagaScript/Chinese/中央城市/行會宮殿3樓(30112000)
+Added : /trunk/SagaScript/Chinese/中央城市/行會宮殿3樓(30112000)/传送门-10000166.cs
+Added : /trunk/SagaScript/Chinese/中央城市/行會宮殿3樓(30112000)/行會宮殿嚮導-11000012.cs
+Added : /trunk/SagaScript/Chinese/中央城市/行會宮殿4樓(30113000)
+Added : /trunk/SagaScript/Chinese/中央城市/行會宮殿4樓(30113000)/行會宮殿嚮導-11000013.cs
+Added : /trunk/SagaScript/Chinese/中央城市/行會宮殿4樓(30113001)
+Added : /trunk/SagaScript/Chinese/中央城市/行會宮殿4樓(30113001)/心軟的古魯杜-11000585.cs
+Added : /trunk/SagaScript/Chinese/中央城市/行會宮殿4樓(30113001)/行會宮殿嚮導-11000590.cs
+Added : /trunk/SagaScript/Chinese/中央城市/行會宮殿5樓(30114000)
+Added : /trunk/SagaScript/Chinese/中央城市/行會宮殿5樓(30114000)/行會宮殿嚮導-11000014.cs
+Added : /trunk/SagaScript/Chinese/中央城市/行會宮殿大樓中庭(30110000)
+Added : /trunk/SagaScript/Chinese/中央城市/行會宮殿大樓中庭(30110000)/传送门-10000164.cs
+Added : /trunk/SagaScript/Chinese/中央城市/行會宮殿大樓中庭(30110000)/行會宮殿嚮導-11000000.cs
+Added : /trunk/SagaScript/Chinese/中央城市/魔法系行會(30044000)
+Added : /trunk/SagaScript/Chinese/中央城市/魔法系行會(30044000)/魔法系總管-11000019.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务
+Added : /trunk/SagaScript/Chinese/初始新手任务/塔妮亚世界的幻影(30204000)
+Added : /trunk/SagaScript/Chinese/初始新手任务/塔妮亚世界的幻影(30204000)/微微-13000177.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/奧克魯尼亞大陸廢墟(50032000)
+Added : /trunk/SagaScript/Chinese/初始新手任务/奧克魯尼亞大陸廢墟(50032000)/DEM-00-13000174.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/奧克魯尼亞大陸廢墟(50032000)/DEM-00-13000175.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/奧克魯尼亞大陸廢墟(50032000)/微微-13000165.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/奧克魯尼亞大陸廢墟(50032000)/機器獵犬-13000172.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/奧克魯尼亞大陸廢墟(50032000)/機器獵犬-13000173.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/奧克魯尼亞東部平原(10025001)
+Added : /trunk/SagaScript/Chinese/初始新手任务/奧克魯尼亞東部平原(10025001)/传送门.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/奧克魯尼亞東部平原(10025001)/元素使前輩-11000951.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/奧克魯尼亞東部平原(10025001)/初心者告示板-12001065.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/奧克魯尼亞東部平原(10025001)/初心者嚮導-11000976.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/奧克魯尼亞東部平原(10025001)/劍士前輩-11000946.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/奧克魯尼亞東部平原(10025001)/北軍騎士團長官-11000970.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/奧克魯尼亞東部平原(10025001)/南軍騎士團長官-11000969.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/奧克魯尼亞東部平原(10025001)/告示板 妖精-11001118.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/奧克魯尼亞東部平原(10025001)/咖啡館店員-11000965.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/奧克魯尼亞東部平原(10025001)/商人前輩-11000956.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/奧克魯尼亞東部平原(10025001)/報告任務的女孩-11000982.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/奧克魯尼亞東部平原(10025001)/夢夢-11000960.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/奧克魯尼亞東部平原(10025001)/帳篷-11000957.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/奧克魯尼亞東部平原(10025001)/弓手前輩-11000949.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/奧克魯尼亞東部平原(10025001)/憑依對象女孩-11000945.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/奧克魯尼亞東部平原(10025001)/提多-11000973.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/奧克魯尼亞東部平原(10025001)/東軍騎士團長官-11000967.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/奧克魯尼亞東部平原(10025001)/東門守衛-11000963.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/奧克魯尼亞東部平原(10025001)/東門守衛-11000964.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/奧克魯尼亞東部平原(10025001)/瑪歐斯-11000943.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/奧克魯尼亞東部平原(10025001)/瑪莎-11000941.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/奧克魯尼亞東部平原(10025001)/盜賊前輩-11000948.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/奧克魯尼亞東部平原(10025001)/礦工前輩-11000954.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/奧克魯尼亞東部平原(10025001)/祭師前輩-11000952.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/奧克魯尼亞東部平原(10025001)/萬物博士-11000971.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/奧克魯尼亞東部平原(10025001)/行會商人-11000959.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/奧克魯尼亞東部平原(10025001)/西軍騎士團長官-11000968.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/奧克魯尼亞東部平原(10025001)/要憑依的女孩-11000944.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/奧克魯尼亞東部平原(10025001)/農夫前輩-11000955.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/奧克魯尼亞東部平原(10025001)/道具精製師-11000962.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/奧克魯尼亞東部平原(10025001)/鑑定師-11000966.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/奧克魯尼亞東部平原(10025001)/飛空庭繩子-11000942.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/奧克魯尼亞東部平原(10025001)/食品店老婆婆-11000961.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/奧克魯尼亞東部平原(10025001)/騎士前輩-11000947.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/奧克魯尼亞東部平原(10025001)/魔攻師前輩-11000953.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/奧克魯尼亞東部平原(10025001)/魔法師前輩-11000950.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/東方海角(10018001)
+Added : /trunk/SagaScript/Chinese/初始新手任务/東方海角(10018001)/冒險者前輩-11000934.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/東方海角(10018001)/初階冒險者-11000932.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/東方海角(10018001)/初階冒險者-11000933.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/東方海角(10018001)/大地之精靈-11000935.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/東方海角(10018001)/瑪莎-11000936.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/東方海角(10018001)/貝利爾-11000931.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/東方海角(10018001)/飛空庭繩子-11000937.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/東方海角(10018102)
+Added : /trunk/SagaScript/Chinese/初始新手任务/東方海角(10018102)/传送门-10001301.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/東方海角(10018102)/利基先生-11001408.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/東方海角(10018102)/喜歡小狗的女孩-11001407.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/東方海角(10018102)/埃米爾-11001400.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/東方海角(10018102)/寵物養殖研究員-11001403.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/東方海角(10018102)/帕斯特國境警備員-11001402.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/東方海角(10018102)/曼陀蘿胡蘿蔔-11001405.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/東方海角(10018102)/東方海角食品販賣-11001410.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/東方海角(10018102)/歷奇號-11001409.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/東方海角(10018102)/汪汪-11001404.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/東方海角(10018102)/火紅德拉古-11001406.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/東方海角(10018102)/裝備技術人員-11001411.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/東方海角(10018102)/路利耶-11001401.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/東方海角(10018102)/道具票交換機-11001413.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/東方海角(10018102)/道具箱11001412.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/阿高普路斯市司令室(50030000)
+Added : /trunk/SagaScript/Chinese/初始新手任务/阿高普路斯市司令室(50030000)/传送门-10000117.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/阿高普路斯市司令室(50030000)/司令官-13000162.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/阿高普路斯市司令室(50030000)/操作員-13000163.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/阿高普路斯市司令室(50030000)/操作員-13000164.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/阿高普路斯市市走道(50031000)
+Added : /trunk/SagaScript/Chinese/初始新手任务/阿高普路斯市市走道(50031000)/DEM-00-13000160.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/阿高普路斯市市走道(50031000)/传送门-10000118.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/阿高普路斯市市走道(50031000)/微微-13000167.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/阿高普路斯市市走道(50031000)/微微-13000168.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/阿高普路斯市市走道(50031000)/微微-13000169.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/阿高普路斯市市走道(50031000)/機器獵犬-13000161.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/阿高普路斯市市走道(50031000)/機器獵犬-13000166.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/飛空庭的庭院(30201001)
+Added : /trunk/SagaScript/Chinese/初始新手任务/飛空庭的庭院(30201001)/传送门.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/飛空庭的庭院(30201001)/瑪莎-11001435.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/飛空庭的庭院(30201001)/舵輪-11001436.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/飛空庭的房間(30202000)
+Added : /trunk/SagaScript/Chinese/初始新手任务/飛空庭的房間(30202000)/传送门.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/飛空庭的房間(30202000)/操作盤-11000940.cs
+Added : /trunk/SagaScript/Chinese/初始新手任务/飛空庭的房間(30202000)/飛天鼠-11000939.cs
+Deleted : /trunk/SagaScript/Chinese/塔妮亚世界的幻影(30204000)
+Deleted : /trunk/SagaScript/Chinese/奧克魯尼亞大陸廢墟(50032000)
+Deleted : /trunk/SagaScript/Chinese/奧克魯尼亞東部平原(10025001)
+Deleted : /trunk/SagaScript/Chinese/東方海角(10018001)
+Deleted : /trunk/SagaScript/Chinese/東方海角(10018102)
+Deleted : /trunk/SagaScript/Chinese/阿高普路斯市司令室(50030000)
+Deleted : /trunk/SagaScript/Chinese/阿高普路斯市市走道(50031000)
+Deleted : /trunk/SagaScript/Chinese/飛空庭的庭院(30201001)
+Deleted : /trunk/SagaScript/Chinese/飛空庭的房間(30202000)
+Modified : /trunk/SagaScript/SagaScript.csproj
+Modified : /trunk/SagaScript/SagaScript.txt
+Modified : /trunk/SagaScript/Test.cs
+
+Revision: 179
+Author: liiir1985@hotmail.com
+Date: 17:21:32, 2008年9月4日
+Message:
+Possession full implemented
+----
+Modified : /trunk/SagaDB/Item/Inventory.cs
+Modified : /trunk/SagaDB/Item/Item.cs
+Modified : /trunk/SagaMap/ActorEventHandlers/PCEventHandler.cs
+Modified : /trunk/SagaMap/Localization/Languages/Chinese.cs
+Modified : /trunk/SagaMap/Localization/Languages/English.cs
+Modified : /trunk/SagaMap/Localization/Strings.cs
+Modified : /trunk/SagaMap/Manager/ExperienceManager.cs
+Modified : /trunk/SagaMap/Manager/MapClientManager.cs
+Modified : /trunk/SagaMap/Map.MapEventArgs.cs
+Modified : /trunk/SagaMap/Map.cs
+Modified : /trunk/SagaMap/Mob/AICommands/Attack.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.Item.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.Login.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.Possession.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.cs
+Modified : /trunk/SagaMap/Packets/Client/Item/CSMG_ITEM_EQUIPT.cs
+Added : /trunk/SagaMap/Packets/Client/Possession/CSMG_POSSESSION_CANCEL.cs
+Modified : /trunk/SagaMap/Packets/Server/Actor/SSMG_PLAYER_INFO.cs
+Modified : /trunk/SagaMap/Packets/Server/Item/SSMG_ITEM_CONTAINER_CHANGE.cs
+Modified : /trunk/SagaMap/Packets/Server/Item/SSMG_ITEM_EQUIP.cs
+Added : /trunk/SagaMap/Packets/Server/Item/SSMG_ITEM_GET_ERROR.cs
+Added : /trunk/SagaMap/Packets/Server/Possession/SSMG_POSSESSION_CANCEL.cs
+Modified : /trunk/SagaMap/SagaMap.csproj
+Modified : /trunk/sqlfile/main.sql
+Added : /trunk/sqlfile/update_r179.sql
+
+Revision: 178
+Author: liiir1985@hotmail.com
+Date: 22:39:29, 2008年9月3日
+Message:
+More possession stuff
+----
+Modified : /trunk/SagaDB/Actor/ActorItem.cs
+Modified : /trunk/SagaDB/Actor/ActorPC.cs
+Modified : /trunk/SagaDB/MySQLActorDB.cs
+Modified : /trunk/SagaMap/Map.MapEventArgs.cs
+Modified : /trunk/SagaMap/Map.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.Actor.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.Login.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.Possession.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.cs
+Modified : /trunk/SagaMap/Packets/Server/Item/SSMG_ITEM_ACTOR_APPEAR.cs
+Added : /trunk/SagaMap/Tasks/PC/Possession.cs
+
+Revision: 177
+Author: liiir1985@hotmail.com
+Date: 19:08:04, 2008年9月2日
+Message:
+Some basic possession handling stuff
+----
+Modified : /trunk/SagaDB/Actor/ActorEventHandler.cs
+Modified : /trunk/SagaDB/Actor/ActorItem.cs
+Modified : /trunk/SagaDB/Actor/ActorPC.cs
+Modified : /trunk/SagaDB/Item/Item.cs
+Modified : /trunk/SagaLib/Encryption.cs
+Modified : /trunk/SagaMap/ActorEventHandlers/ItemEventHandler.cs
+Modified : /trunk/SagaMap/ActorEventHandlers/MobEventHandler.cs
+Modified : /trunk/SagaMap/ActorEventHandlers/NullEventHandler.cs
+Modified : /trunk/SagaMap/ActorEventHandlers/PCEventHandler.cs
+Modified : /trunk/SagaMap/ActorEventHandlers/PetEventHandler.cs
+Modified : /trunk/SagaMap/Manager/MapClientManager.cs
+Modified : /trunk/SagaMap/Map.MapEventArgs.cs
+Modified : /trunk/SagaMap/Map.cs
+Added : /trunk/SagaMap/Network/Client/MapClient.Possession.cs
+Added : /trunk/SagaMap/Packets/Client/Possession
+Added : /trunk/SagaMap/Packets/Client/Possession/CSMG_POSSESSION_REQUEST.cs
+Added : /trunk/SagaMap/Packets/Server/Possession
+Added : /trunk/SagaMap/Packets/Server/Possession/SSMG_POSSESSION_RESULT.cs
+Modified : /trunk/SagaMap/SagaMap.csproj
+
+Revision: 176
+Author: liiir1985@hotmail.com
+Date: 15:39:52, 2008年9月1日
+Message:
+packetviewer updated
+buff related stuffs
+----
+Modified : /trunk/PacketViewer/Form1.cs
+Added : /trunk/SagaDB/Actor/Buff.1.cs
+Added : /trunk/SagaDB/Actor/Buff.2.cs
+Modified : /trunk/SagaDB/Actor/Buff.cs
+Modified : /trunk/SagaDB/SagaDB.csproj
+Added : /trunk/SagaLib/BitMask.cs
+Modified : /trunk/SagaLib/SagaLib.csproj
+Modified : /trunk/SagaMap/Packets/Server/Actor/SSMG_ACTOR_BUFF.cs
+Modified : /trunk/SagaMap/Tasks/Mob/Respawn.cs
+
+Revision: 175
+Author: liiir1985@hotmail.com
+Date: 23:45:28, 2008年8月31日
+Message:
+Default buff handler implemented
+ActorSkill implemented
+
+a example 7x7 skill implemented(Elementaler/LavaFlow.cs)
+----
+Modified : /trunk/DB/SkillDB.csv
+Added : /trunk/SagaDB/Actor/ActorSkill.cs
+Modified : /trunk/SagaDB/Actor/Enums.cs
+Modified : /trunk/SagaDB/SagaDB.csproj
+Modified : /trunk/SagaMap/ActorEventHandlers/PCEventHandler.cs
+Modified : /trunk/SagaMap/Map.MapEventArgs.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.Skill.cs
+Added : /trunk/SagaMap/Packets/Server/Actor/SSMG_ACTOR_SKILL_APPEAR.cs
+Added : /trunk/SagaMap/Packets/Server/Actor/SSMG_ACTOR_SKILL_DELETE.cs
+Added : /trunk/SagaMap/Packets/Server/Actor/SSMG_ACTOR_SKILL_MOVE.cs
+Added : /trunk/SagaMap/Packets/Server/Skill/SSMG_SKILL_ACTIVE_ACTOR.cs
+Modified : /trunk/SagaMap/SagaMap.csproj
+Added : /trunk/SagaMap/Skill/Additions/Global/DefaultBuff.cs
+Modified : /trunk/SagaMap/Skill/Additions/Global/DefaultPassiveSkill.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Elementaler
+Added : /trunk/SagaMap/Skill/SkillDefinations/Elementaler/LavaFlow.cs
+Modified : /trunk/SagaMap/Skill/SkillDefinations/Shaman/MaxMPUp.cs
+Modified : /trunk/SagaMap/Skill/SkillHandler.SkillManager.cs
+
+Revision: 174
+Author: happy61@gmail.com
+Date: 12:52:52, 2008年8月31日
+Message:
+add tool
+----
+Modified : /trunk/SagaScript/warp.cs
+Modified : /trunk/Tools/EvenIdToScript/npc.mdb
+Modified : /trunk/Tools/MapScript/Form1.frm
+Modified : /trunk/Tools/MapScript/map.csv
+Modified : /trunk/Tools/MapScript/工程1.vbp
+Modified : /trunk/Tools/MapScript/工程1.vbw
+Added : /trunk/Tools/WarpChange
+Added : /trunk/Tools/WarpChange/Form1.frm
+Added : /trunk/Tools/WarpChange/MSSCCPRJ.SCC
+Added : /trunk/Tools/WarpChange/工程1.vbp
+Added : /trunk/Tools/WarpChange/工程1.vbw
+
+Revision: 173
+Author: liiir1985@hotmail.com
+Date: 15:34:34, 2008年8月30日
+Message:
+Pet implemented
+----
+Modified : /trunk/DB/pet.csv
+Modified : /trunk/Dependecies/BigInteger.dll
+Modified : /trunk/SagaDB/Actor/ActorMob.cs
+Modified : /trunk/SagaDB/Actor/ActorPC.cs
+Modified : /trunk/SagaDB/Actor/ActorPet.cs
+Modified : /trunk/SagaDB/Mob/Enums.cs
+Modified : /trunk/SagaDB/Mob/MobFactory.cs
+Modified : /trunk/SagaLib/Encryption.cs
+Modified : /trunk/SagaMap/ActorEventHandlers/PCEventHandler.cs
+Added : /trunk/SagaMap/ActorEventHandlers/PetEventHandler.cs
+Modified : /trunk/SagaMap/Localization/Languages/Chinese.cs
+Modified : /trunk/SagaMap/Localization/Languages/English.cs
+Modified : /trunk/SagaMap/Localization/Strings.cs
+Modified : /trunk/SagaMap/MapServer.cs
+Modified : /trunk/SagaMap/Mob/AICommands/Attack.cs
+Modified : /trunk/SagaMap/Mob/AICommands/Chase.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.Actor.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.Item.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.Login.cs
+Modified : /trunk/SagaMap/Packets/Client/Item/CSMG_ITEM_MOVE.cs
+Added : /trunk/SagaMap/Packets/Server/Actor/SSMG_ACTOR_PET_DELETE.cs
+Modified : /trunk/SagaMap/SagaMap.csproj
+Modified : /trunk/SagaMap/Skill/SkillHandler.SkillAttack.cs
+
+Revision: 172
+Author: liiir1985@hotmail.com
+Date: 11:00:31, 2008年8月30日
+Message:
+some basic stuff for pet implemented
+fixed some compatible problem for linux 
+----
+Modified : /trunk/Dependecies/BigInteger.dll
+Modified : /trunk/Dependecies/ICSharpCode.SharpZipLib.dll
+Added : /trunk/SagaDB/Actor/ActorPet.cs
+Modified : /trunk/SagaDB/Actor/Enums.cs
+Modified : /trunk/SagaDB/Item/Enums.cs
+Modified : /trunk/SagaDB/Item/Item.cs
+Modified : /trunk/SagaDB/Map/MapInfoFactory.cs
+Modified : /trunk/SagaDB/SagaDB.csproj
+Modified : /trunk/SagaMap/ActorEventHandlers/NullEventHandler.cs
+Modified : /trunk/SagaMap/ActorEventHandlers/PCEventHandler.cs
+Modified : /trunk/SagaMap/Map.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.Actor.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.Item.cs
+Modified : /trunk/SagaMap/Packets/Server/Actor/SSMG_ACTOR_PC_INFO.cs
+Added : /trunk/SagaMap/Packets/Server/Actor/SSMG_ACTOR_PET_APPEAR.cs
+Modified : /trunk/SagaMap/SagaMap.csproj
+
+Revision: 171
+Author: liiir1985@hotmail.com
+Date: 21:16:52, 2008年8月28日
+Message:
+AI improved again,
+mobs won't now stack on each other, it will automatically search a nearby free place, if the moving target is already taken by another actor
+----
+Added : /trunk/SagaMap/Map.MapInstance.cs
+Added : /trunk/SagaMap/Map.Utility.cs
+Modified : /trunk/SagaMap/Map.cs
+Modified : /trunk/SagaMap/Mob/AICommands/Chase.cs
+Modified : /trunk/SagaMap/Mob/AICommands/Move.cs
+Modified : /trunk/SagaMap/SagaMap.csproj
+
+Revision: 170
+Author: liiir1985@hotmail.com
+Date: 18:10:49, 2008年8月28日
+Message:
+some ai modify
+----
+Modified : /trunk/SagaMap/Mob/AICommands/Chase.cs
+Modified : /trunk/SagaMap/Mob/AIThread.cs
+
+Revision: 169
+Author: liiir1985@hotmail.com
+Date: 18:06:00, 2008年8月28日
+Message:
+AI improved
+----
+Modified : /trunk/SagaMap/AtCommand.cs
+Modified : /trunk/SagaMap/Map.cs
+Modified : /trunk/SagaMap/Mob/AICommands/Attack.cs
+Modified : /trunk/SagaMap/Mob/AICommands/Chase.cs
+Modified : /trunk/SagaMap/Mob/AICommands/Move.cs
+Added : /trunk/SagaMap/Mob/AIThread.cs
+Modified : /trunk/SagaMap/Mob/MobAI.Events.cs
+Modified : /trunk/SagaMap/Mob/MobAI.cs
+Modified : /trunk/SagaMap/Mob/MobSpawnManager.cs
+Modified : /trunk/SagaMap/SagaMap.csproj
+
+Revision: 168
+Author: liiir1985@hotmail.com
+Date: 15:47:07, 2008年8月28日
+Message:
+Map instance implemented
+----
+Added : /trunk/DB/Spawns/50031000.xml
+Modified : /trunk/DB/marionette.csv
+Modified : /trunk/DB/monster.csv
+Modified : /trunk/SagaMap/ActorEventHandlers/MobEventHandler.cs
+Modified : /trunk/SagaMap/ActorEventHandlers/PCEventHandler.cs
+Modified : /trunk/SagaMap/AtCommand.cs
+Modified : /trunk/SagaMap/Manager/MapManager.cs
+Modified : /trunk/SagaMap/Map.cs
+Modified : /trunk/SagaMap/Mob/AICommands/Attack.cs
+Modified : /trunk/SagaMap/Mob/MobAI.cs
+Modified : /trunk/SagaMap/Mob/MobSpawnManager.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.cs
+Modified : /trunk/SagaMap/SagaMap.csproj
+Modified : /trunk/SagaMap/Scripting/Event.cs
+Modified : /trunk/SagaScript/Chinese/塔妮亚世界的幻影(30204000)/微微-13000177.cs
+Modified : /trunk/SagaScript/Chinese/阿高普路斯市司令室(50030000)/传送门-10000117.cs
+Modified : /trunk/SagaScript/Chinese/阿高普路斯市市走道(50031000)/传送门-10000118.cs
+
+Revision: 167
+Author: liiir1985@hotmail.com
+Date: 17:51:30, 2008年8月27日
+Message:
+Marionette implemented
+some script command added
+----
+Modified : /trunk/DB/marionette.csv
+Modified : /trunk/SagaDB/Actor/Actor.cs
+Modified : /trunk/SagaDB/Actor/ActorPC.cs
+Modified : /trunk/SagaDB/Actor/Status.cs
+Modified : /trunk/SagaDB/Item/Item.cs
+Modified : /trunk/SagaDB/Item/ItemFactory.cs
+Added : /trunk/SagaDB/Marionette
+Added : /trunk/SagaDB/Marionette/Marionette.cs
+Added : /trunk/SagaDB/Marionette/MarionetteFactory.cs
+Modified : /trunk/SagaDB/Mob/Enums.cs
+Modified : /trunk/SagaDB/Mob/MobFactory.cs
+Modified : /trunk/SagaDB/SagaDB.csproj
+Modified : /trunk/SagaLib/NetIO.cs
+Modified : /trunk/SagaMap/ActorEventHandlers/PCEventHandler.cs
+Modified : /trunk/SagaMap/AtCommand.cs
+Modified : /trunk/SagaMap/Map.MapEventArgs.cs
+Modified : /trunk/SagaMap/Map.cs
+Modified : /trunk/SagaMap/MapServer.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.Item.cs
+Added : /trunk/SagaMap/Network/Client/MapClient.Marionette.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.NPC.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.Skill.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.cs
+Added : /trunk/SagaMap/PC/StatusFactory.Marionette.cs
+Modified : /trunk/SagaMap/PC/StatusFactory.cs
+Modified : /trunk/SagaMap/Packets/Server/Actor/SSMG_ACTOR_PC_INFO.cs
+Modified : /trunk/SagaMap/SagaMap.csproj
+Modified : /trunk/SagaMap/Scripting/Event.cs
+Added : /trunk/SagaMap/Tasks/PC/Marionette.cs
+Modified : /trunk/SagaMap/Tasks/PC/Regeneration.cs
+Modified : /trunk/SagaScript/Chinese/塔妮亚世界的幻影(30204000)/微微-13000177.cs
+Modified : /trunk/SagaScript/Chinese/阿高普路斯市市走道(50031000)/微微-13000168.cs
+Modified : /trunk/SagaScript/SagaScript.csproj
+
+Revision: 166
+Author: liiir1985@hotmail.com
+Date: 10:16:56, 2008年8月26日
+Message:
+tutorial quests implemented
+----
+Added : /trunk/SagaScript/Chinese/奧克魯尼亞大陸廢墟(50032000)
+Added : /trunk/SagaScript/Chinese/奧克魯尼亞大陸廢墟(50032000)/DEM-00-13000174.cs
+Added : /trunk/SagaScript/Chinese/奧克魯尼亞大陸廢墟(50032000)/DEM-00-13000175.cs
+Added : /trunk/SagaScript/Chinese/奧克魯尼亞大陸廢墟(50032000)/微微-13000165.cs
+Added : /trunk/SagaScript/Chinese/奧克魯尼亞大陸廢墟(50032000)/機器獵犬-13000172.cs
+Added : /trunk/SagaScript/Chinese/奧克魯尼亞大陸廢墟(50032000)/機器獵犬-13000173.cs
+Added : /trunk/SagaScript/Chinese/奧克魯尼亞東部平原(10025001)
+Added : /trunk/SagaScript/Chinese/奧克魯尼亞東部平原(10025001)/传送门.cs
+Added : /trunk/SagaScript/Chinese/奧克魯尼亞東部平原(10025001)/元素使前輩-11000951.cs
+Added : /trunk/SagaScript/Chinese/奧克魯尼亞東部平原(10025001)/初心者告示板-12001065.cs
+Added : /trunk/SagaScript/Chinese/奧克魯尼亞東部平原(10025001)/初心者嚮導-11000976.cs
+Added : /trunk/SagaScript/Chinese/奧克魯尼亞東部平原(10025001)/劍士前輩-11000946.cs
+Added : /trunk/SagaScript/Chinese/奧克魯尼亞東部平原(10025001)/北軍騎士團長官-11000970.cs
+Added : /trunk/SagaScript/Chinese/奧克魯尼亞東部平原(10025001)/南軍騎士團長官-11000969.cs
+Added : /trunk/SagaScript/Chinese/奧克魯尼亞東部平原(10025001)/告示板 妖精-11001118.cs
+Added : /trunk/SagaScript/Chinese/奧克魯尼亞東部平原(10025001)/咖啡館店員-11000965.cs
+Added : /trunk/SagaScript/Chinese/奧克魯尼亞東部平原(10025001)/商人前輩-11000956.cs
+Added : /trunk/SagaScript/Chinese/奧克魯尼亞東部平原(10025001)/報告任務的女孩-11000982.cs
+Added : /trunk/SagaScript/Chinese/奧克魯尼亞東部平原(10025001)/夢夢-11000960.cs
+Added : /trunk/SagaScript/Chinese/奧克魯尼亞東部平原(10025001)/帳篷-11000957.cs
+Added : /trunk/SagaScript/Chinese/奧克魯尼亞東部平原(10025001)/弓手前輩-11000949.cs
+Added : /trunk/SagaScript/Chinese/奧克魯尼亞東部平原(10025001)/憑依對象女孩-11000945.cs
+Added : /trunk/SagaScript/Chinese/奧克魯尼亞東部平原(10025001)/提多-11000973.cs
+Added : /trunk/SagaScript/Chinese/奧克魯尼亞東部平原(10025001)/東軍騎士團長官-11000967.cs
+Added : /trunk/SagaScript/Chinese/奧克魯尼亞東部平原(10025001)/東門守衛-11000963.cs
+Added : /trunk/SagaScript/Chinese/奧克魯尼亞東部平原(10025001)/東門守衛-11000964.cs
+Added : /trunk/SagaScript/Chinese/奧克魯尼亞東部平原(10025001)/瑪歐斯-11000943.cs
+Added : /trunk/SagaScript/Chinese/奧克魯尼亞東部平原(10025001)/瑪莎-11000941.cs
+Added : /trunk/SagaScript/Chinese/奧克魯尼亞東部平原(10025001)/盜賊前輩-11000948.cs
+Added : /trunk/SagaScript/Chinese/奧克魯尼亞東部平原(10025001)/礦工前輩-11000954.cs
+Added : /trunk/SagaScript/Chinese/奧克魯尼亞東部平原(10025001)/祭師前輩-11000952.cs
+Added : /trunk/SagaScript/Chinese/奧克魯尼亞東部平原(10025001)/萬物博士-11000971.cs
+Added : /trunk/SagaScript/Chinese/奧克魯尼亞東部平原(10025001)/行會商人-11000959.cs
+Added : /trunk/SagaScript/Chinese/奧克魯尼亞東部平原(10025001)/西軍騎士團長官-11000968.cs
+Added : /trunk/SagaScript/Chinese/奧克魯尼亞東部平原(10025001)/要憑依的女孩-11000944.cs
+Added : /trunk/SagaScript/Chinese/奧克魯尼亞東部平原(10025001)/農夫前輩-11000955.cs
+Added : /trunk/SagaScript/Chinese/奧克魯尼亞東部平原(10025001)/道具精製師-11000962.cs
+Added : /trunk/SagaScript/Chinese/奧克魯尼亞東部平原(10025001)/鑑定師-11000966.cs
+Added : /trunk/SagaScript/Chinese/奧克魯尼亞東部平原(10025001)/飛空庭繩子-11000942.cs
+Added : /trunk/SagaScript/Chinese/奧克魯尼亞東部平原(10025001)/食品店老婆婆-11000961.cs
+Added : /trunk/SagaScript/Chinese/奧克魯尼亞東部平原(10025001)/騎士前輩-11000947.cs
+Added : /trunk/SagaScript/Chinese/奧克魯尼亞東部平原(10025001)/魔攻師前輩-11000953.cs
+Added : /trunk/SagaScript/Chinese/奧克魯尼亞東部平原(10025001)/魔法師前輩-11000950.cs
+Added : /trunk/SagaScript/Chinese/東方海角(10018001)
+Added : /trunk/SagaScript/Chinese/東方海角(10018001)/冒險者前輩-11000934.cs
+Added : /trunk/SagaScript/Chinese/東方海角(10018001)/初階冒險者-11000932.cs
+Added : /trunk/SagaScript/Chinese/東方海角(10018001)/初階冒險者-11000933.cs
+Added : /trunk/SagaScript/Chinese/東方海角(10018001)/大地之精靈-11000935.cs
+Added : /trunk/SagaScript/Chinese/東方海角(10018001)/瑪莎-11000936.cs
+Added : /trunk/SagaScript/Chinese/東方海角(10018001)/貝利爾-11000931.cs
+Added : /trunk/SagaScript/Chinese/東方海角(10018001)/飛空庭繩子-11000937.cs
+Added : /trunk/SagaScript/Chinese/東方海角(10018102)
+Added : /trunk/SagaScript/Chinese/東方海角(10018102)/传送门-10001301.cs
+Added : /trunk/SagaScript/Chinese/東方海角(10018102)/利基先生-11001408.cs
+Added : /trunk/SagaScript/Chinese/東方海角(10018102)/喜歡小狗的女孩-11001407.cs
+Added : /trunk/SagaScript/Chinese/東方海角(10018102)/埃米爾-11001400.cs
+Added : /trunk/SagaScript/Chinese/東方海角(10018102)/寵物養殖研究員-11001403.cs
+Added : /trunk/SagaScript/Chinese/東方海角(10018102)/帕斯特國境警備員-11001402.cs
+Added : /trunk/SagaScript/Chinese/東方海角(10018102)/曼陀蘿胡蘿蔔-11001405.cs
+Added : /trunk/SagaScript/Chinese/東方海角(10018102)/東方海角食品販賣-11001410.cs
+Added : /trunk/SagaScript/Chinese/東方海角(10018102)/歷奇號-11001409.cs
+Added : /trunk/SagaScript/Chinese/東方海角(10018102)/汪汪-11001404.cs
+Added : /trunk/SagaScript/Chinese/東方海角(10018102)/火紅德拉古-11001406.cs
+Added : /trunk/SagaScript/Chinese/東方海角(10018102)/裝備技術人員-11001411.cs
+Added : /trunk/SagaScript/Chinese/東方海角(10018102)/路利耶-11001401.cs
+Added : /trunk/SagaScript/Chinese/東方海角(10018102)/道具票交換機-11001413.cs
+Added : /trunk/SagaScript/Chinese/東方海角(10018102)/道具箱11001412.cs
+Added : /trunk/SagaScript/Chinese/阿高普路斯市司令室(50030000)
+Added : /trunk/SagaScript/Chinese/阿高普路斯市司令室(50030000)/传送门-10000117.cs
+Added : /trunk/SagaScript/Chinese/阿高普路斯市司令室(50030000)/司令官-13000162.cs
+Added : /trunk/SagaScript/Chinese/阿高普路斯市司令室(50030000)/操作員-13000163.cs
+Added : /trunk/SagaScript/Chinese/阿高普路斯市司令室(50030000)/操作員-13000164.cs
+Added : /trunk/SagaScript/Chinese/阿高普路斯市市走道(50031000)
+Added : /trunk/SagaScript/Chinese/阿高普路斯市市走道(50031000)/DEM-00-13000160.cs
+Added : /trunk/SagaScript/Chinese/阿高普路斯市市走道(50031000)/传送门-10000118.cs
+Added : /trunk/SagaScript/Chinese/阿高普路斯市市走道(50031000)/微微-13000167.cs
+Added : /trunk/SagaScript/Chinese/阿高普路斯市市走道(50031000)/微微-13000168.cs
+Added : /trunk/SagaScript/Chinese/阿高普路斯市市走道(50031000)/微微-13000169.cs
+Added : /trunk/SagaScript/Chinese/阿高普路斯市市走道(50031000)/機器獵犬-13000161.cs
+Added : /trunk/SagaScript/Chinese/阿高普路斯市市走道(50031000)/機器獵犬-13000166.cs
+Added : /trunk/SagaScript/Chinese/飛空庭的庭院(30201001)
+Added : /trunk/SagaScript/Chinese/飛空庭的庭院(30201001)/传送门.cs
+Added : /trunk/SagaScript/Chinese/飛空庭的庭院(30201001)/瑪莎-11001435.cs
+Added : /trunk/SagaScript/Chinese/飛空庭的庭院(30201001)/舵輪-11001436.cs
+Added : /trunk/SagaScript/Chinese/飛空庭的房間(30202000)
+Added : /trunk/SagaScript/Chinese/飛空庭的房間(30202000)/传送门.cs
+Added : /trunk/SagaScript/Chinese/飛空庭的房間(30202000)/操作盤-11000940.cs
+Added : /trunk/SagaScript/Chinese/飛空庭的房間(30202000)/飛天鼠-11000939.cs
+Modified : /trunk/SagaScript/SagaScript.csproj
+
+Revision: 165
+Author: liiir1985@hotmail.com
+Date: 1:34:32, 2008年8月26日
+Message:
+PacketViewer updated
+project file auto modifier added
+some scripts added
+----
+Modified : /trunk/DB/mapname.csv
+Modified : /trunk/PacketViewer/Program.cs
+Modified : /trunk/SagaMap/SagaMap.csproj
+Modified : /trunk/SagaScript/Chinese/下城(10024000)/愛哭的男生-11000086.cs
+Modified : /trunk/SagaScript/Chinese/塔妮亚世界的幻影(30204000)/微微-13000177.cs
+Added : /trunk/SagaScript/ProjectFileModifier.exe
+Modified : /trunk/SagaScript/SagaScript.csproj
+Added : /trunk/SagaScript/SagaScript.txt
+Added : /trunk/SagaScript/build_Project.bat
+Modified : /trunk/Tools/MapNameModifier/Program.cs
+
+Revision: 164
+Author: liiir1985@hotmail.com
+Date: 0:20:20, 2008年8月26日
+Message:
+More updates for packet viewer
+----
+Modified : /trunk/PacketViewer/Form1.cs
+Modified : /trunk/PacketViewer/Program.cs
+Modified : /trunk/SagaMap/SagaMap.csproj
+Modified : /trunk/SagaMap/Scripting/Event.cs
+
+Revision: 163
+Author: liiir1985@hotmail.com
+Date: 21:33:34, 2008年8月25日
+Message:
+bug in PacketProxy fixed
+PacketViewer updated with almost all script related display
+some Scripting command updated
+----
+Modified : /trunk/PacketProxy/Program.cs
+Modified : /trunk/PacketProxy/ProxyClient.cs
+Modified : /trunk/PacketProxy/ServerSession.cs
+Modified : /trunk/PacketViewer/Form1.Designer.cs
+Modified : /trunk/PacketViewer/Form1.cs
+Modified : /trunk/PacketViewer/Form1.resx
+Modified : /trunk/PacketViewer/Program.cs
+Modified : /trunk/SagaECO.sln
+Modified : /trunk/SagaLib/ClientMananger.cs
+Modified : /trunk/SagaLib/NetIO.cs
+Modified : /trunk/SagaMap/ActorEventHandlers/PCEventHandler.cs
+Modified : /trunk/SagaMap/Map.MapEventArgs.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.NPC.cs
+Modified : /trunk/SagaMap/Packets/Server/NPC/SSMG_NPC_SHOW_EFFECT.cs
+Modified : /trunk/SagaMap/Scripting/Event.cs
+
+Revision: 162
+Author: liiir1985@hotmail.com
+Date: 17:07:28, 2008年8月25日
+Message:
+player sight range changed to 20 units
+spawned mobs can now be aggressive
+----
+Modified : /trunk/SagaDB/Actor/ActorPC.cs
+Modified : /trunk/SagaLib/Global.cs
+Modified : /trunk/SagaMap/AtCommand.cs
+Modified : /trunk/SagaMap/Map.cs
+Modified : /trunk/SagaMap/Skill/SkillHandler.SkillAttack.cs
+
+Revision: 161
+Author: liiir1985@hotmail.com
+Date: 14:33:05, 2008年8月25日
+Message:
+Aggressive mob implemented
+some script commands added
+Item use implemented
+----
+Modified : /trunk/DB/monster.csv
+Modified : /trunk/SagaDB/Actor/ActorEventHandler.cs
+Modified : /trunk/SagaDB/Item/Inventory.cs
+Modified : /trunk/SagaDB/Mob/Mob.cs
+Modified : /trunk/SagaDB/Mob/MobFactory.cs
+Modified : /trunk/SagaMap/ActorEventHandlers/ItemEventHandler.cs
+Modified : /trunk/SagaMap/ActorEventHandlers/MobEventHandler.cs
+Modified : /trunk/SagaMap/ActorEventHandlers/NullEventHandler.cs
+Modified : /trunk/SagaMap/ActorEventHandlers/PCEventHandler.cs
+Modified : /trunk/SagaMap/Manager/MapClientManager.cs
+Modified : /trunk/SagaMap/Map.MapEventArgs.cs
+Modified : /trunk/SagaMap/Map.cs
+Modified : /trunk/SagaMap/Mob/AICommands/Attack.cs
+Modified : /trunk/SagaMap/Mob/MobAI.cs
+Modified : /trunk/SagaMap/Mob/MobSpawnManager.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.Item.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.NPC.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.Skill.cs
+Added : /trunk/SagaMap/Packets/Client/Item/CSMG_ITEM_USE.cs
+Added : /trunk/SagaMap/Packets/Server/Item/SSMG_ITEM_ACTIVE.cs
+Added : /trunk/SagaMap/Packets/Server/Item/SSMG_ITEM_ACTIVE_FLOOR.cs
+Modified : /trunk/SagaMap/SagaMap.csproj
+Modified : /trunk/SagaMap/Scripting/Event.cs
+Added : /trunk/SagaMap/Skill/SkillHandler.Item.cs
+Modified : /trunk/SagaMap/Tasks/PC/SkillCast.cs
+
+Revision: 160
+Author: happy61@gmail.com
+Date: 8:52:01, 2008年8月25日
+Message:
+add support select;
+----
+Modified : /trunk/PacketViewer/Form1.cs
+Modified : /trunk/PacketViewer/Program.cs
+Modified : /trunk/Tools/EvenIdToScript/Form1.vb
+
+Revision: 159
+Author: liiir1985@hotmail.com
+Date: 8:44:51, 2008年8月25日
+Message:
+forgotten files
+----
+Modified : /trunk/SagaMap/MapServer.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.cs
+Added : /trunk/SagaMap/Packets/Client/Actor/CSMG_PLAYER_RETURN_HOME.cs
+Added : /trunk/SagaMap/Tasks/Item
+Added : /trunk/SagaMap/Tasks/Item/DeleteItem.cs
+
+Revision: 158
+Author: liiir1985@hotmail.com
+Date: 13:32:59, 2008年8月24日
+Message:
+Save point implemented
+script support for savepoint setter implemented
+equipment slot setting for one piece fixed
+----
+Modified : /trunk/SagaDB/Actor/ActorPC.cs
+Modified : /trunk/SagaDB/Item/Item.cs
+Modified : /trunk/SagaDB/MySQLActorDB.cs
+Modified : /trunk/SagaMap/Manager/MapClientManager.cs
+Modified : /trunk/SagaMap/Map.Item.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.Actor.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.Item.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.Login.cs
+Modified : /trunk/SagaMap/SagaMap.csproj
+Modified : /trunk/SagaMap/Scripting/Event.cs
+Modified : /trunk/SagaMap/Skill/SkillHandler.SkillAttack.cs
+Modified : /trunk/SagaScript/SagaScript.csproj
+Added : /trunk/SagaScript/Templetes
+Added : /trunk/SagaScript/Templetes/復活戰士.cs
+Modified : /trunk/SagaScript/Test.cs
+Modified : /trunk/sqlfile/main.sql
+Added : /trunk/sqlfile/update_r158.sql
+
+Revision: 157
+Author: liiir1985@hotmail.com
+Date: 18:52:10, 2008年8月22日
+Message:
+bugfix
+----
+Modified : /trunk/SagaMap/AtCommand.cs
+Modified : /trunk/SagaMap/Packets/Server/NPC/SSMG_NPC_SELECT.cs
+
+Revision: 156
+Author: happy61@gmail.com
+Date: 18:40:57, 2008年8月22日
+Message:
+add shop
+----
+Added : /trunk/SagaScript/Chinese
+Added : /trunk/SagaScript/Chinese/下城(10024000)
+Added : /trunk/SagaScript/Chinese/下城(10024000)/下城的優秀阿姨-11000001.cs
+Added : /trunk/SagaScript/Chinese/下城(10024000)/北方的露天商店店員-11000009.cs
+Added : /trunk/SagaScript/Chinese/下城(10024000)/南方的露天商店店員-11000008.cs
+Added : /trunk/SagaScript/Chinese/下城(10024000)/咖啡館的麥當娜-11000106.cs
+Added : /trunk/SagaScript/Chinese/下城(10024000)/嚮導機械人-11000338.cs
+Added : /trunk/SagaScript/Chinese/下城(10024000)/嚮導機械人-11000340.cs
+Added : /trunk/SagaScript/Chinese/下城(10024000)/嚮導機械人-11000341.cs
+Added : /trunk/SagaScript/Chinese/下城(10024000)/嚮導機械人-11000367.cs
+Added : /trunk/SagaScript/Chinese/下城(10024000)/嚮導機械人-11000368.cs
+Added : /trunk/SagaScript/Chinese/下城(10024000)/愛哭的男生-11000086.cs
+Added : /trunk/SagaScript/Chinese/下城(10024000)/東方的露天商店店員-11000006.cs
+Added : /trunk/SagaScript/Chinese/下城(10024000)/老爺爺的孫兒-11000082.cs
+Added : /trunk/SagaScript/Chinese/下城(10024000)/萬物博士-11000071.cs
+Added : /trunk/SagaScript/Chinese/下城(10024000)/西方的露天商店店員-11000007.cs
+Added : /trunk/SagaScript/Chinese/下城(10024000)/雪莉-11000077.cs
+Added : /trunk/SagaScript/Chinese/塔妮亚世界的幻影(30204000)
+Added : /trunk/SagaScript/Chinese/塔妮亚世界的幻影(30204000)/微微-13000177.cs
+
+Revision: 155
+Author: happy61@gmail.com
+Date: 18:39:16, 2008年8月22日
+Message:
+del chinese script
+----
+Deleted : /trunk/SagaScript/Chinese
+
+Revision: 154
+Author: happy61@gmail.com
+Date: 18:38:44, 2008年8月22日
+Message:
+add script and shop
+----
+Modified : /trunk/Tools/EvenIdToScript/Form1.Designer.vb
+Modified : /trunk/Tools/EvenIdToScript/Form1.vb
+Modified : /trunk/Tools/EvenIdToScript/npc.mdb
+
+Revision: 153
+Author: liiir1985@hotmail.com
+Date: 13:38:16, 2008年8月22日
+Message:
+Reloading script implemented
+leveling up recovers the hp
+----
+Modified : /trunk/SagaMap/AtCommand.cs
+Modified : /trunk/SagaMap/Manager/ExperienceManager.cs
+Modified : /trunk/SagaMap/Manager/ScriptManager.cs
+
+Revision: 152
+Author: happy61@gmail.com
+Date: 13:13:44, 2008年8月22日
+Message:
+add warp.cs
+----
+Modified : /trunk/SagaScript/warp.cs
+Modified : /trunk/Tools/MapScript/map.csv
+
+Revision: 151
+Author: liiir1985@hotmail.com
+Date: 12:00:53, 2008年8月22日
+Message:
+NPC shop implemented
+----
+Modified : /trunk/Ecoweb/Default.aspx.cs
+Modified : /trunk/SagaDB/MySQLAccountDB.cs
+Modified : /trunk/SagaMap/Manager/MapClientManager.cs
+Modified : /trunk/SagaMap/Map.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.Item.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.NPC.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.cs
+Added : /trunk/SagaMap/Packets/Client/NPC/CSMG_NPC_SHOP_BUY.cs
+Added : /trunk/SagaMap/Packets/Client/NPC/CSMG_NPC_SHOP_CLOSE.cs
+Added : /trunk/SagaMap/Packets/Client/NPC/CSMG_NPC_SHOP_SELL.cs
+Added : /trunk/SagaMap/Packets/Server/NPC/SSMG_NPC_SHOP_BUY.cs
+Added : /trunk/SagaMap/Packets/Server/NPC/SSMG_NPC_SHOP_SELL.cs
+Modified : /trunk/SagaMap/SagaMap.csproj
+Modified : /trunk/SagaMap/Scripting/Event.cs
+
+Revision: 150
+Author: happy61@gmail.com
+Date: 9:54:12, 2008年8月22日
+Message:
+fix web
+----
+Modified : /trunk/Ecoweb/Default.aspx.cs
+Modified : /trunk/Ecoweb/SagaWeb.xml
+Modified : /trunk/Tools/EvenIdToScript/Form1.Designer.vb
+Modified : /trunk/Tools/EvenIdToScript/Form1.vb
+
+Revision: 149
+Author: liiir1985@hotmail.com
+Date: 18:52:51, 2008年8月21日
+Message:
+AI improvement
+----
+Modified : /trunk/SagaMap/Icon1.ico
+Modified : /trunk/SagaMap/Map.cs
+Modified : /trunk/SagaMap/Mob/AICommands/Chase.cs
+Modified : /trunk/SagaMap/Mob/AICommands/Move.cs
+Modified : /trunk/SagaMap/Mob/MobAI.cs
+
+Revision: 148
+Author: happy61@gmail.com
+Date: 17:53:02, 2008年8月21日
+Message:
+add script
+----
+Modified : /trunk/DB/Spawns/10014000.xml
+Modified : /trunk/SagaScript/Chinese/塔妮亞世界的幻影(30204000)/微微-13000177.cs
+Modified : /trunk/Tools/EvenIdToScript/Form1.Designer.vb
+Modified : /trunk/Tools/EvenIdToScript/Form1.vb
+Added : /trunk/Tools/EvenIdToScript/npc.mdb
+
+Revision: 147
+Author: liiir1985@hotmail.com
+Date: 14:57:55, 2008年8月21日
+Message:
+Automatically version display implemented
+----
+Deleted : /trunk/SagaDB/Properties/AssemblyInfo.cs
+Added : /trunk/SagaDB/Properties/AssemblyInfo.tpl
+Added : /trunk/SagaDB/Properties/GenerateAssemblyInfo.bat
+Modified : /trunk/SagaDB/SagaDB.csproj
+Deleted : /trunk/SagaLib/Properties/AssemblyInfo.cs
+Added : /trunk/SagaLib/Properties/AssemblyInfo.tpl
+Added : /trunk/SagaLib/Properties/GenerateAssemblyInfo.bat
+Modified : /trunk/SagaLib/SagaLib.csproj
+Modified : /trunk/SagaLogin/LoginServer.cs
+Deleted : /trunk/SagaLogin/Properties/AssemblyInfo.cs
+Added : /trunk/SagaLogin/Properties/AssemblyInfo.tpl
+Added : /trunk/SagaLogin/Properties/GenerateAssemblyInfo.bat
+Modified : /trunk/SagaLogin/SagaLogin.csproj
+Modified : /trunk/SagaMap/MapServer.cs
+Modified : /trunk/SagaMap/Properties/AssemblyInfo.tpl
+Added : /trunk/SagaMap/Properties/GenerateAssemblyInfo.bat
+
+Revision: 146
+Author: liiir1985@hotmail.com
+Date: 13:56:55, 2008年8月21日
+Message:
+SVN revision count test
+----
+Deleted : /trunk/SagaMap/Properties/AssemblyInfo.cs
+Added : /trunk/SagaMap/Properties/AssemblyInfo.tpl
+Modified : /trunk/SagaMap/SagaMap.csproj
+
+Revision: 145
+Author: liiir1985@hotmail.com
+Date: 12:57:05, 2008年8月21日
+Message:
+the forgotten sql file
+----
+Added : /trunk/sqlfile/update_r144.sql
+
+Revision: 144
+Author: liiir1985@hotmail.com
+Date: 12:54:56, 2008年8月21日
+Message:
+scripting variable implemented
+----
+Modified : /trunk/SagaDB/Actor/ActorPC.cs
+Added : /trunk/SagaDB/Actor/VariableHolder.cs
+Modified : /trunk/SagaDB/MySQLActorDB.cs
+Modified : /trunk/SagaDB/SagaDB.csproj
+Modified : /trunk/SagaMap/Network/Client/MapClient.NPC.cs
+Modified : /trunk/SagaScript/Test.cs
+Modified : /trunk/sqlfile/main.sql
+
+Revision: 143
+Author: liiir1985@hotmail.com
+Date: 11:26:15, 2008年8月21日
+Message:
+Select method in Scripting added
+----
+Added : /trunk/SagaMap/Icon1.ico
+Modified : /trunk/SagaMap/Manager/MapClientManager.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.NPC.cs
+Added : /trunk/SagaMap/Packets/Client/NPC/CSMG_NPC_SELECT.cs
+Modified : /trunk/SagaMap/Packets/Server/Actor/SSMG_ACTOR_PC_INFO.cs
+Modified : /trunk/SagaMap/Packets/Server/Actor/SSMG_PLAYER_INFO.cs
+Modified : /trunk/SagaMap/Packets/Server/Item/SSMG_ITEM_ACTOR_EQUIP_UPDATE.cs
+Added : /trunk/SagaMap/Packets/Server/NPC/SSMG_NPC_SELECT.cs
+Modified : /trunk/SagaMap/Properties/AssemblyInfo.cs
+Modified : /trunk/SagaMap/SagaMap.csproj
+Modified : /trunk/SagaMap/Scripting/Event.cs
+Modified : /trunk/SagaScript/Test.cs
+
+Revision: 142
+Author: happy61@gmail.com
+Date: 10:26:22, 2008年8月21日
+Message:
+db add
+----
+Modified : /trunk/DB/exp.xml
+Modified : /trunk/DB/furniturepict.csv
+Modified : /trunk/DB/mapname.csv
+
+Revision: 141
+Author: liiir1985@hotmail.com
+Date: 14:22:34, 2008年8月20日
+Message:
+bugfix
+----
+Modified : /trunk/SagaMap/Skill/SkillHandler.SkillAttack.cs
+
+Revision: 140
+Author: liiir1985@hotmail.com
+Date: 14:03:40, 2008年8月20日
+Message:
+some improvement in physical attack handling
+----
+Modified : /trunk/SagaMap/ActorEventHandlers/MobEventHandler.cs
+Modified : /trunk/SagaMap/ActorEventHandlers/PCEventHandler.cs
+Modified : /trunk/SagaMap/Map.MapEventArgs.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.Actor.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.Skill.cs
+Modified : /trunk/SagaMap/Packets/Server/Skill/SSMG_SKILL_COMBO_ATTACK_RESULT.cs
+Modified : /trunk/SagaMap/Skill/SkillHandler.SkillAttack.cs
+Modified : /trunk/SagaMap/Skill/SkillHandler.cs
+
+Revision: 139
+Author: liiir1985@hotmail.com
+Date: 10:46:51, 2008年8月20日
+Message:
+Passive skill handling implemented
+2 passive skills added
+----
+Modified : /trunk/SagaDB/Actor/Status.cs
+Modified : /trunk/SagaMap/ActorEventHandlers/PCEventHandler.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.Actor.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.Login.cs
+Modified : /trunk/SagaMap/Network/Client/MapClient.Skill.cs
+Modified : /trunk/SagaMap/PC/StatusFactory.cs
+Modified : /trunk/SagaMap/SagaMap.csproj
+Modified : /trunk/SagaMap/Skill/Additions/Global/DefaultPassiveSkill.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Global
+Added : /trunk/SagaMap/Skill/SkillDefinations/Shaman/MPRecoverUP.cs
+Added : /trunk/SagaMap/Skill/SkillDefinations/Shaman/MaxMPUp.cs
+Modified : /trunk/SagaMap/Skill/SkillHandler.SkillManager.cs
+Modified : /trunk/SagaMap/Skill/SkillHandler.cs
+

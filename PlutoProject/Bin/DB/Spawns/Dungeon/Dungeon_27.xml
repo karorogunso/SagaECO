@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Spawns>
+  <spawn rate="70">
+    <!--レッサースペクター-->
+    <id>10690700</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>3</amount>
+    <range>128</range>
+    <delay>120</delay>
+  </spawn>
+  <spawn rate="20">
+    <!--イヴィルデッド-->
+    <id>10180100</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>2</amount>
+    <range>128</range>
+    <delay>120</delay>
+  </spawn>
+  <spawn rate="20">
+    <!--デス-->
+    <id>10250000</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>4</amount>
+    <range>128</range>
+    <delay>120</delay>
+  </spawn>
+  <spawn rate="20">
+    <!--ゲッコ-->
+    <id>10630000</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>2</amount>
+    <range>128</range>
+    <delay>120</delay>
+  </spawn>
+  <spawn rate="20">
+    <!--ドラッキー　紫-->
+    <id>10020200</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>4</amount>
+    <range>128</range>
+    <delay>120</delay>
+  </spawn>
+  <spawn rate="20">
+    <!--キメラ　灰-->
+    <id>10431000</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>3</amount>
+    <range>128</range>
+    <delay>120</delay>
+  </spawn>
+  <spawn rate="20">
+    <!--コッカラス-->
+    <id>10620900</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>6</amount>
+    <range>128</range>
+    <delay>120</delay>
+  </spawn>
+  <spawn rate="100">
+    <!--プチメタリカ-->
+    <id>10001002</id>
+    <x>90</x>
+    <y>90</y>
+    <amount>1</amount>
+    <range>10</range>
+    <delay>0</delay>
+  </spawn>
+  <spawn rate="100">
+    <!--迷子のメタリカ-->
+    <id>10001001</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>1</amount>
+    <range>128</range>
+    <delay>0</delay>
+  </spawn>
+  <spawn rate="100">
+    <!--迷子のメタリカ-->
+    <id>10001001</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>1</amount>
+    <range>128</range>
+    <delay>0</delay>
+  </spawn>
+</Spawns>

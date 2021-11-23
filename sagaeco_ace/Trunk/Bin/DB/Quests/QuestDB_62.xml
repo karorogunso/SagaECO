@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Flag:0c16-->
+<QuestDB GroupID="62">
+  <Quest>
+    <!--季節活動任務-->
+    <ID>25000000</ID>
+    <Name>讨伐灾难的碎片！１</Name>
+    <Type>HUNT</Type>
+    <Time>10</Time>
+    <RewardItem>0</RewardItem>
+    <RewardCount>0</RewardCount>
+    <RequiredQuestPoints>0</RequiredQuestPoints>
+    <DungeonID>0</DungeonID>
+    <MinLV>1</MinLV>
+    <MaxLv>255</MaxLv>
+    <!--七ツ森学園-->
+    <EXP>0</EXP>
+    <JEXP>0</JEXP>
+    <Gold>0</Gold>
+    <Fame>0</Fame>
+    <MapID1>20032002</MapID1>
+    <ObjectID1>30760000</ObjectID1>
+    <Count1>20</Count1>
+    <Party>True</Party>
+  </Quest>
+</QuestDB>

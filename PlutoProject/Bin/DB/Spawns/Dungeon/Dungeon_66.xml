@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Spawns>
+  <spawn rate="16">
+    <!--迷宮の結晶体-->
+    <id>30030051</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>2</amount>
+    <range>128</range>
+    <delay>120</delay>
+  </spawn>
+  <spawn rate="16">
+    <!--ラーミア-->
+    <id>10450000</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>4</amount>
+    <range>128</range>
+    <delay>120</delay>
+  </spawn>
+  <spawn rate="16">
+    <!--ブロックス-->
+    <id>10340301</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>4</amount>
+    <range>128</range>
+    <delay>120</delay>
+  </spawn>
+  <spawn rate="16">
+    <!--白い使い魔-->
+    <id>10240400</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>4</amount>
+    <range>128</range>
+    <delay>120</delay>
+  </spawn>
+  <spawn rate="16">
+    <!--コランダム-->
+    <id>26130900</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>3</amount>
+    <range>128</range>
+    <delay>120</delay>
+  </spawn>
+  <spawn rate="16">
+    <!--ナイトストーク-->
+    <id>10140900</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>2</amount>
+    <range>128</range>
+    <delay>120</delay>
+  </spawn>
+  <spawn rate="100">
+    <!--迷宮の結晶体-->
+    <id>30030051</id>
+    <x>90</x>
+    <y>90</y>
+    <amount>1</amount>
+    <range>1</range>
+    <delay>0</delay>
+  </spawn>
+  <spawn rate="100">
+    <!--後鬼-->
+    <id>10340200</id>
+    <x>90</x>
+    <y>90</y>
+    <amount>1</amount>
+    <range>10</range>
+    <delay>0</delay>
+  </spawn>
+  <spawn rate="100">
+    <!--前鬼-->
+    <id>10341000</id>
+    <x>90</x>
+    <y>90</y>
+    <amount>1</amount>
+    <range>10</range>
+    <delay>0</delay>
+  </spawn>
+</Spawns>

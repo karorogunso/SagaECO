@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Spawns>
+  <spawn>
+    <!--パーティードロップテスト-->
+    <id>10030001</id>
+    <map>20013001</map>
+    <x>64</x>
+    <y>64</y>
+    <amount>4</amount>
+    <range>5</range>
+    <delay>10</delay>
+  </spawn>
+</Spawns>

@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Flag:7c67-->
+<QuestDB GroupID="40">
+  <Quest>
+    <!--2007年1月12日実装、おめでタイニー 「微凶をお祓い！(party可)」-->
+    <ID>10032020</ID>
+    <Name>赶走非常弱的鬼怪（队伍）(Lv ?)</Name>
+    <Type>HUNT</Type>
+    <Time>-1</Time>
+    <RewardItem>0</RewardItem>
+    <RewardCount>0</RewardCount>
+    <RequiredQuestPoints>0</RequiredQuestPoints>
+    <DungeonID>0</DungeonID>
+    <MinLV>255</MinLV>
+    <MaxLv>255</MaxLv>
+    <Job>NONE</Job>
+    <JobType>NOVICE</JobType>
+    <Race>NONE</Race>
+    <Gender>NONE</Gender>
+    <!--Detail Information-->
+    <!--2007年1月12日実装、おめでタイニー 「微凶をお祓い！(party可)」-->
+    <EXP>0</EXP>
+    <JEXP>0</JEXP>
+    <Gold>0</Gold>
+    <Fame>1</Fame>
+    <MapID1>10014000</MapID1>
+    <MapID2>10015000</MapID2>
+    <MapID3>10020000</MapID3>
+    <ObjectID1>10001002</ObjectID1>
+    <Count1>1</Count1>
+    <Party>True</Party>
+  </Quest>
+  <Quest>
+    <!--2007年1月12日実装、おめでタイニー 「小凶をお祓い！(party可)」-->
+    <ID>10032021</ID>
+    <Name>赶走比较弱的鬼怪（队伍）(Lv ?)</Name>
+    <Type>HUNT</Type>
+    <Time>-1</Time>
+    <RewardItem>0</RewardItem>
+    <RewardCount>0</RewardCount>
+    <RequiredQuestPoints>0</RequiredQuestPoints>
+    <DungeonID>0</DungeonID>
+    <MinLV>255</MinLV>
+    <MaxLv>255</MaxLv>
+    <Job>NONE</Job>
+    <JobType>NOVICE</JobType>
+    <Race>NONE</Race>
+    <Gender>NONE</Gender>
+    <!--Detail Information-->
+    <!--2007年1月12日実装、おめでタイニー 「小凶をお祓い！(party可)」-->
+    <EXP>0</EXP>
+    <JEXP>0</JEXP>
+    <Gold>0</Gold>
+    <Fame>1</Fame>
+    <MapID1>10049000</MapID1>
+    <MapID2>10050000</MapID2>
+    <MapID3>10051000</MapID3>
+    <ObjectID1>10110000</ObjectID1>
+    <Count1>15</Count1>
+    <Party>True</Party>
+  </Quest>
+  <Quest>
+    <!--2007年1月12日実装、おめでタイニー 「中凶をお祓い！(party可)」-->
+    <ID>10032022</ID>
+    <Name>赶走一般的鬼怪（队伍）(Lv ?)</Name>
+    <Type>HUNT</Type>
+    <Time>-1</Time>
+    <RewardItem>0</RewardItem>
+    <RewardCount>0</RewardCount>
+    <RequiredQuestPoints>0</RequiredQuestPoints>
+    <DungeonID>0</DungeonID>
+    <MinLV>255</MinLV>
+    <MaxLv>255</MaxLv>
+    <Job>NONE</Job>
+    <JobType>NOVICE</JobType>
+    <Race>NONE</Race>
+    <Gender>NONE</Gender>
+    <!--Detail Information-->
+    <!--2007年1月12日実装、おめでタイニー 「中凶をお祓い！(party可)」-->
+    <EXP>0</EXP>
+    <JEXP>0</JEXP>
+    <Gold>0</Gold>
+    <Fame>1</Fame>
+    <MapID1>20011000</MapID1>
+    <MapID2>20012000</MapID2>
+    <ObjectID1>26180000</ObjectID1>
+    <Count1>6</Count1>
+    <Party>True</Party>
+  </Quest>
+  <Quest>
+    <!--2007年1月12日実装、おめでタイニー 「大凶をお祓い！(party可)」-->
+    <ID>10032023</ID>
+    <Name>赶走比较强的鬼怪（队伍）(Lv ?)</Name>
+    <Type>HUNT</Type>
+    <Time>-1</Time>
+    <RewardItem>0</RewardItem>
+    <RewardCount>0</RewardCount>
+    <RequiredQuestPoints>0</RequiredQuestPoints>
+    <DungeonID>0</DungeonID>
+    <MinLV>255</MinLV>
+    <MaxLv>255</MaxLv>
+    <Job>NONE</Job>
+    <JobType>NOVICE</JobType>
+    <Race>NONE</Race>
+    <Gender>NONE</Gender>
+    <!--Detail Information-->
+    <!--2007年1月12日実装、おめでタイニー 「大凶をお祓い！(party可)」-->
+    <EXP>0</EXP>
+    <JEXP>0</JEXP>
+    <Gold>0</Gold>
+    <Fame>1</Fame>
+    <MapID1>20020000</MapID1>
+    <MapID2>20021000</MapID2>
+    <MapID3>20022000</MapID3>
+    <ObjectID1>10240400</ObjectID1>
+    <Count1>5</Count1>
+    <Party>True</Party>
+  </Quest>
+  <Quest>
+    <!--2007年1月12日実装、おめでタイニー 「絶凶をお祓い！(party可)」-->
+    <ID>10032024</ID>
+    <Name>赶走很强的鬼怪（队伍）(Lv ?)</Name>
+    <Type>HUNT</Type>
+    <Time>-1</Time>
+    <RewardItem>0</RewardItem>
+    <RewardCount>0</RewardCount>
+    <RequiredQuestPoints>0</RequiredQuestPoints>
+    <DungeonID>0</DungeonID>
+    <MinLV>255</MinLV>
+    <MaxLv>255</MaxLv>
+    <Job>NONE</Job>
+    <JobType>NOVICE</JobType>
+    <Race>NONE</Race>
+    <Gender>NONE</Gender>
+    <!--Detail Information-->
+    <!--2007年1月12日実装、おめでタイニー 「絶凶をお祓い！(party可)」-->
+    <EXP>0</EXP>
+    <JEXP>0</JEXP>
+    <Gold>0</Gold>
+    <Fame>1</Fame>
+    <MapID1>20122000</MapID1>
+    <MapID2>20124000</MapID2>
+    <MapID3>20125000</MapID3>
+    <ObjectID1>10460100</ObjectID1>
+    <Count1>3</Count1>
+    <ObjectID2>10470100</ObjectID2>
+    <Count2>3</Count2>
+    <Party>True</Party>
+  </Quest>
+  <Quest>
+    <!--2007年1月12日実装、おめでタイニー 「最凶をお祓い！(party可)」-->
+    <ID>10032025</ID>
+    <Name>赶走最强的鬼怪（队伍）(Lv ?)</Name>
+    <Type>HUNT</Type>
+    <Time>-1</Time>
+    <RewardItem>0</RewardItem>
+    <RewardCount>0</RewardCount>
+    <RequiredQuestPoints>0</RequiredQuestPoints>
+    <DungeonID>0</DungeonID>
+    <MinLV>255</MinLV>
+    <MaxLv>255</MaxLv>
+    <Job>NONE</Job>
+    <JobType>NOVICE</JobType>
+    <Race>NONE</Race>
+    <Gender>NONE</Gender>
+    <!--Detail Information-->
+    <!--2007年1月12日実装、おめでタイニー 「最凶をお祓い！(party可)」-->
+    <EXP>0</EXP>
+    <JEXP>0</JEXP>
+    <Gold>0</Gold>
+    <Fame>1</Fame>
+    <MapID1>20161000</MapID1>
+    <MapID2>20162000</MapID2>
+    <MapID3>20163000</MapID3>
+    <ObjectID1>19080000</ObjectID1>
+    <Count1>1</Count1>
+    <ObjectID2>19070000</ObjectID2>
+    <Count2>1</Count2>
+    <ObjectID3>10470001</ObjectID3>
+    <Count3>1</Count3>
+    <Party>True</Party>
+  </Quest>
+</QuestDB>

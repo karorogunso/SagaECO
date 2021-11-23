@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TreasureDB>
+  <TreasureList GroupName="WEAPON90">
+    <Item rate="3" count="1">60023700</Item>
+    <Item rate="1" count="1">60023800</Item>
+    <Item rate="5" count="1">60021400</Item>
+    <Item rate="5" count="1">60024000</Item>
+    <Item rate="5" count="1">60023900</Item>
+    <Item rate="10" count="1">60030600</Item>
+    <Item rate="10" count="1">60031500</Item>
+    <Item rate="2" count="1">60061500</Item>
+    <Item rate="3" count="1">60061600</Item>
+    <Item rate="3" count="1">60092200</Item>
+    <Item rate="5" count="1">60092300</Item>
+    <Item rate="10" count="1">60043000</Item>
+    <Item rate="10" count="1">60043100</Item>
+    <Item rate="5" count="1">60051900</Item>
+    <Item rate="3" count="1">60052000</Item>
+    <Item rate="3" count="1">60072000</Item>
+    <Item rate="5" count="1">60081400</Item>
+    <Item rate="5" count="1">60082000</Item>
+    <Item rate="3" count="1">60092400</Item>
+    <Item rate="3" count="1">60092500</Item>
+    <Item rate="3" count="1">60092600</Item>
+    <Item rate="20" count="50">61010800</Item>
+    <Item rate="5" count="1">61030100</Item>
+    <Item rate="5" count="1">61040400</Item>
+    <Item rate="20" count="50">61050055</Item>
+    <Item rate="152" count="0">0</Item>
+  </TreasureList>
+  <TreasureList GroupName="WEAPON90_rare">
+    <Item rate="3" count="1">60023700</Item>
+    <Item rate="1" count="1">60023800</Item>
+    <Item rate="3" count="1">60021400</Item>
+    <Item rate="3" count="1">60024000</Item>
+    <Item rate="3" count="1">60023900</Item>
+    <Item rate="5" count="1">60030600</Item>
+    <Item rate="5" count="1">60031500</Item>
+    <Item rate="2" count="1">60061500</Item>
+    <Item rate="3" count="1">60061600</Item>
+    <Item rate="3" count="1">60092200</Item>
+    <Item rate="3" count="1">60092300</Item>
+    <Item rate="5" count="1">60043000</Item>
+    <Item rate="5" count="1">60043100</Item>
+    <Item rate="3" count="1">60051900</Item>
+    <Item rate="3" count="1">60052000</Item>
+    <Item rate="3" count="1">60072000</Item>
+    <Item rate="3" count="1">60081400</Item>
+    <Item rate="3" count="1">60082000</Item>
+    <Item rate="3" count="1">60092400</Item>
+    <Item rate="3" count="1">60092500</Item>
+    <Item rate="3" count="1">60092600</Item>
+    <Item rate="5" count="50">61010800</Item>
+    <Item rate="3" count="1">61030100</Item>
+    <Item rate="3" count="1">61040400</Item>
+    <Item rate="5" count="50">61050055</Item>
+  </TreasureList>
+</TreasureDB>

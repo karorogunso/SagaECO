@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Flag:1c03-->
+<QuestDB GroupID="41">
+  <Quest>
+    <!--カフェ専用-->
+    <ID>10032027</ID>
+    <Name>破坏迷宫的结晶体吧！初级（队伍）(Lv 10)</Name>
+    <Type>HUNT</Type>
+    <Time>120</Time>
+    <RewardItem>10022115</RewardItem>
+    <RewardCount>1</RewardCount>
+    <RequiredQuestPoints>1</RequiredQuestPoints>
+    <DungeonID>60</DungeonID>
+    <MinLV>10</MinLV>
+    <MaxLv>30</MaxLv>
+    <Job>NONE</Job>
+    <JobType>NOVICE</JobType>
+    <Race>NONE</Race>
+    <Gender>NONE</Gender>
+    <!--Detail Information-->
+    <!--迷宮の結晶体の破壊！初級-->
+    <EXP>2000</EXP>
+    <JEXP>1500</JEXP>
+    <Gold>1500</Gold>
+    <Fame>1</Fame>
+    <MapID1>60000000</MapID1>
+    <ObjectID1>30030051</ObjectID1>
+    <Count1>20</Count1>
+    <Party>True</Party>
+  </Quest>
+  <Quest>
+    <!--カフェ専用-->
+    <ID>10032028</ID>
+    <Name>破坏迷宫的结晶体吧！中级（队伍）(Lv 30)</Name>
+    <Type>HUNT</Type>
+    <Time>180</Time>
+    <RewardItem>10022115</RewardItem>
+    <RewardCount>1</RewardCount>
+    <RequiredQuestPoints>1</RequiredQuestPoints>
+    <DungeonID>63</DungeonID>
+    <MinLV>30</MinLV>
+    <MaxLv>60</MaxLv>
+    <Job>NONE</Job>
+    <JobType>NOVICE</JobType>
+    <Race>NONE</Race>
+    <Gender>NONE</Gender>
+    <!--Detail Information-->
+    <!--迷宮の結晶体の破壊！中級-->
+    <EXP>3500</EXP>
+    <JEXP>2500</JEXP>
+    <Gold>2500</Gold>
+    <Fame>1</Fame>
+    <MapID1>60000000</MapID1>
+    <ObjectID1>30030051</ObjectID1>
+    <Count1>30</Count1>
+    <Party>True</Party>
+  </Quest>
+  <Quest>
+    <!--カフェ専用-->
+    <ID>10032029</ID>
+    <Name>破坏迷宫的结晶体吧！上级（队伍）(Lv 60)</Name>
+    <Type>HUNT</Type>
+    <Time>120</Time>
+    <RewardItem>10022115</RewardItem>
+    <RewardCount>1</RewardCount>
+    <RequiredQuestPoints>1</RequiredQuestPoints>
+    <DungeonID>67</DungeonID>
+    <MinLV>60</MinLV>
+    <MaxLv>255</MaxLv>
+    <Job>NONE</Job>
+    <JobType>NOVICE</JobType>
+    <Race>NONE</Race>
+    <Gender>NONE</Gender>
+    <!--Detail Information-->
+    <!--迷宮の結晶体の破壊！上級-->
+    <EXP>6500</EXP>
+    <JEXP>4000</JEXP>
+    <Gold>4000</Gold>
+    <Fame>1</Fame>
+    <MapID1>60000000</MapID1>
+    <ObjectID1>30030051</ObjectID1>
+    <Count1>40</Count1>
+    <Party>True</Party>
+  </Quest>
+</QuestDB>

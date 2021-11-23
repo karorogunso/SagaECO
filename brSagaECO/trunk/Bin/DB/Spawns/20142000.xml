@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Spawns>
+  <spawn>
+    <!--クリスタルアーチン　       LV45-->
+    <id>10870000</id>
+    <map>20142000</map>
+    <x>73</x>
+    <y>63</y>
+    <amount>8</amount>
+    <range>63</range>
+    <delay>10</delay>
+  </spawn>
+  <spawn>
+    <!--モックー　薄青　            LV45-->
+    <id>26060400</id>
+    <map>20142000</map>
+    <x>73</x>
+    <y>63</y>
+    <amount>8</amount>
+    <range>63</range>
+    <delay>10</delay>
+  </spawn>
+  <spawn>
+    <!--フォックストロットＧ　       LV42-->
+    <id>10810500</id>
+    <map>20142000</map>
+    <x>73</x>
+    <y>63</y>
+    <amount>5</amount>
+    <range>63</range>
+    <delay>10</delay>
+  </spawn>
+  <spawn>
+    <!--フォックスハウンドＲ　      LV38-->
+    <id>10820100</id>
+    <map>20142000</map>
+    <x>73</x>
+    <y>63</y>
+    <amount>10</amount>
+    <range>63</range>
+    <delay>10</delay>
+  </spawn>
+  <spawn>
+    <!--機械のかたまり-->
+    <id>30330000</id>
+    <map>20142000</map>
+    <x>73</x>
+    <y>63</y>
+    <amount>1</amount>
+    <range>63</range>
+    <delay>420</delay>
+  </spawn>
+  <spawn>
+    <!--機械のかたまり-->
+    <id>30330000</id>
+    <map>20142000</map>
+    <x>73</x>
+    <y>63</y>
+    <amount>1</amount>
+    <range>63</range>
+    <delay>240</delay>
+  </spawn>
+  <spawn>
+    <!--宝箱１３-->
+    <id>30270013</id>
+    <map>20142000</map>
+    <x>73</x>
+    <y>63</y>
+    <amount>1</amount>
+    <range>63</range>
+    <delay>1620</delay>
+  </spawn>
+  <spawn>
+    <!--木箱８-->
+    <id>30290008</id>
+    <map>20142000</map>
+    <x>73</x>
+    <y>63</y>
+    <amount>1</amount>
+    <range>63</range>
+    <delay>1920</delay>
+  </spawn>
+  <spawn>
+    <!--フォックスハウンドC２　　　LV45-->
+    <id>10821200</id>
+    <map>20142000</map>
+    <x>73</x>
+    <y>63</y>
+    <amount>2</amount>
+    <range>63</range>
+    <delay>10</delay>
+  </spawn>
+  <spawn>
+    <!--フォックスハウンドC２　　　LV45-->
+    <id>10821200</id>
+    <map>20142000</map>
+    <x>73</x>
+    <y>63</y>
+    <amount>1</amount>
+    <range>63</range>
+    <delay>180</delay>
+  </spawn>
+  <spawn>
+    <!--フォックスハウンドC２　　　LV45-->
+    <id>10821200</id>
+    <map>20142000</map>
+    <x>73</x>
+    <y>63</y>
+    <amount>1</amount>
+    <range>63</range>
+    <delay>180</delay>
+  </spawn>
+  <spawn>
+    <!--フォックスハウンドC２　　　LV45-->
+    <id>10821200</id>
+    <map>20142000</map>
+    <x>73</x>
+    <y>63</y>
+    <amount>1</amount>
+    <range>63</range>
+    <delay>180</delay>
+  </spawn>
+</Spawns>

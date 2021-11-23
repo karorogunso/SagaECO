@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TreasureDB>
+  <TreasureList GroupName="激赏礼券1">
+    <Item rate="1" count="1">50062150</Item>
+    <Item rate="2" count="1">50005061</Item>
+    <Item rate="2" count="1">50066000</Item>
+    <Item rate="3" count="1">50042200</Item>
+    <Item rate="2" count="1">50012362</Item>
+    <Item rate="1" count="1">60105200</Item>
+    <Item rate="1" count="1">50037309</Item>
+    <Item rate="2" count="1">50070153</Item>
+    <Item rate="1" count="1">50004851</Item>
+    <Item rate="1" count="1">50013851</Item>
+    <Item rate="2" count="1">50028050</Item>
+    <Item rate="2" count="1">50001758</Item>
+  </TreasureList>
+  <TreasureList GroupName="激赏礼券2">
+    <Item rate="1" count="1">50031309</Item>
+    <Item rate="1" count="1">50041050</Item>
+    <Item rate="3" count="1">50003753</Item>
+    <Item rate="2" count="1">50024700</Item>
+    <Item rate="1" count="1">50072050</Item>
+    <Item rate="2" count="1">50001952</Item>
+    <Item rate="3" count="1">50012253</Item>
+    <Item rate="3" count="1">50028000</Item>
+  </TreasureList>
+  <TreasureList GroupName="激赏礼券3">
+    <Item rate="1" count="1">10058400</Item>
+    <Item rate="1" count="1">60105800</Item>
+    <Item rate="1" count="1">50043000</Item>
+    <Item rate="3" count="1">60072400</Item>
+    <Item rate="3" count="1">60105900</Item>
+    <Item rate="2" count="1">31111900</Item>
+    <Item rate="1" count="1">60104000</Item>
+    <Item rate="2" count="1">50039800</Item>
+    <Item rate="2" count="1">60042600</Item>
+    <Item rate="2" count="1">60103700</Item>
+    <Item rate="3" count="1">50017301</Item>
+    <Item rate="3" count="1">50018800</Item>
+    <Item rate="1" count="1">50042300</Item>
+  </TreasureList>
+  <TreasureList GroupName="激赏礼券4">
+    <Item rate="1" count="1">50100300</Item>
+    <Item rate="2" count="1">50100100</Item>
+    <Item rate="2" count="1">50100000</Item>
+    <Item rate="1" count="1">50100200</Item>
+    <Item rate="3" count="1">50000058</Item>
+    <Item rate="1" count="1">60106500</Item>
+    <Item rate="2" count="1">60106600</Item>
+    <Item rate="3" count="1">30040012</Item>
+    <Item rate="2" count="1">50072900</Item>
+    <Item rate="3" count="1">50025000</Item>
+  </TreasureList>
+  <TreasureList GroupName="激赏礼券5">
+    <Item rate="2" count="1">60105100</Item>
+    <Item rate="1" count="1">50042900</Item>
+    <Item rate="3" count="1">31101000</Item>
+    <Item rate="3" count="1">60105400</Item>
+    <Item rate="2" count="1">50017212</Item>
+    <Item rate="2" count="1">50067200</Item>
+    <Item rate="1" count="1">50072400</Item>
+    <Item rate="1" count="1">50041200</Item>
+    <Item rate="2" count="1">31130107</Item>
+    <Item rate="3" count="1">60082800</Item>
+    <Item rate="2" count="1">60042700</Item>
+  </TreasureList>
+  <TreasureList GroupName="激赏礼券6">
+    <Item rate="1" count="1">10059500</Item>
+    <Item rate="1" count="1">60104050</Item>
+    <Item rate="1" count="1">60108000</Item>
+    <Item rate="3" count="1">31133700</Item>
+    <Item rate="3" count="1">50057200</Item>
+    <Item rate="3" count="1">60108100</Item>
+    <Item rate="1" count="1">60108200</Item>
+    <Item rate="2" count="1">50100800</Item>
+    <Item rate="3" count="1">50100900</Item>
+    <Item rate="2" count="1">50073200</Item>
+    <Item rate="1" count="1">50101000</Item>
+    <Item rate="3" count="1">60108109</Item>
+  </TreasureList>
+  <TreasureList GroupName="激赏礼券7">
+    <Item rate="1" count="1">10058700</Item>
+    <Item rate="2" count="1">50044000</Item>
+    <Item rate="1" count="1">60107300</Item>
+    <Item rate="3" count="1">60107900</Item>
+    <Item rate="3" count="1">50052110</Item>
+    <Item rate="2" count="1">50039801</Item>
+    <Item rate="1" count="1">60107700</Item>
+    <Item rate="2" count="1">60107800</Item>
+    <Item rate="3" count="1">31133300</Item>
+    <Item rate="3" count="1">31133400</Item>
+  </TreasureList>
+  <TreasureList GroupName="激赏礼券8">
+    <Item rate="1" count="1">50072000</Item>
+    <Item rate="1" count="1">10061200</Item>
+    <Item rate="3" count="1">31134500</Item>
+    <Item rate="3" count="1">50073400</Item>
+    <Item rate="1" count="1">50101100</Item>
+    <Item rate="1" count="1">60108300</Item>
+    <Item rate="2" count="1">61021100</Item>
+    <Item rate="2" count="1">60109700</Item>
+    <Item rate="1" count="1">60108400</Item>
+    <Item rate="2" count="1">50102200</Item>
+    <Item rate="2" count="1">60109800</Item>
+    <Item rate="3" count="1">50039850</Item>
+  </TreasureList>
+  <TreasureList GroupName="激赏礼券9">
+    <Item rate="1" count="1">50073600</Item>
+    <Item rate="1" count="1">60109100</Item>
+    <Item rate="1" count="1">50011221</Item>
+    <Item rate="2" count="1">50200400</Item>
+    <Item rate="2" count="1">50101500</Item>
+    <Item rate="3" count="1">31134100</Item>
+    <Item rate="2" count="1">50101400</Item>
+    <Item rate="3" count="1">31134200</Item>
+    <Item rate="1" count="1">60043200</Item>
+    <Item rate="3" count="1">31134300</Item>
+    <Item rate="3" count="1">50101600</Item>
+    <Item rate="1" count="1">60109200</Item>
+    <Item rate="3" count="1">50043500</Item>
+    <Item rate="2" count="1">50039809</Item>
+  </TreasureList>
+  <TreasureList GroupName="激赏礼券10">
+    <Item rate="2" count="1">50011219</Item>
+    <Item rate="2" count="1">50103000</Item>
+    <Item rate="1" count="1">60043400</Item>
+    <Item rate="2" count="1">50103100</Item>
+    <Item rate="1" count="1">50074100</Item>
+    <Item rate="1" count="1">60111700</Item>
+    <Item rate="2" count="1">50044200</Item>
+    <Item rate="2" count="1">60024200</Item>
+    <Item rate="1" count="1">10063400</Item>
+    <Item rate="2" count="1">60110000</Item>
+    <Item rate="3" count="1">60111800</Item>
+    <Item rate="2" count="1">60110005</Item>
+    <Item rate="3" count="1">60111805</Item>
+    <Item rate="3" count="1">50103200</Item>
+    <Item rate="3" count="1">50103205</Item>
+  </TreasureList>
+  <TreasureList GroupName="激赏礼券11">
+    <Item rate="1" count="1">50057400</Item>
+    <Item rate="1" count="1">60111000</Item>
+    <Item rate="3" count="1">50102300</Item>
+    <Item rate="3" count="1">50200900</Item>
+    <Item rate="1" count="1">50043900</Item>
+    <Item rate="2" count="1">50200800</Item>
+    <Item rate="3" count="1">60111100</Item>
+    <Item rate="2" count="1">60111200</Item>
+    <Item rate="2" count="1">10062900</Item>
+  </TreasureList>
+</TreasureDB>

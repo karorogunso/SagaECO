@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Spawns>
+  <spawn>
+    <!--ももっち-->
+    <id>10780001</id>
+    <map>30090001</map>
+    <x>2</x>
+    <y>2</y>
+    <amount>1</amount>
+    <range>0</range>
+    <delay>10</delay>
+  </spawn>
+</Spawns>

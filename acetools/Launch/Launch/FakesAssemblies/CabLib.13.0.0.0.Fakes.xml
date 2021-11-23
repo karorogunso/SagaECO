@@ -1,0 +1,533 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CabLib.13.0.0.0.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:CabLib.Fakes.ShimCompress">
+            <summary>CabLib.Compress 的填充码类型</summary>
+        </member>
+        <member name="M:CabLib.Fakes.ShimCompress.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:CabLib.Fakes.ShimCompress.#ctor(CabLib.Compress)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:CabLib.Fakes.ShimCompress.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:CabLib.Fakes.ShimCompress.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimCompress.AbortOperation">
+            <summary>设置 Compress.AbortOperation() 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimCompress.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimCompress.CompressFileListArrayListStringBooleanBooleanInt32">
+            <summary>设置 Compress.CompressFileList(ArrayList i_FileList, String s_CabFile, Boolean b_UtcTime, Boolean b_EncodeUtf, Int32 s32_SplitSize) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimCompress.CompressFolderStringStringStringBooleanBooleanInt32">
+            <summary>设置 Compress.CompressFolder(String s_Folder, String s_CabFile, String s_Filter, Boolean b_UtcTime, Boolean b_EncodeUtf, Int32 s32_SplitSize) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimCompress.Constructor">
+            <summary>设置 Compress.Compress() 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimCompress.EnumFilesArrayListStringStringBoolean">
+            <summary>设置 Compress.EnumFiles(ArrayList i_FileList, String s_Path, String s_Filter, Boolean b_Subfolders) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimCompress.RecursiveEnumFilesArrayListStringStringBoolean">
+            <summary>设置 Compress.RecursiveEnumFiles(ArrayList i_FileList, String s_Path, String s_Filter, Boolean b_Subfolders) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimCompress.SetEncryptionKeyByteArray">
+            <summary>设置 Compress.SetEncryptionKey(Byte[] u8_Key) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimCompress.SetEncryptionKeyString">
+            <summary>设置 Compress.SetEncryptionKey(String s_Password) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimCompress.SetTempDirectoryString">
+            <summary>设置 Compress.SetTempDirectory(String s_TempDir) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimCompress.SprintfStringObjectArray">
+            <summary>设置 Compress.Sprintf(String s_Format, Object[] o_Values) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimCompress.SwitchCompressionCompresseCompress">
+            <summary>设置 Compress.SwitchCompression(eCompress e_Compress) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimCompress.TerminatePathString">
+            <summary>设置 Compress.TerminatePath(String s_Path) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimCompress.evFilePlacedAddCompressdelFilePlaced">
+            <summary>设置 Compress.add_evFilePlaced(delFilePlaced eh) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimCompress.evFilePlacedRaiseStringInt32Boolean">
+            <summary>设置 Compress.raise_evFilePlaced(String i1, Int32 i2, Boolean i3) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimCompress.evFilePlacedRemoveCompressdelFilePlaced">
+            <summary>设置 Compress.remove_evFilePlaced(delFilePlaced eh) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimCompress.evUpdateStatusAddCompressdelUpdateStatus">
+            <summary>设置 Compress.add_evUpdateStatus(delUpdateStatus eh) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimCompress.evUpdateStatusRaiseCompresskCurStatus">
+            <summary>设置 Compress.raise_evUpdateStatus(kCurStatus i1) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimCompress.evUpdateStatusRemoveCompressdelUpdateStatus">
+            <summary>设置 Compress.remove_evUpdateStatus(delUpdateStatus eh) 的 填充码</summary>
+        </member>
+        <member name="T:CabLib.Fakes.ShimCompress.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimCompress.AllInstances.AbortOperation">
+            <summary>设置 Compress.AbortOperation() 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimCompress.AllInstances.CompressFileListArrayListStringBooleanBooleanInt32">
+            <summary>设置 Compress.CompressFileList(ArrayList i_FileList, String s_CabFile, Boolean b_UtcTime, Boolean b_EncodeUtf, Int32 s32_SplitSize) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimCompress.AllInstances.CompressFolderStringStringStringBooleanBooleanInt32">
+            <summary>设置 Compress.CompressFolder(String s_Folder, String s_CabFile, String s_Filter, Boolean b_UtcTime, Boolean b_EncodeUtf, Int32 s32_SplitSize) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimCompress.AllInstances.SetEncryptionKeyByteArray">
+            <summary>设置 Compress.SetEncryptionKey(Byte[] u8_Key) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimCompress.AllInstances.SetEncryptionKeyString">
+            <summary>设置 Compress.SetEncryptionKey(String s_Password) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimCompress.AllInstances.SetTempDirectoryString">
+            <summary>设置 Compress.SetTempDirectory(String s_TempDir) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimCompress.AllInstances.SwitchCompressionCompresseCompress">
+            <summary>设置 Compress.SwitchCompression(eCompress e_Compress) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimCompress.AllInstances.evFilePlacedAddCompressdelFilePlaced">
+            <summary>设置 Compress.add_evFilePlaced(delFilePlaced eh) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimCompress.AllInstances.evFilePlacedRaiseStringInt32Boolean">
+            <summary>设置 Compress.raise_evFilePlaced(String i1, Int32 i2, Boolean i3) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimCompress.AllInstances.evFilePlacedRemoveCompressdelFilePlaced">
+            <summary>设置 Compress.remove_evFilePlaced(delFilePlaced eh) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimCompress.AllInstances.evUpdateStatusAddCompressdelUpdateStatus">
+            <summary>设置 Compress.add_evUpdateStatus(delUpdateStatus eh) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimCompress.AllInstances.evUpdateStatusRaiseCompresskCurStatus">
+            <summary>设置 Compress.raise_evUpdateStatus(kCurStatus i1) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimCompress.AllInstances.evUpdateStatusRemoveCompressdelUpdateStatus">
+            <summary>设置 Compress.remove_evUpdateStatus(delUpdateStatus eh) 的 填充码</summary>
+        </member>
+        <member name="T:CabLib.Fakes.ShimCompress.ShimkCurStatus">
+            <summary>CabLib.Compress+kCurStatus 的填充码类型</summary>
+        </member>
+        <member name="M:CabLib.Fakes.ShimCompress.ShimkCurStatus.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:CabLib.Fakes.ShimCompress.ShimkCurStatus.#ctor(CabLib.Compress.kCurStatus)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:CabLib.Fakes.ShimCompress.ShimkCurStatus.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:CabLib.Fakes.ShimCompress.ShimkCurStatus.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimCompress.ShimkCurStatus.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimCompress.ShimkCurStatus.Constructor">
+            <summary>设置 kCurStatus.kCurStatus() 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimCompress.ShimkCurStatus._dtor">
+            <summary>设置 kCurStatus.{dtor}() 的 填充码</summary>
+        </member>
+        <member name="T:CabLib.Fakes.ShimCompress.ShimkCurStatus.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimCompress.ShimkCurStatus.AllInstances._dtor">
+            <summary>设置 kCurStatus.{dtor}() 的 填充码</summary>
+        </member>
+        <member name="T:CabLib.Fakes.ShimExtract">
+            <summary>CabLib.Extract 的填充码类型</summary>
+        </member>
+        <member name="M:CabLib.Fakes.ShimExtract.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:CabLib.Fakes.ShimExtract.#ctor(CabLib.Extract)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:CabLib.Fakes.ShimExtract.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:CabLib.Fakes.ShimExtract.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.AbortOperation">
+            <summary>设置 Extract.AbortOperation() 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.CleanUp">
+            <summary>设置 Extract.CleanUp() 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.Constructor">
+            <summary>设置 Extract.Extract() 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.ExtractFileStringString">
+            <summary>设置 Extract.ExtractFile(String s_CabFile, String s_Folder) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.ExtractMoreUrlString">
+            <summary>设置 Extract.ExtractMoreUrl(String s_Folder) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.ExtractResourceStringObjectObjectString">
+            <summary>设置 Extract.ExtractResource(String s_Module, Object o_RscName, Object o_RscType, String s_Folder) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.ExtractStreamStreamString">
+            <summary>设置 Extract.ExtractStream(Stream i_Stream, String s_Folder) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.ExtractUrlStringInt32StringString">
+            <summary>设置 Extract.ExtractUrl(String s_Url, Int32 s32_BlockSize, String s_LocalPath, String s_Folder) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.InternetGetProgressInt32OutInt32Out">
+            <summary>设置 Extract.InternetGetProgress(Int32&amp; s32_Total, Int32&amp; s32_Read) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.IsFileCabinetStringExtractkHeaderInfoOut">
+            <summary>设置 Extract.IsFileCabinet(String s_CabFile, kHeaderInfo&amp; pk_HeaderInfo) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.Reset">
+            <summary>设置 Extract.Reset() 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.ResolveShortcutStringStringOutStringOut">
+            <summary>设置 Extract.ResolveShortcut(String s_File, String&amp; s_Url, String&amp; s_Lnk) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.SetCodepageUInt32">
+            <summary>设置 Extract.SetCodepage(UInt32 u32_Codepage) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.SetDecryptionKeyByteArray">
+            <summary>设置 Extract.SetDecryptionKey(Byte[] u8_Key) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.SetDecryptionKeyString">
+            <summary>设置 Extract.SetDecryptionKey(String s_Password) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.SetHttpHeadersString">
+            <summary>设置 Extract.SetHttpHeaders(String s_Headers) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.SetPassiveFtpModeBoolean">
+            <summary>设置 Extract.SetPassiveFtpMode(Boolean b_Passive) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.SetProgressIntervalInt32">
+            <summary>设置 Extract.SetProgressInterval(Int32 s32_CallbackInterval) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.SetProxyString">
+            <summary>设置 Extract.SetProxy(String s_ProxyString) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.SetSingleFileString">
+            <summary>设置 Extract.SetSingleFile(String s_File) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract._dtor">
+            <summary>设置 Extract.{dtor}() 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.evAfterCopyFileAddExtractdelAfterCopyFile">
+            <summary>设置 Extract.add_evAfterCopyFile(delAfterCopyFile eh) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.evAfterCopyFileRaiseStringByteArray">
+            <summary>设置 Extract.raise_evAfterCopyFile(String i1, Byte[] i2) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.evAfterCopyFileRemoveExtractdelAfterCopyFile">
+            <summary>设置 Extract.remove_evAfterCopyFile(delAfterCopyFile eh) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.evBeforeCopyFileAddExtractdelBeforeCopyFile">
+            <summary>设置 Extract.add_evBeforeCopyFile(delBeforeCopyFile eh) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.evBeforeCopyFileRaiseExtractkCabinetFileInfo">
+            <summary>设置 Extract.raise_evBeforeCopyFile(kCabinetFileInfo i1) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.evBeforeCopyFileRemoveExtractdelBeforeCopyFile">
+            <summary>设置 Extract.remove_evBeforeCopyFile(delBeforeCopyFile eh) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.evCabinetInfoAddExtractdelCabinetInfo">
+            <summary>设置 Extract.add_evCabinetInfo(delCabinetInfo eh) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.evCabinetInfoRaiseExtractkCabinetInfo">
+            <summary>设置 Extract.raise_evCabinetInfo(kCabinetInfo i1) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.evCabinetInfoRemoveExtractdelCabinetInfo">
+            <summary>设置 Extract.remove_evCabinetInfo(delCabinetInfo eh) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.evNextCabinetAddExtractdelNextCabinet">
+            <summary>设置 Extract.add_evNextCabinet(delNextCabinet eh) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.evNextCabinetRaiseExtractkCabinetInfoInt32">
+            <summary>设置 Extract.raise_evNextCabinet(kCabinetInfo i1, Int32 i2) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.evNextCabinetRemoveExtractdelNextCabinet">
+            <summary>设置 Extract.remove_evNextCabinet(delNextCabinet eh) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.evProgressInfoAddExtractdelProgressInfo">
+            <summary>设置 Extract.add_evProgressInfo(delProgressInfo eh) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.evProgressInfoRaiseExtractkProgressInfo">
+            <summary>设置 Extract.raise_evProgressInfo(kProgressInfo i1) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.evProgressInfoRemoveExtractdelProgressInfo">
+            <summary>设置 Extract.remove_evProgressInfo(delProgressInfo eh) 的 填充码</summary>
+        </member>
+        <member name="T:CabLib.Fakes.ShimExtract.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.AllInstances.AbortOperation">
+            <summary>设置 Extract.AbortOperation() 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.AllInstances.CleanUp">
+            <summary>设置 Extract.CleanUp() 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.AllInstances.ExtractFileStringString">
+            <summary>设置 Extract.ExtractFile(String s_CabFile, String s_Folder) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.AllInstances.ExtractMoreUrlString">
+            <summary>设置 Extract.ExtractMoreUrl(String s_Folder) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.AllInstances.ExtractResourceStringObjectObjectString">
+            <summary>设置 Extract.ExtractResource(String s_Module, Object o_RscName, Object o_RscType, String s_Folder) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.AllInstances.ExtractStreamStreamString">
+            <summary>设置 Extract.ExtractStream(Stream i_Stream, String s_Folder) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.AllInstances.ExtractUrlStringInt32StringString">
+            <summary>设置 Extract.ExtractUrl(String s_Url, Int32 s32_BlockSize, String s_LocalPath, String s_Folder) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.AllInstances.InternetGetProgressInt32OutInt32Out">
+            <summary>设置 Extract.InternetGetProgress(Int32&amp; s32_Total, Int32&amp; s32_Read) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.AllInstances.IsFileCabinetStringExtractkHeaderInfoOut">
+            <summary>设置 Extract.IsFileCabinet(String s_CabFile, kHeaderInfo&amp; pk_HeaderInfo) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.AllInstances.Reset">
+            <summary>设置 Extract.Reset() 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.AllInstances.SetCodepageUInt32">
+            <summary>设置 Extract.SetCodepage(UInt32 u32_Codepage) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.AllInstances.SetDecryptionKeyByteArray">
+            <summary>设置 Extract.SetDecryptionKey(Byte[] u8_Key) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.AllInstances.SetDecryptionKeyString">
+            <summary>设置 Extract.SetDecryptionKey(String s_Password) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.AllInstances.SetHttpHeadersString">
+            <summary>设置 Extract.SetHttpHeaders(String s_Headers) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.AllInstances.SetPassiveFtpModeBoolean">
+            <summary>设置 Extract.SetPassiveFtpMode(Boolean b_Passive) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.AllInstances.SetProgressIntervalInt32">
+            <summary>设置 Extract.SetProgressInterval(Int32 s32_CallbackInterval) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.AllInstances.SetProxyString">
+            <summary>设置 Extract.SetProxy(String s_ProxyString) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.AllInstances.SetSingleFileString">
+            <summary>设置 Extract.SetSingleFile(String s_File) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.AllInstances._dtor">
+            <summary>设置 Extract.{dtor}() 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.AllInstances.evAfterCopyFileAddExtractdelAfterCopyFile">
+            <summary>设置 Extract.add_evAfterCopyFile(delAfterCopyFile eh) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.AllInstances.evAfterCopyFileRaiseStringByteArray">
+            <summary>设置 Extract.raise_evAfterCopyFile(String i1, Byte[] i2) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.AllInstances.evAfterCopyFileRemoveExtractdelAfterCopyFile">
+            <summary>设置 Extract.remove_evAfterCopyFile(delAfterCopyFile eh) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.AllInstances.evBeforeCopyFileAddExtractdelBeforeCopyFile">
+            <summary>设置 Extract.add_evBeforeCopyFile(delBeforeCopyFile eh) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.AllInstances.evBeforeCopyFileRaiseExtractkCabinetFileInfo">
+            <summary>设置 Extract.raise_evBeforeCopyFile(kCabinetFileInfo i1) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.AllInstances.evBeforeCopyFileRemoveExtractdelBeforeCopyFile">
+            <summary>设置 Extract.remove_evBeforeCopyFile(delBeforeCopyFile eh) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.AllInstances.evCabinetInfoAddExtractdelCabinetInfo">
+            <summary>设置 Extract.add_evCabinetInfo(delCabinetInfo eh) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.AllInstances.evCabinetInfoRaiseExtractkCabinetInfo">
+            <summary>设置 Extract.raise_evCabinetInfo(kCabinetInfo i1) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.AllInstances.evCabinetInfoRemoveExtractdelCabinetInfo">
+            <summary>设置 Extract.remove_evCabinetInfo(delCabinetInfo eh) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.AllInstances.evNextCabinetAddExtractdelNextCabinet">
+            <summary>设置 Extract.add_evNextCabinet(delNextCabinet eh) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.AllInstances.evNextCabinetRaiseExtractkCabinetInfoInt32">
+            <summary>设置 Extract.raise_evNextCabinet(kCabinetInfo i1, Int32 i2) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.AllInstances.evNextCabinetRemoveExtractdelNextCabinet">
+            <summary>设置 Extract.remove_evNextCabinet(delNextCabinet eh) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.AllInstances.evProgressInfoAddExtractdelProgressInfo">
+            <summary>设置 Extract.add_evProgressInfo(delProgressInfo eh) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.AllInstances.evProgressInfoRaiseExtractkProgressInfo">
+            <summary>设置 Extract.raise_evProgressInfo(kProgressInfo i1) 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.AllInstances.evProgressInfoRemoveExtractdelProgressInfo">
+            <summary>设置 Extract.remove_evProgressInfo(delProgressInfo eh) 的 填充码</summary>
+        </member>
+        <member name="T:CabLib.Fakes.ShimExtract.ShimkCabinetFileInfo">
+            <summary>CabLib.Extract+kCabinetFileInfo 的填充码类型</summary>
+        </member>
+        <member name="M:CabLib.Fakes.ShimExtract.ShimkCabinetFileInfo.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:CabLib.Fakes.ShimExtract.ShimkCabinetFileInfo.#ctor(CabLib.Extract.kCabinetFileInfo)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:CabLib.Fakes.ShimExtract.ShimkCabinetFileInfo.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:CabLib.Fakes.ShimExtract.ShimkCabinetFileInfo.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.ShimkCabinetFileInfo.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.ShimkCabinetFileInfo.Constructor">
+            <summary>设置 kCabinetFileInfo.kCabinetFileInfo() 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.ShimkCabinetFileInfo._dtor">
+            <summary>设置 kCabinetFileInfo.{dtor}() 的 填充码</summary>
+        </member>
+        <member name="T:CabLib.Fakes.ShimExtract.ShimkCabinetFileInfo.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.ShimkCabinetFileInfo.AllInstances._dtor">
+            <summary>设置 kCabinetFileInfo.{dtor}() 的 填充码</summary>
+        </member>
+        <member name="T:CabLib.Fakes.ShimExtract.ShimkCabinetInfo">
+            <summary>CabLib.Extract+kCabinetInfo 的填充码类型</summary>
+        </member>
+        <member name="M:CabLib.Fakes.ShimExtract.ShimkCabinetInfo.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:CabLib.Fakes.ShimExtract.ShimkCabinetInfo.#ctor(CabLib.Extract.kCabinetInfo)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:CabLib.Fakes.ShimExtract.ShimkCabinetInfo.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:CabLib.Fakes.ShimExtract.ShimkCabinetInfo.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.ShimkCabinetInfo.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.ShimkCabinetInfo.Constructor">
+            <summary>设置 kCabinetInfo.kCabinetInfo() 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.ShimkCabinetInfo._dtor">
+            <summary>设置 kCabinetInfo.{dtor}() 的 填充码</summary>
+        </member>
+        <member name="T:CabLib.Fakes.ShimExtract.ShimkCabinetInfo.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.ShimkCabinetInfo.AllInstances._dtor">
+            <summary>设置 kCabinetInfo.{dtor}() 的 填充码</summary>
+        </member>
+        <member name="T:CabLib.Fakes.ShimExtract.ShimkHeaderInfo">
+            <summary>CabLib.Extract+kHeaderInfo 的填充码类型</summary>
+        </member>
+        <member name="M:CabLib.Fakes.ShimExtract.ShimkHeaderInfo.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:CabLib.Fakes.ShimExtract.ShimkHeaderInfo.#ctor(CabLib.Extract.kHeaderInfo)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:CabLib.Fakes.ShimExtract.ShimkHeaderInfo.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:CabLib.Fakes.ShimExtract.ShimkHeaderInfo.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.ShimkHeaderInfo.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.ShimkHeaderInfo.Constructor">
+            <summary>设置 kHeaderInfo.kHeaderInfo() 的 填充码</summary>
+        </member>
+        <member name="T:CabLib.Fakes.ShimExtract.ShimkHeaderInfo.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="T:CabLib.Fakes.ShimExtract.ShimkProgressInfo">
+            <summary>CabLib.Extract+kProgressInfo 的填充码类型</summary>
+        </member>
+        <member name="M:CabLib.Fakes.ShimExtract.ShimkProgressInfo.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:CabLib.Fakes.ShimExtract.ShimkProgressInfo.#ctor(CabLib.Extract.kProgressInfo)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:CabLib.Fakes.ShimExtract.ShimkProgressInfo.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:CabLib.Fakes.ShimExtract.ShimkProgressInfo.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.ShimkProgressInfo.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.ShimkProgressInfo.Constructor">
+            <summary>设置 kProgressInfo.kProgressInfo() 的 填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.ShimkProgressInfo._dtor">
+            <summary>设置 kProgressInfo.{dtor}() 的 填充码</summary>
+        </member>
+        <member name="T:CabLib.Fakes.ShimExtract.ShimkProgressInfo.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:CabLib.Fakes.ShimExtract.ShimkProgressInfo.AllInstances._dtor">
+            <summary>设置 kProgressInfo.{dtor}() 的 填充码</summary>
+        </member>
+        <member name="T:CabLib.Fakes.StubCompress">
+            <summary>CabLib.Compress 的存根类型</summary>
+        </member>
+        <member name="M:CabLib.Fakes.StubCompress.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:CabLib.Fakes.StubCompress.InitializeStub">
+            <summary>初始化 type StubCompress 的新实例</summary>
+        </member>
+        <member name="P:CabLib.Fakes.StubCompress.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:CabLib.Fakes.StubCompress.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:CabLib.Fakes.StubCompress.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:CabLib.Fakes.StubExtract">
+            <summary>CabLib.Extract 的存根类型</summary>
+        </member>
+        <member name="M:CabLib.Fakes.StubExtract.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:CabLib.Fakes.StubExtract.InitializeStub">
+            <summary>初始化 type StubExtract 的新实例</summary>
+        </member>
+        <member name="P:CabLib.Fakes.StubExtract.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:CabLib.Fakes.StubExtract.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:CabLib.Fakes.StubExtract.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+    </members>
+</doc>

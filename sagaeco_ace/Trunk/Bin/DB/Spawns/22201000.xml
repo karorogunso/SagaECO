@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Spawns>
+  <spawn>
+    <!--B1F侦察装置(结果B2F也有)-->
+    <id>10971704</id>
+    <map>22201000</map>
+    <x>128</x>
+    <y>128</y>
+    <amount>10</amount>
+    <range>128</range>
+    <delay>30</delay>
+  </spawn>
+
+  <spawn>
+    <!--B2F侦察装置-->
+    <id>14310102</id>
+    <map>22201000</map>
+    <x>128</x>
+    <y>128</y>
+    <amount>5</amount>
+    <range>128</range>
+    <delay>30</delay>
+  </spawn>
+
+  <spawn>
+    <!--B2F侦察装置2-->
+    <id>14310103</id>
+    <map>22201000</map>
+    <x>128</x>
+    <y>128</y>
+    <amount>5</amount>
+    <range>128</range>
+    <delay>30</delay>
+  </spawn>
+
+  <spawn>
+    <!--飞行背包DEM-->
+    <id>14690000</id>
+    <map>22201000</map>
+    <x>128</x>
+    <y>128</y>
+    <amount>20</amount>
+    <range>128</range>
+    <delay>30</delay>
+  </spawn>
+
+  <spawn>
+    <!--多足DEM-->
+    <id>14700000</id>
+    <map>22201000</map>
+    <x>128</x>
+    <y>128</y>
+    <amount>20</amount>
+    <range>128</range>
+    <delay>30</delay>
+  </spawn>
+
+  <spawn>
+    <!--DEM大象-->
+    <id>14710000</id>
+    <map>22201000</map>
+    <x>128</x>
+    <y>128</y>
+    <amount>20</amount>
+    <range>128</range>
+    <delay>30</delay>
+  </spawn>
+
+  <spawn>
+    <!--木箱12-->
+    <id>30290012</id>
+    <map>22201000</map>
+    <x>128</x>
+    <y>128</y>
+    <amount>5</amount>
+    <range>128</range>
+    <delay>300</delay>
+  </spawn>
+</Spawns>

@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TreasureDB>
+	<TreasureList GroupName="激赏礼券17"><!--第十七弾：2008/12/10~2008/12/26-->
+		<Item rate="100" count="1">10020793</Item><!--真冬の紹介状-->
+		<Item rate="100" count="1">60115100</Item><!--和みのバスタオル-->
+		<Item rate="100" count="1">60115200</Item><!--雪ウサギのコート-->
+		<Item rate="100" count="1">50058700</Item><!--ほかほかの湯気-->
+		<Item rate="100" count="1">50069700</Item><!--雪ウサギのブーツ-->
+		<Item rate="100" count="1">60084700</Item><!--プレゼント袋-->
+		<Item rate="100" count="1">50044700</Item><!--ベルイヤリング-->
+		<Item rate="100" count="1">50106900</Item><!--もこもこ帽子-->
+		<Item rate="100" count="1">50106800</Item><!--雪ウサギ -->
+		<Item rate="100" count="1">50044800</Item><!--サンタの髭眼鏡-->
+                <Item rate="100" count="1">30002000</Item><!--冰雪小屋-->
+                <Item rate="100" count="1">31163200</Item><!--暖桌-->
+		<Item rate="100" count="1">31163100</Item><!--露天浴场-->
+	</TreasureList>
+	<TreasureList GroupName="新春精选"><!--ECOくじ☆新春ベスト：2009/01/26~2009/02/06-->
+		<Item rate="100" count="1">10058700</Item><!--風船ブランコ-->
+		<Item rate="100" count="1">50039700</Item><!--でかねこみみ-->
+		<Item rate="100" count="1">60107500</Item><!--ロマンスドレス♀（黒）-->
+		<Item rate="100" count="1">50011700</Item><!--ルルイエのオーバーニー-->
+		<Item rate="100" count="1">60110200</Item><!--長靴を履いたネコマタ礼服-->
+		<Item rate="100" count="1">50042200</Item><!--ねこのひげ-->
+		<Item rate="100" count="1">50001758</Item><!--ウェイトレスの服♀-->
+		<Item rate="100" count="1">50072800</Item><!--軍用ウエストポーチ -->
+		<Item rate="100" count="1">50029300</Item><!--ざっくりニット帽-->
+		<Item rate="100" count="1">50101400</Item><!--ドミニオンヘッド -->
+		<Item rate="100" count="1">60104001</Item><!--牛さんのきぐるみ（ピンク） -->
+		<Item rate="100" count="1">50020650</Item><!--ジェントルキャスケット-->
+                <Item rate="100" count="1">10031326</Item><!--染发剂.春-->
+	</TreasureList>
+	<TreasureList GroupName="激赏礼券18"><!--第十八弾：2009/2/9~2009/2/27-->
+		<Item rate="100" count="1">10071000</Item><!--浪漫の人力車头赏-->
+		<Item rate="100" count="1">10020794</Item><!--ハイカラ紹介状-->
+		<Item rate="100" count="1">50058800</Item><!--当主様の黒マント-->
+		<Item rate="100" count="1">60115700</Item><!--ハイカラメイドの着物ワンピ♀-->
+		<Item rate="100" count="1">60115600</Item><!--書生さんのブラウス-->
+		<Item rate="100" count="1">60084900</Item><!--和風傘 -->
+		<Item rate="100" count="1">50201900</Item><!--書生さんの袴-->
+		<Item rate="100" count="1">60084800</Item><!--当主様のステッ-->
+		<Item rate="100" count="1">50202000</Item><!--書生さんのブーツ-->
+		<Item rate="100" count="1">50107400</Item><!--浪漫の学帽-->
+		<Item rate="100" count="1">50107300</Item><!--ハイカラカチューシャ-->
+		<Item rate="100" count="1">50200950</Item><!--浪漫の足袋-->
+		<Item rate="100" count="1">50077100</Item><!--ハイカラ腰さげ巾着-->
+		<Item rate="100" count="1">31081000</Item><!--快乐餐桌-->
+		<Item rate="100" count="1">31137500</Item><!--浪漫的台阶衣柜-->
+	</TreasureList>
+	<TreasureList GroupName="激赏礼券DX第二弹"><!--DX ver.2：2009/3/18~2009/3/31-->
+		<Item rate="100" count="1">10020795</Item><!--アルバイトの紹介状-->
+		<Item rate="100" count="1">50057601</Item><!--ねこねこマフラー-->
+		<Item rate="100" count="1">50011225</Item><!--ねこねこコンビニオーバーニー-->
+		<Item rate="100" count="1">60115400</Item><!--ねこねこコンビニ店員エプロン-->
+		<Item rate="100" count="1">50201700</Item><!--ねこねこコンビニ店員スカート♀-->
+		<Item rate="100" count="1">50201800</Item><!--ねこねこコンビニ店員ズボン♂-->
+		<Item rate="100" count="1">50069900</Item><!--ねこねこユニフォーム靴-->
+		<Item rate="100" count="1">50077200</Item><!--ねこねこポーチ-->
+		<Item rate="100" count="1">50107200</Item><!--ねこねこコンビニ帽子-->
+		<Item rate="100" count="1">50077000</Item><!--ねこねこお買い物かご-->
+		<Item rate="100" count="1">60084550</Item><!--ファッション雑誌-->
+		<Item rate="100" count="1">50107100</Item><!--ねこねこ肉まん（ほかほか）-->
+		<Item rate="100" count="1">50053415</Item><!--のぼり（新商品入荷しました）-->
+		<Item rate="100" count="1">30002100</Item><!--店铺房子-->
+		<Item rate="100" count="1">30050115</Item><!--店铺地板-->
+		<Item rate="100" count="1">30040016</Item><!--店铺墙纸-->
+		<Item rate="100" count="1">31137300</Item><!--店铺收银台-->
+		<Item rate="100" count="1">20050078</Item><!--猫猫便当-->
+
+	</TreasureList>
+	<TreasureList GroupName="激赏礼券19"><!--第十九弾：2009/4/15~2009/4/30-->
+		<Item rate="100" count="1">10071100</Item><!--戦車头赏-->
+		<Item rate="100" count="1">10020796</Item><!--軍式紹介状-->
+		<Item rate="100" count="1">60115800</Item><!--ドミニオン親衛隊軍服-->
+		<Item rate="100" count="1">60115900</Item><!--タイタニア将校軍服-->
+		<Item rate="100" count="1">50041054</Item><!--少佐の眼帯-->
+		<Item rate="100" count="1">60116000</Item><!--二等兵セーラー-->
+		<Item rate="100" count="1">50107600</Item><!--水兵ベレー-->
+		<Item rate="100" count="1">50202100</Item><!--二等兵ズボン-->
+		<Item rate="100" count="1">50202200</Item><!--軍靴-->
+		<Item rate="100" count="1">60085000</Item><!--甲板掃除モップ-->
+		<Item rate="100" count="1">50059000</Item><!--ドッグタグ-->
+		<Item rate="100" count="1">50077300</Item><!--携帯水筒-->
+		<Item rate="100" count="1">60085100</Item><!--短鞭-->
+	</TreasureList>
+	<TreasureList GroupName="RPG"><!--RPG：2009/5/15~2009/6/1-->
+		<Item rate="100" count="1">10063550</Item><!--騎士の愛馬头赏-->
+		<Item rate="100" count="1">10020797</Item><!--伝説の紹介状 -->
+		<Item rate="100" count="1">50057654</Item><!--勇者のマント-->
+		<Item rate="100" count="1">60116100</Item><!--プリンセスワンピース-->
+		<Item rate="100" count="1">60003000</Item><!--勇者の鎧-->
+		<Item rate="100" count="1">60112950</Item><!--魔導師のローブ-->
+		<Item rate="100" count="1">50202300</Item><!--勇者のロングブーツ-->
+		<Item rate="100" count="1">50107700</Item><!--勇者の兜-->
+		<Item rate="100" count="1">50103550</Item><!--くまみみフード-->
+		<Item rate="100" count="1">50200850</Item><!--プリンセスヒール-->
+		<Item rate="100" count="1">60025200</Item><!--勇者の剣-->
+		<Item rate="100" count="1">60032000</Item><!--なべのふた-->
+		<Item rate="100" count="1">50077150</Item><!--麻袋-->
+	</TreasureList>
+	<TreasureList GroupName="婚礼交响曲"><!--シンフォニックウェディング：2009/6/17~2009/7/1-->
+		<Item rate="100" count="1">10074400</Item><!--愛され紹介状-->
+		<Item rate="100" count="1">50002090</Item><!--祝福のドレス♀-->
+		<Item rate="100" count="1">60116500</Item><!--ハードレザースタンドコート-->
+		<Item rate="100" count="1">60116600</Item><!--奏者のドレス-->
+		<Item rate="100" count="1">50203200</Item><!--祝福のオーバーニー-->
+		<Item rate="100" count="1">60085300</Item><!--奏者のヴァイオリン-->
+		<Item rate="100" count="1">50202800</Item><!--奏者のブーツ-->
+		<Item rate="100" count="1">50108300</Item><!--祝福のヴェール-->
+		<Item rate="100" count="1">50202900</Item><!--ハードレザーベルボトム-->
+		<Item rate="100" count="1">50203000</Item><!--ハードレザーシューズ-->
+		<Item rate="100" count="1">60116700</Item><!--フリルブラウス-->
+		<Item rate="100" count="1">50045100</Item><!--パンキッシュイヤーカフ-->
+		<Item rate="100" count="1">50077400</Item><!--レザーヒップバッグ-->
+	</TreasureList>
+	<TreasureList GroupName="真夏☆特别篇!"><!--真夏のアンコール（１２星座）：2009/7/27~2009/7/31-->
+		<Item rate="100" count="1">10059501</Item><!--キラキラほうき星☆头赏-->
+		<Item rate="100" count="1">10075200</Item><!--ふたご座の紹介状☆-->
+		<Item rate="100" count="1">60108001</Item><!--みずがめ座の羽衣☆-->
+		<Item rate="100" count="1">50100801</Item><!--しし座のみみ☆-->
+		<Item rate="100" count="1">60104051</Item><!--おうし座のきぐるみ☆-->
+		<Item rate="100" count="1">60108101</Item><!--いて座のライダースジャケット☆-->
+		<Item rate="100" count="1">60108201</Item><!--おひつじ座のポシェットスモック☆-->
+		<Item rate="100" count="1">60108110</Item><!--さそり座のライダースジャケット☆-->
+		<Item rate="100" count="1">50100901</Item><!--うお座の人魚耳☆-->
+		<Item rate="100" count="1">50073201</Item><!--かに座のウエストポーチ☆-->
+		<Item rate="100" count="1">50101001</Item><!--おとめ座の麦わら帽子☆-->
+		<Item rate="100" count="1">50057201</Item><!--やぎ座のベル☆-->
+	</TreasureList>
+	<TreasureList GroupName="KUJIBOX_29"><!--スプラッシュサマー：2009/8/12~2009/8/31-->
+		<Item rate="100" count="1">10074700</Item><!--夢見のイルカ-->
+		<Item rate="100" count="1">10074800</Item><!--夏休みの紹介状-->
+		<Item rate="100" count="1">50203400</Item><!--編み上げアンクレット-->
+		<Item rate="100" count="1">60117500</Item><!--サバイバルジャケット-->
+		<Item rate="100" count="1">60117600</Item><!--ロングパレオ水着♀ -->
+		<Item rate="100" count="1">60117700</Item><!--ウィンドパーカー -->
+		<Item rate="100" count="1">50203500</Item><!--サバイバルパンツ-->
+		<Item rate="100" count="1">50203600</Item><!--ヘルシーホットパンツ -->
+		<Item rate="100" count="1">50059400</Item><!--ハイビスカスの首飾り-->
+		<Item rate="100" count="1">50203700</Item><!--編み上げサンダル -->
+		<Item rate="100" count="1">50108600</Item><!--サバイバルサンバイザー-->
+		<Item rate="100" count="1">50104750</Item><!--お祭りココッコー-->
+	</TreasureList>
+	<TreasureList GroupName="KUJIBOX_30"><!--アクエリアンエイジ：2009/9/15~2009/12/15-->
+		<Item rate="100" count="1">10075201</Item><!--ロビン·グッドフェロウの紹介状头赏 -->
+		<Item rate="100" count="1">10075202</Item><!--厳島 美晴の紹介状-->
+		<Item rate="100" count="1">60119600</Item><!--ィアーリスのドレス♀-->
+		<Item rate="100" count="1">60119200</Item><!--夜羽子·アシュレイの制服-->
+		<Item rate="100" count="1">60118900</Item><!--ステラ·ブラヴァツキの魔導服-->
+		<Item rate="100" count="1">60118400</Item><!--結城 望の服-->
+		<Item rate="100" count="1">60118500</Item><!--一色 真純のワンピース-->
+		<Item rate="100" count="1">60119000</Item><!--ジリアン·マキャフリーの魔導服-->
+		<Item rate="100" count="1">60119300</Item><!--鈴鹿御前の着物-->
+		<Item rate="100" count="1">60119700</Item><!--メタトロンの軍服-->
+		<Item rate="100" count="1">60118700</Item><!--厳島 美鈴の巫女服-->
+		<Item rate="100" count="1">60119500</Item><!--ソフィー·ラスタバンの鎧-->
+		<Item rate="100" count="1">60119400</Item><!--シルマリルのドレス♀-->
+		<Item rate="100" count="1">60118800</Item><!--朱 麗花のチャイナドレス-->
+		<Item rate="100" count="1">60119100</Item><!--ディーナ·ウィザースプーンの魔導服♀-->
+		<Item rate="100" count="1">60118600</Item><!--藤宮 真由美のセーラー服 -->
+		<Item rate="100" count="1">60025000</Item><!--レイナ·アークトゥルスの剣-->
+		<Item rate="100" count="1">60119800</Item><!--アムビエルのスーツ-->
+	</TreasureList>
+	<TreasureList GroupName="女王和小伙伴们的作死活动"><!--特殊KUJI-->
+		<Item rate="100" count="1">60110952</Item><!--红色紧身衣 by蕾米酱-->
+		<Item rate="100" count="1">10075232</Item><!--节日发型介绍信 by伞娘-->
+		<Item rate="100" count="1">50011261</Item><!--袜子 by野芙-->
+		<Item rate="100" count="1">60115300</Item><!--贝尔纳尔特的衣服 by老域-->
+		<Item rate="100" count="1">10152100</Item><!--史黛拉 by1M-->
+		<Item rate="100" count="1">10135900</Item><!--白色使魔.阿鲁玛 by人妻白-->
+		<Item rate="100" count="1">10128300</Item><!--巴乌.阿鲁玛 by人妻汪-->
+		<Item rate="100" count="1">60110300</Item><!--游击兵套服 by由理姐姐-->
+	</TreasureList>
+	<TreasureList GroupName="全服通用作死套装"><!--特殊KUJI-->
+		<Item rate="100" count="1">60028200</Item><!--妖狐の霊刀（青?両手） (萨丽)-->
+		<Item rate="100" count="1">50057610</Item><!--手工编织的围巾        (老域)-->
+		<Item rate="100" count="1">60105200</Item><!--漂亮的和服连衣裙♀    (赫卡特和某1人)-->
+		<Item rate="100" count="1">10156300</Item><!--神秘の貝殻            (人妻白)-->
+		<Item rate="100" count="1">10075273</Item><!--ウヅキの紹介状        (野芙)-->
+		<Item rate="100" count="1">50119700</Item><!--ウヅキの魔眼          (Omega)-->
+		<Item rate="100" count="1">10075234</Item><!--新春发型介绍信        (1M)-->
+		<Item rate="100" count="1">60025700</Item><!--キティラーブレード    (伞娘)-->
+		<Item rate="100" count="1">10136800</Item><!--カーズド?チェア       (萝卜)-->
+		<Item rate="100" count="1">50039702</Item><!--大猫耳EX              (喵酱)-->
+		<Item rate="100" count="1">50085301</Item><!--彗星の羽（シルバー）  (瓜子)-->
+		<Item rate="100" count="1">60035000</Item><!--精鋭蜂の盾（ゴールド）(Amy)-->
+		<Item rate="100" count="1">50064457</Item><!--猫猫拖鞋（白虎）      (饼干)-->
+		<Item rate="100" count="1">10125100</Item><!--魔法手杖              (汐妈)-->
+	</TreasureList>
+</TreasureDB>

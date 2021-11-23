@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Spawns>
+  <spawn>
+    <!--イヴィルデッド-->
+    <id>10180100</id>
+    <map>20104000</map>
+    <x>8</x>
+    <y>12</y>
+    <amount>2</amount>
+    <range>9</range>
+    <delay>10</delay>
+  </spawn>
+  <spawn>
+    <!--ルブナン-->
+    <id>10180500</id>
+    <map>20104000</map>
+    <x>8</x>
+    <y>12</y>
+    <amount>3</amount>
+    <range>9</range>
+    <delay>10</delay>
+  </spawn>
+  <spawn>
+    <!--あやしいツボ-->
+    <id>30300001</id>
+    <map>20104000</map>
+    <x>8</x>
+    <y>12</y>
+    <amount>1</amount>
+    <range>9</range>
+    <delay>180</delay>
+  </spawn>
+</Spawns>

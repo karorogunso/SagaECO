@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Flag:0c92-->
+<QuestDB GroupID="32">
+  <Quest>
+    <!--マイマイ-->
+    <ID>10031812</ID>
+    <Name>西邊門1（隊伍）</Name>
+    <Type>HUNT</Type>
+    <Time>90</Time>
+    <RewardItem>10021207</RewardItem>
+    <RewardCount>1</RewardCount>
+    <RequiredQuestPoints>3</RequiredQuestPoints>
+    <DungeonID>53</DungeonID>
+    <MinLV>74</MinLV>
+    <MaxLv>255</MaxLv>
+    <Job>NONE</Job>
+    <JobType>NOVICE</JobType>
+    <Race>NONE</Race>
+    <Gender>NONE</Gender>
+    <!--Detail Information-->
+    <!--西の扉１(party可)-->
+    <EXP>31123</EXP>
+    <JEXP>93369</JEXP>
+    <Gold>16200</Gold>
+    <Fame>1</Fame>
+    <Count1>1</Count1>
+    <Party>True</Party>
+  </Quest>
+  <Quest>
+    <!--マイマイ-->
+    <ID>10031813</ID>
+    <Name>西邊門2（隊伍）</Name>
+    <Type>HUNT</Type>
+    <Time>90</Time>
+    <RewardItem>10021207</RewardItem>
+    <RewardCount>1</RewardCount>
+    <RequiredQuestPoints>3</RequiredQuestPoints>
+    <DungeonID>53</DungeonID>
+    <MinLV>74</MinLV>
+    <MaxLv>255</MaxLv>
+    <Job>NONE</Job>
+    <JobType>NOVICE</JobType>
+    <Race>NONE</Race>
+    <Gender>NONE</Gender>
+    <!--Detail Information-->
+    <!--西の扉２(party可)-->
+    <EXP>93369</EXP>
+    <JEXP>31123</JEXP>
+    <Gold>16200</Gold>
+    <Fame>1</Fame>
+    <Count1>1</Count1>
+    <Party>True</Party>
+  </Quest>
+</QuestDB>

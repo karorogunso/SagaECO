@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ODWars>
+  <ODWar>
+    <!--攻城战地图ID-->
+    <Map>12021000</Map>
+
+    <!--攻城战时间设置-->
+    <Schedules>
+      <Schedule time="21">6</Schedule>
+    </Schedules>
+
+    <!--牌子的坐标及其ID-无需修改-->
+    <Symbol x="42" y="128" id="1">14450000</Symbol>
+    <Symbol x="73" y="128" id="2">14450001</Symbol>
+    <Symbol x="110" y="128" id="3">14450002</Symbol>
+    <Symbol x="89" y="62" id="4">14450003</Symbol>
+    <Symbol x="89" y="192" id="5">14450004</Symbol>
+    <Symbol x="128" y="85" id="6">14450005</Symbol>
+    <Symbol x="128" y="170" id="7">14450006</Symbol>
+    <SymbolTrash>14460000</SymbolTrash>
+
+    <!--小BOSS级DEM-ID-->
+    <DEMChamp>
+      <Mob>14310001</Mob>
+      <Mob>14310600</Mob>
+      <Mob>14311600</Mob>
+      <Mob>14310100</Mob>
+      <Mob>14310200</Mob>
+      <Mob>14310501</Mob>
+      <Mob>14320001</Mob>
+      <Mob>14320300</Mob>
+      <Mob>14330300</Mob>
+      <Mob>14320500</Mob>
+      <Mob>14330200</Mob>
+      <Mob>14320201</Mob>   
+    </DEMChamp>
+
+    <!--一般DEM-ID-->
+    <DEM>
+      <Mob>19070004</Mob>
+      <Mob>19070502</Mob>
+      <Mob>19070404</Mob>
+      <Mob>14330002</Mob>
+      <Mob>14330502</Mob>
+      <Mob>14320202</Mob>
+      <Mob>14320002</Mob>
+      <Mob>14320301</Mob>
+      <Mob>14330301</Mob>
+      <Mob>14320501</Mob>
+      <Mob>14330201</Mob>
+      <Mob>14310502</Mob>
+      <Mob>14310601</Mob>
+      <Mob>14311601</Mob>
+      <Mob>14310201</Mob>
+      <Mob>14310101</Mob>
+      <Mob>10810101</Mob>
+      <Mob>10810302</Mob>
+      <Mob>10811203</Mob>
+      <Mob>10820302</Mob>
+      <Mob>10830302</Mob>
+      <Mob>10971702</Mob>
+      <Mob>10271002</Mob>
+      <Mob>14301000</Mob>
+      <Mob>14301700</Mob>
+      <Mob>14270900</Mob>
+    </DEM>
+
+    <!--BOSS级DEM-ID-->
+    <Boss>
+      <Mob>14470000</Mob>
+    </Boss>
+
+    <!--每1分钟一波的DEM数量(每个牌子周围)-->
+    <WaveWeak>
+      <DEMChamp>0</DEMChamp>
+      <DEM>5</DEM>
+    </WaveWeak>
+
+    <!--每5分钟一波的强力DEM数量(每个牌子周围)-->
+    <WaveStrong>
+      <DEMChamp>1</DEMChamp>
+      <DEM>10</DEM>
+    </WaveStrong>
+  </ODWar>
+</ODWars>

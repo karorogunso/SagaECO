@@ -1,0 +1,10 @@
+C:\Saga\SagaECO\Tools\SagaECOConfigurator\bin\Debug\SagaECOConfigurator.exe.config
+C:\Saga\SagaECO\Tools\SagaECOConfigurator\bin\Debug\SagaECOConfigurator.exe
+C:\Saga\SagaECO\Tools\SagaECOConfigurator\bin\Debug\SagaECOConfigurator.pdb
+C:\Saga\SagaECO\Tools\SagaECOConfigurator\obj\Debug\ResolveAssemblyReference.cache
+C:\Saga\SagaECO\Tools\SagaECOConfigurator\obj\Debug\SagaECOConfigurator.frm_Main.resources
+C:\Saga\SagaECO\Tools\SagaECOConfigurator\obj\Debug\SagaECOConfigurator.Properties.Resources.resources
+C:\Saga\SagaECO\Tools\SagaECOConfigurator\obj\Debug\GenerateResource.read.1.tlog
+C:\Saga\SagaECO\Tools\SagaECOConfigurator\obj\Debug\GenerateResource.write.1.tlog
+C:\Saga\SagaECO\Tools\SagaECOConfigurator\obj\Debug\SagaECOConfigurator.exe
+C:\Saga\SagaECO\Tools\SagaECOConfigurator\obj\Debug\SagaECOConfigurator.pdb

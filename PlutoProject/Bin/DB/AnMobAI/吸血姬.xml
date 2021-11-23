@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MobAI>
+  <!--AI Type:
+	PC —— 普通玩家
+	SHOPPC —— 摆摊玩家
+	Event —— 事件
+	MOB —— 怪物
+	SKILL —— 技能
+	FI —— 家具
+	ITEM —— 物品
+	SHADOW —— 
+-->
+
+  <Mob>
+    <ID>49510055</ID>
+    <AIMode>3</AIMode>
+    <UseSkillList ID="1" MaxHP ="100" MinHP = "0" Rate="500">
+      <Skill ListID="1" Sequence="1" Delay = "2000">30025</Skill>
+      <Skill ListID="1" Sequence="2" Delay = "2000">30025</Skill>
+      <Skill ListID="1" Sequence="3" Delay = "5000">30025</Skill>
+      <Skill ListID="1" Sequence="4" Delay = "5000">30020</Skill>
+      <Skill ListID="1" Sequence="5" Delay = "5000">30025</Skill>
+      <Skill ListID="1" Sequence="6" Delay = "5000">30020</Skill>
+      <Skill ListID="1" Sequence="7" Delay = "5000">30021</Skill>
+      <Skill ListID="1" Sequence="8" Delay = "5000">30022</Skill>
+      <Skill ListID="1" Sequence="9" Delay = "5000">30023</Skill>
+      <Skill ListID="1" Sequence="10" Delay = "5000">30024</Skill>
+    </UseSkillList>
+    <UseSkillList ID="1" MaxHP ="30" MinHP = "0" Rate="20">
+      <Skill ListID="1" Sequence="1" Delay = "5000">30021</Skill>
+      <Skill ListID="1" Sequence="2" Delay = "5000">30022</Skill>
+      <Skill ListID="1" Sequence="3" Delay = "5000">30023</Skill>
+      <Skill ListID="1" Sequence="4" Delay = "5000">30024</Skill>
+    </UseSkillList>
+  </Mob>
+</MobAI>

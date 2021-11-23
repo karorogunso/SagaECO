@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Spawns>
+  <spawn>
+    <!--暴走ダンプティー（大）-->
+    <id>26080008</id>
+    <map>20080015</map>
+    <x>25</x>
+    <y>25</y>
+    <amount>1</amount>
+    <range>10</range>
+    <delay>10</delay>
+  </spawn>
+  <spawn>
+    <!--暴走ダンプティー（中）-->
+    <id>26080009</id>
+    <map>20080015</map>
+    <x>25</x>
+    <y>25</y>
+    <amount>1</amount>
+    <range>10</range>
+    <delay>180</delay>
+  </spawn>
+  <spawn>
+    <!--暴走ダンプティー（小）-->
+    <id>26080010</id>
+    <map>20080015</map>
+    <x>25</x>
+    <y>25</y>
+    <amount>1</amount>
+    <range>10</range>
+    <delay>180</delay>
+  </spawn>
+</Spawns>

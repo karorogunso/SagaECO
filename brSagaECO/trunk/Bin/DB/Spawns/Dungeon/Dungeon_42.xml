@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Spawns>
+  <spawn rate="14">
+    <!--東の果物の木-->
+    <id>30040002</id>
+    <x>207</x>
+    <y>153</y>
+    <amount>10</amount>
+    <range>57</range>
+    <delay>120</delay>
+  </spawn>
+  <spawn rate="14">
+    <!--西の果物の木-->
+    <id>30040004</id>
+    <x>123</x>
+    <y>136</y>
+    <amount>6</amount>
+    <range>60</range>
+    <delay>120</delay>
+  </spawn>
+  <spawn rate="14">
+    <!--南の果物の木-->
+    <id>30040005</id>
+    <x>85</x>
+    <y>149</y>
+    <amount>6</amount>
+    <range>41</range>
+    <delay>120</delay>
+  </spawn>
+  <spawn rate="14">
+    <!--北の果物の木-->
+    <id>30040006</id>
+    <x>149</x>
+    <y>53</y>
+    <amount>6</amount>
+    <range>49</range>
+    <delay>120</delay>
+  </spawn>
+  <spawn rate="14">
+    <!--鉱石のかたまり-->
+    <id>30020000</id>
+    <x>142</x>
+    <y>129</y>
+    <amount>6</amount>
+    <range>73</range>
+    <delay>120</delay>
+  </spawn>
+  <spawn rate="14">
+    <!--鉱石のかたまり-->
+    <id>30020001</id>
+    <x>121</x>
+    <y>139</y>
+    <amount>6</amount>
+    <range>55</range>
+    <delay>120</delay>
+  </spawn>
+  <spawn rate="14">
+    <!--鉱石のかたまり-->
+    <id>30020002</id>
+    <x>105</x>
+    <y>111</y>
+    <amount>5</amount>
+    <range>54</range>
+    <delay>120</delay>
+  </spawn>
+  <spawn rate="100">
+    <!--はぐれ白狼-->
+    <id>10136001</id>
+    <x>148</x>
+    <y>138</y>
+    <amount>1</amount>
+    <range>75</range>
+    <delay>0</delay>
+  </spawn>
+  <spawn rate="100">
+    <!--鉱石のかたまり-->
+    <id>30020004</id>
+    <x>183</x>
+    <y>133</y>
+    <amount>6</amount>
+    <range>68</range>
+    <delay>120</delay>
+  </spawn>
+  <spawn rate="100">
+    <!--鉱石のかたまり-->
+    <id>30020005</id>
+    <x>125</x>
+    <y>151</y>
+    <amount>5</amount>
+    <range>61</range>
+    <delay>120</delay>
+  </spawn>
+</Spawns>

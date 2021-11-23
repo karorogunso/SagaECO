@@ -1,0 +1,14 @@
+E:\COFECO\SagaECO\Bin\SagaValidation.exe.config
+E:\COFECO\SagaECO\SagaValidation\obj\Debug\SagaValidation.csprojResolveAssemblyReference.cache
+F:\COFECO\SagaECO\SagaValidation\obj\Debug\SagaValidation.csprojResolveAssemblyReference.cache
+F:\COFECO\SagaECO\Bin\SagaValidation.exe.config
+F:\COFECO\SagaECO\Bin\SagaValidation.exe
+F:\COFECO\SagaECO\Bin\SagaValidation.pdb
+F:\COFECO\SagaECO\SagaValidation\obj\Debug\SagaValidation.exe
+F:\COFECO\SagaECO\SagaValidation\obj\Debug\SagaValidation.pdb
+F:\ECOAceProject\SagaECONewClient\SagaValidation\obj\Debug\SagaValidation.exe
+F:\ECOAceProject\SagaECONewClient\SagaValidation\obj\Debug\SagaValidation.pdb
+F:\ECOAceProject\SagaECONewClient\Bin\SagaValidation.exe.config
+F:\ECOAceProject\SagaECONewClient\Bin\SagaValidation.exe
+F:\ECOAceProject\SagaECONewClient\Bin\SagaValidation.pdb
+F:\ECOAceProject\SagaECONewClient\SagaValidation\obj\Debug\SagaValidation.csprojResolveAssemblyReference.cache

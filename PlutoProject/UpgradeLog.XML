@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="SagaECO_vs2008">
+</Property><Property Name="解决方案文件" Value="C:\Saga\SagaECO-COF\SagaECO_vs2008.sln">
+</Property><Property Name="Date" Value="2012年3月7日">
+</Property><Property Name="Time" Value="20:07">
+</Property></Properties><Event ErrorLevel="0" Project="SagaLib" Source="SagaLib\SagaLib.csproj" Description="项目文件不需要转换。">
+</Event><Event ErrorLevel="3" Project="SagaLib" Source="SagaLib\SagaLib.csproj" Description="无需转换">
+</Event><Event ErrorLevel="0" Project="PacketProxy" Source="PacketProxy\PacketProxy.csproj" Description="项目文件不需要转换。">
+</Event><Event ErrorLevel="3" Project="PacketProxy" Source="PacketProxy\PacketProxy.csproj" Description="无需转换">
+</Event><Event ErrorLevel="0" Project="SagaLogin" Source="SagaLogin\SagaLogin.csproj" Description="项目文件不需要转换。">
+</Event><Event ErrorLevel="3" Project="SagaLogin" Source="SagaLogin\SagaLogin.csproj" Description="无需转换">
+</Event><Event ErrorLevel="0" Project="SagaDB" Source="SagaDB\SagaDB.csproj" Description="项目文件不需要转换。">
+</Event><Event ErrorLevel="3" Project="SagaDB" Source="SagaDB\SagaDB.csproj" Description="无需转换">
+</Event><Event ErrorLevel="0" Project="AccountCreator" Source="AccountCreator\AccountCreator.csproj" Description="项目文件不需要转换。">
+</Event><Event ErrorLevel="3" Project="AccountCreator" Source="AccountCreator\AccountCreator.csproj" Description="无需转换">
+</Event><Event ErrorLevel="0" Project="SagaMap" Source="SagaMap\SagaMap.csproj" Description="项目文件不需要转换。">
+</Event><Event ErrorLevel="3" Project="SagaMap" Source="SagaMap\SagaMap.csproj" Description="无需转换">
+</Event><Event ErrorLevel="0" Project="PacketViewer" Source="PacketViewer\PacketViewer.csproj" Description="项目文件不需要转换。">
+</Event><Event ErrorLevel="3" Project="PacketViewer" Source="PacketViewer\PacketViewer.csproj" Description="无需转换">
+</Event><Event ErrorLevel="0" Project="MapNameModifier" Source="Tools\MapNameModifier\MapNameModifier.csproj" Description="项目文件不需要转换。">
+</Event><Event ErrorLevel="3" Project="MapNameModifier" Source="Tools\MapNameModifier\MapNameModifier.csproj" Description="无需转换">
+</Event><Event ErrorLevel="0" Project="EvenIdToScript" Source="Tools\EvenIdToScript\EvenIdToScript.vbproj" Description="项目文件不需要转换。">
+</Event><Event ErrorLevel="3" Project="EvenIdToScript" Source="Tools\EvenIdToScript\EvenIdToScript.vbproj" Description="无需转换">
+</Event><Event ErrorLevel="0" Project="APathfinding" Source="Tools\APathfinding\APathfinding.csproj" Description="项目文件不需要转换。">
+</Event><Event ErrorLevel="3" Project="APathfinding" Source="Tools\APathfinding\APathfinding.csproj" Description="无需转换">
+</Event><Event ErrorLevel="0" Project="SQLUpdater" Source="SQLUpdater\SQLUpdater.csproj" Description="项目文件不需要转换。">
+</Event><Event ErrorLevel="3" Project="SQLUpdater" Source="SQLUpdater\SQLUpdater.csproj" Description="无需转换">
+</Event><Event ErrorLevel="0" Project="GMTool" Source="Tools\GMTool\GMTool.csproj" Description="项目文件不需要转换。">
+</Event><Event ErrorLevel="3" Project="GMTool" Source="Tools\GMTool\GMTool.csproj" Description="无需转换">
+</Event><Event ErrorLevel="0" Project="EcoArchiver" Source="Tools\EcoArchiver\EcoArchiver.csproj" Description="项目文件不需要转换。">
+</Event><Event ErrorLevel="3" Project="EcoArchiver" Source="Tools\EcoArchiver\EcoArchiver.csproj" Description="无需转换">
+</Event><Event ErrorLevel="0" Project="ObfuscatorHelper" Source="Tools\ObfuscatorHelper\ObfuscatorHelper.csproj" Description="项目文件不需要转换。">
+</Event><Event ErrorLevel="3" Project="ObfuscatorHelper" Source="Tools\ObfuscatorHelper\ObfuscatorHelper.csproj" Description="无需转换">
+</Event><Event ErrorLevel="0" Project="SagaECOLoader" Source="Tools\SagaECOLoader\SagaECOLoader.csproj" Description="项目文件不需要转换。">
+</Event><Event ErrorLevel="3" Project="SagaECOLoader" Source="Tools\SagaECOLoader\SagaECOLoader.csproj" Description="无需转换">
+</Event><Event ErrorLevel="0" Project="DBUtility" Source="Tools\DBUtility\DBUtility.csproj" Description="项目文件不需要转换。">
+</Event><Event ErrorLevel="3" Project="DBUtility" Source="Tools\DBUtility\DBUtility.csproj" Description="无需转换">
+</Event><Event ErrorLevel="0" Project="SagaECOConfigurator" Source="Tools\SagaECOConfigurator\SagaECOConfigurator.csproj" Description="项目文件不需要转换。">
+</Event><Event ErrorLevel="3" Project="SagaECOConfigurator" Source="Tools\SagaECOConfigurator\SagaECOConfigurator.csproj" Description="无需转换">
+</Event><Event ErrorLevel="0" Project="DebugLogViewer" Source="Tools\DebugLogViewer\DebugLogViewer.csproj" Description="项目文件不需要转换。">
+</Event><Event ErrorLevel="3" Project="DebugLogViewer" Source="Tools\DebugLogViewer\DebugLogViewer.csproj" Description="无需转换">
+</Event><Event ErrorLevel="0" Project="" Source="SagaECO_vs2008.sln" Description="成功转换解决方案">
+</Event><Event ErrorLevel="3" Project="" Source="SagaECO_vs2008.sln" Description="Converted">
+</Event></UpgradeLog>

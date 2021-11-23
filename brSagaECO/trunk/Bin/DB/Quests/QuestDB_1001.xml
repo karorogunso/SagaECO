@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Flag:0c00-->
+<QuestDB GroupID="1001">
+  <Quest>
+    <!--四叶草豆-->
+    <ID>90000001</ID>
+    <Name>不是主食的巧克力！(Lv 1)</Name>
+    <Type>GATHER</Type>
+    <Time>60</Time>
+    <RewardItem>10034600</RewardItem>
+    <RewardCount>1</RewardCount>
+    <RequiredQuestPoints>1</RequiredQuestPoints>
+    <DungeonID>0</DungeonID>
+    <MinLV>1</MinLV>
+    <MaxLv>120</MaxLv>
+    <Job>NONE</Job>
+    <JobType>NOVICE</JobType>
+    <Race>NONE</Race>
+    <Gender>NONE</Gender>
+    <!--Detail Information-->
+    <!--巧克力入手-->
+    <EXP>0</EXP>
+    <JEXP>0</JEXP>
+    <Gold>0</Gold>
+    <Fame>1</Fame>
+    <ObjectID1>10009200</ObjectID1>
+    <Count1>5</Count1>
+  </Quest>
+  <Quest>
+    <!--四叶草豆-->
+    <ID>90000002</ID>
+    <Name>土著泰迪的秘药，熊胆！(Lv 1)</Name>
+    <Type>GATHER</Type>
+    <Time>60</Time>
+    <RewardItem>10034600</RewardItem>
+    <RewardCount>1</RewardCount>
+    <RequiredQuestPoints>1</RequiredQuestPoints>
+    <DungeonID>0</DungeonID>
+    <MinLV>1</MinLV>
+    <MaxLv>120</MaxLv>
+    <Job>NONE</Job>
+    <JobType>NOVICE</JobType>
+    <Race>NONE</Race>
+    <Gender>NONE</Gender>
+    <!--Detail Information-->
+    <!--熊胆入手-->
+    <EXP>0</EXP>
+    <JEXP>0</JEXP>
+    <Gold>0</Gold>
+    <Fame>1</Fame>
+    <ObjectID1>10004700</ObjectID1>
+    <Count1>5</Count1>
+  </Quest>
+  <Quest>
+    <!--四叶草豆-->
+    <ID>90000003</ID>
+    <Name>拿暖石蒸桑拿！(Lv 1)</Name>
+    <Type>GATHER</Type>
+    <Time>60</Time>
+    <RewardItem>10034600</RewardItem>
+    <RewardCount>1</RewardCount>
+    <RequiredQuestPoints>1</RequiredQuestPoints>
+    <DungeonID>0</DungeonID>
+    <MinLV>1</MinLV>
+    <MaxLv>120</MaxLv>
+    <Job>NONE</Job>
+    <JobType>NOVICE</JobType>
+    <Race>NONE</Race>
+    <Gender>NONE</Gender>
+    <!--Detail Information-->
+    <!--暖呼呼的紅色暖包入手-->
+    <EXP>0</EXP>
+    <JEXP>0</JEXP>
+    <Gold>0</Gold>
+    <Fame>1</Fame>
+    <ObjectID1>10038001</ObjectID1>
+    <Count1>5</Count1>
+  </Quest>
+  <Quest>
+    <!--四叶草豆-->
+    <ID>90000004</ID>
+    <Name>用解毒果实做食物！(Lv 1)</Name>
+    <Type>GATHER</Type>
+    <Time>60</Time>
+    <RewardItem>10034600</RewardItem>
+    <RewardCount>1</RewardCount>
+    <RequiredQuestPoints>1</RequiredQuestPoints>
+    <DungeonID>0</DungeonID>
+    <MinLV>1</MinLV>
+    <MaxLv>120</MaxLv>
+    <Job>NONE</Job>
+    <JobType>NOVICE</JobType>
+    <Race>NONE</Race>
+    <Gender>NONE</Gender>
+    <!--Detail Information-->
+    <!--解毒果实入手-->
+    <EXP>0</EXP>
+    <JEXP>0</JEXP>
+    <Gold>0</Gold>
+    <Fame>1</Fame>
+    <ObjectID1>10003200</ObjectID1>
+    <Count1>5</Count1>
+  </Quest>
+  <Quest>
+    <!--四叶草豆-->
+    <ID>90000005</ID>
+    <Name>收集爱的花束，宝贝！(Lv 1)</Name>
+    <Type>GATHER</Type>
+    <Time>60</Time>
+    <RewardItem>10034600</RewardItem>
+    <RewardCount>1</RewardCount>
+    <RequiredQuestPoints>1</RequiredQuestPoints>
+    <DungeonID>0</DungeonID>
+    <MinLV>1</MinLV>
+    <MaxLv>120</MaxLv>
+    <Job>NONE</Job>
+    <JobType>NOVICE</JobType>
+    <Race>NONE</Race>
+    <Gender>NONE</Gender>
+    <!--Detail Information-->
+    <!--恋爱之花入手-->
+    <EXP>0</EXP>
+    <JEXP>0</JEXP>
+    <Gold>0</Gold>
+    <Fame>1</Fame>
+    <ObjectID1>10005500</ObjectID1>
+    <Count1>5</Count1>
+  </Quest>
+</QuestDB>

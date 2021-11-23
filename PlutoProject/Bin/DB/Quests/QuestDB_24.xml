@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Flag:0c41-->
+<QuestDB GroupID="24">
+  <Quest>
+    <!--海岸係員-->
+    <ID>10031100</ID>
+    <Name>獵人轉職考試（隊伍）(Lv ?)</Name>
+    <Type>HUNT</Type>
+    <Time>-1</Time>
+    <RewardItem>10020751</RewardItem>
+    <RewardCount>1</RewardCount>
+    <RequiredQuestPoints>1</RequiredQuestPoints>
+    <DungeonID>0</DungeonID>
+    <MinLV>255</MinLV>
+    <MaxLv>255</MaxLv>
+    <Job>NONE</Job>
+    <JobType>NOVICE</JobType>
+    <Race>NONE</Race>
+    <Gender>NONE</Gender>
+    <!--Detail Information-->
+    <!--ストライカー転職試験-->
+    <EXP>0</EXP>
+    <JEXP>0</JEXP>
+    <Gold>0</Gold>
+    <Fame>1</Fame>
+    <MapID1>20004000</MapID1>
+    <ObjectID1>26100003</ObjectID1>
+    <Count1>1</Count1>
+    <Party>True</Party>
+  </Quest>
+</QuestDB>

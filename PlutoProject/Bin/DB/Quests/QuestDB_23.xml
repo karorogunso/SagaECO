@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Flag:0c40-->
+<QuestDB GroupID="23">
+  <Quest>
+    <!--アイアン酒屋-->
+    <ID>10031000</ID>
+    <Name>像風一樣（隊伍）(Lv ?)</Name>
+    <Type>HUNT</Type>
+    <Time>10</Time>
+    <RewardItem>10020600</RewardItem>
+    <RewardCount>1</RewardCount>
+    <RequiredQuestPoints>1</RequiredQuestPoints>
+    <DungeonID>0</DungeonID>
+    <MinLV>255</MinLV>
+    <MaxLv>255</MaxLv>
+    <Job>NONE</Job>
+    <JobType>NOVICE</JobType>
+    <Race>NONE</Race>
+    <Gender>NONE</Gender>
+    <!--Detail Information-->
+    <!--風のように-->
+    <EXP>0</EXP>
+    <JEXP>0</JEXP>
+    <Gold>0</Gold>
+    <Fame>1</Fame>
+    <MapID1>10064000</MapID1>
+    <ObjectID1>10140000</ObjectID1>
+    <Count1>3</Count1>
+    <ObjectID2>10000801</ObjectID2>
+    <Count2>5</Count2>
+    <Party>True</Party>
+  </Quest>
+</QuestDB>

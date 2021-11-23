@@ -1,0 +1,312 @@
+﻿<Window x:Class="SSPEditor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SSPEditor"
+        mc:Ignorable="d"
+        Title="SSPEditor" Height="631.282" Width="739.034" Loaded="Window_Loaded">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="490.5"/>
+        </Grid.ColumnDefinitions>
+        <DockPanel Margin="10,10,10,0"  VerticalAlignment="Top">
+            <TextBlock TextWrapping="Wrap" Text="查找技能" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="5"/>
+            <Button Content="查找下一个" Margin="5,0,0,0" DockPanel.Dock="Right" Click="ButtonSearch_Click_1"/>
+            <TextBox x:Name="TextBoxSearch" Height="23" TextWrapping="Wrap" Text="{Binding Icon}" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+            
+        </DockPanel>
+        <ListView  Margin="10,46,10,10" Name="listView1"  VerticalContentAlignment="Center" HorizontalContentAlignment="Right" SizeChanged="listView1_SizeChanged" ScrollViewer.HorizontalScrollBarVisibility="Disabled" SelectionChanged="listView1_SelectionChanged" ContextMenuOpening="listView1_ContextMenuOpening">
+            <ListView.View>
+                <GridView x:Name="gridView1">
+                    <GridViewColumn Header="技能名" DisplayMemberBinding="{Binding Path=Name,Mode=TwoWay}" ></GridViewColumn>
+                    <GridViewColumn Header="技能ID" DisplayMemberBinding="{Binding Path=Id,Mode=TwoWay}" Width="60"></GridViewColumn>
+                    <GridViewColumn Header="等级" DisplayMemberBinding="{Binding Path=Lv,Mode=TwoWay}" Width="40"></GridViewColumn>
+                </GridView>
+
+            </ListView.View>
+            <ListView.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Header="剪切技能" Click="MenuItemCut_Click"/>
+                    <MenuItem Header="复制技能" Click="MenuItemCopy_Click"/>
+                    <MenuItem x:Name="MenuItemPaste" Header="覆盖粘贴技能" Click="MenuItemPaste_Click"/>
+
+                    <MenuItem x:Name="MenuItemPasteInsert" Header="插入粘贴技能" Click="MenuItemInsertFromClip_Click"/>
+                    <MenuItem Header="创建技能副本" Click="MenuItemCopySkill_Click"/>
+                    <Separator/>
+                    <MenuItem Header="插入空技能" Click="MenuItemInsertNew_Click" />
+                    <MenuItem Header="删除技能" Click="MenuItemDelete_Click" />
+                    <Separator/>
+                    <MenuItem Header="合并导出选中技能" Click="MenuItemExport_Click"/>
+                    <MenuItem Header="分别导出选中技能" Click="MenuItemExportSingle_Click"/>
+                    <MenuItem Header="在当前位置导入技能" Click="MenuItemImport_Click"/>
+                </ContextMenu>
+            </ListView.ContextMenu>
+
+
+        </ListView>
+
+        <!--<Label Height="28" HorizontalAlignment="Left" Margin="12,12,0,0" Name="tsStatus" VerticalAlignment="Top" Width="10"></Label>
+        <Button Margin="0,17,93,0" Name="btnLoad"  Height="23" VerticalAlignment="Top" HorizontalAlignment="Right" Width="75" Grid.Column="1" Click="btnLoad_Click">加载数据</Button>
+        <Button Height="23" HorizontalAlignment="Right" Margin="0,17,12,0" Name="btnAddRowNum" VerticalAlignment="Top" Width="75" Grid.Column="1" >添加行号</Button>-->
+
+
+
+
+        <DockPanel Grid.Column="1" Margin="10.5,10,0,10.5" DataContext="{Binding ElementName=listView1,Path=SelectedItem,Mode=TwoWay}" HorizontalAlignment="Left" Width="334">
+            <GroupBox Grid.Column="1" Header="装备限制" Height="146"  VerticalAlignment="Top" Margin="0" DockPanel.Dock="Bottom">
+                <WrapPanel ItemWidth="80" Margin="0" DataContext="{Binding Path=EquipFlag ,Mode=TwoWay}">
+                    <CheckBox  Content="无" IsChecked="{Binding [0]}"/>
+                    <CheckBox  Content="剑" IsChecked="{Binding [1]}"/>
+                    <CheckBox  Content="短剑" IsChecked="{Binding [2]}"/>
+                    <CheckBox  Content="钝器" IsChecked="{Binding [3]}"/>
+                    <CheckBox  Content="斧" IsChecked="{Binding [4]}"/>
+                    <CheckBox  Content="矛" IsChecked="{Binding [5]}"/>
+                    <CheckBox  Content="投掷武器" IsChecked="{Binding [6]}"/>
+                    <CheckBox  Content="弓" IsChecked="{Binding [7]}"/>
+                    <CheckBox  Content="盾" IsChecked="{Binding [8]}"/>
+                    <CheckBox  Content="手枪" IsChecked="{Binding [9]}"/>
+                    <CheckBox  Content="包" IsChecked="{Binding [10]}"/>
+                    <CheckBox  Content="爪" IsChecked="{Binding [11]}"/>
+                    <CheckBox  Content="细剑" IsChecked="{Binding [12]}"/>
+                    <CheckBox  Content="拳刃" IsChecked="{Binding [13]}"/>
+                    <CheckBox  Content="双枪" IsChecked="{Binding [14]}"/>
+                    <CheckBox  Content="步枪" IsChecked="{Binding [15]}"/>
+                    <CheckBox  Content="弦乐器" IsChecked="{Binding [16]}"/>
+                    <CheckBox  Content="打击乐器" IsChecked="{Binding [17]}"/>
+                    <CheckBox  Content="鞭子" IsChecked="{Binding [18]}"/>
+                    <CheckBox  Content="投掷卡牌" IsChecked="{Binding [19]}"/>
+                    <CheckBox  Content="空手" IsChecked="{Binding [20]}"/>
+                    <CheckBox  Content="书本" IsChecked="{Binding [21]}"/>
+                    <CheckBox  Content="杖" IsChecked="{Binding [22]}"/>
+                    <CheckBox  Content="DEM(打)" IsChecked="{Binding [23]}"/>
+                    <CheckBox  Content="DEM(斩)" IsChecked="{Binding [24]}"/>
+                    <CheckBox  Content="DEM(刺)" IsChecked="{Binding [25]}"/>
+                    <CheckBox  Content="DEM(远)" IsChecked="{Binding [26]}"/>
+                    <CheckBox  Content="双手剑" IsChecked="{Binding [27]}"/>
+                    <CheckBox  Content="双手杖" IsChecked="{Binding [28]}"/>
+                    <CheckBox  Content="双手斧" IsChecked="{Binding [29]}"/>
+                    <CheckBox  Content="双手枪" IsChecked="{Binding [30]}"/>
+                    <CheckBox  Content="？" IsChecked="{Binding [31]}"/>
+                </WrapPanel>
+            </GroupBox>
+            <GroupBox Grid.Column="1" Header="技能类型" Height="84"  VerticalAlignment="Top" Margin="0" DockPanel.Dock="Bottom">
+                <WrapPanel ItemWidth="80" Margin="0" DataContext="{Binding Path=SkillFlag}">
+                    <CheckBox  Content="不可打断" IsChecked="{Binding [0]}"/>
+                    <CheckBox  Content="魔法系" IsChecked="{Binding [1]}"/>
+                    <CheckBox  Content="物理系" IsChecked="{Binding [2]}"/>
+                    <CheckBox  Content="组队有效" IsChecked="{Binding [3]}"/>
+                    <CheckBox  Content="攻击效果" IsChecked="{Binding [4]}"/>
+                    <CheckBox  Content="指定目标" IsChecked="{Binding [5]}"/>
+                    <CheckBox  Content="支援效果" IsChecked="{Binding [6]}"/>
+                    <CheckBox  Content="圣属性" IsChecked="{Binding [7]}"/>
+                    <CheckBox  Content="？？？" IsChecked="{Binding [8]}"/>
+                    <CheckBox  Content="不死" IsChecked="{Binding [9]}"/>
+                    <CheckBox  Content="修理制作" IsChecked="{Binding [10]}"/>
+                    <CheckBox  Content="凭依禁用" IsChecked="{Binding [11]}"/>
+                    <CheckBox  Content="被凭依禁用" IsChecked="{Binding [12]}"/>
+                    <CheckBox  Content="H.E.ART" IsChecked="{Binding [13]}"/>
+                    <CheckBox  Content="？？？" IsChecked="{Binding [14]}"/>
+                    <CheckBox  Content="？？？" IsChecked="{Binding [15]}"/>
+                </WrapPanel>
+            </GroupBox>
+            <GroupBox Grid.Column="1" Header="技能属性" HorizontalAlignment="Left" Height="150"  VerticalAlignment="Top" Width="258" DockPanel.Dock="Bottom">
+                <WrapPanel Margin="0
+                       ">
+                    <StackPanel Width="55" Margin="3">
+                        <TextBlock TextWrapping="Wrap" Text="当前等级" HorizontalAlignment="Center"/>
+                        <TextBox Height="23" TextWrapping="Wrap" Text="{Binding Lv}" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
+                    </StackPanel>
+                    <StackPanel Width="55" Margin="3">
+                        <TextBlock TextWrapping="Wrap" Text="最大等级" HorizontalAlignment="Center"/>
+                        <TextBox Height="23" TextWrapping="Wrap" Text="{Binding MaxLv}" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                    </StackPanel>
+                    <StackPanel Width="55" Margin="3">
+                        <TextBlock TextWrapping="Wrap" Text="(标记)" HorizontalAlignment="Center"/>
+                        <TextBox Height="23" TextWrapping="Wrap" Text="{Binding Joblv}" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                    </StackPanel>
+                    <StackPanel Width="55" Margin="3">
+                        <TextBlock TextWrapping="Wrap" Text="射程" HorizontalAlignment="Center"/>
+                        <TextBox Height="23" TextWrapping="Wrap" Text="{Binding Range}" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                    </StackPanel>
+                    <StackPanel Width="55" Margin="3">
+                        <TextBlock TextWrapping="Wrap" Text="消耗MP" HorizontalAlignment="Center"/>
+                        <TextBox Height="23" TextWrapping="Wrap" Text="{Binding Mp}" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                    </StackPanel>
+                    <StackPanel Width="55" Margin="3">
+                        <TextBlock TextWrapping="Wrap" Text="消耗SP" HorizontalAlignment="Center"/>
+                        <TextBox Height="23" TextWrapping="Wrap" Text="{Binding Sp}" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                    </StackPanel>
+                    <StackPanel Width="55" Margin="3">
+                        <TextBlock TextWrapping="Wrap" Text="消耗EP" HorizontalAlignment="Center"/>
+                        <TextBox Height="23" TextWrapping="Wrap" Text="{Binding Ep}" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                    </StackPanel>
+                    <StackPanel Width="55" Margin="3">
+                        <TextBlock TextWrapping="Wrap" Text="范围" HorizontalAlignment="Center"/>
+                        <TextBox Height="23" TextWrapping="Wrap" Text="{Binding EffectRange}" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                    </StackPanel>
+                    <StackPanel Width="55" Margin="2">
+                        <TextBlock TextWrapping="Wrap" Text="类型" HorizontalAlignment="Center"/>
+                        <ComboBox SelectedIndex="{Binding Active}">
+                            <ComboBoxItem Content="被动"/>
+                            <ComboBoxItem Content="主动"/>
+                        </ComboBox>
+                    </StackPanel>
+                    <StackPanel Width="60" Margin="2" >
+                        <TextBlock TextWrapping="Wrap" Text="目标类型" HorizontalAlignment="Center"/>
+                        <ComboBox SelectedIndex="{Binding Target}">
+                            <ComboBoxItem Content="无"/>
+                            <ComboBoxItem Content="自身"/>
+                            <ComboBoxItem Content="单体1"/>
+                            <ComboBoxItem Content="单体2"/>
+                            <ComboBoxItem Content="地面"/>
+                        </ComboBox>
+                    </StackPanel>
+                    <StackPanel Width="116" Margin="2" >
+                        <TextBlock TextWrapping="Wrap" Text="范围类型" HorizontalAlignment="Center"/>
+                        <ComboBox SelectedIndex="{Binding Target2}">
+                            <ComboBoxItem Content="不显示"/>
+                            <ComboBoxItem Content="单体"/>
+                            <ComboBoxItem Content="矩形"/>
+                            <ComboBoxItem Content="墙壁"/>
+                            <ComboBoxItem Content="扇形"/>
+                            <ComboBoxItem Content="直线"/>
+                            <ComboBoxItem Content="矩形边缘1格"/>
+                            <ComboBoxItem Content="矩形边缘2格"/>
+                            <ComboBoxItem Content="菱形"/>
+                            <ComboBoxItem Content="宽直线(含自身)"/>
+                            <ComboBoxItem Content="宽直线(无自身)"/>
+                        </ComboBox>
+                    </StackPanel>
+                </WrapPanel>
+            </GroupBox>
+            <GroupBox Grid.Column="1" Header="技能" HorizontalAlignment="Left" Width="258" DockPanel.Dock="Bottom">
+                <DockPanel Margin="0" LastChildFill="True">
+                    <DockPanel DockPanel.Dock="Top">
+                        <TextBlock TextWrapping ="Wrap"  Text="技能名" VerticalAlignment="Center" />
+                        <TextBox Height="23" TextWrapping="Wrap" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Right" DockPanel.Dock="Right" Text="{Binding Id}" Width="45" HorizontalScrollBarVisibility="Disabled"/>
+                        <TextBlock TextWrapping="Wrap" Text="技能ID" HorizontalAlignment="Right" DockPanel.Dock="Right" VerticalAlignment="Center"/>
+                        <TextBox x:Name="TextBoxName" TextWrapping="Wrap" VerticalContentAlignment="Center" Text="{Binding Name}" GotFocus="TextBoxName_GotFocus" LostFocus="TextBoxName_LostFocus" Height="23"/>
+                    </DockPanel>
+                    <DockPanel LastChildFill="True" DockPanel.Dock="Bottom">
+                        <TextBlock TextWrapping="Wrap" Text="技能描述：" DockPanel.Dock="Top"/>
+                        <TextBox TextWrapping="Wrap" AcceptsReturn="True" DockPanel.Dock="Right" Text="{Binding Description}" VerticalContentAlignment="Stretch" HorizontalContentAlignment="Stretch" VerticalScrollBarVisibility="Auto"/>
+                    </DockPanel>
+
+                </DockPanel>
+            </GroupBox>
+
+        </DockPanel>
+        <StackPanel HorizontalAlignment="Right" Height="584" VerticalAlignment="Top" Width="206" Grid.Column="1" Margin="0,10,10,0" DataContext="{Binding ElementName=listView1,Path=SelectedItem}">
+            <GroupBox Header="技能特效" Height="150"  VerticalAlignment="Top" Margin="0">
+                <WrapPanel Margin="0                        ">
+                    <StackPanel Width="60" Margin="2">
+                        <TextBlock TextWrapping="Wrap" Text="咏唱者" HorizontalAlignment="Center"/>
+                        <TextBox Height="23" TextWrapping="Wrap" Text="{Binding Effect1}" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                    </StackPanel>
+                    <StackPanel Width="60" Margin="2">
+                        <TextBlock TextWrapping="Wrap" Text="咏唱目标" HorizontalAlignment="Center"/>
+                        <TextBox Height="23" TextWrapping="Wrap" Text="{Binding Effect2}" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                    </StackPanel>
+                    <StackPanel Width="60" Margin="2">
+                        <TextBlock TextWrapping="Wrap" Text="地面" HorizontalAlignment="Center"/>
+                        <TextBox Height="23" TextWrapping="Wrap" Text="{Binding Effect8}" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                    </StackPanel>
+                    <StackPanel Width="60" Margin="2">
+                        <TextBlock TextWrapping="Wrap" Text="施放者" HorizontalAlignment="Center"/>
+                        <TextBox Height="23" TextWrapping="Wrap" Text="{Binding Effect3}" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                    </StackPanel>
+                    <StackPanel Width="60" Margin="2">
+                        <TextBlock TextWrapping="Wrap" Text="施放目标" HorizontalAlignment="Center"/>
+                        <TextBox Height="23" TextWrapping="Wrap" Text="{Binding Effect5}" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                    </StackPanel>
+                    <StackPanel Width="60" Margin="2">
+                        <TextBlock TextWrapping="Wrap" Text="物体" HorizontalAlignment="Center"/>
+                        <TextBox Height="23" TextWrapping="Wrap" Text="{Binding Effect9}" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                    </StackPanel>
+                    <StackPanel Width="60" Margin="2">
+                        <TextBlock TextWrapping="Wrap" Text="射出物体" HorizontalAlignment="Center"/>
+                        <TextBox Height="23" TextWrapping="Wrap" Text="{Binding Effect4}" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                    </StackPanel>
+                    <StackPanel Width="60" Margin="2">
+                        <TextBlock TextWrapping="Wrap" Text="狂暴毒沼" HorizontalAlignment="Center"/>
+                        <TextBox Height="23" TextWrapping="Wrap" Text="{Binding Effect7}" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                    </StackPanel>
+                    <StackPanel Width="60" Margin="2">
+                        <TextBlock TextWrapping="Wrap" Text="未知" HorizontalAlignment="Center"/>
+                        <TextBox Height="23" TextWrapping="Wrap" Text="{Binding Effect6}" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                    </StackPanel>
+                </WrapPanel>
+            </GroupBox>
+            <GroupBox Grid.Column="1" Header="技能动作" HorizontalAlignment="Left" Height="65"  VerticalAlignment="Top" Width="207">
+                <WrapPanel Margin="0                        ">
+                    <StackPanel Width="60" Margin="2">
+                        <TextBlock TextWrapping="Wrap" Text="发动动作" HorizontalAlignment="Center"/>
+                        <TextBox Height="23" TextWrapping="Wrap" Text="{Binding NAnim1}" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                    </StackPanel>
+                    <StackPanel Width="60" Margin="2">
+                        <TextBlock TextWrapping="Wrap" Text="咏唱动作" HorizontalAlignment="Center"/>
+                        <TextBox Height="23" TextWrapping="Wrap" Text="{Binding NAnim2}" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                    </StackPanel>
+                    <StackPanel Width="60" Margin="2">
+                        <TextBlock TextWrapping="Wrap" Text="施放动作" HorizontalAlignment="Center"/>
+                        <TextBox Height="23" TextWrapping="Wrap" Text="{Binding NAnim3}" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                    </StackPanel>
+
+
+                </WrapPanel>
+            </GroupBox>
+            <GroupBox Grid.Column="1" Header="YGG附加" HorizontalAlignment="Left" Height="65"  VerticalAlignment="Top" Width="207">
+                <WrapPanel Margin="0                        ">
+                    <StackPanel Width="60" Margin="2">
+                        <TextBlock TextWrapping="Wrap" Text="吟唱时间" HorizontalAlignment="Center"/>
+                        <TextBox Height="23" TextWrapping="Wrap" Text="{Binding CastTime}" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                    </StackPanel>
+                    <StackPanel Width="60" Margin="2">
+                        <TextBlock TextWrapping="Wrap" Text="冷却时间" HorizontalAlignment="Center"/>
+                        <TextBox Height="23" TextWrapping="Wrap" Text="{Binding Delay}" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                    </StackPanel>
+                    <StackPanel Width="60" Margin="2">
+                        <TextBlock TextWrapping="Wrap" Text="固有冷却" HorizontalAlignment="Center"/>
+                        <TextBox Height="23" TextWrapping="Wrap" Text="{Binding SingleCD}" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                    </StackPanel>
+                </WrapPanel>
+            </GroupBox>
+            <GroupBox Grid.Column="1" Header="技能特殊标记" HorizontalAlignment="Left" Height="65"  VerticalAlignment="Top" Width="207">
+                <WrapPanel Margin="0                        ">
+                    <StackPanel Width="60" Margin="2">
+                        <TextBlock TextWrapping="Wrap" Text="特效" HorizontalAlignment="Center"/>
+                        <TextBox Height="23" TextWrapping="Wrap" Text="{Binding EFlag1}" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                    </StackPanel>
+                    <StackPanel Width="60" Margin="2">
+                        <TextBlock TextWrapping="Wrap" Text="演习" HorizontalAlignment="Center"/>
+                        <TextBox Height="23" TextWrapping="Wrap" Text="{Binding EFlag2}" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                    </StackPanel>
+                    <StackPanel Width="60" Margin="2">
+                        <TextBlock TextWrapping="Wrap" Text="(标记)" HorizontalAlignment="Center"/>
+                        <TextBox Height="23" TextWrapping="Wrap" Text="{Binding EFlag3}" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                    </StackPanel>
+                </WrapPanel>
+            </GroupBox>
+            <GroupBox Grid.Column="1" Header="图标" HorizontalAlignment="Right" Height="93"  VerticalAlignment="Top" Width="126">
+                <StackPanel Margin="0">
+                    <Image x:Name="ImageIcon" Height="32" Width="32" Margin="0,5"/>
+                    <StackPanel Margin="2" Orientation="Horizontal" HorizontalAlignment="Center">
+                        <TextBlock TextWrapping="Wrap" Text="图标ID" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="5"/>
+                        <TextBox Height="23" TextWrapping="Wrap" Text="{Binding Icon}" HorizontalContentAlignment="Center" Width="45" VerticalContentAlignment="Center"/>
+                    </StackPanel>
+                </StackPanel>
+            </GroupBox>
+            <GroupBox Grid.Column="1" Header="功能" HorizontalAlignment="Right" Height="82"  VerticalAlignment="Top" Width="126">
+                <StackPanel Margin="5">
+                    <Button Content="保存" Click="Button_Click" Margin="0,2"/>
+                    <Button Content="排序" Click="ButtonSort_Click" Margin="0,2"/>
+                </StackPanel>
+            </GroupBox>
+        </StackPanel>
+        <StatusBar Grid.Column="1" HorizontalAlignment="Right" Width="146" Height="20" VerticalAlignment="Bottom">
+            <TextBlock x:Name="Tips"/>
+        </StatusBar>
+    </Grid>
+</Window>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Flag:0c78-->
+<QuestDB GroupID="56">
+  <Quest>
+    <!--家具職人-->
+    <ID>10021145</ID>
+    <Name>给我花甁吧(Lv ?)</Name>
+    <Type>GATHER</Type>
+    <Time>-1</Time>
+    <RewardItem>31131301</RewardItem>
+    <RewardCount>1</RewardCount>
+    <RequiredQuestPoints>0</RequiredQuestPoints>
+    <DungeonID>0</DungeonID>
+    <MinLV>255</MinLV>
+    <MaxLv>255</MaxLv>
+    <Job>NONE</Job>
+    <JobType>NOVICE</JobType>
+    <Race>NONE</Race>
+    <Gender>NONE</Gender>
+    <!--Detail Information-->
+    <!--花瓶譲って！-->
+    <EXP>0</EXP>
+    <JEXP>0</JEXP>
+    <Gold>0</Gold>
+    <Fame>0</Fame>
+    <ObjectID1>31131300</ObjectID1>
+    <Count1>2</Count1>
+  </Quest>
+</QuestDB>

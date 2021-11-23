@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TreasureDB>
+  <!-- イリスカード 第1弾エクストライリスカード（EXブランクイリスカード系と交換） -->
+  <TreasureList GroupName="Iris1">
+    <Item rate="1" count="1">70010010</Item>
+    <Item rate="1" count="1">70010020</Item>
+    <Item rate="10" count="1">70011010</Item>
+    <Item rate="10" count="1">70011020</Item>
+    <Item rate="10" count="1">70011030</Item>
+    <Item rate="50" count="1">70012010</Item>
+    <Item rate="50" count="1">70012020</Item>
+    <Item rate="50" count="1">70012030</Item>
+    <Item rate="50" count="1">70012040</Item>
+    <Item rate="100" count="1">70013010</Item>
+    <Item rate="100" count="1">70013020</Item>
+    <Item rate="100" count="1">70013030</Item>
+    <Item rate="100" count="1">70013040</Item>
+    <Item rate="100" count="1">70013050</Item>
+    <Item rate="100" count="1">70013060</Item>
+    <Item rate="100" count="1">70013070</Item>
+    <Item rate="100" count="1">70013080</Item>
+    <Item rate="100" count="1">70013090</Item>
+  </TreasureList>
+  <!-- イリスカード 第1弾（ブランクイリスカード系と交換） -->
+  <TreasureList GroupName="Irisx1">
+    <Item rate="1" count="1">70014010</Item>
+    <Item rate="1" count="1">70014020</Item>
+    <Item rate="10" count="1">70015010</Item>
+    <Item rate="10" count="1">70015020</Item>
+    <Item rate="10" count="1">70015030</Item>
+    <Item rate="50" count="1">70016010</Item>
+    <Item rate="50" count="1">70016020</Item>
+    <Item rate="50" count="1">70016030</Item>
+    <Item rate="50" count="1">70016040</Item>
+    <Item rate="100" count="1">70017010</Item>
+    <Item rate="100" count="1">70017020</Item>
+    <Item rate="100" count="1">70017030</Item>
+    <Item rate="100" count="1">70017040</Item>
+    <Item rate="100" count="1">70017050</Item>
+    <Item rate="100" count="1">70017060</Item>
+    <Item rate="100" count="1">70017070</Item>
+    <Item rate="100" count="1">70017080</Item>
+    <Item rate="100" count="1">70017090</Item>
+  </TreasureList>
+  <!-- イリスカード 第2弾エクストライリスカード（EXブランクイリスカード系と交換） -->
+  <TreasureList GroupName="Iris2">
+    <Item rate="1" count="1">70020010</Item>
+    <Item rate="1" count="1">70020020</Item>
+    <Item rate="10" count="1">70021010</Item>
+    <Item rate="10" count="1">70021020</Item>
+    <Item rate="10" count="1">70021030</Item>
+    <Item rate="50" count="1">70021010</Item>
+    <Item rate="50" count="1">70021020</Item>
+    <Item rate="50" count="1">70021030</Item>
+    <Item rate="50" count="1">70021040</Item>
+    <Item rate="100" count="1">70023010</Item>
+    <Item rate="100" count="1">70023020</Item>
+    <Item rate="100" count="1">70023030</Item>
+    <Item rate="100" count="1">70023040</Item>
+    <Item rate="100" count="1">70023050</Item>
+    <Item rate="100" count="1">70023060</Item>
+    <Item rate="100" count="1">70023070</Item>
+    <Item rate="100" count="1">70023080</Item>
+    <Item rate="100" count="1">70023090</Item>
+  </TreasureList>
+  <!-- イリスカード 第4弾エクストライリスカード（EXブランクイリスカード系と交換） -->
+  <TreasureList GroupName="Iris4">
+    <Item rate="1" count="1">70040010</Item>
+    <Item rate="1" count="1">70040020</Item>
+    <Item rate="10" count="1">70041010</Item>
+    <Item rate="10" count="1">70041020</Item>
+    <Item rate="10" count="1">70041030</Item>
+    <Item rate="50" count="1">70042010</Item>
+    <Item rate="50" count="1">70042020</Item>
+    <Item rate="50" count="1">70042030</Item>
+    <Item rate="50" count="1">70042040</Item>
+    <Item rate="100" count="1">70043010</Item>
+    <Item rate="100" count="1">70043020</Item>
+    <Item rate="100" count="1">70043030</Item>
+    <Item rate="100" count="1">70043040</Item>
+    <Item rate="100" count="1">70043050</Item>
+    <Item rate="100" count="1">70043060</Item>
+    <Item rate="100" count="1">70043070</Item>
+    <Item rate="100" count="1">70043080</Item>
+    <Item rate="100" count="1">70043090</Item>
+  </TreasureList>
+  <!-- イリスカード 第4弾イリスカード（ブランクイリスカード系と交換） -->
+  <TreasureList GroupName="Irisx4">
+    <Item rate="1" count="1">70044010</Item>
+    <Item rate="1" count="1">70044020</Item>
+    <Item rate="10" count="1">70045010</Item>
+    <Item rate="10" count="1">70045020</Item>
+    <Item rate="10" count="1">70045030</Item>
+    <Item rate="50" count="1">70046010</Item>
+    <Item rate="50" count="1">70046020</Item>
+    <Item rate="50" count="1">70046030</Item>
+    <Item rate="50" count="1">70046040</Item>
+    <Item rate="100" count="1">70047010</Item>
+    <Item rate="100" count="1">70047020</Item>
+    <Item rate="100" count="1">70047030</Item>
+    <Item rate="100" count="1">70047040</Item>
+    <Item rate="100" count="1">70047050</Item>
+    <Item rate="100" count="1">70047060</Item>
+    <Item rate="100" count="1">70047070</Item>
+    <Item rate="100" count="1">70047080</Item>
+    <Item rate="100" count="1">70047090</Item>
+  </TreasureList>
+</TreasureDB>

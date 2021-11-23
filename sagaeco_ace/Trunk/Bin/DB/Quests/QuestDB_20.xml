@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Flag:0c35-->
+<QuestDB GroupID="20">
+  <Quest>
+    <!--LV15まで-->
+    <ID>10030700</ID>
+    <Name>清理蜜蜂巢穴（队伍）</Name>
+    <Type>HUNT</Type>
+    <Time>60</Time>
+    <RewardItem>0</RewardItem>
+    <RewardCount>0</RewardCount>
+    <RequiredQuestPoints>3</RequiredQuestPoints>
+    <DungeonID>0</DungeonID>
+    <MinLV>255</MinLV>
+    <MaxLv>255</MaxLv>
+    <Job>NONE</Job>
+    <JobType>NOVICE</JobType>
+    <Race>NONE</Race>
+    <Gender>NONE</Gender>
+    <!--Detail Information-->
+    <!--ビーの巣穴一掃大作戦！-->
+    <EXP>500</EXP>
+    <JEXP>500</JEXP>
+    <Gold>500</Gold>
+    <Fame>1</Fame>
+    <MapID1>20004002</MapID1>
+    <ObjectID1>10040003</ObjectID1>
+    <Count1>3</Count1>
+    <ObjectID2>10040000</ObjectID2>
+    <Count2>10</Count2>
+    <ObjectID3>10000700</ObjectID3>
+    <Count3>10</Count3>
+    <Party>True</Party>
+  </Quest>
+  <Quest>
+    <!--LV15まで-->
+    <ID>10030701</ID>
+    <Name>击退毒针蜂（队伍）</Name>
+    <Type>HUNT</Type>
+    <Time>-1</Time>
+    <RewardItem>0</RewardItem>
+    <RewardCount>0</RewardCount>
+    <RequiredQuestPoints>3</RequiredQuestPoints>
+    <DungeonID>0</DungeonID>
+    <MinLV>10</MinLV>
+    <MaxLv>25</MaxLv>
+    <Job>NONE</Job>
+    <JobType>NOVICE</JobType>
+    <Race>NONE</Race>
+    <Gender>NONE</Gender>
+    <!--Detail Information-->
+    <!--スティンガーを倒せ！-->
+    <EXP>2500</EXP>
+    <JEXP>2500</JEXP>
+    <Gold>2000</Gold>
+    <Fame>1</Fame>
+    <MapID1>20004002</MapID1>
+    <ObjectID1>10300000</ObjectID1>
+    <Count1>20</Count1>
+    <ObjectID2>10040100</ObjectID2>
+    <Count2>8</Count2>
+    <ObjectID3>10520000</ObjectID3>
+    <Count3>1</Count3>
+    <Party>True</Party>
+  </Quest>
+</QuestDB>

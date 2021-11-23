@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Spawns>
+  <spawn rate="100">
+    <!--木箱-->
+    <id>10360001</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>6</amount>
+    <range>128</range>
+    <delay>120</delay>
+  </spawn>
+  <spawn rate="100">
+    <!--宝箱-->
+    <id>10370001</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>6</amount>
+    <range>128</range>
+    <delay>120</delay>
+  </spawn>
+  <spawn rate="100">
+    <!--木箱（仮）-->
+    <id>30290009</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>1</amount>
+    <range>128</range>
+    <delay>0</delay>
+  </spawn>
+  <spawn rate="14">
+    <!--フューリー-->
+    <id>26010900</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>2</amount>
+    <range>128</range>
+    <delay>120</delay>
+  </spawn>
+  <spawn rate="14">
+    <!--クイーンビー-->
+    <id>10040200</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>4</amount>
+    <range>128</range>
+    <delay>120</delay>
+  </spawn>
+  <spawn rate="14">
+    <!--アンダンテ-->
+    <id>10220101</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>3</amount>
+    <range>128</range>
+    <delay>120</delay>
+  </spawn>
+  <spawn rate="14">
+    <!--デス-->
+    <id>10250000</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>4</amount>
+    <range>128</range>
+    <delay>120</delay>
+  </spawn>
+  <spawn rate="100">
+    <!--てすてす宝箱用-->
+    <id>30270000</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>1</amount>
+    <range>128</range>
+    <delay>0</delay>
+  </spawn>
+</Spawns>

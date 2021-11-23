@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Spawns>
+  <spawn>
+    <!--カンカン-->
+    <id>10070100</id>
+    <map>20070101</map>
+    <x>11</x>
+    <y>47</y>
+    <amount>6</amount>
+    <range>21</range>
+    <delay>10</delay>
+  </spawn>
+  <spawn>
+    <!--バウ-->
+    <id>10120001</id>
+    <map>20070101</map>
+    <x>24</x>
+    <y>28</y>
+    <amount>13</amount>
+    <range>18</range>
+    <delay>10</delay>
+  </spawn>
+  <spawn>
+    <!--オーカージェリー-->
+    <id>10000101</id>
+    <map>20070101</map>
+    <x>33</x>
+    <y>47</y>
+    <amount>17</amount>
+    <range>23</range>
+    <delay>10</delay>
+  </spawn>
+  <spawn>
+    <!--キャタピラー-->
+    <id>10050101</id>
+    <map>20070101</map>
+    <x>24</x>
+    <y>43</y>
+    <amount>10</amount>
+    <range>32</range>
+    <delay>10</delay>
+  </spawn>
+</Spawns>

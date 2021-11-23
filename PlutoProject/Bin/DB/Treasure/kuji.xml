@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TreasureDB>
+  <!-- くじチケット第1弾 -->
+  <TreasureList GroupName="kuji1">
+    <Item rate="1" count="1">10049500</Item>
+    <Item rate="1" count="1">50031209</Item>
+    <Item rate="1" count="1">50031309</Item>
+    <Item rate="1" count="1">50042010</Item>
+    <Item rate="1" count="1">50005050</Item>
+    <Item rate="5" count="1">50027100</Item>
+    <Item rate="5" count="1">50027000</Item>
+    <Item rate="5" count="1">50015200</Item>
+    <Item rate="10" count="1">10022202</Item>
+    <Item rate="10" count="1">10022204</Item>
+    <Item rate="15" count="1">10022150</Item>
+    <Item rate="15" count="1">20050013</Item>
+    <Item rate="15" count="1">20050015</Item>
+    <Item rate="25" count="1">20050012</Item>
+    <Item rate="25" count="1">20050011</Item>
+    <Item rate="30" count="1">10000602</Item>
+    <Item rate="30" count="1">10000600</Item>
+    <Item rate="30" count="1">10048500</Item>
+  </TreasureList>
+  <!-- くじチケット第2弾 -->
+  <TreasureList GroupName="kuji2">
+    <Item rate="1" count="1">10050604</Item>
+    <Item rate="1" count="1">50031250</Item>
+    <Item rate="1" count="1">50041050</Item>
+    <Item rate="5" count="1">50011700</Item>
+    <Item rate="5" count="1">50001952</Item>
+    <Item rate="5" count="1">50031309</Item>
+    <Item rate="10" count="1">50027100</Item>
+    <Item rate="10" count="1">50027000</Item>
+    <Item rate="10" count="1">50003753</Item>
+    <Item rate="20" count="1">50024750</Item>
+    <Item rate="20" count="1">50024750</Item>
+    <Item rate="30" count="1">50012253</Item>
+    <Item rate="30" count="1">50053404</Item>
+    <Item rate="40" count="1">50028000</Item>
+    <Item rate="40" count="1">10022204</Item>
+    <Item rate="50" count="1">20050012</Item>
+    <Item rate="50" count="1">20050011</Item>
+    <Item rate="50" count="1">10000609</Item>
+  </TreasureList>
+  <!-- くじチケット第3弾 -->
+  <TreasureList GroupName="kuji3">
+    <Item rate="1" count="1">50062150</Item>
+    <Item rate="1" count="1">50037309</Item>
+    <Item rate="5" count="1">50005061</Item>
+    <Item rate="5" count="1">50070153</Item>
+    <Item rate="10" count="1">50066000</Item>
+    <Item rate="10" count="1">50001758</Item>
+    <Item rate="20" count="1">50013851</Item>
+    <Item rate="20" count="1">50004851</Item>
+    <Item rate="20" count="1">50042200</Item>
+    <Item rate="30" count="1">50053406</Item>
+    <Item rate="40" count="1">50042300</Item>
+    <Item rate="40" count="1">50028050</Item>
+    <Item rate="20" count="4">10022204</Item>
+    <Item rate="20" count="1">10022150</Item>
+    <Item rate="50" count="1">20050020</Item>
+    <Item rate="50" count="1">10000609</Item>
+  </TreasureList>
+  <!-- くじチケット第4弾 -->
+  <TreasureList GroupName="kuji4">
+    <Item rate="1" count="1">60103700</Item>
+    <Item rate="2" count="1">60103900</Item>
+    <Item rate="3" count="1">60104000</Item>
+    <Item rate="4" count="1">50039200</Item>
+    <Item rate="4" count="1">50039300</Item>
+    <Item rate="5" count="1">50039307</Item>
+    <Item rate="7" count="1">50017200</Item>
+    <Item rate="8" count="1">60103800</Item>
+    <Item rate="40" count="3">50029100</Item>
+    <Item rate="10" count="1">50053409</Item>
+    <Item rate="10" count="1">60103600</Item>
+    <Item rate="7" count="1">50042700</Item>
+    <Item rate="12" count="1">50017300</Item>
+    <Item rate="10" count="1">31090500</Item>
+    <Item rate="10" count="1">31080500</Item>
+  </TreasureList>
+  <!-- くじチケット第9弾 -->
+  <TreasureList GroupName="kuji9">
+    <Item rate="1" count="1">10059500</Item>
+    <Item rate="2" count="1">10020773</Item>
+    <Item rate="3" count="1">50100800</Item>
+    <Item rate="4" count="1">60108000</Item>
+    <Item rate="5" count="1">50101000</Item>
+    <Item rate="6" count="1">60108200</Item>
+    <Item rate="10" count="1">60104050</Item>
+    <Item rate="15" count="1">60108100</Item>
+    <Item rate="20" count="1">60108109</Item>
+    <Item rate="25" count="1">50100900</Item>
+    <Item rate="30" count="1">50057200</Item>
+    <Item rate="35" count="1">50073200</Item>
+    <Item rate="10" count="1">31133600</Item>
+    <Item rate="30" count="1">31133700</Item>
+    <Item rate="35" count="1">31133800</Item>
+    <Item rate="20" count="1">10031325</Item>
+    <Item rate="50" count="1">20050039</Item>
+    <Item rate="50" count="1">20050038</Item>
+  </TreasureList>
+  <!-- くじチケット第13弾 -->
+  <TreasureList GroupName="kuji13">
+    <Item rate="1" count="1">10063500</Item>
+    <Item rate="1" count="1">50057653</Item>
+    <Item rate="2" count="1">50103300</Item>
+    <Item rate="3" count="1">60110200</Item>
+    <Item rate="4" count="1">60110100</Item>
+    <Item rate="4" count="1">10020783</Item>
+    <Item rate="5" count="1">50011153</Item>
+    <Item rate="7" count="1">50103400</Item>
+    <Item rate="8" count="1">50103500</Item>
+    <Item rate="30" count="1">50074200</Item>
+    <Item rate="10" count="1">50067900</Item>
+    <Item rate="10" count="1">50067800</Item>
+    <Item rate="7" count="1">31135200</Item>
+    <Item rate="12" count="1">31120400</Item>
+    <Item rate="14" count="1">31112900</Item>
+  </TreasureList>
+  <!-- くじチケット第14弾 -->
+  <TreasureList GroupName="kuji14">
+    <Item rate="1" count="1">10020784</Item>
+    <Item rate="1" count="1">60110500</Item>
+    <Item rate="1" count="1">50103700</Item>
+    <Item rate="10" count="1">60110400</Item>
+    <Item rate="10" count="1">50020300</Item>
+    <Item rate="10" count="1">50074300</Item>
+    <Item rate="20" count="1">61040500</Item>
+    <Item rate="20" count="1">50103800</Item>
+    <Item rate="30" count="1">60043500</Item>
+    <Item rate="30" count="1">50103900</Item>
+    <Item rate="30" count="1">50201200</Item>
+    <Item rate="40" count="1">50044300</Item>
+    <Item rate="40" count="1">50074400</Item>
+    <Item rate="1" count="1">30001700</Item>
+    <Item rate="10" count="1">31135300</Item>
+    <Item rate="20" count="1">31135400</Item>
+    <Item rate="20" count="1">31135600</Item>
+    <Item rate="50" count="1">20050059</Item>
+  </TreasureList>
+  <!-- くじチケット第15弾 -->
+  <TreasureList GroupName="kuji15">
+    <Item rate="1" count="1">10065600</Item>
+    <Item rate="1" count="1">50104800</Item>
+    <Item rate="7" count="1">10020788</Item>
+    <Item rate="8" count="1">50068300</Item>
+    <Item rate="5" count="1">60112900</Item>
+    <Item rate="8" count="1">60113000</Item>
+    <Item rate="10" count="1">60043700</Item>
+    <Item rate="10" count="1">60024500</Item>
+    <Item rate="8" count="1">50104900</Item>
+    <Item rate="7" count="1">31114000</Item>
+    <Item rate="30" count="1">50105000</Item>
+    <Item rate="8" count="1">60043600</Item>
+    <Item rate="8" count="1">31113900</Item>
+    <Item rate="20" count="1">50068400</Item>
+    <Item rate="10" count="1">31162800</Item>
+  </TreasureList>
+  <!-- くじチケットDX -->
+  <TreasureList GroupName="kujiDX">
+    <Item rate="1" count="1">10065400</Item>
+    <Item rate="2" count="1">10065500</Item>
+    <Item rate="3" count="1">50011223</Item>
+    <Item rate="4" count="1">60105602</Item>
+    <Item rate="5" count="1">50069800</Item>
+    <Item rate="6" count="1">61021114</Item>
+    <Item rate="7" count="1">60109701</Item>
+    <Item rate="8" count="1">60115300</Item>
+    <Item rate="9" count="1">60104809</Item>
+    <Item rate="11" count="1">50001957</Item>
+    <Item rate="13" count="1">60084300</Item>
+    <Item rate="17" count="1">50029501</Item>
+    <Item rate="10" count="1">50044900</Item>
+    <Item rate="12" count="1">10030013</Item>
+    <Item rate="14" count="1">31135700</Item>
+    <Item rate="14" count="1">31137200</Item>
+    <Item rate="12" count="1">31130110</Item>
+  </TreasureList>
+  <!-- シンフォニックウェディング -->
+  <TreasureList GroupName="kujixx3">
+    <Item rate="1" count="1">30002200</Item>
+    <Item rate="2" count="1">50002090</Item>
+    <Item rate="3" count="1">10074400</Item>
+    <Item rate="4" count="1">50203000</Item>
+    <Item rate="5" count="1">60116600</Item>
+    <Item rate="6" count="1">50011850</Item>
+    <Item rate="10" count="1">31137800</Item>
+    <Item rate="8" count="1">60085300</Item>
+    <Item rate="7" count="1">50202800</Item>
+    <Item rate="20" count="1">50108300</Item>
+    <Item rate="8" count="1">60000250</Item>
+    <Item rate="8" count="1">60116700</Item>
+  </TreasureList>
+  <!-- RPG  -->
+  <TreasureList GroupName="RPG">
+    <Item rate="1" count="1">10063550</Item>
+    <Item rate="1" count="1">10020797</Item>
+    <Item rate="1" count="1">50057654</Item>
+    <Item rate="10" count="1">60116100</Item>
+    <Item rate="10" count="1">60003000</Item>
+    <Item rate="10" count="1">60112950</Item>
+    <Item rate="20" count="1">50202300</Item>
+    <Item rate="20" count="1">50107700</Item>
+    <Item rate="20" count="1">50103550</Item>
+    <Item rate="20" count="1">50200850</Item>
+    <Item rate="20" count="1">60025200</Item>
+    <Item rate="20" count="1">60032000</Item>
+    <Item rate="20" count="1">50077150</Item>
+    <Item rate="20" count="1">31137600</Item>
+    <Item rate="20" count="1">31115300</Item>
+    <Item rate="20" count="1">31115400</Item>
+    <Item rate="50" count="10">20050081</Item>
+    <Item rate="50" count="10">20050082</Item>
+  </TreasureList>
+  <!-- 北斗の拳ONLINE HEROES  -->
+  <TreasureList GroupName="kujixx4">
+    <Item rate="1" count="1">10074500</Item>
+    <Item rate="1" count="1">50059100</Item>
+    <Item rate="10" count="1">60116900</Item>
+    <Item rate="10" count="1">50108400</Item>
+    <Item rate="10" count="1">50203300</Item>
+    <Item rate="10" count="1">60117000</Item>
+    <Item rate="10" count="1">50108500</Item>
+    <Item rate="10" count="1">60025300</Item>
+    <Item rate="10" count="1">50077500</Item>
+    <Item rate="15" count="1">60117100</Item>
+    <Item rate="15" count="1">50045200</Item>
+    <Item rate="15" count="1">50053416</Item>
+    <Item rate="15" count="1">31115500</Item>
+    <Item rate="15" count="1">31115600</Item>
+    <Item rate="15" count="1">31138100</Item>
+    <Item rate="30" count="10">20050086</Item>
+    <Item rate="30" count="10">20050085</Item>
+    <Item rate="30" count="10">20050087</Item>
+  </TreasureList>
+  <!-- HANGRY ＆ ANGRY  -->
+  <TreasureList GroupName="kujiha">
+    <Item rate="1" count="1">30060400</Item>
+    <Item rate="10" count="1">50039750</Item>
+    <Item rate="10" count="1">60120000</Item>
+    <Item rate="20" count="1">50207600</Item>
+    <Item rate="1" count="1">10075203</Item>
+    <Item rate="20" count="1">50207500</Item>
+    <Item rate="20" count="1">60120100</Item>
+    <Item rate="20" count="1">50207200</Item>
+    <Item rate="20" count="1">60120200</Item>
+    <Item rate="30" count="1">60120300</Item>
+    <Item rate="30" count="1">50207300</Item>
+    <Item rate="40" count="1">60120400</Item>
+    <Item rate="40" count="1">60084400</Item>
+    <Item rate="70" count="1">50059800</Item>
+    <Item rate="70" count="1">50110900</Item>
+    <Item rate="40" count="1">50074900</Item>
+    <Item rate="1" count="1">50207600</Item>
+    <Item rate="1" count="1">50207500</Item>
+
+  </TreasureList>
+</TreasureDB>

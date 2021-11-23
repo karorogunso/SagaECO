@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Spawns>
+  <spawn rate="33">
+    <!--てすと-->
+    <id>10000002</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>69</amount>
+    <range>128</range>
+    <delay>120</delay>
+  </spawn>
+  <spawn rate="33">
+    <!--てすと-->
+    <id>10000003</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>69</amount>
+    <range>128</range>
+    <delay>120</delay>
+  </spawn>
+  <spawn rate="33">
+    <!--てすと-->
+    <id>10000003</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>69</amount>
+    <range>128</range>
+    <delay>120</delay>
+  </spawn>
+  <spawn rate="33">
+    <!--てすと-->
+    <id>10000003</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>69</amount>
+    <range>128</range>
+    <delay>120</delay>
+  </spawn>
+  <spawn rate="33">
+    <!--てすと-->
+    <id>10000003</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>69</amount>
+    <range>128</range>
+    <delay>120</delay>
+  </spawn>
+  <spawn rate="33">
+    <!--てすと-->
+    <id>10000003</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>69</amount>
+    <range>128</range>
+    <delay>120</delay>
+  </spawn>
+  <spawn rate="33">
+    <!--てすてす-->
+    <id>10000500</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>69</amount>
+    <range>128</range>
+    <delay>120</delay>
+  </spawn>
+  <spawn rate="50">
+    <!--てすてす宝箱用-->
+    <id>30270000</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>1</amount>
+    <range>128</range>
+    <delay>0</delay>
+  </spawn>
+  <spawn rate="100">
+    <!--てすてすキー宝箱-->
+    <id>30280000</id>
+    <x>90</x>
+    <y>90</y>
+    <amount>1</amount>
+    <range>1</range>
+    <delay>0</delay>
+  </spawn>
+  <spawn rate="100">
+    <!--討伐もんすた-->
+    <id>10000000</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>6</amount>
+    <range>128</range>
+    <delay>0</delay>
+  </spawn>
+</Spawns>

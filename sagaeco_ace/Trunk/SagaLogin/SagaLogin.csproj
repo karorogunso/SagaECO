@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{86DE49A7-DADF-49A5-BA2E-27F8AF677509}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SagaLogin</RootNamespace>
+    <AssemblyName>SagaLogin</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationIcon>icon1.ico</ApplicationIcon>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>发布\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Bin\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <DebugSymbols>false</DebugSymbols>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Web|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Web\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Configuration\Configuration.cs" />
+    <Compile Include="LoginServer.cs" />
+    <Compile Include="Manager\MapServerManager.cs" />
+    <Compile Include="Network\Client\LoginClient.Ring.cs" />
+    <Compile Include="Network\Client\LoginClient.Chat.cs" />
+    <Compile Include="Network\Client\LoginClient.FriendList.cs" />
+    <Compile Include="Network\Client\LoginClient.Login.cs" />
+    <Compile Include="Network\Client\LoginClient.Map.cs" />
+    <Compile Include="Network\Client\LoginClient.cs" />
+    <Compile Include="Packets\Client\Chat\CSMG_CHAT_WHISPER.cs" />
+    <Compile Include="Packets\Client\FriendList\CSMG_FRIEND_DELETE.cs" />
+    <Compile Include="Packets\Client\FriendList\CSMG_FRIEND_ADD_REPLY.cs" />
+    <Compile Include="Packets\Client\FriendList\CSMG_FRIEND_ADD.cs" />
+    <Compile Include="Packets\Client\FriendList\CSMG_FRIEND_DETAIL_UPDATE.cs" />
+    <Compile Include="Packets\Client\FriendList\CSMG_FRIEND_MAP_UPDATE.cs" />
+    <Compile Include="Packets\Client\Login\CSMG_CHAR_STATUS.cs" />
+    <Compile Include="Packets\Client\Login\CSMG_REQUEST_MAP_SERVER.cs" />
+    <Compile Include="Packets\Client\Login\CSMG_CHAR_SELECT.cs" />
+    <Compile Include="Packets\Client\Login\CSMG_CHAR_DELETE.cs" />
+    <Compile Include="Packets\Client\Login\CSMG_CHAR_CREATE.cs" />
+    <Compile Include="Packets\Client\Login\CSMG_PING.cs" />
+    <Compile Include="Packets\Client\Login\CSMG_LOGIN.cs" />
+    <Compile Include="Packets\Client\Login\CSMG_SEND_GUID.cs" />
+    <Compile Include="Packets\Client\Login\CSMG_SEND_VERSION.cs" />
+    <Compile Include="Packets\Client\Ring\CSMG_RING_EMBLEM.cs" />
+    <Compile Include="Packets\Client\Ring\CSMG_RING_EMBLEM_NEW.cs" />
+    <Compile Include="Packets\Client\Tool\CSMG_TOOL_GIFTS.cs" />
+    <Compile Include="Packets\Client\WRP\CSMG_WRP_REQUEST.cs" />
+    <Compile Include="Packets\Map\INTERN_LOGIN_REQUEST_CONFIG_ANSWER.cs" />
+    <Compile Include="Packets\Map\INTERN_LOGIN_REQUEST_CONFIG.cs" />
+    <Compile Include="Packets\Map\INTERN_LOGIN_REGISTER.cs" />
+    <Compile Include="Packets\Server\Chat\SSMG_CHAT_WHISPER_FAILED.cs" />
+    <Compile Include="Packets\Server\Chat\SSMG_CHAT_WHISPER.cs" />
+    <Compile Include="Packets\Server\FriendList\SSMG_FRIEND_DELETE_FAILED.cs" />
+    <Compile Include="Packets\Server\FriendList\SSMG_FRIEND_ADD_FAILED.cs" />
+    <Compile Include="Packets\Server\FriendList\SSMG_FRIEND_ADD_OK.cs" />
+    <Compile Include="Packets\Server\FriendList\SSMG_FRIEND_ADD.cs" />
+    <Compile Include="Packets\Server\FriendList\SSMG_FRIEND_DETAIL_UPDATE.cs" />
+    <Compile Include="Packets\Server\FriendList\SSMG_FRIEND_STATUS_UPDATE.cs" />
+    <Compile Include="Packets\Server\FriendList\SSMG_FRIEND_MAP_UPDATE.cs" />
+    <Compile Include="Packets\Server\FriendList\SSMG_FRIEND_CHAR_INFO.cs" />
+    <Compile Include="Packets\Server\Login\SSMG_CHAR_STATUS.cs" />
+    <Compile Include="Packets\Server\Login\SSMG_SEND_TO_MAP_SERVER.cs" />
+    <Compile Include="Packets\Server\Login\SSMG_CHAR_SELECT_ACK.cs" />
+    <Compile Include="Packets\Server\Login\SSMG_CHAR_DELETE_ACK.cs" />
+    <Compile Include="Packets\Server\Login\SSMG_CHAR_CREATE_ACK.cs" />
+    <Compile Include="Packets\Server\Login\SSMG_CHAR_EQUIP.cs" />
+    <Compile Include="Packets\Server\Login\SSMG_CHAR_DATA.cs" />
+    <Compile Include="Packets\Server\Login\SSMG_PONG.cs" />
+    <Compile Include="Packets\Server\Login\SSMG_LOGIN_ACK.cs" />
+    <Compile Include="Packets\Server\Login\SSMG_LOGIN_ALLOWED.cs" />
+    <Compile Include="Packets\Server\Login\SSMG_VERSION_ACK.cs" />
+    <Compile Include="Packets\Server\Ring\SSMG_RING_EMBLEM.cs" />
+    <Compile Include="Packets\Server\Mail\SSMG_MAIL.cs" />
+    <Compile Include="Packets\Server\Mail\SSMG_GIFT.cs" />
+    <Compile Include="Packets\Server\Tool\SSMG_TOOL_RESULT.cs" />
+    <Compile Include="Packets\Server\WRP\SSMG_WRP_LIST.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Manager\LoginClientManager.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="console.ico" />
+    <Content Include="icon1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <Compile Include="Network\Client\LoginClient.Tool.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SagaDB\SagaDB.csproj">
+      <Project>{BC0E63AC-2A4A-45AE-A8A9-C680066BCAEC}</Project>
+      <Name>SagaDB</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SagaLib\SagaLib.csproj">
+      <Project>{DDDDCDA1-0D7C-48F3-A4D1-84219C43E195}</Project>
+      <Name>SagaLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PreBuildEvent>"$(ProjectDir)\Properties\GenerateAssemblyInfo.bat" "$(ProjectDir)" .\Properties\AssemblyInfo.tpl .\Properties\AssemblyInfo.cs</PreBuildEvent>
+  </PropertyGroup>
+</Project>

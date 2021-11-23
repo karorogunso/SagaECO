@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Flag:0c84-->
+<QuestDB GroupID="30">
+  <Quest>
+    <!--千姫-->
+    <ID>10031700</ID>
+    <Name>千姬的挑战(军团)(Lv ?)</Name>
+    <Type>HUNT</Type>
+    <Time>-1</Time>
+    <RewardItem>10022780</RewardItem>
+    <RewardCount>1</RewardCount>
+    <RequiredQuestPoints>1</RequiredQuestPoints>
+    <DungeonID>0</DungeonID>
+    <MinLV>255</MinLV>
+    <MaxLv>255</MaxLv>
+    <Job>NONE</Job>
+    <JobType>NOVICE</JobType>
+    <Race>NONE</Race>
+    <Gender>NONE</Gender>
+    <!--Detail Information-->
+    <!--千姫の挑戦！-->
+    <EXP>0</EXP>
+    <JEXP>0</JEXP>
+    <Gold>0</Gold>
+    <Fame>1</Fame>
+    <Count1>999</Count1>
+    <Party>True</Party>
+  </Quest>
+</QuestDB>

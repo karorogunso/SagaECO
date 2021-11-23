@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Actors>
+  <!--Type:
+	PC —— 普通玩家
+	SHOPPC —— 摆摊玩家
+	Event —— 事件
+	MOB —— 怪物
+	SKILL —— 技能
+	FI —— 家具
+	ITEM —— 物品
+	SHADOW —— 
+-->
+  <Actor Type="PC">
+    <MapID>30210000</MapID>
+    <x>50</x>
+    <y>50</y>
+    <dir>3</dir>
+    <Name>吉田佳美</Name>
+    <Race>0</Race>
+    <Form>1</Form>
+    <Gender>1</Gender>
+    <HairStyle>1</HairStyle>
+    <HairColor>10</HairColor>
+    <Wig>1</Wig>
+    <Face>131</Face>
+    <TailStyle>0</TailStyle>
+    <WingStyle>0</WingStyle>
+    <WingColor>0</WingColor>
+    <HEAD_ACCE>0</HEAD_ACCE>
+    <FACE_ACCE>0</FACE_ACCE>
+    <CHEST_ACCE>0</CHEST_ACCE>
+    <UPPER_BODY>0</UPPER_BODY>
+    <LOWER_BODY>0</LOWER_BODY>
+    <BACK>0</BACK>
+    <RIGHT_HAND>0</RIGHT_HAND>
+    <LEFT_HAND>0</LEFT_HAND>
+    <SHOES>0</SHOES>
+    <SOCKS>0</SOCKS>
+    <PET>0</PET>
+    <EFFECT>0</EFFECT>
+  </Actor>
+</Actors>

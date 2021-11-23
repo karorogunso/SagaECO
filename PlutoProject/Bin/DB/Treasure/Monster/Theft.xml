@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TreasureDB>
+  <TreasureList GroupName="Theft_01">
+    <Item rate="21" count="1">10007400</Item>
+    <Item rate="26" count="1">50100450</Item>
+    <Item rate="26" count="1">60106850</Item>
+    <Item rate="13" count="1">50019250</Item>
+    <Item rate="13" count="1">50019350</Item>
+    <Item rate="1" count="1">10019408</Item>
+  </TreasureList>
+  <TreasureList GroupName="Theft_02">
+    <Item rate="40" count="1">10007400</Item>
+    <Item rate="20" count="1">50100401</Item>
+    <Item rate="20" count="1">60106801</Item>
+    <Item rate="10" count="1">50019201</Item>
+    <Item rate="10" count="1">50019301</Item>
+    <Item rate="1" count="1">10019410</Item>
+  </TreasureList>
+</TreasureDB>

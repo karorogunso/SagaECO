@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Spawns>
+  <spawn>
+    <!--モックー　薄青　              LV45-->
+    <id>26060400</id>
+    <map>20149000</map>
+    <x>32</x>
+    <y>25</y>
+    <amount>2</amount>
+    <range>16</range>
+    <delay>10</delay>
+  </spawn>
+  <spawn>
+    <!--クリスタルアーチン　         LV45-->
+    <id>10870000</id>
+    <map>20149000</map>
+    <x>32</x>
+    <y>25</y>
+    <amount>2</amount>
+    <range>16</range>
+    <delay>10</delay>
+  </spawn>
+  <spawn>
+    <!--インキュバス         　　　　 LV56-->
+    <id>10410200</id>
+    <map>20149000</map>
+    <x>32</x>
+    <y>25</y>
+    <amount>2</amount>
+    <range>16</range>
+    <delay>10</delay>
+  </spawn>
+  <spawn>
+    <!--機械のかたまり-->
+    <id>30330000</id>
+    <map>20149000</map>
+    <x>32</x>
+    <y>25</y>
+    <amount>1</amount>
+    <range>16</range>
+    <delay>1500</delay>
+  </spawn>
+  <spawn>
+    <!--ギガントＧ２-->
+    <id>10830500</id>
+    <map>20149000</map>
+    <x>32</x>
+    <y>25</y>
+    <amount>1</amount>
+    <range>16</range>
+    <delay>120</delay>
+  </spawn>
+  <spawn>
+    <!--ギガントＧ２-->
+    <id>10830500</id>
+    <map>20149000</map>
+    <x>32</x>
+    <y>25</y>
+    <amount>1</amount>
+    <range>16</range>
+    <delay>120</delay>
+  </spawn>
+  <spawn>
+    <!--ギガントＧ２-->
+    <id>10830500</id>
+    <map>20149000</map>
+    <x>32</x>
+    <y>25</y>
+    <amount>1</amount>
+    <range>16</range>
+    <delay>10</delay>
+  </spawn>
+</Spawns>

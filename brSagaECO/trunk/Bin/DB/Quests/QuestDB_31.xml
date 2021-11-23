@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Flag:0c88-->
+<QuestDB GroupID="31">
+  <Quest>
+    <!--千姫-->
+    <ID>10031701</ID>
+    <Name>千姬的最终挑战！(Lv ?)</Name>
+    <Type>HUNT</Type>
+    <Time>3</Time>
+    <RewardItem>0</RewardItem>
+    <RewardCount>0</RewardCount>
+    <RequiredQuestPoints>0</RequiredQuestPoints>
+    <DungeonID>0</DungeonID>
+    <MinLV>255</MinLV>
+    <MaxLv>255</MaxLv>
+    <Job>NONE</Job>
+    <JobType>NOVICE</JobType>
+    <Race>NONE</Race>
+    <Gender>NONE</Gender>
+    <!--Detail Information-->
+    <!--最後の一匹-->
+    <EXP>0</EXP>
+    <JEXP>0</JEXP>
+    <Gold>0</Gold>
+    <Fame>1</Fame>
+    <ObjectID1>10010004</ObjectID1>
+    <Count1>1</Count1>
+    <Party>False</Party>
+  </Quest>
+</QuestDB>

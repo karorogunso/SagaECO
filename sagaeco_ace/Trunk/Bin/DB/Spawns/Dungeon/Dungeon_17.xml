@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Spawns>
+  <spawn rate="33">
+    <!--オーカジェリー-->
+    <id>10000100</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>3</amount>
+    <range>128</range>
+    <delay>5</delay>
+  </spawn>
+  <spawn rate="33">
+    <!--クリムゾンバウ-->
+    <id>10120100</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>3</amount>
+    <range>128</range>
+    <delay>5</delay>
+  </spawn>
+  <spawn rate="33">
+    <!--エルダーワーム-->
+    <id>10050200</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>3</amount>
+    <range>128</range>
+    <delay>5</delay>
+  </spawn>
+  <spawn rate="33">
+    <!--コケトリス-->
+    <id>10010100</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>2</amount>
+    <range>128</range>
+    <delay>5</delay>
+  </spawn>
+  <spawn rate="33">
+    <!--ローパー-->
+    <id>10080000</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>4</amount>
+    <range>128</range>
+    <delay>5</delay>
+  </spawn>
+  <spawn rate="40">
+    <!--クリムゾンバウ（青）-->
+    <id>10120401</id>
+    <x>90</x>
+    <y>90</y>
+    <amount>1</amount>
+    <range>10</range>
+    <delay>5</delay>
+  </spawn>
+  <spawn rate="60">
+    <!--ジャンボプルル-->
+    <id>10000006</id>
+    <x>90</x>
+    <y>90</y>
+    <amount>1</amount>
+    <range>10</range>
+    <delay>0</delay>
+  </spawn>
+  <spawn rate="100">
+    <!--コールタール-->
+    <id>10000900</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>2</amount>
+    <range>128</range>
+    <delay>5</delay>
+  </spawn>
+  <spawn rate="50">
+    <!--ワスプ-->
+    <id>10040100</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>4</amount>
+    <range>128</range>
+    <delay>5</delay>
+  </spawn>
+  <spawn rate="50">
+    <!--ホワイトファング-->
+    <id>10130400</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>3</amount>
+    <range>128</range>
+    <delay>5</delay>
+  </spawn>
+</Spawns>

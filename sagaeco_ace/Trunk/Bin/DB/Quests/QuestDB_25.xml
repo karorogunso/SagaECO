@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Flag:0c45-->
+<QuestDB GroupID="25">
+  <Quest>
+    <!--農家サム-->
+    <ID>10031200</ID>
+    <Name>除草（队伍）(Lv ?)</Name>
+    <Type>HUNT</Type>
+    <Time>7</Time>
+    <RewardItem>0</RewardItem>
+    <RewardCount>0</RewardCount>
+    <RequiredQuestPoints>0</RequiredQuestPoints>
+    <DungeonID>0</DungeonID>
+    <MinLV>255</MinLV>
+    <MaxLv>255</MaxLv>
+    <Job>NONE</Job>
+    <JobType>NOVICE</JobType>
+    <Race>NONE</Race>
+    <Gender>NONE</Gender>
+    <!--Detail Information-->
+    <!--草むしり-->
+    <EXP>0</EXP>
+    <JEXP>0</JEXP>
+    <Gold>300</Gold>
+    <Fame>0</Fame>
+    <MapID1>10057000</MapID1>
+    <ObjectID1>30150010</ObjectID1>
+    <Count1>50</Count1>
+    <Party>True</Party>
+  </Quest>
+</QuestDB>

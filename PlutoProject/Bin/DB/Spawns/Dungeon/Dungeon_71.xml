@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Spawns>
+  <spawn rate="14">
+    <!--リリカル-->
+    <id>10860010</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>2</amount>
+    <range>128</range>
+    <delay>120</delay>
+  </spawn>
+  <spawn rate="14">
+    <!--ウェンディー-->
+    <id>10860017</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>2</amount>
+    <range>128</range>
+    <delay>120</delay>
+  </spawn>
+  <spawn rate="14">
+    <!--ハーピー-->
+    <id>19060000</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>1</amount>
+    <range>128</range>
+    <delay>120</delay>
+  </spawn>
+  <spawn rate="14">
+    <!--アルケー-->
+    <id>19080000</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>1</amount>
+    <range>128</range>
+    <delay>120</delay>
+  </spawn>
+  <spawn rate="14">
+    <!--ドミニオン?ペナンス-->
+    <id>10470001</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>1</amount>
+    <range>128</range>
+    <delay>120</delay>
+  </spawn>
+  <spawn rate="14">
+    <!--ガッテンガー７-->
+    <id>10850002</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>2</amount>
+    <range>128</range>
+    <delay>120</delay>
+  </spawn>
+  <spawn rate="14">
+    <!--ＤＥＭ－０１-->
+    <id>19070000</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>2</amount>
+    <range>128</range>
+    <delay>120</delay>
+  </spawn>
+  <spawn rate="100">
+    <!--ネノオウ-->
+    <id>26070500</id>
+    <x>90</x>
+    <y>90</y>
+    <amount>1</amount>
+    <range>1</range>
+    <delay>120</delay>
+  </spawn>
+</Spawns>

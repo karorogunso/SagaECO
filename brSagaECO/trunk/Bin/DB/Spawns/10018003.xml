@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Spawns>
+  <spawn>
+    <!--プチプルル-->
+    <id>10000002</id>
+    <map>10018003</map>
+    <x>134</x>
+    <y>50</y>
+    <amount>13</amount>
+    <range>10</range>
+    <delay>10</delay>
+  </spawn>
+  <spawn>
+    <!--プチプルル-->
+    <id>10000002</id>
+    <map>10018003</map>
+    <x>136</x>
+    <y>86</y>
+    <amount>20</amount>
+    <range>13</range>
+    <delay>10</delay>
+  </spawn>
+</Spawns>

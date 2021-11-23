@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Spawns>
+  <spawn>
+    <!--ネコマタ菫イベント用ボス-->
+    <id>10830002</id>
+    <map>50008000</map>
+    <x>8</x>
+    <y>12</y>
+    <amount>1</amount>
+    <range>0</range>
+    <delay>690000</delay>
+  </spawn>
+</Spawns>

@@ -1,0 +1,34 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+using SagaDB.Actor;
+using SagaMap.Scripting;
+
+using SagaLib;
+namespace SagaScript.M21193000
+{
+    public class S11001794 : Event
+    {
+        public S11001794()
+        {
+            this.EventID = 11001794;
+        }
+
+        public override void OnEvent(ActorPC pc)
+        {
+            Say(pc, 0, "咕一咕一…$R;" +
+            "$P…$R;" +
+            "$P……$R;" +
+            "$P………啊嚏！$R;", "想睡的男孩");
+
+            //
+            /*
+            Say(pc, 0, "ぐーぐー…$R;" +
+            "$P…$R;" +
+            "$P……$R;" +
+            "$P………ふがっ！$R;", "居眠りしてる男");
+            */
+        }
+    }
+}

@@ -1,0 +1,658 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SagaLib</name>
+    </assembly>
+    <members>
+        <member name="M:SevenZip.ICoder.Code(System.IO.Stream,System.IO.Stream,System.Int64,System.Int64,SevenZip.ICodeProgress)">
+            <summary>
+            Codes streams.
+            </summary>
+            <param name="inStream">
+            input Stream.
+            </param>
+            <param name="outStream">
+            output Stream.
+            </param>
+            <param name="inSize">
+            input Size. -1 if unknown.
+            </param>
+            <param name="outSize">
+            output Size. -1 if unknown.
+            </param>
+            <param name="progress">
+            callback progress reference.
+            </param>
+            <exception cref="T:SevenZip.DataErrorException">
+            if input stream is not valid
+            </exception>
+        </member>
+        <member name="F:SagaLib.ClientManager.commandTable">
+            <summary>
+            Command table contains the commands that need to be called when a
+            packet is received. Key will be the packet type
+            </summary>
+        </member>
+        <member name="M:SagaLib.ClientManager.StartNetwork(System.Int32)">
+            <summary>
+            Starts the network listener socket.
+            </summary>
+        </member>
+        <member name="P:SagaLib.Factory`2.Instance">
+            <summary>
+            Return an instance of 
+            </summary>
+        </member>
+        <member name="T:SagaLib.Factory`2.SingletonHolder">
+            <summary>
+            Sealed class to avoid any heritage from this helper class
+            </summary>
+        </member>
+        <member name="M:SagaLib.Factory`2.SingletonHolder.#cctor">
+            <summary>
+            Explicit static constructor to tell C# compiler not to mark type as beforefieldinit
+            </summary>
+        </member>
+        <member name="T:SagaLib.Packet">
+            <summary>
+            Defines the base class of a network packet. Packets are send back and forth between the client 
+            and server. Different types of packets are used for different purposes. The general packet structure
+            is: PACKET_SIZE (2 bytes), PACKET_ID (2 bytes), PACKET_DATA (x bytes). The id bytes are considered to
+            be part of the data bytes.
+            The size bytes are unencrypted, but the id bytes and all data following are encrypted.
+            </summary>
+        </member>
+        <member name="F:SagaLib.Packet.size">
+            <summary>
+            The size of the packet is equal to the number of data bytes plus 2 bytes for the message id plus 2 bytes for the size.
+            </summary>
+        </member>
+        <member name="F:SagaLib.Packet.data">
+            <summary>
+            The data bytes (note: these include the id bytes and the size bytes)
+            </summary>
+        </member>
+        <member name="F:SagaLib.Packet.offset">
+            <summary>
+            Our current offset in the data array. After creation this will be set to 4 (the first
+            non ID data byte)
+            </summary>
+        </member>
+        <member name="F:SagaLib.Packet.doNotEncryptBuffer">
+            <summary>
+            If true, the data byte array will be cloned before it gets encrypted.
+            Set it to "true" if you want to send the packet multiple times.
+            </summary>
+        </member>
+        <member name="M:SagaLib.Packet.#ctor(System.UInt32)">
+            <summary>
+            Create a new packet with the given length. The data bytes are initialized to all zeroes.
+            </summary>
+            <param name="length">Length of the data bytes.</param>
+        </member>
+        <member name="M:SagaLib.Packet.#ctor">
+            <summary>
+            Create a new packet with no data bytes at all. The data array has to be initialized manually.
+            </summary>
+        </member>
+        <member name="M:SagaLib.Packet.SizeIsOk(System.UInt32)">
+            <summary>
+            Check to see if a given size is ok for a certain packet.
+            </summary>
+            <param name="size">Size to compare with.</param>
+            <returns>true: size is ok. false: size is not ok.</returns>
+        </member>
+        <member name="M:SagaLib.Packet.New">
+            <summary>
+            Create a new instance of this packet.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SagaLib.Packet.Parse(SagaLib.Client)">
+            <summary>
+            Parse this packet (only used for GetPackets)
+            </summary>
+        </member>
+        <member name="M:SagaLib.Packet.SetLength">
+            <summary>
+            Write the data length to the first 2 bytes of the packet.
+            </summary>
+        </member>
+        <member name="M:SagaLib.Packet.GetString(System.UInt16)">
+            <summary>
+            Get the Unicode string starting at index.
+            </summary>
+            <param name="index">Index of the string.</param>
+            <returns>String representation.</returns>
+        </member>
+        <member name="M:SagaLib.Packet.GetString">
+            <summary>
+            Get the Unicode string at the current offset.
+            </summary>
+            <returns>String representation.</returns>
+        </member>
+        <member name="M:SagaLib.Packet.GetStringFixedSize(System.UInt16)">
+            <summary>
+            Get the Unicode string at the current offset.
+            </summary>
+            <returns>String representation.</returns>
+        </member>
+        <member name="M:SagaLib.Packet.PutString(System.String,System.UInt16)">
+            <summary>
+            Put a string at the given index of the data.
+            </summary>
+            <param name="s">String to insert.</param>
+            <param name="index">Index at which to insert.</param>
+        </member>
+        <member name="M:SagaLib.Packet.PutString(System.String)">
+            <summary>
+            Put a string a the current offset.
+            </summary>
+            <param name="s">String to insert.</param>
+        </member>
+        <member name="M:SagaLib.Packet.GetByte(System.UInt16)">
+            <summary>
+            Get the byte at the given index.
+            </summary>
+            <param name="index">Index of the byte.</param>
+            <returns>Byte at the index.</returns>
+        </member>
+        <member name="M:SagaLib.Packet.GetByte">
+            <summary>
+            Get the byte at the current offset.
+            </summary>
+            <returns>The byte.</returns>
+        </member>
+        <member name="M:SagaLib.Packet.PutByte(System.Byte,System.UInt16)">
+            <summary>
+            Put the given byte at the given index.
+            </summary>
+            <param name="b">Byte to insert.</param>
+            <param name="index">Index to insert at.</param>
+        </member>
+        <member name="M:SagaLib.Packet.PutByte(System.Byte)">
+            <summary>
+            Put the given byte at the current offset.
+            </summary>
+            <param name="b">Byte to insert.</param>
+        </member>
+        <member name="M:SagaLib.Packet.GetUShort(System.UInt16)">
+            <summary>
+            Get the ushort at the given index.
+            </summary>
+            <param name="index">Index of the ushort.</param>
+            <returns>The ushort value at the index.</returns>
+        </member>
+        <member name="M:SagaLib.Packet.GetUShort">
+            <summary>
+            Get the ushort at the current offset.
+            </summary>
+            <returns>The ushort value at the offset.</returns>
+        </member>
+        <member name="M:SagaLib.Packet.PutUShort(System.UInt16,System.UInt16)">
+            <summary>
+            Put the given ushort at the given index.
+            </summary>
+            <param name="s">Ushort to insert.</param>
+            <param name="index">Index to insert at.</param>
+        </member>
+        <member name="M:SagaLib.Packet.PutUShort(System.UInt16)">
+            <summary>
+            Put the given ushort at the current offset.
+            </summary>
+            <param name="s"></param>
+        </member>
+        <member name="M:SagaLib.Packet.GetShort(System.UInt16)">
+            <summary>
+            Get the short at the given index.
+            </summary>
+            <param name="index">Index of the short.</param>
+            <returns>The short value at the index.</returns>
+        </member>
+        <member name="M:SagaLib.Packet.GetShort">
+            <summary>
+            Get the short at the current offset.
+            </summary>
+            <returns>The short value at the offset.</returns>
+        </member>
+        <member name="M:SagaLib.Packet.PutShort(System.Int16,System.UInt16)">
+            <summary>
+            Put the given short at the given index.
+            </summary>
+            <param name="s">Short to insert.</param>
+            <param name="index">Index to insert at.</param>
+        </member>
+        <member name="M:SagaLib.Packet.PutShort(System.Int16)">
+            <summary>
+            Put the given short at the current offset.
+            </summary>
+            <param name="s">Short to insert.</param>
+        </member>
+        <member name="M:SagaLib.Packet.GetBytes(System.UInt16,System.UInt16)">
+            <summary>
+            Get a set of bytes from a given location.
+            </summary>
+            <param name="count">Number of bytes to get.</param>
+            <param name="index">Indec from where to get bytes.</param>
+            <returns>Byte array.</returns>
+        </member>
+        <member name="M:SagaLib.Packet.GetBytes(System.UInt16)">
+            <summary>
+            Get a certain amount of bytes from the current offset.
+            </summary>
+            <param name="count">Number of bytes to read.</param>
+            <returns>Byte array.</returns>
+        </member>
+        <member name="M:SagaLib.Packet.PutBytes(System.Byte[],System.UInt16)">
+            <summary>
+            Put some given bytes at a given position in the data array.
+            </summary>
+            <param name="bdata">bytes to add to the data array</param>
+            <param name="index">position to add the bytes to</param>
+        </member>
+        <member name="M:SagaLib.Packet.PutBytes(System.Byte[])">
+            <summary>
+            Put some given bytes at the current offset in the data array.
+            </summary>
+            <param name="bdata">bytes to add to the data array</param>
+        </member>
+        <member name="M:SagaLib.Packet.GetInt(System.UInt16)">
+            <summary>
+            Get the int at the given index.
+            </summary>
+            <param name="index">Index of the int.</param>
+            <returns>The int value at the index.</returns>
+        </member>
+        <member name="M:SagaLib.Packet.GetInt">
+            <summary>
+            Get the int at the current offset.
+            </summary>
+            <returns>The int value at the offset.</returns>
+        </member>
+        <member name="M:SagaLib.Packet.PutInt(System.Int32,System.UInt16)">
+            <summary>
+            Put the given int at the given index.
+            </summary>
+            <param name="s">Int to insert.</param>
+            <param name="index">Index to insert at.</param>
+        </member>
+        <member name="M:SagaLib.Packet.PutInt(System.Int32)">
+            <summary>
+            Put the given int at the current offset in the data.
+            </summary>
+            <param name="s">Int to insert.</param>
+        </member>
+        <member name="M:SagaLib.Packet.GetUInt(System.UInt16)">
+            <summary>
+            Get the uint at the given index.
+            </summary>
+            <param name="index">Index of the uint.</param>
+            <returns>The uint value at the index.</returns>
+        </member>
+        <member name="M:SagaLib.Packet.GetUInt">
+            <summary>
+            Get the uint at the current offset.
+            </summary>
+            <returns>The uint value at the offset.</returns>
+        </member>
+        <member name="M:SagaLib.Packet.PutUInt(System.UInt32,System.UInt16)">
+            <summary>
+            Put the given uint at the given index.
+            </summary>
+            <param name="s">uint to insert.</param>
+            <param name="index">Index to insert at.</param>
+        </member>
+        <member name="M:SagaLib.Packet.PutUInt(System.UInt32)">
+            <summary>
+            Put the given uint at the current offset.
+            </summary>
+            <param name="s">uint to insert</param>
+        </member>
+        <member name="M:SagaLib.Packet.GetFloat(System.UInt16)">
+            <summary>
+            Get the float at the given index.
+            </summary>
+            <param name="index">Index of the float.</param>
+            <returns>The float value at the index.</returns>
+        </member>
+        <member name="M:SagaLib.Packet.GetFloat">
+            <summary>
+            Get the  float at the current offset.
+            </summary>
+            <returns>The float value at the offset.</returns>
+        </member>
+        <member name="M:SagaLib.Packet.PutFloat(System.Single,System.UInt16)">
+            <summary>
+            Put the given float at the given index.
+            </summary>
+            <param name="s">Float to insert.</param>
+            <param name="index">Index to insert at.</param>
+        </member>
+        <member name="M:SagaLib.Packet.PutFloat(System.Single)">
+            <summary>
+            Put the given float at the current offset in the data.
+            </summary>
+            <param name="s">Float to insert.</param>
+        </member>
+        <member name="T:SagaLib.Singleton`1">
+            <summary>
+            Lazy-loading singleton
+            </summary>
+            <typeparam name="T">The type to have the singleton instance of</typeparam>
+        </member>
+        <member name="M:SagaLib.Singleton`1.#ctor">
+            <summary>
+            Private constructor to avoid external instantiation. 
+            </summary>
+            <remarks>
+            This is present to keep the compiler from providing a default public constructor
+            </remarks>
+        </member>
+        <member name="P:SagaLib.Singleton`1.Instance">
+            <summary>
+            Return an instance of 
+            </summary>
+        </member>
+        <member name="T:SagaLib.Singleton`1.SingletonHolder">
+            <summary>
+            Sealed class to avoid any heritage from this helper class
+            </summary>
+        </member>
+        <member name="M:SagaLib.Singleton`1.SingletonHolder.#cctor">
+            <summary>
+            Explicit static constructor to tell C# compiler not to mark type as beforefieldinit
+            </summary>
+        </member>
+        <member name="F:SagaLib.MotionType.SIT">
+            <summary>
+            Only for logout
+            </summary>
+        </member>
+        <member name="T:SagaLib.Global">
+            <summary>
+            The global class contains objects that can be usefull throughout the entire application.
+            </summary>
+        </member>
+        <member name="F:SagaLib.Global.Unicode">
+            <summary>
+            Unicode encoder to encode en decode from bytes to string and visa versa.
+            </summary>
+        </member>
+        <member name="F:SagaLib.Global.Random">
+            <summary>
+            A random number generator.
+            </summary>
+        </member>
+        <member name="M:SagaLib.Global.SetStringLength(System.String,System.Int32)">
+            <summary>
+            Make sure the length of a string doesn't exceed a given maximum length.
+            </summary>
+            <param name="s">String to process.</param>
+            <param name="length">Maximum length for the string.</param>
+            <returns>The string trimmed to a given size.</returns>
+        </member>
+        <member name="F:SagaLib.Global.clientMananger">
+            <summary>
+            The global clientmananger.
+            </summary>
+        </member>
+        <member name="M:SagaLib.Global.MakeHourDelay(System.Int32)">
+            <summary>
+            Convert hours into task delay time
+            </summary>
+        </member>
+        <member name="M:SagaLib.Global.MakeMinDelay(System.Int32)">
+            <summary>
+            Convert minutes into task delay time
+            </summary>
+        </member>
+        <member name="M:SagaLib.Global.MakeSecDelay(System.Int32)">
+            <summary>
+            Convert seconds into task delay time
+            </summary>
+        </member>
+        <member name="M:SagaLib.Global.MakeMilliDelay(System.Int32)">
+            <summary>
+            Convert milliseconds into task delay time
+            </summary>
+        </member>
+        <member name="P:SagaLib.FactoryList`2.Instance">
+            <summary>
+            Return an instance of 
+            </summary>
+        </member>
+        <member name="T:SagaLib.FactoryList`2.SingletonHolder">
+            <summary>
+            Sealed class to avoid any heritage from this helper class
+            </summary>
+        </member>
+        <member name="M:SagaLib.FactoryList`2.SingletonHolder.#cctor">
+            <summary>
+            Explicit static constructor to tell C# compiler not to mark type as beforefieldinit
+            </summary>
+        </member>
+        <member name="F:SagaLib.NetIO.commandTable">
+            <summary>
+            Command table contains the commands that need to be called when a
+            packet is received. Key will be the packet type
+            </summary>
+        </member>
+        <member name="M:SagaLib.NetIO.Disconnect">
+            <summary>
+            Disconnect the client
+            </summary>
+        </member>
+        <member name="M:SagaLib.VirtualFileSystem.Lpk.LpkFile.GetInfo(System.String)">
+            <summary>
+            取得文件元信息
+            </summary>
+            <param name="name">文件名</param>
+            <returns>元信息</returns>
+        </member>
+        <member name="M:SagaLib.VirtualFileSystem.Lpk.LpkFile.Exists(System.String)">
+            <summary>
+            检查某文件是否存在
+            </summary>
+            <param name="fileName">文件名</param>
+            <returns></returns>
+        </member>
+        <member name="M:SagaLib.VirtualFileSystem.Lpk.LpkFile.AddFile(System.String,System.IO.Stream)">
+            <summary>
+            向压缩包添加文件
+            </summary>
+            <param name="fileName">文件名</param>
+            <param name="inStream">要添加的文件的流</param>
+        </member>
+        <member name="M:SagaLib.VirtualFileSystem.Lpk.LpkFile.AddFile(System.String,System.IO.Stream,SevenZip.ICodeProgress)">
+            <summary>
+            向压缩包添加文件
+            </summary>
+            <param name="fileName">文件名</param>
+            <param name="inStream">要添加的文件的流</param>
+            <param name="progress">压缩进度回调对象</param>
+        </member>
+        <member name="M:SagaLib.VirtualFileSystem.Lpk.LpkFile.OpenFile(System.String)">
+            <summary>
+            从压缩包解压某文件到内存
+            </summary>
+            <param name="fileName">文件名</param>
+            <returns></returns>
+        </member>
+        <member name="M:SagaLib.VirtualFileSystem.Lpk.LpkFile.OpenFile(System.String,SevenZip.ICodeProgress)">
+            <summary>
+            从压缩包解压某文件到内存
+            </summary>
+            <param name="fileName">文件名</param>
+            <param name="progress">解压进度回调对象</param>
+            <returns></returns>
+        </member>
+        <member name="P:SagaLib.VirtualFileSystem.Lpk.LpkFile.GetFileNames">
+            <summary>
+            取得所有文件的元信息
+            </summary>
+            <returns>元信息</returns>
+        </member>
+        <member name="P:SagaLib.VirtualFileSystem.Lpk.LpkFile.FileCount">
+            <summary>
+            文件总数
+            </summary>
+        </member>
+        <member name="P:SagaLib.VirtualFileSystem.Lpk.LpkFile.TotalSize">
+            <summary>
+            总大小
+            </summary>
+        </member>
+        <member name="P:SagaLib.VirtualFileSystem.Lpk.LpkFile.TotalCompressedSize">
+            <summary>
+            总压缩后大小
+            </summary>
+        </member>
+        <member name="P:SagaLib.FactoryString`2.Instance">
+            <summary>
+            Return an instance of 
+            </summary>
+        </member>
+        <member name="T:SagaLib.FactoryString`2.SingletonHolder">
+            <summary>
+            Sealed class to avoid any heritage from this helper class
+            </summary>
+        </member>
+        <member name="M:SagaLib.FactoryString`2.SingletonHolder.#cctor">
+            <summary>
+            Explicit static constructor to tell C# compiler not to mark type as beforefieldinit
+            </summary>
+        </member>
+        <member name="T:SagaLib.BitMask`1">
+            <summary>
+            原子掩码类的泛型封装
+            </summary>
+            <typeparam name="T">一个枚举类型</typeparam>
+        </member>
+        <member name="M:SagaLib.BitMask`1.Test(`0)">
+            <summary>
+            检测某个标识
+            </summary>
+            <param name="Mask">标识</param>
+            <returns>值</returns>
+        </member>
+        <member name="M:SagaLib.BitMask`1.SetValue(`0,System.Boolean)">
+            <summary>
+            设定某标识的值
+            </summary>
+            <param name="bitmask">标识</param>
+            <param name="val">真值</param>
+        </member>
+        <member name="P:SagaLib.BitMask`1.Value">
+            <summary>
+            此子掩码32位整数值
+            </summary>
+        </member>
+        <member name="T:SagaLib.BitMask">
+            <summary>
+            子掩码标识类
+            </summary>
+        </member>
+        <member name="M:SagaLib.BitMask.Test(System.Object)">
+            <summary>
+            检测某个标识
+            </summary>
+            <param name="Mask">标识</param>
+            <returns>值</returns>        
+        </member>
+        <member name="M:SagaLib.BitMask.Test(System.Int32)">
+            <summary>
+            检测某个标识
+            </summary>
+            <param name="Mask">标识</param>
+            <returns>值</returns>        
+        </member>
+        <member name="M:SagaLib.BitMask.SetValue(System.Object,System.Boolean)">
+            <summary>
+            设定某标识的值
+            </summary>
+            <param name="bitmask">标识</param>
+            <param name="val">真值</param>        
+        </member>
+        <member name="M:SagaLib.BitMask.SetValue(System.Int32,System.Boolean)">
+            <summary>
+            设定某标识的值
+            </summary>
+            <param name="bitmask">标识</param>
+            <param name="val">真值</param>
+        </member>
+        <member name="T:SevenZip.DataErrorException">
+            <summary>
+            The exception that is thrown when an error in input stream occurs during decoding.
+            </summary>
+        </member>
+        <member name="T:SevenZip.InvalidParamException">
+            <summary>
+            The exception that is thrown when the value of an argument is outside the allowable range.
+            </summary>
+        </member>
+        <member name="M:SevenZip.ICodeProgress.SetProgress(System.Int64,System.Int64)">
+            <summary>
+            Callback progress.
+            </summary>
+            <param name="inSize">
+            input size. -1 if unknown.
+            </param>
+            <param name="outSize">
+            output size. -1 if unknown.
+            </param>
+        </member>
+        <member name="T:SevenZip.CoderPropID">
+            <summary>
+            Provides the fields that represent properties idenitifiers for compressing.
+            </summary>
+        </member>
+        <member name="F:SevenZip.CoderPropID.DictionarySize">
+            <summary>
+            Specifies size of dictionary.
+            </summary>
+        </member>
+        <member name="F:SevenZip.CoderPropID.UsedMemorySize">
+            <summary>
+            Specifies size of memory for PPM*.
+            </summary>
+        </member>
+        <member name="F:SevenZip.CoderPropID.Order">
+            <summary>
+            Specifies order for PPM methods.
+            </summary>
+        </member>
+        <!-- 对于成员“F:SevenZip.CoderPropID.PosStateBits”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“F:SevenZip.CoderPropID.LitContextBits”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“F:SevenZip.CoderPropID.LitPosBits”忽略有格式错误的 XML 注释 -->
+        <member name="F:SevenZip.CoderPropID.NumFastBytes">
+            <summary>
+            Specifies number of fast bytes for LZ*.
+            </summary>
+        </member>
+        <member name="F:SevenZip.CoderPropID.MatchFinder">
+            <summary>
+            Specifies match finder. LZMA: "BT2", "BT4" or "BT4B".
+            </summary>
+        </member>
+        <member name="F:SevenZip.CoderPropID.NumPasses">
+            <summary>
+            Specifies number of passes.
+            </summary>
+        </member>
+        <member name="F:SevenZip.CoderPropID.Algorithm">
+            <summary>
+            Specifies number of algorithm.
+            </summary>
+        </member>
+        <member name="F:SevenZip.CoderPropID.MultiThread">
+            <summary>
+            Specifies multithread mode.
+            </summary>
+        </member>
+        <member name="F:SevenZip.CoderPropID.EndMarker">
+            <summary>
+            Specifies mode with end marker.
+            </summary>
+        </member>
+    </members>
+</doc>

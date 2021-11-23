@@ -1,0 +1,17 @@
+c:\users\tomato\documents\visual studio 2013\Projects\EffectTranslateTool\EffectTranslateTool\bin\Debug\EffectTranslateTool.exe.config
+c:\users\tomato\documents\visual studio 2013\Projects\EffectTranslateTool\EffectTranslateTool\obj\Debug\EffectTranslateTool.csprojResolveAssemblyReference.cache
+c:\users\tomato\documents\visual studio 2013\Projects\EffectTranslateTool\EffectTranslateTool\obj\Debug\EffectTranslateTool.Properties.Resources.resources
+c:\users\tomato\documents\visual studio 2013\Projects\EffectTranslateTool\EffectTranslateTool\obj\Debug\EffectTranslateTool.csproj.GenerateResource.Cache
+c:\users\tomato\documents\visual studio 2013\Projects\EffectTranslateTool\EffectTranslateTool\bin\Debug\EffectTranslateTool.exe
+c:\users\tomato\documents\visual studio 2013\Projects\EffectTranslateTool\EffectTranslateTool\bin\Debug\EffectTranslateTool.pdb
+c:\users\tomato\documents\visual studio 2013\Projects\EffectTranslateTool\EffectTranslateTool\obj\Debug\EffectTranslateTool.exe
+c:\users\tomato\documents\visual studio 2013\Projects\EffectTranslateTool\EffectTranslateTool\obj\Debug\EffectTranslateTool.pdb
+E:\ECOAceProject\Tools\EffectTranslateTool\EffectTranslateTool\bin\Debug\EffectTranslateTool.exe.config
+E:\ECOAceProject\Tools\EffectTranslateTool\EffectTranslateTool\obj\Debug\EffectTranslateTool.exe
+E:\ECOAceProject\Tools\EffectTranslateTool\EffectTranslateTool\obj\Debug\EffectTranslateTool.pdb
+E:\ECOAceProject\Tools\EffectTranslateTool\EffectTranslateTool\bin\Debug\EffectTranslateTool.exe
+E:\ECOAceProject\Tools\EffectTranslateTool\EffectTranslateTool\bin\Debug\EffectTranslateTool.pdb
+E:\ECOAceProject\Tools\EffectTranslateTool\EffectTranslateTool\obj\Debug\EffectTranslateTool.frmMain.resources
+E:\ECOAceProject\Tools\EffectTranslateTool\EffectTranslateTool\obj\Debug\EffectTranslateTool.Properties.Resources.resources
+E:\ECOAceProject\Tools\EffectTranslateTool\EffectTranslateTool\obj\Debug\EffectTranslateTool.csproj.GenerateResource.Cache
+E:\ECOAceProject\Tools\EffectTranslateTool\EffectTranslateTool\obj\Debug\EffectTranslateTool.csprojResolveAssemblyReference.cache

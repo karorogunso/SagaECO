@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Flag:0c27-->
+<QuestDB GroupID="8">
+  <Quest>
+    <!--西軍守衛-->
+    <ID>10000011</ID>
+    <Name>擊退海膽！(Lv 1)</Name>
+    <Type>HUNT</Type>
+    <Time>60</Time>
+    <RewardItem>0</RewardItem>
+    <RewardCount>0</RewardCount>
+    <RequiredQuestPoints>1</RequiredQuestPoints>
+    <DungeonID>0</DungeonID>
+    <MinLV>1</MinLV>
+    <MaxLv>20</MaxLv>
+    <Job>NONE</Job>
+    <JobType>NOVICE</JobType>
+    <Race>NONE</Race>
+    <Gender>NONE</Gender>
+    <!--Detail Information-->
+    <!--西軍アーチン-->
+    <EXP>27</EXP>
+    <JEXP>82</JEXP>
+    <Gold>80</Gold>
+    <Fame>1</Fame>
+    <MapID1>10022000</MapID1>
+    <ObjectID1>10070000</ObjectID1>
+    <Count1>5</Count1>
+    <Party>False</Party>
+  </Quest>
+  <Quest>
+    <!--西軍守衛-->
+    <ID>10000020</ID>
+    <Name>維持奧克魯尼亞西部平原的和平！(Lv 4)</Name>
+    <Type>HUNT</Type>
+    <Time>120</Time>
+    <RewardItem>0</RewardItem>
+    <RewardCount>0</RewardCount>
+    <RequiredQuestPoints>1</RequiredQuestPoints>
+    <DungeonID>0</DungeonID>
+    <MinLV>4</MinLV>
+    <MaxLv>20</MaxLv>
+    <Job>NONE</Job>
+    <JobType>NOVICE</JobType>
+    <Race>NONE</Race>
+    <Gender>NONE</Gender>
+    <!--Detail Information-->
+    <!--西軍ｍ022-->
+    <EXP>97</EXP>
+    <JEXP>292</JEXP>
+    <Gold>480</Gold>
+    <Fame>1</Fame>
+    <MapID1>10022000</MapID1>
+    <ObjectID1>10000000</ObjectID1>
+    <Count1>15</Count1>
+    <ObjectID2>10070000</ObjectID2>
+    <Count2>10</Count2>
+    <ObjectID3>10000800</ObjectID3>
+    <Count3>3</Count3>
+    <Party>True</Party>
+  </Quest>
+  <Quest>
+    <!--西軍守衛-->
+    <ID>12000003</ID>
+    <Name>收集杰利科！(Lv 1)</Name>
+    <Type>GATHER</Type>
+    <Time>60</Time>
+    <RewardItem>0</RewardItem>
+    <RewardCount>0</RewardCount>
+    <RequiredQuestPoints>1</RequiredQuestPoints>
+    <DungeonID>0</DungeonID>
+    <MinLV>1</MinLV>
+    <MaxLv>20</MaxLv>
+    <Job>NONE</Job>
+    <JobType>NOVICE</JobType>
+    <Race>NONE</Race>
+    <Gender>NONE</Gender>
+    <!--Detail Information-->
+    <!--ゼリコ-->
+    <EXP>55</EXP>
+    <JEXP>55</JEXP>
+    <Gold>80</Gold>
+    <Fame>1</Fame>
+    <ObjectID1>10032800</ObjectID1>
+    <Count1>3</Count1>
+  </Quest>
+  <Quest>
+    <!--西軍守衛-->
+    <ID>12000008</ID>
+    <Name>收集海膽的刺！(Lv 2)</Name>
+    <Type>GATHER</Type>
+    <Time>60</Time>
+    <RewardItem>0</RewardItem>
+    <RewardCount>0</RewardCount>
+    <RequiredQuestPoints>1</RequiredQuestPoints>
+    <DungeonID>0</DungeonID>
+    <MinLV>2</MinLV>
+    <MaxLv>20</MaxLv>
+    <Job>NONE</Job>
+    <JobType>NOVICE</JobType>
+    <Race>NONE</Race>
+    <Gender>NONE</Gender>
+    <!--Detail Information-->
+    <!--アーチンのトゲ-->
+    <EXP>55</EXP>
+    <JEXP>55</JEXP>
+    <Gold>80</Gold>
+    <Fame>1</Fame>
+    <ObjectID1>10025200</ObjectID1>
+    <Count1>3</Count1>
+  </Quest>
+</QuestDB>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Spawns>
+  <spawn rate="50">
+    <!--木箱-->
+    <id>10360001</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>6</amount>
+    <range>128</range>
+    <delay>120</delay>
+  </spawn>
+  <spawn rate="50">
+    <!--宝箱-->
+    <id>10370001</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>6</amount>
+    <range>128</range>
+    <delay>120</delay>
+  </spawn>
+  <spawn rate="50">
+    <!--黒鬼蜘蛛-->
+    <id>10210901</id>
+    <x>90</x>
+    <y>90</y>
+    <amount>1</amount>
+    <range>10</range>
+    <delay>0</delay>
+  </spawn>
+  <spawn rate="50">
+    <!--夜叉蜘蛛-->
+    <id>10211400</id>
+    <x>90</x>
+    <y>90</y>
+    <amount>1</amount>
+    <range>10</range>
+    <delay>0</delay>
+  </spawn>
+  <spawn rate="20">
+    <!--てすてす宝箱用-->
+    <id>30270000</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>1</amount>
+    <range>128</range>
+    <delay>0</delay>
+  </spawn>
+</Spawns>

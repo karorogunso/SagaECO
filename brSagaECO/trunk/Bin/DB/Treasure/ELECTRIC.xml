@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TreasureDB>
+  <TreasureList GroupName="ELECTRIC">
+    <Item rate="100" count="1">10029900</Item>
+    <Item rate="100" count="1">10039000</Item>
+    <Item rate="100" count="1">10023100</Item>
+    <Item rate="100" count="1">10023200</Item>
+    <Item rate="100" count="1">10030201</Item>
+    <Item rate="1" count="1">10030200</Item>
+    <Item rate="1" count="1">10030100</Item>
+  </TreasureList>
+</TreasureDB>

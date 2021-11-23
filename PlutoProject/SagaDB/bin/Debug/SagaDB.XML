@@ -1,0 +1,4691 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SagaDB</name>
+    </assembly>
+    <members>
+        <member name="F:SagaDB.Account.lastLoginTime">
+            <summary>
+            上次登录时间
+            </summary>
+        </member>
+        <member name="F:SagaDB.Account.questNextTime">
+            <summary>
+            任务点下次重置时间
+            </summary>
+        </member>
+        <member name="P:SagaDB.Account.Name">
+            <summary>
+            帐号名
+            </summary>
+        </member>
+        <member name="P:SagaDB.Account.Password">
+            <summary>
+            密码
+            </summary>
+        </member>
+        <member name="P:SagaDB.Account.DeletePassword">
+            <summary>
+            人物删除密码
+            </summary>
+        </member>
+        <member name="P:SagaDB.Account.AccountID">
+            <summary>
+            帐号ID
+            </summary>
+        </member>
+        <member name="P:SagaDB.Account.Characters">
+            <summary>
+            帐号所有人物
+            </summary>
+        </member>
+        <member name="P:SagaDB.Account.GMLevel">
+            <summary>
+            GM权限
+            </summary>
+        </member>
+        <member name="P:SagaDB.Account.Bank">
+            <summary>
+            银行余额
+            </summary>
+        </member>
+        <member name="P:SagaDB.Account.Banned">
+            <summary>
+            帐号是否被封
+            </summary>
+        </member>
+        <member name="P:SagaDB.Account.LastIP">
+            <summary>
+            上次登录IP
+            </summary>
+        </member>
+        <member name="P:SagaDB.Account.LastIP2">
+            <summary>
+            补偿IP
+            </summary>
+        </member>
+        <member name="P:SagaDB.Account.MacAddress">
+            <summary>
+            物理地址
+            </summary>
+        </member>
+        <member name="P:SagaDB.Account.PlayerNames">
+            <summary>
+            该账号所有角色名
+            </summary>
+        </member>
+        <member name="M:SagaDB.AccountDB.WriteUser(SagaDB.Account)">
+            <summary>
+            Add the given user to the database.
+            </summary>
+            <param name="user">User that needs to be added.</param>
+        </member>
+        <member name="M:SagaDB.AccountDB.GetUser(System.String)">
+            <summary>
+            Get a user from the database using the given name.
+            </summary>
+            <param name="name">Name of the user.</param>
+            <returns>The user with the given name.</returns>
+        </member>
+        <member name="M:SagaDB.ActorDB.SaveChar(SagaDB.Actor.ActorPC)">
+            <summary>
+            Write the given character to the database.
+            </summary>
+            <param name="aChar">Character that needs to be writen.</param>
+        </member>
+        <member name="M:SagaDB.ActorDB.GetFriendList(SagaDB.Actor.ActorPC)">
+            <summary>
+            取得指定玩家的好友列表
+            </summary>
+            <param name="pc">玩家</param>
+            <returns>好友列表</returns>
+        </member>
+        <member name="M:SagaDB.ActorDB.GetFriendList2(SagaDB.Actor.ActorPC)">
+            <summary>
+            取得添加指定玩家为好友的玩家列表
+            </summary>
+            <param name="pc">玩家</param>
+            <returns>玩家列表</returns>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPartner.ActorPartnerID">
+            <summary>
+            存在于数据库的ActorPartnerID
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPartner.Level">
+            <summary>
+            等级
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPartner.Motion">
+            <summary>
+            动作
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.Berserker">
+            <summary>
+            狂战士
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.Curse">
+            <summary>
+            诅咒
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.Perspective">
+            <summary>
+            透视
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.Float">
+            <summary>
+            浮游
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.BreathingInWater">
+            <summary>
+            水中呼吸
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.Transparent">
+            <summary>
+            透明
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.Undead">
+            <summary>
+            不死
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.Mushroom">
+            <summary>
+            蘑菇
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.Stiff">
+            <summary>
+            Stiff
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.TheDamed">
+            <summary>
+            咒缚
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.Sealed">
+            <summary>
+            封印
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.MagicSealed">
+            <summary>
+            封魔
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.GetReadyPossession">
+            <summary>
+            准备PY Possession
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.HotGuard">
+            <summary>
+            热波防御
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.ColdGuard">
+            <summary>
+            寒波防御
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.VacuumGuard">
+            <summary>
+            真空防御
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.DeadlyPoison">
+            <summary>
+            猛毒
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.HolyFeather">
+            <summary>
+            神圣羽毛
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.ConstructionOfTheTurtle">
+            <summary>
+            乌龟架势
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.FormationOfDodgeless">
+            <summary>
+            必中阵
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.ShortSwordDelayCancel">
+            <summary>
+            短 剑延迟取消
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.DelayCancel">
+            <summary>
+            延迟取消
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.AxeDelayCancel">
+            <summary>
+            斧延迟取消
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.SpearDelayCancel">
+            <summary>
+            矛延迟取消
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.BowDelayCancel">
+            <summary>
+            弓延迟取消
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.DefenseSlash">
+            <summary>
+            斩击抵抗
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.DefenseStub">
+            <summary>
+            戳刺抵抗
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.DefenseBlow">
+            <summary>
+            打击抵抗
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.Revive">
+            <summary>
+            再生
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.PetUp">
+            <summary>
+            这是什么
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.Ignition">
+            <summary>
+            点火
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.WeaponNatureElementUp">
+            <summary>
+            武器の無属性上昇
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.WeaponFireElementUp">
+            <summary>
+            武器の火属性上昇
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.WeaponWaterElementUp">
+            <summary>
+            武器の水属性上昇
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.WeaponWindElementUp">
+            <summary>
+            武器の水属性上昇
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.WeaponEarthElementUp">
+            <summary>
+            武器の土属性上昇
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.WeaponHolyElementUp">
+            <summary>
+            武器の光属性上昇
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.WeaponDarkElementUp">
+            <summary>
+            武器の闇属性上昇
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.WeaponNatureElementDown">
+            <summary>
+            武器の無属性減少
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.WeaponFireElementDown">
+            <summary>
+            武器の火属性減少
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.WeaponWaterElementDown">
+            <summary>
+            武器の水属性減少
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.WeaponWindElementDown">
+            <summary>
+            武器の風属性減少
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.WeaponEarthElementDown">
+            <summary>
+            武器の土属性減少
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.WeaponLightElementDown">
+            <summary>
+            武器の光属性減少
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.WeaponDarkElementDown">
+            <summary>
+            武器の闇属性減少
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.BodyNatureElementUp">
+            <summary>
+            体の無属性上昇
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.BodyFireElementUp">
+            <summary>
+            体の火属性上昇
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.BodyWaterElementUp">
+            <summary>
+            体の水属性上昇
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.BodyWindElementUp">
+            <summary>
+            体の風属性上昇
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.BodyEarthElementUp">
+            <summary>
+            体の土属性上昇
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.BodyHolyElementUp">
+            <summary>
+            体の光属性上昇
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.BodyDarkElementUp">
+            <summary>
+            体の闇属性上昇
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.BodyNatureElementDown">
+            <summary>
+            体の無属性減少
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.BodyFireElementDown">
+            <summary>
+            体の火属性減少
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.BodyWaterElementDown">
+            <summary>
+            体の火属性減少
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.BodyWindElementDown">
+            <summary>
+            体の風属性減少
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.BodyEarthElementDown">
+            <summary>
+            体の土属性減少
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.BodyLightElementDown">
+            <summary>
+            体の光属性減少
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.BodyDarkElementDown">
+            <summary>
+            体の闇属性減少
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.MaxHPUp">
+            <summary>
+            最大HP上昇
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.MaxMPUp">
+            <summary>
+            最大MP上昇
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.MaxSPUp">
+            <summary>
+            最大SP上昇
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.MoveSpeedUp">
+            <summary>
+            移動力上昇
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.MinAtkUp">
+            <summary>
+            最小攻撃力上昇
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.MaxAtkUp">
+            <summary>
+            最大攻撃力上昇
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.MinMagicAtkUp">
+            <summary>
+            最小魔法攻撃力上昇
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.MaxMagicAtkUp">
+            <summary>
+            最大魔法攻撃力上昇
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.DefRateUp">
+            <summary>
+            防御率上昇
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.DefUp">
+            <summary>
+            防御力上昇
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.MagicDefRateUp">
+            <summary>
+            魔法防御率上昇
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.MagicDefUp">
+            <summary>
+            魔法防御力上昇
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.ShortHitUp">
+            <summary>
+            近距離命中率上昇
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.LongHitUp">
+            <summary>
+            遠距離命中率上昇
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.MagicHitUp">
+            <summary>
+            魔法命中率上昇
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.ShortDodgeUp">
+            <summary>
+            近距離回避率上昇
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.LongDodgeUp">
+            <summary>
+            遠距離回避上昇
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.MagicAvoidUp">
+            <summary>
+            魔法抵抗上昇
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.CriticalRateUp">
+            <summary>
+            クリティカル率上昇
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.CriticalDodgeUp">
+            <summary>
+            クリティカル回避率上昇
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.HPRegenUp">
+            <summary>
+            HP回復率上昇
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.MPRegenUp">
+            <summary>
+            MP回復率上昇
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.SPRegenUp">
+            <summary>
+            SP回復率上昇
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.AttackSpeedUp">
+            <summary>
+            攻撃スピード上昇
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.CastSpeedUp">
+            <summary>
+            詠唱スピード上昇
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.STRUp">
+            <summary>
+            STR上昇
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.DEXUp">
+            <summary>
+            DEX上昇
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.INTUp">
+            <summary>
+            INT上昇
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.VITUp">
+            <summary>
+            VIT上昇
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.AGIUp">
+            <summary>
+            AGI上昇
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.MagUp">
+            <summary>
+            MAG上昇
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.MaxHPDown">
+            <summary>
+            最大HP減少
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.MaxMPDown">
+            <summary>
+            最大MP減少
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.MaxSPDown">
+            <summary>
+            最大SP減少
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.MinAtkDown">
+            <summary>
+            最小攻撃力減少
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.MaxAtkDown">
+            <summary>
+            最大攻撃力減少
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.MinMagicAtkDown">
+            <summary>
+            最小魔法攻撃力減少
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.MaxMagicAtkDown">
+            <summary>
+            最大魔法攻撃力減少
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.DefRateDown">
+            <summary>
+            防御率減少
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.DefDown">
+            <summary>
+            防御力減少
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.MagicDefRateDown">
+            <summary>
+            魔法防御率減少
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.MagicDefDown">
+            <summary>
+            魔法防御力減少
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.ShortHitDown">
+            <summary>
+            近距離命中率減少
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.LongHitDown">
+            <summary>
+            遠距離命中率減少
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.MagicHitDown">
+            <summary>
+            魔法命中率減少
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.ShortDodgeDown">
+            <summary>
+            近距離回避率減少
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.LongDodgeDown">
+            <summary>
+            遠距離回避率減少
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.MagicAvoidDown">
+            <summary>
+            魔法抵抗率減少
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.CriticalRateDown">
+            <summary>
+            クリティカル率減少
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.CriticalDodgeDown">
+            <summary>
+            クリティカル回避率減少
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.HPRegenDown">
+            <summary>
+            HP回復率減少
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.MPRegenDown">
+            <summary>
+            MP回復率減少
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.SPRegenDown">
+            <summary>
+            SP回復率減少
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.AttackSpeedDown">
+            <summary>
+            攻撃スピード減少
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.CastSpeedDown">
+            <summary>
+            詠唱スピード減少
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.STRDown">
+            <summary>
+            STR減少
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.DEXDown">
+            <summary>
+            DEX減少
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.INTDown">
+            <summary>
+            INT減少
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.VITDown">
+            <summary>
+            VIT減少
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.AGIDown">
+            <summary>
+            AGI減少
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.MAGDown">
+            <summary>
+            MAG減少
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.Zombie">
+            <summary>
+            Zombie
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.Reborn">
+            <summary>
+            リボーン
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.Playing">
+            <summary>
+            演奏中
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.羽交い絞め">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.LightMagicSealed">
+            <summary>
+            光魔法封印
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.OverRange">
+            <summary>
+            オーバーレンジ
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.LifeTake">
+            <summary>
+            ライフテイク
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.Horrible">
+            <summary>
+            恐怖
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.EXPUp">
+            <summary>
+            経験値上昇
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.Passing">
+            <summary>
+            パッシング
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.NoRegen">
+            <summary>
+            回復不可能
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.EnchantmentBlock">
+            <summary>
+            エンチャントブロック
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.SolidBody">
+            <summary>
+            ソリッドボディ
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.BloodyWeapon">
+            <summary>
+            ブラッディウエポン
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.Flare">
+            <summary>
+            フレア
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.GunDelayCancel">
+            <summary>
+            ガンディレイキャンセル
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.DoubleUp">
+            <summary>
+            ダブルアップ
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.ATField">
+            <summary>
+            ATフィールド
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.Spirit3RD">
+            <summary>
+            根性
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.PhysicAtkAddition">
+            <summary>
+            物理攻撃付加
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.PlayingDead">
+            <summary>
+            死んだふり
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.PapaIgintion">
+            <summary>
+            パパ点火
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.TurningPurple">
+            <summary>
+            TurningPurple
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.PrecisionFire">
+            <summary>
+            精密射撃
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.OverTune">
+            <summary>
+            オーバーチューン
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.Warning">
+            <summary>
+            警戒
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.Reflection">
+            <summary>
+            リフレクション
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.EnchantWeapon">
+            <summary>
+            エンチャントウエポン
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.Oritorio">
+            <summary>
+            オラトリオ
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.FlameHart">
+            <summary>
+            フレイムハート
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.OverWork">
+            <summary>
+            オーバーワーク
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.DelayCancel3RD">
+            <summary>
+            ディレイキャンセル
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.TurningRed">
+            <summary>
+            赤くなる
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.Phoenix">
+            <summary>
+            フェニックス
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.StaminaTake">
+            <summary>
+            スタミナテイク
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.ManaGuard">
+            <summary>
+            マナの守護
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.StateOfMonsterKillerChamp">
+            <summary>
+            チャンプモンスターキラー状態
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.OpenDragonEye">
+            <summary>
+            竜眼開放
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.EffectOfHotSpring">
+            <summary>
+            温泉効果
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.WeaponElementInvalid">
+            <summary>
+            武器属性無効化
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.GuardElementInvalid">
+            <summary>
+            防御属性無効化
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.RocketBoosterIgintion">
+            <summary>
+            ロケットブースター点火
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.MasterOfAxe">
+            <summary>
+            斧头达人
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.MasterOfSword">
+            <summary>
+            剑达人
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.MasterOfSpear">
+            <summary>
+            矛达人
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.MasterOfGun">
+            <summary>
+            枪达人
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.MainSkillPowerUp3RD">
+            <summary>
+            三转主要技能效果强力增强
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.MaxHPUp3RD">
+            <summary>
+            三转HP增强
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.MaxMPUp3RD">
+            <summary>
+            三转MP增强
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.MaxSPUp3RD">
+            <summary>
+            三转SP增强
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.AtkUp3RD">
+            <summary>
+            三转ATK增强
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.MagicAtkUp3RD">
+            <summary>
+            三转MATK增强
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.DefUp3RD">
+            <summary>
+            三转DEF增强
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.MagicDefUp3RD">
+            <summary>
+            三转MDEF增强
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.CastSpeedUp3RD">
+            <summary>
+            三转CSPD增强
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.AvoidUp3RD">
+            <summary>
+            三转AVOID增强
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.HitUp3RD">
+            <summary>
+            三转HIT增强
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.PaylUp3RD">
+            <summary>
+            三转PAYL增强
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.CAPAUp3RD">
+            <summary>
+            三转CAPA增强
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.HPDrain3RD">
+            <summary>
+            三转HP吸收
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.MPDrain3RD">
+            <summary>
+            三转MP吸收
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.SPDrain3RD">
+            <summary>
+            三转SP吸收
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.GetDamageUpDamageMark3RD">
+            <summary>
+            三转受伤害提升伤害标记
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.DamageReduceSpriteMark3RD">
+            <summary>
+            三转伤害降低精神标记
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.JSpeed3RD">
+            <summary>
+            三转J速
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.三转人血管">
+            <summary>
+            三转人血管
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.三转荆棘刺">
+            <summary>
+            三转荆棘刺
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.DevilStance">
+            <summary>
+            三转鬼人斩
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.Aegis3RD">
+            <summary>
+            三转宙斯盾イージス
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Buff.FishingState">
+            <summary>
+            FishingState
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.Actor.ZenOutLst">
+            <summary>
+            不受极大化放大的技能ID
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.Actor.BattleStartTime">
+            <summary>
+            怪物的战斗开始时间，用于计算持续多久战斗，在Aggro时计时为DateTime.Now.
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Actor.TStr">
+            <summary>
+            临时字符串变量集
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Actor.TInt">
+            <summary>
+            临时整数变量集
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.Actor.PictID">
+            <summary>
+            外观
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.Actor.e">
+            <summary>
+            Actor事件处理器
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Actor.Name">
+            <summary>
+            Actor的名称
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Actor.ActorID">
+            <summary>
+            此Actor在服务器存在的唯一标识ID
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Actor.MapID">
+            <summary>
+            Actor所在地图ID
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Actor.Level">
+            <summary>
+            等级
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Actor.X2">
+            <summary>
+            X坐标
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Actor.Y2">
+            <summary>
+            Y坐标
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Actor.X">
+            <summary>
+            X坐标
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Actor.Y">
+            <summary>
+            Y坐标
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Actor.Dir">
+            <summary>
+            面向方向，0－360
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Actor.Speed">
+            <summary>
+            最终移动速度，请避免在技能和其他效果中直接对pc或者mob对象赋值（伪actor没有问题），如需要请赋值_item _iris _skill
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Actor.IsSeals">
+            <summary>
+            圣印标记（0为不触发，1为触发）
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Actor.Plies">
+            <summary>
+            冰棍层数
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Actor.Seals">
+            <summary>
+            圣印层数
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Actor.Homicidal">
+            <summary>
+            殺意层数
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Actor.SpeedCut">
+            <summary>
+            减速层数
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Actor.Darks">
+            <summary>
+            暗刻状态
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Actor.HotBladeMark">
+            <summary>
+            烈刃标记
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Actor.HotBlade">
+            <summary>
+            烈刃层数
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Actor.MuSoUCount">
+            <summary>
+            无双斩击HIT数
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Actor.KillingMarkCounter">
+            <summary>
+            杀戮标记计数器
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Actor.KillingMarkSoulUse">
+            <summary>
+            是否零件使用的杀戮标记
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Actor.SHIELDHP">
+            <summary>
+            护盾值（受伤优先扣除）
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Actor.HP">
+            <summary>
+            生命
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Actor.MP">
+            <summary>
+            魔法
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Actor.SP">
+            <summary>
+            体力
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Actor.MaxHP">
+            <summary>
+            最大生命
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Actor.MaxMP">
+            <summary>
+            最大魔法
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Actor.MaxSP">
+            <summary>
+            最大体力
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Actor.Status">
+            <summary>
+            所有属性相关
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Actor.Range">
+            <summary>
+            射程
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Actor.Tasks">
+            <summary>
+            该Actor执行中的系统任务
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Actor.Buff">
+            <summary>
+            该Actor的附加状态
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Actor.VisibleActors">
+            <summary>
+            此Actor可见的Actor
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Actor.Elements">
+            <summary>
+            防御元素属性值
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Actor.AttackElements">
+            <summary>
+            攻击元素属性值
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Actor.Slave">
+            <summary>
+            该Actor的附属Actor
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.Actor.SettledSlave">
+            <summary>
+            该Actor的附属Actor，不会因为随从死亡而无法访问
+            </summary>
+        </member>
+        <member name="M:SagaDB.Actor.Actor.ClearTaskAddition">
+            <summary>
+            清除该Actor所有任务以及状态
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.ActorMob.AnotherID">
+            <summary>
+            Another怪物ID
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.ActorMob.RideID">
+            <summary>
+            骑宠ID
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.ActorMob.Camp">
+            <summary>
+            阵营 0敌人 1友军 2中立（绿名）
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.ActorMob.AttackedForEvent">
+            <summary>
+            记录被攻击，事件用
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.ActorMob.PriorityTartget">
+            <summary>
+            强制的攻击目标，挑衅使用
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.ActorPC.PartnerTartget">
+            <summary>
+            玩家当前目标，供搭档使用。
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.IrisAbilityValues">
+            <summary>
+            PC's Iris Ability Value Points
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.IrisAbilityLevels">
+            <summary>
+            PC's Iris Ability Value Levels
+            </summary>
+        </member>
+        <member name="M:SagaDB.Actor.ActorPC.ClearIrisAbilities">
+            <summary>
+            Reset PC's Iris Abilities
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.WaitType">
+            <summary>
+            站姿
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.ActorPC.PossessionPartnerSlotIDinRightHand">
+            <summary>
+            凭依在右手的宠物道具位置
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.ActorPC.PossessionPartnerSlotIDinLeftHand">
+            <summary>
+            凭依在左手的宠物道具位置
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.ActorPC.PossessionPartnerSlotIDinClothes">
+            <summary>
+            凭依在衣服的宠物道具位置
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.ActorPC.PossessionPartnerSlotIDinAccesory">
+            <summary>
+            凭依在项链的宠物道具位置
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.Equips">
+            <summary>
+            伪造ACTOR用装备栏
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.ActorPC.AnotherPapers">
+            <summary>
+            拼图装备相关
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.UsingPaperID">
+            <summary>
+            正在使用的拼图ID
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.PlayerTitleID">
+            <summary>
+            正在使用的称号ID
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.ActorPC.PlayerTitle">
+            <summary>
+            玩家的称号名
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.ActorPC.FirstName">
+            <summary>
+            称号的前缀
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.ActorPC.ShowFirstName">
+            <summary>
+            显示前缀开关
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.ActorPC.KillList">
+            <summary>
+            击杀列表
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.ActorPC.playershoplist">
+            <summary>
+            任务标记 (byte为列表ID)
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.Playershoplist">
+            <summary>
+            玩家贩卖的道具
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.ActorPC.NpcShowList">
+            <summary>
+            自动显示隐藏NPC列表（地图ID，state = 0 显示  state = 1 隐藏）
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.ActorPC.Skills">
+            <summary>
+            1转职业技能
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.ActorPC.Skills2">
+            <summary>
+            2转职业技能
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.ActorPC.SkillsReserve">
+            <summary>
+            2转职业保留技能
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.ActorPC.Skills2_1">
+            <summary>
+            2-1职业技能
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.ActorPC.Skills2_2">
+            <summary>
+            2-2职业技能
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.ActorPC.Skills3">
+            <summary>
+            3转职业技能
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.SkillPoint3">
+            <summary>
+            剩余3技能点
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.JobLevel3">
+            <summary>
+            3职业等级
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.Level1">
+            <summary>
+            转生前等级
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.Rebirth">
+            <summary>
+            转生标记
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.ActorPC.tranceID">
+            <summary>
+            變身圖片ID
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.TailStyle">
+            <summary>
+            尾巴形狀
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.WingStyle">
+            <summary>
+            翅膀形狀
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.WingColor">
+            <summary>
+            翅膀顏色
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.Size">
+            <summary>
+            体积
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.CharID">
+            <summary>
+            存在于数据库的CharID
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.Account">
+            <summary>
+            该玩家的帐号信息
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.Race">
+            <summary>
+            种族
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.Gender">
+            <summary>
+            性别
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.HairStyle">
+            <summary>
+            发型
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.HairColor">
+            <summary>
+            头发颜色
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.Wig">
+            <summary>
+            假发
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.Face">
+            <summary>
+            脸
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.Job">
+            <summary>
+            职业
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.Level">
+            <summary>
+            等级
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.DominionLevel">
+            <summary>
+            恶魔界的基础等级
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.DominionJobLevel">
+            <summary>
+            恶魔界的职业等级
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.JointJobLevel">
+            <summary>
+            联合职业等级
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.CurrentJobLevel">
+            <summary>
+            当前职业等级
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.JobLevel1">
+            <summary>
+            1转职业等级
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.QuestRemaining">
+            <summary>
+            剩余任务数
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.JobLevel2X">
+            <summary>
+            2-1职业等级
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.JobLevel2T">
+            <summary>
+            2－2职业等级
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.Slot">
+            <summary>
+            人物所占用的存储槽
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.JobJoint">
+            <summary>
+            该玩家对应的联合职业
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.JobBasic">
+            <summary>
+            该玩家对应的1转职业
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.Job2X">
+            <summary>
+            该玩家对应的2－1职业
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.Job2T">
+            <summary>
+            该玩家对应的2－2职业
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.Job3">
+            <summary>
+            该玩家对应的3职业
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.JobType">
+            <summary>
+            JobType
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.Str">
+            <summary>
+            玩家的Str
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.EPUsed">
+            <summary>
+            玩家已消费的EP
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.DominionEPUsed">
+            <summary>
+            玩家在恶魔界已消费的EP
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.CL">
+            <summary>
+            DEM族的Cost Limit
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.DominionCL">
+            <summary>
+            玩家恶魔界的Cost Limit
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.ExplorerEXP">
+            <summary>
+            冒险阶级经验值
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.DominionCEXP">
+            <summary>
+            恶魔界的基础经验值
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.DominionJEXP">
+            <summary>
+            恶魔界的职业经验值
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.JointJEXP">
+            <summary>
+            联合职业经验值
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.WRP">
+            <summary>
+            WRP
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.TimeOnline">
+            <summary>
+            玩家在线时长
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.Online">
+            <summary>
+            玩家是否在线
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.SaveMap">
+            <summary>
+            记录点地图ID
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.SaveX">
+            <summary>
+            记录点X坐标
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.SaveY">
+            <summary>
+            记录点Y坐标
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.Form">
+            <summary>
+            DEM形态
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.BattleStatus">
+            <summary>
+            玩家是否处于战斗状态
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.StatsPoint">
+            <summary>
+            剩余人物属性点
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.EXStatPoint">
+            <summary>
+            EX属性点
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.EXSkillPoint">
+            <summary>
+            EX技能点
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.DominionStatsPoint">
+            <summary>
+            恶魔界的人物属性点
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.SkillPoint">
+            <summary>
+            剩余1转技能点
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.SkillPoint2X">
+            <summary>
+            剩余2－1技能点
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.SkillPoint2T">
+            <summary>
+            剩余2－2技能点
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.Inventory">
+            <summary>
+            道具栏
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.Motion">
+            <summary>
+            动作
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.AStr">
+            <summary>
+            帐号专有字符串变量集
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.AInt">
+            <summary>
+            帐号专有整数变量集
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.ALong">
+            <summary>
+            帐号专有长整数变量集
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.CStr">
+            <summary>
+            人物专有字符串变量集
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.CInt">
+            <summary>
+            人物专有整数变量集
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.TMask">
+            <summary>
+            临时标识变量集
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.CMask">
+            <summary>
+            人物专有标识变量集
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.AMask">
+            <summary>
+            帐号专有标识变量集
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.CIDict">
+            <summary>
+            人物专有双Int字典变量集
+            </summary>
+        </member>
+        <member name="M:SagaDB.Actor.ActorPC.ClearVarialbes">
+            <summary>
+            清楚所有变量集，玩家下线后用于释放资源
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.Marionette">
+            <summary>
+            玩家目前的变身木偶形态
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.NextMarionetteTime">
+            <summary>
+            下一次可以使用变身木偶的时间
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.Pet">
+            <summary>
+            玩家目前放出的宠物
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.Partner">
+            <summary>
+            玩家目前放出的partner
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.PossessionTarget">
+            <summary>
+            凭依对象
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.PossessionPosition">
+            <summary>
+            凭依位置
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.Quest">
+            <summary>
+            目前执行中的任务
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.QuestNextResetTime">
+            <summary>
+            任务点下次重置的时间
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.EPLoginTime">
+            <summary>
+            EP登陆回复重置时间
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.EPGreetingTime">
+            <summary>
+            EP打招呼回复重置时间
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.Fame">
+            <summary>
+            声望
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.Party">
+            <summary>
+            队伍
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.Ring">
+            <summary>
+            军团
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.Team">
+            <summary>
+            團隊
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.Group">
+            <summary>
+            小組
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.Sign">
+            <summary>
+            看板
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.Mode">
+            <summary>
+            玩家的模式
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.FGarden">
+            <summary>
+            玩家的飞空庭
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.TenkActor">
+            <summary>
+            帐篷Actor
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.VShopPoints">
+            <summary>
+            玩家在虚拟商城的点券
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.UsedVShopPoints">
+            <summary>
+            玩家已用掉的点券
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.Golem">
+            <summary>
+            玩家目前活动中的石像
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.DungeonID">
+            <summary>
+            玩家创建的DungeonID
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.Stamp">
+            <summary>
+            玩家收集的印章
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.DominionReserveSkill">
+            <summary>
+            是否解放恶魔界保留技能列表
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.WRPRanking">
+            <summary>
+            WRP排行
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.TranceID">
+            <summary>
+            變身的圖片ID
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.NPCStates">
+            <summary>
+            NPC显示/隐藏状态
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.DefWarShow">
+            <summary>
+            防御战窗口是否可见
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.ActorPC.DungeonsDifc">
+            <summary>
+            玩家选择的副本难度
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.ActorPC.DungeonsReviveCount">
+            <summary>
+            玩家在副本的死亡次数限制
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.TamaireLending">
+            <summary>
+            玩家借出的"心"
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPC.TamaireRental">
+            <summary>
+            玩家租用的"心"
+            </summary>
+        </member>
+        <member name="T:SagaDB.Actor.Addition">
+            <summary>
+            A class which contains the information about a players addition bonus (such as Buff)
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.Addition.m_starttime">
+            <summary>
+            A time stamp of when it's get applied to player
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Addition.Enabled">
+            <summary>
+            是否启用
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Addition.AttachedActor">
+            <summary>
+            Actor that get attached to this addition
+            </summary>
+            
+        </member>
+        <member name="P:SagaDB.Actor.Addition.Name">
+            <summary>
+            Name of this Addition
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Addition.Interval">
+            <summary>
+            Returns the activation interval
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Addition.Activated">
+            <summary>
+            Returns if this addition is activated
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Addition.StartTime">
+            <summary>
+            Time that this addition get started
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Addition.IfActivate">
+            <summary>
+            Returns if this addition should be activated
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Addition.TotalLifeTime">
+            <summary>
+            Total Life time for this Addition
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.Addition.RestLifeTime">
+            <summary>
+            Rest Life time for this Addition
+            </summary>
+        </member>
+        <member name="M:SagaDB.Actor.Addition.AdditionStart">
+            <summary>
+            Method to be called on Addition start
+            </summary>
+        </member>
+        <member name="M:SagaDB.Actor.Addition.AdditionEnd">
+            <summary>
+            Method to be called on Addition End
+            </summary>
+        </member>
+        <member name="M:SagaDB.Actor.Addition.OnTimerUpdate">
+            <summary>
+            Method that be called once Timer call back function get invoked
+            </summary>
+        </member>
+        <member name="M:SagaDB.Actor.Addition.OnTimerStart">
+            <summary>
+            Method that be called once Timer get started
+            </summary>
+        </member>
+        <member name="M:SagaDB.Actor.Addition.OnTimerEnd">
+            <summary>
+            Method that be called once Timer get stoped
+            </summary>
+        </member>
+        <member name="M:SagaDB.Actor.Addition.InitTimer(System.Int32,System.Int32)">
+            <summary>
+            Initialize the timer
+            </summary>
+            <param name="interval">Interval</param>
+            <param name="duetime">Due Time</param>
+        </member>
+        <member name="P:SagaDB.Actor.ActorPet.IsUnion">
+            <summary>
+            是否为联合宠物
+            </summary>
+        </member>
+        <member name="T:SagaDB.Actor.ActorFurniture">
+            <summary>
+            家具Actor
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorFurniture.ItemID">
+            <summary>
+            道具ID
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorFurniture.PictID">
+            <summary>
+            图像ID，用于确定怪物雕像的怪物ID
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorFurniture.Z">
+            <summary>
+            Z坐标
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorFurniture.Xaxis">
+            <summary>
+            Z轴旋转
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorFurniture.Yaxis">
+            <summary>
+            Z轴旋转
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorFurniture.Zaxis">
+            <summary>
+            Z轴旋转
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorFurniture.Motion">
+            <summary>
+            动作
+            </summary>
+        </member>
+        <member name="T:SagaDB.Actor.ActorGolem">
+            <summary>
+            石像Actor
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorGolem.Item">
+            <summary>
+            石像道具
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorGolem.Title">
+            <summary>
+            标题
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorGolem.Owner">
+            <summary>
+            石像拥有者
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorGolem.GolemType">
+            <summary>
+            石像类型
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorGolem.BuyLimit">
+            <summary>
+            石像收购金额上限
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorGolem.SellShop">
+            <summary>
+            石像贩卖的道具
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorGolem.BuyShop">
+            <summary>
+            石像收购的道具
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorGolem.BoughtItem">
+            <summary>
+            石像已收购道具
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorGolem.SoldItem">
+            <summary>
+            石像已贩卖道具
+            </summary>
+        </member>
+        <member name="P:SagaDB.Actor.ActorGolem.Motion">
+            <summary>
+            动作
+            </summary>
+        </member>
+        <member name="T:SagaDB.Actor.ActorFurnitureUnit">
+            <summary>
+            家具UNITActor
+            </summary>
+        </member>
+        <member name="T:SagaDB.Actor.VariableHolderA`2">
+            <summary>
+            Key不存在时自动创建新实例的变量存储器
+            </summary>
+            <typeparam name="K"></typeparam>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="F:SagaDB.Actor.Status.ReduceDamage">
+            <summary>
+            伤害减少百分比
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.Status.HateRate">
+            <summary>
+            造成的仇恨比
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.Status.HitDamageRate">
+            <summary>
+            造成的普通伤害百分比
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.Status.CriDamageRate">
+            <summary>
+            造成的暴击伤害百分比
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.Status.DamageRate">
+            <summary>
+            造成的伤害百分比
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.Status.ParryRate">
+            <summary>
+            格挡率,100为100%
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.Status.MagicRuduceRate">
+            <summary>
+            法术伤害减少比率
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.Status.PhysiceReduceRate">
+            <summary>
+            物理伤害减少比率
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.Status.speedenchantcspdbonus">
+            <summary>
+            快精奖励的CSPD
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.Status.buffer_bonus">
+            <summary>
+            状态持续时间补正百分数（正值为增加）
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.Status.buffee_bonus">
+            <summary>
+            状态持续时间补正百分数（正值为增加）
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.Status.debuffer_bonus">
+            <summary>
+            状态持续时间补正百分数（正值为增加）
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.Status.debuffee_bonus">
+            <summary>
+            状态持续时间补正百分数（正值为增加）
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.Status.control_rate_bonus">
+            <summary>
+            控制类效果判定率修正
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.Status.weapon_add">
+            <summary>
+            武器装备效果补正百分比
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.Status.battleStatus">
+            <summary>
+            战斗状态判定 未使用
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.Status.attackType">
+            <summary>
+            物理攻击类型：打 斩 刺
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.Status.attackStamp">
+            <summary>
+            受攻击的时间戳 效果待测试
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.Status.attackingActors">
+            <summary>
+            正在攻击本Actor的Actors
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.Status.buy_rate">
+            <summary>
+            商人买卖相关
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.Status.sell_rate">
+            <summary>
+            商人买卖相关
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.Status.undead">
+            <summary>
+            不死族状态
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.Status.combo_skill">
+            <summary>
+            连击补正
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.Status.combo_rate_skill">
+            <summary>
+            连击补正
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.Status.damage_atk1_discount">
+            <summary>
+            打 斩 刺 分类专属%防御值
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.Status.damage_atk2_discount">
+            <summary>
+            打 斩 刺 分类专属%防御值
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.Status.damage_atk3_discount">
+            <summary>
+            打 斩 刺 分类专属%防御值
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.Status.zenList">
+            <summary>
+            对Zen有效的技能ID
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.Status.darkZenList">
+            <summary>
+            对暗Zen有效的技能ID
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.Status.doubleUpList">
+            <summary>
+            对赌徒技能Double Up有效的技能ID
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.Status.delayCancelList">
+            <summary>
+            对延迟减少有效的技能ID和比率
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.Status.absorb_hp">
+            <summary>
+            伤害回复比
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.Status.Damage_Up_Lv">
+            <summary>
+            被伤害标记等级
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.Status.Cri_Up_Lv">
+            <summary>
+            被暴击标记等级
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.Status.Pressure_lv">
+            <summary>
+            避震波等级（3转剑35级技能）
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.Status.reflex_odds">
+            <summary>
+            魔法反射概率（3转骑士20级技能）
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.Status.Parry_Lv">
+            <summary>
+            格挡技能等级（3转骑士45级技能）
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.Status.Purger_Lv">
+            <summary>
+            イレイザー等级（3转刺客10级技能）
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.Status.Syaringan_rate">
+            <summary>
+            写轮眼概率（3转刺客25级技能）
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.Status.Nooheito_rate">
+            <summary>
+            ノーヘイト减少比例（3转弓13级技能）
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.Status.HatredUp_rate">
+            <summary>
+            敵対心上昇比例（3转骑士13级技能）
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.Status.MissRevenge_rate">
+            <summary>
+            リベンジトリガー机率（3转弓23级技能）
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.Status.PlusElement_rate">
+            <summary>
+            プラスエレメント伤害加成（WIZ3转3级技能）
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.Status.ElementDamegeUp_rate">
+            <summary>
+            星灵术使伤害增加比例
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.Status.Contract_Lv">
+            <summary>
+            属性契约种类 1为火 2为水 3为土 4为风
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.Status.Cardinal_Rank">
+            <summary>
+            受治疗提升率
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.Status.possessionTakeOver">
+            <summary>
+            寄主承担凭依者凭依伤害的几率
+            </summary>
+        </member>
+        <member name="F:SagaDB.Actor.Status.possessionCancel">
+            <summary>
+            凭依贯穿伤害无效几率
+            </summary>
+        </member>
+        <member name="M:SagaDB.Actor.Status.ClearItem">
+            <summary>
+            Clear Item and Iris Card Bonus
+            </summary>
+        </member>
+        <member name="T:SagaDB.Actor.VariableHolder`2">
+            <summary>
+            变量不存在是自动返回默认Null值的变量存储器
+            </summary>
+            <typeparam name="K"></typeparam>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="P:SagaDB.DefWar.DefWar.DefWarData.ID">
+            <summary>
+            ID
+            </summary>
+        </member>
+        <member name="P:SagaDB.DefWar.DefWar.DefWarData.Title">
+            <summary>
+            任务标题
+            </summary>
+        </member>
+        <member name="P:SagaDB.DefWar.DefWar.Number">
+            <summary>
+            任务序列
+            </summary>
+        </member>
+        <member name="P:SagaDB.DefWar.DefWar.Data">
+            <summary>
+            任务信息
+            </summary>
+        </member>
+        <member name="P:SagaDB.DefWar.DefWar.Result1">
+            <summary>
+            结果1
+            </summary>
+        </member>
+        <member name="P:SagaDB.DefWar.DefWar.Result2">
+            <summary>
+            结果2
+            </summary>
+        </member>
+        <member name="T:SagaDB.DualJob.DualJobInfo">
+            <summary>
+            副职业基本信息
+            </summary>
+        </member>
+        <member name="F:SagaDB.DualJob.DualJobInfo.DualJobID">
+            <summary>
+            副职ID
+            </summary>
+        </member>
+        <member name="F:SagaDB.DualJob.DualJobInfo.DualJobName">
+            <summary>
+            副职名称
+            </summary>
+        </member>
+        <member name="F:SagaDB.DualJob.DualJobInfo.BaseJobID">
+            <summary>
+            基本职业ID
+            </summary>
+        </member>
+        <member name="F:SagaDB.DualJob.DualJobInfo.ExperJobID">
+            <summary>
+            2-1职业ID
+            </summary>
+        </member>
+        <member name="F:SagaDB.DualJob.DualJobInfo.TechnicalJobID">
+            <summary>
+            2-2职业ID
+            </summary>
+        </member>
+        <member name="F:SagaDB.DualJob.DualJobInfo.ChronicleJobID">
+            <summary>
+            3转职业ID
+            </summary>
+        </member>
+        <member name="F:SagaDB.DualJob.DualJobInfo.Description">
+            <summary>
+            副职描述
+            </summary>
+        </member>
+        <member name="T:SagaDB.DualJob.DualJobSkill">
+            <summary>
+            副职业所学会的技能信息
+            </summary>
+        </member>
+        <member name="F:SagaDB.DualJob.DualJobSkill.DualJobID">
+            <summary>
+            副职ID
+            </summary>
+        </member>
+        <member name="F:SagaDB.DualJob.DualJobSkill.SkillID">
+            <summary>
+            技能ID
+            </summary>
+        </member>
+        <member name="F:SagaDB.DualJob.DualJobSkill.SkillName">
+            <summary>
+            技能名称
+            </summary>
+        </member>
+        <member name="F:SagaDB.DualJob.DualJobSkill.SkillJobID">
+            <summary>
+            技能对应职业ID
+            </summary>
+        </member>
+        <member name="F:SagaDB.DualJob.DualJobSkill.DualJobLearnLevel1">
+            <summary>
+            学习该技能1级所需副职业等级
+            </summary>
+        </member>
+        <member name="F:SagaDB.DualJob.DualJobSkill.DualJobLearnLevel2">
+            <summary>
+            学习该技能2级所需副职业等级
+            </summary>
+        </member>
+        <member name="F:SagaDB.DualJob.DualJobSkill.DualJobLearnLevel3">
+            <summary>
+            学习该技能3级所需副职业等级
+            </summary>
+        </member>
+        <member name="F:SagaDB.DualJob.DualJobSkill.DualJobLearnLevel4">
+            <summary>
+            学习该技能4级所需副职业等级
+            </summary>
+        </member>
+        <member name="F:SagaDB.DualJob.DualJobSkill.DualJobLearnLevel5">
+            <summary>
+            学习该技能5级所需副职业等级
+            </summary>
+        </member>
+        <member name="F:SagaDB.DualJob.DualJobSkill.DualJobLearnLevel6">
+            <summary>
+            学习该技能6级所需副职业等级
+            </summary>
+        </member>
+        <member name="F:SagaDB.DualJob.DualJobSkill.DualJobLearnLevel7">
+            <summary>
+            学习该技能7级所需副职业等级
+            </summary>
+        </member>
+        <member name="F:SagaDB.DualJob.DualJobSkill.DualJobLearnLevel8">
+            <summary>
+            学习该技能8级所需副职业等级
+            </summary>
+        </member>
+        <member name="F:SagaDB.DualJob.DualJobSkill.DualJobLearnLevel9">
+            <summary>
+            学习该技能9级所需副职业等级
+            </summary>
+        </member>
+        <member name="F:SagaDB.DualJob.DualJobSkill.DualJobLearnLevel10">
+            <summary>
+            学习该技能10级所需副职业等级
+            </summary>
+        </member>
+        <member name="P:SagaDB.FFarden.FFarden.Name">
+            <summary>
+            飞空城的名字
+            </summary>
+        </member>
+        <member name="P:SagaDB.FFarden.FFarden.Content">
+            <summary>
+            飞空城的简介
+            </summary>
+        </member>
+        <member name="P:SagaDB.FFarden.FFarden.IsLock">
+            <summary>
+            飞空城是否需要密码
+            </summary>
+        </member>
+        <member name="P:SagaDB.FFarden.FFarden.RingID">
+            <summary>
+            飞空城所属工会
+            </summary>
+        </member>
+        <member name="P:SagaDB.FFarden.FFarden.ID">
+            <summary>
+            飞空城的ID
+            </summary>
+        </member>
+        <member name="P:SagaDB.FFarden.FFarden.Owner">
+            <summary>
+            飞空城的主人
+            </summary>
+        </member>
+        <member name="P:SagaDB.FFarden.FFarden.MapID">
+            <summary>
+            飞空城地图ID
+            </summary>
+        </member>
+        <member name="P:SagaDB.FFarden.FFarden.ObMode">
+            <summary>
+            飞空城状态(00 = 无入手   01 = 作出可能  03 = 已入手)
+            </summary>
+        </member>
+        <member name="P:SagaDB.FFarden.FFarden.HealthMode">
+            <summary>
+            飞空城健康(00 = 正常 01 = 停滞状态 02 = 扣押状态 03 = 维持不能)
+            </summary>
+        </member>
+        <member name="P:SagaDB.FFarden.FFarden.MaterialPoint">
+            <summary>
+            飞空城的所持材料数(所持マテリアルポイント)
+            </summary>
+        </member>
+        <member name="P:SagaDB.FFarden.FFarden.Level">
+            <summary>
+            飞空城等级
+            </summary>
+        </member>
+        <member name="P:SagaDB.FFarden.FFarden.FFexp">
+            <summary>
+            飞空城等级的经验值
+            </summary>
+        </member>
+        <member name="P:SagaDB.FFarden.FFarden.FLevel">
+            <summary>
+            飞空城F系等级
+            </summary>
+        </member>
+        <member name="P:SagaDB.FFarden.FFarden.FFFexp">
+            <summary>
+            飞空城F系经验值
+            </summary>
+        </member>
+        <member name="P:SagaDB.FFarden.FFarden.SULevel">
+            <summary>
+            飞空城SU系等级
+            </summary>
+        </member>
+        <member name="P:SagaDB.FFarden.FFarden.FFSUexp">
+            <summary>
+            飞空城SU系经验值
+            </summary>
+        </member>
+        <member name="P:SagaDB.FFarden.FFarden.BPLevel">
+            <summary>
+            飞空城BP系等级
+            </summary>
+        </member>
+        <member name="P:SagaDB.FFarden.FFarden.FFBPexp">
+            <summary>
+            飞空城BP系经验值
+            </summary>
+        </member>
+        <member name="P:SagaDB.FFarden.FFarden.DEMLevel">
+            <summary>
+            飞空城DEM系等级
+            </summary>
+        </member>
+        <member name="P:SagaDB.FFarden.FFarden.FFDEMexp">
+            <summary>
+            飞空城DEM系经验值
+            </summary>
+        </member>
+        <member name="P:SagaDB.FFarden.FFarden.MaterialConsume">
+            <summary>
+            飞空城的材料点数消耗(マテリアルコスト)
+            </summary>
+        </member>
+        <member name="P:SagaDB.FFarden.FFarden.RoomMapID">
+            <summary>
+            飞空城房间地图ID
+            </summary>
+        </member>
+        <member name="P:SagaDB.FFarden.FFarden.FFardenEquipments">
+            <summary>
+            飞空城的装备
+            </summary>
+        </member>
+        <member name="P:SagaDB.FFarden.FFarden.Furnitures">
+            <summary>
+            飞空城的家具
+            </summary>
+        </member>
+        <member name="P:SagaDB.Fish.Fish.ID">
+            <summary>
+            物品ID
+            </summary>
+        </member>
+        <member name="P:SagaDB.Fish.Fish.Rate">
+             <summary>
+            取得几率 
+             </summary>
+        </member>
+        <member name="P:SagaDB.Fish.Fish.Count">
+            <summary>
+            取得数量
+            </summary>
+        </member>
+        <member name="T:SagaDB.Fish.FishList">
+            <summary>
+            钓鱼列表
+            </summary>
+        </member>
+        <member name="P:SagaDB.Fish.FishList.Items">
+            <summary>
+            钓鱼列表
+            </summary>
+        </member>
+        <member name="P:SagaDB.Fish.FishList.TotalRate">
+            <summary>
+            钓鱼列表几率总和
+            </summary>
+        </member>
+        <member name="F:SagaDB.Group.Group.Roll">
+            <summary>
+            队伍随机分配开关（0为开，1为关）
+            </summary>
+        </member>
+        <!-- 对于成员“P:SagaDB.Group.Group.TStr”忽略有格式错误的 XML 注释 -->
+        <member name="P:SagaDB.Group.Group.TInt">
+            <summary>
+            临时整数变量集
+            </summary>
+        </member>
+        <member name="P:SagaDB.Group.Group.TMask">
+            <summary>
+            临时标识变量集
+            </summary>
+        </member>
+        <member name="P:SagaDB.Group.Group.ID">
+            <summary>
+            队伍的ID
+            </summary>
+        </member>
+        <member name="P:SagaDB.Group.Group.Name">
+            <summary>
+            队伍名字
+            </summary>
+        </member>
+        <member name="P:SagaDB.Group.Group.Item(System.Byte)">
+            <summary>
+            取得指定队伍成员
+            </summary>
+            <param name="index">索引ID</param>
+            <returns>成员玩家</returns>
+        </member>
+        <member name="P:SagaDB.Group.Group.Leader">
+            <summary>
+            队长
+            </summary>
+        </member>
+        <member name="P:SagaDB.Group.Group.Members">
+            <summary>
+            队伍成员
+            </summary>
+        </member>
+        <member name="M:SagaDB.Group.Group.IsMember(System.UInt32)">
+            <summary>
+            检查某个玩家是否是队伍成员
+            </summary>
+            <param name="char_id">玩家的CharID</param>
+            <returns>是否是队伍成员</returns>
+        </member>
+        <member name="M:SagaDB.Group.Group.IsMember(SagaDB.Actor.ActorPC)">
+            <summary>
+            检查某个玩家是否是队伍成员
+            </summary>
+            <param name="pc">玩家</param>
+            <returns>是否是队伍成员</returns>
+        </member>
+        <member name="P:SagaDB.Group.Group.MemberCount">
+            <summary>
+            取得成员人数
+            </summary>
+        </member>
+        <member name="M:SagaDB.Group.Group.IndexOf(SagaDB.Actor.ActorPC)">
+            <summary>
+            取得某个玩家成员ID
+            </summary>
+            <param name="pc">玩家</param>
+            <returns>成员ID，如果不是队伍成员则返回-1</returns>
+        </member>
+        <member name="M:SagaDB.Group.Group.IndexOf(System.UInt32)">
+            <summary>
+            取得某个玩家成员ID
+            </summary>
+            <param name="pc">玩家</param>
+            <returns>成员ID，如果不是队伍成员则返回-1</returns>
+        </member>
+        <member name="M:SagaDB.Group.Group.MemberOnline(SagaDB.Actor.ActorPC)">
+            <summary>
+            成员上线，替换离线Actor
+            </summary>
+            <param name="newPC">新Actor</param>
+        </member>
+        <member name="M:SagaDB.Group.Group.NewMember(SagaDB.Actor.ActorPC)">
+            <summary>
+            添加新的成员
+            </summary>
+            <param name="pc">玩家</param>
+            <returns>队伍中的索引</returns>
+        </member>
+        <member name="M:SagaDB.Group.Group.DeleteMemeber(SagaDB.Actor.ActorPC)">
+            <summary>
+            删除成员
+            </summary>
+            <param name="pc">玩家</param>
+        </member>
+        <member name="M:SagaDB.Group.Group.DeleteMemeber(System.UInt32)">
+            <summary>
+            删除成员
+            </summary>
+            <param name="pc">玩家</param>
+        </member>
+        <member name="M:SagaDB.Group.Group.SearchMemeber(System.UInt32)">
+            <summary>
+            根据CharID查找成员
+            </summary>
+            <param name="pc">玩家</param>
+        </member>
+        <member name="T:SagaDB.Iris.AbilityVector">
+            <summary>
+            Iris卡片能力向量
+            </summary>
+        </member>
+        <member name="P:SagaDB.Iris.AbilityVector.ReleaseAbilities">
+            <summary>
+            该能力向量拥有的具体RA能力，Key为向量等级
+            </summary>
+        </member>
+        <member name="P:SagaDB.Iris.AbilityVector.ID">
+            <summary>
+            Iris Ability ID (0-1000 原版能力 1000-2000 组队条件触发长时间面板显示能力 2000-3000 actorpc自身条件影响攻防结果计算时判定能力 3000-4000 对象条件影响攻防结果计算时判定能力 4000+待定)
+            </summary>
+        </member>
+        <member name="P:SagaDB.Iris.AbilityVector.Name">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="T:SagaDB.Iris.IrisGacha">
+            <summary>
+            伊利斯扭蛋
+            </summary>
+        </member>
+        <member name="T:SagaDB.Iris.IrisCard">
+            <summary>
+            伊利斯卡片
+            </summary>
+        </member>
+        <member name="P:SagaDB.Iris.IrisCard.Name">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="P:SagaDB.Iris.IrisCard.Serial">
+            <summary>
+            编号
+            </summary>
+        </member>
+        <member name="P:SagaDB.Iris.IrisCard.Page">
+            <summary>
+            扭蛋机页面
+            </summary>
+        </member>
+        <member name="P:SagaDB.Iris.IrisCard.Rank">
+            <summary>
+            等级
+            </summary>
+        </member>
+        <member name="P:SagaDB.Iris.IrisCard.NextCard">
+            <summary>
+            下一等级的卡片
+            </summary>
+        </member>
+        <member name="P:SagaDB.Iris.IrisCard.Rarity">
+            <summary>
+            稀有度
+            </summary>
+        </member>
+        <member name="P:SagaDB.Iris.IrisCard.CanNeck">
+            <summary>
+            是否可以插入项链
+            </summary>
+        </member>
+        <member name="P:SagaDB.Iris.IrisCard.CanWeapon">
+            <summary>
+            是否可以插入武器
+            </summary>
+        </member>
+        <member name="P:SagaDB.Iris.IrisCard.CanArmor">
+            <summary>
+            是否可以插入衣服
+            </summary>
+        </member>
+        <member name="P:SagaDB.Iris.IrisCard.Elements">
+            <summary>
+            属性补正
+            </summary>
+        </member>
+        <member name="P:SagaDB.Iris.IrisCard.Abilities">
+            <summary>
+            能力向量值
+            </summary>
+        </member>
+        <member name="P:SagaDB.Item.FaceFactory.Faces">
+            <summary>
+            左FACEID 右道具ID
+            </summary>
+        </member>
+        <member name="F:SagaDB.Item.RefineType.sharp">
+            <summary>
+            锋利
+            </summary>
+        </member>
+        <member name="F:SagaDB.Item.RefineType.enchanted">
+            <summary>
+            魔化
+            </summary>
+        </member>
+        <member name="F:SagaDB.Item.RefineType.vitality">
+            <summary>
+            生命力
+            </summary>
+        </member>
+        <member name="F:SagaDB.Item.RefineType.firm">
+            <summary>
+            加固
+            </summary>
+        </member>
+        <member name="F:SagaDB.Item.RefineType.Mgresis">
+            <summary>
+            魔抗
+            </summary>
+        </member>
+        <member name="F:SagaDB.Item.RefineType.regeneration">
+            <summary>
+            再生
+            </summary>
+        </member>
+        <member name="F:SagaDB.Item.RefineType.lucky">
+            <summary>
+            幸运
+            </summary>
+        </member>
+        <member name="F:SagaDB.Item.RefineType.dexterity">
+            <summary>
+            灵巧
+            </summary>
+        </member>
+        <member name="F:SagaDB.Item.RefineType.ATK">
+            <summary>
+            物攻强化
+            </summary>
+        </member>
+        <member name="F:SagaDB.Item.RefineType.MATK">
+            <summary>
+            魔攻强化
+            </summary>
+        </member>
+        <member name="F:SagaDB.Item.RefineType.DEF">
+            <summary>
+            物防强化
+            </summary>
+        </member>
+        <member name="F:SagaDB.Item.RefineType.MDEF">
+            <summary>
+            魔防强化
+            </summary>
+        </member>
+        <member name="P:SagaDB.Item.Inventory.Payload">
+            <summary>
+            负重
+            </summary>
+        </member>
+        <member name="P:SagaDB.Item.Inventory.MaxPayload">
+            <summary>
+            最大负重
+            </summary>
+        </member>
+        <member name="P:SagaDB.Item.Inventory.Volume">
+            <summary>
+            体积
+            </summary>
+        </member>
+        <member name="P:SagaDB.Item.Inventory.MaxVolume">
+            <summary>
+            最大体积
+            </summary>
+        </member>
+        <member name="P:SagaDB.Item.Inventory.WareHouse">
+            <summary>
+            仓库
+            </summary>
+        </member>
+        <member name="P:SagaDB.Item.Inventory.DemicChips">
+            <summary>
+            玩家的DEMIC芯片组
+            </summary>
+        </member>
+        <member name="P:SagaDB.Item.Inventory.DominionDemicChips">
+            <summary>
+            玩家恶魔界的ＤＥＭＩＣ芯片组
+            </summary>
+        </member>
+        <member name="P:SagaDB.Item.Inventory.IsEmpty">
+            <summary>
+            检查道具栏是否是空
+            </summary>
+        </member>
+        <member name="P:SagaDB.Item.Inventory.IsWarehouseEmpty">
+            <summary>
+            检查仓库是否是空
+            </summary>
+        </member>
+        <member name="P:SagaDB.Item.Inventory.WareTotalCount">
+            <summary>
+            仓库目前道具总数
+            </summary>
+        </member>
+        <member name="M:SagaDB.Item.Inventory.CalcPayloadVolume">
+            <summary>
+            计算目前道具栏中所有道具的空间和重量
+            </summary>
+        </member>
+        <member name="M:SagaDB.Item.Inventory.AddWareItem(SagaDB.Item.WarehousePlace,SagaDB.Item.Item)">
+            <summary>
+            向仓库添加道具
+            </summary>
+            <param name="place">仓库地点</param>
+            <param name="item">要添加的道具</param>
+            <returns>添加结果，需要注意的只有MIXED，MIXED的话，item则被改为叠加的道具，Inventory.LastItem则是多余的新道具</returns>
+        </member>
+        <member name="M:SagaDB.Item.Inventory.DeleteWareItem(SagaDB.Item.WarehousePlace,System.UInt32,System.Int32)">
+            <summary>
+            从仓库删除物品
+            </summary>
+            <param name="place">仓库地点</param>
+            <param name="slot">物品Slot</param>
+            <param name="amount">数量</param>
+            <returns>删除结果</returns>
+        </member>
+        <member name="M:SagaDB.Item.Inventory.AddItem(SagaDB.Item.ContainerType,SagaDB.Item.Item,System.Boolean)">
+            <summary>
+            添加道具
+            </summary>
+            <param name="container">容器</param>
+            <param name="item">道具</param>
+            <param name="newIndex">是否生成新索引</param>
+            <returns>添加结果，需要注意的只有MIXED，MIXED的话，item则被改为叠加的道具，Inventory.LastItem则是多余的新道具</returns>
+        </member>
+        <member name="M:SagaDB.Item.Inventory.AddItem(SagaDB.Item.ContainerType,SagaDB.Item.Item)">
+            <summary>
+            添加道具
+            </summary>
+            <param name="container">容器</param>
+            <param name="item">道具</param>
+            <returns>添加结果，需要注意的只有MIXED，MIXED的话，item则被改为叠加的道具，Inventory.LastItem则是多余的新道具</returns>
+        </member>
+        <member name="M:SagaDB.Item.Inventory.InsertChip(System.Byte,SagaDB.DEMIC.Chip)">
+            <summary>
+            尝试插入芯片，成功则返回true，否则返回false
+            </summary>
+            <param name="page">DEMIC页</param>
+            <param name="chip">芯片</param>
+            <returns>是否成功</returns>
+        </member>
+        <member name="M:SagaDB.Item.Inventory.InsertChip(System.Byte,SagaDB.DEMIC.Chip,System.Boolean)">
+            <summary>
+            尝试插入芯片，成功则返回true，否则返回false
+            </summary>
+            <param name="page">DEMIC页</param>
+            <param name="chip">芯片</param>
+            <param name="dominion">是否在恶魔界</param>
+            <returns>是否成功</returns>
+        </member>
+        <member name="M:SagaDB.Item.Inventory.InsertChip(System.Byte,SagaDB.DEMIC.Chip,System.Boolean[0:,0:],System.Boolean)">
+            <summary>
+            尝试插入芯片，成功则返回true，否则返回false
+            </summary>
+            <param name="page">DEMIC页</param>
+            <param name="chip">芯片</param>
+            <param name="table">ＤＥＭＩＣ有效表</param>
+            <param name="dominion">是否在恶魔界</param>
+            <returns>是否成功</returns>
+        </member>
+        <member name="F:SagaDB.Item.Item.actorpartnerid">
+            <summary>
+            该道具的宠物ID
+            </summary>
+        </member>
+        <member name="F:SagaDB.Item.Item.Version">
+            <summary>
+            道具版本
+            </summary>
+        </member>
+        <member name="F:SagaDB.Item.Item.EnChangeList">
+            <summary>
+            该装备附魔的其他套装装备
+            </summary>
+        </member>
+        <member name="P:SagaDB.Item.Item.HP">
+            <summary>
+            强化装备提升的HP
+            </summary>
+        </member>
+        <member name="P:SagaDB.Item.Item.MP">
+            <summary>
+            强化装备提升的MP
+            </summary>
+        </member>
+        <member name="P:SagaDB.Item.Item.SP">
+            <summary>
+            强化装备提升的SP
+            </summary>
+        </member>
+        <member name="P:SagaDB.Item.Item.WeightUp">
+            <summary>
+            强化装备提升的负重
+            </summary>
+        </member>
+        <member name="P:SagaDB.Item.Item.VolumeUp">
+            <summary>
+            强化装备提升的体积
+            </summary>
+        </member>
+        <member name="P:SagaDB.Item.Item.SpeedUp">
+            <summary>
+            强化装备提升的速度
+            </summary>
+        </member>
+        <member name="P:SagaDB.Item.Item.Str">
+            <summary>
+            强化装备提升的Str
+            </summary>
+        </member>
+        <member name="P:SagaDB.Item.Item.Dex">
+            <summary>
+            强化装备提升的Dex
+            </summary>
+        </member>
+        <member name="P:SagaDB.Item.Item.Int">
+            <summary>
+            强化装备提升的Int
+            </summary>
+        </member>
+        <member name="P:SagaDB.Item.Item.Vit">
+            <summary>
+            强化装备提升的Vit
+            </summary>
+        </member>
+        <member name="P:SagaDB.Item.Item.Agi">
+            <summary>
+            强化装备提升的Agi
+            </summary>
+        </member>
+        <member name="P:SagaDB.Item.Item.Mag">
+            <summary>
+            强化装备提升的Mag
+            </summary>
+        </member>
+        <member name="P:SagaDB.Item.Item.Luk">
+            <summary>
+            强化装备提升的Mag
+            </summary>
+        </member>
+        <member name="P:SagaDB.Item.Item.Cha">
+            <summary>
+            强化装备提升的Mag
+            </summary>
+        </member>
+        <member name="P:SagaDB.Item.Item.Atk1">
+            <summary>
+            强化装备提升的Atk1
+            </summary>
+        </member>
+        <member name="P:SagaDB.Item.Item.Atk2">
+            <summary>
+            强化装备提升的Atk2
+            </summary>
+        </member>
+        <member name="P:SagaDB.Item.Item.Atk3">
+            <summary>
+            强化装备提升的Atk3
+            </summary>
+        </member>
+        <member name="P:SagaDB.Item.Item.MAtk">
+            <summary>
+            强化装备提升的MAtk
+            </summary>
+        </member>
+        <member name="P:SagaDB.Item.Item.Def">
+            <summary>
+            强化装备提升的Def
+            </summary>
+        </member>
+        <member name="P:SagaDB.Item.Item.MDef">
+            <summary>
+            强化装备提升的MDef
+            </summary>
+        </member>
+        <member name="P:SagaDB.Item.Item.HitMelee">
+            <summary>
+            强化装备提升的HitMelee
+            </summary>
+        </member>
+        <member name="P:SagaDB.Item.Item.HitMagic">
+            <summary>
+            强化装备提升的HitMagic
+            </summary>
+        </member>
+        <member name="P:SagaDB.Item.Item.HitRanged">
+            <summary>
+            强化装备提升的HitRanged
+            </summary>
+        </member>
+        <member name="P:SagaDB.Item.Item.AvoidMelee">
+            <summary>
+            强化装备提升的AvoidMelee
+            </summary>
+        </member>
+        <member name="P:SagaDB.Item.Item.AvoidMagic">
+            <summary>
+            强化装备提升的AvoidMagic
+            </summary>
+        </member>
+        <member name="P:SagaDB.Item.Item.AvoidRanged">
+            <summary>
+            强化装备提升的AvoidRanged
+            </summary>
+        </member>
+        <member name="P:SagaDB.Item.Item.HitCritical">
+            <summary>
+            强化装备提升的HitCritical
+            </summary>
+        </member>
+        <member name="P:SagaDB.Item.Item.AvoidCritical">
+            <summary>
+            强化装备提升的AvoidCritical
+            </summary>
+        </member>
+        <member name="P:SagaDB.Item.Item.HPRecover">
+            <summary>
+            强化装备提升的HPRecover 宠物相关 待检查
+            </summary>
+        </member>
+        <member name="P:SagaDB.Item.Item.MPRecover">
+            <summary>
+            强化装备提升的MPRecover 宠物相关 待检查 暂时不要使用
+            </summary>
+        </member>
+        <member name="P:SagaDB.Item.Item.SPRecover">
+            <summary>
+            强化装备提升的SPRecover 宠物相关 待检查 暂时不要使用
+            </summary>
+        </member>
+        <member name="P:SagaDB.Item.Item.ASPD">
+            <summary>
+            强化装备提升的ASPD 宠物相关 待检查
+            </summary>
+        </member>
+        <member name="P:SagaDB.Item.Item.CSPD">
+            <summary>
+            强化装备提升的CSPD 宠物相关 待检查
+            </summary>
+        </member>
+        <member name="P:SagaDB.Item.Item.Name">
+            <summary>
+            道具详细情报显示的名字
+            </summary>
+        </member>
+        <member name="P:SagaDB.Item.Item.Old">
+            <summary>
+            是否是旧版本道具
+            </summary>
+        </member>
+        <member name="P:SagaDB.Item.Item.Potential">
+            <summary>
+            是否已经潜在强化
+            </summary>
+        </member>
+        <member name="P:SagaDB.Item.Item.Release">
+            <summary>
+            是否已经性能解放
+            </summary>
+        </member>
+        <member name="P:SagaDB.Item.Item.PartnerLevel">
+            <summary>
+            Partner等级
+            </summary>
+        </member>
+        <member name="P:SagaDB.Item.Item.PartnerRebirth">
+            <summary>
+            Partner转生标志 0=未转生 1=已转生
+            </summary>
+        </member>
+        <member name="P:SagaDB.Item.Item.Rental">
+            <summary>
+            是否是出租道具
+            </summary>
+        </member>
+        <member name="P:SagaDB.Item.Item.RentalTime">
+            <summary>
+            出租道具到期时间
+            </summary>
+        </member>
+        <member name="P:SagaDB.Item.Item.Stack">
+            <summary>
+            数量
+            </summary>
+        </member>
+        <member name="P:SagaDB.Item.Item.Durability">
+            <summary>
+            持久
+            </summary>
+        </member>
+        <member name="P:SagaDB.Item.Item.PossessionedActor">
+            <summary>
+            凭依在此道具上的Actor
+            </summary>
+        </member>
+        <member name="P:SagaDB.Item.Item.PossessionOwner">
+            <summary>
+            此道具被凭依前的主人
+            </summary>
+        </member>
+        <member name="P:SagaDB.Item.Item.CurrentSlot">
+            <summary>
+            装备当前插槽
+            </summary>
+        </member>
+        <member name="P:SagaDB.Item.Item.MaxSlot">
+            <summary>
+            装备最大插槽
+            </summary>
+        </member>
+        <member name="P:SagaDB.Item.Item.Cards">
+            <summary>
+            已经插入的卡
+            </summary>
+        </member>
+        <member name="P:SagaDB.Item.Item.Refine">
+            <summary>
+            装备强化次数
+            </summary>
+        </member>
+        <member name="P:SagaDB.Item.Item.ChangeMode">
+            <summary>
+            觉醒状态
+            </summary>
+        </member>
+        <member name="P:SagaDB.Item.Item.RefineType">
+            <summary>
+            强化类型
+            </summary>
+        </member>
+        <member name="P:SagaDB.Item.Item.IsEquipt">
+            <summary>
+            检查是否是装备 这样的判定太蛋疼了 有空我要改掉！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！
+            </summary>
+        </member>
+        <member name="P:SagaDB.Item.Item.IsParts">
+            <summary>
+            检查是否是DEM部件
+            </summary>
+        </member>
+        <member name="P:SagaDB.Item.Item.IsWeapon">
+            <summary>
+            检查一个道具是否是武器
+            </summary>
+        </member>
+        <member name="P:SagaDB.Item.Item.NeedAmmo">
+            <summary>
+            检查武器是否需要弹药（是否是弓箭枪械类）
+            </summary>
+        </member>
+        <member name="P:SagaDB.Item.Item.IsAmmo">
+            <summary>
+            检查是否是弹药(不含card和throw)
+            </summary>
+        </member>
+        <member name="P:SagaDB.Item.Item.IsArmor">
+            <summary>
+            检查道具是否是衣服
+            </summary>
+        </member>
+        <member name="P:SagaDB.Item.Item.IsPet">
+            <summary>
+            检查道具是否是宠物
+            </summary>
+        </member>
+        <member name="P:SagaDB.Item.Item.IsPartner">
+            <summary>
+            检查道具是否是partner
+            </summary>
+        </member>
+        <member name="P:SagaDB.Item.Item.EquipSlot">
+            <summary>
+            取得该装备需要的装备槽 
+            </summary>
+        </member>
+        <member name="P:SagaDB.Item.Item.PartnerEquipSlot">
+            <summary>
+            取得该Partner装备需要的装备槽 
+            </summary>
+        </member>
+        <member name="M:SagaDB.Item.Item.AbilityVectors(System.Boolean)">
+             <summary>
+             装备所有插的卡的能力向量
+            <param name="deck">是否是牌面</param>
+             </summary>
+        </member>
+        <member name="M:SagaDB.Item.Item.VectorValues(System.Boolean,System.Boolean)">
+            <summary>
+            取得能力向量的值或等级
+            </summary>
+            <param name="deck">是否是牌面</param>
+            <param name="lv">是否是取得向量等级信息而非值信息</param>
+            <returns></returns>
+        </member>
+        <member name="M:SagaDB.Item.Item.ReleaseAbilities(System.Boolean)">
+            <summary>
+            取得装备卡片的Release能力
+            </summary>
+            <param name="deck"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SagaDB.Item.Item.IrisElements(System.Boolean)">
+            <summary>
+            取得插入的卡的属性加成
+            </summary>
+            <param name="deck">是否是牌面</param>
+            <returns></returns>
+        </member>
+        <member name="P:SagaDB.LevelLimit.LevelLimit.IsLock">
+            <summary>
+            是否正在等待标记
+            </summary>
+        </member>
+        <member name="P:SagaDB.LevelLimit.LevelLimit.FirstLevelLimit">
+            <summary>
+            初次设定的等级上限
+            </summary>
+        </member>
+        <member name="P:SagaDB.LevelLimit.LevelLimit.NowLevelLimit">
+            <summary>
+            当前的等级上限
+            </summary>
+        </member>
+        <member name="P:SagaDB.LevelLimit.LevelLimit.NextLevelLimit">
+            <summary>
+            下次的等级上限
+            </summary>
+        </member>
+        <member name="P:SagaDB.LevelLimit.LevelLimit.LastTimeLevelLimit">
+            <summary>
+            上次的等级上限
+            </summary>
+        </member>
+        <member name="P:SagaDB.LevelLimit.LevelLimit.SetNextUpLevelLimit">
+            <summary>
+            设置下次的等级上限增幅度
+            </summary>
+        </member>
+        <member name="P:SagaDB.LevelLimit.LevelLimit.SetNextUpDays">
+            <summary>
+            设置下次达成上限后等待的天数
+            </summary>
+        </member>
+        <member name="P:SagaDB.LevelLimit.LevelLimit.ReachTime">
+            <summary>
+            当前完成的时间
+            </summary>
+        </member>
+        <member name="P:SagaDB.LevelLimit.LevelLimit.NextTime">
+            <summary>
+            下次开始新上限的时间
+            </summary>
+        </member>
+        <member name="P:SagaDB.LevelLimit.LevelLimit.FirstPlayer">
+            <summary>
+            第一个达成的玩家CharID
+            </summary>
+        </member>
+        <member name="P:SagaDB.LevelLimit.LevelLimit.SecondPlayer">
+            <summary>
+            第二个达成的玩家CharID
+            </summary>
+        </member>
+        <member name="P:SagaDB.LevelLimit.LevelLimit.Thirdlayer">
+            <summary>
+            第三个达成的玩家CharID
+            </summary>
+        </member>
+        <member name="P:SagaDB.LevelLimit.LevelLimit.FourthPlayer">
+            <summary>
+            第四个达成的玩家CharID
+            </summary>
+        </member>
+        <member name="P:SagaDB.LevelLimit.LevelLimit.FifthPlayer">
+            <summary>
+            第五个达成的玩家CharID
+            </summary>
+        </member>
+        <member name="P:SagaDB.LevelLimit.LevelLimit.FinishPlayers">
+            <summary>
+            达成上限的玩家列表
+            </summary>
+        </member>
+        <member name="T:SagaDB.Navi.Navi">
+            <summary>
+            导航
+            </summary>
+        </member>
+        <member name="P:SagaDB.Navi.Event.State">
+            <summary>
+            Event状态，最低位为是否显示（1为显示），次低位为是否完成（1为完成），三低位为是否已领取奖励（1为未领取）
+            </summary>
+        </member>
+        <member name="P:SagaDB.Navi.Event.Show">
+            <summary>
+            设定和获取Event是否显示（1为显示）
+            </summary>
+        </member>
+        <member name="P:SagaDB.Navi.Event.Finished">
+            <summary>
+            设定和获取Event是否完成（1为完成）
+            </summary>
+        </member>
+        <member name="P:SagaDB.Navi.Event.NotRewarded">
+            <summary>
+            设定和获取Event是否已领取奖励（1为未领取）
+            </summary>
+        </member>
+        <member name="P:SagaDB.Navi.Event.DisplaySteps">
+            <summary>
+            设定和获取Event的每个步骤是否在导航开始后显示
+            </summary>
+        </member>
+        <member name="P:SagaDB.Navi.Event.FinishedSteps">
+            <summary>
+            设定和获取Event的每个步骤是否完成
+            </summary>
+        </member>
+        <member name="T:SagaDB.ODWar.ODWar">
+            <summary>
+            都市攻防战
+            </summary>
+        </member>
+        <member name="P:SagaDB.ODWar.ODWar.MapID">
+            <summary>
+            攻防战地图ID
+            </summary>
+        </member>
+        <member name="P:SagaDB.ODWar.ODWar.StartTime">
+            <summary>
+            攻防战的时间
+            </summary>
+        </member>
+        <member name="P:SagaDB.ODWar.ODWar.Symbols">
+            <summary>
+            象征MobID和位置
+            </summary>
+        </member>
+        <member name="P:SagaDB.ODWar.ODWar.SymbolTrash">
+            <summary>
+            象征残骸MobID
+            </summary>
+        </member>
+        <member name="P:SagaDB.ODWar.ODWar.DEMChamp">
+            <summary>
+            DEM Champ怪列表
+            </summary>
+        </member>
+        <member name="P:SagaDB.ODWar.ODWar.DEMNormal">
+            <summary>
+            DEM 普通怪列表
+            </summary>
+        </member>
+        <member name="P:SagaDB.ODWar.ODWar.Boss">
+            <summary>
+            Boss怪物列表
+            </summary>
+        </member>
+        <member name="P:SagaDB.ODWar.ODWar.WaveStrong">
+            <summary>
+            敌人比较强的攻击波
+            </summary>
+        </member>
+        <member name="P:SagaDB.ODWar.ODWar.WaveWeak">
+            <summary>
+            敌人比较弱的攻击波
+            </summary>
+        </member>
+        <member name="P:SagaDB.ODWar.ODWar.Started">
+            <summary>
+            攻城战是否开始
+            </summary>
+        </member>
+        <member name="P:SagaDB.ODWar.ODWar.Score">
+            <summary>
+            玩家的成绩
+            </summary>
+        </member>
+        <member name="P:SagaDB.FGarden.FGarden.ID">
+            <summary>
+            飞空庭的ID
+            </summary>
+        </member>
+        <member name="P:SagaDB.FGarden.FGarden.Owner">
+            <summary>
+            飞空庭的主人
+            </summary>
+        </member>
+        <member name="P:SagaDB.FGarden.FGarden.RopeActor">
+            <summary>
+            飞空庭绳子的Actor
+            </summary>
+        </member>
+        <member name="P:SagaDB.FGarden.FGarden.MapID">
+            <summary>
+            飞空庭地图ID
+            </summary>
+        </member>
+        <member name="P:SagaDB.FGarden.FGarden.RoomMapID">
+            <summary>
+            飞空庭房间地图ID
+            </summary>
+        </member>
+        <member name="P:SagaDB.FGarden.FGarden.FGardenEquipments">
+            <summary>
+            飞空庭的装备
+            </summary>
+        </member>
+        <member name="P:SagaDB.FGarden.FGarden.Furnitures">
+            <summary>
+            飞空庭的家具
+            </summary>
+        </member>
+        <member name="P:SagaDB.FGarden.FGarden.Fuel">
+            <summary>
+            飞空庭的燃料
+            </summary>
+        </member>
+        <member name="M:SagaDB.KnightWar.KnightWarFactory.GetNextKnightWar">
+            <summary>
+            下一场要进行的骑士团演习
+            </summary>
+            <returns>要上映的电影</returns>
+        </member>
+        <member name="M:SagaDB.KnightWar.KnightWarFactory.GetCurrentMovie">
+            <summary>
+            当前正在进行的骑士团演习
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:SagaDB.KnightWar.KnightWar">
+            <summary>
+            骑士团演习
+            </summary>
+        </member>
+        <member name="P:SagaDB.KnightWar.KnightWar.MapID">
+            <summary>
+            演习地图ID
+            </summary>
+        </member>
+        <member name="P:SagaDB.KnightWar.KnightWar.MaxLV">
+            <summary>
+            最高等级限制
+            </summary>
+        </member>
+        <member name="P:SagaDB.KnightWar.KnightWar.StartTime">
+            <summary>
+            开始时间
+            </summary>
+        </member>
+        <member name="P:SagaDB.KnightWar.KnightWar.Duration">
+            <summary>
+            持续时间（分钟）
+            </summary>
+        </member>
+        <member name="T:SagaDB.Marionette.Marionette">
+            <summary>
+            活动木偶
+            </summary>
+        </member>
+        <member name="P:SagaDB.Marionette.Marionette.Name">
+            <summary>
+            活动木偶的名称
+            </summary>
+        </member>
+        <member name="P:SagaDB.Marionette.Marionette.ID">
+            <summary>
+            活动木偶的ID
+            </summary>
+        </member>
+        <member name="P:SagaDB.Marionette.Marionette.PictID">
+            <summary>
+            活动木偶的显示ID
+            </summary>
+        </member>
+        <member name="P:SagaDB.Marionette.Marionette.MobType">
+            <summary>
+            活动木偶的怪物类型
+            </summary>
+        </member>
+        <member name="P:SagaDB.Marionette.Marionette.Duration">
+            <summary>
+            变身时间
+            </summary>
+        </member>
+        <member name="P:SagaDB.Marionette.Marionette.Delay">
+            <summary>
+            变身延迟
+            </summary>
+        </member>
+        <member name="P:SagaDB.Npc.Shop.ID">
+            <summary>
+            Shop的ID
+            </summary>
+        </member>
+        <member name="P:SagaDB.Npc.Shop.SellRate">
+            <summary>
+            贩卖倍率
+            </summary>
+        </member>
+        <member name="P:SagaDB.Npc.Shop.BuyRate">
+            <summary>
+            购买倍率
+            </summary>
+        </member>
+        <member name="P:SagaDB.Npc.Shop.BuyLimit">
+            <summary>
+            购买额度
+            </summary>
+        </member>
+        <member name="P:SagaDB.Npc.Shop.Goods">
+            <summary>
+            商品
+            </summary>
+        </member>
+        <member name="P:SagaDB.Npc.Shop.ShopType">
+            <summary>
+            商店类型
+            </summary>
+        </member>
+        <member name="P:SagaDB.Npc.NPC.ID">
+            <summary>
+            NPC的ID
+            </summary>
+        </member>
+        <member name="P:SagaDB.Npc.NPC.Name">
+            <summary>
+            NPC的名字
+            </summary>
+        </member>
+        <member name="P:SagaDB.Npc.NPC.MapID">
+            <summary>
+            NPC所在地图
+            </summary>
+        </member>
+        <member name="P:SagaDB.Npc.NPC.X">
+            <summary>
+            NPC的X坐标
+            </summary>
+        </member>
+        <member name="P:SagaDB.Npc.NPC.Y">
+            <summary>
+            NPC的Y坐标
+            </summary>
+        </member>
+        <member name="F:SagaDB.Party.Party.Roll">
+            <summary>
+            队伍随机分配开关（0为开，1为关）
+            </summary>
+        </member>
+        <!-- 对于成员“P:SagaDB.Party.Party.TStr”忽略有格式错误的 XML 注释 -->
+        <member name="P:SagaDB.Party.Party.TInt">
+            <summary>
+            临时整数变量集
+            </summary>
+        </member>
+        <member name="P:SagaDB.Party.Party.TMask">
+            <summary>
+            临时标识变量集
+            </summary>
+        </member>
+        <member name="P:SagaDB.Party.Party.ID">
+            <summary>
+            队伍的ID
+            </summary>
+        </member>
+        <member name="P:SagaDB.Party.Party.Name">
+            <summary>
+            队伍名字
+            </summary>
+        </member>
+        <member name="P:SagaDB.Party.Party.Item(System.Byte)">
+            <summary>
+            取得指定队伍成员
+            </summary>
+            <param name="index">索引ID</param>
+            <returns>成员玩家</returns>
+        </member>
+        <member name="P:SagaDB.Party.Party.Leader">
+            <summary>
+            队长
+            </summary>
+        </member>
+        <member name="P:SagaDB.Party.Party.Members">
+            <summary>
+            队伍成员
+            </summary>
+        </member>
+        <member name="M:SagaDB.Party.Party.IsMember(System.UInt32)">
+            <summary>
+            检查某个玩家是否是队伍成员
+            </summary>
+            <param name="char_id">玩家的CharID</param>
+            <returns>是否是队伍成员</returns>
+        </member>
+        <member name="M:SagaDB.Party.Party.IsMember(SagaDB.Actor.ActorPC)">
+            <summary>
+            检查某个玩家是否是队伍成员
+            </summary>
+            <param name="pc">玩家</param>
+            <returns>是否是队伍成员</returns>
+        </member>
+        <member name="P:SagaDB.Party.Party.MemberCount">
+            <summary>
+            取得成员人数
+            </summary>
+        </member>
+        <member name="M:SagaDB.Party.Party.IndexOf(SagaDB.Actor.ActorPC)">
+            <summary>
+            取得某个玩家成员ID
+            </summary>
+            <param name="pc">玩家</param>
+            <returns>成员ID，如果不是队伍成员则返回-1</returns>
+        </member>
+        <member name="M:SagaDB.Party.Party.IndexOf(System.UInt32)">
+            <summary>
+            取得某个玩家成员ID
+            </summary>
+            <param name="pc">玩家</param>
+            <returns>成员ID，如果不是队伍成员则返回-1</returns>
+        </member>
+        <member name="M:SagaDB.Party.Party.MemberOnline(SagaDB.Actor.ActorPC)">
+            <summary>
+            成员上线，替换离线Actor
+            </summary>
+            <param name="newPC">新Actor</param>
+        </member>
+        <member name="M:SagaDB.Party.Party.NewMember(SagaDB.Actor.ActorPC)">
+            <summary>
+            添加新的成员
+            </summary>
+            <param name="pc">玩家</param>
+            <returns>队伍中的索引</returns>
+        </member>
+        <member name="M:SagaDB.Party.Party.DeleteMemeber(SagaDB.Actor.ActorPC)">
+            <summary>
+            删除成员
+            </summary>
+            <param name="pc">玩家</param>
+        </member>
+        <member name="M:SagaDB.Party.Party.DeleteMemeber(System.UInt32)">
+            <summary>
+            删除成员
+            </summary>
+            <param name="pc">玩家</param>
+        </member>
+        <member name="M:SagaDB.Party.Party.SearchMemeber(System.UInt32)">
+            <summary>
+            根据CharID查找成员
+            </summary>
+            <param name="pc">玩家</param>
+        </member>
+        <member name="P:SagaDB.PProtect.PProtect.ID">
+            <summary>
+            队伍序列ID
+            </summary>
+        </member>
+        <member name="P:SagaDB.PProtect.PProtect.TaskID">
+            <summary>
+            副本ID
+            </summary>
+        </member>
+        <member name="P:SagaDB.PProtect.PProtect.Name">
+            <summary>
+            队伍名字
+            </summary>
+        </member>
+        <member name="P:SagaDB.PProtect.PProtect.Leader">
+            <summary>
+            召集人
+            </summary>
+        </member>
+        <member name="P:SagaDB.PProtect.PProtect.Members">
+            <summary>
+            队伍成员
+            </summary>
+        </member>
+        <member name="P:SagaDB.PProtect.PProtect.MemberCount">
+            <summary>
+            取得成员人数
+            </summary>
+        </member>
+        <member name="P:SagaDB.PProtect.PProtect.Message">
+            <summary>
+            招募信息
+            </summary>
+        </member>
+        <member name="P:SagaDB.PProtect.PProtect.Password">
+            <summary>
+            密码
+            </summary>
+        </member>
+        <member name="P:SagaDB.PProtect.PProtect.IsPassword">
+            <summary>
+            是否加密
+            </summary>
+        </member>
+        <member name="P:SagaDB.PProtect.PProtect.IsRun">
+            <summary>
+            状态 0为招募中 1为游戏中
+            </summary>
+        </member>
+        <member name="P:SagaDB.Quests.QuestInfo.ID">
+            <summary>
+            任务ID
+            </summary>
+        </member>
+        <member name="P:SagaDB.Quests.QuestInfo.GroupID">
+            <summary>
+            任务组ID
+            </summary>
+        </member>
+        <member name="P:SagaDB.Quests.QuestInfo.QuestType">
+            <summary>
+            任务类型
+            </summary>
+        </member>
+        <member name="P:SagaDB.Quests.QuestInfo.Name">
+            <summary>
+            任务名称
+            </summary>
+        </member>
+        <member name="P:SagaDB.Quests.QuestInfo.TimeLimit">
+            <summary>
+            任务时间限制，分钟为单位
+            </summary>
+        </member>
+        <member name="P:SagaDB.Quests.QuestInfo.RewardItem">
+            <summary>
+            任务完成奖励道具
+            </summary>
+        </member>
+        <member name="P:SagaDB.Quests.QuestInfo.RewardCount">
+            <summary>
+            任务完成奖励道具的数量
+            </summary>
+        </member>
+        <member name="P:SagaDB.Quests.QuestInfo.RequiredQuestPoint">
+            <summary>
+            任务需要的任务点
+            </summary>
+        </member>
+        <member name="P:SagaDB.Quests.QuestInfo.DungeonID">
+            <summary>
+            任务创建的遗迹ID
+            </summary>
+        </member>
+        <member name="P:SagaDB.Quests.QuestInfo.MinLevel">
+            <summary>
+            任务要求最低人物等级
+            </summary>
+        </member>
+        <member name="P:SagaDB.Quests.QuestInfo.MaxLevel">
+            <summary>
+            任务要求最低人物等级
+            </summary>
+        </member>
+        <member name="P:SagaDB.Quests.QuestInfo.EXP">
+            <summary>
+            任务奖励经验值
+            </summary>
+        </member>
+        <member name="P:SagaDB.Quests.QuestInfo.JEXP">
+            <summary>
+            任务奖励职业经验值
+            </summary>
+        </member>
+        <member name="P:SagaDB.Quests.QuestInfo.Gold">
+            <summary>
+            任务奖励金钱
+            </summary>
+        </member>
+        <member name="P:SagaDB.Quests.QuestInfo.CP">
+            <summary>
+            任务奖励CP
+            </summary>
+        </member>
+        <member name="P:SagaDB.Quests.QuestInfo.Fame">
+            <summary>
+            任务奖励声望
+            </summary>
+        </member>
+        <member name="P:SagaDB.Quests.QuestInfo.MapID1">
+            <summary>
+            有效地图1
+            </summary>
+        </member>
+        <member name="P:SagaDB.Quests.QuestInfo.MapID2">
+            <summary>
+            有效地图2
+            </summary>
+        </member>
+        <member name="P:SagaDB.Quests.QuestInfo.MapID3">
+            <summary>
+            有效地图3
+            </summary>
+        </member>
+        <member name="P:SagaDB.Quests.QuestInfo.ObjectID1">
+            <summary>
+            任务对象ID，可以是道具ID，也可以是怪物ID
+            </summary>
+        </member>
+        <member name="P:SagaDB.Quests.QuestInfo.ObjectID2">
+            <summary>
+            任务对象ID2，可以是道具ID，也可以是怪物ID
+            </summary>
+        </member>
+        <member name="P:SagaDB.Quests.QuestInfo.ObjectID3">
+            <summary>
+            任务对象ID3，可以是道具ID，也可以是怪物ID
+            </summary>
+        </member>
+        <member name="P:SagaDB.Quests.QuestInfo.Count1">
+            <summary>
+            任务要求对象个数1
+            </summary>
+        </member>
+        <member name="P:SagaDB.Quests.QuestInfo.Count2">
+            <summary>
+            任务要求对象个数2
+            </summary>
+        </member>
+        <member name="P:SagaDB.Quests.QuestInfo.Count3">
+            <summary>
+            任务要求对象个数2
+            </summary>
+        </member>
+        <member name="P:SagaDB.Quests.QuestInfo.Party">
+            <summary>
+            是否可以组队进行
+            </summary>
+        </member>
+        <member name="P:SagaDB.Quests.QuestInfo.NPCSource">
+            <summary>
+            搬运任务委托NPC
+            </summary>
+        </member>
+        <member name="P:SagaDB.Quests.QuestInfo.NPCDestination">
+            <summary>
+            搬运任务目标NPC
+            </summary>
+        </member>
+        <member name="P:SagaDB.Quests.QuestInfo.JobType">
+            <summary>
+            任务要求的职业类别
+            </summary>
+        </member>
+        <member name="P:SagaDB.Quests.QuestInfo.Job">
+            <summary>
+            任务要求的职业职业
+            </summary>
+        </member>
+        <member name="P:SagaDB.Quests.QuestInfo.Race">
+            <summary>
+            任务要求的种族
+            </summary>
+        </member>
+        <member name="P:SagaDB.Quests.QuestInfo.Gender">
+            <summary>
+            任务要求的性别
+            </summary>
+        </member>
+        <member name="P:SagaDB.Quests.Quest.Status">
+            <summary>
+            任务状态
+            </summary>
+        </member>
+        <member name="P:SagaDB.Quests.Quest.EndTime">
+            <summary>
+            任务结束时间
+            </summary>
+        </member>
+        <member name="P:SagaDB.Quests.Quest.CurrentCount1">
+            <summary>
+            目前完成数量1
+            </summary>
+        </member>
+        <member name="P:SagaDB.Quests.Quest.CurrentCount2">
+            <summary>
+            目前完成数量2
+            </summary>
+        </member>
+        <member name="P:SagaDB.Quests.Quest.CurrentCount3">
+            <summary>
+            目前完成数量3
+            </summary>
+        </member>
+        <member name="P:SagaDB.Quests.Quest.NPC">
+            <summary>
+            委托任务的NPC
+            </summary>
+        </member>
+        <member name="M:SagaDB.Quests.Quest.Difficulty(SagaDB.Actor.ActorPC)">
+            <summary>
+            该任务对指定玩家来说的难度
+            </summary>
+            <param name="pc">玩家</param>
+            <returns>难度</returns>
+        </member>
+        <member name="T:SagaDB.Quests.QuestType">
+            <summary>
+            任务类别
+            </summary>
+        </member>
+        <member name="F:SagaDB.Quests.QuestType.HUNT">
+            <summary>
+            击退
+            </summary>
+        </member>
+        <member name="F:SagaDB.Quests.QuestType.GATHER">
+            <summary>
+            收集
+            </summary>
+        </member>
+        <member name="F:SagaDB.Quests.QuestType.CAPTURE">
+            <summary>
+            攻略
+            </summary>
+        </member>
+        <member name="F:SagaDB.Quests.QuestType.TRANSPORT">
+            <summary>
+            搬运
+            </summary>
+        </member>
+        <member name="F:SagaDB.Quests.QuestType.SPECIAL">
+            <summary>
+            特殊
+            </summary>
+        </member>
+        <member name="T:SagaDB.Quests.QuestStatus">
+            <summary>
+            任务状态
+            </summary>
+        </member>
+        <member name="F:SagaDB.Quests.QuestStatus.OPEN">
+            <summary>
+            进行中
+            </summary>
+        </member>
+        <member name="F:SagaDB.Quests.QuestStatus.COMPLETED">
+            <summary>
+            完成
+            </summary>
+        </member>
+        <member name="F:SagaDB.Quests.QuestStatus.FAILED">
+            <summary>
+            失败
+            </summary>
+        </member>
+        <member name="T:SagaDB.Quests.QuestDifficulty">
+            <summary>
+            任务难度
+            </summary>
+        </member>
+        <member name="P:SagaDB.Ring.Ring.FFName">
+            <summary>
+            军团的飞空城名称
+            </summary>
+        </member>
+        <member name="P:SagaDB.Ring.Ring.ID">
+            <summary>
+            军团的ID
+            </summary>
+        </member>
+        <member name="P:SagaDB.Ring.Ring.Name">
+            <summary>
+            军团名字
+            </summary>
+        </member>
+        <member name="P:SagaDB.Ring.Ring.Fame">
+            <summary>
+            军团声望
+            </summary>
+        </member>
+        <member name="P:SagaDB.Ring.Ring.FF_ID">
+            <summary>
+            军团飞空城的ID
+            </summary>
+        </member>
+        <member name="P:SagaDB.Ring.Ring.FFarden">
+            <summary>
+            军团的飞空城
+            </summary>
+        </member>
+        <member name="P:SagaDB.Ring.Ring.Item(System.Int32)">
+            <summary>
+            取得指定军团成员
+            </summary>
+            <param name="index">索引ID</param>
+            <returns>成员玩家</returns>
+        </member>
+        <member name="P:SagaDB.Ring.Ring.Leader">
+            <summary>
+            队长
+            </summary>
+        </member>
+        <member name="P:SagaDB.Ring.Ring.Members">
+            <summary>
+            军团成员
+            </summary>
+        </member>
+        <member name="P:SagaDB.Ring.Ring.Rights">
+            <summary>
+            成员权限
+            </summary>
+        </member>
+        <member name="P:SagaDB.Ring.Ring.MaxMemberCount">
+            <summary>
+            军团最大人数
+            </summary>
+        </member>
+        <member name="M:SagaDB.Ring.Ring.IsMember(System.UInt32)">
+            <summary>
+            检查某个玩家是否是军团成员
+            </summary>
+            <param name="char_id">玩家的CharID</param>
+            <returns>是否是军团成员</returns>
+        </member>
+        <member name="M:SagaDB.Ring.Ring.IsMember(SagaDB.Actor.ActorPC)">
+            <summary>
+            检查某个玩家是否是军团成员
+            </summary>
+            <param name="pc">玩家</param>
+            <returns>是否是军团成员</returns>
+        </member>
+        <member name="P:SagaDB.Ring.Ring.MemberCount">
+            <summary>
+            取得成员人数
+            </summary>
+        </member>
+        <member name="M:SagaDB.Ring.Ring.IndexOf(SagaDB.Actor.ActorPC)">
+            <summary>
+            取得某个玩家成员ID
+            </summary>
+            <param name="pc">玩家</param>
+            <returns>成员ID，如果不是军团成员则返回-1</returns>
+        </member>
+        <member name="M:SagaDB.Ring.Ring.IndexOf(System.UInt32)">
+            <summary>
+            取得某个玩家成员ID
+            </summary>
+            <param name="pc">玩家</param>
+            <returns>成员ID，如果不是军团成员则返回-1</returns>
+        </member>
+        <member name="M:SagaDB.Ring.Ring.MemberOnline(SagaDB.Actor.ActorPC)">
+            <summary>
+            成员上线，替换离线Actor
+            </summary>
+            <param name="newPC">新Actor</param>
+        </member>
+        <member name="M:SagaDB.Ring.Ring.NewMember(SagaDB.Actor.ActorPC)">
+            <summary>
+            添加新的成员
+            </summary>
+            <param name="pc">玩家</param>
+            <returns>军团中的索引</returns>
+        </member>
+        <member name="M:SagaDB.Ring.Ring.DeleteMemeber(SagaDB.Actor.ActorPC)">
+            <summary>
+            删除成员
+            </summary>
+            <param name="pc">玩家</param>
+        </member>
+        <member name="M:SagaDB.Ring.Ring.DeleteMemeber(System.UInt32)">
+            <summary>
+            删除成员
+            </summary>
+            <param name="pc">玩家</param>
+        </member>
+        <member name="P:SagaDB.Server.Server.FFardenEquipments">
+            <summary>
+            飞空城的装备
+            </summary>
+        </member>
+        <member name="P:SagaDB.Server.Server.Furnitures">
+            <summary>
+            飞空城的家具
+            </summary>
+        </member>
+        <member name="P:SagaDB.Server.Server.FurnituresofFG">
+            <summary>
+            飞空庭的家具
+            </summary>
+        </member>
+        <member name="T:SagaDB.Synthese.SyntheseInfo">
+            <summary>
+            合成信息
+            </summary>
+        </member>
+        <member name="P:SagaDB.Synthese.SyntheseInfo.ID">
+            <summary>
+            合成ID
+            </summary>
+        </member>
+        <member name="P:SagaDB.Synthese.SyntheseInfo.SkillID">
+            <summary>
+            合成使用的技能
+            </summary>
+        </member>
+        <member name="P:SagaDB.Synthese.SyntheseInfo.SkillLv">
+            <summary>
+            合成使用技能的等级
+            </summary>
+        </member>
+        <member name="P:SagaDB.Synthese.SyntheseInfo.Gold">
+            <summary>
+            合成所需资金
+            </summary>
+        </member>
+        <member name="P:SagaDB.Synthese.SyntheseInfo.RequiredTool">
+            <summary>
+            合成所需工具
+            </summary>
+        </member>
+        <member name="P:SagaDB.Synthese.SyntheseInfo.Materials">
+            <summary>
+            合成所需材料
+            </summary>
+        </member>
+        <member name="P:SagaDB.Synthese.SyntheseInfo.Products">
+            <summary>
+            合成产物
+            </summary>
+        </member>
+        <member name="T:SagaDB.Synthese.ItemElement">
+            <summary>
+            合成物品信息
+            </summary>
+        </member>
+        <member name="P:SagaDB.Synthese.ItemElement.ID">
+            <summary>
+            物品ID
+            </summary>
+        </member>
+        <member name="P:SagaDB.Synthese.ItemElement.Count">
+            <summary>
+            物品个数
+            </summary>
+        </member>
+        <member name="P:SagaDB.Synthese.ItemElement.Rate">
+            <summary>
+            几率
+            </summary>
+        </member>
+        <member name="P:SagaDB.Tamaire.TamaireLending.MaxLendings">
+            <summary>
+            玩家最大可借出的"心"的數量
+            </summary>
+        </member>
+        <!-- 对于成员“P:SagaDB.Team.Team.TStr”忽略有格式错误的 XML 注释 -->
+        <member name="P:SagaDB.Team.Team.TInt">
+            <summary>
+            临时整数变量集
+            </summary>
+        </member>
+        <member name="P:SagaDB.Team.Team.TMask">
+            <summary>
+            临时标识变量集
+            </summary>
+        </member>
+        <member name="P:SagaDB.Team.Team.ID">
+            <summary>
+            队伍的ID
+            </summary>
+        </member>
+        <member name="P:SagaDB.Team.Team.Name">
+            <summary>
+            队伍名字
+            </summary>
+        </member>
+        <member name="P:SagaDB.Team.Team.Pass">
+            <summary>
+            队伍密碼
+            </summary>
+        </member>
+        <member name="P:SagaDB.Team.Team.Comment">
+            <summary>
+            队伍留言
+            </summary>
+        </member>
+        <member name="P:SagaDB.Team.Team.MinLevel">
+            <summary>
+            队伍最低等級要求
+            </summary>
+        </member>
+        <member name="P:SagaDB.Team.Team.MaxLevel">
+            <summary>
+            队伍最高等級要求
+            </summary>
+        </member>
+        <member name="P:SagaDB.Team.Team.StartingFloor">
+            <summary>
+            队伍的起始層數
+            </summary>
+        </member>
+        <member name="P:SagaDB.Team.Team.NowFloor1">
+            <summary>
+            队伍的現在所在層數(較淺層)
+            </summary>
+        </member>
+        <member name="P:SagaDB.Team.Team.NowFloor2">
+            <summary>
+            队伍的現在所在層數(較深層)
+            </summary>
+        </member>
+        <member name="P:SagaDB.Team.Team.JobRequirements">
+            <summary>
+            队伍職業要求
+            </summary>
+        </member>
+        <member name="P:SagaDB.Team.Team.Item(System.Byte)">
+            <summary>
+            取得指定队伍成员
+            </summary>
+            <param name="index">索引ID</param>
+            <returns>成员玩家</returns>
+        </member>
+        <member name="P:SagaDB.Team.Team.Leader">
+            <summary>
+            队长
+            </summary>
+        </member>
+        <member name="P:SagaDB.Team.Team.Members">
+            <summary>
+            队伍成员
+            </summary>
+        </member>
+        <member name="M:SagaDB.Team.Team.IsMember(System.UInt32)">
+            <summary>
+            检查某个玩家是否是队伍成员
+            </summary>
+            <param name="char_id">玩家的CharID</param>
+            <returns>是否是队伍成员</returns>
+        </member>
+        <member name="M:SagaDB.Team.Team.IsMember(SagaDB.Actor.ActorPC)">
+            <summary>
+            检查某个玩家是否是队伍成员
+            </summary>
+            <param name="pc">玩家</param>
+            <returns>是否是队伍成员</returns>
+        </member>
+        <member name="P:SagaDB.Team.Team.MemberCount">
+            <summary>
+            取得成员人数
+            </summary>
+        </member>
+        <member name="M:SagaDB.Team.Team.IndexOf(SagaDB.Actor.ActorPC)">
+            <summary>
+            取得某个玩家成员ID
+            </summary>
+            <param name="pc">玩家</param>
+            <returns>成员ID，如果不是队伍成员则返回-1</returns>
+        </member>
+        <member name="M:SagaDB.Team.Team.IndexOf(System.UInt32)">
+            <summary>
+            取得某个玩家成员ID
+            </summary>
+            <param name="pc">玩家</param>
+            <returns>成员ID，如果不是队伍成员则返回-1</returns>
+        </member>
+        <member name="M:SagaDB.Team.Team.MemberOnline(SagaDB.Actor.ActorPC)">
+            <summary>
+            成员上线，替换离线Actor
+            </summary>
+            <param name="newPC">新Actor</param>
+        </member>
+        <member name="M:SagaDB.Team.Team.NewMember(SagaDB.Actor.ActorPC)">
+            <summary>
+            添加新的成员
+            </summary>
+            <param name="pc">玩家</param>
+            <returns>队伍中的索引</returns>
+        </member>
+        <member name="M:SagaDB.Team.Team.DeleteMemeber(SagaDB.Actor.ActorPC)">
+            <summary>
+            删除成员
+            </summary>
+            <param name="pc">玩家</param>
+        </member>
+        <member name="M:SagaDB.Team.Team.DeleteMemeber(System.UInt32)">
+            <summary>
+            删除成员
+            </summary>
+            <param name="pc">玩家</param>
+        </member>
+        <member name="M:SagaDB.Team.Team.SearchMemeber(System.UInt32)">
+            <summary>
+            根据CharID查找成员
+            </summary>
+            <param name="pc">玩家</param>
+        </member>
+        <member name="T:SagaDB.Theater.Movie">
+            <summary>
+            电影类
+            </summary>
+        </member>
+        <member name="P:SagaDB.Theater.Movie.Name">
+            <summary>
+            电影的名字
+            </summary>
+        </member>
+        <member name="P:SagaDB.Theater.Movie.MapID">
+            <summary>
+            影院地图ID
+            </summary>
+        </member>
+        <member name="P:SagaDB.Theater.Movie.Ticket">
+            <summary>
+            电影票ID
+            </summary>
+        </member>
+        <member name="P:SagaDB.Theater.Movie.URL">
+            <summary>
+            电影网址，mms流地址
+            </summary>
+        </member>
+        <member name="P:SagaDB.Theater.Movie.StartTime">
+            <summary>
+            上映时间
+            </summary>
+        </member>
+        <member name="P:SagaDB.Theater.Movie.Duration">
+            <summary>
+            电影长度
+            </summary>
+        </member>
+        <member name="M:SagaDB.Theater.TheaterFactory.GetNextMovie(System.UInt32)">
+            <summary>
+            下一部要上映的电影
+            </summary>
+            <param name="mapID">地图ID</param>
+            <returns>要上映的电影</returns>
+        </member>
+        <member name="M:SagaDB.Theater.TheaterFactory.GetCurrentMovie(System.UInt32)">
+            <summary>
+            当前放映中的电影
+            </summary>
+            <param name="mapID">影院地图ID</param>
+            <returns></returns>
+        </member>
+        <member name="T:SagaDB.Treasure.TreasureItem">
+            <summary>
+            宝物物品
+            </summary>
+        </member>
+        <member name="P:SagaDB.Treasure.TreasureItem.ID">
+            <summary>
+            物品ID
+            </summary>
+        </member>
+        <member name="P:SagaDB.Treasure.TreasureItem.Rate">
+             <summary>
+            取得几率 
+             </summary>
+        </member>
+        <member name="P:SagaDB.Treasure.TreasureItem.Count">
+            <summary>
+            取得数量
+            </summary>
+        </member>
+        <member name="T:SagaDB.Treasure.TreasureList">
+            <summary>
+            宝物列表
+            </summary>
+        </member>
+        <member name="P:SagaDB.Treasure.TreasureList.Name">
+            <summary>
+            列表组名
+            </summary>
+        </member>
+        <member name="P:SagaDB.Treasure.TreasureList.Items">
+            <summary>
+            宝物列表
+            </summary>
+        </member>
+        <member name="P:SagaDB.Treasure.TreasureList.TotalRate">
+            <summary>
+            宝物几率总和
+            </summary>
+        </member>
+        <member name="F:SagaDB.Partner.TalkInfo.Onsummoned">
+            <summary>
+            召唤宠物时的台词
+            </summary>
+        </member>
+        <member name="F:SagaDB.Partner.TalkInfo.OnBattle">
+            <summary>
+            处于战斗状态的台词
+            </summary>
+        </member>
+        <member name="F:SagaDB.Partner.TalkInfo.OnMasterDead">
+            <summary>
+            主人死亡时的台词
+            </summary>
+        </member>
+        <member name="F:SagaDB.Partner.TalkInfo.OnNormal">
+            <summary>
+            非战斗时的台词
+            </summary>
+        </member>
+        <member name="F:SagaDB.Partner.TalkInfo.OnJoinParty">
+            <summary>
+            主人加入队伍时的台词
+            </summary>
+        </member>
+        <member name="F:SagaDB.Partner.TalkInfo.OnLeaveParty">
+            <summary>
+            主人的队伍解散时的台词
+            </summary>
+        </member>
+        <member name="F:SagaDB.Partner.TalkInfo.OnMasterFighting">
+            <summary>
+            主人开始战斗时的台词
+            </summary>
+        </member>
+        <member name="F:SagaDB.Partner.TalkInfo.OnMasterLevelUp">
+            <summary>
+            主人升级时的台词
+            </summary>
+        </member>
+        <member name="F:SagaDB.Partner.TalkInfo.OnMasterQuit">
+            <summary>
+            主人在退出倒计时的台词
+            </summary>
+        </member>
+        <member name="F:SagaDB.Partner.TalkInfo.OnMasterSit">
+            <summary>
+            主人在/sit、/chair动作时的台词
+            </summary>
+        </member>
+        <member name="F:SagaDB.Partner.TalkInfo.OnMasterRelax">
+            <summary>
+            主人在/relax、/break动作时的台词
+            </summary>
+        </member>
+        <member name="F:SagaDB.Partner.TalkInfo.OnMasterBow">
+            <summary>
+            主人在/bow动作时的台词
+            </summary>
+        </member>
+        <member name="F:SagaDB.Partner.TalkInfo.OnMasterLogin">
+            <summary>
+            主人登录时的台词
+            </summary>
+        </member>
+        <member name="F:SagaDB.Partner.TalkInfo.OnLevelUp">
+            <summary>
+            搭档升级时的台词
+            </summary>
+        </member>
+        <member name="F:SagaDB.Partner.TalkInfo.OnEquip">
+            <summary>
+            为搭档穿上装备时的台词
+            </summary>
+        </member>
+        <member name="F:SagaDB.Partner.TalkInfo.OnEat">
+             <summary>
+            给予搭档食物时的台词
+             </summary>
+        </member>
+        <member name="F:SagaDB.Partner.TalkInfo.OnEatReady">
+             <summary>
+            搭档变成可以进食时的台词
+             </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,10 @@
+G:\Games\SagaECO\Trunk\Bin\SagaLib.dll
+G:\Games\SagaECO\Trunk\SagaLib\obj\Debug\SagaLib.csprojResolveAssemblyReference.cache
+G:\Games\SagaECO\Trunk\SagaLib\obj\Debug\SagaLib.dll
+G:\Games\SagaECO\Trunk\SagaLib\obj\Debug\SagaLib.pdb
+G:\Games\SagaECO\Trunk\Bin\SagaLib.pdb
+G:\svn\brSagaECO\trunk\Bin\SagaLib.dll
+G:\svn\brSagaECO\trunk\Bin\SagaLib.pdb
+G:\svn\brSagaECO\trunk\SagaLib\obj\Debug\SagaLib.csprojResolveAssemblyReference.cache
+G:\svn\brSagaECO\trunk\SagaLib\obj\Debug\SagaLib.dll
+G:\svn\brSagaECO\trunk\SagaLib\obj\Debug\SagaLib.pdb

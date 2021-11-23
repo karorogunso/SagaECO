@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TreasureDB>
+  <TreasureList GroupName="BOMB">
+    <Item rate="100" count="1">10053300</Item>
+    <Item rate="100" count="1">10053350</Item>
+    <Item rate="100" count="1">10053600</Item>
+    <Item rate="100" count="1">10022308</Item>
+    <Item rate="100" count="5">10026800</Item>
+    <Item rate="50" count="20">10025900</Item>
+    <Item rate="50" count="20">10026200</Item>
+    <Item rate="50" count="10">10026004</Item>
+    <Item rate="50" count="10">10026050</Item>
+  </TreasureList>
+</TreasureDB>

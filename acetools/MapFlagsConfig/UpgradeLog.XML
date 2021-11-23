@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="MAP">
+</Property><Property Name="解决方案文件" Value="C:\Saga\SagaECO\Tools\MapFlagsConfig\MAP.sln">
+</Property><Property Name="用户选项文件" Value="C:\Saga\SagaECO\Tools\MapFlagsConfig\MAP.suo">
+</Property><Property Name="Date" Value="2011年12月20日">
+</Property><Property Name="Time" Value="13:49">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="MAP.sln" Description="文件已成功备份为 C:\Saga\SagaECO\Tools\MapFlagsConfig\Backup\MAP.sln">
+</Event><Event ErrorLevel="0" Project="" Source="MAP.suo" Description="文件已成功备份为 C:\Saga\SagaECO\Tools\MapFlagsConfig\Backup\MAP.suo">
+</Event><Event ErrorLevel="0" Project="MAP" Source="MAP.csproj" Description="项目文件已成功备份为 C:\Saga\SagaECO\Tools\MapFlagsConfig\Backup\MAP.csproj">
+</Event><Event ErrorLevel="0" Project="MAP" Source="MAP.csproj.user" Description="项目用户文件成功备份为 C:\Saga\SagaECO\Tools\MapFlagsConfig\Backup\MAP.csproj.user">
+</Event><Event ErrorLevel="0" Project="MAP" Source="Form1.cs" Description="文件已成功备份为 C:\Saga\SagaECO\Tools\MapFlagsConfig\Backup\Form1.cs">
+</Event><Event ErrorLevel="0" Project="MAP" Source="Form1.Designer.cs" Description="文件已成功备份为 C:\Saga\SagaECO\Tools\MapFlagsConfig\Backup\Form1.Designer.cs">
+</Event><Event ErrorLevel="0" Project="MAP" Source="Program.cs" Description="文件已成功备份为 C:\Saga\SagaECO\Tools\MapFlagsConfig\Backup\Program.cs">
+</Event><Event ErrorLevel="0" Project="MAP" Source="Properties\AssemblyInfo.cs" Description="文件已成功备份为 C:\Saga\SagaECO\Tools\MapFlagsConfig\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="MAP" Source="Properties\Resources.Designer.cs" Description="文件已成功备份为 C:\Saga\SagaECO\Tools\MapFlagsConfig\Backup\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="MAP" Source="Properties\Settings.Designer.cs" Description="文件已成功备份为 C:\Saga\SagaECO\Tools\MapFlagsConfig\Backup\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="MAP" Source="Properties\Settings.settings" Description="文件已成功备份为 C:\Saga\SagaECO\Tools\MapFlagsConfig\Backup\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="MAP" Source="Form1.resx" Description="文件已成功备份为 C:\Saga\SagaECO\Tools\MapFlagsConfig\Backup\Form1.resx">
+</Event><Event ErrorLevel="0" Project="MAP" Source="Properties\Resources.resx" Description="文件已成功备份为 C:\Saga\SagaECO\Tools\MapFlagsConfig\Backup\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="MAP" Source="MAP.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="MAP" Source="MAP.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="MAP.sln" Description="成功转换解决方案">
+</Event><Event ErrorLevel="3" Project="" Source="MAP.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="MAP" Source="MAP.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event></UpgradeLog>

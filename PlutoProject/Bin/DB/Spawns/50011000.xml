@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Spawns>
+  <spawn>
+    <!--フェニックス-->
+    <id>10010004</id>
+    <map>50011000</map>
+    <x>7</x>
+    <y>7</y>
+    <amount>1</amount>
+    <range>0</range>
+    <delay>690000</delay>
+  </spawn>
+</Spawns>

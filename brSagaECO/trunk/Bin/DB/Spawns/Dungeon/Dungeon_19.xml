@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Spawns>
+  <spawn rate="33">
+    <!--キラービースト-->
+    <id>10030700</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>5</amount>
+    <range>128</range>
+    <delay>5</delay>
+  </spawn>
+  <spawn rate="33">
+    <!--フルフル-->
+    <id>10080002</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>4</amount>
+    <range>128</range>
+    <delay>5</delay>
+  </spawn>
+  <spawn rate="33">
+    <!--ソーラーゼレブ-->
+    <id>10155000</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>3</amount>
+    <range>128</range>
+    <delay>5</delay>
+  </spawn>
+  <spawn rate="33">
+    <!--ギーゴ-->
+    <id>10050102</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>4</amount>
+    <range>128</range>
+    <delay>5</delay>
+  </spawn>
+  <spawn rate="33">
+    <!--フューリー-->
+    <id>26010900</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>2</amount>
+    <range>128</range>
+    <delay>5</delay>
+  </spawn>
+  <spawn rate="70">
+    <!--最強の魔獣-->
+    <id>10030901</id>
+    <x>90</x>
+    <y>90</y>
+    <amount>1</amount>
+    <range>10</range>
+    <delay>0</delay>
+  </spawn>
+  <spawn rate="30">
+    <!--キングローパー-->
+    <id>10510001</id>
+    <x>90</x>
+    <y>90</y>
+    <amount>1</amount>
+    <range>10</range>
+    <delay>0</delay>
+  </spawn>
+  <spawn rate="100">
+    <!--クイーンビー-->
+    <id>10040200</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>4</amount>
+    <range>128</range>
+    <delay>5</delay>
+  </spawn>
+  <spawn rate="50">
+    <!--サイクロプス-->
+    <id>10340000</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>3</amount>
+    <range>128</range>
+    <delay>5</delay>
+  </spawn>
+  <spawn rate="80">
+    <!--キメラ　黄-->
+    <id>10430700</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>3</amount>
+    <range>128</range>
+    <delay>5</delay>
+  </spawn>
+</Spawns>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Spawns>
+  <spawn>
+    <!--マザードラゴ-->
+    <id>10960001</id>
+    <map>10059102</map>
+    <x>178</x>
+    <y>128</y>
+    <amount>1</amount>
+    <range>103</range>
+    <delay>3300</delay>
+  </spawn>
+</Spawns>

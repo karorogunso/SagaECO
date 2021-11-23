@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Spawns>
+  <spawn rate="100">
+    <!--メイオウ-->
+    <id>10136900</id>
+    <x>195</x>
+    <y>23</y>
+    <amount>1</amount>
+    <range>11</range>
+    <delay>0</delay>
+  </spawn>
+</Spawns>

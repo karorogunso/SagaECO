@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TreasureDB>
+<!-- プレイチケット第1弾 -->
+  <TreasureList GroupName="playticket1">
+    <Item rate="45" count="1">50000056</Item>
+    <Item rate="45" count="1">50031309</Item>
+    <Item rate="10" count="1">50072000</Item>
+  </TreasureList>
+<!-- プレイチケット第2弾 -->
+  <TreasureList GroupName="playticket2">
+    <Item rate="10" count="1">50008800</Item>
+    <Item rate="45" count="1">50026800</Item>
+    <Item rate="45" count="1">50000058</Item>
+  </TreasureList>
+<!-- プレイチケット第3弾 -->
+  <TreasureList GroupName="playticket3">
+    <Item rate="10" count="1">50064450</Item>
+    <Item rate="20" count="1">50072400</Item>
+    <Item rate="30" count="1">60082200</Item>
+    <Item rate="40" count="1">50027800</Item>
+  </TreasureList>
+<!-- プレイチケット第4弾 -->
+  <TreasureList GroupName="playticket4">
+    <Item rate="10" count="1">50001759</Item>
+    <Item rate="20" count="1">50028300</Item>
+    <Item rate="30" count="1">50010050</Item>
+    <Item rate="40" count="1">50027850</Item>
+  </TreasureList>
+<!-- プレイチケット第5弾 -->
+  <TreasureList GroupName="playticket5">
+    <Item rate="15" count="1">60104200</Item>
+    <Item rate="15" count="1">50017500</Item>
+    <Item rate="15" count="1">60104100</Item>
+    <Item rate="15" count="1">50017400</Item>
+    <Item rate="10" count="1">60023600</Item>
+    <Item rate="30" count="1">50029200</Item>
+  </TreasureList>
+<!-- プレイチケット第6弾 -->
+  <TreasureList GroupName="playticket6">
+    <Item rate="1" count="1">60105200</Item>
+    <Item rate="15" count="1">60105300</Item>
+    <Item rate="20" count="1">60105400</Item>
+    <Item rate="15" count="1">50072900</Item>
+    <Item rate="20" count="1">60082800</Item>
+    <Item rate="29" count="1">60042500</Item>
+  </TreasureList>
+<!-- プレイチケット第7弾 -->
+  <TreasureList GroupName="playticket7">
+    <Item rate="10" count="1">30001400</Item>
+    <Item rate="10" count="1">10020769</Item>
+    <Item rate="25" count="1">60106500</Item>
+    <Item rate="25" count="1">50100000</Item>
+    <Item rate="30" count="1">60106600</Item>
+    <Item rate="30" count="1">60106700</Item>
+    <Item rate="30" count="1">50100200</Item>
+    <Item rate="30" count="1">31133200</Item>
+    <Item rate="30" count="1">50100300</Item>
+    <Item rate="40" count="1">10058600</Item>   
+  </TreasureList>
+<!-- プレイチケット第8弾 -->
+  <TreasureList GroupName="playticket8">
+    <Item rate="10" count="1">50101100</Item>
+    <Item rate="15" count="1">60108400</Item>
+    <Item rate="15" count="1">50043300</Item>
+    <Item rate="5" count="1">60108500</Item>
+    <Item rate="5" count="1">50019800</Item>
+    <Item rate="5" count="1">50019900</Item>
+    <Item rate="15" count="1">50101200</Item>
+    <Item rate="10" count="1">60108300</Item>
+    <Item rate="10" count="1">50020000</Item>
+    <Item rate="10" count="1">60083200</Item>
+  </TreasureList>
+<!-- プレイチケット第9弾 -->
+  <TreasureList GroupName="playticket9">
+    <Item rate="5" count="1">50039850</Item>
+    <Item rate="15" count="1">60109600</Item>
+    <Item rate="25" count="1">50043800</Item>
+    <Item rate="10" count="1">60109700</Item>
+    <Item rate="10" count="1">61021100</Item>
+    <Item rate="15" count="1">60109800</Item>
+    <Item rate="20" count="1">60083500</Item>
+  </TreasureList>
+<!-- プレイチケット第10弾 -->
+  <TreasureList GroupName="playticket10">
+    <Item rate="1" count="1">10020782</Item>
+      <Item rate="5" count="1">10063400</Item>
+    <Item rate="10" count="1">50103000</Item>
+    <Item rate="10" count="1">50103100</Item>
+    <Item rate="10" count="1">50074100</Item>
+    <Item rate="10" count="1">60111700</Item>
+    <Item rate="10" count="1">50044200</Item>
+    <Item rate="10" count="1">60024200</Item>
+    <Item rate="10" count="1">50103200</Item>
+    <Item rate="10" count="1">60111800</Item>
+    <Item rate="10" count="1">60110000</Item>
+    <Item rate="10" count="1">60043400</Item>
+    <Item rate="2" count="1">31135000</Item>
+    <Item rate="2" count="1">31140700</Item>
+    <Item rate="2" count="1">31135100</Item>
+  </TreasureList>
+<!-- プレイチケット第11弾 -->
+  <TreasureList GroupName="playticket11">
+    <Item rate="1" count="1">10065300</Item>
+    <Item rate="1" count="1">10020785</Item>
+    <Item rate="10" count="1">60092700</Item>
+    <Item rate="10" count="1">60112300</Item>
+    <Item rate="10" count="1">60112301</Item>
+    <Item rate="10" count="1">60112500</Item>
+    <Item rate="10" count="1">60084000</Item>
+    <Item rate="10" count="1">50068101</Item>
+    <Item rate="10" count="1">50068100</Item>
+    <Item rate="10" count="1">60083900</Item>
+    <Item rate="10" count="1">60112400</Item>
+    <Item rate="10" count="1">31113500</Item>
+    <Item rate="10" count="1">31135800</Item>
+    <Item rate="10" count="1">60084100</Item>
+    <Item rate="10" count="1">31113600</Item>
+    <Item rate="10" count="1">20050061</Item>
+    <Item rate="10" count="1">20050060</Item>
+  </TreasureList>
+<!-- プレイチケット第12弾 -->
+  <TreasureList GroupName="playticket12">
+    <Item rate="4" count="1">60113200</Item>
+    <Item rate="10" count="1">50068900</Item>
+    <Item rate="1" count="1">50069000</Item>
+    <Item rate="5" count="1">50058200</Item>
+    <Item rate="10" count="1">60084200</Item>
+    <Item rate="10" count="1">60031900</Item>
+    <Item rate="10" count="1">50058300</Item>
+    <Item rate="10" count="1">60025100</Item>
+    <Item rate="10" count="1">60113800</Item>
+    <Item rate="10" count="1">50069100</Item>
+    <Item rate="10" count="1">50105500</Item>
+    <Item rate="10" count="1">50105501</Item>
+  </TreasureList>
+  <!-- 新世紀エヴァンゲリオン -->
+  <TreasureList GroupName="EVA1">
+    <Item rate="1" count="1">60100550</Item>
+    <Item rate="1" count="1">50005059</Item>
+    <Item rate="3" count="1">50028250</Item>
+    <Item rate="5" count="1">50072500</Item>
+    <Item rate="10" count="1">60082600</Item>
+    <Item rate="5" count="1">31130224</Item>
+    <Item rate="10" count="1">50028200</Item>
+    <Item rate="10" count="1">50037850</Item>
+    <Item rate="10" count="1">50037800</Item>
+    <Item rate="10" count="1">50037900</Item>
+    <Item rate="10" count="1">50038000</Item>
+    <Item rate="20" count="1">10055900</Item>
+    <Item rate="50" count="10">61010700</Item>
+    <Item rate="40" count="1">10048751</Item>
+  </TreasureList>
+  </TreasureDB>

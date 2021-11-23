@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Spawns>
+  <spawn rate="25">
+    <id>15140003</id>
+    <x>128</x>
+    <y>128</y>
+    <map>63009000</map>
+    <amount>3</amount>
+    <range>128</range>
+    <delay>30</delay>
+  </spawn>
+  <spawn rate="25">
+    <id>15190002</id>
+    <x>128</x>
+    <y>128</y>
+    <map>63009000</map>
+    <amount>2</amount>
+    <range>128</range>
+    <delay>30</delay>
+  </spawn>
+  <spawn rate="25">
+    <id>15170000</id>
+    <x>128</x>
+    <y>128</y>
+    <map>63009000</map>
+    <amount>2</amount>
+    <range>128</range>
+    <delay>30</delay>
+  </spawn>
+  <spawn rate="25">
+    <id>15170000</id>
+    <x>128</x>
+    <y>128</y>
+    <map>63009000</map>
+    <amount>3</amount>
+    <range>128</range>
+    <delay>30</delay>
+  </spawn>
+  <spawn rate="25">
+    <id>14540102</id>
+    <x>128</x>
+    <y>128</y>
+    <map>63010000</map>
+    <amount>4</amount>
+    <range>128</range>
+    <delay>30</delay>
+  </spawn>
+  <spawn rate="25">
+    <id>15170000</id>
+    <x>128</x>
+    <y>128</y>
+    <map>63010000</map>
+    <amount>3</amount>
+    <range>128</range>
+    <delay>30</delay>
+  </spawn>
+  <spawn rate="25">
+    <id>15170000</id>
+    <x>128</x>
+    <y>128</y>
+    <map>63010000</map>
+    <amount>3</amount>
+    <range>128</range>
+    <delay>30</delay>
+  </spawn>
+  <spawn rate="25">
+    <id>10450002</id>
+    <x>128</x>
+    <y>128</y>
+    <map>63011000</map>
+    <amount>5</amount>
+    <range>128</range>
+    <delay>30</delay>
+  </spawn>
+  <spawn rate="25">
+    <id>15180001</id>
+    <x>128</x>
+    <y>128</y>
+    <map>63011000</map>
+    <amount>5</amount>
+    <range>128</range>
+    <delay>30</delay>
+  </spawn>
+  <spawn rate="25">
+    <id>14540102</id>
+    <x>128</x>
+    <y>128</y>
+    <map>63011000</map>
+    <amount>7</amount>
+    <range>128</range>
+    <delay>30</delay>
+  </spawn>
+  <spawn rate="25">
+    <id>15160000</id>
+    <x>128</x>
+    <y>128</y>
+    <map>63011000</map>
+    <amount>5</amount>
+    <range>128</range>
+    <delay>30</delay>
+  </spawn>
+  <spawn rate="25">
+    <id>14540102</id>
+    <x>128</x>
+    <y>128</y>
+    <map>64013000</map>
+    <amount>3</amount>
+    <range>128</range>
+    <delay>30</delay>
+  </spawn>
+  <spawn rate="25">
+    <id>15170000</id>
+    <x>128</x>
+    <y>128</y>
+    <map>64013000</map>
+    <amount>3</amount>
+    <range>128</range>
+    <delay>30</delay>
+  </spawn>
+  <spawn rate="25">
+    <id>15190002</id>
+    <x>128</x>
+    <y>128</y>
+    <map>64013000</map>
+    <amount>2</amount>
+    <range>128</range>
+    <delay>30</delay>
+  </spawn>
+  <spawn rate="25">
+    <id>14540102</id>
+    <x>128</x>
+    <y>128</y>
+    <map>64014000</map>
+    <amount>3</amount>
+    <range>128</range>
+    <delay>30</delay>
+  </spawn>
+  <spawn rate="25">
+    <id>15170000</id>
+    <x>128</x>
+    <y>128</y>
+    <map>64014000</map>
+    <amount>3</amount>
+    <range>128</range>
+    <delay>30</delay>
+  </spawn>
+  <spawn rate="25">
+    <id>15140003</id>
+    <x>128</x>
+    <y>128</y>
+    <map>64014000</map>
+    <amount>2</amount>
+    <range>128</range>
+    <delay>30</delay>
+  </spawn>
+
+  <spawn rate="25">
+    <id>14540102</id>
+    <x>128</x>
+    <y>128</y>
+    <map>64015000</map>
+    <amount>3</amount>
+    <range>128</range>
+    <delay>30</delay>
+  </spawn>
+  <spawn rate="25">
+    <id>15170000</id>
+    <x>128</x>
+    <y>128</y>
+    <map>64015000</map>
+    <amount>3</amount>
+    <range>128</range>
+    <delay>30</delay>
+  </spawn>
+  <spawn rate="25">
+    <id>15140003</id>
+    <x>128</x>
+    <y>128</y>
+    <map>64015000</map>
+    <amount>2</amount>
+    <range>128</range>
+    <delay>30</delay>
+  </spawn>
+  <spawn rate="25">
+    <id>14540102</id>
+    <x>128</x>
+    <y>128</y>
+    <map>61001000</map>
+    <amount>20</amount>
+    <range>128</range>
+    <delay>30</delay>
+  </spawn>
+</Spawns>

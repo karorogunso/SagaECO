@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6905D605-D066-4A10-926F-F5AC57D4E450}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SagaValidation</RootNamespace>
+    <AssemblyName>SagaValidation</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Configuration\Configuration.cs" />
+    <Compile Include="Manager\ValidationClientManager.cs" />
+    <Compile Include="Network\Client\Login\ValidationClient.cs" />
+    <Compile Include="Packets\Client\CSMG_GET_LIST.cs" />
+    <Compile Include="Packets\Client\CSMG_LOGIN.cs" />
+    <Compile Include="Packets\Client\CSMG_PING.cs" />
+    <Compile Include="Packets\Client\CSMG_SEND_VERSION.cs" />
+    <Compile Include="Packets\Client\CSMG_SERVERLET_ASK.cs" />
+    <Compile Include="Packets\Server\SSMG_LOGIN_ACK.cs" />
+    <Compile Include="Packets\Server\SSMG_LOGIN_ALLOWED.cs" />
+    <Compile Include="Packets\Server\SSMG_PONG.cs" />
+    <Compile Include="Packets\Server\SSMG_SERVER_LST_END.cs" />
+    <Compile Include="Packets\Server\SSMG_SERVER_LST_SEND.cs" />
+    <Compile Include="Packets\Server\SSMG_SERVER_LST_START.cs" />
+    <Compile Include="Packets\Server\SSMG_UNKNOWN_RETURN.cs" />
+    <Compile Include="Packets\Server\SSMG_VERSION_ACK.cs" />
+    <Compile Include="ValidationServer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SagaDB\SagaDB.csproj">
+      <Project>{bc0e63ac-2a4a-45ae-a8a9-c680066bcaec}</Project>
+      <Name>SagaDB</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SagaLib\SagaLib.csproj">
+      <Project>{ddddcda1-0d7c-48f3-a4d1-84219c43e195}</Project>
+      <Name>SagaLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

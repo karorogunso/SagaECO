@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Flag:0c57-->
+<QuestDB GroupID="37">
+  <Quest>
+    <!--アイアンシティ-->
+    <ID>10032002</ID>
+    <Name>在虚幻中的死斗（队伍）(Lv 44)</Name>
+    <Type>HUNT</Type>
+    <Time>180</Time>
+    <RewardItem>10022112</RewardItem>
+    <RewardCount>1</RewardCount>
+    <RequiredQuestPoints>3</RequiredQuestPoints>
+    <DungeonID>9</DungeonID>
+    <MinLV>44</MinLV>
+    <MaxLv>255</MaxLv>
+    <Job>NONE</Job>
+    <JobType>NOVICE</JobType>
+    <Race>NONE</Race>
+    <Gender>NONE</Gender>
+    <!--Detail Information-->
+    <!--ライオウ-->
+    <EXP>26000</EXP>
+    <JEXP>11400</JEXP>
+    <Gold>4800</Gold>
+    <Fame>1</Fame>
+    <MapID1>60000000</MapID1>
+    <ObjectID1>26050002</ObjectID1>
+    <Count1>1</Count1>
+    <Party>True</Party>
+  </Quest>
+</QuestDB>

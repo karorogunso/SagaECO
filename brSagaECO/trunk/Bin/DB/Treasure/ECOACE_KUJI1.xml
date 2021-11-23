@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TreasureDB>
+	<TreasureList GroupName="激赏礼券1"><!--第一弾[外部リンク]：2006/03/17~03/31-->
+		<Item rate="100" count="1">10049500</Item>
+		<Item rate="100" count="1">50031209</Item>
+		<Item rate="100" count="1">50031309</Item>
+		<Item rate="100" count="1">50042010</Item>
+		<Item rate="100" count="1">50005050</Item>
+		<Item rate="100" count="1">50027100</Item>
+		<Item rate="100" count="1">50027000</Item>
+		<Item rate="100" count="1">50015200</Item>
+	</TreasureList>
+	<TreasureList GroupName="激赏礼券2"><!--第二弾 2006/06/09~06/30-->
+		<Item rate="100" count="1">50037408</Item>
+		<Item rate="100" count="1">50031250</Item>
+		<Item rate="100" count="1">50041050</Item>
+		<Item rate="100" count="1">50011700</Item>
+		<Item rate="100" count="1">50001952</Item>
+		<Item rate="100" count="1">50031309</Item>
+		<Item rate="100" count="1">50027100</Item>
+		<Item rate="100" count="1">50027000</Item>
+		<Item rate="100" count="1">50003753</Item>
+		<Item rate="100" count="1">50024750</Item>
+		<Item rate="100" count="1">50012253</Item>
+		<Item rate="100" count="1">50053404</Item>
+		<Item rate="100" count="1">50028000</Item>
+	</TreasureList>
+	<TreasureList GroupName="激赏礼券3"><!--第三弾：2006/09/08~10/02-->
+		<Item rate="100" count="1">10019404</Item>
+		<Item rate="100" count="1">50062150</Item>
+		<Item rate="100" count="1">50037309</Item>
+		<Item rate="100" count="1">50005061</Item>
+		<Item rate="100" count="1">50070153</Item>
+		<Item rate="100" count="1">50066000</Item>
+		<Item rate="100" count="1">50001758</Item>
+		<Item rate="100" count="1">50013851</Item>
+		<Item rate="100" count="1">50004851</Item>
+		<Item rate="100" count="1">50042200</Item>
+		<Item rate="100" count="1">50053406</Item>
+		<Item rate="100" count="1">50012362</Item>
+		<Item rate="100" count="1">50028050</Item>
+	</TreasureList>
+	<TreasureList GroupName="激赏礼券4"><!--第四弾：2006/11/17~12/01-->
+		<Item rate="100" count="1">60103700</Item>
+		<Item rate="100" count="1">60103900</Item>
+		<Item rate="100" count="1">60104000</Item>
+		<Item rate="100" count="1">50039200</Item>
+		<Item rate="100" count="1">50039300</Item>
+		<Item rate="100" count="1">50039307</Item>
+		<Item rate="100" count="1">50017200</Item>
+		<Item rate="100" count="1">60103800</Item>
+		<Item rate="100" count="1">50017300</Item>
+		<Item rate="100" count="1">50053409</Item>
+		<Item rate="100" count="1">60103600</Item>
+		<Item rate="100" count="1">50042700</Item>
+		<Item rate="100" count="1">50029100</Item>
+	</TreasureList>
+	<TreasureList GroupName="激赏礼券5"><!--第五弾：2006/12/11~12/29-->
+		<Item rate="100" count="1">10031323</Item>
+		<Item rate="100" count="1">10057800</Item>
+		<Item rate="100" count="1">10020765</Item>
+		<Item rate="100" count="1">60104600</Item>
+		<Item rate="100" count="1">50039400</Item>
+		<Item rate="100" count="1">50039500</Item>
+		<Item rate="100" count="1">50039509</Item>
+		<Item rate="100" count="1">50072800</Item>
+		<Item rate="100" count="1">60104700</Item>
+		<Item rate="100" count="1">50039509</Item>
+		<Item rate="100" count="1">50029300</Item>
+	</TreasureList>
+	<TreasureList GroupName="激赏礼券6"><!--第六弾：2007/02/09~03/02 -->
+		<Item rate="100" count="1">10058000</Item>
+		<Item rate="100" count="1">10020766</Item>
+		<Item rate="100" count="1">50039700</Item>
+		<Item rate="100" count="1">60105100</Item>
+		<Item rate="100" count="1">50018400</Item>
+		<Item rate="100" count="1">50042151</Item>
+		<Item rate="100" count="1">60082700</Item>
+		<Item rate="100" count="1">50029600</Item>
+		<Item rate="100" count="1">50042900</Item>
+		<Item rate="100" count="1">60105000</Item>
+		<Item rate="100" count="1">50015554</Item>
+		<Item rate="100" count="1">50020650</Item>
+	</TreasureList>
+	<TreasureList GroupName="激赏礼券7"><!--第七弾：2007/04/25~05/14-->
+		<Item rate="100" count="1">10058400</Item>
+		<Item rate="100" count="1">10020768</Item>
+		<Item rate="100" count="1">50039800</Item>
+		<Item rate="100" count="1">60105800</Item>
+		<Item rate="100" count="1">60042600</Item>
+		<Item rate="100" count="1">50043000</Item>
+		<Item rate="100" count="1">60042700</Item>
+		<Item rate="100" count="1">50067200</Item>
+		<Item rate="100" count="1">60072400</Item>
+		<Item rate="100" count="1">50017301</Item>
+		<Item rate="100" count="1">60105900</Item>
+		<Item rate="100" count="1">50018800</Item>
+	</TreasureList>
+	<TreasureList GroupName="激赏礼券8"><!--第八弾：2007/06/13~07/02-->
+		<Item rate="100" count="1">10058700</Item>
+		<Item rate="100" count="1">10020770</Item>
+		<Item rate="100" count="1">50039801</Item>
+		<Item rate="100" count="1">60107500</Item>
+		<Item rate="100" count="1">60107700</Item>
+		<Item rate="100" count="1">60107300</Item>
+		<Item rate="100" count="1">60107400</Item>
+		<Item rate="100" count="1">50044000</Item>
+		<Item rate="100" count="1">60107900</Item>
+		<Item rate="100" count="1">50052110</Item>
+		<Item rate="100" count="1">60107600</Item>
+		<Item rate="100" count="1">60107800</Item>
+	</TreasureList>
+	<TreasureList GroupName="激赏礼券9"><!--第九弾：2007/08/24~09/10-->
+		<Item rate="100" count="1">10059500</Item>
+		<Item rate="100" count="1">10075200</Item>
+		<Item rate="100" count="1">50100800</Item>
+		<Item rate="100" count="1">60108000</Item>
+		<Item rate="100" count="1">60108200</Item>
+		<Item rate="100" count="1">60104050</Item>
+		<Item rate="100" count="1">60108100</Item>
+		<Item rate="100" count="1">60108109</Item>
+		<Item rate="100" count="1">50100900</Item>
+		<Item rate="100" count="1">50101000</Item>
+		<Item rate="100" count="1">50057200</Item>
+		<Item rate="100" count="1">50073200</Item>
+	</TreasureList>
+	<TreasureList GroupName="激赏礼券10"><!--第十弾：2007/10/19~11/09-->
+		<Item rate="100" count="1">10020775</Item>
+		<Item rate="100" count="1">50039809</Item>
+		<Item rate="100" count="1">50011221</Item>
+		<Item rate="100" count="1">60109100</Item>
+		<Item rate="100" count="1">50073600</Item>
+		<Item rate="100" count="1">60109200</Item>
+		<Item rate="100" count="1">50043400</Item>
+		<Item rate="100" count="1">50101400</Item>
+		<Item rate="100" count="1">60043200</Item>
+		<Item rate="100" count="1">50101500</Item>
+		<Item rate="100" count="1">50200400</Item>
+		<Item rate="100" count="1">50043500</Item>
+		<Item rate="100" count="1">50101600</Item>
+                <Item rate="100" count="1">30001500</Item>
+                <Item rate="100" count="1">31134300</Item>
+	</TreasureList>
+</TreasureDB>

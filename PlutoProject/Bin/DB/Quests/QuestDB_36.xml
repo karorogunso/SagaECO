@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Flag:0c55-->
+<QuestDB GroupID="36">
+  <Quest>
+    <!--東軍長官室-->
+    <ID>10032001</ID>
+    <Name>黑王(軍團適用)(Lv 30)</Name>
+    <Type>HUNT</Type>
+    <Time>180</Time>
+    <RewardItem>10022111</RewardItem>
+    <RewardCount>1</RewardCount>
+    <RequiredQuestPoints>3</RequiredQuestPoints>
+    <DungeonID>8</DungeonID>
+    <MinLV>30</MinLV>
+    <MaxLv>255</MaxLv>
+    <Job>NONE</Job>
+    <JobType>NOVICE</JobType>
+    <Race>NONE</Race>
+    <Gender>NONE</Gender>
+    <!--Detail Information-->
+    <!--メイオウ-->
+    <EXP>29000</EXP>
+    <JEXP>12000</JEXP>
+    <Gold>5000</Gold>
+    <Fame>1</Fame>
+    <MapID1>60000000</MapID1>
+    <ObjectID1>10136900</ObjectID1>
+    <Count1>1</Count1>
+    <Party>False</Party>
+  </Quest>
+  <Quest>
+    <!--東軍長官室-->
+    <ID>10032003</ID>
+    <Name>襲擊不死之城吧（隊伍）(Lv 44)</Name>
+    <Type>HUNT</Type>
+    <Time>15</Time>
+    <RewardItem>10022111</RewardItem>
+    <RewardCount>1</RewardCount>
+    <RequiredQuestPoints>3</RequiredQuestPoints>
+    <DungeonID>10</DungeonID>
+    <MinLV>44</MinLV>
+    <MaxLv>255</MaxLv>
+    <Job>NONE</Job>
+    <JobType>NOVICE</JobType>
+    <Race>NONE</Race>
+    <Gender>NONE</Gender>
+    <!--Detail Information-->
+    <!--アンデッド城-->
+    <EXP>16000</EXP>
+    <JEXP>9400</JEXP>
+    <Gold>4400</Gold>
+    <Fame>1</Fame>
+    <MapID1>60000000</MapID1>
+    <ObjectID1>10460100</ObjectID1>
+    <Count1>2</Count1>
+    <ObjectID2>10470100</ObjectID2>
+    <Count2>4</Count2>
+    <ObjectID3>10400500</ObjectID3>
+    <Count3>2</Count3>
+    <Party>True</Party>
+  </Quest>
+</QuestDB>

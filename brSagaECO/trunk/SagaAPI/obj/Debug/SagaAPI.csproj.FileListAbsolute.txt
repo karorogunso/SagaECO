@@ -1,0 +1,6 @@
+G:\Games\SagaECO\Trunk\Bin\SagaAPI.exe.config
+G:\Games\SagaECO\Trunk\Bin\SagaAPI.exe
+G:\Games\SagaECO\Trunk\Bin\SagaAPI.pdb
+G:\Games\SagaECO\Trunk\SagaAPI\obj\Debug\SagaAPI.csprojResolveAssemblyReference.cache
+G:\Games\SagaECO\Trunk\SagaAPI\obj\Debug\SagaAPI.exe
+G:\Games\SagaECO\Trunk\SagaAPI\obj\Debug\SagaAPI.pdb

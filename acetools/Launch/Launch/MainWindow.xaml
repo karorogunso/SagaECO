@@ -1,0 +1,122 @@
+﻿<Window
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:local="clr-namespace:Launch" mc:Ignorable="d"
+	x:Class="Launch.MainWindow"
+	x:Name="Window"
+	Title="MainWindow"
+	Width="800" Height="600" AllowsTransparency="True" Background="{x:Null}"  WindowStyle="None" MouseLeftButtonDown="Window_MouseLeftButtonDown" Loaded="Window_Loaded_1">
+    <Window.Resources>
+        <Style x:Key="ButtonStyle1" TargetType="{x:Type Button}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Grid>
+                            <Label Content="版本号:" Foreground="White"/>
+                            <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" d:IsHidden="True"/>
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsFocused" Value="True"/>
+                            <Trigger Property="IsDefaulted" Value="True"/>
+                            <Trigger Property="IsMouseOver" Value="True"/>
+                            <Trigger Property="IsPressed" Value="True"/>
+                            <Trigger Property="IsEnabled" Value="False"/>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <ControlTemplate x:Key="ButtonControlTemplate1" TargetType="{x:Type Button}">
+            <Grid>
+                <Image x:Name="ImageButton1_Pic" Margin="0,0,0,-1" Stretch="Fill">
+                    <Image.Source>
+                        <BitmapImage UriSource="http://papapa.otaku.asia/image/imagebutton/ImageButton1.png"/>
+                    </Image.Source>
+                </Image>
+            </Grid>
+        </ControlTemplate>
+        <ControlTemplate x:Key="ButtonControlTemplate2" TargetType="{x:Type Button}">
+            <Grid>
+                <Image Margin="0,0,0,-1" Stretch="Fill">
+                    <Image.Source>
+                        <BitmapImage UriSource="http://papapa.otaku.asia/image/imagebutton/ImageButton2.png"/>
+                    </Image.Source>
+                </Image>
+            </Grid>
+        </ControlTemplate>
+        <ControlTemplate x:Key="ButtonControlTemplate3" TargetType="{x:Type Button}">
+            <Grid>
+                <Image Margin="0,0,0,-1" Stretch="Fill">
+                    <Image.Source>
+                        <BitmapImage UriSource="http://papapa.otaku.asia/image/imagebutton/ImageButton3.png"/>
+                    </Image.Source>
+                </Image>
+            </Grid>
+        </ControlTemplate>
+        <ControlTemplate x:Key="ButtonControlTemplate4" TargetType="{x:Type Button}">
+            <Grid>
+                <Image Margin="0,0,0,-1" Stretch="Fill">
+                    <Image.Source>
+                        <BitmapImage UriSource="http://papapa.otaku.asia/image/imagebutton/ImageButton4.png"/>
+                    </Image.Source>
+                </Image>
+            </Grid>
+        </ControlTemplate>
+    </Window.Resources>
+
+    <Grid x:Name="LayoutRoot">
+        <Image Source="image/bg1.png" Stretch="Fill" Margin="-8,117,288,184"/>
+        <Button x:Name="Button" Content="按钮" HorizontalAlignment="Right" Height="34" Margin="0,0,309,221" VerticalAlignment="Bottom" Width="62.646" RenderTransformOrigin="0.416,0" Click="Button_Click_1" >
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                    <GradientStop Color="#FFF3F3F3" Offset="0"/>
+                    <GradientStop Color="#FFEBEBEB" Offset="0.5"/>
+                    <GradientStop Color="#FFDDDDDD" Offset="0.5"/>
+                    <GradientStop Color="#FFCDCDCD" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <ProgressBar x:Name="Pb_Single" Height="15" Margin="23,0,376.646,240" VerticalAlignment="Bottom" BorderBrush="White" Background="#FFF9F9F9"/>
+        <ProgressBar x:Name="Pb_Total" Height="15" Margin="23,0,376.646,220" VerticalAlignment="Bottom" Background="White" BorderBrush="White" BorderThickness="1"/>
+        <Button Content="X" HorizontalAlignment="Right" Height="24" Margin="0,144.433,309,0" VerticalAlignment="Top" Width="24" Click="Button_Click" />
+
+        <TextBlock HorizontalAlignment="Right" Height="28" Margin="0,384,309,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="93" Foreground="White" Text="YukiECO初始机">
+            <TextBlock.Effect>
+                <DropShadowEffect Opacity="0.5" ShadowDepth="3"/>
+            </TextBlock.Effect></TextBlock>
+        <Label x:Name="LocalVerText" Content="当前本地版本号:" HorizontalAlignment="Left" Height="24" Margin="10,137,0,0" VerticalAlignment="Top" Width="120" Foreground="White" RenderTransformOrigin="0.16,0.667">
+            <Label.Resources>
+                <Style x:Key="LabelStyle1" TargetType="{x:Type Label}"/>
+            </Label.Resources>
+            <Label.Effect>
+                <DropShadowEffect/>
+            </Label.Effect>
+        </Label>
+        <Label x:Name="NeedVerText" Content="需求版本:" Height="24" Margin="10,161,0,0" VerticalAlignment="Top" Foreground="White" HorizontalAlignment="Left" Width="104">
+            <Label.Effect>
+                <DropShadowEffect Direction="300" Color="#FF0A0A0A"/>
+            </Label.Effect>
+        </Label>
+        <Label x:Name="RFVerText" Content="日服版本:" Height="24" Margin="312,137,400,0" VerticalAlignment="Top" Foreground="White" RenderTransformOrigin="0.727,0.667">
+            <Label.Effect>
+                <DropShadowEffect Direction="300"/>
+            </Label.Effect>
+        </Label>
+        <Label x:Name="lb_state" Content="状态" Margin="23,321,482.894,255" Foreground="White">
+            <Label.Effect>
+                <DropShadowEffect Direction="300" ShadowDepth="3"/>
+            </Label.Effect>
+        </Label>
+        <Label x:Name="lb_evolve" Content="" HorizontalAlignment="Right" Margin="0,321,321.894,255" Width="161" Foreground="White"/>
+        <Image x:Name="ButtonImage" HorizontalAlignment="Right" Height="32" Stretch="Fill" VerticalAlignment="Bottom" Width="32" Margin="0,0,120,246" RenderTransformOrigin="-16.5,-5.625">
+            <Image.Source>
+                <BitmapImage UriSource="http://papapa.otaku.asia/image/startbutton/button1.png"/>
+            </Image.Source>
+        </Image>
+        <Label x:Name="LinkLabel" Content="文字链接" Height="28" Margin="40,0,338,382" VerticalAlignment="Bottom" Background="{x:Null}" Foreground="White" Cursor="Hand" MouseLeftButtonDown="LinkLabel_MouseLeftButtonDown"/>
+        <Label x:Name="LinkLabel2" Content="文字链接" Height="28" Margin="40,0,338,349" VerticalAlignment="Bottom" Background="{x:Null}" Foreground="White" Cursor="Hand" MouseLeftButtonDown="LinkLabel2_MouseLeftButtonDown"/>
+        <Label x:Name="LinkLabel4" Content="文字链接" Height="28" Margin="40,0,338,284" VerticalAlignment="Bottom" Background="{x:Null}" Foreground="White" Cursor="Hand" MouseLeftButtonDown="LinkLabel4_MouseLeftButtonDown"/>
+        <Label x:Name="LinkLabel3" Content="文字链接" Height="28" Margin="40,0,338,316" VerticalAlignment="Bottom" Background="{x:Null}" Foreground="White" Cursor="Hand" MouseLeftButtonDown="LinkLabel3_MouseLeftButtonDown"/>
+    </Grid>
+
+</Window>

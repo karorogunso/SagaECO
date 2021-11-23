@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Spawns>
+  <spawn rate="14">
+    <!--木箱-->
+    <id>10360001</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>6</amount>
+    <range>128</range>
+    <delay>5</delay>
+  </spawn>
+  <spawn rate="14">
+    <!--宝箱-->
+    <id>10370001</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>6</amount>
+    <range>128</range>
+    <delay>5</delay>
+  </spawn>
+  <spawn rate="14">
+    <!--スケルトンアーチャー-->
+    <id>10350000</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>2</amount>
+    <range>128</range>
+    <delay>5</delay>
+  </spawn>
+  <spawn rate="14">
+    <!--フューリー-->
+    <id>26010900</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>2</amount>
+    <range>128</range>
+    <delay>5</delay>
+  </spawn>
+  <spawn rate="14">
+    <!--アンダンテ-->
+    <id>10220101</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>3</amount>
+    <range>128</range>
+    <delay>5</delay>
+  </spawn>
+  <spawn rate="14">
+    <!--カーズ-->
+    <id>10250003</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>2</amount>
+    <range>128</range>
+    <delay>5</delay>
+  </spawn>
+  <spawn rate="14">
+    <!--デス-->
+    <id>10250000</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>4</amount>
+    <range>128</range>
+    <delay>5</delay>
+  </spawn>
+  <spawn rate="100">
+    <!--宝箱14-->
+    <id>30270014</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>1</amount>
+    <range>128</range>
+    <delay>0</delay>
+  </spawn>
+  <spawn rate="100">
+    <!--木箱（仮）-->
+    <id>30290009</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>1</amount>
+    <range>128</range>
+    <delay>0</delay>
+  </spawn>
+</Spawns>

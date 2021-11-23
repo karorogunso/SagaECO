@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TreasureDB>
+  <TreasureList GroupName="SAKURA">
+    <Item rate="60" count="3">10051800</Item>
+    <Item rate="25" count="8">10051800</Item>
+    <Item rate="15" count="5">10025959</Item>
+  </TreasureList>
+</TreasureDB>

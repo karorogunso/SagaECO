@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Flag:0c68-->
+<QuestDB GroupID="506">
+  <Quest>
+    <!--TEST-->
+    <ID>50000001</ID>
+    <Name> 封测塔第一层攻略！</Name>
+    <Type>HUNT</Type>
+    <Time>120</Time>
+    <RequiredQuestPoints>0</RequiredQuestPoints>
+    <DungeonID>0</DungeonID>
+    <MinLV>40</MinLV>
+    <MaxLv>255</MaxLv>
+    <Job>NONE</Job>
+    <JobType>NOVICE</JobType>
+    <Race>NONE</Race>
+    <Gender>NONE</Gender>
+
+    <EXP>100000</EXP>
+    <JEXP>100000</JEXP>
+    <Gold>100000</Gold>
+    <Fame>1</Fame>
+    <ObjectID1>91000000</ObjectID1>
+    <Count1>1</Count1>
+    <Party>True</Party>
+  </Quest>
+  <Quest>
+    <!--TEST-->
+    <ID>50000002</ID>
+    <Name> 封测塔第二层攻略！</Name>
+    <Type>HUNT</Type>
+    <Time>120</Time>
+    <RequiredQuestPoints>0</RequiredQuestPoints>
+    <DungeonID>0</DungeonID>
+    <MinLV>40</MinLV>
+    <MaxLv>255</MaxLv>
+    <Job>NONE</Job>
+    <JobType>NOVICE</JobType>
+    <Race>NONE</Race>
+    <Gender>NONE</Gender>
+
+    <EXP>100000</EXP>
+    <JEXP>100000</JEXP>
+    <Gold>100000</Gold>
+    <Fame>1</Fame>
+    <ObjectID1>91000001</ObjectID1>
+    <Count1>1</Count1>
+    <Party>True</Party>
+  </Quest>
+  <Quest>
+    <!--TEST-->
+    <ID>50000003</ID>
+    <Name> 封测塔第三层攻略！</Name>
+    <Type>HUNT</Type>
+    <Time>120</Time>
+    <RequiredQuestPoints>0</RequiredQuestPoints>
+    <DungeonID>0</DungeonID>
+    <MinLV>42</MinLV>
+    <MaxLv>255</MaxLv>
+    <Job>NONE</Job>
+    <JobType>NOVICE</JobType>
+    <Race>NONE</Race>
+    <Gender>NONE</Gender>
+
+    <EXP>100000</EXP>
+    <JEXP>100000</JEXP>
+    <Gold>100000</Gold>
+    <Fame>1</Fame>
+    <ObjectID1>91000000</ObjectID1>
+    <Count1>1</Count1>
+    <ObjectID2>91000001</ObjectID2>
+    <Count2>1</Count2>
+    <Party>True</Party>
+  </Quest>
+  <Quest>
+    <!--TEST-->
+    <ID>50000004</ID>
+    <Name> 封测塔第四层攻略！</Name>
+    <Type>HUNT</Type>
+    <Time>120</Time>
+    <RequiredQuestPoints>0</RequiredQuestPoints>
+    <DungeonID>0</DungeonID>
+    <MinLV>43</MinLV>
+    <MaxLv>255</MaxLv>
+    <Job>NONE</Job>
+    <JobType>NOVICE</JobType>
+    <Race>NONE</Race>
+    <Gender>NONE</Gender>
+
+    <EXP>100000</EXP>
+    <JEXP>100000</JEXP>
+    <Gold>100000</Gold>
+    <Fame>1</Fame>
+    <ObjectID1>91000002</ObjectID1>
+    <Count1>1</Count1>
+    <Party>True</Party>
+  </Quest>
+  <Quest>
+    <!--TEST-->
+    <ID>50000005</ID>
+    <Name> 封测塔第五层攻略！</Name>
+    <Type>HUNT</Type>
+    <Time>120</Time>
+    <RequiredQuestPoints>0</RequiredQuestPoints>
+    <DungeonID>0</DungeonID>
+    <MinLV>44</MinLV>
+    <MaxLv>255</MaxLv>
+    <Job>NONE</Job>
+    <JobType>NOVICE</JobType>
+    <Race>NONE</Race>
+    <Gender>NONE</Gender>
+
+    <EXP>100000</EXP>
+    <JEXP>100000</JEXP>
+    <Gold>100000</Gold>
+    <Fame>1</Fame>
+    <ObjectID1>91000003</ObjectID1>
+    <Count1>1</Count1>
+    <ObjectID2>91000004</ObjectID2>
+    <Count2>1</Count2>
+    <ObjectID3>91000005</ObjectID3>
+    <Count3>1</Count3>
+    <Party>True</Party>
+  </Quest>
+  <Quest>
+    <!--TEST-->
+    <ID>50000006</ID>
+    <Name> 封测塔第六层攻略！</Name>
+    <Type>HUNT</Type>
+    <Time>120</Time>
+    <RequiredQuestPoints>0</RequiredQuestPoints>
+    <DungeonID>0</DungeonID>
+    <MinLV>47</MinLV>
+    <MaxLv>255</MaxLv>
+    <Job>NONE</Job>
+    <JobType>NOVICE</JobType>
+    <Race>NONE</Race>
+    <Gender>NONE</Gender>
+
+    <EXP>100000</EXP>
+    <JEXP>100000</JEXP>
+    <Gold>100000</Gold>
+    <Fame>1</Fame>
+    <ObjectID1>91000006</ObjectID1>
+    <Count1>1</Count1>
+    <Party>True</Party>
+  </Quest>
+  <Quest>
+    <!--TEST-->
+    <ID>50000007</ID>
+    <Name> 封测塔第七层攻略！</Name>
+    <Type>HUNT</Type>
+    <Time>120</Time>
+    <RequiredQuestPoints>0</RequiredQuestPoints>
+    <DungeonID>0</DungeonID>
+    <MinLV>48</MinLV>
+    <MaxLv>255</MaxLv>
+    <Job>NONE</Job>
+    <JobType>NOVICE</JobType>
+    <Race>NONE</Race>
+    <Gender>NONE</Gender>
+
+    <EXP>700000</EXP>
+    <JEXP>700000</JEXP>
+    <Gold>100000</Gold>
+    <Fame>1</Fame>
+    <ObjectID1>91000007</ObjectID1>
+    <Count1>1</Count1>
+    <ObjectID2>91000008</ObjectID2>
+    <Count2>1</Count2>
+    <Party>True</Party>
+  </Quest>
+</QuestDB>

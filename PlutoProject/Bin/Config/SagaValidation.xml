@@ -1,0 +1,50 @@
+﻿<?xml version="1.0"?>
+<SagaValidation>
+  <Port>12006</Port>
+
+  <!-- address of Mysql server or Path to Save for dat implementation-->
+  <dbhost>127.0.0.1</dbhost>
+  
+  <!-- database name for SQL -->
+  <dbname>sagaeco</dbname>
+
+  <!-- port for databaser server(SQL or db4o) -->
+  <dbport>3306</dbport>
+
+  <!-- 
+            Info = 1,
+            Warning = 2,
+            Error = 4,
+            SQL = 8,
+            Debug = 16       
+  -->
+  <LogLevel>31</LogLevel>
+
+  <dbuser>root</dbuser>
+  <dbpass>123456</dbpass>
+
+  <!-- Password used for verify the connection from mapserver -->
+
+  <Password>saga</Password>
+  <!-- Packet protocoll Version -->
+  <Version>Saga17</Version>
+
+  <!-- 设置服务器IP -->
+  <ServerName>SagaECO</ServerName>
+  <ServerIP>127.0.0.1:12000</ServerIP>
+
+  <!-- 服务器維護狀態 -->
+  <ServerClose>False</ServerClose>
+
+  <!-- 客戶端指紋 -->
+  <clientgameversion></clientgameversion>
+
+  <!--
+  MYSQL = 0
+  ACCESS = 1
+  -->  
+  <DBType>0</DBType>
+  
+  <dbEncoding>gbk</dbEncoding>
+
+</SagaValidation>

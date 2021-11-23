@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Spawns>
+  <spawn>
+    <!--放牧モンスターのティタ-->
+    <id>14260001</id>
+    <map>50062000</map>
+    <x>60</x>
+    <y>94</y>
+    <amount>1</amount>
+    <range>0</range>
+    <delay>60</delay>
+  </spawn>
+</Spawns>

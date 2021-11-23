@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Spawns>
+  <spawn>
+    <!--大蜈蚣-->
+    <id>14640001</id>
+    <map>22200000</map>
+    <x>128</x>
+    <y>128</y>
+    <amount>20</amount>
+    <range>128</range>
+    <delay>10</delay>
+  </spawn>
+
+  <spawn>
+    <!--B1F侦察装置-->
+    <id>10971704</id>
+    <map>22200000</map>
+    <x>128</x>
+    <y>128</y>
+    <amount>15</amount>
+    <range>128</range>
+    <delay>10</delay>
+  </spawn>
+
+  <spawn>
+    <!--大蚂蚁-->
+    <id>14680001</id>
+    <map>22200000</map>
+    <x>128</x>
+    <y>128</y>
+    <amount>20</amount>
+    <range>128</range>
+    <delay>10</delay>
+  </spawn>
+
+  <spawn>
+    <!--飞行背包DEM-->
+    <id>14690000</id>
+    <map>22200000</map>
+    <x>128</x>
+    <y>128</y>
+    <amount>15</amount>
+    <range>128</range>
+    <delay>10</delay>
+  </spawn>
+
+  <spawn>
+    <!--多足DEM-->
+    <id>14700000</id>
+    <map>22200000</map>
+    <x>128</x>
+    <y>128</y>
+    <amount>15</amount>
+    <range>128</range>
+    <delay>10</delay>
+  </spawn>
+
+  <spawn>
+    <!--木箱12-->
+    <id>30290012</id>
+    <map>22200000</map>
+    <x>128</x>
+    <y>128</y>
+    <amount>5</amount>
+    <range>128</range>
+    <delay>300</delay>
+  </spawn>
+</Spawns>

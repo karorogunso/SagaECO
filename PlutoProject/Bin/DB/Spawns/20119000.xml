@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Spawns>
+  <spawn>
+    <!--あやしいツボ-->
+    <id>30300001</id>
+    <map>20119000</map>
+    <x>8</x>
+    <y>17</y>
+    <amount>1</amount>
+    <range>12</range>
+    <delay>180</delay>
+  </spawn>
+  <spawn>
+    <!--レッサーゴースト-->
+    <id>10680800</id>
+    <map>20119000</map>
+    <x>8</x>
+    <y>17</y>
+    <amount>6</amount>
+    <range>12</range>
+    <delay>10</delay>
+  </spawn>
+  <spawn>
+    <!--スケルトンシューター-->
+    <id>10350100</id>
+    <map>20119000</map>
+    <x>8</x>
+    <y>17</y>
+    <amount>1</amount>
+    <range>12</range>
+    <delay>120</delay>
+  </spawn>
+  <spawn>
+    <!--ゴースト-->
+    <id>10680000</id>
+    <map>20119000</map>
+    <x>8</x>
+    <y>17</y>
+    <amount>1</amount>
+    <range>12</range>
+    <delay>60</delay>
+  </spawn>
+</Spawns>

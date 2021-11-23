@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Spawns>
+  <spawn rate="100">
+    <!--ラピエレ-->
+    <id>10190100</id>
+    <x>16</x>
+    <y>16</y>
+    <amount>1</amount>
+    <range>10</range>
+    <delay>0</delay>
+  </spawn>
+  <spawn rate="100">
+    <!--シューター-->
+    <id>10350100</id>
+    <x>16</x>
+    <y>16</y>
+    <amount>2</amount>
+    <range>10</range>
+    <delay>0</delay>
+  </spawn>
+  <spawn rate="100">
+    <!--ネクロ-->
+    <id>10420900</id>
+    <x>16</x>
+    <y>16</y>
+    <amount>1</amount>
+    <range>10</range>
+    <delay>0</delay>
+  </spawn>
+  <spawn rate="100">
+    <!--オブシディアン-->
+    <id>26130100</id>
+    <x>16</x>
+    <y>16</y>
+    <amount>1</amount>
+    <range>10</range>
+    <delay>0</delay>
+  </spawn>
+  <spawn rate="100">
+    <!--アニムス-->
+    <id>10460100</id>
+    <x>16</x>
+    <y>16</y>
+    <amount>1</amount>
+    <range>10</range>
+    <delay>0</delay>
+  </spawn>
+  <spawn rate="100">
+    <!--マリシャス-->
+    <id>10470100</id>
+    <x>16</x>
+    <y>16</y>
+    <amount>2</amount>
+    <range>10</range>
+    <delay>0</delay>
+  </spawn>
+  <spawn rate="100">
+    <!--アベンジャ-->
+    <id>10400500</id>
+    <x>16</x>
+    <y>16</y>
+    <amount>1</amount>
+    <range>10</range>
+    <delay>0</delay>
+  </spawn>
+</Spawns>

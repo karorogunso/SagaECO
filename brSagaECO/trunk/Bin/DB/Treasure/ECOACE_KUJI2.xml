@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TreasureDB>
+	<TreasureList GroupName="周年纪念☆特别篇!"><!--アニバ☆スペシャル！：2007/11/29~12/17-->
+		<Item rate="100" count="1">10020765</Item>
+		<Item rate="100" count="1">10058401</Item>
+		<Item rate="100" count="1">50005066</Item>
+		<Item rate="100" count="1">50039701</Item>
+		<Item rate="100" count="1">50037310</Item>
+		<Item rate="100" count="1">50011202</Item>
+		<Item rate="100" count="1">61020501</Item>
+		<Item rate="100" count="1">50039308</Item>
+		<Item rate="100" count="1">60103901</Item>
+		<Item rate="100" count="1">50039401</Item>
+		<Item rate="100" count="1">60103801</Item>
+		<Item rate="100" count="1">60104001</Item>
+		<Item rate="100" count="1">50070154</Item>
+		<Item rate="100" count="1">10050606</Item>
+	</TreasureList>
+	<TreasureList GroupName="激赏礼券11"><!--//第十一弾：2007/12/17~2008/01/09-->
+		<Item rate="100" count="1">10062900</Item><!--//ニンジン凧-->
+		<Item rate="100" count="1">50057400</Item><!--//天女の羽衣 头赏-->
+		<Item rate="100" count="1">60111000</Item><!--//新春?振袖ワンピース♀-->
+		<Item rate="100" count="1">60111100</Item><!--//新春?紋付はかま♂ -->
+		<Item rate="100" count="1">50200900</Item><!--//賀正?足袋-->
+		<Item rate="100" count="1">60111200</Item><!--//干支スーツ（ねずみ）-->
+		<Item rate="100" count="1">50200800</Item><!--//雪結晶の靴-->
+		<Item rate="100" count="1">60083700</Item><!--//タイニー熊手-->
+		<Item rate="100" count="1">50043900</Item><!--//雪結晶のピアス-->
+		<Item rate="100" count="1">50102300</Item><!--//つまみ細工のかんざし-->
+		<Item rate="100" count="1">60031700</Item><!--//迎春の盾-->
+		<Item rate="100" count="1">10020777</Item><!--//武士发型介绍信-->
+	</TreasureList>
+	<TreasureList GroupName="激赏礼券12"><!--//第十二弾：2008/02/13~2008/03/05-->
+                <Item rate="100" count="1">10020779</Item><!--//情人节发型介绍信-->
+		<Item rate="100" count="1">10063100</Item><!--//サイドカーバイク头赏-->
+		<Item rate="100" count="1">50057600</Item><!--//あったかロングマフラー-->
+		<Item rate="100" count="1">60111300</Item><!--//スウィートハートドレス♀-->
+		<Item rate="100" count="1">60111400</Item><!--//大天使さまのシャツ-->
+		<Item rate="100" count="1">50102700</Item><!--//ハートクラウン-->
+		<Item rate="100" count="1">50201000</Item><!--//大天使さまのパンツ-->
+		<Item rate="100" count="1">50044100</Item><!--//ハートイヤリング-->
+		<Item rate="100" count="1">50102600</Item><!--//スウィートボンネットハット-->
+		<Item rate="100" count="1">50201100</Item><!--//大天使さまのお靴-->
+		<Item rate="100" count="1">60072700</Item><!--//ハートの女王さまの杖-->
+		<Item rate="100" count="1">50073900</Item><!--//ハートのチャームバック-->
+		<Item rate="100" count="1">50057700</Item><!--//聖なるハートペンダント-->
+		<Item rate="100" count="1">50042950</Item><!--//大天使様の真っ白なバラ-->
+	</TreasureList>
+	<TreasureList GroupName="春☆特别篇!"><!--//春☆スペシャル：2008/03/19~2008/04/09-->
+		<Item rate="100" count="1">10058050</Item><!--//空飛ぶじゅうたん（桜）头赏-->
+		<Item rate="100" count="1">50039814</Item><!--//ねこ日和（ホワイト） -->
+		<Item rate="100" count="1">50011152</Item><!--//桜のオーバーニー-->
+		<Item rate="100" count="1">50039250</Item><!--//犬耳（白茶ブチ）-->
+		<Item rate="100" count="1">60107550</Item><!--//ロマンスドレス♀（桜）-->
+		<Item rate="100" count="1">50042211</Item><!--//しろねこのひげ-->
+		<Item rate="100" count="1">60107305</Item><!--//きのこグルミ（緑）-->
+		<Item rate="100" count="1">50042750</Item><!--//丸サングラス（透明）-->
+		<Item rate="100" count="1">60104701</Item><!--//フライトジャケットＡ2(赤）-->
+		<Item rate="100" count="1">50018450</Item><!--//バレエシューズ♀（桜）-->
+		<Item rate="100" count="1">50072801</Item><!--//軍用ウエストポーチ（赤）-->
+		<Item rate="100" count="1">50012367</Item><!--//リボン付きミニスカート♀(ミント）-->
+                <Item rate="100" count="1">10031326</Item><!--//染发剂.春-->
+                <Item rate="100" count="1">10020766</Item><!--//约会发型介绍信-->
+	</TreasureList>
+	<TreasureList GroupName="激赏礼券13"><!--//第十三弾：2008/04/23~2008/05/14-->
+		<Item rate="100" count="1">10063500</Item><!--//おとぎの国の白馬头赏-->
+		<Item rate="100" count="1">50057653</Item><!--//長靴を履いたネコマタマント-->
+		<Item rate="100" count="1">50103300</Item><!--//姫さま日和-->
+		<Item rate="100" count="1">60110200</Item><!--//長靴を履いたネコマタ礼服 -->
+		<Item rate="100" count="1">60110100</Item><!--//タイニー赤ずきんのワンピ-->
+		<Item rate="100" count="1">50011153</Item><!--//タイニー赤ずきん靴下-->
+		<Item rate="100" count="1">50103400</Item><!--//長靴を履いたネコマタ帽子 -->
+		<Item rate="100" count="1">50103500</Item><!--//タイニー赤ずきん-->
+		<Item rate="100" count="1">50074200</Item><!--//ねこバスケット-->
+		<Item rate="100" count="1">50067900</Item><!--//長靴を履いたネコマタ長靴-->
+		<Item rate="100" count="1">50067800</Item><!--//タイニー赤ずきんの靴-->
+		<Item rate="100" count="1">10020783</Item><!--//童话发型介绍信-->
+	</TreasureList>
+	<TreasureList GroupName="初夏☆特别篇!"><!--//初夏☆スペシャル：2008/06/09~2008/06/23-->
+		<Item rate="100" count="1">10058400</Item><!--//空飛ぶコウモリ傘头赏-->
+		<Item rate="100" count="1">50039801</Item><!--//ねこ日和（ロシアン）-->
+		<Item rate="100" count="1">60105800</Item><!--//ふわふわ春ドレス♀-->
+		<Item rate="100" count="1">60105100</Item><!--//恋するエプロン♀-->
+		<Item rate="100" count="1">60042600</Item><!--//はっぱ傘 -->
+		<Item rate="100" count="1">50044000</Item><!--//真珠のイヤリング-->
+		<Item rate="100" count="1">60107700</Item><!--//祭りのミニ浴衣♀（朝顔） -->
+		<Item rate="100" count="1">60107900</Item><!--//はっちゃけじんべい♂（灰）-->
+		<Item rate="100" count="1">50017301</Item><!--//スニーカー(赤）-->
+		<Item rate="100" count="1">50067200</Item><!--//ゴム長靴（ヒヨコ）-->
+		<Item rate="100" count="1">50052110</Item><!--//大きなリボン（白）-->
+		<Item rate="100" count="1">60105900</Item><!--//スポーティーなポロシャツ-->
+		<Item rate="100" count="1">50018800</Item><!--//スポーティーなキュロット-->
+		<Item rate="100" count="1">10020765</Item><!--//活泼发型介绍信-->
+	</TreasureList>
+	<TreasureList GroupName="激赏礼券14"><!--//第十四弾：2008/06/23~2008/07/14-->
+		<Item rate="100" count="1">60110500</Item><!--//奏でる指揮者の燕尾服-->
+		<Item rate="100" count="1">50103700</Item><!--//おさるの演奏会-->
+		<Item rate="100" count="1">60110400</Item><!--//ドレミジャケット-->
+		<Item rate="100" count="1">50020300</Item><!--//ドレミパンツ-->
+		<Item rate="100" count="1">50074300</Item><!--//なつかしのリコーダー-->
+		<Item rate="100" count="1">61040500</Item><!--//旋律のヴァリアスギター-->
+		<Item rate="100" count="1">50103800</Item><!--//カリスマDJのヘッドフォン-->
+		<Item rate="100" count="1">60043500</Item><!--//マーチングタイニ-->
+		<Item rate="100" count="1">50103900</Item><!--//ドレミリボン-->
+		<Item rate="100" count="1">50201200</Item><!--//ドレミブーツ -->
+		<Item rate="100" count="1">50044300</Item><!--//メロディーイヤリング-->
+		<Item rate="100" count="1">50074400</Item><!--//ドレミヒップバッグ-->
+	</TreasureList>
+	<TreasureList GroupName="激赏礼券15"><!--//第十五弾：2008/08/13~2008/09/03-->
+                <Item rate="100" count="1">10020788</Item><!--//仲夏发型-->
+		<Item rate="100" count="1">10065600</Item><!--//波乗りサーフボード头赏-->
+		<Item rate="100" count="1">50104800</Item><!--//祭りの狐耳(?) -->
+		<Item rate="100" count="1">60043700</Item><!--//虫取り網-->
+		<Item rate="100" count="1">60024500</Item><!--//灼熱鳥賊剣(?)-->
+		<Item rate="100" count="1">60112900</Item><!--//あでやかな浴衣 -->
+		<Item rate="100" count="1">60113000</Item><!--//渚のビーチパーカー-->
+		<Item rate="100" count="1">50068300</Item><!--//渚のビーチパンツ-->
+		<Item rate="100" count="1">50058100</Item><!--//狐火 -->
+		<Item rate="100" count="1">50104900</Item><!--//きつねのお面-->
+		<Item rate="100" count="1">60043600</Item><!--//祭りの提灯-->
+		<Item rate="100" count="1">50068400</Item><!--//渚のビーチサンダル-->
+		<Item rate="100" count="1">50105000</Item><!--//ナンパグラサン-->
+	</TreasureList>
+	<TreasureList GroupName="激赏礼券16"><!--//第十六弾：2008/10/08~2008/10/29-->
+                <Item rate="100" count="1">10020792</Item><!--//万圣节发型-->
+		<Item rate="100" count="1">50002070</Item><!--//ヴァンパイアドレス-->
+		<Item rate="100" count="1">50011224</Item><!--//スパイダーオーバーニー-->
+		<Item rate="100" count="1">60114500</Item><!--//聖職者の服-->
+		<Item rate="100" count="1">60072800</Item><!--//マジカルケイン-->
+		<Item rate="100" count="1">50069300</Item><!--//聖職者のロングブーツ-->
+		<Item rate="100" count="1">50106200</Item><!--//ヴァンパイアヴェール-->
+		<Item rate="100" count="1">50044600</Item><!--//魔除けのシルバーイヤリング-->
+		<Item rate="100" count="1">50058500</Item><!--//ヴァンパイアのジャボット-->
+		<Item rate="100" count="1">50106300</Item><!--//ドクロハット-->
+		<Item rate="100" count="1">50076700</Item><!--//銀の銃ホルスタ-->
+		<Item rate="100" count="1">50101450</Item><!--//タイタニアヘッド-->
+                <Item rate="100" count="1">30060300</Item><!--//南瓜飞空帆-->
+	</TreasureList>
+	<TreasureList GroupName="激赏礼券DX"><!--//DX：2008/11/19~2008/11/28-->
+		<Item rate="100" count="1">10065400</Item><!--//ルイーザ头赏-->
+		<Item rate="100" count="1">10065500</Item><!--//超絶合体エレキテル-->
+		<Item rate="100" count="1">50011223</Item><!--//ネコのオーバーニー（ピンク）-->
+		<Item rate="100" count="1">60105602</Item><!--//悩殺ネコスーツ♀（パープル）-->
+		<Item rate="100" count="1">50069800</Item><!--//クールなブーツ-->
+		<Item rate="100" count="1">61021114</Item><!--//くるりんしっぽ（白）-->
+		<Item rate="100" count="1">60109701</Item><!--//シバ耳（白）-->
+		<Item rate="100" count="1">60115300</Item><!--//ベルナルドの服-->
+		<Item rate="100" count="1">60104809</Item><!--//モノクロワンピース♀ -->
+		<Item rate="100" count="1">50001957</Item><!--//エプロンドレス♀（クリーム）-->
+		<Item rate="100" count="1">60084300</Item><!--//携帯電話-->
+		<Item rate="100" count="1">50029501</Item><!--//モノクロな帽子-->
+		<Item rate="100" count="1">50044900</Item><!--//操縦者のインカム-->
+		<Item rate="100" count="1">10030013</Item><!--//マリオネット?エレキテル?特（黒）-->
+	</TreasureList>
+</TreasureDB>

@@ -1,0 +1,13 @@
+E:\COFECO\SagaECO\SagaDB\obj\Debug\SagaDB.csprojResolveAssemblyReference.cache
+F:\COFECO\SagaECO\Bin\SagaDB.dll
+F:\COFECO\SagaECO\Bin\SagaDB.pdb
+F:\COFECO\SagaECO\Bin\SagaDB.XML
+F:\COFECO\SagaECO\SagaDB\obj\Debug\SagaDB.csprojResolveAssemblyReference.cache
+F:\COFECO\SagaECO\SagaDB\obj\Debug\SagaDB.dll
+F:\COFECO\SagaECO\SagaDB\obj\Debug\SagaDB.pdb
+F:\ECOAceProject\SagaECONewClient\SagaDB\obj\Debug\SagaDB.dll
+F:\ECOAceProject\SagaECONewClient\SagaDB\obj\Debug\SagaDB.pdb
+F:\ECOAceProject\SagaECONewClient\Bin\SagaDB.dll
+F:\ECOAceProject\SagaECONewClient\Bin\SagaDB.pdb
+F:\ECOAceProject\SagaECONewClient\Bin\SagaDB.XML
+F:\ECOAceProject\SagaECONewClient\SagaDB\obj\Debug\SagaDB.csprojResolveAssemblyReference.cache

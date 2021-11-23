@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Spawns>
+  <spawn>
+    <!--放牧マンドラにんじん-->
+    <id>10640001</id>
+    <map>30019009</map>
+    <x>1</x>
+    <y>3</y>
+    <amount>1</amount>
+    <range>0</range>
+    <delay>10</delay>
+  </spawn>
+</Spawns>

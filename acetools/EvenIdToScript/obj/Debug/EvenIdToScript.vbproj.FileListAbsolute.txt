@@ -1,0 +1,11 @@
+C:\Saga\SagaECO\Tools\EvenIdToScript\bin\Debug\EvenIdToScript.exe
+C:\Saga\SagaECO\Tools\EvenIdToScript\bin\Debug\EvenIdToScript.pdb
+C:\Saga\SagaECO\Tools\EvenIdToScript\bin\Debug\EvenIdToScript.xml
+C:\Saga\SagaECO\Tools\EvenIdToScript\obj\Debug\ResolveAssemblyReference.cache
+C:\Saga\SagaECO\Tools\EvenIdToScript\obj\Debug\EvenIdToScript.Main.resources
+C:\Saga\SagaECO\Tools\EvenIdToScript\obj\Debug\EvenIdToScript.Resources.resources
+C:\Saga\SagaECO\Tools\EvenIdToScript\obj\Debug\ResGen.read.1.tlog
+C:\Saga\SagaECO\Tools\EvenIdToScript\obj\Debug\ResGen.write.1.tlog
+C:\Saga\SagaECO\Tools\EvenIdToScript\obj\Debug\EvenIdToScript.exe
+C:\Saga\SagaECO\Tools\EvenIdToScript\obj\Debug\EvenIdToScript.xml
+C:\Saga\SagaECO\Tools\EvenIdToScript\obj\Debug\EvenIdToScript.pdb

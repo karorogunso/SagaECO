@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Spawns>
+  <spawn rate="33">
+    <!--ホウオウ-->
+    <id>26050000</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>3</amount>
+    <range>128</range>
+    <delay>5</delay>
+  </spawn>
+  <spawn rate="20">
+    <!--魔狼-->
+    <id>10136901</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>2</amount>
+    <range>128</range>
+    <delay>5</delay>
+  </spawn>
+  <spawn rate="33">
+    <!--スケルトンシューター-->
+    <id>10350100</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>2</amount>
+    <range>128</range>
+    <delay>5</delay>
+  </spawn>
+  <spawn rate="33">
+    <!--ドミニオン高位背徳者-->
+    <id>10470000</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>3</amount>
+    <range>128</range>
+    <delay>5</delay>
+  </spawn>
+  <spawn rate="33">
+    <!--ブリキングカスタム-->
+    <id>10390000</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>4</amount>
+    <range>128</range>
+    <delay>5</delay>
+  </spawn>
+  <spawn rate="20">
+    <!--ライオウ-->
+    <id>26050002</id>
+    <x>90</x>
+    <y>90</y>
+    <amount>1</amount>
+    <range>10</range>
+    <delay>0</delay>
+  </spawn>
+  <spawn rate="100">
+    <!--ライオウ-->
+    <id>26050002</id>
+    <x>90</x>
+    <y>90</y>
+    <amount>1</amount>
+    <range>10</range>
+    <delay>0</delay>
+  </spawn>
+  <spawn rate="100">
+    <!--ドミニオン?マリシャス-->
+    <id>10470100</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>2</amount>
+    <range>128</range>
+    <delay>5</delay>
+  </spawn>
+  <spawn rate="60">
+    <!--ゴースト　赤-->
+    <id>10680100</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>4</amount>
+    <range>128</range>
+    <delay>5</delay>
+  </spawn>
+  <spawn rate="100">
+    <!--土蜘蛛　灰-->
+    <id>10211000</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>6</amount>
+    <range>128</range>
+    <delay>5</delay>
+  </spawn>
+</Spawns>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Spawns>
+  <spawn>
+    <!--機械のかたまり※イベント用-->
+    <id>30330002</id>
+    <map>50017000</map>
+    <x>116</x>
+    <y>111</y>
+    <amount>1</amount>
+    <range>10</range>
+    <delay>690000</delay>
+  </spawn>
+  <spawn>
+    <!--インキュバス         　　　　 LV56-->
+    <id>10410200</id>
+    <map>50017000</map>
+    <x>116</x>
+    <y>111</y>
+    <amount>3</amount>
+    <range>10</range>
+    <delay>10</delay>
+  </spawn>
+  <spawn>
+    <!--オニックス　                   LV42-->
+    <id>26090900</id>
+    <map>50017000</map>
+    <x>116</x>
+    <y>111</y>
+    <amount>4</amount>
+    <range>10</range>
+    <delay>10</delay>
+  </spawn>
+</Spawns>

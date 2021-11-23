@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Spawns>
+  <spawn rate="33">
+    <!--アルカナジャック-->
+    <id>10310001</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>2</amount>
+    <range>128</range>
+    <delay>5</delay>
+  </spawn>
+  <spawn rate="33">
+    <!--アルカナクィーン-->
+    <id>10320001</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>1</amount>
+    <range>128</range>
+    <delay>5</delay>
+  </spawn>
+  <spawn rate="33">
+    <!--アルカナクラブ-->
+    <id>10100300</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>3</amount>
+    <range>128</range>
+    <delay>5</delay>
+  </spawn>
+  <spawn rate="33">
+    <!--ブリキングRX１-->
+    <id>26000000</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>4</amount>
+    <range>128</range>
+    <delay>5</delay>
+  </spawn>
+  <spawn rate="33">
+    <!--ブリキングキャノン-->
+    <id>10380000</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>2</amount>
+    <range>128</range>
+    <delay>5</delay>
+  </spawn>
+  <spawn rate="100">
+    <!--ブリキングカスタム-->
+    <id>10390000</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>2</amount>
+    <range>128</range>
+    <delay>5</delay>
+  </spawn>
+  <spawn rate="100">
+    <!--ブリキングMkⅡ-->
+    <id>10500000</id>
+    <x>90</x>
+    <y>90</y>
+    <amount>1</amount>
+    <range>10</range>
+    <delay>0</delay>
+  </spawn>
+  <spawn rate="100">
+    <!--アルカナキング-->
+    <id>10330001</id>
+    <x>90</x>
+    <y>90</y>
+    <amount>1</amount>
+    <range>10</range>
+    <delay>0</delay>
+  </spawn>
+</Spawns>

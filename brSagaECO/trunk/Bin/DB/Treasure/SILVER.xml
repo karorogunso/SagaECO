@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TreasureDB>
+  <TreasureList GroupName="SILVER_A1">
+    <Item rate="1" count="1">50011109</Item>
+    <Item rate="5" count="1">50051700</Item>
+    <Item rate="8" count="1">50052100</Item>
+    <Item rate="16" count="1">50052000</Item>
+    <Item rate="32" count="1">50030700</Item>
+    <Item rate="38" count="1">50030600</Item>
+  </TreasureList>
+  <TreasureList GroupName="SILVER_A2">
+    <Item rate="1" count="1">50052200</Item>
+    <Item rate="5" count="1">50011300</Item>
+    <Item rate="8" count="1">50011600</Item>
+    <Item rate="16" count="1">50021909</Item>
+    <Item rate="32" count="1">50040700</Item>
+    <Item rate="38" count="1">50003609</Item>
+  </TreasureList>
+  <TreasureList GroupName="SILVER_A3">
+    <Item rate="1" count="1">50024109</Item>
+    <Item rate="5" count="1">60001009</Item>
+    <Item rate="8" count="1">50023700</Item>
+    <Item rate="16" count="1">50003752</Item>
+    <Item rate="32" count="1">50012252</Item>
+    <Item rate="38" count="1">50000450</Item>
+  </TreasureList>
+  <TreasureList GroupName="SILVER_B1">
+    <Item rate="1" count="1">50011111</Item>
+    <Item rate="5" count="1">50035500</Item>
+    <Item rate="8" count="1">50005650</Item>
+    <Item rate="16" count="1">50030500</Item>
+    <Item rate="32" count="1">50030300</Item>
+    <Item rate="38" count="1">50010151</Item>
+  </TreasureList>
+  <TreasureList GroupName="SILVER_B2">
+    <Item rate="1" count="1">50040100</Item>
+    <Item rate="5" count="1">50050400</Item>
+    <Item rate="8" count="1">50052300</Item>
+    <Item rate="16" count="1">50021509</Item>
+    <Item rate="32" count="1">50021900</Item>
+    <Item rate="38" count="1">50003604</Item>
+  </TreasureList>
+  <TreasureList GroupName="SILVER_B3">
+    <Item rate="1" count="1">50024110</Item>
+    <Item rate="5" count="1">50010751</Item>
+    <Item rate="8" count="1">50023700</Item>
+    <Item rate="16" count="1">50003751</Item>
+    <Item rate="32" count="1">50012251</Item>
+    <Item rate="38" count="1">60001110</Item>
+  </TreasureList>
+  <TreasureList GroupName="SILVER_C1">
+    <Item rate="1" count="1">50011101</Item>
+    <Item rate="5" count="1">50001350</Item>
+    <Item rate="8" count="1">50060855</Item>
+    <Item rate="16" count="1">60080500</Item>
+    <Item rate="32" count="1">50031500</Item>
+    <Item rate="38" count="1">50052100</Item>
+  </TreasureList>
+  <TreasureList GroupName="SILVER_C2">
+    <Item rate="1" count="1">50015256</Item>
+    <Item rate="5" count="1">50071350</Item>
+    <Item rate="8" count="1">50060854</Item>
+    <Item rate="16" count="1">60080600</Item>
+    <Item rate="32" count="1">50050200</Item>
+    <Item rate="38" count="1">50003607</Item>
+  </TreasureList>
+  <TreasureList GroupName="SILVER_C3">
+    <Item rate="1" count="1">60042300</Item>
+    <Item rate="5" count="1">50071351</Item>
+    <Item rate="8" count="1">50071952</Item>
+    <Item rate="16" count="1">60031100</Item>
+    <Item rate="32" count="5">10055100</Item>
+    <Item rate="38" count="5">10000604</Item>
+  </TreasureList>
+</TreasureDB>

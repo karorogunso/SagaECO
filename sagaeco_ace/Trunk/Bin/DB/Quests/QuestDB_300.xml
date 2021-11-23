@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Flag:0c68-->
+<QuestDB GroupID="300">
+  <Quest>
+    <!--TEST-->
+    <ID>1654654</ID>
+    <Name>TEST(放水)</Name>
+    <Type>HUNT</Type>
+    <Time>120</Time>
+    <RequiredQuestPoints>0</RequiredQuestPoints>
+    <DungeonID>0</DungeonID>
+    <MinLV>0</MinLV>
+    <MaxLv>255</MaxLv>
+    <Job>NONE</Job>
+    <JobType>NOVICE</JobType>
+    <Race>NONE</Race>
+    <Gender>NONE</Gender>
+
+    <EXP>100000</EXP>
+    <JEXP>100000</JEXP>
+    <Gold>100000</Gold>
+    <Fame>1</Fame>
+    <MapID1>60908000</MapID1>
+    <ObjectID1>14520000</ObjectID1>
+    <Count1>1</Count1>
+    <Party>True</Party>
+  </Quest>
+  <Quest>
+    <!--TEST-->
+    <ID>1654655</ID>
+    <Name>TEST(本气)</Name>
+    <Type>HUNT</Type>
+    <Time>120</Time>
+    <RequiredQuestPoints>0</RequiredQuestPoints>
+    <DungeonID>0</DungeonID>
+    <MinLV>0</MinLV>
+    <MaxLv>255</MaxLv>
+    <Job>NONE</Job>
+    <JobType>NOVICE</JobType>
+    <Race>NONE</Race>
+    <Gender>NONE</Gender>
+
+    <EXP>100000</EXP>
+    <JEXP>100000</JEXP>
+    <Gold>100000</Gold>
+    <Fame>1</Fame>
+    <MapID1>60908000</MapID1>
+    <ObjectID1>14520001</ObjectID1>
+    <Count1>1</Count1>
+    <Party>True</Party>
+  </Quest>
+</QuestDB>

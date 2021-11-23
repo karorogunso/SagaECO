@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MobAI>
+  <!--AI Mode:
+        Normal,
+        Active = 0x1,
+        NoAttack = 0x2,
+        NoMove = 0x4,
+        RunAway = 0x8,
+        HelpSameType = 0x10, (16)
+        HateHeal = 0x20, (32)
+        HateMagic = 0x40, (64)
+        Symbol = 0x80, (128)
+        SymbolTrash = 0x100, (256)
+-->
+
+  <Mob>
+    <!--无敌浩克-->
+    <ID>82000002</ID>
+    <AIMode>3</AIMode>
+    <UseSkillOfShortRange Distance= "3" CD="2">
+      <Skill Rate="60" CD="60" MaxHP ="100" MinHP = "0">20011</Skill>
+      <Skill Rate="60" CD="0" MaxHP ="100" MinHP = "0">20010</Skill>
+      <Skill Rate="60" CD="6000" MaxHP ="50" MinHP = "0">20013</Skill>
+
+    </UseSkillOfShortRange>
+    <UseSkillOfLongRange CD="5">
+      <Skill Rate="60" CD="1" MaxHP ="100" MinHP = "0">2239</Skill>
+
+    </UseSkillOfLongRange>
+
+  </Mob>
+</MobAI>

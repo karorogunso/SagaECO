@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Flag:0c03-->
+<QuestDB GroupID="43">
+  <Quest>
+    <!--スペルユーザー-->
+    <ID>12000200</ID>
+    <Name>收集茉莉草(Lv 4)</Name>
+    <Type>GATHER</Type>
+    <Time>60</Time>
+    <RewardItem>0</RewardItem>
+    <RewardCount>0</RewardCount>
+    <RequiredQuestPoints>1</RequiredQuestPoints>
+    <DungeonID>0</DungeonID>
+    <MinLV>4</MinLV>
+    <MaxLv>20</MaxLv>
+    <Job>NONE</Job>
+    <JobType>NOVICE</JobType>
+    <Race>NONE</Race>
+    <Gender>NONE</Gender>
+    <!--Detail Information-->
+    <!--マリカ草-->
+    <EXP>244</EXP>
+    <JEXP>244</JEXP>
+    <Gold>400</Gold>
+    <Fame>1</Fame>
+    <ObjectID1>10004901</ObjectID1>
+    <Count1>3</Count1>
+  </Quest>
+  <Quest>
+    <!--スペルユーザー-->
+    <ID>12000201</ID>
+    <Name>收集神秘草(Lv 4)</Name>
+    <Type>GATHER</Type>
+    <Time>60</Time>
+    <RewardItem>0</RewardItem>
+    <RewardCount>0</RewardCount>
+    <RequiredQuestPoints>1</RequiredQuestPoints>
+    <DungeonID>0</DungeonID>
+    <MinLV>4</MinLV>
+    <MaxLv>20</MaxLv>
+    <Job>NONE</Job>
+    <JobType>NOVICE</JobType>
+    <Race>NONE</Race>
+    <Gender>NONE</Gender>
+    <!--Detail Information-->
+    <!--ルーン草-->
+    <EXP>244</EXP>
+    <JEXP>244</JEXP>
+    <Gold>400</Gold>
+    <Fame>1</Fame>
+    <ObjectID1>10004902</ObjectID1>
+    <Count1>3</Count1>
+  </Quest>
+  <Quest>
+    <!--スペルユーザー-->
+    <ID>12010200</ID>
+    <Name>收集润喉糖(Lv 14)</Name>
+    <Type>GATHER</Type>
+    <Time>360</Time>
+    <RewardItem>0</RewardItem>
+    <RewardCount>0</RewardCount>
+    <RequiredQuestPoints>1</RequiredQuestPoints>
+    <DungeonID>0</DungeonID>
+    <MinLV>14</MinLV>
+    <MaxLv>30</MaxLv>
+    <Job>NONE</Job>
+    <JobType>NOVICE</JobType>
+    <Race>NONE</Race>
+    <Gender>NONE</Gender>
+    <!--Detail Information-->
+    <!--のど飴-->
+    <EXP>1590</EXP>
+    <JEXP>1590</JEXP>
+    <Gold>1200</Gold>
+    <Fame>1</Fame>
+    <ObjectID1>10037500</ObjectID1>
+    <Count1>10</Count1>
+  </Quest>
+  <Quest>
+    <!--スペルユーザー-->
+    <ID>12010203</ID>
+    <Name>收集魔法水(Lv 19)</Name>
+    <Type>GATHER</Type>
+    <Time>360</Time>
+    <RewardItem>0</RewardItem>
+    <RewardCount>0</RewardCount>
+    <RequiredQuestPoints>1</RequiredQuestPoints>
+    <DungeonID>0</DungeonID>
+    <MinLV>19</MinLV>
+    <MaxLv>35</MaxLv>
+    <Job>NONE</Job>
+    <JobType>NOVICE</JobType>
+    <Race>NONE</Race>
+    <Gender>NONE</Gender>
+    <!--Detail Information-->
+    <!--マナ?ウォーター-->
+    <EXP>3681</EXP>
+    <JEXP>3681</JEXP>
+    <Gold>1600</Gold>
+    <Fame>1</Fame>
+    <ObjectID1>10002202</ObjectID1>
+    <Count1>5</Count1>
+  </Quest>
+  <Quest>
+    <!--スペルユーザー-->
+    <ID>12010206</ID>
+    <Name>收集熊胆(Lv 24)</Name>
+    <Type>GATHER</Type>
+    <Time>360</Time>
+    <RewardItem>0</RewardItem>
+    <RewardCount>0</RewardCount>
+    <RequiredQuestPoints>1</RequiredQuestPoints>
+    <DungeonID>0</DungeonID>
+    <MinLV>24</MinLV>
+    <MaxLv>40</MaxLv>
+    <Job>NONE</Job>
+    <JobType>NOVICE</JobType>
+    <Race>NONE</Race>
+    <Gender>NONE</Gender>
+    <!--Detail Information-->
+    <!--クマノイ-->
+    <EXP>4494</EXP>
+    <JEXP>4494</JEXP>
+    <Gold>2000</Gold>
+    <Fame>1</Fame>
+    <ObjectID1>10004700</ObjectID1>
+    <Count1>3</Count1>
+  </Quest>
+</QuestDB>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ECOShop>
+  <Category>
+    <ID>1</ID>
+    <Name>啦啦啦</Name>
+    <Item>
+      <ID>10000000</ID>
+      <Points>900000</Points>
+      <Comment>啦啦♪</Comment>
+      <RentalMinutes>1000</RentalMinutes>
+    </Item>
+  </Category>
+  <Category>
+    <ID>2</ID>
+    <Name>发型介绍书第一页</Name>
+    <Item>
+      <ID>10020750</ID>
+      <Points>900000</Points>
+      <Comment>可以在发型师处$R改变发型的介绍书哦♪</Comment>
+      <RentalMinutes>1000</RentalMinutes>
+    </Item>
+    <Item>
+      <ID>10020708</ID>
+      <Points>900000</Points>
+      <Comment>可以在发型师处$R改变发型的介绍书哦♪</Comment>
+      <RentalMinutes>1000</RentalMinutes>
+    </Item>
+  </Category>
+</ECOShop>
+ 

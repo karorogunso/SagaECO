@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TreasureDB>
+  <TreasureList GroupName="LOTTO1">
+    <Item rate="13" count="1">50003753</Item>
+    <Item rate="8" count="1">50031309</Item>
+    <Item rate="3" count="1">10050600</Item>
+    <Item rate="2" count="1">50041050</Item>
+    <Item rate="10" count="1">10000600</Item>
+    <Item rate="10" count="1">10000602</Item>
+    <Item rate="7" count="1">50028000</Item>
+    <Item rate="12" count="1">50012253</Item>
+    <Item rate="22" count="1">50001952</Item>
+    <Item rate="13" count="1">50024709</Item>
+  </TreasureList>
+</TreasureDB>

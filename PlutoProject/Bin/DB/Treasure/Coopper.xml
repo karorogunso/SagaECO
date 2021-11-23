@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TreasureDB>
+　<!-- アイテムBOX アップタウン南可動橋（東）かわいい -->
+  <TreasureList GroupName="COPPER_C1">
+    <Item rate="1" count="1">60040800</Item>
+    <Item rate="5" count="1">50001300</Item>
+    <Item rate="8" count="1">50051200</Item>
+    <Item rate="16" count="1">50003251</Item>
+    <Item rate="32" count="1">50010000</Item>
+    <Item rate="38" count="1">50041701</Item>
+  </TreasureList>
+　<!-- アイテムBOX アップタウン南可動橋（東）かっこいい -->
+  <TreasureList GroupName="COPPER_C2">
+    <Item rate="1" count="1">50021901</Item>
+    <Item rate="5" count="1">50040600</Item>
+    <Item rate="8" count="1">50021905</Item>
+    <Item rate="16" count="1">50003607</Item>
+    <Item rate="32" count="1">50030600</Item>
+    <Item rate="38" count="1">50041702</Item>
+  </TreasureList>
+　<!-- アイテムBOX アップタウン南可動橋（東）つかえる -->
+  <TreasureList GroupName="COPPER_C3">
+    <Item rate="1" count="1">10048900</Item>
+    <Item rate="5" count="1">50022900</Item>
+    <Item rate="8" count="1">50071900</Item>
+    <Item rate="16" count="1">50060000</Item>
+    <Item rate="32" count="1">20050005</Item>
+    <Item rate="38" count="100">61010000</Item>
+  </TreasureList >
+　<!-- アイテムBOX アップタウン北可動橋（東）かわいい -->
+  <TreasureList GroupName="COPPER_D1">
+    <Item rate="1" count="1">50051700</Item>
+    <Item rate="5" count="1">50012309</Item>
+    <Item rate="8" count="1">50030200</Item>
+    <Item rate="16" count="1">50030100</Item>
+    <Item rate="32" count="1">50070150</Item>
+    <Item rate="38" count="1">50030000</Item>
+  </TreasureList>
+　<!-- アイテムBOX アップタウン北可動橋（東）かっこいい -->
+  <TreasureList GroupName="COPPER_D2">
+    <Item rate="1" count="1">50021909</Item>
+    <Item rate="5" count="1">50002702</Item>
+    <Item rate="8" count="1">50021900</Item>
+    <Item rate="16" count="1">50002700</Item>
+    <Item rate="32" count="1">50030451</Item>
+    <Item rate="38" count="1">50003250</Item>
+  </TreasureList>
+　<!-- アイテムBOX アップタウン北可動橋（東）使える -->
+  <TreasureList GroupName="COPPER_D3">
+    <Item rate="1" count="1">50050300</Item>
+    <Item rate="5" count="1">60041300</Item>
+    <Item rate="8" count="1">50061500</Item>
+    <Item rate="16" count="1">60030100</Item>
+    <Item rate="32" count="5">10026450</Item>
+    <Item rate="38" count="5">10000503</Item>
+  </TreasureList>
+</TreasureDB>

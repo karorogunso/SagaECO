@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Spawns>
+  <spawn>
+    <!--蟾蜍-->
+    <id>14660000</id>
+    <map>22199000</map>
+    <x>128</x>
+    <y>128</y>
+    <amount>30</amount>
+    <range>128</range>
+    <delay>10</delay>
+  </spawn>
+
+
+  <spawn>
+    <!--地鼠-->
+    <id>14650000</id>
+    <map>22199000</map>
+    <x>25</x>
+    <y>120</y>
+    <amount>5</amount>
+    <range>25</range>
+    <delay>10</delay>
+  </spawn>
+
+  <spawn>
+    <!--水龙-->
+    <id>14170900</id>
+    <map>22199000</map>
+    <x>75</x>
+    <y>128</y>
+    <amount>7</amount>
+    <range>75</range>
+    <delay>10</delay>
+  </spawn>
+
+  <spawn>
+    <!--大蟾蜍-->
+    <id>14660001</id>
+    <map>22199000</map>
+    <x>128</x>
+    <y>128</y>
+    <amount>15</amount>
+    <range>128</range>
+    <delay>300</delay>
+  </spawn>
+
+  <spawn>
+    <!--蚂蚁-->
+    <id>14680000</id>
+    <map>22199000</map>
+    <x>180</x>
+    <y>128</y>
+    <amount>20</amount>
+    <range>75</range>
+    <delay>30</delay>
+  </spawn>
+
+  <spawn>
+    <!--蜈蚣-->
+    <id>14640000</id>
+    <map>22199000</map>
+    <x>180</x>
+    <y>128</y>
+    <amount>20</amount>
+    <range>75</range>
+    <delay>10</delay>
+  </spawn>
+
+  <spawn>
+    <!--3F巨人-->
+    <id>14670000</id>
+    <map>22199000</map>
+    <x>180</x>
+    <y>90</y>
+    <amount>7</amount>
+    <range>55</range>
+    <delay>300</delay>
+  </spawn>
+
+  <spawn>
+    <!--木箱12-->
+    <id>30290012</id>
+    <map>22199000</map>
+    <x>128</x>
+    <y>128</y>
+    <amount>5</amount>
+    <range>128</range>
+    <delay>300</delay>
+  </spawn>
+</Spawns>

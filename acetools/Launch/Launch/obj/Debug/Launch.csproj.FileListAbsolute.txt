@@ -1,0 +1,26 @@
+C:\Users\An\Documents\Expression\Blend 4\Projects\Launch\Launch\bin\Debug\Launch.exe
+C:\Users\An\Documents\Expression\Blend 4\Projects\Launch\Launch\bin\Debug\Launch.pdb
+C:\Users\An\Documents\Expression\Blend 4\Projects\Launch\Launch\obj\Debug\MainWindow.baml
+C:\Users\An\Documents\Expression\Blend 4\Projects\Launch\Launch\obj\Debug\MainWindow.g.cs
+C:\Users\An\Documents\Expression\Blend 4\Projects\Launch\Launch\obj\Debug\App.g.cs
+C:\Users\An\Documents\Expression\Blend 4\Projects\Launch\Launch\obj\Debug\Launch_MarkupCompile.cache
+C:\Users\An\Documents\Expression\Blend 4\Projects\Launch\Launch\obj\Debug\Launch.g.resources
+C:\Users\An\Documents\Expression\Blend 4\Projects\Launch\Launch\obj\Debug\Launch.exe
+C:\Users\An\Documents\Expression\Blend 4\Projects\Launch\Launch\obj\Debug\Launch.pdb
+C:\Users\An\Documents\Expression\Blend 4\Projects\Launch\Launch\bin\Debug\bg.png
+C:\Users\An\Desktop\launch\Launch\Launch\bin\Debug\Launch.exe
+C:\Users\An\Desktop\launch\Launch\Launch\bin\Debug\Launch.pdb
+C:\Users\An\Desktop\launch\Launch\Launch\bin\Debug\Launch.exe.config
+C:\Users\An\Desktop\launch\Launch\Launch\bin\Debug\CabLib.dll
+C:\Users\An\Desktop\launch\Launch\Launch\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\An\Desktop\launch\Launch\Launch\bin\Debug\CabLib.13.0.0.0.Fakes.fakesconfig
+C:\Users\An\Desktop\launch\Launch\Launch\obj\Debug\MainWindow.g.cs
+C:\Users\An\Desktop\launch\Launch\Launch\obj\Debug\App.g.cs
+C:\Users\An\Desktop\launch\Launch\Launch\obj\Debug\Launch_MarkupCompile.cache
+C:\Users\An\Desktop\launch\Launch\Launch\obj\Debug\Launch_MarkupCompile.lref
+C:\Users\An\Desktop\launch\Launch\Launch\obj\Debug\MainWindow.baml
+C:\Users\An\Desktop\launch\Launch\Launch\obj\Debug\Launch.g.resources
+C:\Users\An\Desktop\launch\Launch\Launch\obj\Debug\Launch.exe
+C:\Users\An\Desktop\launch\Launch\Launch\obj\Debug\Launch.pdb
+C:\Users\An\Desktop\launch\Launch\Launch\obj\Debug\Launch.csprojFakesResolveAssemblyReference.cache
+C:\Users\An\Desktop\launch\Launch\Launch\obj\Debug\Launch.csprojResolveAssemblyReference.cache

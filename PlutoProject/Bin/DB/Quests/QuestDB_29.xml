@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Flag:0c70-->
+<QuestDB GroupID="29">
+  <Quest>
+    <!--モーグ傭兵団-->
+    <ID>10031600</ID>
+    <Name>守住塔的人(Lv 64)</Name>
+    <Type>HUNT</Type>
+    <Time>360</Time>
+    <RewardItem>0</RewardItem>
+    <RewardCount>0</RewardCount>
+    <RequiredQuestPoints>1</RequiredQuestPoints>
+    <DungeonID>0</DungeonID>
+    <MinLV>64</MinLV>
+    <MaxLv>255</MaxLv>
+    <Job>SWORDMAN</Job>
+    <JobType>NOVICE</JobType>
+    <Race>NONE</Race>
+    <Gender>NONE</Gender>
+    <!--Detail Information-->
+    <!--デバッグ用、ソードマン-->
+    <EXP>10081</EXP>
+    <JEXP>30243</JEXP>
+    <Gold>5200</Gold>
+    <Fame>1</Fame>
+    <MapID1>20146000</MapID1>
+    <MapID2>20152000</MapID2>
+    <ObjectID1>10401000</ObjectID1>
+    <Count1>2</Count1>
+    <ObjectID2>10830100</ObjectID2>
+    <Count2>3</Count2>
+    <Party>True</Party>
+  </Quest>
+  <Quest>
+    <!--モーグ傭兵団-->
+    <ID>10031601</ID>
+    <Name>委屈的眼淚(Lv 64)</Name>
+    <Type>HUNT</Type>
+    <Time>360</Time>
+    <RewardItem>0</RewardItem>
+    <RewardCount>0</RewardCount>
+    <RequiredQuestPoints>1</RequiredQuestPoints>
+    <DungeonID>0</DungeonID>
+    <MinLV>64</MinLV>
+    <MaxLv>255</MaxLv>
+    <Job>FENCER</Job>
+    <JobType>NOVICE</JobType>
+    <Race>NONE</Race>
+    <Gender>NONE</Gender>
+    <!--Detail Information-->
+    <!--デバッグ用、フェンサー-->
+    <EXP>30243</EXP>
+    <JEXP>10081</JEXP>
+    <Gold>5200</Gold>
+    <Fame>1</Fame>
+    <MapID1>20146000</MapID1>
+    <MapID2>20152000</MapID2>
+    <ObjectID1>10110400</ObjectID1>
+    <Count1>2</Count1>
+    <ObjectID2>10410300</ObjectID2>
+    <Count2>2</Count2>
+    <Party>True</Party>
+  </Quest>
+  <Quest>
+    <!--モーグ傭兵団-->
+    <ID>10031602</ID>
+    <Name>飄來飄去的石頭(Lv 64)</Name>
+    <Type>HUNT</Type>
+    <Time>360</Time>
+    <RewardItem>0</RewardItem>
+    <RewardCount>0</RewardCount>
+    <RequiredQuestPoints>1</RequiredQuestPoints>
+    <DungeonID>0</DungeonID>
+    <MinLV>64</MinLV>
+    <MaxLv>255</MaxLv>
+    <Job>SCOUT</Job>
+    <JobType>NOVICE</JobType>
+    <Race>NONE</Race>
+    <Gender>NONE</Gender>
+    <!--Detail Information-->
+    <!--デバッグ用、スカウト-->
+    <EXP>10081</EXP>
+    <JEXP>30243</JEXP>
+    <Gold>5200</Gold>
+    <Fame>1</Fame>
+    <MapID1>20141000</MapID1>
+    <MapID2>20140000</MapID2>
+    <MapID3>20154000</MapID3>
+    <ObjectID1>10871400</ObjectID1>
+    <Count1>2</Count1>
+    <ObjectID2>10810100</ObjectID2>
+    <Count2>3</Count2>
+    <Party>True</Party>
+  </Quest>
+  <Quest>
+    <!--モーグ傭兵団-->
+    <ID>10031603</ID>
+    <Name>靈魂的淨化(Lv 64)</Name>
+    <Type>HUNT</Type>
+    <Time>360</Time>
+    <RewardItem>0</RewardItem>
+    <RewardCount>0</RewardCount>
+    <RequiredQuestPoints>1</RequiredQuestPoints>
+    <DungeonID>0</DungeonID>
+    <MinLV>64</MinLV>
+    <MaxLv>255</MaxLv>
+    <Job>ARCHER</Job>
+    <JobType>NOVICE</JobType>
+    <Race>NONE</Race>
+    <Gender>NONE</Gender>
+    <!--Detail Information-->
+    <!--デバッグ用、アーチャー-->
+    <EXP>30243</EXP>
+    <JEXP>10081</JEXP>
+    <Gold>5200</Gold>
+    <Fame>1</Fame>
+    <MapID1>20146000</MapID1>
+    <ObjectID1>10221000</ObjectID1>
+    <Count1>2</Count1>
+    <ObjectID2>10870700</ObjectID2>
+    <Count2>3</Count2>
+    <Party>True</Party>
+  </Quest>
+</QuestDB>

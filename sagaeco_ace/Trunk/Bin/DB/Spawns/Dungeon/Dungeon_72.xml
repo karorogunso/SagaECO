@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Spawns>
+  <spawn rate="25">
+    <!--オキュペテー-->
+    <id>10930001</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>3</amount>
+    <range>128</range>
+    <delay>30</delay>
+  </spawn>
+  <spawn rate="25">
+    <!--ホログラフＣＤ-->
+    <id>10970002</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>3</amount>
+    <range>128</range>
+    <delay>30</delay>
+  </spawn>
+  <spawn rate="25">
+    <!--ホログラフ-->
+    <id>10970000</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>3</amount>
+    <range>128</range>
+    <delay>30</delay>
+  </spawn>
+  <spawn rate="25">
+    <!--ディトライテス-->
+    <id>10870500</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>3</amount>
+    <range>128</range>
+    <delay>30</delay>
+  </spawn>
+  <spawn rate="100">
+    <!--武器庫守衛-->
+    <id>26040901</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>1</amount>
+    <range>128</range>
+    <delay>0</delay>
+  </spawn>
+</Spawns>

@@ -1,0 +1,12 @@
+G:\Games\SagaECO\Trunk\Bin\SagaValidation.exe.config
+G:\Games\SagaECO\Trunk\Bin\SagaValidation.exe
+G:\Games\SagaECO\Trunk\Bin\SagaValidation.pdb
+G:\Games\SagaECO\Trunk\SagaValidation\obj\Debug\SagaValidation.csprojResolveAssemblyReference.cache
+G:\Games\SagaECO\Trunk\SagaValidation\obj\Debug\SagaValidation.exe
+G:\Games\SagaECO\Trunk\SagaValidation\obj\Debug\SagaValidation.pdb
+G:\svn\brSagaECO\trunk\Bin\SagaValidation.exe.config
+G:\svn\brSagaECO\trunk\Bin\SagaValidation.exe
+G:\svn\brSagaECO\trunk\Bin\SagaValidation.pdb
+G:\svn\brSagaECO\trunk\SagaValidation\obj\Debug\SagaValidation.csprojResolveAssemblyReference.cache
+G:\svn\brSagaECO\trunk\SagaValidation\obj\Debug\SagaValidation.exe
+G:\svn\brSagaECO\trunk\SagaValidation\obj\Debug\SagaValidation.pdb

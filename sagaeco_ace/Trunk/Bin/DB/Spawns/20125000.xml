@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Spawns>
+  <spawn>
+    <!--ドミニオン?アニムス-->
+    <id>10460100</id>
+    <map>20125000</map>
+    <x>21</x>
+    <y>20</y>
+    <amount>4</amount>
+    <range>20</range>
+    <delay>10</delay>
+  </spawn>
+  <spawn>
+    <!--ドミニオン?マリシャス-->
+    <id>10470100</id>
+    <map>20125000</map>
+    <x>21</x>
+    <y>20</y>
+    <amount>2</amount>
+    <range>20</range>
+    <delay>10</delay>
+  </spawn>
+  <spawn>
+    <!--コンテナ５-->
+    <id>30280004</id>
+    <map>20125000</map>
+    <x>21</x>
+    <y>20</y>
+    <amount>1</amount>
+    <range>20</range>
+    <delay>900</delay>
+  </spawn>
+  <spawn>
+    <!--あやしいツボ-->
+    <id>30300001</id>
+    <map>20125000</map>
+    <x>21</x>
+    <y>20</y>
+    <amount>1</amount>
+    <range>20</range>
+    <delay>180</delay>
+  </spawn>
+</Spawns>

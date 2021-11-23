@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DDDDCDA1-0D7C-48F3-A4D1-84219C43E195}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SagaLib</RootNamespace>
+    <AssemblyName>SagaLib</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Bin\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>1591</NoWarn>
+    <DocumentationFile>bin\Debug\SagaLib.XML</DocumentationFile>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Web|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Web\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;Web</DefineConstants>
+    <DocumentationFile>bin\Debug\SagaLib.XML</DocumentationFile>
+    <NoWarn>1591</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BigInteger, Version=1.0.0.0, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Dependecies\BigInteger.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="MySql.Data, Version=5.2.3.0, Culture=neutral, PublicKeyToken=d20ad4e89807db1d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Dependecies\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="NLog">
+      <HintPath>..\Dependecies\NLog.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BitMask_Long.cs" />
+    <Compile Include="BitMask.cs" />
+    <Compile Include="Client.cs" />
+    <Compile Include="ClientMananger.cs" />
+    <Compile Include="Logger.SQLLogger.cs" />
+    <Compile Include="DatabaseWaitress.cs" />
+    <Compile Include="FactoryList.cs" />
+    <Compile Include="FactoryString.cs" />
+    <Compile Include="Factory.cs" />
+    <Compile Include="LoggerIntern.cs" />
+    <Compile Include="MySQLConnectivity.cs" />
+    <Compile Include="Tasks\Registred.cs" />
+    <Compile Include="Tasks\TaskManager.cs" />
+    <Compile Include="Vector2D.cs" />
+    <Compile Include="Encryption.cs" />
+    <Compile Include="Global.cs" />
+    <Compile Include="Logger.cs" />
+    <Compile Include="NetIO.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Singleton.cs" />
+    <Compile Include="Packet.cs" />
+    <Compile Include="Tasks\MultiRunTask.cs" />
+    <Compile Include="Tasks\SingleRunTask.cs" />
+    <Compile Include="VirtualFileSytem\IFileSystem.cs" />
+    <Compile Include="VirtualFileSytem\IFileSystemImp\LPKFileSystem.cs" />
+    <Compile Include="VirtualFileSytem\IFileSystemImp\RealFileSystem.cs" />
+    <Compile Include="VirtualFileSytem\LPK\LpkFile.cs" />
+    <Compile Include="VirtualFileSytem\LPK\LpkFileInfo.cs" />
+    <Compile Include="VirtualFileSytem\LPK\LpkInputStream.cs" />
+    <Compile Include="VirtualFileSytem\LPK\LpkOutputStream.cs" />
+    <Compile Include="VirtualFileSytem\LPK\LZMA\Common\CommandLineParser.cs" />
+    <Compile Include="VirtualFileSytem\LPK\LZMA\Common\CRC.cs" />
+    <Compile Include="VirtualFileSytem\LPK\LZMA\Common\InBuffer.cs" />
+    <Compile Include="VirtualFileSytem\LPK\LZMA\Common\OutBuffer.cs" />
+    <Compile Include="VirtualFileSytem\LPK\LZMA\ICoder.cs" />
+    <Compile Include="VirtualFileSytem\LPK\LZMA\LzmaBase.cs" />
+    <Compile Include="VirtualFileSytem\LPK\LZMA\LzmaDecoder.cs" />
+    <Compile Include="VirtualFileSytem\LPK\LZMA\LzmaEncoder.cs" />
+    <Compile Include="VirtualFileSytem\LPK\LZMA\LzmaHelper.cs" />
+    <Compile Include="VirtualFileSytem\LPK\LZMA\LZ\IMatchFinder.cs" />
+    <Compile Include="VirtualFileSytem\LPK\LZMA\LZ\LzBinTree.cs" />
+    <Compile Include="VirtualFileSytem\LPK\LZMA\LZ\LzInWindow.cs" />
+    <Compile Include="VirtualFileSytem\LPK\LZMA\LZ\LzOutWindow.cs" />
+    <Compile Include="VirtualFileSytem\LPK\LZMA\RangeCoder\RangeCoder.cs" />
+    <Compile Include="VirtualFileSytem\LPK\LZMA\RangeCoder\RangeCoderBit.cs" />
+    <Compile Include="VirtualFileSytem\LPK\LZMA\RangeCoder\RangeCoderBitTree.cs" />
+    <Compile Include="VirtualFileSytem\VirtualFileSystemManager.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TreasureDB>
+  <TreasureList GroupName="GARDENER_0">
+    <Item rate="100" count="1">10005610</Item>
+    <Item rate="50" count="1">10005648</Item>
+  </TreasureList>
+  <TreasureList GroupName="GARDENER_1">
+    <Item rate="100" count="1">10005610</Item>
+    <Item rate="50" count="1">10005648</Item>
+  </TreasureList>
+  <TreasureList GroupName="GARDENER_2">
+    <Item rate="100" count="1">10005648</Item>
+    <Item rate="10" count="10">61011100</Item>
+  </TreasureList>
+  <TreasureList GroupName="TREASURE_SAGA8">
+    <Item rate="1" count="1">10000604</Item>
+  </TreasureList>
+  <TreasureList GroupName="CONTAINER7">
+    <Item rate="1" count="1">10000604</Item>
+  </TreasureList>
+  <TreasureList GroupName="CONTAINER8">
+    <Item rate="1" count="1">10000604</Item>
+  </TreasureList>
+  <TreasureList GroupName="TIMBER_BOX12">
+    <Item rate="5" count="1">10022401</Item>
+    <Item rate="5" count="1">10022402</Item>
+    <Item rate="5" count="1">10022403</Item>
+    <Item rate="5" count="1">10022404</Item>
+    <Item rate="5" count="1">10022405</Item>
+    <Item rate="5" count="1">10022406</Item>
+    <Item rate="5" count="1">10022407</Item>
+    <Item rate="5" count="1">10022408</Item>
+    <Item rate="1" count="1">10022412</Item>
+  </TreasureList>
+</TreasureDB>

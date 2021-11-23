@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ECOFish>
+  <Map>
+    <MapID>10005000</MapID>
+    <FishType>1</FishType>
+    <xS>17</xS>
+    <yS>10</yS>
+    <xE>123</xE>
+    <yE>55</yE>
+  </Map>
+</ECOFish>
+ 

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Spawns>
+  <spawn>
+    <!--機械のかたまり-->
+    <id>30330008</id>
+    <map>50081000</map>
+    <x>19</x>
+    <y>05</y>
+    <amount>1</amount>
+    <range>0</range>
+    <delay>60</delay>
+  </spawn>
+</Spawns>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TreasureDB>
+  <TreasureList GroupName="GOLD_A1">
+    <Item rate="1" count="1">61020400</Item>
+    <Item rate="5" count="1">50071551</Item>
+    <Item rate="9" count="1">50070851</Item>
+    <Item rate="20" count="1">50061601</Item>
+    <Item rate="25" count="1">50061601</Item>
+    <Item rate="30" count="1">50010454</Item>
+    <Item rate="10" count="1">50041705</Item>
+  </TreasureList>
+  <TreasureList GroupName="GOLD_A2">
+    <Item rate="1" count="1">61020409</Item>
+    <Item rate="5" count="1">50071550</Item>
+    <Item rate="9" count="1">50070850</Item>
+    <Item rate="20" count="1">50061609</Item>
+    <Item rate="25" count="1">50061609</Item>
+    <Item rate="30" count="1">50010455</Item>
+    <Item rate="10" count="1">50041707</Item>
+  </TreasureList>
+  <TreasureList GroupName="GOLD_A3">
+    <Item rate="1" count="1">60070900</Item>
+    <Item rate="5" count="1">60051100</Item>
+    <Item rate="9" count="1">60040500</Item>
+    <Item rate="20" count="1">50008900</Item>
+    <Item rate="25" count="1">50009000</Item>
+    <Item rate="30" count="1">50024200</Item>
+    <Item rate="10" count="5">10034104</Item>
+  </TreasureList>
+</TreasureDB>

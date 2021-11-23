@@ -1,0 +1,14 @@
+G:\Games\SagaECO\Trunk\AccountCreator\bin\Debug\SagaAccount.xml
+G:\Games\SagaECO\Trunk\AccountCreator\bin\Debug\AccountCreator.exe.config
+G:\Games\SagaECO\Trunk\AccountCreator\bin\Debug\AccountCreator.exe
+G:\Games\SagaECO\Trunk\AccountCreator\bin\Debug\AccountCreator.pdb
+G:\Games\SagaECO\Trunk\AccountCreator\bin\Debug\MySql.Data.dll
+G:\Games\SagaECO\Trunk\AccountCreator\bin\Debug\SagaLib.dll
+G:\Games\SagaECO\Trunk\AccountCreator\bin\Debug\BigInteger.dll
+G:\Games\SagaECO\Trunk\AccountCreator\bin\Debug\SagaLib.pdb
+G:\Games\SagaECO\Trunk\AccountCreator\obj\Debug\AccountCreator.csprojResolveAssemblyReference.cache
+G:\Games\SagaECO\Trunk\AccountCreator\obj\Debug\AccountCreator.frmMain.resources
+G:\Games\SagaECO\Trunk\AccountCreator\obj\Debug\AccountCreator.Properties.Resources.resources
+G:\Games\SagaECO\Trunk\AccountCreator\obj\Debug\AccountCreator.csproj.GenerateResource.Cache
+G:\Games\SagaECO\Trunk\AccountCreator\obj\Debug\AccountCreator.exe
+G:\Games\SagaECO\Trunk\AccountCreator\obj\Debug\AccountCreator.pdb

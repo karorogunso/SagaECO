@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BC0E63AC-2A4A-45AE-A8A9-C680066BCAEC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SagaDB</RootNamespace>
+    <AssemblyName>SagaDB</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\Bin\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NoWarn>1591</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Web|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Web\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;Web</DefineConstants>
+    <DocumentationFile>bin\Debug\SagaDB.XML</DocumentationFile>
+    <NoWarn>1591</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>prgfile.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <Optimize>true</Optimize>
+    <NoWarn>1591</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Web|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Web\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;Web</DefineConstants>
+    <DocumentationFile>bin\Debug\SagaDB.XML</DocumentationFile>
+    <NoWarn>1591</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.85.4.369, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Dependecies\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=5.1.2.2, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Dependecies\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccessAccountDB.cs" />
+    <Compile Include="AccessActorDb.cs" />
+    <Compile Include="AccessConnectivity.cs" />
+    <Compile Include="Account.cs" />
+    <Compile Include="AccountDB.cs" />
+    <Compile Include="ActorDB.cs" />
+    <Compile Include="Actor\Actor.cs" />
+    <Compile Include="Actor\ActorEventHandler.cs" />
+    <Compile Include="Actor\ActorMob.cs" />
+    <Compile Include="Actor\ActorPC.cs" />
+    <Compile Include="Actor\ActorItem.cs" />
+    <Compile Include="Actor\Addition.cs" />
+    <Compile Include="Actor\Buff.8.cs" />
+    <Compile Include="Actor\Buff.9.cs" />
+    <Compile Include="Actor\Buff.cs" />
+    <Compile Include="Actor\ActorPet.cs" />
+    <Compile Include="Actor\ActorSkill.cs" />
+    <Compile Include="Actor\Buff.1.cs" />
+    <Compile Include="Actor\Buff.2.cs" />
+    <Compile Include="Actor\Buff.3.cs" />
+    <Compile Include="Actor\Buff.5.cs" />
+    <Compile Include="Actor\Buff.4.cs" />
+    <Compile Include="Actor\ActorShadow.cs" />
+    <Compile Include="Actor\ActorEvent.cs" />
+    <Compile Include="Actor\ActorFurniture.cs" />
+    <Compile Include="Actor\ActorGolem.cs" />
+    <Compile Include="Actor\ActorFurnitureUnit.cs" />
+    <Compile Include="Actor\Buff10.cs" />
+    <Compile Include="Actor\Stamp.cs" />
+    <Compile Include="Actor\VariableHolderA.cs" />
+    <Compile Include="Actor\IStats.cs" />
+    <Compile Include="Actor\Status.cs" />
+    <Compile Include="Actor\Enums.cs" />
+    <Compile Include="Actor\VariableHolder.cs" />
+    <Compile Include="Actor\Buff.6.cs" />
+    <Compile Include="Actor\Buff.7.cs" />
+    <Compile Include="BBS\Post.cs" />
+    <Compile Include="Config\SagaLoginConfig.cs" />
+    <Compile Include="DEMIC\Chip.cs" />
+    <Compile Include="DEMIC\ChipFactory.cs" />
+    <Compile Include="DEMIC\ChipShopCategory.cs" />
+    <Compile Include="DEMIC\DEMICPanel.cs" />
+    <Compile Include="DEMIC\ChipShopFactory.cs" />
+    <Compile Include="DEMIC\Model.cs" />
+    <Compile Include="DEMIC\ModelFactory.cs" />
+    <Compile Include="FGandFFarden\FFGarden.cs" />
+    <Compile Include="FictitiousActiors\FictitiousActorsFactory.cs" />
+    <Compile Include="Fish\FishFactory.cs" />
+    <Compile Include="Fish\Fish.cs" />
+    <Compile Include="Iris\AbilityVector.cs" />
+    <Compile Include="Iris\EnumIris.cs" />
+    <Compile Include="Iris\IrisCard.cs" />
+    <Compile Include="Iris\IrisCardFactory.cs" />
+    <Compile Include="Iris\IrisAbilityFactory.cs" />
+    <Compile Include="Item\EquipmentSet.cs" />
+    <Compile Include="Item\EquipmentSetFactory.cs" />
+    <Compile Include="Item\FaceFactory.cs" />
+    <Compile Include="Item\HairFactory.cs" />
+    <Compile Include="Item\Hair.cs" />
+    <Compile Include="LevelLimit\LevelLimit.cs" />
+    <Compile Include="Mob\DropGroupFactory.cs" />
+    <Compile Include="Navi\Navi.cs" />
+    <Compile Include="Navi\NaviFactory.cs" />
+    <Compile Include="ODWar\ODWar.cs" />
+    <Compile Include="ODWar\ODWarFactory.cs" />
+    <Compile Include="ECOShop\ECOShopFactory.cs" />
+    <Compile Include="ECOShop\ShopCategory.cs" />
+    <Compile Include="FGandFFarden\FGGarden.cs" />
+    <Compile Include="Item\Enums.cs" />
+    <Compile Include="Item\Inventory.cs" />
+    <Compile Include="Item\Item.cs" />
+    <Compile Include="Item\ItemFactory.cs" />
+    <Compile Include="KnightWar\KnightWarFactory.cs" />
+    <Compile Include="KnightWar\KnightWar.cs" />
+    <Compile Include="Map\MapInfo.cs" />
+    <Compile Include="Map\MapInfoFactory.cs" />
+    <Compile Include="Map\MapObject.cs" />
+    <Compile Include="Marionette\Marionette.cs" />
+    <Compile Include="Marionette\MarionetteFactory.cs" />
+    <Compile Include="Mob\Enums.cs" />
+    <Compile Include="Mob\MobFactory.cs" />
+    <Compile Include="Mob\Mob.cs" />
+    <Compile Include="MySQLAccountDB.cs" />
+    <Compile Include="MySQLActorDB.cs" />
+    <Compile Include="Npc\Shop.cs" />
+    <Compile Include="Npc\ShopFactory.cs" />
+    <Compile Include="Npc\NPC.cs" />
+    <Compile Include="Npc\NPCFactory.cs" />
+    <Compile Include="Party\Party.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Quests\Quest.cs" />
+    <Compile Include="Quests\QuestType.cs" />
+    <Compile Include="Quests\QuestFactory.cs" />
+    <Compile Include="Ring\RingFameTable.cs" />
+    <Compile Include="Ring\Ring.cs" />
+    <Compile Include="Server\Server.cs" />
+    <Compile Include="Skill\Skill.cs" />
+    <Compile Include="Skill\SkillFactory.cs" />
+    <Compile Include="Synthese\Synthese.cs" />
+    <Compile Include="Synthese\SyntheseFactory.cs" />
+    <Compile Include="Theater\Movie.cs" />
+    <Compile Include="Theater\TheaterFactory.cs" />
+    <Compile Include="Treasure\TreasureFactory.cs" />
+    <Compile Include="Treasure\TreasureList.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SagaLib\SagaLib.csproj">
+      <Project>{DDDDCDA1-0D7C-48F3-A4D1-84219C43E195}</Project>
+      <Name>SagaLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="prgfile.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PreBuildEvent>"$(ProjectDir)\Properties\GenerateAssemblyInfo.bat" "$(ProjectDir)" .\Properties\AssemblyInfo.tpl .\Properties\AssemblyInfo.cs 
+</PreBuildEvent>
+  </PropertyGroup>
+</Project>

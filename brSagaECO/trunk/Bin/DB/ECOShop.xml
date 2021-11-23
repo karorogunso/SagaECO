@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="gbk"?>
+<ECOShop>
+  <Category>
+    <ID>1</ID>
+    <Name>便利道具</Name>
+    <Item>
+      <ID>22000103</ID>
+      <Points>1000</Points>
+      <Comment>用煌逼之精和土豪之汁锻造的氪金之心 -- ECO之心! </Comment>
+    </Item>
+    <Item>
+      <ID>16000300</ID>
+      <Points>100</Points>
+      <Comment>用煌逼之眼和土豪之腿打造的神秘之钥 -- 时空之钥E(Extra)! </Comment>
+    </Item>
+    <Item>
+      <ID>16002600</ID>
+      <Points>1000</Points>
+      <Comment>可以向世界的所有玩家发送消息.但长度有限.$R煌逼的精神深深地折服了我...让我双膝跪地,俯首跪舔.......</Comment>
+    </Item>
+    <Item>
+      <ID>16005602</ID>
+      <Points>10000</Points>
+      <Comment>测试3这样响亮的名字, 一定是超稀有的道具吧!$R可以用来查看并追加10点声望.捆绑消费. </Comment>
+    </Item>
+    <Item>
+      <ID>10057000</ID>
+      <Points>30000</Points>
+      <Comment>重置属性点专用道具, 使用一次进行重置!</Comment>
+    </Item>
+    <Item>
+      <ID>10057001</ID>
+      <Points>30000</Points>
+      <Comment>重置技能点专用道具, 使用一次进行重置!</Comment>
+    </Item>
+  </Category>
+  <!-- 16002600 -->
+  <Category>
+    <ID>2</ID>
+    <Name>套装箱子</Name>
+    <Item>
+      <ID>10066315</ID>
+      <Points>25000</Points>
+      <Comment>名探偵キャスケット$R名探偵ジャケット、名探偵パンツ$R名探偵のチェスボード$R名探偵の新聞紙</Comment>
+    </Item>
+    <Item>
+      <ID>10066312</ID>
+      <Points>25000</Points>
+      <Comment>将軍の眼帯、将軍の服、$R将軍のズボン、将軍のブーツ</Comment>
+    </Item>
+    <Item>
+      <ID>10066316</ID>
+      <Points>25000</Points>
+      <Comment>名探偵キャスケット(フリル)$Rおしゃまな助手のワンピース♀$R変装犬マスク、探偵タイニー,</Comment>
+    </Item>
+    <Item>
+      <ID>10066310</ID>
+      <Points>20000</Points>
+      <Comment>ひまわりの麦わら帽子、$Rサマーニット♂、サマーパンツ♂、$Rガーデニング用長靴</Comment>
+    </Item>
+    <Item>
+      <ID>10066313</ID>
+      <Points>20000</Points>
+      <Comment>わんわんキャップ、$Rわんわんトップス♂、$Rわんわんズボン、わんわんスリッパ</Comment>
+    </Item>
+    <Item>
+      <ID>10066314</ID>
+      <Points>20000</Points>
+      <Comment>わんわんキャップ、$Rわんわんトップス♀、$Rわんわんズボン、わんわんスリッパ</Comment>
+    </Item>
+    <Item>
+      <ID>10066317</ID>
+      <Points>25000</Points>
+      <Comment>冒険者の帽子$R冒険者Ｖネック♀$R冒険者ホットパンツ♀$R冒険者ブーツ$R冒険者ウエストポーチ</Comment>
+    </Item>
+    <Item>
+      <ID>10066318</ID>
+      <Points>25000</Points>
+      <Comment>冒険者の帽子$R冒険者ジャケット♂$R冒険者パンツ、冒険者ブーツ$R冒険者ウエストポーチ</Comment>
+    </Item>
+    <Item>
+      <ID>10066319</ID>
+      <Points>15000</Points>
+      <Comment>パイロットヘルメット$Rパイロットジャケット$Rパイロットパンツ</Comment>
+    </Item>
+    <Item>
+      <ID>10066320</ID>
+      <Points>20000</Points>
+      <Comment>乗馬ヘルメット$R乗馬シャツ（グラブつき）$R乗馬ベスト、乗馬パンツ</Comment>
+    </Item>
+  </Category>
+  <Category>
+    <ID>3</ID>
+    <Name>宠物</Name>
+    <Item>
+      <ID>10061350</ID>
+      <Points>12000</Points>
+      <Comment>ジェントルタイニーの仲間$Rいつも何かの$R大事件の犯人を捜索している</Comment>
+    </Item>
+  </Category>
+  <Category>
+    <ID>4</ID>
+    <Name>食品箱子</Name>
+    <Item>
+      <ID>10066307</ID>
+      <Points>1000</Points>
+      <Comment>大人の回復ECO缶 20個</Comment>
+    </Item>
+    <Item>
+      <ID>10066308</ID>
+      <Points>1000</Points>
+      <Comment>大人の回復ECO缶 20個</Comment>
+    </Item>
+  </Category>
+</ECOShop>
+ 

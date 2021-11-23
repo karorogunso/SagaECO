@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Spawns>
+  <spawn rate="14">
+    <!--キラーマシーン-->
+    <id>10800000</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>2</amount>
+    <range>128</range>
+    <delay>5</delay>
+  </spawn>
+  <spawn rate="14">
+    <!--ウェンディー-->
+    <id>10860017</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>2</amount>
+    <range>128</range>
+    <delay>5</delay>
+  </spawn>
+  <spawn rate="14">
+    <!--リリカル-->
+    <id>10860010</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>2</amount>
+    <range>128</range>
+    <delay>5</delay>
+  </spawn>
+  <spawn rate="14">
+    <!--ギガントＳ６-->
+    <id>10830000</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>2</amount>
+    <range>128</range>
+    <delay>5</delay>
+  </spawn>
+  <spawn rate="14">
+    <!--フォックハウンドＳ５-->
+    <id>10820000</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>2</amount>
+    <range>128</range>
+    <delay>5</delay>
+  </spawn>
+  <spawn rate="14">
+    <!--フォックストロットＳ５-->
+    <id>10810000</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>2</amount>
+    <range>128</range>
+    <delay>5</delay>
+  </spawn>
+  <spawn rate="14">
+    <!--アンブレラ-->
+    <id>10860000</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>2</amount>
+    <range>128</range>
+    <delay>5</delay>
+  </spawn>
+  <spawn rate="100">
+    <!--ガッテンガーΣ-->
+    <id>10850000</id>
+    <x>90</x>
+    <y>90</y>
+    <amount>2</amount>
+    <range>10</range>
+    <delay>0</delay>
+  </spawn>
+</Spawns>

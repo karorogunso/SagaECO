@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Spawns>
+  <spawn>
+    <!--スカイレイダー　               LV73-->
+    <id>10401000</id>
+    <map>20154000</map>
+    <x>32</x>
+    <y>25</y>
+    <amount>2</amount>
+    <range>16</range>
+    <delay>10</delay>
+  </spawn>
+  <spawn>
+    <!--エクトプラズム　               LV74-->
+    <id>10221000</id>
+    <map>20154000</map>
+    <x>32</x>
+    <y>25</y>
+    <amount>3</amount>
+    <range>16</range>
+    <delay>10</delay>
+  </spawn>
+  <spawn>
+    <!--コダマー　                       LV78-->
+    <id>26061000</id>
+    <map>20154000</map>
+    <x>32</x>
+    <y>25</y>
+    <amount>1</amount>
+    <range>16</range>
+    <delay>10</delay>
+  </spawn>
+  <spawn>
+    <!--コダマー　                       LV78-->
+    <id>26061000</id>
+    <map>20154000</map>
+    <x>32</x>
+    <y>25</y>
+    <amount>1</amount>
+    <range>16</range>
+    <delay>180</delay>
+  </spawn>
+  <spawn>
+    <!--コダマー　                       LV78-->
+    <id>26061000</id>
+    <map>20154000</map>
+    <x>32</x>
+    <y>25</y>
+    <amount>1</amount>
+    <range>16</range>
+    <delay>240</delay>
+  </spawn>
+  <spawn>
+    <!--クリスタルアーチン　白　     LV76-->
+    <id>10871400</id>
+    <map>20154000</map>
+    <x>32</x>
+    <y>25</y>
+    <amount>1</amount>
+    <range>16</range>
+    <delay>10</delay>
+  </spawn>
+  <spawn>
+    <!--宝箱１３-->
+    <id>30270013</id>
+    <map>20154000</map>
+    <x>32</x>
+    <y>25</y>
+    <amount>1</amount>
+    <range>16</range>
+    <delay>1920</delay>
+  </spawn>
+  <spawn>
+    <!--木箱８-->
+    <id>30290008</id>
+    <map>20154000</map>
+    <x>32</x>
+    <y>25</y>
+    <amount>1</amount>
+    <range>16</range>
+    <delay>1800</delay>
+  </spawn>
+</Spawns>

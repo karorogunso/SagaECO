@@ -1,0 +1,12 @@
+G:\Games\SagaECO\Trunk\SagaMap\obj\Debug\SagaMap.csprojResolveAssemblyReference.cache
+G:\Games\SagaECO\Trunk\Bin\SagaMap.exe.config
+G:\Games\SagaECO\Trunk\Bin\SagaMap.exe
+G:\Games\SagaECO\Trunk\Bin\SagaMap.pdb
+G:\Games\SagaECO\Trunk\SagaMap\obj\Debug\SagaMap.exe
+G:\Games\SagaECO\Trunk\SagaMap\obj\Debug\SagaMap.pdb
+G:\svn\brSagaECO\trunk\Bin\SagaMap.exe.config
+G:\svn\brSagaECO\trunk\Bin\SagaMap.exe
+G:\svn\brSagaECO\trunk\Bin\SagaMap.pdb
+G:\svn\brSagaECO\trunk\SagaMap\obj\Debug\SagaMap.csprojResolveAssemblyReference.cache
+G:\svn\brSagaECO\trunk\SagaMap\obj\Debug\SagaMap.exe
+G:\svn\brSagaECO\trunk\SagaMap\obj\Debug\SagaMap.pdb

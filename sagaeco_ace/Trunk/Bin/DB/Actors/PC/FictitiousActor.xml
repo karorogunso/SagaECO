@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Actors>
+  <Actor Type="PC">
+    <MapID>10023000</MapID>
+    <x>127</x>
+    <y>105</y>
+    <dir>0</dir>
+    <Name>立花千寻</Name>
+    <Race>0</Race>
+    <Form>1</Form>
+    <Gender>1</Gender>
+    <HairStyle>1</HairStyle>
+    <HairColor>10</HairColor>
+    <Wig>1</Wig>
+    <Face>131</Face>
+    <TailStyle>0</TailStyle>
+    <WingStyle>0</WingStyle>
+    <WingColor>0</WingColor>
+    <HEAD_ACCE>50125803</HEAD_ACCE>
+    <FACE_ACCE>50133003</FACE_ACCE>
+    <CHEST_ACCE>50054504</CHEST_ACCE>
+    <UPPER_BODY>60007703</UPPER_BODY>
+    <LOWER_BODY>50238503</LOWER_BODY>
+    <BACK>50073500</BACK>
+    <RIGHT_HAND>60012000</RIGHT_HAND>
+    <LEFT_HAND>60032904</LEFT_HAND>
+    <SHOES>50238503</SHOES>
+    <SOCKS>0</SOCKS>
+    <PET>0</PET>
+    <EFFECT>0</EFFECT>
+  </Actor>
+  <Actor Type="PC">
+    <MapID>10023000</MapID>
+    <x>130</x>
+    <y>105</y>
+    <dir>0</dir>
+    <Name>宫村时雨</Name>
+    <Race>0</Race>
+    <Form>1</Form>
+    <Gender>1</Gender>
+    <HairStyle>1</HairStyle>
+    <HairColor>10</HairColor>
+    <Wig>1</Wig>
+    <Face>131</Face>
+    <TailStyle>0</TailStyle>
+    <WingStyle>0</WingStyle>
+    <WingColor>0</WingColor>
+    <HEAD_ACCE>50125803</HEAD_ACCE>
+    <FACE_ACCE>50133003</FACE_ACCE>
+    <CHEST_ACCE>50054504</CHEST_ACCE>
+    <UPPER_BODY>60007703</UPPER_BODY>
+    <LOWER_BODY>50238503</LOWER_BODY>
+    <BACK>50073500</BACK>
+    <RIGHT_HAND>60012000</RIGHT_HAND>
+    <LEFT_HAND>60032904</LEFT_HAND>
+    <SHOES>50238503</SHOES>
+    <SOCKS>0</SOCKS>
+    <PET>0</PET>
+    <EFFECT>0</EFFECT>
+  </Actor>
+</Actors>

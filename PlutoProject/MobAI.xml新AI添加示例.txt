@@ -1,0 +1,10 @@
+  <Mob>
+    <!--皮露露实验体-->
+    <ID>10000000</ID>
+    <habit>被动</habit>
+    <habit>跟随</habit>
+    <!--<habit>混乱</habit>-->
+    <size>70</size>
+  </Mob>
+
+召唤PLL请使用!mob 10000000

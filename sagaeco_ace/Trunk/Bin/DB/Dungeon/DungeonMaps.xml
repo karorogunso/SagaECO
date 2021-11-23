@@ -1,0 +1,407 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DungeonMaps>
+  <Map>
+    <ID>60000000</ID>
+    <Type>Start</Type>
+    <Theme>Normal</Theme>
+    <Gate type="Entrance" x="25" y="24">0</Gate>
+    <Gate type="East" x="41" y="24">12001569</Gate>
+    <Gate type="West" x="9" y="24">12001570</Gate>
+    <Gate type="South" x="25" y="40">12001571</Gate>
+    <Gate type="North" x="25" y="8">12001572</Gate>
+    <Gate type="Central" x="25" y="24">0</Gate>
+    <Gate type="Exit" x="25" y="24">0</Gate>
+  </Map>
+  <Map>
+    <ID>60001000</ID>
+    <Type>Start</Type>
+    <Theme>Maimai</Theme>
+    <Gate type="Entrance" x="26" y="25">0</Gate>
+    <Gate type="East" x="46" y="25">0</Gate>
+    <Gate type="West" x="6" y="25">0</Gate>
+    <Gate type="South" x="26" y="45">0</Gate>
+    <Gate type="North" x="26" y="5">0</Gate>
+    <Gate type="Central" x="25" y="24">0</Gate>
+    <Gate type="Exit" x="25" y="24">0</Gate>
+  </Map>
+  <Map>
+    <ID>60900000</ID>
+    <Type>Start</Type>
+    <Theme>Normal</Theme>
+    <Gate type="Entrance" x="168" y="32">0</Gate>
+    <Gate type="Exit" x="114" y="73">0</Gate>
+  </Map>
+  <Map>
+    <ID>60901000</ID>
+    <Type>Start</Type>
+    <Theme>Normal</Theme>
+    <Gate type="Entrance" x="127" y="155">0</Gate>
+    <Gate type="Exit" x="127" y="155">0</Gate>
+  </Map>
+  <Map>
+    <ID>60902000</ID>
+    <Type>Start</Type>
+    <Theme>Normal</Theme>
+    <Gate type="Entrance" x="16" y="5">0</Gate>
+    <Gate type="Exit" x="16" y="31">0</Gate>
+  </Map>
+  <Map>
+    <ID>60903000</ID>
+    <Type>Start</Type>
+    <Theme>Normal</Theme>
+    <Gate type="Entrance" x="114" y="253">0</Gate>
+    <Gate type="Exit" x="93" y="2">0</Gate>
+  </Map>
+  <Map>
+    <ID>61000000</ID>
+    <Type>End</Type>
+    <Theme>Normal</Theme>
+    <Gate type="East" x="165" y="88">12001565</Gate>
+    <Gate type="West" x="13" y="89">12001566</Gate>
+    <Gate type="South" x="89" y="165">12001567</Gate>
+    <Gate type="North" x="89" y="13">12001568</Gate>
+    <Gate type="Central" x="89" y="89">0</Gate>
+    <Gate type="Exit" x="89" y="89">0</Gate>
+  </Map>
+  <Map>
+    <ID>61004000</ID>
+    <Type>End</Type>
+    <Theme>Maimai</Theme>
+    <Gate type="East" x="151" y="79">12001565</Gate>
+    <Gate type="West" x="9" y="79">12001566</Gate>
+    <Gate type="South" x="80" y="150">12001567</Gate>
+    <Gate type="North" x="80" y="8">12001568</Gate>
+    <Gate type="Central" x="89" y="79">0</Gate>
+    <Gate type="Exit" x="89" y="79">0</Gate>
+  </Map>
+  <Map>
+    <ID>62000000</ID>
+    <Type>Room</Type>
+    <Theme>Normal</Theme>
+    <Gate type="East" x="58" y="31">12001535</Gate>
+    <Gate type="West" x="6" y="31">12001536</Gate>
+    <Gate type="South" x="32" y="57">12001537</Gate>
+    <Gate type="North" x="32" y="5">12001538</Gate>
+  </Map>
+  <Map>
+    <ID>62001000</ID>
+    <Type>Cross</Type>
+    <Theme>Normal</Theme>
+    <Gate type="East" x="89" y="47">12001539</Gate>
+    <Gate type="West" x="7" y="47">12001540</Gate>
+    <Gate type="South" x="48" y="88">12001541</Gate>
+    <Gate type="North" x="48" y="6">12001542</Gate>
+    <Gate type="Central" x="55" y="55">0</Gate>
+  </Map>
+  <Map>
+    <ID>62002000</ID>
+    <Type>End</Type>
+    <Theme>Maimai</Theme>
+    <Gate type="East" x="87" y="47">0</Gate>
+    <Gate type="West" x="9" y="47">0</Gate>
+    <Gate type="South" x="48" y="86">0</Gate>
+    <Gate type="North" x="48" y="8">0</Gate>
+    <Gate type="Central" x="48" y="47">0</Gate>
+    <Gate type="Exit" x="48" y="47">0</Gate>
+  </Map>
+  <Map>
+    <ID>62003000</ID>
+    <Type>End</Type>
+    <Theme>Maimai</Theme>
+    <Gate type="East" x="103" y="55">0</Gate>
+    <Gate type="West" x="9" y="55">0</Gate>
+    <Gate type="South" x="56" y="102">0</Gate>
+    <Gate type="North" x="56" y="8">0</Gate>
+    <Gate type="Central" x="56" y="55">0</Gate>
+    <Gate type="Exit" x="56" y="23">0</Gate>
+  </Map>
+  <Map>
+    <ID>63000000</ID>
+    <Type>Room</Type>
+    <Theme>Normal</Theme>
+    <Gate type="East" x="75" y="31">12001511</Gate>
+    <Gate type="West" x="11" y="31">12001512</Gate>
+    <Gate type="South" x="43" y="55">12001513</Gate>
+    <Gate type="North" x="43" y="7">12001514</Gate>
+    <Gate type="Central" x="43" y="31">0</Gate>
+  </Map>
+  <Map>
+    <ID>63001000</ID>
+    <Type>Room</Type>
+    <Theme>Normal</Theme>
+    <Gate type="East" x="56" y="31">12001515</Gate>
+    <Gate type="West" x="8" y="31">12001516</Gate>
+    <Gate type="South" x="32" y="55">12001517</Gate>
+    <Gate type="North" x="32" y="7">12001518</Gate>
+    <Gate type="Central" x="32" y="31">0</Gate>
+  </Map>
+  <Map>
+    <ID>63002000</ID>
+    <Type>Room</Type>
+    <Theme>Normal</Theme>
+    <Gate type="East" x="38" y="21">12001519</Gate>
+    <Gate type="West" x="6" y="21">12001520</Gate>
+    <Gate type="South" x="22" y="37">12001521</Gate>
+    <Gate type="North" x="22" y="5">12001522</Gate>
+    <Gate type="Central" x="22" y="21">0</Gate>
+  </Map>
+  <Map>
+    <ID>63003000</ID>
+    <Type>Room</Type>
+    <Theme>Normal</Theme>
+    <Gate type="East" x="58" y="44">12001523</Gate>
+    <Gate type="West" x="6" y="44">12001524</Gate>
+    <Gate type="South" x="32" y="84">12001525</Gate>
+    <Gate type="North" x="32" y="4">12001526</Gate>
+    <Gate type="Central" x="32" y="44">0</Gate>
+  </Map>
+  <Map>
+    <ID>63004000</ID>
+    <Type>Room</Type>
+    <Theme>Normal</Theme>
+    <Gate type="East" x="50" y="32">12001527</Gate>
+    <Gate type="West" x="6" y="32">12001528</Gate>
+    <Gate type="South" x="28" y="61">12001529</Gate>
+    <Gate type="North" x="28" y="3">12001530</Gate>
+    <Gate type="Central" x="28" y="32">0</Gate>
+  </Map>
+  <Map>
+    <ID>63005000</ID>
+    <Type>Cross</Type>
+    <Theme>Normal</Theme>
+    <Gate type="East" x="72" y="39">12001531</Gate>
+    <Gate type="West" x="8" y="39">12001532</Gate>
+    <Gate type="South" x="40" y="71">12001533</Gate>
+    <Gate type="North" x="40" y="7">12001534</Gate>
+    <Gate type="Central" x="40" y="39">0</Gate>
+  </Map>
+  <Map>
+    <ID>63006000</ID>
+    <Type>Room</Type>
+    <Theme>Maimai</Theme>
+    <Gate type="East" x="70" y="39">0</Gate>
+    <Gate type="West" x="10" y="39">0</Gate>
+    <Gate type="South" x="40" y="69">0</Gate>
+    <Gate type="North" x="40" y="9">0</Gate>
+    <Gate type="Central" x="40" y="39">0</Gate>
+  </Map>
+  <Map>
+    <ID>63007000</ID>
+    <Type>Room</Type>
+    <Theme>Maimai</Theme>
+    <Gate type="East" x="50" y="27">0</Gate>
+    <Gate type="West" x="6" y="27">0</Gate>
+    <Gate type="South" x="28" y="49">0</Gate>
+    <Gate type="North" x="28" y="5">0</Gate>
+    <Gate type="Central" x="28" y="27">0</Gate>
+  </Map>
+  <Map>
+    <ID>63008000</ID>
+    <Type>Room</Type>
+    <Theme>Maimai</Theme>
+    <Gate type="East" x="35" y="19">0</Gate>
+    <Gate type="West" x="5" y="19">0</Gate>
+    <Gate type="South" x="20" y="34">0</Gate>
+    <Gate type="North" x="20" y="4">0</Gate>
+    <Gate type="Central" x="20" y="19">0</Gate>
+  </Map>
+  <Map>
+    <ID>64000000</ID>
+    <Type>Floor</Type>
+    <Theme>Normal</Theme>
+    <Gate type="South" x="12" y="76">12001543</Gate>
+    <Gate type="North" x="12" y="2">12001544</Gate>
+    <Gate type="Central" x="12" y="37">0</Gate>
+  </Map>
+  <Map>
+    <ID>64001000</ID>
+    <Type>Floor</Type>
+    <Theme>Normal</Theme>
+    <Gate type="South" x="12" y="44">12001545</Gate>
+    <Gate type="North" x="12" y="6">12001546</Gate>
+    <Gate type="Central" x="12" y="26">0</Gate>
+  </Map>
+  <Map>
+    <ID>64002000</ID>
+    <Type>Floor</Type>
+    <Theme>Normal</Theme>
+    <Gate type="East" x="49" y="10">12001547</Gate>
+    <Gate type="South" x="12" y="47">12001548</Gate>
+    <Gate type="Central" x="12" y="10">0</Gate>
+  </Map>
+  <Map>
+    <ID>64003000</ID>
+    <Type>Floor</Type>
+    <Theme>Normal</Theme>
+    <Gate type="West" x="6" y="8">12001549</Gate>
+    <Gate type="South" x="43" y="45">12001550</Gate>
+    <Gate type="Central" x="43" y="8">0</Gate>
+  </Map>
+  <Map>
+    <ID>64004000</ID>
+    <Type>Cross</Type>
+    <Theme>Normal</Theme>
+    <Gate type="East" x="77" y="12">12001551</Gate>
+    <Gate type="West" x="3" y="12">12001552</Gate>
+    <Gate type="South" x="40" y="49">12001553</Gate>
+    <Gate type="Central" x="40" y="12">0</Gate>
+  </Map>
+  <Map>
+    <ID>64005000</ID>
+    <Type>Cross</Type>
+    <Theme>Normal</Theme>
+    <Gate type="East" x="65" y="12">12001554</Gate>
+    <Gate type="West" x="11" y="12">12001555</Gate>
+    <Gate type="South" x="38" y="71">12001556</Gate>
+    <Gate type="Central" x="38" y="38">0</Gate>
+  </Map>
+  <Map>
+    <Type>Cross</Type>
+    <Theme>Normal</Theme>
+    <ID>64006000</ID>
+    <Gate type="East" x="79" y="41">12001557</Gate>
+    <Gate type="West" x="5" y="41">12001558</Gate>
+    <Gate type="South" x="42" y="78">12001559</Gate>
+    <Gate type="North" x="42" y="4">12001560</Gate>
+    <Gate type="Central" x="42" y="41">0</Gate>
+  </Map>
+  <Map>
+    <ID>64007000</ID>
+    <Type>Cross</Type>
+    <Theme>Normal</Theme>
+    <Gate type="East" x="129" y="68">12001561</Gate>
+    <Gate type="West" x="7" y="68">12001562</Gate>
+    <Gate type="South" x="68" y="129">12001563</Gate>
+    <Gate type="North" x="68" y="7">12001564</Gate>
+    <Gate type="Central" x="68" y="68">0</Gate>
+  </Map>
+  <Map>
+    <ID>64008000</ID>
+    <Type>Floor</Type>
+    <Theme>Maimai</Theme>
+    <Gate type="South" x="8" y="77">0</Gate>
+    <Gate type="North" x="8" y="17">0</Gate>
+    <Gate type="Central" x="8" y="47">0</Gate>
+  </Map>
+  <Map>
+    <ID>64009000</ID>
+    <Type>Floor</Type>
+    <Theme>Maimai</Theme>
+    <Gate type="East" x="86" y="45">0</Gate>
+    <Gate type="South" x="46" y="85">0</Gate>
+    <Gate type="Central" x="58" y="57">0</Gate>
+  </Map>
+  <Map>
+    <ID>64010000</ID>
+    <Type>Floor</Type>
+    <Theme>Maimai</Theme>
+    <Gate type="West" x="41" y="45">0</Gate>
+    <Gate type="South" x="81" y="85">0</Gate>
+    <Gate type="Central" x="70" y="58">0</Gate>
+  </Map>
+  <Map>
+    <ID>64011000</ID>
+    <Type>Cross</Type>
+    <Theme>Maimai</Theme>
+    <Gate type="East" x="82" y="15">0</Gate>
+    <Gate type="West" x="6" y="15">0</Gate>
+    <Gate type="South" x="44" y="53">0</Gate>
+    <Gate type="Central" x="44" y="15">0</Gate>
+  </Map>
+  <Map>
+    <ID>64012000</ID>
+    <Type>Cross</Type>
+    <Theme>Maimai</Theme>
+    <Gate type="East" x="82" y="43">0</Gate>
+    <Gate type="West" x="6" y="43">0</Gate>
+    <Gate type="South" x="44" y="81">0</Gate>
+    <Gate type="North" x="44" y="5">0</Gate>
+    <Gate type="Central" x="44" y="43">0</Gate>
+  </Map>
+  <Map>
+    <ID>60002000</ID>
+    <Type>Start</Type>
+    <Theme>Yard</Theme>
+    <Gate type="Entrance" x="32" y="31">13000001</Gate>
+    <Gate type="East" x="54" y="31">13000002</Gate>
+    <Gate type="West" x="9" y="31">13000003</Gate>
+    <Gate type="South" x="31" y="54">13000004</Gate>
+    <Gate type="North" x="32" y="8">13000005</Gate>
+    <Gate type="Central" x="32" y="31">0</Gate>
+    <Gate type="Exit" x="25" y="24">0</Gate>
+  </Map>
+  <Map>
+    <ID>63009000</ID>
+    <Type>Cross</Type>
+    <Theme>Yard</Theme>
+    <Gate type="East" x="37" y="23">13000006</Gate>
+    <Gate type="West" x="11" y="24">13000007</Gate>
+    <Gate type="South" x="23" y="36">13000008</Gate>
+    <Gate type="North" x="24" y="10">13000009</Gate>
+    <Gate type="Central" x="22" y="22">0</Gate>
+  </Map>
+  <Map>
+    <ID>63010000</ID>
+    <Type>Cross</Type>
+    <Theme>Yard</Theme>
+    <Gate type="East" x="40" y="23">13000010</Gate>
+    <Gate type="West" x="8" y="24">13000011</Gate>
+    <Gate type="South" x="24" y="39">13000012</Gate>
+    <Gate type="North" x="23" y="7">13000013</Gate>
+    <Gate type="Central" x="24" y="23">0</Gate>
+  </Map>
+  <Map>
+    <ID>63011000</ID>
+    <Type>Room</Type>
+    <Theme>Yard</Theme>
+    <Gate type="East" x="206" y="104">13000014</Gate>
+    <Gate type="West" x="50" y="152">13000015</Gate>
+    <Gate type="South" x="163" y="205">13000016</Gate>
+    <Gate type="North" x="92" y="49">13000017</Gate>
+    <Gate type="Central" x="132" y="135">0</Gate>
+  </Map>
+  <Map>
+    <ID>64013000</ID>
+    <Type>Floor</Type>
+    <Theme>Yard</Theme>
+    <Gate type="South" x="31" y="77">13000018</Gate>
+    <Gate type="North" x="33" y="7">13000019</Gate>
+    <Gate type="Central" x="32" y="42">0</Gate>
+  </Map>
+  <Map>
+    <ID>64014000</ID>
+    <Type>Floor</Type>
+    <Theme>Yard</Theme>
+    <Gate type="East" x="104" y="62">13000020</Gate>
+    <Gate type="South" x="62" y="103">13000021</Gate>
+    <Gate type="Central" x="65" y="62">0</Gate>
+  </Map>
+  <Map>
+    <ID>64015000</ID>
+    <Type>Floor</Type>
+    <Theme>Yard</Theme>
+    <Gate type="West" x="24" y="63">13000022</Gate>
+    <Gate type="South" x="63" y="103">13000023</Gate>
+    <Gate type="Central" x="64" y="63">0</Gate>
+  </Map>
+  <Map>
+    <ID>64016000</ID>
+    <Type>Floor</Type>
+    <Theme>Yard</Theme>
+    <Gate type="West" x="27" y="62">13000024</Gate>
+    <Gate type="South" x="65" y="103">13000025</Gate>
+    <Gate type="East" x="104" y="62">13000026</Gate>
+    <Gate type="Central" x="64" y="62">0</Gate>
+  </Map>
+  <Map>
+    <ID>61001000</ID>
+    <Type>End</Type>
+    <Theme>Yard</Theme>
+    <Gate type="East" x="69" y="35">13000031</Gate>
+    <Gate type="West" x="4" y="35">13000032</Gate>
+    <Gate type="South" x="36" y="67">13000033</Gate>
+    <Gate type="North" x="36" y="1">13000034</Gate>
+    <Gate type="Central" x="35" y="35">0</Gate>
+    <Gate type="Exit" x="35" y="35">0</Gate>
+  </Map>
+</DungeonMaps>

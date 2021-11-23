@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Flag:1c03-->
+<QuestDB GroupID="72">
+  <Quest>
+    <!--カフェ専用-->
+    <ID>26510002</ID>
+    <Name>武器库大门</Name>
+    <Type>HUNT</Type>
+    <Time>120</Time>
+    <RewardItem>10021600</RewardItem>
+    <RewardCount>1</RewardCount>
+    <RequiredQuestPoints>1</RequiredQuestPoints>
+    <DungeonID>90</DungeonID>
+    <MinLV>80</MinLV>
+    <MaxLv>255</MaxLv>
+    <EXP>1000</EXP>
+    <JEXP>1000</JEXP>
+    <Gold>1000</Gold>
+    <Fame>1</Fame>
+    <ObjectID1>26040901</ObjectID1>
+    <Count1>1</Count1>
+    <Party>True</Party>
+  </Quest>
+</QuestDB>

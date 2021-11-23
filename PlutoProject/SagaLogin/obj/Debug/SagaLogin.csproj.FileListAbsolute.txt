@@ -1,0 +1,12 @@
+F:\COFECO\SagaECO\SagaLogin\obj\Debug\SagaLogin.csprojResolveAssemblyReference.cache
+F:\COFECO\SagaECO\Bin\SagaLogin.exe.config
+F:\COFECO\SagaECO\Bin\SagaLogin.exe
+F:\COFECO\SagaECO\Bin\SagaLogin.pdb
+F:\COFECO\SagaECO\SagaLogin\obj\Debug\SagaLogin.exe
+F:\COFECO\SagaECO\SagaLogin\obj\Debug\SagaLogin.pdb
+F:\ECOAceProject\SagaECONewClient\SagaLogin\obj\Debug\SagaLogin.exe
+F:\ECOAceProject\SagaECONewClient\SagaLogin\obj\Debug\SagaLogin.pdb
+F:\ECOAceProject\SagaECONewClient\Bin\SagaLogin.exe.config
+F:\ECOAceProject\SagaECONewClient\Bin\SagaLogin.exe
+F:\ECOAceProject\SagaECONewClient\Bin\SagaLogin.pdb
+F:\ECOAceProject\SagaECONewClient\SagaLogin\obj\Debug\SagaLogin.csprojResolveAssemblyReference.cache

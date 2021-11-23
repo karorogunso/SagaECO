@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<SagaAccount>
+
+  <dbhost>127.0.0.1</dbhost>
+  
+  <!-- database name for SQL -->
+  <dbname>sagaeco</dbname>
+
+  <!-- port for databaser server(SQL or db4o) -->
+  <dbport>3306</dbport>
+
+  <!-- 
+            Info = 1,
+            Warning = 2,
+            Error = 4,
+            SQL = 8,
+            Debug = 16       
+  -->
+
+  <dbuser>kanade</dbuser>
+  <dbpass>louis9703</dbpass>
+  
+</SagaAccount>

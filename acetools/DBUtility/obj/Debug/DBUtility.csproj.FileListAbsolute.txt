@@ -1,0 +1,13 @@
+C:\Saga\SagaECO\Tools\DBUtility\bin\Debug\DBUtility.exe.config
+C:\Saga\SagaECO\Tools\DBUtility\bin\Debug\DBUtility.exe
+C:\Saga\SagaECO\Tools\DBUtility\bin\Debug\DBUtility.pdb
+C:\Saga\SagaECO\Tools\DBUtility\bin\Debug\zh-CHS\DBUtility.resources.dll
+C:\Saga\SagaECO\Tools\DBUtility\obj\Debug\ResolveAssemblyReference.cache
+C:\Saga\SagaECO\Tools\DBUtility\obj\Debug\DBUtility.Form1.resources
+C:\Saga\SagaECO\Tools\DBUtility\obj\Debug\DBUtility.Properties.Resources.resources
+C:\Saga\SagaECO\Tools\DBUtility\obj\Debug\DBUtility.Form1.zh-CHS.resources
+C:\Saga\SagaECO\Tools\DBUtility\obj\Debug\GenerateResource.read.1.tlog
+C:\Saga\SagaECO\Tools\DBUtility\obj\Debug\GenerateResource.write.1.tlog
+C:\Saga\SagaECO\Tools\DBUtility\obj\Debug\zh-CHS\DBUtility.resources.dll
+C:\Saga\SagaECO\Tools\DBUtility\obj\Debug\DBUtility.exe
+C:\Saga\SagaECO\Tools\DBUtility\obj\Debug\DBUtility.pdb

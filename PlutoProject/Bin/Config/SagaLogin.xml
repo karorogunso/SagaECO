@@ -1,0 +1,301 @@
+﻿<?xml version="1.0"?>
+<SagaLogin>
+  <Port>12000</Port>
+
+  <!-- address of Mysql server or Path to Save for dat implementation-->
+  <dbhost>127.0.0.1</dbhost>
+  
+  <!-- database name for SQL -->
+  <dbname>sagaeco</dbname>
+
+  <!-- port for databaser server(SQL or db4o) -->
+  <dbport>3306</dbport>
+
+  <!-- 
+            Info = 1,
+            Warning = 2,
+            Error = 4,
+            SQL = 8,
+            Debug = 16       
+  -->
+  <LogLevel>31</LogLevel>
+
+  <dbuser>root</dbuser>
+  <dbpass>123456</dbpass>
+
+  <!-- Password used for verify the connection from mapserver -->
+
+  <Password>saga</Password>
+  <!-- Packet protocoll Version -->
+  <Version>Saga17</Version>
+
+  <!--
+  MYSQL = 0
+  ACCESS = 1
+  -->  
+  <DBType>0</DBType>
+  
+  <dbEncoding>utf-8</dbEncoding>
+
+  <StartStatus race="Emil">
+    <STR>8</STR>
+    <DEX>3</DEX>
+    <INT>3</INT>
+    <VIT>10</VIT>
+    <AGI>4</AGI>
+    <MAG>3</MAG>
+    <StartMap>30204000</StartMap>
+    <StartX>15</StartX>
+    <StartY>16</StartY>
+  </StartStatus>
+
+  <StartStatus race="Titania">
+    <STR>6</STR>
+    <DEX>3</DEX>
+    <INT>6</INT>
+    <VIT>4</VIT>
+    <AGI>2</AGI>
+    <MAG>10</MAG>
+    <StartMap>30204000</StartMap>
+    <StartX>15</StartX>
+    <StartY>16</StartY>
+  </StartStatus>
+
+  <StartStatus race="Dominion">
+    <STR>10</STR>
+    <DEX>5</DEX>
+    <INT>1</INT>
+    <VIT>1</VIT>
+    <AGI>5</AGI>
+    <MAG>8</MAG>
+    <StartMap>30204000</StartMap>
+    <StartX>15</StartX>
+    <StartY>16</StartY>
+  </StartStatus>
+
+  <StartStatus race="DEM">
+    <STR>5</STR>
+    <DEX>5</DEX>
+    <INT>5</INT>
+    <VIT>5</VIT>
+    <AGI>5</AGI>
+    <MAG>5</MAG>
+    <StartMap>30203003</StartMap>
+    <StartX>13</StartX>
+    <StartY>15</StartY>
+  </StartStatus>
+
+<StartItem race="Emil" gender="Female">
+    <Item>
+      <ItemID>50000055</ItemID>
+      <Slot>UPPER_BODY</Slot>
+      <Count>1</Count>
+    </Item>
+    <Item>
+      <ItemID>50010300</ItemID>
+      <Slot>LOWER_BODY</Slot>
+      <Count>1</Count>
+    </Item>
+    <Item>
+      <ItemID>50060100</ItemID>
+      <Slot>SHOES</Slot>
+      <Count>1</Count>
+    </Item>
+    <Item>
+      <ItemID>10020114</ItemID>
+      <Slot>BODY</Slot>
+      <Count>1</Count>
+    </Item>
+    <Item>
+      <ItemID>60010082</ItemID>
+      <Slot>BODY</Slot>
+      <Count>1</Count>
+    </Item>
+  </StartItem>
+
+  <StartItem race="Emil" gender="Male">
+    <Item>
+      <ItemID>50000000</ItemID>
+      <Slot>UPPER_BODY</Slot>
+      <Count>1</Count>
+    </Item>
+    <Item>
+      <ItemID>50010300</ItemID>
+      <Slot>LOWER_BODY</Slot>
+      <Count>1</Count>
+    </Item>
+    <Item>
+      <ItemID>50060150</ItemID>
+      <Slot>SHOES</Slot>
+      <Count>1</Count>
+    </Item>
+    <Item>
+      <ItemID>10020114</ItemID>
+      <Slot>BODY</Slot>
+      <Count>1</Count>
+    </Item>
+    <Item>
+      <ItemID>60010082</ItemID>
+      <Slot>BODY</Slot>
+      <Count>1</Count>
+    </Item>
+  </StartItem>
+
+  <StartItem race="Titania" gender="Male">
+    <Item>
+      <ItemID>50000180</ItemID>
+      <Slot>UPPER_BODY</Slot>
+      <Count>1</Count>
+    </Item>
+    <Item>
+      <ItemID>50010456</ItemID>
+      <Slot>LOWER_BODY</Slot>
+      <Count>1</Count>
+    </Item>
+    <Item>
+      <ItemID>50060150</ItemID>
+      <Slot>SHOES</Slot>
+      <Count>1</Count>
+    </Item>
+    <Item>
+      <ItemID>10020114</ItemID>
+      <Slot>BODY</Slot>
+      <Count>1</Count>
+    </Item>
+    <Item>
+      <ItemID>60010082</ItemID>
+      <Slot>BODY</Slot>
+      <Count>1</Count>
+    </Item>
+  </StartItem>
+
+  <StartItem race="Titania" gender="Female">
+    <Item>
+      <ItemID>50001381</ItemID>
+      <Slot>UPPER_BODY</Slot>
+      <Count>1</Count>
+    </Item>
+    <Item>
+      <ItemID>50012360</ItemID>
+      <Slot>LOWER_BODY</Slot>
+      <Count>1</Count>
+    </Item>
+    <Item>
+      <ItemID>50060100</ItemID>
+      <Slot>SHOES</Slot>
+      <Count>1</Count>
+    </Item>
+    <Item>
+      <ItemID>10020114</ItemID>
+      <Slot>BODY</Slot>
+      <Count>1</Count>
+    </Item>
+    <Item>
+      <ItemID>60010082</ItemID>
+      <Slot>BODY</Slot>
+      <Count>1</Count>
+    </Item>
+  </StartItem>
+
+  <StartItem race="Dominion" gender="Male">
+    <Item>
+      <ItemID>50002754</ItemID>
+      <Slot>UPPER_BODY</Slot>
+      <Count>1</Count>
+    </Item>
+    <Item>
+      <ItemID>50010253</ItemID>
+      <Slot>LOWER_BODY</Slot>
+      <Count>1</Count>
+    </Item>
+    <Item>
+      <ItemID>50060150</ItemID>
+      <Slot>SHOES</Slot>
+      <Count>1</Count>
+    </Item>
+    <Item>
+      <ItemID>10020114</ItemID>
+      <Slot>BODY</Slot>
+      <Count>1</Count>
+    </Item>
+    <Item>
+      <ItemID>60010082</ItemID>
+      <Slot>BODY</Slot>
+      <Count>1</Count>
+    </Item>
+  </StartItem>
+
+  <StartItem race="Dominion" gender="Female">
+    <Item>
+      <ItemID>50001454</ItemID>
+      <Slot>UPPER_BODY</Slot>
+      <Count>1</Count>
+    </Item>
+    <Item>
+      <ItemID>50010155</ItemID>
+      <Slot>LOWER_BODY</Slot>
+      <Count>1</Count>
+    </Item>
+    <Item>
+      <ItemID>50060100</ItemID>
+      <Slot>SHOES</Slot>
+      <Count>1</Count>
+    </Item>
+    <Item>
+      <ItemID>10020114</ItemID>
+      <Slot>BODY</Slot>
+      <Count>1</Count>
+    </Item>
+    <Item>
+      <ItemID>60010082</ItemID>
+      <Slot>BODY</Slot>
+      <Count>1</Count>
+    </Item>
+  </StartItem>
+
+ <StartItem race="DEM" gender="Male">
+    <Item>
+      <ItemID>50111700</ItemID>
+      <Slot>FACE_ACCE</Slot>
+      <Count>1</Count>
+    </Item>
+    <Item>
+      <ItemID>50000950</ItemID>
+      <Slot>UPPER_BODY</Slot>
+      <Count>1</Count>
+    </Item>
+    <Item>
+      <ItemID>50068550</ItemID>
+      <Slot>LOWER_BODY</Slot>
+      <Count>1</Count>
+    </Item>
+    <Item>
+      <ItemID>50060350</ItemID>
+      <Slot>SHOES</Slot>
+      <Count>1</Count>
+    </Item>
+  </StartItem>
+
+  <StartItem race="DEM" gender="Female">
+    <Item>
+      <ItemID>50111700</ItemID>
+      <Slot>FACE_ACCE</Slot>
+      <Count>1</Count>
+    </Item>
+    <Item>
+      <ItemID>50000950</ItemID>
+      <Slot>UPPER_BODY</Slot>
+      <Count>1</Count>
+    </Item>
+    <Item>
+      <ItemID>50068550</ItemID>
+      <Slot>LOWER_BODY</Slot>
+      <Count>1</Count>
+    </Item>
+    <Item>
+      <ItemID>50060350</ItemID>
+      <Slot>SHOES</Slot>
+      <Count>1</Count>
+    </Item>
+  </StartItem>
+</SagaLogin>

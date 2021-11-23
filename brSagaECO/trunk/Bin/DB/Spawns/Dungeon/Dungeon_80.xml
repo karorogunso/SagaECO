@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Spawns>
+  <spawn rate="25">
+    <!--天空之蝶-->
+    <id>14540102</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>3</amount>
+    <range>128</range>
+    <delay>30</delay>
+  </spawn>
+  <spawn rate="25">
+    <!--莫伦-->
+    <id>15140003</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>3</amount>
+    <range>128</range>
+    <delay>30</delay>
+  </spawn>
+  <spawn rate="25">
+    <!--牛头人-->
+    <id>15160000</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>3</amount>
+    <range>128</range>
+    <delay>30</delay>
+  </spawn>
+  <spawn rate="25">
+    <!--渡渡鸟-->
+    <id>15170000</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>3</amount>
+    <range>128</range>
+    <delay>30</delay>
+  </spawn>
+  <spawn rate="25">
+    <!--马坦戈-->
+    <id>15190002</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>3</amount>
+    <range>128</range>
+    <delay>30</delay>
+  </spawn>
+  <spawn rate="25">
+    <!--瓦兹·拉米亚-->
+    <id>10450002</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>3</amount>
+    <range>128</range>
+    <delay>30</delay>
+  </spawn>
+  <spawn rate="25">
+      <!--雄伟鱼人-->
+    <id>15180001</id>
+    <x>128</x>
+    <y>128</y>
+    <amount>3</amount>
+    <range>128</range>
+    <delay>30</delay>
+  </spawn>
+  <spawn rate="100">
+    <!--守护者石像-->
+    <id>15130000</id>
+    <map>61001000</map>
+    <x>32</x>
+    <y>32</y>
+    <amount>1</amount>
+    <range>5</range>
+    <delay>0</delay>
+  </spawn>
+</Spawns>

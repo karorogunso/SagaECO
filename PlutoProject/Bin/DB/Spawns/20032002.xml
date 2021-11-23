@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Spawns>
+  <spawn>
+    <id>30760000</id>
+    <map>20032002</map>
+    <x>72</x>
+    <y>63</y>
+    <amount>40</amount>
+    <range>128</range>
+    <delay>10</delay>
+  </spawn>
+</Spawns>

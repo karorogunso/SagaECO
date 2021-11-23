@@ -1,0 +1,2730 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SyntheseDB>
+  <!--アイテム精製LV1(1～20),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,-->
+  <Synthese>
+    <ID>1</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2009" count="1" />
+    <Material id="1" count="0" />
+    <Product id="2" rate="10001250" count="90" />
+    <Product id="1" rate="0" count="10" />
+  </Synthese>
+  <Synthese>
+    <ID>2</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2009" count="1" />
+    <Material id="1" count="0" />
+    <Product id="2" rate="10001250" count="90" />
+    <Product id="1" rate="0" count="10" />
+  </Synthese>
+  <Synthese>
+    <ID>3</ID>
+    <SkillID>2</SkillID>
+    <SkillLv>6</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2009" count="1" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="10000210" count="90" />
+    <Product id="1" rate="0" count="10" />
+  </Synthese>
+  <Synthese>
+    <ID>4</ID>
+    <SkillID>3</SkillID>
+    <SkillLv>8</SkillLv>
+    <Gold>2</Gold>
+    <RequiredTool>6</RequiredTool>
+    <Material id="2009" count="1" />
+    <Material id="1" count="0" />
+    <Product id="4" rate="10001250" count="90" />
+    <Product id="1" rate="0" count="10" />
+  </Synthese>
+  <Synthese>
+    <ID>5</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2009" count="1" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="10001250" count="90" />
+    <Product id="1" rate="0" count="10" />
+  </Synthese>
+  <Synthese>
+    <ID>6</ID>
+    <SkillID>3</SkillID>
+    <SkillLv>8</SkillLv>
+    <Gold>2</Gold>
+    <RequiredTool>6</RequiredTool>
+    <Material id="2009" count="1" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="10001250" count="90" />
+    <Product id="1" rate="0" count="10" />
+  </Synthese>
+  <Synthese>
+    <ID>7</ID>
+    <SkillID>3</SkillID>
+    <SkillLv>8</SkillLv>
+    <Gold>2</Gold>
+    <RequiredTool>6</RequiredTool>
+    <Material id="2009" count="1" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="10000210" count="90" />
+    <Product id="1" rate="0" count="10" />
+  </Synthese>
+  <Synthese>
+    <ID>8</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2009" count="1" />
+    <Material id="2" count="0" />
+    <Product id="1" rate="10000210" count="90" />
+    <Product id="1" rate="0" count="10" />
+  </Synthese>
+  <Synthese>
+    <ID>9</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2009" count="1" />
+    <Material id="2" count="0" />
+    <Product id="1" rate="10000210" count="90" />
+    <Product id="1" rate="0" count="10" />
+  </Synthese>
+  <Synthese>
+    <ID>10</ID>
+    <SkillID>2</SkillID>
+    <SkillLv>6</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2009" count="1" />
+    <Material id="1" count="0" />
+    <Product id="10" rate="10001250" count="90" />
+    <Product id="1" rate="0" count="10" />
+  </Synthese>
+  <Synthese>
+    <ID>11</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2009" count="1" />
+    <Material id="1" count="0" />
+    <Product id="10" rate="10001250" count="90" />
+    <Product id="1" rate="0" count="10" />
+  </Synthese>
+  <Synthese>
+    <ID>13</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2009" count="1" />
+    <Material id="4" count="0" />
+    <Product id="1" rate="10001250" count="90" />
+    <Product id="1" rate="0" count="10" />
+  </Synthese>
+  <Synthese>
+    <ID>14</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2009" count="1" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="10000210" count="90" />
+    <Product id="1" rate="0" count="10" />
+  </Synthese>
+  <Synthese>
+    <ID>15</ID>
+    <SkillID>5</SkillID>
+    <SkillLv>10</SkillLv>
+    <Gold>8</Gold>
+    <RequiredTool>13</RequiredTool>
+    <Material id="2009" count="1" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="10061850" count="60" />
+    <Product id="1" rate="0" count="40" />
+  </Synthese>
+  <!--アイテム精製LV2（21～40）,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,-->
+  <Synthese>
+    <ID>21</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2009" count="2" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="10001250" count="80" />
+    <Product id="1" rate="0" count="20" />
+  </Synthese>
+  <Synthese>
+    <ID>22</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2009" count="2" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="10001250" count="80" />
+    <Product id="1" rate="0" count="20" />
+  </Synthese>
+  <Synthese>
+    <ID>23</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2009" count="2" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="10001250" count="80" />
+    <Product id="1" rate="0" count="20" />
+  </Synthese>
+  <Synthese>
+    <ID>24</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2009" count="2" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="10001250" count="80" />
+    <Product id="1" rate="0" count="20" />
+  </Synthese>
+  <Synthese>
+    <ID>25</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2009" count="2" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="10001250" count="80" />
+    <Product id="1" rate="0" count="20" />
+  </Synthese>
+  <Synthese>
+    <ID>26</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2009" count="2" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="10001250" count="80" />
+    <Product id="1" rate="0" count="20" />
+  </Synthese>
+  <Synthese>
+    <ID>27</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2009" count="2" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="10001250" count="80" />
+    <Product id="1" rate="0" count="20" />
+  </Synthese>
+  <Synthese>
+    <ID>28</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2009" count="2" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="10001250" count="80" />
+    <Product id="1" rate="0" count="20" />
+  </Synthese>
+  <Synthese>
+    <ID>29</ID>
+    <SkillID>5</SkillID>
+    <SkillLv>10</SkillLv>
+    <Gold>4</Gold>
+    <RequiredTool>9</RequiredTool>
+    <Material id="2009" count="2" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="10001250" count="90" />
+    <Product id="1" rate="0" count="10" />
+  </Synthese>
+  <Synthese>
+    <ID>30</ID>
+    <SkillID>3</SkillID>
+    <SkillLv>8</SkillLv>
+    <Gold>3</Gold>
+    <RequiredTool>8</RequiredTool>
+    <Material id="2009" count="2" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="10001250" count="90" />
+    <Product id="1" rate="0" count="10" />
+  </Synthese>
+  <Synthese>
+    <ID>31</ID>
+    <SkillID>5</SkillID>
+    <SkillLv>10</SkillLv>
+    <Gold>4</Gold>
+    <RequiredTool>9</RequiredTool>
+    <Material id="2009" count="2" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="10001250" count="90" />
+    <Product id="1" rate="0" count="10" />
+  </Synthese>
+  <Synthese>
+    <ID>32</ID>
+    <SkillID>5</SkillID>
+    <SkillLv>10</SkillLv>
+    <Gold>4</Gold>
+    <RequiredTool>9</RequiredTool>
+    <Material id="2009" count="2" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="10001250" count="90" />
+    <Product id="1" rate="0" count="10" />
+  </Synthese>
+  <Synthese>
+    <ID>33</ID>
+    <SkillID>5</SkillID>
+    <SkillLv>10</SkillLv>
+    <Gold>4</Gold>
+    <RequiredTool>9</RequiredTool>
+    <Material id="2009" count="2" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="10001250" count="90" />
+    <Product id="1" rate="0" count="10" />
+  </Synthese>
+  <Synthese>
+    <ID>34</ID>
+    <SkillID>5</SkillID>
+    <SkillLv>10</SkillLv>
+    <Gold>4</Gold>
+    <RequiredTool>9</RequiredTool>
+    <Material id="2009" count="2" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="10001250" count="90" />
+    <Product id="1" rate="0" count="10" />
+  </Synthese>
+  <Synthese>
+    <ID>35</ID>
+    <SkillID>5</SkillID>
+    <SkillLv>10</SkillLv>
+    <Gold>4</Gold>
+    <RequiredTool>9</RequiredTool>
+    <Material id="2009" count="2" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="10001250" count="90" />
+    <Product id="1" rate="0" count="10" />
+  </Synthese>
+  <Synthese>
+    <ID>36</ID>
+    <SkillID>5</SkillID>
+    <SkillLv>10</SkillLv>
+    <Gold>4</Gold>
+    <RequiredTool>9</RequiredTool>
+    <Material id="2009" count="2" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="10001250" count="90" />
+    <Product id="1" rate="0" count="10" />
+  </Synthese>
+  <Synthese>
+    <ID>37</ID>
+    <SkillID>5</SkillID>
+    <SkillLv>10</SkillLv>
+    <Gold>4</Gold>
+    <RequiredTool>9</RequiredTool>
+    <Material id="2009" count="2" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="10001250" count="90" />
+    <Product id="1" rate="0" count="10" />
+  </Synthese>
+  <Synthese>
+    <ID>38</ID>
+    <SkillID>5</SkillID>
+    <SkillLv>10</SkillLv>
+    <Gold>4</Gold>
+    <RequiredTool>9</RequiredTool>
+    <Material id="2009" count="2" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="10001250" count="90" />
+    <Product id="1" rate="0" count="10" />
+  </Synthese>
+  <!--アイテム精製LV3（41～100）,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,-->
+  <Synthese>
+    <ID>41</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2009" count="3" />
+    <Material id="4" count="0" />
+    <Product id="1" rate="10001250" count="90" />
+    <Product id="1" rate="0" count="10" />
+  </Synthese>
+  <Synthese>
+    <ID>42</ID>
+    <SkillID>3</SkillID>
+    <SkillLv>8</SkillLv>
+    <Gold>3</Gold>
+    <RequiredTool>7</RequiredTool>
+    <Material id="2009" count="3" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="10001250" count="90" />
+    <Product id="1" rate="0" count="10" />
+  </Synthese>
+  <!--43,5,10,8,13,2009,3,0,1000,0,10009350,1,0,0,0,0,0,0,10019807,1,90,10001250,1,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-->
+  <Synthese>
+    <ID>43</ID>
+    <SkillID>5</SkillID>
+    <SkillLv>10</SkillLv>
+    <Gold>8</Gold>
+    <RequiredTool>13</RequiredTool>
+    <Material id="2009" count="3" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="10001250" count="55" />
+    <Product id="1" rate="10019881" count="10" />
+  </Synthese>
+  <Synthese>
+    <ID>44</ID>
+    <SkillID>7</SkillID>
+    <SkillLv>12</SkillLv>
+    <Gold>8</Gold>
+    <RequiredTool>13</RequiredTool>
+    <Material id="2009" count="3" />
+    <Material id="3" count="0" />
+    <Product id="1" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>45</ID>
+    <SkillID>3</SkillID>
+    <SkillLv>8</SkillLv>
+    <Gold>2</Gold>
+    <RequiredTool>6</RequiredTool>
+    <Material id="2009" count="3" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="10001250" count="90" />
+    <Product id="1" rate="0" count="10" />
+  </Synthese>
+  <Synthese>
+    <ID>46</ID>
+    <SkillID>3</SkillID>
+    <SkillLv>8</SkillLv>
+    <Gold>2</Gold>
+    <RequiredTool>6</RequiredTool>
+    <Material id="2009" count="3" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="10001250" count="90" />
+    <Product id="1" rate="0" count="10" />
+  </Synthese>
+  <Synthese>
+    <ID>47</ID>
+    <SkillID>10</SkillID>
+    <SkillLv>15</SkillLv>
+    <Gold>8</Gold>
+    <RequiredTool>13</RequiredTool>
+    <Material id="2009" count="3" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="10001250" count="90" />
+    <Product id="1" rate="0" count="10" />
+  </Synthese>
+  <Synthese>
+    <ID>48</ID>
+    <SkillID>10</SkillID>
+    <SkillLv>15</SkillLv>
+    <Gold>8</Gold>
+    <RequiredTool>13</RequiredTool>
+    <Material id="2009" count="3" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>49</ID>
+    <SkillID>10</SkillID>
+    <SkillLv>15</SkillLv>
+    <Gold>9</Gold>
+    <RequiredTool>14</RequiredTool>
+    <Material id="2009" count="3" />
+    <Material id="4" count="0" />
+    <Product id="1" rate="10001250" count="90" />
+    <Product id="1" rate="0" count="10" />
+  </Synthese>
+  <Synthese>
+    <ID>50</ID>
+    <SkillID>15</SkillID>
+    <SkillLv>20</SkillLv>
+    <Gold>8</Gold>
+    <RequiredTool>13</RequiredTool>
+    <Material id="2009" count="3" />
+    <Material id="4" count="0" />
+    <Product id="1" rate="10001250" count="90" />
+    <Product id="1" rate="0" count="10" />
+  </Synthese>
+  <Synthese>
+    <ID>51</ID>
+    <SkillID>3</SkillID>
+    <SkillLv>8</SkillLv>
+    <Gold>2</Gold>
+    <RequiredTool>6</RequiredTool>
+    <Material id="2009" count="3" />
+    <Material id="3" count="0" />
+    <Product id="1" rate="10001250" count="90" />
+    <Product id="1" rate="0" count="10" />
+  </Synthese>
+  <Synthese>
+    <ID>52</ID>
+    <SkillID>5</SkillID>
+    <SkillLv>10</SkillLv>
+    <Gold>8</Gold>
+    <RequiredTool>13</RequiredTool>
+    <Material id="2009" count="3" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="10001250" count="90" />
+    <Product id="1" rate="0" count="10" />
+  </Synthese>
+  <Synthese>
+    <ID>53</ID>
+    <SkillID>7</SkillID>
+    <SkillLv>12</SkillLv>
+    <Gold>8</Gold>
+    <RequiredTool>13</RequiredTool>
+    <Material id="2009" count="3" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="10001250" count="90" />
+    <Product id="1" rate="0" count="10" />
+  </Synthese>
+  <Synthese>
+    <ID>54</ID>
+    <SkillID>16</SkillID>
+    <SkillLv>21</SkillLv>
+    <Gold>10</Gold>
+    <RequiredTool>15</RequiredTool>
+    <Material id="2009" count="3" />
+    <Material id="2" count="0" />
+    <Product id="1" rate="10001250" count="90" />
+    <Product id="1" rate="0" count="10" />
+  </Synthese>
+  <Synthese>
+    <ID>55</ID>
+    <SkillID>2</SkillID>
+    <SkillLv>7</SkillLv>
+    <Gold>2</Gold>
+    <RequiredTool>6</RequiredTool>
+    <Material id="2009" count="3" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="10001250" count="80" />
+    <Product id="1" rate="0" count="20" />
+  </Synthese>
+  <!--57,2,7,2,6,2009,3,0,1000,0,10003603,1,0,0,0,0,0,0,10001110,1,80,10001250,1,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-->
+  <Synthese>
+    <ID>60</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2009" count="3" />
+    <Material id="1" count="0" />
+    <Product id="4" rate="0" count="100" />
+  </Synthese>
+  <Synthese>
+    <ID>63</ID>
+    <SkillID>2</SkillID>
+    <SkillLv>7</SkillLv>
+    <Gold>2</Gold>
+    <RequiredTool>6</RequiredTool>
+    <Material id="2009" count="3" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>66</ID>
+    <SkillID>50</SkillID>
+    <SkillLv>55</SkillLv>
+    <Gold>20</Gold>
+    <RequiredTool>25</RequiredTool>
+    <Material id="2009" count="3" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>67</ID>
+    <SkillID>50</SkillID>
+    <SkillLv>55</SkillLv>
+    <Gold>20</Gold>
+    <RequiredTool>25</RequiredTool>
+    <Material id="2009" count="3" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>68</ID>
+    <SkillID>7</SkillID>
+    <SkillLv>12</SkillLv>
+    <Gold>8</Gold>
+    <RequiredTool>13</RequiredTool>
+    <Material id="2009" count="3" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="10001250" count="90" />
+    <Product id="1" rate="0" count="10" />
+  </Synthese>
+  <Synthese>
+    <ID>72</ID>
+    <SkillID>36</SkillID>
+    <SkillLv>41</SkillLv>
+    <Gold>13</Gold>
+    <RequiredTool>18</RequiredTool>
+    <Material id="2009" count="3" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="10001250" count="90" />
+    <Product id="1" rate="0" count="10" />
+  </Synthese>
+  <Synthese>
+    <ID>76</ID>
+    <SkillID>55</SkillID>
+    <SkillLv>60</SkillLv>
+    <Gold>30</Gold>
+    <RequiredTool>35</RequiredTool>
+    <Material id="2009" count="3" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="10001250" count="90" />
+    <Product id="1" rate="0" count="10" />
+  </Synthese>
+  <Synthese>
+    <ID>77</ID>
+    <SkillID>2</SkillID>
+    <SkillLv>7</SkillLv>
+    <Gold>2</Gold>
+    <RequiredTool>6</RequiredTool>
+    <Material id="2009" count="3" />
+    <Material id="50" count="0" />
+    <Product id="1" rate="10048013" count="85" />
+    <Product id="1" rate="10001250" count="5" />
+  </Synthese>
+  <Synthese>
+    <ID>78</ID>
+    <SkillID>2</SkillID>
+    <SkillLv>7</SkillLv>
+    <Gold>2</Gold>
+    <RequiredTool>6</RequiredTool>
+    <Material id="2009" count="3" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="10048013" count="89" />
+    <Product id="1" rate="10001250" count="10" />
+  </Synthese>
+  <Synthese>
+    <ID>79</ID>
+    <SkillID>2</SkillID>
+    <SkillLv>7</SkillLv>
+    <Gold>2</Gold>
+    <RequiredTool>6</RequiredTool>
+    <Material id="2009" count="3" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>89</ID>
+    <SkillID>3</SkillID>
+    <SkillLv>8</SkillLv>
+    <Gold>2</Gold>
+    <RequiredTool>6</RequiredTool>
+    <Material id="2009" count="3" />
+    <Material id="2" count="0" />
+    <Product id="1" rate="10001250" count="90" />
+    <Product id="1" rate="0" count="10" />
+  </Synthese>
+  <!--高度金属精錬LV1（101～120）,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,-->
+  <Synthese>
+    <ID>101</ID>
+    <SkillID>3</SkillID>
+    <SkillLv>8</SkillLv>
+    <Gold>2</Gold>
+    <RequiredTool>6</RequiredTool>
+    <Material id="2051" count="1" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="10020209" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>102</ID>
+    <SkillID>16</SkillID>
+    <SkillLv>21</SkillLv>
+    <Gold>8</Gold>
+    <RequiredTool>13</RequiredTool>
+    <Material id="2051" count="1" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="10020209" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>103</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2051" count="1" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="10020209" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>104</ID>
+    <SkillID>3</SkillID>
+    <SkillLv>8</SkillLv>
+    <Gold>2</Gold>
+    <RequiredTool>6</RequiredTool>
+    <Material id="2051" count="1" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="10020209" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>105</ID>
+    <SkillID>3</SkillID>
+    <SkillLv>8</SkillLv>
+    <Gold>2</Gold>
+    <RequiredTool>6</RequiredTool>
+    <Material id="2051" count="1" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="10020209" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>106</ID>
+    <SkillID>20</SkillID>
+    <SkillLv>25</SkillLv>
+    <Gold>9</Gold>
+    <RequiredTool>14</RequiredTool>
+    <Material id="2051" count="1" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="10020209" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>107</ID>
+    <SkillID>2</SkillID>
+    <SkillLv>7</SkillLv>
+    <Gold>2</Gold>
+    <RequiredTool>6</RequiredTool>
+    <Material id="2051" count="1" />
+    <Material id="10" count="0" />
+    <Product id="1" rate="0" count="100" />
+  </Synthese>
+  <Synthese>
+    <ID>116</ID>
+    <SkillID>2</SkillID>
+    <SkillLv>7</SkillLv>
+    <Gold>2</Gold>
+    <RequiredTool>6</RequiredTool>
+    <Material id="2051" count="1" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="10001250" count="80" />
+    <Product id="1" rate="0" count="20" />
+  </Synthese>
+  <!--高度金属精錬LV2（121～160）,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,-->
+  <Synthese>
+    <ID>149</ID>
+    <SkillID>20</SkillID>
+    <SkillLv>25</SkillLv>
+    <Gold>11</Gold>
+    <RequiredTool>16</RequiredTool>
+    <Material id="2051" count="2" />
+    <Material id="2" count="0" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <!--高度金属精錬LV3（161～200）,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,-->
+  <Synthese>
+    <ID>189</ID>
+    <SkillID>3</SkillID>
+    <SkillLv>8</SkillLv>
+    <Gold>2</Gold>
+    <RequiredTool>6</RequiredTool>
+    <Material id="2051" count="3" />
+    <Material id="10" count="0" />
+    <Product id="1" rate="10001250" count="90" />
+    <Product id="1" rate="0" count="10" />
+  </Synthese>
+  <!--木材加工LV2（221～240）,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,-->
+  <Synthese>
+    <ID>228</ID>
+    <SkillID>30</SkillID>
+    <SkillLv>35</SkillLv>
+    <Gold>11</Gold>
+    <RequiredTool>16</RequiredTool>
+    <Material id="2020" count="2" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>232</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2020" count="2" />
+    <Material id="3" count="0" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>233</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2020" count="2" />
+    <Material id="6" count="0" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <!--木材加工LV3（241～300）,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,-->
+  <Synthese>
+    <ID>250</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2020" count="3" />
+    <Material id="1" count="0" />
+    <Product id="3" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>251</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2020" count="3" />
+    <Material id="1" count="0" />
+    <Product id="6" rate="0" count="1" />
+  </Synthese>
+  <!--342,66,71,29,34,2039,3,0,10000,0,10025500,1,10025600,1,10025700,1,10035300,1,60091200,1,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-->
+  <Synthese>
+    <ID>355</ID>
+    <SkillID>24</SkillID>
+    <SkillLv>29</SkillLv>
+    <Gold>12</Gold>
+    <RequiredTool>17</RequiredTool>
+    <Material id="2039" count="3" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="0" count="100" />
+  </Synthese>
+  <Synthese>
+    <ID>382</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2039" count="3" />
+    <Material id="2" count="0" />
+    <Product id="1" rate="0" count="100" />
+  </Synthese>
+  <Synthese>
+    <ID>385</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2039" count="3" />
+    <Material id="2" count="0" />
+    <Product id="1" rate="0" count="100" />
+  </Synthese>
+  <Synthese>
+    <ID>386</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2039" count="3" />
+    <Material id="2" count="0" />
+    <Product id="1" rate="0" count="100" />
+  </Synthese>
+  <Synthese>
+    <ID>389</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2039" count="3" />
+    <Material id="2" count="0" />
+    <Product id="1" rate="0" count="100" />
+  </Synthese>
+  <Synthese>
+    <ID>390</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2039" count="3" />
+    <Material id="2" count="0" />
+    <Product id="1" rate="0" count="100" />
+  </Synthese>
+  <Synthese>
+    <ID>393</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2039" count="3" />
+    <Material id="2" count="0" />
+    <Product id="1" rate="0" count="100" />
+  </Synthese>
+  <Synthese>
+    <ID>394</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2039" count="3" />
+    <Material id="2" count="0" />
+    <Product id="1" rate="0" count="100" />
+  </Synthese>
+  <Synthese>
+    <ID>397</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2039" count="3" />
+    <Material id="2" count="0" />
+    <Product id="1" rate="0" count="100" />
+  </Synthese>
+  <!--料理LV1（401～420）,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,-->
+  <Synthese>
+    <ID>403</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2040" count="1" />
+    <Material id="2" count="0" />
+    <Product id="1" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>404</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2040" count="1" />
+    <Material id="2" count="0" />
+    <Product id="1" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>408</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2040" count="1" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>409</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2040" count="1" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>410</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2040" count="1" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>411</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2040" count="1" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>412</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2040" count="1" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>413</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2040" count="1" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>414</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2040" count="1" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>415</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2040" count="1" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>416</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2040" count="1" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <!--料理LV2（421～440）,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,-->
+  <Synthese>
+    <ID>423</ID>
+    <SkillID>3</SkillID>
+    <SkillLv>8</SkillLv>
+    <Gold>2</Gold>
+    <RequiredTool>6</RequiredTool>
+    <Material id="2040" count="2" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <!--料理LV4（461～480）,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,-->
+  <Synthese>
+    <ID>461</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2040" count="4" />
+    <Material id="5" count="0" />
+    <Product id="1" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>462</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2040" count="4" />
+    <Material id="5" count="0" />
+    <Product id="1" rate="10000210" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <!--薬品製作LV1（501～520）,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,-->
+  <Synthese>
+    <ID>501</ID>
+    <SkillID>3</SkillID>
+    <SkillLv>8</SkillLv>
+    <Gold>2</Gold>
+    <RequiredTool>6</RequiredTool>
+    <Material id="2022" count="1" />
+    <Material id="2" count="0" />
+    <Product id="1" rate="10000210" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <!--518,1,5,1,5,2022,1,0,0,0,10002202,1,10009100,1,0,0,0,0,10065200,1,99,10001250,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-->
+  <Synthese>
+    <ID>519</ID>
+    <SkillID>10</SkillID>
+    <SkillLv>15</SkillLv>
+    <Gold>8</Gold>
+    <RequiredTool>13</RequiredTool>
+    <Material id="2022" count="1" />
+    <Material id="3" count="0" />
+    <Product id="1" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>520</ID>
+    <SkillID>10</SkillID>
+    <SkillLv>15</SkillLv>
+    <Gold>8</Gold>
+    <RequiredTool>13</RequiredTool>
+    <Material id="2022" count="1" />
+    <Material id="3" count="0" />
+    <Product id="1" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <!--薬品製作LV2（521～540）,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,-->
+  <Synthese>
+    <ID>521</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2022" count="2" />
+    <Material id="2" count="0" />
+    <Product id="1" rate="10000210" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>522</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2022" count="2" />
+    <Material id="2" count="0" />
+    <Product id="1" rate="10000210" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>523</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2022" count="2" />
+    <Material id="2" count="0" />
+    <Product id="1" rate="10000210" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <!--573,1,5,1,5,2022,4,0,500,0,10000302,1,10004700,1,0,0,0,0,10000352,1,99,10001250,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-->
+  <Synthese>
+    <ID>574</ID>
+    <SkillID>16</SkillID>
+    <SkillLv>21</SkillLv>
+    <Gold>10</Gold>
+    <RequiredTool>15</RequiredTool>
+    <Material id="2022" count="4" />
+    <Material id="10" count="0" />
+    <Product id="1" rate="10000210" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <!--薬品製作LV5（581～600）,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,-->
+  <Synthese>
+    <ID>581</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2022" count="5" />
+    <Material id="2" count="0" />
+    <Product id="1" rate="10000210" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>582</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2022" count="5" />
+    <Material id="2" count="0" />
+    <Product id="1" rate="10000210" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <!--投擲LV1（601～620）,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,-->
+  <Synthese>
+    <ID>604</ID>
+    <SkillID>2</SkillID>
+    <SkillLv>6</SkillLv>
+    <Gold>11</Gold>
+    <RequiredTool>40</RequiredTool>
+    <Material id="2035" count="1" />
+    <Material id="1" count="0" />
+    <Product id="10" rate="10001250" count="90" />
+    <Product id="1" rate="0" count="10" />
+  </Synthese>
+  <Synthese>
+    <ID>605</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2035" count="1" />
+    <Material id="1" count="0" />
+    <Product id="10" rate="10001250" count="90" />
+    <Product id="1" rate="0" count="10" />
+  </Synthese>
+  <!--641,1,5,1,5,2035,3,0,20,0,10015708,1,10038200,1,10001550,2,0,0,10026000,50,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-->
+  <Synthese>
+    <ID>647</ID>
+    <SkillID>3</SkillID>
+    <SkillLv>8</SkillLv>
+    <Gold>3</Gold>
+    <RequiredTool>7</RequiredTool>
+    <Material id="2035" count="3" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="10001250" count="90" />
+    <Product id="1" rate="0" count="10" />
+  </Synthese>
+  <!--装飾品製造LV1（701～720）,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,-->
+  <Synthese>
+    <ID>701</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2018" count="1" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="50031406" count="91" />
+    <Product id="1" rate="50031407" count="5" />
+  </Synthese>
+  <!--装飾品製造LV3（741～760）,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,-->
+  <Synthese>
+    <ID>751</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2018" count="3" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>752</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2018" count="3" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="0" count="100" />
+  </Synthese>
+  <!--武器製造LV1（801～820）,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,-->
+  <Synthese>
+    <ID>806</ID>
+    <SkillID>2</SkillID>
+    <SkillLv>7</SkillLv>
+    <Gold>2</Gold>
+    <RequiredTool>6</RequiredTool>
+    <Material id="2010" count="1" />
+    <Material id="2" count="0" />
+    <Product id="1" rate="0" count="100" />
+  </Synthese>
+  <!--裁縫LV1（1201～1230）,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,-->
+  <Synthese>
+    <ID>1201</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2054" count="1" />
+    <Material id="4" count="0" />
+    <Product id="1" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>1204</ID>
+    <SkillID>30</SkillID>
+    <SkillLv>35</SkillLv>
+    <Gold>14</Gold>
+    <RequiredTool>19</RequiredTool>
+    <Material id="2054" count="1" />
+    <Material id="50" count="0" />
+    <Product id="1" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <!--裁縫LV2（1231～1260）,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,-->
+  <Synthese>
+    <ID>1231</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2054" count="2" />
+    <Material id="4" count="0" />
+    <Product id="1" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>1232</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2054" count="2" />
+    <Material id="4" count="0" />
+    <Product id="1" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>1252</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2054" count="2" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="0" count="100" />
+  </Synthese>
+  <Synthese>
+    <ID>1254</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2054" count="2" />
+    <Material id="2" count="0" />
+    <Product id="1" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <!--裁縫LV3（1261～1280）,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,-->
+  <Synthese>
+    <ID>1263</ID>
+    <SkillID>16</SkillID>
+    <SkillLv>21</SkillLv>
+    <Gold>11</Gold>
+    <RequiredTool>16</RequiredTool>
+    <Material id="2054" count="3" />
+    <Material id="3" count="0" />
+    <Product id="1" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <!--感謝の気持ち,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,-->
+  <Synthese>
+    <ID>1481</ID>
+    <SkillID>5</SkillID>
+    <SkillLv>10</SkillLv>
+    <Gold>8</Gold>
+    <RequiredTool>13</RequiredTool>
+    <Material id="9118" count="1" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <!--機械組み立てLV1（1660～1669）,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,-->
+  <Synthese>
+    <ID>1660</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2039" count="1" />
+    <Material id="2" count="0" />
+    <Product id="1" rate="0" count="100" />
+  </Synthese>
+  <Synthese>
+    <ID>1663</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2039" count="1" />
+    <Material id="2" count="0" />
+    <Product id="1" rate="0" count="100" />
+  </Synthese>
+  <!--生絞り,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,-->
+  <Synthese>
+    <ID>1700</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2023" count="1" />
+    <Material id="10" count="0" />
+    <Product id="1" rate="0" count="100" />
+  </Synthese>
+  <Synthese>
+    <ID>1701</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2023" count="2" />
+    <Material id="10" count="0" />
+    <Product id="1" rate="0" count="100" />
+  </Synthese>
+  <Synthese>
+    <ID>1702</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2023" count="2" />
+    <Material id="10" count="0" />
+    <Product id="1" rate="0" count="100" />
+  </Synthese>
+  <Synthese>
+    <ID>1703</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2023" count="2" />
+    <Material id="10" count="0" />
+    <Product id="1" rate="0" count="100" />
+  </Synthese>
+  <!--2448品種改良（ガーデナー用）,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,-->
+  <Synthese>
+    <ID>1810</ID>
+    <SkillID>5</SkillID>
+    <SkillLv>10</SkillLv>
+    <Gold>3</Gold>
+    <RequiredTool>7</RequiredTool>
+    <Material id="2448" count="1" />
+    <Material id="10" count="0" />
+    <Product id="1" rate="10064402" count="85" />
+    <Product id="1" rate="10064404" count="5" />
+  </Synthese>
+  <Synthese>
+    <ID>1811</ID>
+    <SkillID>5</SkillID>
+    <SkillLv>10</SkillLv>
+    <Gold>3</Gold>
+    <RequiredTool>7</RequiredTool>
+    <Material id="2448" count="1" />
+    <Material id="10" count="0" />
+    <Product id="1" rate="10064402" count="85" />
+    <Product id="1" rate="10064404" count="5" />
+  </Synthese>
+  <Synthese>
+    <ID>1812</ID>
+    <SkillID>5</SkillID>
+    <SkillLv>10</SkillLv>
+    <Gold>3</Gold>
+    <RequiredTool>7</RequiredTool>
+    <Material id="2448" count="1" />
+    <Material id="10" count="0" />
+    <Product id="1" rate="10064402" count="85" />
+    <Product id="1" rate="10064404" count="5" />
+  </Synthese>
+  <Synthese>
+    <ID>1813</ID>
+    <SkillID>5</SkillID>
+    <SkillLv>10</SkillLv>
+    <Gold>3</Gold>
+    <RequiredTool>7</RequiredTool>
+    <Material id="2448" count="1" />
+    <Material id="10" count="0" />
+    <Product id="1" rate="10064402" count="85" />
+    <Product id="1" rate="10064404" count="5" />
+  </Synthese>
+  <Synthese>
+    <ID>1814</ID>
+    <SkillID>5</SkillID>
+    <SkillLv>10</SkillLv>
+    <Gold>3</Gold>
+    <RequiredTool>7</RequiredTool>
+    <Material id="2448" count="1" />
+    <Material id="10" count="0" />
+    <Product id="1" rate="10064402" count="85" />
+    <Product id="1" rate="10064404" count="5" />
+  </Synthese>
+  <Synthese>
+    <ID>1815</ID>
+    <SkillID>5</SkillID>
+    <SkillLv>10</SkillLv>
+    <Gold>3</Gold>
+    <RequiredTool>7</RequiredTool>
+    <Material id="2448" count="1" />
+    <Material id="10" count="0" />
+    <Product id="1" rate="10064402" count="85" />
+    <Product id="1" rate="10064404" count="5" />
+  </Synthese>
+  <Synthese>
+    <ID>1816</ID>
+    <SkillID>5</SkillID>
+    <SkillLv>10</SkillLv>
+    <Gold>3</Gold>
+    <RequiredTool>7</RequiredTool>
+    <Material id="2448" count="1" />
+    <Material id="10" count="0" />
+    <Product id="1" rate="10064402" count="85" />
+    <Product id="1" rate="10064404" count="5" />
+  </Synthese>
+  <Synthese>
+    <ID>1817</ID>
+    <SkillID>5</SkillID>
+    <SkillLv>10</SkillLv>
+    <Gold>3</Gold>
+    <RequiredTool>7</RequiredTool>
+    <Material id="2448" count="1" />
+    <Material id="10" count="0" />
+    <Product id="1" rate="10064402" count="85" />
+    <Product id="1" rate="10064404" count="5" />
+  </Synthese>
+  <Synthese>
+    <ID>1818</ID>
+    <SkillID>5</SkillID>
+    <SkillLv>10</SkillLv>
+    <Gold>3</Gold>
+    <RequiredTool>7</RequiredTool>
+    <Material id="2448" count="1" />
+    <Material id="10" count="0" />
+    <Product id="1" rate="10064403" count="85" />
+    <Product id="1" rate="10064404" count="5" />
+  </Synthese>
+  <Synthese>
+    <ID>1819</ID>
+    <SkillID>5</SkillID>
+    <SkillLv>10</SkillLv>
+    <Gold>3</Gold>
+    <RequiredTool>7</RequiredTool>
+    <Material id="2448" count="1" />
+    <Material id="10" count="0" />
+    <Product id="1" rate="10064403" count="85" />
+    <Product id="1" rate="10064404" count="5" />
+  </Synthese>
+  <Synthese>
+    <ID>1820</ID>
+    <SkillID>5</SkillID>
+    <SkillLv>10</SkillLv>
+    <Gold>3</Gold>
+    <RequiredTool>7</RequiredTool>
+    <Material id="2448" count="1" />
+    <Material id="10" count="0" />
+    <Product id="1" rate="10064403" count="85" />
+    <Product id="1" rate="10064404" count="5" />
+  </Synthese>
+  <Synthese>
+    <ID>1821</ID>
+    <SkillID>5</SkillID>
+    <SkillLv>10</SkillLv>
+    <Gold>3</Gold>
+    <RequiredTool>7</RequiredTool>
+    <Material id="2448" count="1" />
+    <Material id="10" count="0" />
+    <Product id="1" rate="10064403" count="85" />
+    <Product id="1" rate="10064404" count="5" />
+  </Synthese>
+  <Synthese>
+    <ID>1822</ID>
+    <SkillID>5</SkillID>
+    <SkillLv>10</SkillLv>
+    <Gold>3</Gold>
+    <RequiredTool>7</RequiredTool>
+    <Material id="2448" count="1" />
+    <Material id="10" count="0" />
+    <Product id="1" rate="10064403" count="85" />
+    <Product id="1" rate="10064404" count="5" />
+  </Synthese>
+  <Synthese>
+    <ID>1823</ID>
+    <SkillID>5</SkillID>
+    <SkillLv>10</SkillLv>
+    <Gold>3</Gold>
+    <RequiredTool>7</RequiredTool>
+    <Material id="2448" count="1" />
+    <Material id="10" count="0" />
+    <Product id="1" rate="10064403" count="85" />
+    <Product id="1" rate="10064404" count="5" />
+  </Synthese>
+  <Synthese>
+    <ID>1824</ID>
+    <SkillID>5</SkillID>
+    <SkillLv>10</SkillLv>
+    <Gold>3</Gold>
+    <RequiredTool>7</RequiredTool>
+    <Material id="2448" count="1" />
+    <Material id="10" count="0" />
+    <Product id="1" rate="10064403" count="85" />
+    <Product id="1" rate="10064404" count="5" />
+  </Synthese>
+  <Synthese>
+    <ID>1825</ID>
+    <SkillID>5</SkillID>
+    <SkillLv>10</SkillLv>
+    <Gold>3</Gold>
+    <RequiredTool>7</RequiredTool>
+    <Material id="2448" count="1" />
+    <Material id="10" count="0" />
+    <Product id="1" rate="10064402" count="85" />
+    <Product id="1" rate="10064403" count="5" />
+  </Synthese>
+  <Synthese>
+    <ID>1826</ID>
+    <SkillID>5</SkillID>
+    <SkillLv>10</SkillLv>
+    <Gold>3</Gold>
+    <RequiredTool>7</RequiredTool>
+    <Material id="2448" count="1" />
+    <Material id="10" count="0" />
+    <Product id="1" rate="10064402" count="85" />
+    <Product id="1" rate="10064403" count="5" />
+  </Synthese>
+  <Synthese>
+    <ID>1827</ID>
+    <SkillID>5</SkillID>
+    <SkillLv>10</SkillLv>
+    <Gold>3</Gold>
+    <RequiredTool>7</RequiredTool>
+    <Material id="2448" count="1" />
+    <Material id="10" count="0" />
+    <Product id="1" rate="10064402" count="85" />
+    <Product id="1" rate="10064403" count="5" />
+  </Synthese>
+  <Synthese>
+    <ID>1828</ID>
+    <SkillID>5</SkillID>
+    <SkillLv>10</SkillLv>
+    <Gold>3</Gold>
+    <RequiredTool>7</RequiredTool>
+    <Material id="2448" count="1" />
+    <Material id="10" count="0" />
+    <Product id="1" rate="10064402" count="85" />
+    <Product id="1" rate="10064403" count="5" />
+  </Synthese>
+  <Synthese>
+    <ID>1829</ID>
+    <SkillID>5</SkillID>
+    <SkillLv>10</SkillLv>
+    <Gold>3</Gold>
+    <RequiredTool>7</RequiredTool>
+    <Material id="2448" count="1" />
+    <Material id="10" count="0" />
+    <Product id="1" rate="10064402" count="85" />
+    <Product id="1" rate="10064403" count="5" />
+  </Synthese>
+  <Synthese>
+    <ID>1830</ID>
+    <SkillID>5</SkillID>
+    <SkillLv>10</SkillLv>
+    <Gold>3</Gold>
+    <RequiredTool>7</RequiredTool>
+    <Material id="2448" count="1" />
+    <Material id="10" count="0" />
+    <Product id="1" rate="10064402" count="85" />
+    <Product id="1" rate="10064403" count="5" />
+  </Synthese>
+  <Synthese>
+    <ID>1831</ID>
+    <SkillID>5</SkillID>
+    <SkillLv>10</SkillLv>
+    <Gold>3</Gold>
+    <RequiredTool>7</RequiredTool>
+    <Material id="2448" count="1" />
+    <Material id="10" count="0" />
+    <Product id="1" rate="10064402" count="85" />
+    <Product id="1" rate="10064403" count="5" />
+  </Synthese>
+  <Synthese>
+    <ID>1832</ID>
+    <SkillID>5</SkillID>
+    <SkillLv>10</SkillLv>
+    <Gold>3</Gold>
+    <RequiredTool>7</RequiredTool>
+    <Material id="2448" count="1" />
+    <Material id="10" count="0" />
+    <Product id="1" rate="10064402" count="85" />
+    <Product id="1" rate="10064403" count="5" />
+  </Synthese>
+  <Synthese>
+    <ID>1833</ID>
+    <SkillID>5</SkillID>
+    <SkillLv>10</SkillLv>
+    <Gold>3</Gold>
+    <RequiredTool>7</RequiredTool>
+    <Material id="2448" count="1" />
+    <Material id="10" count="0" />
+    <Product id="1" rate="10064402" count="85" />
+    <Product id="1" rate="10064403" count="5" />
+  </Synthese>
+  <Synthese>
+    <ID>1834</ID>
+    <SkillID>5</SkillID>
+    <SkillLv>10</SkillLv>
+    <Gold>3</Gold>
+    <RequiredTool>7</RequiredTool>
+    <Material id="2448" count="1" />
+    <Material id="10" count="0" />
+    <Product id="1" rate="10064402" count="85" />
+    <Product id="1" rate="10064403" count="5" />
+  </Synthese>
+  <Synthese>
+    <ID>1835</ID>
+    <SkillID>5</SkillID>
+    <SkillLv>10</SkillLv>
+    <Gold>3</Gold>
+    <RequiredTool>7</RequiredTool>
+    <Material id="2448" count="1" />
+    <Material id="10" count="0" />
+    <Product id="1" rate="10064402" count="85" />
+    <Product id="1" rate="10064403" count="5" />
+  </Synthese>
+  <Synthese>
+    <ID>1836</ID>
+    <SkillID>5</SkillID>
+    <SkillLv>10</SkillLv>
+    <Gold>3</Gold>
+    <RequiredTool>7</RequiredTool>
+    <Material id="2448" count="1" />
+    <Material id="10" count="0" />
+    <Product id="1" rate="10064402" count="85" />
+    <Product id="1" rate="10064403" count="5" />
+  </Synthese>
+  <Synthese>
+    <ID>1837</ID>
+    <SkillID>5</SkillID>
+    <SkillLv>10</SkillLv>
+    <Gold>3</Gold>
+    <RequiredTool>7</RequiredTool>
+    <Material id="2448" count="1" />
+    <Material id="10" count="0" />
+    <Product id="1" rate="10064402" count="85" />
+    <Product id="1" rate="10064403" count="5" />
+  </Synthese>
+  <Synthese>
+    <ID>1838</ID>
+    <SkillID>5</SkillID>
+    <SkillLv>10</SkillLv>
+    <Gold>3</Gold>
+    <RequiredTool>7</RequiredTool>
+    <Material id="2448" count="1" />
+    <Material id="10" count="0" />
+    <Product id="1" rate="10064400" count="85" />
+    <Product id="1" rate="10064402" count="5" />
+  </Synthese>
+  <Synthese>
+    <ID>1839</ID>
+    <SkillID>5</SkillID>
+    <SkillLv>10</SkillLv>
+    <Gold>3</Gold>
+    <RequiredTool>7</RequiredTool>
+    <Material id="2448" count="1" />
+    <Material id="10" count="0" />
+    <Product id="1" rate="10064400" count="85" />
+    <Product id="1" rate="10064402" count="5" />
+  </Synthese>
+  <Synthese>
+    <ID>1840</ID>
+    <SkillID>5</SkillID>
+    <SkillLv>10</SkillLv>
+    <Gold>3</Gold>
+    <RequiredTool>7</RequiredTool>
+    <Material id="2448" count="1" />
+    <Material id="10" count="0" />
+    <Product id="1" rate="10064400" count="85" />
+    <Product id="1" rate="10064402" count="5" />
+  </Synthese>
+  <Synthese>
+    <ID>1841</ID>
+    <SkillID>5</SkillID>
+    <SkillLv>10</SkillLv>
+    <Gold>3</Gold>
+    <RequiredTool>7</RequiredTool>
+    <Material id="2448" count="1" />
+    <Material id="10" count="0" />
+    <Product id="1" rate="10064400" count="85" />
+    <Product id="1" rate="10064402" count="5" />
+  </Synthese>
+  <Synthese>
+    <ID>1842</ID>
+    <SkillID>5</SkillID>
+    <SkillLv>10</SkillLv>
+    <Gold>3</Gold>
+    <RequiredTool>7</RequiredTool>
+    <Material id="2448" count="1" />
+    <Material id="10" count="0" />
+    <Product id="1" rate="10064404" count="85" />
+    <Product id="1" rate="10064400" count="5" />
+  </Synthese>
+  <Synthese>
+    <ID>1843</ID>
+    <SkillID>5</SkillID>
+    <SkillLv>10</SkillLv>
+    <Gold>3</Gold>
+    <RequiredTool>7</RequiredTool>
+    <Material id="2448" count="1" />
+    <Material id="10" count="0" />
+    <Product id="1" rate="10064404" count="85" />
+    <Product id="1" rate="10064400" count="5" />
+  </Synthese>
+  <Synthese>
+    <ID>1844</ID>
+    <SkillID>5</SkillID>
+    <SkillLv>10</SkillLv>
+    <Gold>3</Gold>
+    <RequiredTool>7</RequiredTool>
+    <Material id="2448" count="1" />
+    <Material id="10" count="0" />
+    <Product id="1" rate="10064404" count="85" />
+    <Product id="1" rate="10064400" count="5" />
+  </Synthese>
+  <Synthese>
+    <ID>1845</ID>
+    <SkillID>5</SkillID>
+    <SkillLv>10</SkillLv>
+    <Gold>3</Gold>
+    <RequiredTool>7</RequiredTool>
+    <Material id="2448" count="1" />
+    <Material id="10" count="0" />
+    <Product id="1" rate="10064404" count="85" />
+    <Product id="1" rate="10064400" count="5" />
+  </Synthese>
+  <Synthese>
+    <ID>1846</ID>
+    <SkillID>5</SkillID>
+    <SkillLv>10</SkillLv>
+    <Gold>3</Gold>
+    <RequiredTool>7</RequiredTool>
+    <Material id="2448" count="1" />
+    <Material id="10" count="0" />
+    <Product id="1" rate="10064404" count="85" />
+    <Product id="1" rate="10064400" count="5" />
+  </Synthese>
+  <Synthese>
+    <ID>1847</ID>
+    <SkillID>5</SkillID>
+    <SkillLv>10</SkillLv>
+    <Gold>3</Gold>
+    <RequiredTool>7</RequiredTool>
+    <Material id="2448" count="1" />
+    <Material id="10" count="0" />
+    <Product id="1" rate="10064404" count="85" />
+    <Product id="1" rate="10064400" count="5" />
+  </Synthese>
+  <Synthese>
+    <ID>1848</ID>
+    <SkillID>5</SkillID>
+    <SkillLv>10</SkillLv>
+    <Gold>3</Gold>
+    <RequiredTool>7</RequiredTool>
+    <Material id="2448" count="1" />
+    <Material id="10" count="0" />
+    <Product id="1" rate="10064404" count="85" />
+    <Product id="1" rate="10064400" count="5" />
+  </Synthese>
+  <Synthese>
+    <ID>1849</ID>
+    <SkillID>5</SkillID>
+    <SkillLv>10</SkillLv>
+    <Gold>3</Gold>
+    <RequiredTool>7</RequiredTool>
+    <Material id="2448" count="1" />
+    <Material id="10" count="0" />
+    <Product id="1" rate="10064404" count="85" />
+    <Product id="1" rate="10064400" count="5" />
+  </Synthese>
+  <Synthese>
+    <ID>1850</ID>
+    <SkillID>5</SkillID>
+    <SkillLv>10</SkillLv>
+    <Gold>3</Gold>
+    <RequiredTool>7</RequiredTool>
+    <Material id="2448" count="1" />
+    <Material id="10" count="0" />
+    <Product id="1" rate="10064404" count="85" />
+    <Product id="1" rate="10064400" count="5" />
+  </Synthese>
+  <Synthese>
+    <ID>1851</ID>
+    <SkillID>5</SkillID>
+    <SkillLv>10</SkillLv>
+    <Gold>3</Gold>
+    <RequiredTool>7</RequiredTool>
+    <Material id="2448" count="1" />
+    <Material id="10" count="0" />
+    <Product id="1" rate="10064404" count="85" />
+    <Product id="1" rate="10064400" count="5" />
+  </Synthese>
+  <Synthese>
+    <ID>1852</ID>
+    <SkillID>5</SkillID>
+    <SkillLv>10</SkillLv>
+    <Gold>3</Gold>
+    <RequiredTool>7</RequiredTool>
+    <Material id="2448" count="1" />
+    <Material id="10" count="0" />
+    <Product id="1" rate="10064404" count="85" />
+    <Product id="1" rate="10064400" count="5" />
+  </Synthese>
+  <Synthese>
+    <ID>1853</ID>
+    <SkillID>5</SkillID>
+    <SkillLv>10</SkillLv>
+    <Gold>3</Gold>
+    <RequiredTool>7</RequiredTool>
+    <Material id="2448" count="1" />
+    <Material id="10" count="0" />
+    <Product id="1" rate="10064404" count="85" />
+    <Product id="1" rate="10064400" count="5" />
+  </Synthese>
+  <!--イリスカード（スキルスロット拡張素材 2001～2099）,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,-->
+  <Synthese>
+    <ID>2004</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2051" count="1" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="0" count="100" />
+  </Synthese>
+  <Synthese>
+    <ID>2005</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2051" count="2" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="0" count="100" />
+  </Synthese>
+  <Synthese>
+    <ID>2006</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2051" count="3" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="0" count="100" />
+  </Synthese>
+  <Synthese>
+    <ID>2007</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2020" count="1" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="0" count="100" />
+  </Synthese>
+  <Synthese>
+    <ID>2008</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2020" count="2" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="0" count="100" />
+  </Synthese>
+  <Synthese>
+    <ID>2009</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2020" count="3" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="0" count="100" />
+  </Synthese>
+  <Synthese>
+    <ID>2010</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2022" count="1" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="0" count="100" />
+  </Synthese>
+  <Synthese>
+    <ID>2011</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2022" count="2" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="0" count="100" />
+  </Synthese>
+  <Synthese>
+    <ID>2012</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2022" count="3" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="0" count="100" />
+  </Synthese>
+  <Synthese>
+    <ID>2013</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2051" count="2" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="0" count="100" />
+  </Synthese>
+  <Synthese>
+    <ID>2014</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2051" count="3" />
+    <Material id="5" count="0" />
+    <Product id="1" rate="0" count="100" />
+  </Synthese>
+  <Synthese>
+    <ID>2015</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2020" count="2" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="0" count="100" />
+  </Synthese>
+  <Synthese>
+    <ID>2016</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2020" count="3" />
+    <Material id="5" count="0" />
+    <Product id="1" rate="0" count="100" />
+  </Synthese>
+  <Synthese>
+    <ID>2017</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2022" count="2" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="0" count="100" />
+  </Synthese>
+  <Synthese>
+    <ID>2018</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2022" count="3" />
+    <Material id="5" count="0" />
+    <Product id="1" rate="0" count="100" />
+  </Synthese>
+  <!--アイテム精製LV1～3（2200～2299）,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,-->
+  <Synthese>
+    <ID>2231</ID>
+    <SkillID>4</SkillID>
+    <SkillLv>9</SkillLv>
+    <Gold>3</Gold>
+    <RequiredTool>7</RequiredTool>
+    <Material id="2009" count="3" />
+    <Material id="1" count="0" />
+    <Product id="3" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>2232</ID>
+    <SkillID>4</SkillID>
+    <SkillLv>9</SkillLv>
+    <Gold>3</Gold>
+    <RequiredTool>7</RequiredTool>
+    <Material id="2009" count="3" />
+    <Material id="1" count="0" />
+    <Product id="10" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>2233</ID>
+    <SkillID>4</SkillID>
+    <SkillLv>9</SkillLv>
+    <Gold>3</Gold>
+    <RequiredTool>7</RequiredTool>
+    <Material id="2009" count="3" />
+    <Material id="1" count="0" />
+    <Product id="3" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>2234</ID>
+    <SkillID>4</SkillID>
+    <SkillLv>9</SkillLv>
+    <Gold>3</Gold>
+    <RequiredTool>7</RequiredTool>
+    <Material id="2009" count="3" />
+    <Material id="1" count="0" />
+    <Product id="10" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>2239</ID>
+    <SkillID>3</SkillID>
+    <SkillLv>8</SkillLv>
+    <Gold>2</Gold>
+    <RequiredTool>6</RequiredTool>
+    <Material id="2009" count="3" />
+    <Material id="1" count="0" />
+    <Product id="5" rate="10001250" count="90" />
+    <Product id="1" rate="0" count="10" />
+  </Synthese>
+  <Synthese>
+    <ID>2240</ID>
+    <SkillID>5</SkillID>
+    <SkillLv>10</SkillLv>
+    <Gold>8</Gold>
+    <RequiredTool>13</RequiredTool>
+    <Material id="2009" count="1" />
+    <Material id="1" count="0" />
+    <Product id="10" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>2251</ID>
+    <SkillID>5</SkillID>
+    <SkillLv>10</SkillLv>
+    <Gold>8</Gold>
+    <RequiredTool>13</RequiredTool>
+    <Material id="2009" count="3" />
+    <Material id="1" count="0" />
+    <Product id="3" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>2252</ID>
+    <SkillID>5</SkillID>
+    <SkillLv>10</SkillLv>
+    <Gold>8</Gold>
+    <RequiredTool>13</RequiredTool>
+    <Material id="2009" count="3" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>2253</ID>
+    <SkillID>4</SkillID>
+    <SkillLv>9</SkillLv>
+    <Gold>3</Gold>
+    <RequiredTool>7</RequiredTool>
+    <Material id="2009" count="3" />
+    <Material id="2" count="0" />
+    <Product id="3" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>2254</ID>
+    <SkillID>4</SkillID>
+    <SkillLv>9</SkillLv>
+    <Gold>3</Gold>
+    <RequiredTool>7</RequiredTool>
+    <Material id="2009" count="3" />
+    <Material id="2" count="0" />
+    <Product id="10" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>2255</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2009" count="3" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>2256</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2009" count="3" />
+    <Material id="1" count="0" />
+    <Product id="3" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>2257</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2009" count="3" />
+    <Material id="1" count="0" />
+    <Product id="10" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>2258</ID>
+    <SkillID>5</SkillID>
+    <SkillLv>10</SkillLv>
+    <Gold>8</Gold>
+    <RequiredTool>13</RequiredTool>
+    <Material id="2009" count="3" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>2259</ID>
+    <SkillID>5</SkillID>
+    <SkillLv>10</SkillLv>
+    <Gold>8</Gold>
+    <RequiredTool>13</RequiredTool>
+    <Material id="2009" count="3" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>2264</ID>
+    <SkillID>5</SkillID>
+    <SkillLv>10</SkillLv>
+    <Gold>8</Gold>
+    <RequiredTool>13</RequiredTool>
+    <Material id="2009" count="3" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>2265</ID>
+    <SkillID>5</SkillID>
+    <SkillLv>10</SkillLv>
+    <Gold>8</Gold>
+    <RequiredTool>13</RequiredTool>
+    <Material id="2009" count="3" />
+    <Material id="3" count="0" />
+    <Product id="1" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <!--薬品製作LV1～5（2300～2399）,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,-->
+  <Synthese>
+    <ID>2300</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2022" count="1" />
+    <Material id="5" count="0" />
+    <Product id="1" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <!--ユニオンペット餌（2400～2499）,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,-->
+  <Synthese>
+    <ID>2404</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2040" count="1" />
+    <Material id="6" count="0" />
+    <Product id="1" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>2405</ID>
+    <SkillID>2</SkillID>
+    <SkillLv>7</SkillLv>
+    <Gold>2</Gold>
+    <RequiredTool>6</RequiredTool>
+    <Material id="2040" count="1" />
+    <Material id="6" count="0" />
+    <Product id="1" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>2406</ID>
+    <SkillID>2</SkillID>
+    <SkillLv>7</SkillLv>
+    <Gold>2</Gold>
+    <RequiredTool>6</RequiredTool>
+    <Material id="2040" count="1" />
+    <Material id="6" count="0" />
+    <Product id="1" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>2407</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2040" count="1" />
+    <Material id="12" count="0" />
+    <Product id="1" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>2408</ID>
+    <SkillID>2</SkillID>
+    <SkillLv>7</SkillLv>
+    <Gold>2</Gold>
+    <RequiredTool>6</RequiredTool>
+    <Material id="2040" count="1" />
+    <Material id="12" count="0" />
+    <Product id="1" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>2409</ID>
+    <SkillID>2</SkillID>
+    <SkillLv>7</SkillLv>
+    <Gold>2</Gold>
+    <RequiredTool>6</RequiredTool>
+    <Material id="2040" count="1" />
+    <Material id="12" count="0" />
+    <Product id="1" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>2410</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2040" count="1" />
+    <Material id="48" count="0" />
+    <Product id="1" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>2411</ID>
+    <SkillID>2</SkillID>
+    <SkillLv>7</SkillLv>
+    <Gold>2</Gold>
+    <RequiredTool>6</RequiredTool>
+    <Material id="2040" count="1" />
+    <Material id="48" count="0" />
+    <Product id="1" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>2412</ID>
+    <SkillID>2</SkillID>
+    <SkillLv>7</SkillLv>
+    <Gold>2</Gold>
+    <RequiredTool>6</RequiredTool>
+    <Material id="2040" count="1" />
+    <Material id="48" count="0" />
+    <Product id="1" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>2418</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2040" count="2" />
+    <Material id="6" count="0" />
+    <Product id="1" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>2419</ID>
+    <SkillID>2</SkillID>
+    <SkillLv>7</SkillLv>
+    <Gold>2</Gold>
+    <RequiredTool>6</RequiredTool>
+    <Material id="2040" count="2" />
+    <Material id="6" count="0" />
+    <Product id="1" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>2420</ID>
+    <SkillID>2</SkillID>
+    <SkillLv>7</SkillLv>
+    <Gold>2</Gold>
+    <RequiredTool>6</RequiredTool>
+    <Material id="2040" count="2" />
+    <Material id="6" count="0" />
+    <Product id="1" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>2421</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2040" count="2" />
+    <Material id="12" count="0" />
+    <Product id="1" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>2422</ID>
+    <SkillID>2</SkillID>
+    <SkillLv>7</SkillLv>
+    <Gold>2</Gold>
+    <RequiredTool>6</RequiredTool>
+    <Material id="2040" count="2" />
+    <Material id="12" count="0" />
+    <Product id="1" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>2423</ID>
+    <SkillID>2</SkillID>
+    <SkillLv>7</SkillLv>
+    <Gold>2</Gold>
+    <RequiredTool>6</RequiredTool>
+    <Material id="2040" count="2" />
+    <Material id="12" count="0" />
+    <Product id="1" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>2424</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2040" count="2" />
+    <Material id="48" count="0" />
+    <Product id="1" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>2425</ID>
+    <SkillID>2</SkillID>
+    <SkillLv>7</SkillLv>
+    <Gold>2</Gold>
+    <RequiredTool>6</RequiredTool>
+    <Material id="2040" count="2" />
+    <Material id="48" count="0" />
+    <Product id="1" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>2426</ID>
+    <SkillID>2</SkillID>
+    <SkillLv>7</SkillLv>
+    <Gold>2</Gold>
+    <RequiredTool>6</RequiredTool>
+    <Material id="2040" count="2" />
+    <Material id="48" count="0" />
+    <Product id="1" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>2431</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2040" count="3" />
+    <Material id="6" count="0" />
+    <Product id="1" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>2432</ID>
+    <SkillID>2</SkillID>
+    <SkillLv>7</SkillLv>
+    <Gold>2</Gold>
+    <RequiredTool>6</RequiredTool>
+    <Material id="2040" count="3" />
+    <Material id="6" count="0" />
+    <Product id="1" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>2433</ID>
+    <SkillID>2</SkillID>
+    <SkillLv>7</SkillLv>
+    <Gold>2</Gold>
+    <RequiredTool>6</RequiredTool>
+    <Material id="2040" count="3" />
+    <Material id="6" count="0" />
+    <Product id="1" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>2434</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2040" count="3" />
+    <Material id="24" count="0" />
+    <Product id="1" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>2435</ID>
+    <SkillID>2</SkillID>
+    <SkillLv>7</SkillLv>
+    <Gold>2</Gold>
+    <RequiredTool>6</RequiredTool>
+    <Material id="2040" count="3" />
+    <Material id="24" count="0" />
+    <Product id="1" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>2436</ID>
+    <SkillID>2</SkillID>
+    <SkillLv>7</SkillLv>
+    <Gold>2</Gold>
+    <RequiredTool>6</RequiredTool>
+    <Material id="2040" count="3" />
+    <Material id="24" count="0" />
+    <Product id="1" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>2440</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2040" count="4" />
+    <Material id="6" count="0" />
+    <Product id="1" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>2441</ID>
+    <SkillID>2</SkillID>
+    <SkillLv>7</SkillLv>
+    <Gold>2</Gold>
+    <RequiredTool>6</RequiredTool>
+    <Material id="2040" count="4" />
+    <Material id="6" count="0" />
+    <Product id="1" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>2442</ID>
+    <SkillID>2</SkillID>
+    <SkillLv>7</SkillLv>
+    <Gold>2</Gold>
+    <RequiredTool>6</RequiredTool>
+    <Material id="2040" count="4" />
+    <Material id="6" count="0" />
+    <Product id="1" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>2443</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2040" count="4" />
+    <Material id="24" count="0" />
+    <Product id="1" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>2444</ID>
+    <SkillID>2</SkillID>
+    <SkillLv>7</SkillLv>
+    <Gold>2</Gold>
+    <RequiredTool>6</RequiredTool>
+    <Material id="2040" count="4" />
+    <Material id="24" count="0" />
+    <Product id="1" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>2445</ID>
+    <SkillID>2</SkillID>
+    <SkillLv>7</SkillLv>
+    <Gold>2</Gold>
+    <RequiredTool>6</RequiredTool>
+    <Material id="2040" count="4" />
+    <Material id="24" count="0" />
+    <Product id="1" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>2451</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2040" count="5" />
+    <Material id="6" count="0" />
+    <Product id="1" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>2452</ID>
+    <SkillID>2</SkillID>
+    <SkillLv>7</SkillLv>
+    <Gold>2</Gold>
+    <RequiredTool>6</RequiredTool>
+    <Material id="2040" count="5" />
+    <Material id="6" count="0" />
+    <Product id="1" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>2453</ID>
+    <SkillID>2</SkillID>
+    <SkillLv>7</SkillLv>
+    <Gold>2</Gold>
+    <RequiredTool>6</RequiredTool>
+    <Material id="2040" count="5" />
+    <Material id="6" count="0" />
+    <Product id="1" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>2454</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2040" count="5" />
+    <Material id="12" count="0" />
+    <Product id="1" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>2455</ID>
+    <SkillID>2</SkillID>
+    <SkillLv>7</SkillLv>
+    <Gold>2</Gold>
+    <RequiredTool>6</RequiredTool>
+    <Material id="2040" count="5" />
+    <Material id="12" count="0" />
+    <Product id="1" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>2456</ID>
+    <SkillID>2</SkillID>
+    <SkillLv>7</SkillLv>
+    <Gold>2</Gold>
+    <RequiredTool>6</RequiredTool>
+    <Material id="2040" count="5" />
+    <Material id="12" count="0" />
+    <Product id="1" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>2461</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2040" count="5" />
+    <Material id="6" count="0" />
+    <Product id="1" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>2462</ID>
+    <SkillID>2</SkillID>
+    <SkillLv>7</SkillLv>
+    <Gold>2</Gold>
+    <RequiredTool>6</RequiredTool>
+    <Material id="2040" count="5" />
+    <Material id="6" count="0" />
+    <Product id="1" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>2463</ID>
+    <SkillID>2</SkillID>
+    <SkillLv>7</SkillLv>
+    <Gold>2</Gold>
+    <RequiredTool>6</RequiredTool>
+    <Material id="2040" count="5" />
+    <Material id="6" count="0" />
+    <Product id="1" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>2464</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2040" count="5" />
+    <Material id="12" count="0" />
+    <Product id="1" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>2465</ID>
+    <SkillID>2</SkillID>
+    <SkillLv>7</SkillLv>
+    <Gold>2</Gold>
+    <RequiredTool>6</RequiredTool>
+    <Material id="2040" count="5" />
+    <Material id="12" count="0" />
+    <Product id="1" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>2466</ID>
+    <SkillID>2</SkillID>
+    <SkillLv>7</SkillLv>
+    <Gold>2</Gold>
+    <RequiredTool>6</RequiredTool>
+    <Material id="2040" count="5" />
+    <Material id="12" count="0" />
+    <Product id="1" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>2470</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2040" count="5" />
+    <Material id="6" count="0" />
+    <Product id="1" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>2471</ID>
+    <SkillID>2</SkillID>
+    <SkillLv>7</SkillLv>
+    <Gold>2</Gold>
+    <RequiredTool>6</RequiredTool>
+    <Material id="2040" count="5" />
+    <Material id="6" count="0" />
+    <Product id="1" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <Synthese>
+    <ID>2472</ID>
+    <SkillID>2</SkillID>
+    <SkillLv>7</SkillLv>
+    <Gold>2</Gold>
+    <RequiredTool>6</RequiredTool>
+    <Material id="2040" count="5" />
+    <Material id="6" count="0" />
+    <Product id="1" rate="10001250" count="99" />
+    <Product id="1" rate="0" count="1" />
+  </Synthese>
+  <!--料理LV1～5（2500～2519）,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,-->
+  <Synthese>
+    <ID>2519</ID>
+    <SkillID>1</SkillID>
+    <SkillLv>5</SkillLv>
+    <Gold>1</Gold>
+    <RequiredTool>5</RequiredTool>
+    <Material id="2040" count="1" />
+    <Material id="1" count="0" />
+    <Product id="1" rate="0" count="100" />
+  </Synthese>
+</SyntheseDB>

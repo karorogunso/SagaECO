@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Flag:0c25-->
+<QuestDB GroupID="5">
+  <Quest>
+    <!--北軍守衛-->
+    <ID>10000008</ID>
+    <Name>击退皮露露！(Lv 1)</Name>
+    <Type>HUNT</Type>
+    <Time>60</Time>
+    <RewardItem>0</RewardItem>
+    <RewardCount>0</RewardCount>
+    <RequiredQuestPoints>1</RequiredQuestPoints>
+    <DungeonID>0</DungeonID>
+    <MinLV>255</MinLV>
+    <MaxLv>255</MaxLv>
+    <Job>NONE</Job>
+    <JobType>NOVICE</JobType>
+    <Race>NONE</Race>
+    <Gender>NONE</Gender>
+    <!--Detail Information-->
+    <!--北軍プルル-->
+    <EXP>55</EXP>
+    <JEXP>55</JEXP>
+    <Gold>80</Gold>
+    <Fame>3</Fame>
+    <MapID1>10014000</MapID1>
+    <ObjectID1>10000000</ObjectID1>
+    <Count1>5</Count1>
+    <Party>False</Party>
+  </Quest>
+</QuestDB>

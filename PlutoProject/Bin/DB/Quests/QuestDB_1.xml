@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Flag:0c19-->
+<QuestDB GroupID="1">
+  <Quest>
+    <!--酒屋-->
+    <ID>10000001</ID>
+    <Name>擊退城東的皮露露(Lv 1)</Name>
+    <Type>HUNT</Type>
+    <Time>60</Time>
+    <RewardItem>60060000</RewardItem>
+    <RewardCount>1</RewardCount>
+    <RequiredQuestPoints>1</RequiredQuestPoints>
+    <DungeonID>0</DungeonID>
+    <MinLV>255</MinLV>
+    <MaxLv>255</MaxLv>
+    <Job>NONE</Job>
+    <JobType>NOVICE</JobType>
+    <Race>NONE</Race>
+    <Gender>NONE</Gender>
+    <!--Detail Information-->
+    <!--東プルル-->
+    <EXP>55</EXP>
+    <JEXP>55</JEXP>
+    <Gold>80</Gold>
+    <Fame>1</Fame>
+    <MapID1>10025000</MapID1>
+    <ObjectID1>10000000</ObjectID1>
+    <Count1>5</Count1>
+    <Party>False</Party>
+  </Quest>
+  <Quest>
+    <!--酒屋-->
+    <ID>10000002</ID>
+    <Name>擊退城西的皮露露(Lv 1)</Name>
+    <Type>HUNT</Type>
+    <Time>60</Time>
+    <RewardItem>60060000</RewardItem>
+    <RewardCount>1</RewardCount>
+    <RequiredQuestPoints>1</RequiredQuestPoints>
+    <DungeonID>0</DungeonID>
+    <MinLV>255</MinLV>
+    <MaxLv>255</MaxLv>
+    <Job>NONE</Job>
+    <JobType>NOVICE</JobType>
+    <Race>NONE</Race>
+    <Gender>NONE</Gender>
+    <!--Detail Information-->
+    <!--西プルル-->
+    <EXP>55</EXP>
+    <JEXP>55</JEXP>
+    <Gold>80</Gold>
+    <Fame>1</Fame>
+    <MapID1>10022000</MapID1>
+    <ObjectID1>10000000</ObjectID1>
+    <Count1>5</Count1>
+    <Party>False</Party>
+  </Quest>
+  <Quest>
+    <!--酒屋-->
+    <ID>10000003</ID>
+    <Name>擊退城南的皮露露(Lv 1)</Name>
+    <Type>HUNT</Type>
+    <Time>60</Time>
+    <RewardItem>60060000</RewardItem>
+    <RewardCount>1</RewardCount>
+    <RequiredQuestPoints>1</RequiredQuestPoints>
+    <DungeonID>0</DungeonID>
+    <MinLV>255</MinLV>
+    <MaxLv>255</MaxLv>
+    <Job>NONE</Job>
+    <JobType>NOVICE</JobType>
+    <Race>NONE</Race>
+    <Gender>NONE</Gender>
+    <!--Detail Information-->
+    <!--南プルル-->
+    <EXP>55</EXP>
+    <JEXP>55</JEXP>
+    <Gold>80</Gold>
+    <Fame>1</Fame>
+    <MapID1>10031000</MapID1>
+    <ObjectID1>10000000</ObjectID1>
+    <Count1>5</Count1>
+    <Party>False</Party>
+  </Quest>
+  <Quest>
+    <!--酒屋-->
+    <ID>10000004</ID>
+    <Name>擊退城北的皮露露(Lv 1)</Name>
+    <Type>HUNT</Type>
+    <Time>60</Time>
+    <RewardItem>60060000</RewardItem>
+    <RewardCount>1</RewardCount>
+    <RequiredQuestPoints>1</RequiredQuestPoints>
+    <DungeonID>0</DungeonID>
+    <MinLV>255</MinLV>
+    <MaxLv>255</MaxLv>
+    <Job>NONE</Job>
+    <JobType>NOVICE</JobType>
+    <Race>NONE</Race>
+    <Gender>NONE</Gender>
+    <!--Detail Information-->
+    <!--北プルル-->
+    <EXP>55</EXP>
+    <JEXP>55</JEXP>
+    <Gold>80</Gold>
+    <Fame>1</Fame>
+    <MapID1>10014000</MapID1>
+    <ObjectID1>10000000</ObjectID1>
+    <Count1>5</Count1>
+    <Party>False</Party>
+  </Quest>
+</QuestDB>

@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Flag:0c75-->
+<QuestDB GroupID="39">
+  <Quest>
+    <!--ブラッド-->
+    <ID>10032014</ID>
+    <Name>探索詩篇（隊伍）(Lv ?)</Name>
+    <Type>HUNT</Type>
+    <Time>180</Time>
+    <RewardItem>0</RewardItem>
+    <RewardCount>0</RewardCount>
+    <RequiredQuestPoints>0</RequiredQuestPoints>
+    <DungeonID>40</DungeonID>
+    <MinLV>255</MinLV>
+    <MaxLv>255</MaxLv>
+    <Job>NONE</Job>
+    <JobType>NOVICE</JobType>
+    <Race>NONE</Race>
+    <Gender>NONE</Gender>
+    <!--Detail Information-->
+    <!--ブラッドイベント-->
+    <EXP>0</EXP>
+    <JEXP>0</JEXP>
+    <Gold>0</Gold>
+    <Fame>1</Fame>
+    <MapID1>60000000</MapID1>
+    <ObjectID1>26340000</ObjectID1>
+    <Count1>1</Count1>
+    <Party>True</Party>
+  </Quest>
+  <Quest>
+    <!--ブラッド-->
+    <ID>10032015</ID>
+    <Name>討伐獨行白狼（隊伍）(Lv ?)</Name>
+    <Type>HUNT</Type>
+    <Time>120</Time>
+    <RewardItem>10005400</RewardItem>
+    <RewardCount>1</RewardCount>
+    <RequiredQuestPoints>1</RequiredQuestPoints>
+    <DungeonID>42</DungeonID>
+    <MinLV>255</MinLV>
+    <MaxLv>255</MaxLv>
+    <Job>NONE</Job>
+    <JobType>NOVICE</JobType>
+    <Race>NONE</Race>
+    <Gender>NONE</Gender>
+    <!--Detail Information-->
+    <!--ブラッドイベント（はぐれ白狼）-->
+    <EXP>100</EXP>
+    <JEXP>100</JEXP>
+    <Gold>0</Gold>
+    <Fame>1</Fame>
+    <MapID1>60000000</MapID1>
+    <ObjectID1>10136001</ObjectID1>
+    <Count1>1</Count1>
+    <Party>True</Party>
+  </Quest>
+  <Quest>
+    <!--2007年2月23日実装、外伝コミック第5話連動イベント用-->
+    <ID>10032026</ID>
+    <Name>挑戰！破壞MkII !（隊伍）(Lv ?)</Name>
+    <Type>HUNT</Type>
+    <Time>-1</Time>
+    <RewardItem>0</RewardItem>
+    <RewardCount>0</RewardCount>
+    <RequiredQuestPoints>0</RequiredQuestPoints>
+    <DungeonID>0</DungeonID>
+    <MinLV>255</MinLV>
+    <MaxLv>255</MaxLv>
+    <Job>NONE</Job>
+    <JobType>NOVICE</JobType>
+    <Race>NONE</Race>
+    <Gender>NONE</Gender>
+    <!--Detail Information-->
+    <!--挑め！ブリキングMkII！(party可)-->
+    <EXP>0</EXP>
+    <JEXP>0</JEXP>
+    <Gold>0</Gold>
+    <Fame>1</Fame>
+    <MapID1>10043000</MapID1>
+    <ObjectID1>10500000</ObjectID1>
+    <Count1>1</Count1>
+    <Party>True</Party>
+  </Quest>
+</QuestDB>

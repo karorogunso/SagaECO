@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Flag:0c16-->
+<QuestDB GroupID="255">
+  <Quest>
+    <!--YY-->
+    <ID>25500001</ID>
+    <Name>击退白色的龙(队伍)(Lv 80)</Name>
+    <Type>HUNT</Type>
+    <Time>900</Time>
+    <RewardItem>10021600</RewardItem>
+    <RewardCount>1</RewardCount>
+    <RequiredQuestPoints>0</RequiredQuestPoints>
+    <DungeonID>0</DungeonID>
+    <MinLV>80</MinLV>
+    <MaxLv>255</MaxLv>
+    <!--90武器-->
+    <!--90武器-->
+    <EXP>0</EXP>
+    <JEXP>0</JEXP>
+    <Gold>0</Gold>
+    <Fame>1</Fame>
+    <ObjectID1>14110000</ObjectID1>
+    <Count1>1</Count1>
+    <Party>True</Party>
+  </Quest>
+</QuestDB>

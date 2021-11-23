@@ -1,0 +1,9 @@
+C:\Saga\SagaECO\Tools\MapFlagsConfig\bin\Debug\MAP.exe
+C:\Saga\SagaECO\Tools\MapFlagsConfig\bin\Debug\MAP.pdb
+C:\Saga\SagaECO\Tools\MapFlagsConfig\obj\Debug\ResolveAssemblyReference.cache
+C:\Saga\SagaECO\Tools\MapFlagsConfig\obj\Debug\MAP.Form1.resources
+C:\Saga\SagaECO\Tools\MapFlagsConfig\obj\Debug\MAP.Properties.Resources.resources
+C:\Saga\SagaECO\Tools\MapFlagsConfig\obj\Debug\ResGen.read.1.tlog
+C:\Saga\SagaECO\Tools\MapFlagsConfig\obj\Debug\ResGen.write.1.tlog
+C:\Saga\SagaECO\Tools\MapFlagsConfig\obj\Debug\MAP.exe
+C:\Saga\SagaECO\Tools\MapFlagsConfig\obj\Debug\MAP.pdb

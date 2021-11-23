@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Actors>
+  <!--Type:
+	PC —— 普通玩家
+	SHOPPC —— 摆摊玩家
+	Event —— 事件
+	MOB —— 怪物
+	SKILL —— 技能
+	FI —— 家具
+	ITEM —— 物品
+	SHADOW —— 
+-->
+
+  <Actor Type="FI">
+    <MapID>30210000</MapID>
+    <ItemID>31168600</ItemID>
+    <PictID>0</PictID>
+    <x>-4768</x>
+    <y>200</y>
+    <z>4599</z>
+    <dir>3</dir>
+    <Xaxis>0</Xaxis>
+    <Yaxis>270</Yaxis>
+    <Zaxis>0</Zaxis>
+    <Motion>111</Motion>
+    <Name>ひな人形</Name>
+  </Actor>
+
+  <Actor Type="FI">
+    <MapID>30210000</MapID>
+    <ItemID>31064700</ItemID>
+    <PictID>0</PictID>
+    <x>-4141</x>
+    <y>0</y>
+    <z>4750</z>
+    <dir>3</dir>
+    <Xaxis>0</Xaxis>
+    <Yaxis>0</Yaxis>
+    <Zaxis>0</Zaxis>
+    <Motion>111</Motion>
+    <Name>BABYトルソー（ワンピース?白）</Name>
+  </Actor>
+
+  <Actor Type="FI">
+    <MapID>30210000</MapID>
+    <ItemID>31064701</ItemID>
+    <PictID>0</PictID>
+    <x>-4216</x>
+    <y>0</y>
+    <z>4750</z>
+    <dir>3</dir>
+    <Xaxis>0</Xaxis>
+    <Yaxis>0</Yaxis>
+    <Zaxis>0</Zaxis>
+    <Motion>111</Motion>
+    <Name>BABYトルソー（ワンピース?ピンク）</Name>
+  </Actor>
+
+  <Actor Type="FI">
+    <MapID>30210000</MapID>
+    <ItemID>31169100</ItemID>
+    <PictID>0</PictID>
+    <x>-4049</x>
+    <y>70</y>
+    <z>4770</z>
+    <dir>3</dir>
+    <Xaxis>0</Xaxis>
+    <Yaxis>0</Yaxis>
+    <Zaxis>0</Zaxis>
+    <Motion>111</Motion>
+    <Name>おみやげテディベア（薄茶）</Name>
+  </Actor>
+
+  <Actor Type="FI">
+    <MapID>30210000</MapID>
+    <ItemID>31101000</ItemID>
+    <PictID>0</PictID>
+    <x>-3428</x>
+    <y>0</y>
+    <z>1993</z>
+    <dir>3</dir>
+    <Xaxis>0</Xaxis>
+    <Yaxis>309</Yaxis>
+    <Zaxis>0</Zaxis>
+    <Motion>111</Motion>
+    <Name>樱花树</Name>
+  </Actor>
+</Actors>

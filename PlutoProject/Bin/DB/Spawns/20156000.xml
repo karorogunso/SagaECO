@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Spawns>
+  <spawn>
+    <!--フォックストロットＲ　          LV75-->
+    <id>10810100</id>
+    <map>20156000</map>
+    <x>32</x>
+    <y>25</y>
+    <amount>1</amount>
+    <range>16</range>
+    <delay>10</delay>
+  </spawn>
+  <spawn>
+    <!--フォックスハウンドG　         LV76-->
+    <id>10820500</id>
+    <map>20156000</map>
+    <x>32</x>
+    <y>25</y>
+    <amount>1</amount>
+    <range>16</range>
+    <delay>10</delay>
+  </spawn>
+  <spawn>
+    <!--ギガントC　                     LV77-->
+    <id>10831200</id>
+    <map>20156000</map>
+    <x>32</x>
+    <y>25</y>
+    <amount>1</amount>
+    <range>16</range>
+    <delay>10</delay>
+  </spawn>
+  <spawn>
+    <!--ガッテンガーΣ　              LV80-->
+    <id>10850000</id>
+    <map>20156000</map>
+    <x>32</x>
+    <y>25</y>
+    <amount>1</amount>
+    <range>16</range>
+    <delay>900</delay>
+  </spawn>
+  <spawn>
+    <!--アンブレラ　　　　　　　　　　　LV79-->
+    <id>10860000</id>
+    <map>20156000</map>
+    <x>32</x>
+    <y>25</y>
+    <amount>1</amount>
+    <range>16</range>
+    <delay>360</delay>
+  </spawn>
+</Spawns>

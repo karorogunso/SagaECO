@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Flag:0c52-->
+<QuestDB GroupID="26">
+  <Quest>
+    <!--ヴェルデガルド-->
+    <ID>10031300</ID>
+    <Name>逃走的兔子（隊伍）(Lv 60)</Name>
+    <Type>HUNT</Type>
+    <Time>-1</Time>
+    <RewardItem>10022600</RewardItem>
+    <RewardCount>1</RewardCount>
+    <RequiredQuestPoints>3</RequiredQuestPoints>
+    <DungeonID>0</DungeonID>
+    <MinLV>60</MinLV>
+    <MaxLv>255</MaxLv>
+    <Job>NONE</Job>
+    <JobType>NOVICE</JobType>
+    <Race>NONE</Race>
+    <Gender>NONE</Gender>
+    <!--Detail Information-->
+    <!--逃げたうさぎ(party可)-->
+    <EXP>0</EXP>
+    <JEXP>0</JEXP>
+    <Gold>0</Gold>
+    <Fame>1</Fame>
+    <MapID1>20014000</MapID1>
+    <ObjectID1>10110201</ObjectID1>
+    <Count1>1</Count1>
+    <Party>True</Party>
+  </Quest>
+</QuestDB>

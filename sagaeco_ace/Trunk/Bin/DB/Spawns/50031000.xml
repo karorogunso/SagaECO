@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Spawns>
+  <spawn>
+    <!--放牧モンスターのティタ-->
+    <id>19010004</id>
+    <map>50031000</map>
+    <x>8</x>
+    <y>34</y>
+    <amount>1</amount>
+    <range>0</range>
+    <delay>10</delay>
+  </spawn>
+  <spawn>
+    <!--ＤＥＭ－００-->
+    <id>19070001</id>
+    <map>50031000</map>
+    <x>8</x>
+    <y>1</y>
+    <amount>1</amount>
+    <range>1</range>
+    <delay>690000</delay>
+  </spawn>
+</Spawns>

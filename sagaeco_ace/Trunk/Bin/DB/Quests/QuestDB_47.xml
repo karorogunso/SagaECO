@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Flag:0c09-->
+<QuestDB GroupID="47">
+  <Quest>
+    <!--少数民族-->
+    <ID>12020100</ID>
+    <Name>找一下树种子吧(Lv 19)</Name>
+    <Type>GATHER</Type>
+    <Time>1440</Time>
+    <RewardItem>0</RewardItem>
+    <RewardCount>0</RewardCount>
+    <RequiredQuestPoints>1</RequiredQuestPoints>
+    <DungeonID>0</DungeonID>
+    <MinLV>19</MinLV>
+    <MaxLv>35</MaxLv>
+    <Job>NONE</Job>
+    <JobType>NOVICE</JobType>
+    <Race>NONE</Race>
+    <Gender>NONE</Gender>
+    <!--Detail Information-->
+    <!--木の種-->
+    <EXP>2454</EXP>
+    <JEXP>2454</JEXP>
+    <Gold>1600</Gold>
+    <Fame>1</Fame>
+    <ObjectID1>10005610</ObjectID1>
+    <Count1>3</Count1>
+  </Quest>
+  <Quest>
+    <!--少数民族-->
+    <ID>12020101</ID>
+    <Name>请给我含有不明物体的宝石(Lv 24)</Name>
+    <Type>GATHER</Type>
+    <Time>1440</Time>
+    <RewardItem>0</RewardItem>
+    <RewardCount>0</RewardCount>
+    <RequiredQuestPoints>1</RequiredQuestPoints>
+    <DungeonID>0</DungeonID>
+    <MinLV>24</MinLV>
+    <MaxLv>40</MaxLv>
+    <Job>NONE</Job>
+    <JobType>NOVICE</JobType>
+    <Race>NONE</Race>
+    <Gender>NONE</Gender>
+    <!--Detail Information-->
+    <!--ナニカの入った宝石-->
+    <EXP>2996</EXP>
+    <JEXP>2996</JEXP>
+    <Gold>2000</Gold>
+    <Fame>1</Fame>
+    <ObjectID1>10011501</ObjectID1>
+    <Count1>1</Count1>
+  </Quest>
+  <Quest>
+    <!--少数民族-->
+    <ID>12020102</ID>
+    <Name>找磁石吧(Lv 19)</Name>
+    <Type>GATHER</Type>
+    <Time>1440</Time>
+    <RewardItem>0</RewardItem>
+    <RewardCount>0</RewardCount>
+    <RequiredQuestPoints>1</RequiredQuestPoints>
+    <DungeonID>0</DungeonID>
+    <MinLV>19</MinLV>
+    <MaxLv>35</MaxLv>
+    <Job>NONE</Job>
+    <JobType>NOVICE</JobType>
+    <Race>NONE</Race>
+    <Gender>NONE</Gender>
+    <!--Detail Information-->
+    <!--磁石-->
+    <EXP>2454</EXP>
+    <JEXP>2454</JEXP>
+    <Gold>1600</Gold>
+    <Fame>1</Fame>
+    <ObjectID1>10016900</ObjectID1>
+    <Count1>3</Count1>
+  </Quest>
+  <Quest>
+    <!--少数民族-->
+    <ID>12020103</ID>
+    <Name>找毒蜥蜴的尾巴吧(Lv 24)</Name>
+    <Type>GATHER</Type>
+    <Time>1440</Time>
+    <RewardItem>0</RewardItem>
+    <RewardCount>0</RewardCount>
+    <RequiredQuestPoints>1</RequiredQuestPoints>
+    <DungeonID>0</DungeonID>
+    <MinLV>24</MinLV>
+    <MaxLv>40</MaxLv>
+    <Job>NONE</Job>
+    <JobType>NOVICE</JobType>
+    <Race>NONE</Race>
+    <Gender>NONE</Gender>
+    <!--Detail Information-->
+    <!--サラマンドラの尻尾-->
+    <EXP>2996</EXP>
+    <JEXP>2996</JEXP>
+    <Gold>2000</Gold>
+    <Fame>1</Fame>
+    <ObjectID1>10035600</ObjectID1>
+    <Count1>1</Count1>
+  </Quest>
+  <Quest>
+    <!--少数民族-->
+    <ID>12020104</ID>
+    <Name>找缝制玩偶的布吧(Lv 24)</Name>
+    <Type>GATHER</Type>
+    <Time>1440</Time>
+    <RewardItem>0</RewardItem>
+    <RewardCount>0</RewardCount>
+    <RequiredQuestPoints>1</RequiredQuestPoints>
+    <DungeonID>0</DungeonID>
+    <MinLV>24</MinLV>
+    <MaxLv>40</MaxLv>
+    <Job>NONE</Job>
+    <JobType>NOVICE</JobType>
+    <Race>NONE</Race>
+    <Gender>NONE</Gender>
+    <!--Detail Information-->
+    <!--ぬいぐるみの生地-->
+    <EXP>2996</EXP>
+    <JEXP>2996</JEXP>
+    <Gold>2000</Gold>
+    <Fame>1</Fame>
+    <ObjectID1>10020208</ObjectID1>
+    <Count1>1</Count1>
+  </Quest>
+  <Quest>
+    <!--少数民族-->
+    <ID>12020105</ID>
+    <Name>找干鱼吧(Lv 19)</Name>
+    <Type>GATHER</Type>
+    <Time>1440</Time>
+    <RewardItem>0</RewardItem>
+    <RewardCount>0</RewardCount>
+    <RequiredQuestPoints>1</RequiredQuestPoints>
+    <DungeonID>0</DungeonID>
+    <MinLV>19</MinLV>
+    <MaxLv>35</MaxLv>
+    <Job>NONE</Job>
+    <JobType>NOVICE</JobType>
+    <Race>NONE</Race>
+    <Gender>NONE</Gender>
+    <!--Detail Information-->
+    <!--干し魚！-->
+    <EXP>2454</EXP>
+    <JEXP>2454</JEXP>
+    <Gold>1600</Gold>
+    <Fame>1</Fame>
+    <ObjectID1>10007400</ObjectID1>
+    <Count1>20</Count1>
+  </Quest>
+  <Quest>
+    <!--少数民族-->
+    <ID>12020106</ID>
+    <Name>找蛹吧(Lv 49)</Name>
+    <Type>GATHER</Type>
+    <Time>1440</Time>
+    <RewardItem>0</RewardItem>
+    <RewardCount>0</RewardCount>
+    <RequiredQuestPoints>1</RequiredQuestPoints>
+    <DungeonID>0</DungeonID>
+    <MinLV>49</MinLV>
+    <MaxLv>255</MaxLv>
+    <Job>NONE</Job>
+    <JobType>NOVICE</JobType>
+    <Race>NONE</Race>
+    <Gender>NONE</Gender>
+    <!--Detail Information-->
+    <!--さなぎをサガシテ！-->
+    <EXP>11311</EXP>
+    <JEXP>11311</JEXP>
+    <Gold>4000</Gold>
+    <Fame>1</Fame>
+    <ObjectID1>10034800</ObjectID1>
+    <Count1>1</Count1>
+  </Quest>
+</QuestDB>
