@@ -1,22 +1,10 @@
 SagaECO
 =======
 
-#Master branch#
+#Welcome to SagaECO#
 
-This Server file is Emil Chronicle Online and Need Some coder to help to fix this.
-This Project is C#
+Time to go wild. Let make SagaECO Open Source and Make ECO become Alive.
 
-I'm Upload this for need someone make the code.
-
-(SegaMap can't compile because...
-Error	1	Source file 'Network\Client\MapClient.Item.cs' could not be found	SagaECO\SagaMap\CSC	SagaMap
-)
-
-I not sure the version of this source code.. maybe it's 902 and Pull request is fine.
-
-and I want someone help to compile it for Linux Server (ex. Ubuntu Server) too.
- 
-Sorry for my bad english :(
 
 Remember "Pull Request is Fine."
 =======
