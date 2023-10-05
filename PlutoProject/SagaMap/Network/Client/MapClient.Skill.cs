@@ -444,6 +444,8 @@ namespace SagaMap.Network.Client
                 sActor.TInt["targetID"] = (int)dActor.ActorID;
                 //SendSystemMessage("锁定了【" + dActor.Name + "】作为目标");
                 //Character.AutoAttack = true;
+
+                this.Character.PartnerTartget = dActor; // Partner will follow the entity assigned to PartnerTarget.
             }
 
             if (needthread)

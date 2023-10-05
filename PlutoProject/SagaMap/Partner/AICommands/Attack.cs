@@ -44,6 +44,11 @@ namespace SagaMap.Partner.AICommands
                 ActorPartner partner = (ActorPartner)partnerai.Partner;
                 uint[] ids = new uint[partnerai.Hate.Keys.Count];
                 partnerai.Hate.Keys.CopyTo(ids, 0);
+                /*
+                 * This is redundant because the partner doesn't need to search the map, which could cause weird movements. 
+                 * The partner should only follow ActorPC or the target that ActorPC is attacking.
+          
+
                 for (uint i = 0; i < partnerai.Hate.Keys.Count; i++)//Find out the actorPC with the highest hate value
                 {
                     if (ids[i] == 0) continue;
@@ -73,6 +78,9 @@ namespace SagaMap.Partner.AICommands
                         active = true;
                     }
                 }
+                */
+
+                id = partner.Owner.ActorID;
 
                 if (partner.Owner.PartnerTartget != null && partner.ai_mode <= 1)
                 {
@@ -157,7 +165,7 @@ namespace SagaMap.Partner.AICommands
                     continue;
                 if (isSlavaOfPc && i.type == ActorType.PC)
                     continue;
-                if(isSlavaOfPc && i.type == ActorType.MOB)
+                if (isSlavaOfPc && i.type == ActorType.MOB)
                 {
                     ActorEventHandlers.MobEventHandler ie = (ActorEventHandlers.MobEventHandler)i.e;
                     if (ie.AI.Master == this.partnerai.Master)
@@ -206,7 +214,7 @@ namespace SagaMap.Partner.AICommands
                 }
                 if (!partnerai.Hate.ContainsKey(target.ActorID))
                     partnerai.Hate.Add(target.ActorID, 20);
-                SendAggroEffect();
+                //SendAggroEffect();   no need for the exclamation mark to appear above the partner's head
             }
         }
 
@@ -353,7 +361,7 @@ namespace SagaMap.Partner.AICommands
                         attacktask = null;
                         return;
                     }
-                }                 
+                }
                 else
                 {
                     if (partnerai.Hate.ContainsKey(dest.ActorID)) partnerai.Hate.Remove(dest.ActorID);
@@ -426,4 +434,3 @@ namespace SagaMap.Partner.AICommands
         }
     }
 }
-    

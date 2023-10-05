@@ -213,6 +213,7 @@ namespace SagaDB
             ap.MaxMP = ap.BaseData.mp_in;
             ap.SP = ap.BaseData.sp_in;
             ap.MaxSP = ap.BaseData.sp_in;
+            ap.ai_mode = 1;
             uint apid = 0;
             //tbc
             string sqlstr;
