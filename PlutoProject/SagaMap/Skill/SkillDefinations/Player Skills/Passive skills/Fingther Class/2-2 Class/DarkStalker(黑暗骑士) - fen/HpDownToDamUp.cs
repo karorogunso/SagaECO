@@ -51,7 +51,7 @@ namespace SagaMap.Skill.SkillDefinations.DarkStalker
             }
 
             //最大攻擊
-            int max_atk1_add = (int)(actor.Status.max_atk_bs  * damUP);
+            int max_atk1_add = (int)(actor.Status.max_atk_bs * damUP);
             if (skill.Variable.ContainsKey("HpDownToDamUp_max_atk1"))
                 skill.Variable.Remove("HpDownToDamUp_max_atk1");
             skill.Variable.Add("HpDownToDamUp_max_atk1", max_atk1_add);
@@ -72,7 +72,7 @@ namespace SagaMap.Skill.SkillDefinations.DarkStalker
             actor.Status.max_atk3_skill += (short)max_atk3_add;
 
             //最小攻擊
-            int min_atk1_add = (int)(actor.Status.min_atk_bs  * damUP);
+            int min_atk1_add = (int)(actor.Status.min_atk_bs * damUP);
             if (skill.Variable.ContainsKey("HpDownToDamUp_min_atk1"))
                 skill.Variable.Remove("HpDownToDamUp_min_atk1");
             skill.Variable.Add("HpDownToDamUp_min_atk1", min_atk1_add);
@@ -91,7 +91,7 @@ namespace SagaMap.Skill.SkillDefinations.DarkStalker
                 skill.Variable.Remove("HpDownToDamUp_min_atk3");
             skill.Variable.Add("HpDownToDamUp_min_atk3", min_atk3_add);
             actor.Status.min_atk3_skill += (short)min_atk3_add;
-       
+
         }
         void EndEventHandler(Actor actor, DefaultPassiveSkill skill)
         {
@@ -112,7 +112,7 @@ namespace SagaMap.Skill.SkillDefinations.DarkStalker
 
             //最小攻擊
             actor.Status.min_atk3_skill -= (short)skill.Variable["HpDownToDamUp_min_atk3"];
-           
+
         }
         #endregion
     }

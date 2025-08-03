@@ -114,7 +114,7 @@ namespace SagaMap.Skill.SkillDefinations.Marionette
 
             //VIT
             actor.Status.vit_skill -= (short)skill.Variable["MBokeboke_vit"];
-       
+
         }
         #endregion
     }

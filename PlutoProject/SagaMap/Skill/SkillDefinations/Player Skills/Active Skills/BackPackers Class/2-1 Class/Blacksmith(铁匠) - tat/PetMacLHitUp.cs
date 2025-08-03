@@ -35,7 +35,7 @@ namespace SagaMap.Skill.SkillDefinations.Blacksmith
                 skill.Variable.Remove("PetMacLHitUp_hit_ranged");
             skill.Variable.Add("PetMacLHitUp_hit_ranged", hit_ranged_add);
             actor.Status.hit_ranged_skill += (short)hit_ranged_add;
-    
+
         }
         void EndEventHandler(Actor actor, DefaultBuff skill)
         {

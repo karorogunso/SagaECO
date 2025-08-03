@@ -68,7 +68,7 @@ namespace SagaMap.Skill.SkillDefinations.Cabalist
                 //测试去除技能同步锁ClientManager.EnterCriticalArea();
                 try
                 {
-                    if(count <times)
+                    if (count < times)
                     {
                         List<Actor> affected = map.GetActorsArea(actor, 150, false);
                         List<Actor> realAffected = new List<Actor>();
@@ -76,7 +76,7 @@ namespace SagaMap.Skill.SkillDefinations.Cabalist
                         {
                             if (SkillHandler.Instance.CheckValidAttackTarget(sActor, act))
                             {
-                                if (SkillHandler.Instance.CanAdditionApply(sActor,act, SkillHandler.DefaultAdditions.Sleep ,rate))
+                                if (SkillHandler.Instance.CanAdditionApply(sActor, act, SkillHandler.DefaultAdditions.Sleep, rate))
                                 {
                                     Sleep s = new Sleep(skill.skill, act, 5000);
                                     SkillHandler.ApplyAddition(act, s);
@@ -84,7 +84,8 @@ namespace SagaMap.Skill.SkillDefinations.Cabalist
                             }
                         }
                         count++;
-                    }else
+                    }
+                    else
                     {
                         this.Deactivate();
                         map.DeleteActor(actor);

@@ -43,7 +43,7 @@ namespace SagaMap.Skill.SkillDefinations.Trader
                 skill.Variable.Remove("PetAtkupSelf_aspd");
             skill.Variable.Add("PetAtkupSelf_aspd", aspd_add);
             actor.Status.hp_recover_skill += HumHealRateUps[level];
-       
+
         }
         void EndEventHandler(Actor actor, DefaultPassiveSkill skill)
         {

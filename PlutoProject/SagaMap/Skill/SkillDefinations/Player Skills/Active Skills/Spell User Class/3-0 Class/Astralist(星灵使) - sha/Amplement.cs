@@ -90,7 +90,7 @@ namespace SagaMap.Skill.SkillDefinations.Astralist
             WindAttackNow = actor.Status.attackElements_item[SagaLib.Elements.Wind]
                 + actor.Status.attackElements_skill[SagaLib.Elements.Wind]
                 + actor.Status.attackelements_iris[SagaLib.Elements.Wind];
-            if(EarthAttackNow>0)
+            if (EarthAttackNow > 0)
             {
                 EarthAttack = el_add[skill.skill.Level];
             }
@@ -178,7 +178,7 @@ namespace SagaMap.Skill.SkillDefinations.Astralist
         }
         void EndEventHandler(Actor actor, DefaultBuff skill)
         {
-            
+
             actor.Status.attackElements_skill[Elements.Earth] -= (int)skill.Variable["AmplementAttackEarth"];
             actor.Status.attackElements_skill[Elements.Water] -= (int)skill.Variable["AmplementAttackWater"];
             actor.Status.attackElements_skill[Elements.Fire] -= (int)skill.Variable["AmplementAttackFire"];

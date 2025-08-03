@@ -52,7 +52,7 @@ namespace SagaMap.Skill.SkillDefinations.Machinery
                 skill.Variable.Remove("RobotAvoUp_avoid_ranged");
             skill.Variable.Add("RobotAvoUp_avoid_ranged", avoid_ranged_add);
             actor.Status.avoid_ranged_skill += (short)avoid_ranged_add;
-     
+
         }
         void EndEventHandler(Actor actor, DefaultBuff skill)
         {
@@ -61,7 +61,7 @@ namespace SagaMap.Skill.SkillDefinations.Machinery
 
             //遠距迴避
             actor.Status.avoid_ranged_skill -= (short)skill.Variable["RobotAvoUp_avoid_ranged"];
-           
+
         }
         #endregion
     }

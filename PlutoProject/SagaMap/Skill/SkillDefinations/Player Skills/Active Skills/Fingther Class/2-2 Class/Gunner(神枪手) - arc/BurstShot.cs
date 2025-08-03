@@ -9,8 +9,8 @@ namespace SagaMap.Skill.SkillDefinations.Gunner
     /// <summary>
     /// 3連發精密射擊（バーストショット）
     /// </summary>
-    public class BurstShot : ISkill 
-    { 
+    public class BurstShot : ISkill
+    {
         #region ISkill Members
         public int TryCast(ActorPC pc, Actor dActor, SkillArg args)
         {
@@ -98,7 +98,7 @@ namespace SagaMap.Skill.SkillDefinations.Gunner
 
             //遠命中
             actor.Status.hit_ranged_skill = (short)(-20);
- 
+
         }
         void EndEventHandler(Actor actor, DefaultBuff skill)
         {
@@ -106,7 +106,7 @@ namespace SagaMap.Skill.SkillDefinations.Gunner
 
             //遠命中
             actor.Status.hit_ranged_skill -= (short)(-20);
-                   
+
         }
         #endregion
     }

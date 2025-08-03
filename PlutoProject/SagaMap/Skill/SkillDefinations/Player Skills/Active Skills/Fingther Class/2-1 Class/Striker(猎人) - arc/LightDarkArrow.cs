@@ -10,7 +10,7 @@ namespace SagaMap.Skill.SkillDefinations.Striker
     /// <summary>
     /// 光之箭（シャイニングアロー）、 黑暗箭（ダークネスアロー）
     /// </summary>
-    public class LightDarkArrow:ISkill
+    public class LightDarkArrow : ISkill
     {
         private SagaLib.Elements ArrowElement = SagaLib.Elements.Neutral;
         public LightDarkArrow(SagaLib.Elements e)

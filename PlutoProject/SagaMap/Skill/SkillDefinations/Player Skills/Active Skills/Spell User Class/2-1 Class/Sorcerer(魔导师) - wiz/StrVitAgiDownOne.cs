@@ -114,8 +114,8 @@ namespace SagaMap.Skill.SkillDefinations.Sorcerer
                 actor.Buff.ShortDodgeDown = true;
                 actor.Buff.DefRateDown = true;
             }
-            
-            if(actor is ActorPC)
+
+            if (actor is ActorPC)
                 Manager.MapManager.Instance.GetMap(actor.MapID).SendEventToAllActorsWhoCanSeeActor(Map.EVENT_TYPE.BUFF_CHANGE, null, actor, true);
             else
                 Manager.MapManager.Instance.GetMap(actor.MapID).SendEventToAllActorsWhoCanSeeActor(Map.EVENT_TYPE.BUFF_CHANGE, null, actor, false);
@@ -151,7 +151,7 @@ namespace SagaMap.Skill.SkillDefinations.Sorcerer
                 actor.Buff.ShortDodgeDown = false;
                 actor.Buff.DefRateDown = false;
             }
-            
+
             if (actor is ActorPC)
                 Manager.MapManager.Instance.GetMap(actor.MapID).SendEventToAllActorsWhoCanSeeActor(Map.EVENT_TYPE.BUFF_CHANGE, null, actor, true);
             else

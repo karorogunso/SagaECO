@@ -1,4 +1,4 @@
-﻿using SagaDB.DualJob;
+using SagaDB.DualJob;
 using SagaLib;
 using SagaMap.Network.Client;
 using System;

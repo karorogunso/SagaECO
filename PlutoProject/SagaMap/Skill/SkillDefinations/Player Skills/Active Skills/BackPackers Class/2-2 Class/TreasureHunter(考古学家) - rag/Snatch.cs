@@ -47,7 +47,7 @@ namespace SagaMap.Skill.SkillDefinations.TreasureHunter
                 if (dActor.type == ActorType.MOB)
                 {
                     ActorMob mob = (ActorMob)dActor;
-                    if(!SkillHandler.Instance.isBossMob(mob))
+                    if (!SkillHandler.Instance.isBossMob(mob))
                     {
                         //偷東西!!
                         DefaultBuff skill = new DefaultBuff(args.skill, dActor, "Snatch", int.MaxValue);
@@ -56,7 +56,7 @@ namespace SagaMap.Skill.SkillDefinations.TreasureHunter
                         SkillHandler.ApplyAddition(dActor, skill);
                     }
                 }
-                
+
             }
         }
         void StartEventHandler(Actor actor, DefaultBuff skill)

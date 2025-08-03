@@ -25,7 +25,7 @@ namespace SagaMap.Skill.SkillDefinations.Global
 
             int lifetime = 120000;
 
-            
+
             Map map = Manager.MapManager.Instance.GetMap(sActor.MapID);
             List<Actor> affected = map.GetActorsArea(SagaLib.Global.PosX8to16(args.x, map.Width), SagaLib.Global.PosY8to16(args.y, map.Height), 200, null);
             List<Actor> recoveraffected = new List<Actor>();

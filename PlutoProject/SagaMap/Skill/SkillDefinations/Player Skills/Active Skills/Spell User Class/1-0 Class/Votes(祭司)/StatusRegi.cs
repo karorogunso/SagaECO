@@ -33,11 +33,11 @@ namespace SagaMap.Skill.SkillDefinations.Vates
         }
         void StartEventHandler(Actor actor, DefaultBuff skill)
         {
-            ChangeBuffIcon(actor,true);
+            ChangeBuffIcon(actor, true);
         }
         void EndEventHandler(Actor actor, DefaultBuff skill)
         {
-            ChangeBuffIcon(actor,false);
+            ChangeBuffIcon(actor, false);
         }
         void ChangeBuffIcon(Actor actor, bool OnOff)
         {

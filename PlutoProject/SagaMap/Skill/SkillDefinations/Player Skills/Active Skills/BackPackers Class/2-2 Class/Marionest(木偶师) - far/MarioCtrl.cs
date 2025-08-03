@@ -29,7 +29,7 @@ namespace SagaMap.Skill.SkillDefinations.Marionest
                              };
             Map map = Manager.MapManager.Instance.GetMap(sActor.MapID);
             ActorMob mob = map.SpawnMob(MobID[level], SagaLib.Global.PosX8to16(args.x, map.Width), SagaLib.Global.PosY8to16(args.y, map.Height), 2500, sActor);
-            MarioCtrlBuff skill = new MarioCtrlBuff(args.skill, sActor,  lifetime,mob);
+            MarioCtrlBuff skill = new MarioCtrlBuff(args.skill, sActor, lifetime, mob);
             SkillHandler.ApplyAddition(sActor, skill);
             if (!sActor.Status.Additions.ContainsKey("MarioCtrlMove"))
             {
@@ -40,7 +40,7 @@ namespace SagaMap.Skill.SkillDefinations.Marionest
         public class MarioCtrlBuff : DefaultBuff
         {
             private ActorMob mob;
-            public MarioCtrlBuff(SagaDB.Skill.Skill skill, Actor actor, int lifetime,ActorMob mob)
+            public MarioCtrlBuff(SagaDB.Skill.Skill skill, Actor actor, int lifetime, ActorMob mob)
                 : base(skill, actor, "MarioCtrl", lifetime)
             {
                 this.OnAdditionStart += this.StartEvent;

@@ -46,7 +46,7 @@ namespace SagaMap.Skill.SkillDefinations.Necromancer
             if (actor.type == ActorType.MOB)
             {
                 MobEventHandler mh = (MobEventHandler)actor.e;
-                
+
             }
         }
         void EndEventHandler(Actor actor, DefaultBuff skill)

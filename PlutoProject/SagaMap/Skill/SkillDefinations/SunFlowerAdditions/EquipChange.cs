@@ -28,7 +28,7 @@ namespace SagaMap.Skill.SkillDefinations.SunFlowerAdditions
             skill.OnAdditionEnd += this.EndEventHandler;
             SkillHandler.ApplyAddition(sActor, skill);
         }
-        
+
 
         void StartEventHandler(Actor actor, DefaultBuff skill)
         {

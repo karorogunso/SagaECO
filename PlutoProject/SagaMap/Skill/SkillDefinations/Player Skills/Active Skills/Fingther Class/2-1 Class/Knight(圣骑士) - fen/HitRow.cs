@@ -50,12 +50,12 @@ namespace SagaMap.Skill.SkillDefinations.Knight
                 skill.Variable.Remove("HitRow_atk1_down");
             skill.Variable.Add("HitRow_atk1_down", atk1);
             actor.Status.min_atk1_skill -= (short)atk1;
-            
+
             if (skill.Variable.ContainsKey("HitRow_atk2_down"))
                 skill.Variable.Remove("HitRow_atk2_down");
             skill.Variable.Add("HitRow_atk2_down", atk2);
             actor.Status.min_atk2_skill -= (short)atk2;
-            
+
             if (skill.Variable.ContainsKey("HitRow_atk3_down"))
                 skill.Variable.Remove("HitRow_atk3_down");
             skill.Variable.Add("HitRow_atk3_down", atk3);

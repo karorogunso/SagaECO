@@ -36,7 +36,7 @@ namespace SagaMap.Skill.SkillDefinations.ForceMaster
         }
         void StartEventHandler(Actor actor, DefaultBuff skill)
         {
-            float[] MinAttack = new float[] { 0, 0.7f, 0.8f, 0.9f};
+            float[] MinAttack = new float[] { 0, 0.7f, 0.8f, 0.9f };
 
             //最小攻擊
             int min_matk_add = (int)((actor.Status.max_matk - actor.Status.min_matk) * MinAttack[skill.skill.Level]);

@@ -16,7 +16,7 @@ namespace SagaMap.Tasks.Partner
         {
             this.dueTime = (int)(60 * 1000);
             this.period = (int)(60 * 1000);
-            this.partner = partner;            
+            this.partner = partner;
         }
 
         public override void CallBack()

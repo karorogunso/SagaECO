@@ -69,7 +69,7 @@ namespace SagaMap.Skill.SkillDefinations.Hawkeye
             //float[] factors = new float[] { 0f, 0.02f, 0.04f, 0.01f, 0.04f, 0.05f, 100f };//治疗量=(使用者的)百分比比例
             float factor;
 
-            public Activator(Actor caster, ActorSkill actor,Actor dActor, SkillArg args, byte level)
+            public Activator(Actor caster, ActorSkill actor, Actor dActor, SkillArg args, byte level)
             {
                 this.actor = actor;
                 this.caster = caster;

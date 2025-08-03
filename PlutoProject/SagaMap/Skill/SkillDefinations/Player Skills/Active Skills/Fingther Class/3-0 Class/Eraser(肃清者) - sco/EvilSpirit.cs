@@ -131,7 +131,7 @@ namespace SagaMap.Skill.SkillDefinations.Eraser
                 }
                 actor.Buff.AGIDown = false;
             }
-            
+
             if (actor is ActorPC)
                 Manager.MapManager.Instance.GetMap(actor.MapID).SendEventToAllActorsWhoCanSeeActor(Map.EVENT_TYPE.BUFF_CHANGE, null, actor, true);
             else

@@ -29,7 +29,7 @@ namespace SagaMap.Skill.SkillDefinations.Gladiator
         void StartEventHandler(Actor actor, DefaultBuff skill)
         {
             float[] MinAttack = new float[] { 0, 0.63f, 0.77f, 0.85f, 0.94f, 1 };
-            
+
             //最小攻擊
             int min_atk1_add = (int)((actor.Status.max_atk1 - actor.Status.min_atk1) * MinAttack[skill.skill.Level]);
             if (skill.Variable.ContainsKey("Ekuviri_min_atk1"))

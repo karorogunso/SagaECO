@@ -31,7 +31,7 @@ namespace SagaMap.Skill.SkillDefinations.Guardian
         }
         void StartEventHandler(Actor actor, DefaultPassiveSkill skill)
         {
-            actor.Status.HatredUp_rate= (byte)(skill.skill.Level * 25);
+            actor.Status.HatredUp_rate = (byte)(skill.skill.Level * 25);
 
         }
         void EndEventHandler(Actor actor, DefaultPassiveSkill skill)

@@ -21,7 +21,7 @@ namespace SagaMap.Skill.SkillDefinations.Elementaler
         }
         public void Proc(Actor sActor, Actor dActor, SkillArg args, byte level)
         {
-            ushort [] speed={400,500,600,700};
+            ushort[] speed = { 400, 500, 600, 700 };
             Map map = Manager.MapManager.Instance.GetMap(sActor.MapID);
 
             byte[] SX = new byte[3];
@@ -156,7 +156,7 @@ namespace SagaMap.Skill.SkillDefinations.Elementaler
                 timer.Activate();
             }
         }
-        
+
         #region Timer
         private class Activator : MultiRunTask
         {
@@ -169,7 +169,7 @@ namespace SagaMap.Skill.SkillDefinations.Elementaler
             float factor = 1f;
             Elements element;
             bool stop = false;
-            
+
             public Activator(Actor caster, ActorSkill actor, SkillArg args, List<MapNode> path)
             {
                 this.actor = actor;
@@ -189,7 +189,7 @@ namespace SagaMap.Skill.SkillDefinations.Elementaler
             /// <returns>伤害加成</returns>
             float CalcFactor(byte level)
             {
-                float[] factors={0f,1.5f,1.75f,2.0f};
+                float[] factors = { 0f, 1.5f, 1.75f, 2.0f };
                 return factors[level];
             }
             public override void CallBack()

@@ -12,7 +12,7 @@ namespace SagaMap.Skill.SkillDefinations.Shaman
     /// <summary>
     /// 大地之壁
     /// </summary>
-    public class StoneWall:ISkill
+    public class StoneWall : ISkill
     {
         #region ISkill Members
         public int TryCast(ActorPC pc, Actor dActor, SkillArg args)
@@ -130,14 +130,14 @@ namespace SagaMap.Skill.SkillDefinations.Shaman
             ////timer.Activate();
             #endregion
             int r = SagaLib.Global.Random.Next(0, 99);
-            StoneWallBuff skill = new StoneWallBuff(args,sActor,60000,r);
+            StoneWallBuff skill = new StoneWallBuff(args, sActor, 60000, r);
             SkillHandler.ApplyAddition(sActor, skill);
         }
         public class StoneWallBuff : DefaultBuff
         {
             private SkillArg args;
             private List<ActorMob> MobLst = new List<ActorMob>();
-            public StoneWallBuff(SkillArg skill, Actor actor, int lifetime,int rand)
+            public StoneWallBuff(SkillArg skill, Actor actor, int lifetime, int rand)
                 : base(skill.skill, actor, "StoneWall" + rand.ToString(), lifetime)
             {
                 this.OnAdditionStart += this.StartEvent;

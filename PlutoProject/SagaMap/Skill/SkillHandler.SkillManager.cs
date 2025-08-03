@@ -367,10 +367,10 @@ namespace SagaMap.Skill
             skillHandlers.Add(2547, new SkillDefinations.Harvest.MistletoeShooting());//2018.1.18实装,Lv47
             skillHandlers.Add(2548, new SkillDefinations.Harvest.MistletoeShootingSEQ());//2018.1.18实装,Lv47
             skillHandlers.Add(2546, new SkillDefinations.Harvest.PlantField());//2018.1.18实装,Lv50
-            //缺少40、45
+                                                                               //缺少40、45
             #endregion
 
-            
+
             skillHandlers.Add(101, new SkillDefinations.Global.MaxMPUp());
             skillHandlers.Add(103, new SkillDefinations.Global.HPRecoverUP());
             skillHandlers.Add(104, new SkillDefinations.Global.MPRecoverUP());

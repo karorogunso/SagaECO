@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -63,7 +63,7 @@ namespace SagaMap.Skill.SkillDefinations.Monster
 
             //最大攻擊
             actor.Status.max_atk3_skill -= (short)skill.Variable["MobAtkupSelf_max_atk3"];
-   
+
         }
         #endregion
     }

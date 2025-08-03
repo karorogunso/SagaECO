@@ -25,7 +25,7 @@ namespace SagaMap.Skill.SkillDefinations.Blacksmith
             List<Actor> affected = map.GetActorsArea(sActor, 550, false);
             foreach (Actor act in affected)
             {
-                if (act.type == ActorType.PC )
+                if (act.type == ActorType.PC)
                 {
                     DefaultBuff skill = new DefaultBuff(args.skill, act, "RockInfo", lifetime);
                     skill.OnAdditionStart += this.StartEventHandler;
@@ -33,7 +33,7 @@ namespace SagaMap.Skill.SkillDefinations.Blacksmith
                     SkillHandler.ApplyAddition(act, skill);
                 }
             }
-           
+
         }
         void StartEventHandler(Actor actor, DefaultBuff skill)
         {

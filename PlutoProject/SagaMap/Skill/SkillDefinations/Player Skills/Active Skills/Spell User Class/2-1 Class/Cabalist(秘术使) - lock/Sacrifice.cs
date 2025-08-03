@@ -27,7 +27,7 @@ namespace SagaMap.Skill.SkillDefinations.Cabalist
                 }
                 return 0;
             }
-                
+
         }
         public void Proc(Actor sActor, Actor dActor, SkillArg args, byte level)
         {
@@ -52,7 +52,7 @@ namespace SagaMap.Skill.SkillDefinations.Cabalist
                 actor.Status.Additions["ForceMaster"].AdditionEnd();
                 actor.Status.Additions.Remove("ForceMaster");
             }
-                
+
             int level = skill.skill.Level;
             int max_atk1_add = (int)(actor.Status.max_atk_bs * (0.8 + 0.4 * level));
             int max_atk2_add = (int)(actor.Status.max_atk_bs * (0.8 + 0.4 * level));

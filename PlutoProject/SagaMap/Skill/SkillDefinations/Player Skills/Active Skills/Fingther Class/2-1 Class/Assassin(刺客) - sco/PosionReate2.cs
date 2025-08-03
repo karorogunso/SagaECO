@@ -73,7 +73,7 @@ namespace SagaMap.Skill.SkillDefinations.Assassin
                     PMlv = pc.Skills3[994].Level;
 
                 //这里取等级最高的加成技能来减少中毒概率(5级免疫)
-                rate = rate - 10 * Math.Max(duallv,PMlv);
+                rate = rate - 10 * Math.Max(duallv, PMlv);
                 if (rate <= 0)
                 {
                     rate = 0;

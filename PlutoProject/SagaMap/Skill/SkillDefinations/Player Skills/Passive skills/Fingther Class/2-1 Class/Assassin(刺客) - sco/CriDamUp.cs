@@ -9,9 +9,9 @@ namespace SagaMap.Skill.SkillDefinations.Assassin
     /// <summary>
     /// 增強致命攻擊（クリティカルダメージ上昇）
     /// </summary>
-    public class CriDamUp : ISkill 
+    public class CriDamUp : ISkill
     {
-         #region ISkill Members
+        #region ISkill Members
         public int TryCast(ActorPC sActor, Actor dActor, SkillArg args)
         {
             return 0;
@@ -36,6 +36,6 @@ namespace SagaMap.Skill.SkillDefinations.Assassin
             if (skill.Variable.ContainsKey("CriDamUp"))
                 skill.Variable.Remove("CriDamUp");
         }
-         #endregion
+        #endregion
     }
 }

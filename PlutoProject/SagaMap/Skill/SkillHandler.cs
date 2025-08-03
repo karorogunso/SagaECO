@@ -815,7 +815,7 @@ namespace SagaMap.Skill
                     checkdebuff(sActor, dActor, arg, 1);
                 }
 
-                if(sActor.type==ActorType.PC)
+                if (sActor.type == ActorType.PC)
                 {
                     ActorPC pc = (ActorPC)sActor;
                     if (pc.Party != null && sActor.Status.pt_dmg_up_iris > 100)
@@ -933,7 +933,7 @@ namespace SagaMap.Skill
                     }
                 }
 
-                    if (res == AttackResult.Miss)//取消MISS
+                if (res == AttackResult.Miss)//取消MISS
                 {
                     damage = (int)(damage * 0.6f);
                     res = AttackResult.Hit;
@@ -2433,8 +2433,8 @@ namespace SagaMap.Skill
                             {
                                 if (pc.Inventory.Equipments[SagaDB.Item.EnumEquipSlot.LEFT_HAND].Stack >= number)
                                 {
-                                    
-                                        Network.Client.MapClient.FromActorPC(pc).DeleteItem(pc.Inventory.Equipments[SagaDB.Item.EnumEquipSlot.LEFT_HAND].Slot, (ushort)number, false);
+
+                                    Network.Client.MapClient.FromActorPC(pc).DeleteItem(pc.Inventory.Equipments[SagaDB.Item.EnumEquipSlot.LEFT_HAND].Slot, (ushort)number, false);
                                 }
                             }
                         }

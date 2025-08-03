@@ -49,7 +49,7 @@ namespace SagaMap.Skill.SkillDefinations.SoulTaker
         void StartEventHandler(Actor actor, DefaultBuff skill)
         {
             int[] down = { 0, 13, 15, 18, 18, 18 };
-            if(actor.type==ActorType.PC)
+            if (actor.type == ActorType.PC)
             {
                 actor.Buff.STRDown = true;
                 actor.Buff.DEXDown = true;
@@ -69,7 +69,7 @@ namespace SagaMap.Skill.SkillDefinations.SoulTaker
             }
             else
             {
-                
+
                 actor.Buff.MinAtkDown = true;
                 actor.Buff.MaxAtkDown = true;
                 actor.Buff.ShortHitDown = true;
@@ -96,7 +96,7 @@ namespace SagaMap.Skill.SkillDefinations.SoulTaker
                 actor.Status.avoid_ranged_skill -= (short)down[skill.skill.Level];
                 actor.Status.mdef_skill -= (short)down[skill.skill.Level];
             }
-            
+
             Manager.MapManager.Instance.GetMap(actor.MapID).SendEventToAllActorsWhoCanSeeActor(Map.EVENT_TYPE.BUFF_CHANGE, null, actor, true);
         }
         void EndEventHandler(Actor actor, DefaultBuff skill)
@@ -137,9 +137,9 @@ namespace SagaMap.Skill.SkillDefinations.SoulTaker
                 actor.Status.avoid_ranged_skill += (short)skill.Variable["DarkChains"];
                 actor.Status.mdef_skill += (short)skill.Variable["DarkChains"];
 
-                
+
             }
-            
+
             Manager.MapManager.Instance.GetMap(actor.MapID).SendEventToAllActorsWhoCanSeeActor(Map.EVENT_TYPE.BUFF_CHANGE, null, actor, true);
         }
         #endregion

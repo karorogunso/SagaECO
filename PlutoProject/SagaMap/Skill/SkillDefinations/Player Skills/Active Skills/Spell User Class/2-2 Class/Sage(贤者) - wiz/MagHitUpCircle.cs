@@ -26,7 +26,7 @@ namespace SagaMap.Skill.SkillDefinations.Sage
             List<Actor> affected = map.GetActorsArea(sActor, 100, false);
             foreach (Actor act in affected)
             {
-                if (act.type== ActorType.PC)
+                if (act.type == ActorType.PC)
                 {
                     MagHitUpCircleBuff skill = new MagHitUpCircleBuff(args.skill, act, lifetime, rate);
                     SkillHandler.ApplyAddition(act, skill);

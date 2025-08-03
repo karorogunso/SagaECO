@@ -20,7 +20,7 @@ namespace SagaMap.Skill.SkillDefinations.Machinery
         }
         public void Proc(Actor sActor, Actor dActor, SkillArg args, byte level)
         {
-            bool active = false ;
+            bool active = false;
             ActorPet pet = SkillHandler.Instance.GetPet(sActor);
             if (pet != null)
             {

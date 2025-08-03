@@ -68,7 +68,7 @@ namespace SagaValidation.Network.Client
             if (ValidationServer.accountDB.CheckPassword(p.UserName, p.Password, this.frontWord, this.backWord))
             {
                 //Prepare Account Information 
-                
+
 
                 //Login ACK should not be here
                 /*

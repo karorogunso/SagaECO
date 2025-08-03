@@ -34,12 +34,12 @@ namespace SagaMap.Skill.SkillDefinations.Gunner
                 skill.OnAdditionStart += this.StartEventHandler;
                 skill.OnAdditionEnd += this.EndEventHandler;
                 SkillHandler.ApplyAddition(sActor, skill);
-            }        
+            }
         }
         void StartEventHandler(Actor actor, DefaultPassiveSkill skill)
         {
             int level = skill.skill.Level;
-            int[] Hit_Ranged_Add = {0, 3, 6, 10, 15, 20 };
+            int[] Hit_Ranged_Add = { 0, 3, 6, 10, 15, 20 };
 
             //遠命中
             int hit_ranged_add = (int)(Hit_Ranged_Add[level]);

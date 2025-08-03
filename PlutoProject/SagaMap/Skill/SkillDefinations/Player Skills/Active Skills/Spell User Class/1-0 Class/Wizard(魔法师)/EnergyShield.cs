@@ -37,15 +37,15 @@ namespace SagaMap.Skill.SkillDefinations.Wizard
                 level = 5;
             }
 
-            
-            if(MobUse==true)
+
+            if (MobUse == true)
             {
                 Map map = Manager.MapManager.Instance.GetMap(sActor.MapID);
                 List<Actor> affected = map.GetActorsArea(sActor, 500, false);
                 List<Actor> realAffected = new List<Actor>();
                 foreach (Actor act in affected)
                 {
-                    if (act.type==ActorType.MOB)
+                    if (act.type == ActorType.MOB)
                     {
                         realAffected.Add(act);
                     }
@@ -53,7 +53,7 @@ namespace SagaMap.Skill.SkillDefinations.Wizard
                 realAffected.Add(sActor);
                 foreach (Actor i in realAffected)
                 {
-                    if(!i.Status.Additions.ContainsKey("EnergyShield"))
+                    if (!i.Status.Additions.ContainsKey("EnergyShield"))
                     {
                         DefaultBuff skill1 = new DefaultBuff(args.skill, i, "EnergyShield", 900000);
                         skill1.OnAdditionStart += this.StartEventHandler;
@@ -61,7 +61,7 @@ namespace SagaMap.Skill.SkillDefinations.Wizard
                         SkillHandler.ApplyAddition(i, skill1);
                     }
                 }
-                
+
             }
             else
             {
@@ -70,7 +70,7 @@ namespace SagaMap.Skill.SkillDefinations.Wizard
                 skill.OnAdditionEnd += this.EndEventHandler;
                 SkillHandler.ApplyAddition(dActor, skill);
             }
-            
+
         }
 
         void StartEventHandler(Actor actor, DefaultBuff skill)
@@ -85,7 +85,7 @@ namespace SagaMap.Skill.SkillDefinations.Wizard
             if (skill.Variable.ContainsKey("EnergyShieldDEFADD"))
                 skill.Variable.Remove("EnergyShieldDEFADD");
             skill.Variable.Add("EnergyShieldDEFADD", defadd);
-            actor.Status.def_add_skill  += defadd;
+            actor.Status.def_add_skill += defadd;
             actor.Status.def_skill += def;
             actor.Buff.DefUp = true;
             Manager.MapManager.Instance.GetMap(actor.MapID).SendEventToAllActorsWhoCanSeeActor(Map.EVENT_TYPE.BUFF_CHANGE, null, actor, true);

@@ -13,7 +13,7 @@ using SagaMap.Skill.Additions.Global;
 namespace SagaMap.Skill.SkillDefinations.Cardinal
 {
     /// <summary>
-    /// Cardinal ¥«©`¥Ç¥£¥Ê¥ë 
+    /// Cardinal ï¿½ï¿½ï¿½`ï¿½Ç¥ï¿½ï¿½Ê¥ï¿½ 
     /// </summary>
     class Cardinal : ISkill
     {

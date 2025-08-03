@@ -37,13 +37,13 @@ namespace SagaMap.Skill.SkillDefinations.TreasureHunter
                 skill.Variable.Remove("Caution_def");
             skill.Variable.Add("Caution_def", def_add);
             actor.Status.def_skill += (short)def_add;
- 
+
         }
         void EndEventHandler(Actor actor, DefaultBuff skill)
         {
             //左防禦
             actor.Status.def_skill -= (short)skill.Variable["Caution_def"];
-  
+
         }
         #endregion
     }

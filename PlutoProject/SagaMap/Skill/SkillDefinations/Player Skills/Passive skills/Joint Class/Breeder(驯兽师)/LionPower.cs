@@ -32,7 +32,7 @@ namespace SagaMap.Skill.SkillDefinations.Breeder
             if (skill.Variable.ContainsKey("Encouragement_MaxHP"))
                 skill.Variable.Remove("Encouragement_MaxHP");
             skill.Variable.Add("Encouragement_MaxHP", hit_melee_add);
-            actor.MaxHP  += (uint)hit_melee_add;
+            actor.MaxHP += (uint)hit_melee_add;
         }
         void EndEventHandler(Actor actor, DefaultPassiveSkill skill)
         {

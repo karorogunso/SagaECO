@@ -147,12 +147,12 @@ namespace SagaMap.Skill.SkillDefinations.Harvest
             }
             void UpdateTimeHandler(Actor actor, DefaultBuff skill)
             {
-                if(sActor.type==ActorType.PC)
+                if (sActor.type == ActorType.PC)
                 {
                     ActorPC pc = (ActorPC)sActor;
                     MapClient.FromActorPC(pc).SendSystemMessage("更新");
                 }
-                
+
                 if (actor.HP > 0 && !actor.Buff.Dead)
                 {
                     int HpChange = 80 + 20 * skill.skill.Level;

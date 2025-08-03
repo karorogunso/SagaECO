@@ -20,7 +20,7 @@ namespace SagaMap.Tasks.System
             this.period = 60000;
             this.dueTime = 0;
         }
-        
+
         static ODWar instance;
 
         public static ODWar Instance
@@ -75,7 +75,7 @@ namespace SagaMap.Tasks.System
                                     {
                                         MapClientManager.Instance.Announce(string.Format(LocalManager.Instance.Strings.ODWAR_PREPARE, map.Name, (15 - now.Minute)));
                                         MapClientManager.Instance.Announce(LocalManager.Instance.Strings.ODWAR_PREPARE2);
-                                    }                                    
+                                    }
                                     if (now.Hour == time && now.Minute == 15)
                                     {
                                         MapClientManager.Instance.Announce(LocalManager.Instance.Strings.ODWAR_START);
@@ -122,7 +122,7 @@ namespace SagaMap.Tasks.System
             catch (Exception ex)
             {
                 Logger.ShowError(ex);
-            }            
+            }
         }
     }
 }

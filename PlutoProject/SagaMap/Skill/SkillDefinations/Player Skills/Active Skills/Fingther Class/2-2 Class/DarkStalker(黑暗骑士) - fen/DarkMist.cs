@@ -7,8 +7,8 @@ using SagaDB.Actor;
 using SagaMap.Skill.Additions.Global;
 namespace SagaMap.Skill.SkillDefinations.DarkStalker
 {
-    public class DarkMist : ISkill 
-    {  
+    public class DarkMist : ISkill
+    {
         #region ISkill Members
         public int TryCast(ActorPC pc, Actor dActor, SkillArg args)
         {
@@ -39,7 +39,7 @@ namespace SagaMap.Skill.SkillDefinations.DarkStalker
         void StartEventHandler(Actor actor, DefaultBuff skill)
         {
             int level = skill.skill.Level;
-            int avo_range_down = -(int)(actor.Status.avoid_ranged *(0.2f + 0.05f * level));
+            int avo_range_down = -(int)(actor.Status.avoid_ranged * (0.2f + 0.05f * level));
             int avo_melee_down = -(int)(actor.Status.avoid_melee * (0.2f + 0.05f * level));
             //avo_range_down
             if (skill.Variable.ContainsKey("DarkMist_avo_range_down"))

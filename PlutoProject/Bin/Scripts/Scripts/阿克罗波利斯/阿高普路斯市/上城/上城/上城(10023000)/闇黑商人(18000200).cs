@@ -4,7 +4,7 @@ using System.Text;
 
 using SagaDB.Actor;
 using SagaMap.Scripting;
-//?€?¨åœ°??ä¸Šå?(10023000) NPC?ºæœ¬ä¿¡æ¯:?‡é??†äºº(18000200) X:133 Y:147
+//?ï¿½?ï¿½åœ°??ä¸Šï¿½?(10023000) NPC?ï¿½æœ¬ä¿¡æ¯:?ï¿½ï¿½??ï¿½äºº(18000200) X:133 Y:147
 namespace SagaScript.M10023000
 {
     public class S11001692 : Event
@@ -16,7 +16,7 @@ namespace SagaScript.M10023000
 
         public override void OnEvent(ActorPC pc)
         {
-                            switch (Select(pc, "Âò¶«Î÷Âğ£¿", "", "Âò", "²»Âò"))
+                            switch (Select(pc, "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½", "", "ï¿½ï¿½", "ï¿½ï¿½ï¿½ï¿½"))
                             {
                                 case 1:
                     OpenShopBuy(pc, 414);

@@ -11,7 +11,7 @@ namespace SagaMap.Skill.SkillDefinations.Archer
     /// <summary>
     /// 弓之達人
     /// </summary>
-    public class BowCancel: ISkill
+    public class BowCancel : ISkill
     {
         #region ISkill Members
 
@@ -31,7 +31,7 @@ namespace SagaMap.Skill.SkillDefinations.Archer
                 pc = SkillHandler.Instance.GetPossesionedActor((ActorPC)sActor);
                 if (pc.Inventory.Equipments.ContainsKey(SagaDB.Item.EnumEquipSlot.RIGHT_HAND))
                 {
-                    if (pc.Inventory.Equipments[SagaDB.Item.EnumEquipSlot.RIGHT_HAND].BaseData.itemType == SagaDB.Item.ItemType.BOW ||  SkillHandler.Instance.CheckDEMRightEquip(sActor, SagaDB.Item.ItemType.PARTS_BLOW))
+                    if (pc.Inventory.Equipments[SagaDB.Item.EnumEquipSlot.RIGHT_HAND].BaseData.itemType == SagaDB.Item.ItemType.BOW || SkillHandler.Instance.CheckDEMRightEquip(sActor, SagaDB.Item.ItemType.PARTS_BLOW))
                     {
                         return true;
                     }
@@ -79,7 +79,7 @@ namespace SagaMap.Skill.SkillDefinations.Archer
 
         void EndEventHandler(Actor actor, DefaultBuff skill)
         {
-            float raspd_skill_perc_restore = (float)(1.25f + 0.25f* skill.skill.Level);
+            float raspd_skill_perc_restore = (float)(1.25f + 0.25f * skill.skill.Level);
             if (actor.Status.aspd_skill_perc > raspd_skill_perc_restore + 1)
             {
                 actor.Status.aspd_skill_perc -= raspd_skill_perc_restore;

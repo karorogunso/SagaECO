@@ -1,4 +1,4 @@
-﻿using SagaLib;
+using SagaLib;
 using SagaDB.DefWar;
 using SagaMap.Manager;
 

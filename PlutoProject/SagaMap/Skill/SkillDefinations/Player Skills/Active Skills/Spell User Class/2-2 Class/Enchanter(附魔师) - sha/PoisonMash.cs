@@ -65,7 +65,7 @@ namespace SagaMap.Skill.SkillDefinations.Enchanter
                 MapClient.FromActorPC((ActorPC)sActor).SendSystemMessage("无法在指定的坐标使用");
                 return;
             }
-                
+
             //创建设置型技能技能体
             ActorSkill actor = new ActorSkill(args.skill, sActor);
             //设定技能体位置

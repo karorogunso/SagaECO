@@ -73,7 +73,7 @@ namespace SagaMap.Skill.SkillDefinations.Striker
             }
             else
                 return -5;
-            
+
         }
 
         bool CheckPossible(Actor sActor)

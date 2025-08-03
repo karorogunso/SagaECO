@@ -25,7 +25,7 @@ namespace SagaMap.Skill.SkillDefinations.Stryder
             {
                 if (i.type == ActorType.PC)
                 {
-                    DefaultBuff skill = new DefaultBuff(args.skill, i, "FlurryThunderbolt", lifetime[level]*1000);
+                    DefaultBuff skill = new DefaultBuff(args.skill, i, "FlurryThunderbolt", lifetime[level] * 1000);
                     skill.OnAdditionStart += this.StartEventHandler;
                     skill.OnAdditionEnd += this.EndEventHandler;
                     SkillHandler.ApplyAddition(i, skill);

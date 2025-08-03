@@ -8,7 +8,7 @@ using SagaMap.Skill.Additions.Global;
 
 namespace SagaMap.Skill.SkillDefinations.Eraser
 {
-    public class EraserMaster :ISkill
+    public class EraserMaster : ISkill
     {
         #region ISkill Members
 
@@ -25,7 +25,7 @@ namespace SagaMap.Skill.SkillDefinations.Eraser
                 ActorPC pc = (ActorPC)sActor;
                 if (pc.Inventory.Equipments.ContainsKey(SagaDB.Item.EnumEquipSlot.RIGHT_HAND))
                 {
-                    if (pc.Inventory.Equipments[SagaDB.Item.EnumEquipSlot.RIGHT_HAND].BaseData.itemType == SagaDB.Item.ItemType.SHORT_SWORD||
+                    if (pc.Inventory.Equipments[SagaDB.Item.EnumEquipSlot.RIGHT_HAND].BaseData.itemType == SagaDB.Item.ItemType.SHORT_SWORD ||
                         pc.Inventory.Equipments[SagaDB.Item.EnumEquipSlot.RIGHT_HAND].BaseData.itemType == SagaDB.Item.ItemType.CLAW
                         || pc.Inventory.Equipments[SagaDB.Item.EnumEquipSlot.RIGHT_HAND].BaseData.itemType == SagaDB.Item.ItemType.GUN
                         )

@@ -39,7 +39,7 @@ namespace SagaMap.Skill.SkillDefinations.SoulTaker
             int level = skill.skill.Level;
             int max_matk_add = 120 + 36 * level;
             int[] exercises = new int[] { 0, 31, 58, 65, 72, 80 };
-            //pvp时 效果修正
+            //pvp时 效锟斤拷锟斤拷锟斤拷
             ActorPC pc = actor as ActorPC;
             if (pc.Mode == PlayerMode.COLISEUM_MODE)
                 max_matk_add = exercises[level];

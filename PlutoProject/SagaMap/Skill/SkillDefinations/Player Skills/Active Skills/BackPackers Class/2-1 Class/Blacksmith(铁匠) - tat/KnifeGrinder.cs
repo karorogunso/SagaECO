@@ -20,7 +20,7 @@ namespace SagaMap.Skill.SkillDefinations.Blacksmith
         }
         public void Proc(Actor sActor, Actor dActor, SkillArg args, byte level)
         {
-            if(dActor.type==ActorType.PC)
+            if (dActor.type == ActorType.PC)
             {
                 ActorPC pc = (ActorPC)dActor;
                 if (pc.Inventory.Equipments.ContainsKey(SagaDB.Item.EnumEquipSlot.RIGHT_HAND))
@@ -36,7 +36,7 @@ namespace SagaMap.Skill.SkillDefinations.Blacksmith
                     }
                 }
             }
-            
+
         }
         void StartEventHandler(Actor actor, DefaultBuff skill)
         {
@@ -64,7 +64,7 @@ namespace SagaMap.Skill.SkillDefinations.Blacksmith
             actor.Status.max_atk3_skill += (short)max_atk3_add;
 
             Manager.MapManager.Instance.GetMap(actor.MapID).SendEventToAllActorsWhoCanSeeActor(Map.EVENT_TYPE.BUFF_CHANGE, null, actor, true);
-                                        
+
 
         }
         void EndEventHandler(Actor actor, DefaultBuff skill)

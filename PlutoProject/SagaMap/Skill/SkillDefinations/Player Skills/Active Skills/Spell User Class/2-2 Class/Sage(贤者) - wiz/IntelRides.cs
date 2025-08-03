@@ -16,7 +16,7 @@ namespace SagaMap.Skill.SkillDefinations.Sage
         #region ISkill Members
         public int TryCast(ActorPC sActor, Actor dActor, SkillArg args)
         {
-            if(sActor.ActorID==dActor.ActorID)
+            if (sActor.ActorID == dActor.ActorID)
             {
                 return -14;
             }

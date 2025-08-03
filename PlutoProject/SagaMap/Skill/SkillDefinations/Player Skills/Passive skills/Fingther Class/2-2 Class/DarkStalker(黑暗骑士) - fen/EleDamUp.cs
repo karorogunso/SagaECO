@@ -18,7 +18,7 @@ namespace SagaMap.Skill.SkillDefinations.DarkStalker
         }
         public void Proc(Actor sActor, Actor dActor, SkillArg args, byte level)
         {
-            DefaultPassiveSkill skill = new DefaultPassiveSkill(args.skill, sActor, "ruthless",true);
+            DefaultPassiveSkill skill = new DefaultPassiveSkill(args.skill, sActor, "ruthless", true);
             skill.OnAdditionStart += this.StartEventHandler;
             skill.OnAdditionEnd += this.EndEventHandler;
             SkillHandler.ApplyAddition(dActor, skill);

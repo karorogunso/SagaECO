@@ -28,7 +28,7 @@ namespace SagaMap.Skill.SkillDefinations.BountyHunter
         {
             int times = SagaLib.Global.Random.Next(0, 3);
             Map map = Manager.MapManager.Instance.GetMap(sActor.MapID);
-            int[] delay = {0, 1000, 700};
+            int[] delay = { 0, 1000, 700 };
             ActorPC sActorPC = (ActorPC)sActor;
             for (int i = 0; i < times; i++)
             {
@@ -46,7 +46,7 @@ namespace SagaMap.Skill.SkillDefinations.BountyHunter
             }
         }
         #endregion
-        static uint[] skills={2274,2272,2271,2273};
+        static uint[] skills = { 2274, 2272, 2271, 2273 };
         //#region Timer
         //private class Activator : MultiRunTask
         //{

@@ -11,7 +11,7 @@ namespace SagaMap.Skill.SkillDefinations.Marionette
     /// <summary>
     /// 木偶時的HP自然恢復
     /// </summary>
-    public class HPRecovery:ISkill
+    public class HPRecovery : ISkill
     {
         #region ISkill Members
 

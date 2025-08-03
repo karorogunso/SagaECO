@@ -19,7 +19,7 @@ namespace SagaMap.Skill.SkillDefinations.Global
         }
         public void Proc(Actor sActor, Actor dActor, SkillArg args, byte level)
         {
-            
+
             me = sActor;
             Actor realdActor = SkillHandler.Instance.GetPossesionedActor((ActorPC)sActor);
             SkillHandler.RemoveAddition(realdActor, "DivineProtection");

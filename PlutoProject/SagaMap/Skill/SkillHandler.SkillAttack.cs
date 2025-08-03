@@ -133,7 +133,7 @@ namespace SagaMap.Skill
                 return 0;
             if (sActor.Status.Additions.ContainsKey("ArmBreak") && arg.skill != null)//断腕击状态无法使用物理技能
             {
-                if(sActor.type==ActorType.PC)
+                if (sActor.type == ActorType.PC)
                 {
                     ActorPC pc = (ActorPC)sActor;
                     SagaMap.Network.Client.MapClient.FromActorPC(pc).SendSystemMessage("目前处于物理技能封印状态");

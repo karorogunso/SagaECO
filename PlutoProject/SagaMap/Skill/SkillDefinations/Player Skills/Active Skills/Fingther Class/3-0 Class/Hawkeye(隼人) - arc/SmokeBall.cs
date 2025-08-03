@@ -13,7 +13,7 @@ namespace SagaMap.Skill.SkillDefinations.Hawkeye
     {
         public int TryCast(ActorPC pc, Actor dActor, SkillArg args)
         {
-            if (SkillHandler.Instance.isEquipmentRight(pc, ItemType.BOW, ItemType.GUN,ItemType.RIFLE, ItemType.EXGUN, ItemType.DUALGUN))
+            if (SkillHandler.Instance.isEquipmentRight(pc, ItemType.BOW, ItemType.GUN, ItemType.RIFLE, ItemType.EXGUN, ItemType.DUALGUN))
             {
                 return 0;
             }
@@ -35,7 +35,7 @@ namespace SagaMap.Skill.SkillDefinations.Hawkeye
             {
                 sActor.Status.Additions["SmokeBall"].OnTimerEnd();
             }
-            
+
         }
 
         void ValidCheck(ActorPC pc, Actor dActor, out int result)
@@ -44,7 +44,7 @@ namespace SagaMap.Skill.SkillDefinations.Hawkeye
         }
         void StartEventHandler(Actor actor, DefaultBuff skill)
         {
-            
+
             int level = skill.skill.Level;
             actor.Status.combo_rate_skill += 50;
             actor.Buff.三转枪连弹 = true;

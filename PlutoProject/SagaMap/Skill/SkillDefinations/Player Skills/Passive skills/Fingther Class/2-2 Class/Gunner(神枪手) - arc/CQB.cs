@@ -9,7 +9,7 @@ namespace SagaMap.Skill.SkillDefinations.Gunner
     /// <summary>
     /// 近身戰鬥修練（CQB）
     /// </summary>
-    public class CQB:ISkill 
+    public class CQB : ISkill
     {
         #region ISkill Members
         public int TryCast(ActorPC sActor, Actor dActor, SkillArg args)
@@ -19,7 +19,7 @@ namespace SagaMap.Skill.SkillDefinations.Gunner
         public void Proc(Actor sActor, Actor dActor, SkillArg args, byte level)
         {
             int lifetime = 6000 + 2000 * level;
-            DefaultPassiveSkill skill = new DefaultPassiveSkill(args.skill, dActor, "CQB",true);
+            DefaultPassiveSkill skill = new DefaultPassiveSkill(args.skill, dActor, "CQB", true);
             skill.OnAdditionStart += this.StartEventHandler;
             skill.OnAdditionEnd += this.EndEventHandler;
             SkillHandler.ApplyAddition(dActor, skill);
@@ -51,7 +51,7 @@ namespace SagaMap.Skill.SkillDefinations.Gunner
 
             //近戰迴避
             actor.Status.avoid_melee_skill -= (short)skill.Variable["CQB_avoid_melee"];
-       
+
         }
         #endregion
     }

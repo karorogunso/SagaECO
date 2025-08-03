@@ -17,7 +17,7 @@ namespace SagaMap.Tasks.PC
         public Ping(MapClient pc)
         {
             this.period = 10000;
-            this.pc = pc;            
+            this.pc = pc;
         }
 
         public override void CallBack()

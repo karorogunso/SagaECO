@@ -43,7 +43,7 @@ namespace SagaMap.Skill.SkillDefinations.Necromancer
                 Map map = Manager.MapManager.Instance.GetMap(actor.MapID);
                 mob = map.SpawnMob(MobID[skill.skill.Level], x, y, 2500, actor);
                 uint HP = MobHP[skill.skill.Level];
-                
+
                 #region PassiveSkill Detection
                 if (actor.type == ActorType.PC)
                 {
@@ -57,7 +57,7 @@ namespace SagaMap.Skill.SkillDefinations.Necromancer
                     }
                     else if (pc.SkillsReserve.ContainsKey(LemuresHpUp_SkillID))
                     {
-                        HP +=  (uint)(pc.SkillsReserve[LemuresHpUp_SkillID].Level * 50);
+                        HP += (uint)(pc.SkillsReserve[LemuresHpUp_SkillID].Level * 50);
                     }
 
                     //提升召喚對象的魔法攻擊（召喚対象魔法系上昇）

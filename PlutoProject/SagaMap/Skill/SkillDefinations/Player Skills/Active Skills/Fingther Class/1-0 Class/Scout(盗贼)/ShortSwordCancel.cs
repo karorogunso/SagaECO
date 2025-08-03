@@ -69,7 +69,7 @@ namespace SagaMap.Skill.SkillDefinations.Scout
 
         void EndEventHandler(Actor actor, DefaultBuff skill)
         {
-            if (actor.Status.aspd_skill_perc >= (1.25f + 0.25f * skill.skill.Level +1))
+            if (actor.Status.aspd_skill_perc >= (1.25f + 0.25f * skill.skill.Level + 1))
                 actor.Status.aspd_skill_perc -= (float)(1.25f + 0.25f * skill.skill.Level);
             else
                 actor.Status.aspd_skill_perc = 1;

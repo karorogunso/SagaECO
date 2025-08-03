@@ -28,7 +28,7 @@ namespace SagaMap.Skill.SkillDefinations.Shaman
         public void Proc(Actor sActor, Actor dActor, SkillArg args, byte level)
         {
             float factor = 0;
-            if(MobUse)
+            if (MobUse)
                 level = 3;
             switch (level)
             {

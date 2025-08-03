@@ -21,7 +21,7 @@ namespace SagaMap.Skill.SkillDefinations.Hawkeye
 
         public void Proc(Actor sActor, Actor dActor, SkillArg args, byte level)
         {
-            if(sActor.type!=ActorType.PC)
+            if (sActor.type != ActorType.PC)
             {
                 level = 3;
             }

@@ -97,8 +97,8 @@ namespace SagaMap.Skill.SkillDefinations.Astralist
             {
                 if (DistanceA <= 600)//If mob is out the range that FireBolt can cast, skip out.
                 {
-                    if(count == 0)
-                    SkillFireBolt.skill = SagaDB.Skill.SkillFactory.Instance.GetSkill(3009, 1);
+                    if (count == 0)
+                        SkillFireBolt.skill = SagaDB.Skill.SkillFactory.Instance.GetSkill(3009, 1);
                     if (count == 1)
                         SkillFireBolt.skill = SagaDB.Skill.SkillFactory.Instance.GetSkill(3017, 1);
                     if (count == 2)
@@ -111,7 +111,7 @@ namespace SagaMap.Skill.SkillDefinations.Astralist
                     SkillFireBolt.x = 255;
                     SkillFireBolt.y = 255;
                     if (count == 0)
-                    SkillHandler.Instance.MagicAttack(sActor, AimActor, SkillFireBolt, Elements.Fire, factor);
+                        SkillHandler.Instance.MagicAttack(sActor, AimActor, SkillFireBolt, Elements.Fire, factor);
                     if (count == 1)
                         SkillHandler.Instance.MagicAttack(sActor, AimActor, SkillFireBolt, Elements.Wind, factor);
                     if (count == 2)

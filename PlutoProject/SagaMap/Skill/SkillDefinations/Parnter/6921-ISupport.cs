@@ -55,7 +55,7 @@ namespace SagaMap.Skill.SkillDefinations.Global
                 Actor ActorlowHP = sActor;
                 foreach (Actor act in affected)
                 {
-                    if(!SkillHandler.Instance.CheckValidAttackTarget(sActor,act))
+                    if (!SkillHandler.Instance.CheckValidAttackTarget(sActor, act))
                     {
                         int a = SagaLib.Global.Random.Next(0, 99);
                         if (a < 40)
@@ -63,7 +63,7 @@ namespace SagaMap.Skill.SkillDefinations.Global
                             dActor = act;
                         }
                     }
-                    
+
                 }
 
             }

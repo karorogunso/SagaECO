@@ -13,7 +13,7 @@ namespace SagaMap.Skill.SkillDefinations.Knight
     /// </summary>
     public class Revive : ISkill
     {
-        private int SkillLv=0;
+        private int SkillLv = 0;
         /// <summary>
         /// 初始化技能
         /// </summary>
@@ -57,5 +57,5 @@ namespace SagaMap.Skill.SkillDefinations.Knight
         #endregion
     }
 }
-              
+
 

@@ -27,7 +27,7 @@ namespace SagaMap.Skill.SkillDefinations.DarkStalker
         }
         public void Proc(Actor sActor, Actor dActor, SkillArg args, byte level)
         {
-            int lifetime = 4000 ;
+            int lifetime = 4000;
             int rate = 30 + 10 * level;
             if (SagaLib.Global.Random.Next(0, 99) < rate)
             {

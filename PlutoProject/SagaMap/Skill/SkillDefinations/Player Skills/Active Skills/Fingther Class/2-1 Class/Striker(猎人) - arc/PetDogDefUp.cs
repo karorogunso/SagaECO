@@ -37,7 +37,7 @@ namespace SagaMap.Skill.SkillDefinations.Striker
             actor.Status.def_skill += (short)def_add;
 
             //右防禦
-            int def_add_add = (int)( 8 + 2 * level);
+            int def_add_add = (int)(8 + 2 * level);
             if (skill.Variable.ContainsKey("DogHpUp_def_add"))
                 skill.Variable.Remove("DogHpUp_def_add");
             skill.Variable.Add("DogHpUp_def_add", def_add_add);
@@ -51,12 +51,12 @@ namespace SagaMap.Skill.SkillDefinations.Striker
             actor.Status.mdef_skill += (short)mdef_add;
 
             //右魔防
-            int mdef_add_add = (int)( 5 + 2 * level);
+            int mdef_add_add = (int)(5 + 2 * level);
             if (skill.Variable.ContainsKey("DogHpUp_mdef_add"))
                 skill.Variable.Remove("DogHpUp_mdef_add");
             skill.Variable.Add("DogHpUp_mdef_add", mdef_add_add);
             actor.Status.mdef_add_skill += (short)mdef_add_add;
-                                        
+
         }
         void EndEventHandler(Actor actor, DefaultBuff skill)
         {
@@ -71,7 +71,7 @@ namespace SagaMap.Skill.SkillDefinations.Striker
 
             //右魔防
             actor.Status.mdef_add_skill -= (short)skill.Variable["DogHpUp_mdef_add"];
-             
+
         }
         #endregion
     }

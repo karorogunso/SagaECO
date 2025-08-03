@@ -9,7 +9,7 @@ namespace SagaMap.Skill.SkillDefinations.Command
     /// <summary>
     /// 槍射擊練習（ハンドガンマスタリー）
     /// </summary>
-    public class HandGunDamUp : ISkill 
+    public class HandGunDamUp : ISkill
     {
         #region ISkill Members
         public int TryCast(ActorPC sActor, Actor dActor, SkillArg args)
@@ -34,7 +34,7 @@ namespace SagaMap.Skill.SkillDefinations.Command
                 skill.OnAdditionEnd += this.EndEventHandler;
                 SkillHandler.ApplyAddition(sActor, skill);
             }
-        
+
         }
         void StartEventHandler(Actor actor, DefaultPassiveSkill skill)
         {

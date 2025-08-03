@@ -82,7 +82,7 @@ namespace SagaMap.Skill.SkillDefinations.Guardian
                 skill.Variable.Add("Rust_LEFT_DEF", left_add_another[skill.skill.Level]);
                 actor.Status.def_skill += (short)left_add_another[skill.skill.Level];
             }
-            
+
 
             int rust_def_add = (int)(actor.Status.def_add * right_add[skill.skill.Level]);
             if (skill.Variable.ContainsKey("Rust_RIGHT_DEF"))

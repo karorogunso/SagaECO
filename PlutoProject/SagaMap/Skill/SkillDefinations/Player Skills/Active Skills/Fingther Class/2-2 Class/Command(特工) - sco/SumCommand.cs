@@ -39,7 +39,7 @@ namespace SagaMap.Skill.SkillDefinations.Command
             Map map = Manager.MapManager.Instance.GetMap(sActor.MapID);
             foreach (uint i in sumMobID)
             {
-                sumMob.Add(map.SpawnMob(i,(short)( sActor.X + SagaLib.Global.Random.Next(-100, 100)), (short)(sActor.Y + SagaLib.Global.Random.Next(-100, 100)), 2500, sActor));
+                sumMob.Add(map.SpawnMob(i, (short)(sActor.X + SagaLib.Global.Random.Next(-100, 100)), (short)(sActor.Y + SagaLib.Global.Random.Next(-100, 100)), 2500, sActor));
             }
             SumCommandBuff skill = new SumCommandBuff(args.skill, sActor, sumMob, lifetime);
             SkillHandler.ApplyAddition(dActor, skill);

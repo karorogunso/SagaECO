@@ -42,8 +42,8 @@ namespace SagaMap.Tasks.Mob
                 if (min_y < 0) min_y = 0;
                 if (max_y >= map_.Height)
                     max_y = map_.Height - 1;
-                
-                x_new = (byte)Global.Random.Next(min_x ,max_x);
+
+                x_new = (byte)Global.Random.Next(min_x, max_x);
                 while (x_new < min_x || x_new > max_x)
                 {
                     x_new = (byte)Global.Random.Next(min_x, max_x);
@@ -88,7 +88,7 @@ namespace SagaMap.Tasks.Mob
                 mob.HP = mob.MaxHP;
                 mob.MP = mob.MaxMP;
                 mob.SP = mob.MaxSP;
-               
+
                 mob.invisble = false;
                 map_.OnActorVisibilityChange(mob);
                 map_.SendVisibleActorsToActor(mob);

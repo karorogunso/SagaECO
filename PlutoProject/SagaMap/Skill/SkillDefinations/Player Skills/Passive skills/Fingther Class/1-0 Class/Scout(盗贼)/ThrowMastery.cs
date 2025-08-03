@@ -8,7 +8,7 @@ using SagaMap.Skill.Additions.Global;
 
 namespace SagaMap.Skill.SkillDefinations.Global
 {
-    public class ThrowMastery:ISkill
+    public class ThrowMastery : ISkill
     {
         #region ISkill Members
 

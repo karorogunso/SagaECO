@@ -17,7 +17,7 @@ namespace SagaMap.Skill.SkillDefinations.Harvest
 
         public int TryCast(ActorPC sActor, Actor dActor, SkillArg args)
         {
-            if(dActor.Status.Additions.ContainsKey("PlantShield"))
+            if (dActor.Status.Additions.ContainsKey("PlantShield"))
             {
                 return -14;
             }
@@ -31,7 +31,7 @@ namespace SagaMap.Skill.SkillDefinations.Harvest
             skill.OnAdditionEnd += this.EndEventHandler;
             SkillHandler.ApplyAddition(dActor, skill);
         }
-        
+
         void StartEventHandler(Actor actor, DefaultBuff skill)
         {
             actor.Status.PlantShield = actor.MaxHP;

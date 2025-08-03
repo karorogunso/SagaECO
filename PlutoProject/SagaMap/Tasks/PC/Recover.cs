@@ -16,7 +16,7 @@ namespace SagaMap.Tasks.PC
         {
             this.dueTime = 3000;
             this.period = 3000;
-            this.client = client;            
+            this.client = client;
         }
 
         public override void CallBack()
@@ -36,7 +36,7 @@ namespace SagaMap.Tasks.PC
                     }
                     if (client.Character.Tasks.ContainsKey("Recover"))
                     {
-                        if(client.Character.Tasks["Recover"] != this)
+                        if (client.Character.Tasks["Recover"] != this)
                         {
                             Deactivate();
                             return;
@@ -44,7 +44,7 @@ namespace SagaMap.Tasks.PC
                     }
                     if (!client.Character.Tasks.ContainsKey("Recover"))
                     {
-                        client.Character.Tasks.Add("Recover",this);
+                        client.Character.Tasks.Add("Recover", this);
                     }
                     pc.TTime["上次自然回复时间"] = DateTime.Now;
                     DateTime s = DateTime.Now;

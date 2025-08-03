@@ -27,11 +27,11 @@ namespace SagaMap.Skill.SkillDefinations.SoulTaker
             {
                 sActor.Status.Additions["SoulTaker"].OnTimerEnd();
             }
-                
+
         }
         //void UpdateEventHandler(Actor actor, DefaultBuff skill)
         //{
-        //    //SagaMap.Network.Client.MapClient.FromActorPC((ActorPC)actor).SendSystemMessage("当前速度为" + actor.Speed);
+        //    //SagaMap.Network.Client.MapClient.FromActorPC((ActorPC)actor).SendSystemMessage("锟斤拷前锟劫讹拷为" + actor.Speed);
         //    if (actor.Speed != 310)
         //    {
         //        actor.Status.speed_skill = -100;

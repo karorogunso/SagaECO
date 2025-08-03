@@ -23,7 +23,7 @@ namespace SagaMap.Skill.SkillDefinations.Gambler
             int lifetime = 12000;
             uint MobID = 10330006;//艾卡納王
             Map map = Manager.MapManager.Instance.GetMap(sActor.MapID);
-            ActorMob mob=map.SpawnMob(MobID,
+            ActorMob mob = map.SpawnMob(MobID,
                 (short)(sActor.X + SagaLib.Global.Random.Next(1, 11)),
                 (short)(sActor.Y + SagaLib.Global.Random.Next(1, 11)),
                 2500, sActor);
@@ -37,8 +37,8 @@ namespace SagaMap.Skill.SkillDefinations.Gambler
         {
             ActorMob mob;
             SkillArg arg;
-            public SumArcanaCardBuff(SkillArg  skill, Actor actor,ActorMob mob, int lifetime)
-                : base(skill.skill , actor, "SumArcanaCard", lifetime,6000)
+            public SumArcanaCardBuff(SkillArg skill, Actor actor, ActorMob mob, int lifetime)
+                : base(skill.skill, actor, "SumArcanaCard", lifetime, 6000)
             {
                 this.OnAdditionStart += this.StartEvent;
                 this.OnAdditionEnd += this.EndEvent;
@@ -67,7 +67,7 @@ namespace SagaMap.Skill.SkillDefinations.Gambler
                         }
                     }
                 }
-                map.SendEventToAllActorsWhoCanSeeActor(Map.EVENT_TYPE.SKILL, arg , actor, false);
+                map.SendEventToAllActorsWhoCanSeeActor(Map.EVENT_TYPE.SKILL, arg, actor, false);
             }
             void EndEvent(Actor actor, DefaultBuff skill)
             {

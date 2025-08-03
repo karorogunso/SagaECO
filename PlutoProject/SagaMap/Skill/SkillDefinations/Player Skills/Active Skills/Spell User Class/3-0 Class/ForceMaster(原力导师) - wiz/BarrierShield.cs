@@ -37,8 +37,8 @@ namespace SagaMap.Skill.SkillDefinations.ForceMaster
         {
             uint[] MP_down = { 0, 30, 25, 20, 15, 10 };
             uint mp_realdown = MP_down[skill.skill.Level];
-            
-            if(actor.MP< mp_realdown)
+
+            if (actor.MP < mp_realdown)
             {
                 actor.Status.Additions["BarrierShield"].OnTimerEnd();
                 actor.Status.Additions.Remove("BarrierShield");
@@ -69,7 +69,7 @@ namespace SagaMap.Skill.SkillDefinations.ForceMaster
             }
 
 
-            
+
             actor.Buff.DefRateDown = true;
             actor.Buff.三转魔法抗体 = true;
             Manager.MapManager.Instance.GetMap(actor.MapID).SendEventToAllActorsWhoCanSeeActor(Map.EVENT_TYPE.BUFF_CHANGE, null, actor, true);

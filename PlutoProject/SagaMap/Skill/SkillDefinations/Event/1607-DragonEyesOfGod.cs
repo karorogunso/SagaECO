@@ -1,4 +1,4 @@
-﻿using SagaDB.Actor;
+using SagaDB.Actor;
 using SagaMap.Skill.Additions.Global;
 using System;
 using System.Collections.Generic;

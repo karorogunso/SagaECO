@@ -39,7 +39,7 @@ namespace SagaMap.Skill.SkillDefinations.Monster
                     SkillHandler.Instance.ShowEffectByActor(act, 4019);
                 }
             }
-            
+
             //sActor. = 4019;
         }
         void StartEventHandler(Actor actor, DefaultBuff skill)

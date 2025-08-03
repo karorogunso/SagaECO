@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -28,12 +28,12 @@ namespace SagaMap.Skill.SkillDefinations.Monster
             List<Actor> affected = map.GetActorsArea(sActor, 200, true);
             foreach (Actor act in affected)
             {
-                if (act.type== ActorType.MOB)
+                if (act.type == ActorType.MOB)
                 {
-                    DefaultBuff skill = new DefaultBuff(args.skill, act, "MobHolyfeather", lifetime,3000);
+                    DefaultBuff skill = new DefaultBuff(args.skill, act, "MobHolyfeather", lifetime, 3000);
                     skill.OnAdditionStart += this.StartEvent;
                     skill.OnAdditionEnd += this.EndEvent;
-                    skill.OnUpdate  += this.TimerUpdate;
+                    skill.OnUpdate += this.TimerUpdate;
                     SkillHandler.ApplyAddition(act, skill);
                 }
             }

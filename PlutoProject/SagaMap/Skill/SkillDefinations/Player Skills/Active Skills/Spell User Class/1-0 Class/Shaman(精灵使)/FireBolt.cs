@@ -36,7 +36,7 @@ namespace SagaMap.Skill.SkillDefinations.Shaman
             if (MobUse)
             {
                 level = 5;
-                
+
             }
             float[] factors = { 0, 1.15f, 1.35f, 1.55f, 1.75f, 2.0f };
             float factor = factors[level];

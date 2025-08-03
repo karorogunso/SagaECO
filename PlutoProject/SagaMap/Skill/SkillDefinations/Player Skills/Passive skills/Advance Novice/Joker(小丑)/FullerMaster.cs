@@ -36,12 +36,12 @@ namespace SagaMap.Skill.SkillDefinations.Global
 
         void StartEventHandler(Actor actor, DefaultPassiveSkill skill)
         {
-            
+
         }
 
         void EndEventHandler(Actor actor, DefaultPassiveSkill skill)
         {
-            
+
         }
 
         #endregion

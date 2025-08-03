@@ -37,14 +37,14 @@ namespace SagaMap.Skill.SkillDefinations.TreasureHunter
                 skill.OnAdditionEnd += this.EndEventHandler;
                 SkillHandler.ApplyAddition(realdActor, skill);
             }
-                
+
         }
         void StartEventHandler(Actor actor, DefaultBuff skill)
         {
             if (skill.Variable.ContainsKey("ST_LEFT_DEF"))
                 skill.Variable.Remove("ST_LEFT_DEF");
-            skill.Variable.Add("ST_LEFT_DEF", 7+skill.skill.Level);
-            actor.Status.def_skill += (short)(7+skill.skill.Level);
+            skill.Variable.Add("ST_LEFT_DEF", 7 + skill.skill.Level);
+            actor.Status.def_skill += (short)(7 + skill.skill.Level);
 
             //if (skill.Variable.ContainsKey("ST_CTI_AVOID"))
             //    skill.Variable.Remove("ST_CTI_AVOID");

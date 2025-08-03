@@ -1,4 +1,4 @@
-﻿//#define Thai
+//#define Thai
 
 using System;
 using System.Collections.Generic;

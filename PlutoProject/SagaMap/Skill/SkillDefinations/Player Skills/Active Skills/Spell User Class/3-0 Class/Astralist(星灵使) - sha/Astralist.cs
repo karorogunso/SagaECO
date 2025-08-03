@@ -9,7 +9,7 @@ using SagaMap.Skill.Additions.Global;
 namespace SagaMap.Skill.SkillDefinations.Astralist
 {
     /// <summary>
-    /// ¥¢¥¹¥È¥é¥ê¥¹¥È
+    /// ï¿½ï¿½ï¿½ï¿½ï¿½È¥ï¿½ê¥¹ï¿½ï¿½
     /// </summary>
     public class Astralist : ISkill
     {
@@ -22,7 +22,7 @@ namespace SagaMap.Skill.SkillDefinations.Astralist
         public void Proc(Actor sActor, Actor dActor, SkillArg args, byte level)
         {
             int lifetime = 30000 + 30000 * level;
-            DefaultBuff skill = new DefaultBuff(args.skill, sActor, "Astralist", lifetime,1000);
+            DefaultBuff skill = new DefaultBuff(args.skill, sActor, "Astralist", lifetime, 1000);
             skill.OnAdditionStart += this.StartEventHandler;
             skill.OnAdditionEnd += this.EndEventHandler;
             skill.OnUpdate += this.UpdateEventHandler;

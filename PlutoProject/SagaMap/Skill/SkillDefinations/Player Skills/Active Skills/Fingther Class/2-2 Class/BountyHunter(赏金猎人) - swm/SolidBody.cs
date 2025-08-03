@@ -39,7 +39,7 @@ namespace SagaMap.Skill.SkillDefinations.BountyHunter
                 skill.OnAdditionEnd += this.EndEventHandler;
                 SkillHandler.ApplyAddition(realdActor, skill);
             }
-                
+
             //加上暈眩抗性
             //args.autoCast.Add(SkillHandler.Instance.CreateAutoCastInfo(3057, 5, 0));
         }
@@ -51,7 +51,7 @@ namespace SagaMap.Skill.SkillDefinations.BountyHunter
             float def_add = 0.02f + 0.02f * level;
             if (skill.Variable.ContainsKey("SolidBody_def"))
                 skill.Variable.Remove("SolidBody_def");
-            skill.Variable.Add("SolidBody_def", (int)(actor.Status.def* def_add));
+            skill.Variable.Add("SolidBody_def", (int)(actor.Status.def * def_add));
             actor.Status.def_skill += (short)(actor.Status.def * def_add);
 
             actor.Buff.SolidBody = true;

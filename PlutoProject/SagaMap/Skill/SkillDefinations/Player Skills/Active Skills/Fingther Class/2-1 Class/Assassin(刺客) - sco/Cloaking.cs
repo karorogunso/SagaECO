@@ -42,17 +42,17 @@ namespace SagaMap.Skill.SkillDefinations.Assassin
         }
         void TimerUpdate(Actor actor, DefaultBuff skill)
         {
-            
+
             if (actor.type != ActorType.PC)
             {
                 return;
             }
             ActorPC dActorPC = (ActorPC)actor;
 
-            
+
             if (actor.SP > 0 && dActorPC.Motion != SagaLib.MotionType.SIT)
             {
-                
+
                 Map map = Manager.MapManager.Instance.GetMap(actor.MapID);
                 actor.SP -= 1;
                 map.SendEventToAllActorsWhoCanSeeActor(Map.EVENT_TYPE.HPMPSP_UPDATE, null, actor, true);

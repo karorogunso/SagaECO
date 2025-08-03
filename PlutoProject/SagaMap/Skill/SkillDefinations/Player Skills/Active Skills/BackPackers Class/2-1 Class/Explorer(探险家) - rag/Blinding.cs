@@ -48,7 +48,7 @@ namespace SagaMap.Skill.SkillDefinations.Explorer
                 skill.Variable.Remove("Blinding_hit_ranged");
             skill.Variable.Add("Blinding_hit_ranged", hit_ranged_add);
             actor.Status.hit_ranged_skill += (short)hit_ranged_add;
-       
+
         }
         void EndEventHandler(Actor actor, DefaultBuff skill)
         {
@@ -57,7 +57,7 @@ namespace SagaMap.Skill.SkillDefinations.Explorer
 
             //遠命中
             actor.Status.hit_ranged_skill -= (short)skill.Variable["Blinding_hit_ranged"];
-               
+
         }
         #endregion
     }

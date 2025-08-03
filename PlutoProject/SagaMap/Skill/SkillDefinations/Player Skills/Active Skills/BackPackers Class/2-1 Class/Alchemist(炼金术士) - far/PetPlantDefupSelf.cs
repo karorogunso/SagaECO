@@ -56,7 +56,7 @@ namespace SagaMap.Skill.SkillDefinations.Alchemist
                 skill.Variable.Remove("PetPlantDefupSelf_mdef_add");
             skill.Variable.Add("PetPlantDefupSelf_mdef_add", mdef_add_add);
             actor.Status.mdef_add_skill += (short)mdef_add_add;
-                                        
+
         }
         void EndEventHandler(Actor actor, DefaultBuff skill)
         {
@@ -71,7 +71,7 @@ namespace SagaMap.Skill.SkillDefinations.Alchemist
 
             //右魔防
             actor.Status.mdef_add_skill -= (short)skill.Variable["PetPlantDefupSelf_mdef_add"];
-           
+
         }
         #endregion
     }

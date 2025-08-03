@@ -13,7 +13,7 @@ namespace SagaMap.Skill.SkillDefinations.Sorcerer
     /// </summary>
     public class SolidAura : ISkill
     {
-        KyrieUser user = KyrieUser.Player ;
+        KyrieUser user = KyrieUser.Player;
         public enum KyrieUser
         {
             Player,
@@ -34,9 +34,9 @@ namespace SagaMap.Skill.SkillDefinations.Sorcerer
         }
         public void Proc(Actor sActor, Actor dActor, SkillArg args, byte level)
         {
-            
+
             int lifetime = 7000 + 1000 * level;
-            if (user == KyrieUser.Mob )
+            if (user == KyrieUser.Mob)
             {
                 lifetime = 16000;
                 dActor = sActor;
@@ -47,14 +47,14 @@ namespace SagaMap.Skill.SkillDefinations.Sorcerer
                 dActor = sActor;
             }
             Map map = Manager.MapManager.Instance.GetMap(dActor.MapID);
-            if(sActor.ActorID==dActor.ActorID)
+            if (sActor.ActorID == dActor.ActorID)
             {
                 EffectArg arg2 = new EffectArg();
                 arg2.effectID = 5167;
                 arg2.actorID = dActor.ActorID;
                 map.SendEventToAllActorsWhoCanSeeActor(Map.EVENT_TYPE.SHOW_EFFECT, arg2, dActor, true);
             }
-            
+
             DefaultBuff skill = new DefaultBuff(args.skill, dActor, "MobKyrie", lifetime);
             skill.OnAdditionStart += this.StartEventHandler;
             skill.OnAdditionEnd += this.EndEventHandler;

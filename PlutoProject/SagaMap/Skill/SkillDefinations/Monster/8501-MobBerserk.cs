@@ -15,7 +15,7 @@ namespace SagaMap.Skill.SkillDefinations.Monster
     /// 光戰士
     /// </summary>
     public class MobBerserk : ISkill
-    { 
+    {
         #region ISkill Members
         public int TryCast(ActorPC sActor, Actor dActor, SkillArg args)
         {
@@ -23,13 +23,13 @@ namespace SagaMap.Skill.SkillDefinations.Monster
         }
         public void Proc(Actor sActor, Actor dActor, SkillArg args, byte level)
         {
-            bool active = false ;
+            bool active = false;
             if (dActor.HP < (uint)(dActor.MaxHP * 0.6f))
             {
                 int rate = 90;
                 if (SagaLib.Global.Random.Next(0, 99) < rate)
                 {
-                    active=true;
+                    active = true;
                 }
             }
             DefaultPassiveSkill skill = new DefaultPassiveSkill(args.skill, sActor, "MobBerserk", active);

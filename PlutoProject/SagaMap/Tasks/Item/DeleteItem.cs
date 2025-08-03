@@ -16,7 +16,7 @@ namespace SagaMap.Tasks.Item
         {
             this.dueTime = 60000;
             this.period = 60000;
-            this.npc = item;            
+            this.npc = item;
         }
 
         public override void CallBack()
@@ -29,7 +29,7 @@ namespace SagaMap.Tasks.Item
                 this.Deactivate();
             }
             catch (Exception)
-            {              
+            {
             }
             ClientManager.LeaveCriticalArea();
         }

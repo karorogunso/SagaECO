@@ -59,12 +59,12 @@ namespace SagaMap.Skill.SkillDefinations.Druid
                         skill.OnAdditionEnd += this.EndEventHandler;
                         SkillHandler.ApplyAddition(act, skill);
                     }
-                    if(act.Buff.Undead)
+                    if (act.Buff.Undead)
                     {
                         damageaffected.Add(act);
                     }
                 }
-                else if(act.type == ActorType.MOB)
+                else if (act.type == ActorType.MOB)
                 {
                     ActorMob m = (ActorMob)act;
                     if (m.BaseData.undead)

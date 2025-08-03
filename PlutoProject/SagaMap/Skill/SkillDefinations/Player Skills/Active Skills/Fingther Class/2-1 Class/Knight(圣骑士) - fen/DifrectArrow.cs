@@ -40,7 +40,7 @@ namespace SagaMap.Skill.SkillDefinations.Knight
 
             actor.Buff.LongDodgeUp = true;
             Manager.MapManager.Instance.GetMap(actor.MapID).SendEventToAllActorsWhoCanSeeActor(Map.EVENT_TYPE.BUFF_CHANGE, null, actor, true);
-     
+
         }
         void EndEventHandler(Actor actor, DefaultBuff skill)
         {

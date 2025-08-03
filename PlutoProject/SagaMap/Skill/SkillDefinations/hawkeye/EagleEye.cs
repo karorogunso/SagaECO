@@ -10,7 +10,7 @@ namespace SagaMap.Skill.SkillDefinations.Hawkeye
     /// <summary>
     /// ホークアイ
     /// </summary>
-    public class EagleEye : ISkill 
+    public class EagleEye : ISkill
     {
         #region ISkill 成員
 

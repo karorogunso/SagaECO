@@ -1,4 +1,4 @@
-﻿//#define Debug
+//#define Debug
 
 using System;
 using System.Collections.Generic;

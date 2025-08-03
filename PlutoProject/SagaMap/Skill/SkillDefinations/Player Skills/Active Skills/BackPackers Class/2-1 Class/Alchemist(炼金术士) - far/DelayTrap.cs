@@ -13,11 +13,11 @@ namespace SagaMap.Skill.SkillDefinations.Alchemist
     /// </summary>
     public class DelayTrap : ISkill
     {
-        
+
         #region ISkill Members
         public int TryCast(ActorPC sActor, Actor dActor, SkillArg args)
         {
-            uint itemID=10022307;//計時炸彈
+            uint itemID = 10022307;//計時炸彈
             if (SkillHandler.Instance.CountItem(sActor, itemID) > 0)
             {
                 SkillHandler.Instance.TakeItem(sActor, itemID, 1);
@@ -53,7 +53,7 @@ namespace SagaMap.Skill.SkillDefinations.Alchemist
             void EndEvent(Actor actor, DefaultBuff skill)
             {
                 int level = skill.skill.Level;
-                
+
                 Map map = Manager.MapManager.Instance.GetMap(actor.MapID);
                 List<Actor> affected = map.GetActorsArea(x, y, 150, null);
                 float factor = 1.0f + 1.0f * level;

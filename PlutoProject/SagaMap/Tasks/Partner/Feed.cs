@@ -13,7 +13,7 @@ namespace SagaMap.Tasks.Partner
     {
         private ActorPartner partner;
         MapClient mc;
-        public Feed(MapClient mc ,ActorPartner partner,uint nextfeedtime)
+        public Feed(MapClient mc, ActorPartner partner, uint nextfeedtime)
         {
             this.dueTime = (int)(nextfeedtime * 1000);
             this.period = 5000;

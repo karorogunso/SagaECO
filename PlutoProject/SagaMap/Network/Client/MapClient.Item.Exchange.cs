@@ -1,4 +1,4 @@
-﻿using SagaDB.Item;
+using SagaDB.Item;
 using SagaLib;
 using SagaMap.Packets.Client;
 using SagaMap.Packets.Server;

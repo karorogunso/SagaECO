@@ -26,7 +26,7 @@ namespace SagaMap.Tasks.PC
                 ClientManager.EnterCriticalArea();
                 try
                 {
-                    if(!(this.client.Character.Job == PC_JOB.CARDINAL || this.client.Character.Job == PC_JOB.FORCEMASTER))
+                    if (!(this.client.Character.Job == PC_JOB.CARDINAL || this.client.Character.Job == PC_JOB.FORCEMASTER))
                     {
                         this.client.Character.Tasks.Remove("EpRecover");
                         this.Deactivate();

@@ -89,8 +89,8 @@ namespace SagaMap.Skill.SkillDefinations.Sorcerer
                 actor.Buff.MagicAvoidDown = true;
                 actor.Buff.MagicDefDown = true;
             }
-            
-            if(actor is ActorPC)
+
+            if (actor is ActorPC)
                 Manager.MapManager.Instance.GetMap(actor.MapID).SendEventToAllActorsWhoCanSeeActor(Map.EVENT_TYPE.BUFF_CHANGE, null, actor, true);
             else
                 Manager.MapManager.Instance.GetMap(actor.MapID).SendEventToAllActorsWhoCanSeeActor(Map.EVENT_TYPE.BUFF_CHANGE, null, actor, false);
@@ -122,7 +122,7 @@ namespace SagaMap.Skill.SkillDefinations.Sorcerer
                 actor.Buff.MagicAvoidDown = false;
                 actor.Buff.MagicDefDown = false;
             }
-            
+
             if (actor is ActorPC)
                 Manager.MapManager.Instance.GetMap(actor.MapID).SendEventToAllActorsWhoCanSeeActor(Map.EVENT_TYPE.BUFF_CHANGE, null, actor, true);
             else

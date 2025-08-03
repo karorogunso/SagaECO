@@ -43,7 +43,7 @@ namespace SagaMap.Skill.SkillDefinations.Marionest
                 skill.Variable.Remove("MariostateUp_min_matk");
             skill.Variable.Add("MariostateUp_min_matk", min_matk_add);
             actor.Status.min_matk_skill += (short)min_matk_add;
-                                        
+
         }
         void EndEventHandler(Actor actor, DefaultPassiveSkill skill)
         {
@@ -52,7 +52,7 @@ namespace SagaMap.Skill.SkillDefinations.Marionest
 
             //最小魔攻
             actor.Status.min_matk_skill -= (short)skill.Variable["MariostateUp_min_matk"];
-         
+
         }
         #endregion
     }

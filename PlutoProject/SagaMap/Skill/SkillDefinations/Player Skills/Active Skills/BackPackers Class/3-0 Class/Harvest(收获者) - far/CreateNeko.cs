@@ -22,10 +22,10 @@ namespace SagaMap.Skill.SkillDefinations.Harvest
         {
             Map map = Manager.MapManager.Instance.GetMap(sActor.MapID);
             int lifetime = 15000 + 15000 * level;
-            switch(level)
+            switch (level)
             {
                 case 1:
-                    
+
                     ActorMob mob = map.SpawnMob(90010042, SagaLib.Global.PosX8to16(args.x, map.Width)
                                                        , SagaLib.Global.PosY8to16(args.y, map.Height)
                                                        , 2500, sActor);
@@ -53,7 +53,7 @@ namespace SagaMap.Skill.SkillDefinations.Harvest
                     //mob.type = ActorType.ANOTHERMOB;
                     mob2.type = ActorType.ANOTHERMOB;
                     mob2.Owner = sActor;
-                    mob2.MaxHP = 3500 + (uint)(sActor.MaxHP*1.1f);
+                    mob2.MaxHP = 3500 + (uint)(sActor.MaxHP * 1.1f);
                     mob2.Speed = 300;
                     ActorEventHandlers.MobEventHandler eE2 = (ActorEventHandlers.MobEventHandler)mob2.e;
                     eE2.AI.Master = sActor;
@@ -87,7 +87,7 @@ namespace SagaMap.Skill.SkillDefinations.Harvest
                     break;
                     break;
             }
-            
+
         }
         public class StaffCtrlBuff : DefaultBuff
         {

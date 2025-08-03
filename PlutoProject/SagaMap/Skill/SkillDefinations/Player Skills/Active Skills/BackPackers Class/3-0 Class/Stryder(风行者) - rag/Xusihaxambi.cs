@@ -102,7 +102,7 @@ namespace SagaMap.Skill.SkillDefinations.Stryder
                         //取得有效Actor（即怪物）
                         //skill.argType = SkillArg.ArgType.Attack;
                         //skill.type = ATTACK_TYPE.BLOW;
-                        
+
                         foreach (Actor i in actors)
                         {
                             if (SkillHandler.Instance.CheckValidAttackTarget(caster, i))

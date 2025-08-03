@@ -17,7 +17,7 @@ namespace SagaMap.Skill.SkillDefinations.Striker
         }
         public void Proc(Actor sActor, Actor dActor, SkillArg args, byte level)
         {
-            bool active = false ;
+            bool active = false;
             ActorPet pet = SkillHandler.Instance.GetPet(sActor);
             if (pet != null)
             {
@@ -34,14 +34,14 @@ namespace SagaMap.Skill.SkillDefinations.Striker
         void StartEventHandler(Actor actor, DefaultPassiveSkill skill)
         {
             Map map = Manager.MapManager.Instance.GetMap(actor.MapID);
-            
-           //MaxHP
-           int MaxHP=(int)(actor.MaxHP );
-           if (skill.Variable.ContainsKey("DogHpUp_MaxHP"))
-               skill.Variable.Remove("DogHpUp_MaxHP");
-           skill.Variable.Add("DogHpUp_MaxHP", MaxHP);
-           actor.MaxHP = (uint)(actor.MaxHP * (1 + HP_AddRate[skill.skill.Level]));
-           map.SendEventToAllActorsWhoCanSeeActor(Map.EVENT_TYPE.HPMPSP_UPDATE, null, actor, true);
+
+            //MaxHP
+            int MaxHP = (int)(actor.MaxHP);
+            if (skill.Variable.ContainsKey("DogHpUp_MaxHP"))
+                skill.Variable.Remove("DogHpUp_MaxHP");
+            skill.Variable.Add("DogHpUp_MaxHP", MaxHP);
+            actor.MaxHP = (uint)(actor.MaxHP * (1 + HP_AddRate[skill.skill.Level]));
+            map.SendEventToAllActorsWhoCanSeeActor(Map.EVENT_TYPE.HPMPSP_UPDATE, null, actor, true);
         }
         void EndEventHandler(Actor actor, DefaultPassiveSkill skill)
         {

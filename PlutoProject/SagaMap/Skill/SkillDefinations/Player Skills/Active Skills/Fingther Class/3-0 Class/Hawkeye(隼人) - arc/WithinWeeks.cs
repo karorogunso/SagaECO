@@ -12,7 +12,7 @@ namespace SagaMap.Skill.SkillDefinations.Hawkeye
     {
         public int TryCast(ActorPC sActor, Actor dActor, SkillArg args)
         {
-            return 0; 
+            return 0;
         }
         public void Proc(Actor sActor, Actor dActor, SkillArg args, byte level)
         {
@@ -24,7 +24,7 @@ namespace SagaMap.Skill.SkillDefinations.Hawkeye
         }
         void StartEventHandler(Actor actor, DefaultBuff skill)
         {
-            if(actor.type==ActorType.PC)
+            if (actor.type == ActorType.PC)
             {
                 ActorPC pc = (ActorPC)actor;
                 pc.CInt["WithinWeeksLevel"] = skill.skill.Level;

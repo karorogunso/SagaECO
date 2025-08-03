@@ -94,8 +94,8 @@ namespace SagaMap.Skill.SkillDefinations.Assassin
                 //    lifetime = lifetime * (int)(1.5f + 0.5f * PMlv);
                 //    factor += 0.01f * PMlv;
                 //}
-                 
-                
+
+
                 this.dueTime = 0;
                 this.period = lifetime / times;
                 map = Manager.MapManager.Instance.GetMap(actor.MapID);
@@ -132,10 +132,10 @@ namespace SagaMap.Skill.SkillDefinations.Assassin
                             //    continue;
                         }
                         lifetime -= this.period;
-                        
+
                         //SkillHandler.Instance.MagicAttack(caster, affected, skill, SkillHandler.DefType.DefIgnoreRight, Elements.Neutral, HP_Lost, 0, true);
                         //SkillHandler.Instance.PhysicalAttack(sActor, affected, skill, SkillHandler.DefType.Def, Elements.Neutral, 0, factor, true);
-                        
+
                     }
                     else
                     {

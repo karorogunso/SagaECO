@@ -10,7 +10,7 @@ namespace SagaMap.Skill.SkillDefinations.Tatarabe
     /// <summary>
     /// 煙氣（ＤＯＧＥＺＡ）
     /// </summary>
-    public class AtkRow :ISkill 
+    public class AtkRow : ISkill
     {
         #region ISkill Members
         public int TryCast(ActorPC pc, Actor dActor, SkillArg args)
@@ -33,8 +33,8 @@ namespace SagaMap.Skill.SkillDefinations.Tatarabe
         {
             int level = skill.skill.Level;
             float factor = 0.1f * level;
-            int max_atk1_add = -(int)(actor.Status.max_atk_bs  * (factor));
-            int min_atk1_add = -(int)(actor.Status.min_atk_bs  * (factor));
+            int max_atk1_add = -(int)(actor.Status.max_atk_bs * (factor));
+            int min_atk1_add = -(int)(actor.Status.min_atk_bs * (factor));
             int max_atk2_add = -(int)(actor.Status.max_atk_bs * (factor));
             int min_atk2_add = -(int)(actor.Status.min_atk_bs * (factor));
             int max_atk3_add = -(int)(actor.Status.max_atk_bs * (factor));
@@ -70,7 +70,7 @@ namespace SagaMap.Skill.SkillDefinations.Tatarabe
             skill.Variable.Add("AtkRow_min_atk3_add", min_atk3_add);
             actor.Status.min_atk3_skill += (short)min_atk3_add;
 
-           
+
         }
         void EndEventHandler(Actor actor, DefaultBuff skill)
         {

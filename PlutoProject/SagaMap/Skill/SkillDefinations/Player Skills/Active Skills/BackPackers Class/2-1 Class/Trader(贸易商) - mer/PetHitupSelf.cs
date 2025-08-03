@@ -35,13 +35,13 @@ namespace SagaMap.Skill.SkillDefinations.Trader
                 skill.Variable.Remove("PetAtkupSelf_hit_melee");
             skill.Variable.Add("PetAtkupSelf_hit_melee", hit_melee_add);
             actor.Status.hit_melee_skill += (short)hit_melee_add;
-           
+
         }
         void EndEventHandler(Actor actor, DefaultBuff skill)
         {
             //近命中
             actor.Status.hit_melee_skill -= (short)skill.Variable["PetAtkupSelf_hit_melee"];
-                                       
+
         }
         #endregion
     }

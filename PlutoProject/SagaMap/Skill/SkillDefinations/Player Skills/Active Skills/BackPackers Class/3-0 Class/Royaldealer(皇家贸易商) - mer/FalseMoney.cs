@@ -65,8 +65,8 @@ namespace SagaMap.Skill.SkillDefinations.Royaldealer
             SkillHandler.Instance.MagicAttack(sActor, realAffected, args, sActor.WeaponElement, factor);
 
 
-            
-            
+
+
 
         }
 

@@ -43,7 +43,7 @@ namespace SagaMap.Skill.SkillDefinations.SunFlowerAdditions
 
         void StartEventHandler(Actor actor, DefaultBuff skill)
         {
-            
+
             skill["MobKyrie"] = 10;
             Manager.MapManager.Instance.GetMap(actor.MapID).SendEventToAllActorsWhoCanSeeActor(Map.EVENT_TYPE.BUFF_CHANGE, null, actor, true);
         }

@@ -67,7 +67,7 @@ namespace SagaMap.Skill.SkillDefinations.Machinery
                     skill.Variable.Remove("RobotChaff_hit_ranged");
                 skill.Variable.Add("RobotChaff_hit_ranged", hit_ranged_add);
                 actor.Status.hit_ranged_skill += (short)hit_ranged_add;
-                                        
+
             }
 
             void EndEvent(Actor actor, DefaultBuff skill)

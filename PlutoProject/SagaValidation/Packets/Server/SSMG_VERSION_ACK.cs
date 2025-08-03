@@ -17,7 +17,7 @@ namespace SagaValidation.Packets.Server
         {
             this.data = new byte[10];
             this.offset = 14;
-            this.ID = 0x0002;           
+            this.ID = 0x0002;
         }
 
         public void SetResult(Result res)

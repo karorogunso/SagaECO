@@ -35,7 +35,7 @@ namespace SagaMap.Skill.SkillDefinations.Striker
                     SkillHandler.ApplyAddition(act, skill2);
                 }
             }
-            
+
         }
         void StartEventHandler(Actor actor, DefaultBuff skill)
         {
@@ -46,7 +46,7 @@ namespace SagaMap.Skill.SkillDefinations.Striker
                 skill.Variable.Remove("PetBirdAtkRowCircle_hit_melee");
             skill.Variable.Add("PetBirdAtkRowCircle_hit_melee", hit_melee_add);
             actor.Status.hit_melee_skill += (short)hit_melee_add;
-                                        
+
         }
         void EndEventHandler(Actor actor, DefaultBuff skill)
         {

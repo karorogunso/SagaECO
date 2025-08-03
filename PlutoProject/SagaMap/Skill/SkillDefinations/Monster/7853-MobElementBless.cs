@@ -59,7 +59,7 @@ namespace SagaMap.Skill.SkillDefinations.Monster
                 dActor.Status.elements_skill[Elements.Dark] = 0;
             if (dActor.Status.elements_skill[Elements.Holy] != 0)
                 dActor.Status.elements_skill[Elements.Holy] = 0;
-            int lifetime = 50000 ;
+            int lifetime = 50000;
             DefaultBuff skill = new DefaultBuff(args.skill, dActor, element.ToString() + "Rise", lifetime);
             skill.OnAdditionStart += this.StartEventHandler;
             skill.OnAdditionEnd += this.EndEventHandler;
@@ -103,4 +103,3 @@ namespace SagaMap.Skill.SkillDefinations.Monster
         #endregion
     }
 }
- 

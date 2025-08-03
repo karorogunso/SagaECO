@@ -31,7 +31,7 @@ namespace SagaMap.Skill.SkillDefinations.Druid
                         ActorPC aPC = (ActorPC)act;
                         if (aPC.Party != null && sPC.Party != null)
                         {
-                            if ((aPC.Party.ID == sPC.Party.ID) && aPC.Party.ID != 0 && !aPC.Buff.Dead && aPC.PossessionTarget==0 )
+                            if ((aPC.Party.ID == sPC.Party.ID) && aPC.Party.ID != 0 && !aPC.Buff.Dead && aPC.PossessionTarget == 0)
                             {
                                 if (act.Buff.NoRegen) continue;
 
@@ -50,7 +50,7 @@ namespace SagaMap.Skill.SkillDefinations.Druid
             }
             args.affectedActors = realAffected;
             args.Init();
-            int[] lifetimes = { 0,60000, 75000, 90000, 105000, 120000 };
+            int[] lifetimes = { 0, 60000, 75000, 90000, 105000, 120000 };
             int lifetime = lifetimes[level];
             foreach (Actor rAct in realAffected)
             {

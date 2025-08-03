@@ -10,7 +10,7 @@ using SagaMap;
 
 namespace SagaMap.Skill.SkillDefinations.Astralist
 {
-    class ElementMemory :  ISkill
+    class ElementMemory : ISkill
     {
         #region ISkill Members
 
@@ -74,7 +74,7 @@ namespace SagaMap.Skill.SkillDefinations.Astralist
             }
 
 
-            
+
             if (sActor is ActorPC)
             {
                 ActorPC pc = sActor as ActorPC;
@@ -140,7 +140,7 @@ namespace SagaMap.Skill.SkillDefinations.Astralist
                     //    SkillFireBolt.skill = SagaDB.Skill.SkillFactory.Instance.GetSkill(3001, 1);
                     //}
 
-                    
+
                     //SkillFireBolt.skill = SagaDB.Skill.SkillFactory.Instance.GetSkill(3433, SkillFireBolt.skill.Level);
                     //SkillFireBolt.argType = SkillArg.ArgType.Active;//Configure the skillarg of firebolt, the caster is the skillactor of subsituted groove.
                     //SkillFireBolt.sActor = SkillBody.ActorID;

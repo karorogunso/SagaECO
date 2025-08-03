@@ -20,14 +20,14 @@ namespace SagaMap.Skill.SkillDefinations.Sage
         public void Proc(Actor sActor, Actor dActor, SkillArg args, byte level)
         {
             int lifetime = 300000;
-            SumDopBuff skill = new SumDopBuff(args.skill, sActor, lifetime,args);
+            SumDopBuff skill = new SumDopBuff(args.skill, sActor, lifetime, args);
             SkillHandler.ApplyAddition(sActor, skill);
         }
         public class SumDopBuff : DefaultBuff
         {
             private ActorShadow shadow;
             private SkillArg thisarg;
-            public SumDopBuff(SagaDB.Skill.Skill skill, Actor actor, int lifetime,SkillArg args)
+            public SumDopBuff(SagaDB.Skill.Skill skill, Actor actor, int lifetime, SkillArg args)
                 : base(skill, actor, "SumDop", lifetime)
             {
                 thisarg = args;
@@ -67,7 +67,7 @@ namespace SagaMap.Skill.SkillDefinations.Sage
                 actor.BaseData.id = 26330000;
                 actor.PictID = 26330000;
                 actor.type = ActorType.ANOTHERMOB;
-                
+
                 ActorEventHandlers.PetEventHandler eh = new ActorEventHandlers.PetEventHandler(actor);
                 actor.e = eh;
 

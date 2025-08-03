@@ -38,7 +38,7 @@ namespace SagaMap.Skill.SkillDefinations.Shaman
                     MapElement = item.Key;
                 }
             }
-            if(MapElement != Elements.Neutral)
+            if (MapElement != Elements.Neutral)
             {
                 PrayerToTheElfBuff skill = new PrayerToTheElfBuff(args.skill, sActor, MapElement.ToString() + "PrayerToTheElf", lifetime, MapElement, SagaLib.Global.PosX16to8(sActor.X, map.Width), SagaLib.Global.PosY16to8(sActor.Y, map.Height));
                 SkillHandler.ApplyAddition(sActor, skill);

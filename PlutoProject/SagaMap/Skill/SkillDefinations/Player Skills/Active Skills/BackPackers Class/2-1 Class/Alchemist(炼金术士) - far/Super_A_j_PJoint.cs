@@ -52,12 +52,12 @@ namespace SagaMap.Skill.SkillDefinations.Alchemist
 
             void StartEvent(Actor actor, DefaultBuff skill)
             {
-                
+
             }
 
             void EndEvent(Actor actor, DefaultBuff skill)
             {
-                
+
             }
         }
 

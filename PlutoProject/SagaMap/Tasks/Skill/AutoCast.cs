@@ -32,7 +32,7 @@ namespace SagaMap.Tasks.Skill
                     info = i;
                     break;
                 }
-                if (info !=null)
+                if (info != null)
                 {
                     arg.x = info.x;
                     arg.y = info.y;
@@ -74,7 +74,7 @@ namespace SagaMap.Tasks.Skill
             catch (Exception ex)
             {
                 Logger.ShowError(ex);
-            }            
+            }
         }
     }
 }

@@ -19,7 +19,8 @@ namespace SagaMap.Skill.SkillDefinations.Blacksmith
             if (sActor.PossessionTarget != 0)
             {
                 return 0;
-            }else
+            }
+            else
             {
                 return -23;
             }

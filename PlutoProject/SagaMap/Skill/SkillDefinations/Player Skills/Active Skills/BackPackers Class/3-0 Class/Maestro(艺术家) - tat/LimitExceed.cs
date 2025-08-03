@@ -133,7 +133,7 @@ namespace SagaMap.Skill.SkillDefinations.Maestro
                             break;
                     }
                 }
-                
+
 
             }
             int minatk1up = (int)(actor.Status.min_atk1 * trans_am_atk_up);
@@ -199,7 +199,7 @@ namespace SagaMap.Skill.SkillDefinations.Maestro
 
             Manager.MapManager.Instance.GetMap(actor.MapID).SendEventToAllActorsWhoCanSeeActor(Map.EVENT_TYPE.BUFF_CHANGE, null, actor, true);
             ActorPet pet = SkillHandler.Instance.GetPet(actor);
-            if (pet != null&&SkillHandler.Instance.CheckMobType(pet, "MACHINE_RIDE_ROBOT"))
+            if (pet != null && SkillHandler.Instance.CheckMobType(pet, "MACHINE_RIDE_ROBOT"))
             {
                 int[] lifetime = { 0, 50000, 70000, 80000, 100000, 100000 };
                 DefaultBuff skill2 = new DefaultBuff(skill.skill, actor, "LimitExceedDown", lifetime[skill.skill.Level]);
@@ -208,7 +208,7 @@ namespace SagaMap.Skill.SkillDefinations.Maestro
                 skill.OnCheckValid += this.ValidCheck;
                 SkillHandler.ApplyAddition(actor, skill);
             }
-            
+
         }
 
         void StartEventHandler2(Actor actor, DefaultBuff skill)

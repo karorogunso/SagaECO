@@ -22,7 +22,7 @@ namespace SagaMap.Skill.SkillDefinations.Merchant
         {
             int lifetime = 70000 - 10000 * level;
             int rate = 10 + 10 * level;
-            if(SkillHandler.Instance.CanAdditionApply(sActor,dActor,"Magrow",rate))
+            if (SkillHandler.Instance.CanAdditionApply(sActor, dActor, "Magrow", rate))
             {
                 DefaultBuff skill = new DefaultBuff(args.skill, dActor, "Magrow", lifetime);
                 skill.OnAdditionStart += this.StartEventHandler;
@@ -44,7 +44,7 @@ namespace SagaMap.Skill.SkillDefinations.Merchant
         void EndEventHandler(Actor actor, DefaultBuff skill)
         {
             //最小魔攻
-            actor.Status.min_matk_skill -= (short)skill.Variable["AtkUpOne_min_matk"];      
+            actor.Status.min_matk_skill -= (short)skill.Variable["AtkUpOne_min_matk"];
         }
         #endregion
     }

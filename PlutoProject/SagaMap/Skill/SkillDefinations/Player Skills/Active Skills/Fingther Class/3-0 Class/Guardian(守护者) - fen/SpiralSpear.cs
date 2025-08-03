@@ -65,11 +65,11 @@ namespace SagaMap.Skill.SkillDefinations.Guardian
             {
                 this.actor = actor;
                 this.caster = caster;
-                
+
                 this.skill = args.Clone();
                 map = Manager.MapManager.Instance.GetMap(actor.MapID);
                 this.dueTime = 0;
-                countMax = new int[]{ 0, 4, 4, 5, 7, 12 }[level];
+                countMax = new int[] { 0, 4, 4, 5, 7, 12 }[level];
                 factor = 1.3f + 0.2f * level;
                 this.lifetime = 2500;
                 this.period = lifetime / countMax;
@@ -96,7 +96,7 @@ namespace SagaMap.Skill.SkillDefinations.Guardian
                         {
                             if (SkillHandler.Instance.CheckValidAttackTarget(caster, i))
                             {
-                                
+
                                 //int elements = 0;
                                 //if (caster.WeaponElement != SagaLib.Elements.Neutral)
                                 //{
@@ -116,7 +116,7 @@ namespace SagaMap.Skill.SkillDefinations.Guardian
                                 //SkillHandler.Instance.PhysicalAttack(caster, i, skill, caster.WeaponElement, factor);
                             }
                         }
-                        
+
                         SkillHandler.Instance.PhysicalAttack(caster, affected, skill, caster.WeaponElement, factor);
 
                         //广播技能效果

@@ -42,7 +42,7 @@ namespace SagaValidation.Packets.Server
         {
             this.data = new byte[19];
             this.offset = 14;
-            this.ID = 0x20;            
+            this.ID = 0x20;
         }
 
         public Result LoginResult
@@ -71,7 +71,7 @@ namespace SagaValidation.Packets.Server
                 this.PutUInt(value, 10);
             }
         }
-        
+
         /// <summary>
         /// ゲストID期限　(1970年1月1日0時0分0秒からの秒数）08/01/11より 
         /// End time of trial(second count since 1st Jan. 1970)

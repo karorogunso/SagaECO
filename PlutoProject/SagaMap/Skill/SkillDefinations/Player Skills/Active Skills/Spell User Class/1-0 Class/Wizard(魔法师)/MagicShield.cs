@@ -36,7 +36,7 @@ namespace SagaMap.Skill.SkillDefinations.Wizard
             {
                 level = 5;
             }
-            if(MobUse==true)
+            if (MobUse == true)
             {
                 Map map = Manager.MapManager.Instance.GetMap(sActor.MapID);
                 List<Actor> affected = map.GetActorsArea(sActor, 500, false);
@@ -67,7 +67,7 @@ namespace SagaMap.Skill.SkillDefinations.Wizard
                 skill.OnAdditionEnd += this.EndEventHandler;
                 SkillHandler.ApplyAddition(dActor, skill);
             }
-            
+
         }
 
         void StartEventHandler(Actor actor, DefaultBuff skill)

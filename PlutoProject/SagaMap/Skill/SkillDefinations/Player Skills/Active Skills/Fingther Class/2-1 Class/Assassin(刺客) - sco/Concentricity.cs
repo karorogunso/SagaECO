@@ -10,7 +10,7 @@ namespace SagaMap.Skill.SkillDefinations.Assassin
     /// <summary>
     /// アサルト
     /// </summary>
-    public class Concentricity : ISkill 
+    public class Concentricity : ISkill
     {
         bool MobUse;
         public Concentricity()
@@ -76,7 +76,7 @@ namespace SagaMap.Skill.SkillDefinations.Assassin
             actor.Buff.DefDown = false;
             actor.Buff.CriticalRateUp = false;
 
-            actor.Status.cri_skill  -= 30;
+            actor.Status.cri_skill -= 30;
             actor.Status.def_skill += (short)skill.Variable["Concentricity"];
 
             if (skill.Variable.ContainsKey("Concentricity"))

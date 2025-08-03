@@ -15,7 +15,7 @@ namespace SagaMap.Tasks.PC
         public AutoSave(ActorPC pc)
         {
             this.period = 300000;
-            this.pc = pc;            
+            this.pc = pc;
         }
 
         public override void CallBack()
@@ -25,7 +25,7 @@ namespace SagaMap.Tasks.PC
                 this.Deactivate();
                 return;
             }
-            if(!pc.Online)
+            if (!pc.Online)
             {
                 this.Deactivate();
                 return;
@@ -35,7 +35,7 @@ namespace SagaMap.Tasks.PC
             {
                 DateTime now = DateTime.Now;
                 MapServer.charDB.SaveChar(pc, false);
-                Logger.ShowInfo("Autosaving " + pc.Name + "'s data, 耗时:" + (DateTime.Now - now).TotalMilliseconds +"ms");
+                Logger.ShowInfo("Autosaving " + pc.Name + "'s data, 耗时:" + (DateTime.Now - now).TotalMilliseconds + "ms");
             }
             catch (Exception ex)
             {

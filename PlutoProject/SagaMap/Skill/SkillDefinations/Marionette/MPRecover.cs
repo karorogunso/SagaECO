@@ -11,7 +11,7 @@ namespace SagaMap.Skill.SkillDefinations.Marionette
     /// <summary>
     /// 木偶時的MP自然恢復
     /// </summary>
-    public class MPRecovery:ISkill
+    public class MPRecovery : ISkill
     {
         #region ISkill Members
 

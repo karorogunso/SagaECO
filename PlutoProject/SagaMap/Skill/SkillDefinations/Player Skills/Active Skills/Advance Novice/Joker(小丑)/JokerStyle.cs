@@ -16,7 +16,7 @@ namespace SagaMap.Skill.SkillDefinations.Global
         #region ISkill Members
         public int TryCast(ActorPC pc, Actor dActor, SkillArg args)
         {
-            switch(args.skill.Level)
+            switch (args.skill.Level)
             {
                 case 1:
                     return 0;
@@ -90,7 +90,7 @@ namespace SagaMap.Skill.SkillDefinations.Global
             Manager.MapManager.Instance.GetMap(actor.MapID).SendEventToAllActorsWhoCanSeeActor(Map.EVENT_TYPE.BUFF_CHANGE, null, actor, true);
         }
 
-        
+
 
         void StartJokerStyle3(Actor actor, DefaultBuff skill)
         {

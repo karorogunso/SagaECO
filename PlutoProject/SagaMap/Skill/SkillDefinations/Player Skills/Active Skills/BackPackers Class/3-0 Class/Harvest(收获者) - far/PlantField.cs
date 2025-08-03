@@ -74,14 +74,14 @@ namespace SagaMap.Skill.SkillDefinations.Harvest
             SkillArg skill;
             Map map;
             //float lv1 = 0, lv2 = 0, lv3 = 0, lv4 = 0, lv5 = 0;
-        //    Random ran = new Random();
-        //    lv1 = ((float)ran.Next(1080, 1200)) / 1000;
-        //    lv2 = ((float)ran.Next(675, 750)) / 1000;
-        //    lv3 = ((float)ran.Next(738, 820)) / 1000;
-        //    lv4 = ((float)ran.Next(675, 750)) / 1000;
-        //    lv5 = ((float)ran.Next(720, 800)) / 1000;
-        //    float[] factors = { 0, lv1, lv2, lv3, lv4, lv5 };
-        //    float factor = factors[level];
+            //    Random ran = new Random();
+            //    lv1 = ((float)ran.Next(1080, 1200)) / 1000;
+            //    lv2 = ((float)ran.Next(675, 750)) / 1000;
+            //    lv3 = ((float)ran.Next(738, 820)) / 1000;
+            //    lv4 = ((float)ran.Next(675, 750)) / 1000;
+            //    lv5 = ((float)ran.Next(720, 800)) / 1000;
+            //    float[] factors = { 0, lv1, lv2, lv3, lv4, lv5 };
+            //    float factor = factors[level];
             float factor = 0f;
             int countMax = 0, count = 0, lifetime = 0;
 
@@ -127,7 +127,7 @@ namespace SagaMap.Skill.SkillDefinations.Harvest
                         {
                             if (i is ActorMob)
                             {
-                                
+
                                 if (SkillHandler.Instance.CheckValidAttackTarget(caster, i))
                                 {
                                     if (SkillHandler.Instance.CanAdditionApply(caster, i, SkillHandler.DefaultAdditions.Stone, 20 * this.skill.skill.Level))
@@ -138,14 +138,14 @@ namespace SagaMap.Skill.SkillDefinations.Harvest
                                     int magdmg = (int)(SkillHandler.Instance.CalcDamage(true, caster, i, this.skill, SkillHandler.DefType.MDef, SagaLib.Elements.Neutral, 0, factor));
                                     int dhydmg = (int)(SkillHandler.Instance.CalcDamage(false, caster, i, this.skill, SkillHandler.DefType.MDef, SagaLib.Elements.Neutral, 0, factor));
                                     //healend = (int)(dmgend * healcut[level]);
-                                    SkillHandler.Instance.FixAttack(caster, i, this.skill, SagaLib.Elements.Holy, magdmg+dhydmg);
+                                    SkillHandler.Instance.FixAttack(caster, i, this.skill, SagaLib.Elements.Holy, magdmg + dhydmg);
                                     SkillHandler.Instance.ShowVessel(i, magdmg + dhydmg);
                                     //affected.Add(i);
                                 }
-                                    
+
                             }
-                                
-                            
+
+
 
 
                         }

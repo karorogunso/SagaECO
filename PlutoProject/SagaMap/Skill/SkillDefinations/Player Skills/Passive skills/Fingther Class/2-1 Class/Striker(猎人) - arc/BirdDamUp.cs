@@ -54,7 +54,7 @@ namespace SagaMap.Skill.SkillDefinations.Striker
                 skill.Variable.Remove("BirdDamUp_min_atk3");
             skill.Variable.Add("BirdDamUp_min_atk3", min_atk3_add);
             actor.Status.min_atk3_skill += (short)min_atk3_add;
-  
+
         }
         void EndEventHandler(Actor actor, DefaultPassiveSkill skill)
         {
@@ -66,7 +66,7 @@ namespace SagaMap.Skill.SkillDefinations.Striker
 
             //最小攻擊
             actor.Status.min_atk3_skill -= (short)skill.Variable["BirdDamUp_min_atk3"];
-        
+
         }
         #endregion
     }

@@ -26,7 +26,7 @@ namespace SagaMap.Skill.SkillDefinations.Royaldealer
 
         public void Proc(Actor sActor, Actor dActor, SkillArg args, byte level)
         {
-            
+
             float factor = 1.0f + 0.1f * level;
             int minnumber = 0, maxnumber = 0;
             minnumber = new int[] { 0, 1, 2, 4, 6, 6 }[level];

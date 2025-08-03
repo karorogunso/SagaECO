@@ -1,4 +1,4 @@
-﻿
+
 using SagaLib;
 using SagaMap.Network.Client;
 

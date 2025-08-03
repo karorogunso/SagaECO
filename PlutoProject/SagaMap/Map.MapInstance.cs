@@ -57,7 +57,7 @@ namespace SagaMap
             }
             foreach (Actor mob in this.Actors.Values)
             {
-                if(mob.type == ActorType.MOB)
+                if (mob.type == ActorType.MOB)
                 {
                     ActorEventHandlers.MobEventHandler eh = (ActorEventHandlers.MobEventHandler)mob.e;
                     Mob.AIThread.Instance.RemoveAI(eh.AI);
@@ -96,7 +96,7 @@ namespace SagaMap
                 i.ClearTaskAddition();
                 this.DeleteActor(i);
             }
-           
+
             Map map = MapManager.Instance.GetMap(clientExitMap);
             foreach (Actor i in items)
             {

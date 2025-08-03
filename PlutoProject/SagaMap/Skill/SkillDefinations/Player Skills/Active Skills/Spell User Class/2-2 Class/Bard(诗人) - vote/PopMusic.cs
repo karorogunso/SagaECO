@@ -51,7 +51,7 @@ namespace SagaMap.Skill.SkillDefinations.Bard
             skill.OnAdditionStart += this.StartEventHandler;
             skill.OnAdditionEnd += this.EndEventHandler;
             SkillHandler.ApplyAddition(sActor, skill);
-            if(sActor.skillsong!=null)
+            if (sActor.skillsong != null)
             {
                 map.DeleteActor(sActor.skillsong);
             }

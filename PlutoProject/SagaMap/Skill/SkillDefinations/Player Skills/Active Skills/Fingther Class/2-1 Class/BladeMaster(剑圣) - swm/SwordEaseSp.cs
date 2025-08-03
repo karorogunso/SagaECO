@@ -21,11 +21,11 @@ namespace SagaMap.Skill.SkillDefinations.BladeMaster
         public void Proc(Actor sActor, Actor dActor, SkillArg args, byte level)
         {
             int lifetime = 30000 + 30000 * args.skill.Level;
-            DefaultBuff skill = new DefaultBuff(args.skill, sActor , "SwordEaseSp", lifetime);
+            DefaultBuff skill = new DefaultBuff(args.skill, sActor, "SwordEaseSp", lifetime);
             skill.OnAdditionStart += this.StartEventHandler;
             skill.OnAdditionEnd += this.EndEventHandler;
             SkillHandler.ApplyAddition(sActor, skill);
-            
+
         }
         void StartEventHandler(Actor actor, DefaultBuff skill)
         {

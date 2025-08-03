@@ -16,7 +16,7 @@ namespace SagaMap.Tasks.Mob
         {
             this.dueTime = 5000;
             this.period = 5000;
-            this.npc = mob;            
+            this.npc = mob;
         }
 
         public override void CallBack()

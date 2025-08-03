@@ -17,7 +17,7 @@ namespace SagaMap.Tasks.Mob
         {
             this.dueTime = 1000;
             this.period = 1000;
-            this.mob = mob;            
+            this.mob = mob;
         }
 
         public override void CallBack()
@@ -48,7 +48,7 @@ namespace SagaMap.Tasks.Mob
                 mob.Tasks.Remove("MobRecover");
                 this.Deactivate();
             }
-           // 
+            // 
         }
     }
 }

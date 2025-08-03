@@ -19,11 +19,11 @@ namespace SagaMap.Skill.SkillDefinations.Gambler
         }
         public void Proc(Actor sActor, Actor dActor, SkillArg args, byte level)
         {
-                bool active = true;
-                DefaultPassiveSkill skill = new DefaultPassiveSkill(args.skill, sActor, "DoubleUp", active);
-                skill.OnAdditionStart += this.StartEventHandler;
-                skill.OnAdditionEnd += this.EndEventHandler;
-                SkillHandler.ApplyAddition(sActor, skill);
+            bool active = true;
+            DefaultPassiveSkill skill = new DefaultPassiveSkill(args.skill, sActor, "DoubleUp", active);
+            skill.OnAdditionStart += this.StartEventHandler;
+            skill.OnAdditionEnd += this.EndEventHandler;
+            SkillHandler.ApplyAddition(sActor, skill);
         }
         void StartEventHandler(Actor actor, DefaultPassiveSkill skill)
         {
@@ -41,4 +41,3 @@ namespace SagaMap.Skill.SkillDefinations.Gambler
     }
 }
 
-                                                          

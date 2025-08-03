@@ -22,7 +22,7 @@ namespace SagaMap.Skill.SkillDefinations.DarkStalker
         {
             int lifetime = 7000 + 1000 * level;
             int rate = 20 + 10 * level;
-            if (SkillHandler.Instance.CanAdditionApply(sActor,dActor,"LightSeal",rate))
+            if (SkillHandler.Instance.CanAdditionApply(sActor, dActor, "LightSeal", rate))
             {
                 DefaultBuff skill = new DefaultBuff(args.skill, dActor, "LightSeal", lifetime);
                 skill.OnAdditionStart += this.StartEventHandler;

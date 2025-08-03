@@ -49,7 +49,7 @@ namespace SagaMap.Skill.SkillDefinations.Machinery
                 skill.Variable.Remove("RobotDefUp_mdef_add");
             skill.Variable.Add("RobotDefUp_mdef_add", mdef_add_add);
             actor.Status.mdef_add_skill += (short)mdef_add_add;
- 
+
         }
         void EndEventHandler(Actor actor, DefaultPassiveSkill skill)
         {
@@ -58,7 +58,7 @@ namespace SagaMap.Skill.SkillDefinations.Machinery
 
             //右魔防
             actor.Status.mdef_add_skill -= (short)skill.Variable["RobotDefUp_mdef_add"];
-  
+
         }
         #endregion
     }

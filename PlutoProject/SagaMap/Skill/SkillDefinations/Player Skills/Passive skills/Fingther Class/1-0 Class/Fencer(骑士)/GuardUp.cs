@@ -27,7 +27,7 @@ namespace SagaMap.Skill.SkillDefinations.Fencer
         }
         void StartEventHandler(Actor actor, DefaultPassiveSkill skill)
         {
-            
+
             int def_add_arm = new int[] { 0, 2, 5, 7, 9, 12 }[skill.skill.Level];
             int def_add_arm_end = (int)(actor.Status.def_add_item * (float)(def_add_arm / 100.0f));
             if (skill.Variable.ContainsKey("GuardUp_arm"))
@@ -46,7 +46,7 @@ namespace SagaMap.Skill.SkillDefinations.Fencer
         {
             actor.Status.def_add_skill -= (short)skill.Variable["GuardUp_arm"];
             actor.Status.def_add_skill -= (short)skill.Variable["GuardUp_num"];
-            
+
             //actor.Status.MagicRuduceRate = 0;
         }
         #endregion

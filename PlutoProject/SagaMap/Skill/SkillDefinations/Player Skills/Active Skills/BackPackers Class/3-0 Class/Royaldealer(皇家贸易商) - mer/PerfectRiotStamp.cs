@@ -36,11 +36,11 @@ namespace SagaMap.Skill.SkillDefinations.Royaldealer
 
         void StartEventHandler(Actor actor, DefaultBuff skill)
         {
-            
+
         }
         void EndEventHandler(Actor actor, DefaultBuff skill)
         {
-            
+
         }
         #endregion
     }

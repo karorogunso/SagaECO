@@ -1,4 +1,4 @@
-﻿using SagaDB.Item;
+using SagaDB.Item;
 
 namespace SagaMap.Packets.Server
 {

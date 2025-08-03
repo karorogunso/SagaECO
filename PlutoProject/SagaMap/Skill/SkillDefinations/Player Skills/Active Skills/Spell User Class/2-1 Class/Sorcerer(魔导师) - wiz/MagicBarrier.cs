@@ -56,7 +56,7 @@ namespace SagaMap.Skill.SkillDefinations.Sorcerer
                     Manager.MapManager.Instance.GetMap(act.MapID).SendEventToAllActorsWhoCanSeeActor(Map.EVENT_TYPE.SHOW_EFFECT, arg2, act, true);
                 }
             }
-            
+
         }
 
         void StartEventHandler(Actor actor, DefaultBuff skill)

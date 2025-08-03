@@ -31,8 +31,8 @@ namespace SagaMap.Skill.SkillDefinations.Marionest
                                              , (short)(sActor.Y + SagaLib.Global.Random.Next(1, 10))
                                              , 50, sActor);
             sActor.Slave.Add(mob);
-            args.autoCast.Add(SkillHandler.Instance.CreateAutoCastInfo(NextSkillID,level,500));
-            
+            args.autoCast.Add(SkillHandler.Instance.CreateAutoCastInfo(NextSkillID, level, 500));
+
         }
         #endregion
     }
@@ -40,4 +40,3 @@ namespace SagaMap.Skill.SkillDefinations.Marionest
 
 
 
-                                                          

@@ -7,9 +7,9 @@ using SagaMap.Skill.Additions.Global;
 
 namespace SagaMap.Skill.SkillDefinations.Assassin
 {
-    public class ConClaw: ISkill
+    public class ConClaw : ISkill
     {
-         #region ISkill Members
+        #region ISkill Members
         public int TryCast(ActorPC sActor, Actor dActor, SkillArg args)
         {
             return 0;
@@ -22,7 +22,7 @@ namespace SagaMap.Skill.SkillDefinations.Assassin
                 ActorPC pc = (ActorPC)sActor;
                 if (pc.Inventory.Equipments.ContainsKey(SagaDB.Item.EnumEquipSlot.RIGHT_HAND))
                 {
-                    if (pc.Inventory.Equipments[SagaDB.Item.EnumEquipSlot.RIGHT_HAND].BaseData.itemType == SagaDB.Item.ItemType.CLAW )
+                    if (pc.Inventory.Equipments[SagaDB.Item.EnumEquipSlot.RIGHT_HAND].BaseData.itemType == SagaDB.Item.ItemType.CLAW)
                     {
                         active = true;
                     }

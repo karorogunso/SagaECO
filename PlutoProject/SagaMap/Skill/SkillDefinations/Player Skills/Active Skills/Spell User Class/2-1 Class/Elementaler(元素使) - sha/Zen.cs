@@ -46,7 +46,7 @@ namespace SagaMap.Skill.SkillDefinations.Elementaler
 
             actor.ZenOutLst.Add(3016);
             actor.ZenOutLst.Add(3040);
-            actor.ZenOutLst.Add(3053); 
+            actor.ZenOutLst.Add(3053);
             actor.ZenOutLst.Add(3028);
             actor.ZenOutLst.Add(3260);
             actor.ZenOutLst.Add(3264);

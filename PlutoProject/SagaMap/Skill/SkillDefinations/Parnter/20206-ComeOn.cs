@@ -71,7 +71,7 @@ namespace SagaMap.Skill.SkillDefinations.Global
                 this.countMax = 5;
                 int lifetime = 5000;
                 ActorPartner Me = (ActorPartner)caster;
-                
+
 
                 map = Manager.MapManager.Instance.GetMap(actor.MapID);
                 this.period = lifetime / countMax;

@@ -35,9 +35,9 @@ namespace SagaMap.Skill.SkillDefinations.Marionette
         void EndEventHandler(Actor actor, DefaultBuff skill)
         {
             Map map = Manager.MapManager.Instance.GetMap(actor.MapID);
-            var mobs=from ActorMob m in (from Actor a in actor.Slave where a.type== ActorType.MOB select a)
-                     where m.MobID ==26160006
-                     select m;
+            var mobs = from ActorMob m in (from Actor a in actor.Slave where a.type == ActorType.MOB select a)
+                       where m.MobID == 26160006
+                       select m;
             foreach (ActorMob m in mobs)
             {
                 m.ClearTaskAddition();

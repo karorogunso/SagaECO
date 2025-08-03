@@ -19,7 +19,7 @@ namespace SagaScript
             {
             if (pc.CStr["EPLQ"] == DateTime.Now.ToString("yyyy-MM-dd") && pc.CInt["EPMT"] == 0)
             {
-                Say(pc, 131, "½ñÌìÒÑ¾­ÁìÈ¡¹ýÁË$R;");
+                Say(pc, 131, "ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¾ï¿½ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½$R;");
             }
             else
             {
@@ -30,29 +30,29 @@ namespace SagaScript
                 }
                 if (pc.EP == pc.MaxEP)
                 {
-                    Say(pc, 131, "ßÀ¡­¡­$P²»ÐèÒª»Ö¸´ÄØ$R;");
+                    Say(pc, 131, "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½$Pï¿½ï¿½ï¿½ï¿½Òªï¿½Ö¸ï¿½ï¿½ï¿½$R;");
                 }
                 else
                 {
                     try
                     {
-                        string LP = InputBox(pc, string.Format("ÁìÈ¡¶àÉÙ?(ÏÖÔÚ¿ÉÒÔÁìÈ¡{0}µã)", pc.CInt["EPMT"].ToString()), InputType.ItemCode);
+                        string LP = InputBox(pc, string.Format("ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½?(ï¿½ï¿½ï¿½Ú¿ï¿½ï¿½ï¿½ï¿½ï¿½È¡{0}ï¿½ï¿½)", pc.CInt["EPMT"].ToString()), InputType.ItemCode);
                         if (LP == "")
                             return;
                         ushort temp = ushort.Parse(LP);
                         if (temp < 0)
-                            Say(pc, 131, "ÊäÈë´íÎóÅ¶$R;");
+                            Say(pc, 131, "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å¶$R;");
                         else if (temp > pc.CInt["EPMT"])
-                            Say(pc, 131, "Ê£ÓàµãÊý²»¹»Å¶£¡$R;");
+                            Say(pc, 131, "Ê£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å¶ï¿½ï¿½$R;");
                         else
                         {
                             if (pc.EP + temp > pc.MaxEP)
                             {
-                                Say(pc, 131, "³¬¹ýÉÏÏÞÁËÅ¶£¡$R;");
+                                Say(pc, 131, "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å¶ï¿½ï¿½$R;");
                             }
                             else
                             {
-                                Say(pc, 131, string.Format("«ì´_¤F{0}EP¡I$R;", temp.ToString()));
+                                Say(pc, 131, string.Format("ï¿½ï¿½_ï¿½F{0}EPï¿½I$R;", temp.ToString()));
                                 pc.EP += temp;
                                 pc.CInt["EPMT"] -= temp;
                             }
@@ -60,14 +60,14 @@ namespace SagaScript
                     }
                     catch
                     {
-                        Say(pc, 131, "ÊäÈë´íÎóÅ¶£¡$R;");
+                        Say(pc, 131, "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å¶ï¿½ï¿½$R;");
                     }
                 }
                 }
             }
             else
             {
-                 Say(pc, 131, "Ö»ÓÐDEM²Å¿ÉÒÔÁìÈ¡EPÅ¶$R;");
+                 Say(pc, 131, "Ö»ï¿½ï¿½DEMï¿½Å¿ï¿½ï¿½ï¿½ï¿½ï¿½È¡EPÅ¶$R;");
             }
         }
     }

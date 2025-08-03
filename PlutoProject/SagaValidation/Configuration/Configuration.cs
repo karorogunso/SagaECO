@@ -30,7 +30,7 @@ namespace SagaValidation
         public int Port { get { return this.port; } set { this.port = value; } }
         public int DBType { get { return this.dbType; } set { this.dbType = value; } }
 
-        public string ServerName{get{return this.servername;} set { this.servername=value;}}
+        public string ServerName { get { return this.servername; } set { this.servername = value; } }
         public string ServerIP { get { return this.serverip; } set { this.serverip = value; } }
         public SagaLib.Version Version { get { return this.version; } set { this.version = value; } }
         public string ClientGameVersion { get { return this.clientgameversion; } set { this.clientgameversion = value; } }
@@ -51,7 +51,7 @@ namespace SagaValidation
         }
 
         public int LogLevel { get { return this.loglevel; } set { this.loglevel = value; } }
-        
+
 
         public void Initialization(string path)
         {

@@ -74,7 +74,7 @@ namespace SagaMap.Skill.SkillDefinations.Tatarabe
                         List<Actor> realAffected = new List<Actor>();
                         foreach (Actor act in affected)
                         {
-                            if (act.type == ActorType.PC || act.type== ActorType.PET || act.type== ActorType.SHADOW)
+                            if (act.type == ActorType.PC || act.type == ActorType.PET || act.type == ActorType.SHADOW)
                             {
                                 //List<Actor> al=new List<Actor>();
                                 //al.Add(act);

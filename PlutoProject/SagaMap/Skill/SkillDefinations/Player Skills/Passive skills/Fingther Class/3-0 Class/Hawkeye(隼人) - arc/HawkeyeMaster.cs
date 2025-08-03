@@ -18,7 +18,7 @@ namespace SagaMap.Skill.SkillDefinations.Hawkeye
 
         public int TryCast(ActorPC pc, Actor dActor, SkillArg args)
         {
-            if (SkillHandler.Instance.isEquipmentRight(pc, ItemType.BOW, ItemType.GUN , ItemType.EXGUN ,ItemType.DUALGUN))
+            if (SkillHandler.Instance.isEquipmentRight(pc, ItemType.BOW, ItemType.GUN, ItemType.EXGUN, ItemType.DUALGUN))
             {
                 return 0;
             }

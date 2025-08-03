@@ -39,13 +39,13 @@ namespace SagaMap.Skill.SkillDefinations.Explorer
             if (skill.Variable.ContainsKey("CaveHiding_Y"))
                 skill.Variable.Remove("CaveHiding_Y");
             skill.Variable.Add("CaveHiding_Y", actor.Y);
-     
+
             actor.Buff.Transparent = true;
             Manager.MapManager.Instance.GetMap(actor.MapID).SendEventToAllActorsWhoCanSeeActor(Map.EVENT_TYPE.BUFF_CHANGE, null, actor, true);
         }
         void EndEventHandler(Actor actor, DefaultBuff skill)
         {
-            actor.Buff.Transparent = false ;
+            actor.Buff.Transparent = false;
             Manager.MapManager.Instance.GetMap(actor.MapID).SendEventToAllActorsWhoCanSeeActor(Map.EVENT_TYPE.BUFF_CHANGE, null, actor, true);
         }
         void UpdateEventHandler(Actor actor, DefaultBuff skill)

@@ -76,7 +76,7 @@ namespace SagaMap.Skill.SkillDefinations.Marionest
         }
         void StartEventHandler(Actor actor, DefaultBuff skill)
         {
-            
+
             int MarionetteStr = 0;
             int MarionetteDex = 0;
             int MarionetteInt = 0;
@@ -90,7 +90,7 @@ namespace SagaMap.Skill.SkillDefinations.Marionest
             if (actor.type == ActorType.PC)
             {
                 ActorPC pc = (ActorPC)actor;
-                switch(pc.Marionette.ID)
+                switch (pc.Marionette.ID)
                 {
                     case 10050700:
                         MarionetteInt = 8;

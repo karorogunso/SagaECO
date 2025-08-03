@@ -11,13 +11,14 @@ namespace SagaMap.Skill.SkillDefinations.TreasureHunter
     /// <summary>
     /// 寶物搜查（トレジャースキャンニング）
     /// </summary>
-    public class SearchTreasure : ISkill { 
+    public class SearchTreasure : ISkill
+    {
         #region ISkill Members
         public int TryCast(ActorPC sActor, Actor dActor, SkillArg args)
         {
 
             return 0;
-           
+
         }
 
         public void Proc(Actor sActor, Actor dActor, SkillArg args, byte level)
@@ -40,7 +41,7 @@ namespace SagaMap.Skill.SkillDefinations.TreasureHunter
             List<Actor> affected = map.GetActorsArea(sActor, (short)range[level], false);
 
             int i = 0;
-            
+
 
             byte arrX = 255;
             byte arrY = 255;
@@ -58,12 +59,13 @@ namespace SagaMap.Skill.SkillDefinations.TreasureHunter
                         i++;
                         if (SagaLib.Global.PosX16to8(act.X, map.Width) <= arrX && SagaLib.Global.PosY16to8(act.Y, map.Width) <= arrY)
                         {
-                            if(map.GetLengthD(actor.X, actor.Y, SagaLib.Global.PosX16to8(act.X, map.Width), SagaLib.Global.PosY16to8(act.Y, map.Width)) <= length){
+                            if (map.GetLengthD(actor.X, actor.Y, SagaLib.Global.PosX16to8(act.X, map.Width), SagaLib.Global.PosY16to8(act.Y, map.Width)) <= length)
+                            {
                                 length = map.GetLengthD(actor.X, actor.Y, SagaLib.Global.PosX16to8(act.X, map.Width), SagaLib.Global.PosY16to8(act.Y, map.Width));
                                 arrX = SagaLib.Global.PosX16to8(act.X, map.Width);
                                 arrY = SagaLib.Global.PosY16to8(act.Y, map.Width);
                             }
-                            
+
                         }
                         //break;
                     }

@@ -72,8 +72,8 @@ namespace SagaMap.Skill.SkillDefinations.Fencer
 
         void EndEventHandler(Actor actor, DefaultBuff skill)
         {
-            float raspd_skill_perc_restore = (float)(1.25f + 0.25f * skill.skill.Level );
-            if (actor.Status.aspd_skill_perc > raspd_skill_perc_restore +1)
+            float raspd_skill_perc_restore = (float)(1.25f + 0.25f * skill.skill.Level);
+            if (actor.Status.aspd_skill_perc > raspd_skill_perc_restore + 1)
             {
                 actor.Status.aspd_skill_perc -= raspd_skill_perc_restore;
             }

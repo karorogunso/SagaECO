@@ -6,7 +6,7 @@ using SagaDB.Actor;
 using SagaMap.Skill.Additions.Global;
 namespace SagaMap.Skill.SkillDefinations.Wizard
 {
-   /// <summary>
+    /// <summary>
     /// 魔法生物傷害增加
     /// </summary>
     public class ManDamUp : ISkill

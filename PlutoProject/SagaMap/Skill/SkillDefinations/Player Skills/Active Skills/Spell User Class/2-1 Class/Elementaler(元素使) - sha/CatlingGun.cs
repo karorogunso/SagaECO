@@ -10,7 +10,7 @@ using SagaMap;
 
 namespace SagaMap.Skill.SkillDefinations.Elementaler
 {
-    class CatlingGun:ISkill
+    class CatlingGun : ISkill
     {
         #region ISkill Members
 
@@ -31,7 +31,7 @@ namespace SagaMap.Skill.SkillDefinations.Elementaler
             map.RegisterActor(actor);
             actor.invisble = false;
             map.OnActorVisibilityChange(actor);
-            ActivatorA timer = new ActivatorA(actor,dActor,sActor, args,level);
+            ActivatorA timer = new ActivatorA(actor, dActor, sActor, args, level);
             timer.Activate();//Call ActivatorA.CallBack 500ms later.
         }
 
@@ -40,17 +40,17 @@ namespace SagaMap.Skill.SkillDefinations.Elementaler
     }
     class ActivatorA : MultiRunTask
     {
-        
+
         ActorSkill SkillBody;
         SkillArg Arg;
         Actor AimActor;
         Map map;
         Actor sActor;
-        int count=0;
+        int count = 0;
         int countMax = 3;
         float factor = 1;
         SkillArg SkillFireBolt = new SkillArg();
-        public ActivatorA(ActorSkill actor,Actor dActor,Actor sActor, SkillArg args,byte level)
+        public ActivatorA(ActorSkill actor, Actor dActor, Actor sActor, SkillArg args, byte level)
         {
             this.dueTime = 500;
             this.period = 1000;
@@ -60,7 +60,7 @@ namespace SagaMap.Skill.SkillDefinations.Elementaler
             this.sActor = sActor;
             map = Manager.MapManager.Instance.GetMap(AimActor.MapID);
             ActorPC Me = (ActorPC)sActor;//Get the total skill level of skill with fire element.
-            List<int> Skill_Shaman=new List<int>();
+            List<int> Skill_Shaman = new List<int>();
             Skill_Shaman.Add(3006); Skill_Shaman.Add(3013); Skill_Shaman.Add(3009); Skill_Shaman.Add(3016); Skill_Shaman.Add(3011); Skill_Shaman.Add(3008);
             int TotalLv = 0;
             foreach (uint j in Skill_Shaman)
@@ -107,11 +107,11 @@ namespace SagaMap.Skill.SkillDefinations.Elementaler
         public override void CallBack()
         {
             //测试去除技能同步锁ClientManager.EnterCriticalArea();
-            short DistanceA=Map.Distance(SkillBody, AimActor);
+            short DistanceA = Map.Distance(SkillBody, AimActor);
             if (count <= countMax)
             {
                 if (DistanceA <= 600)//If mob is out the range that FireBolt can cast, skip out.
-                {      
+                {
                     SkillFireBolt.skill = SagaDB.Skill.SkillFactory.Instance.GetSkill(3009, 1);
                     SkillFireBolt.argType = SkillArg.ArgType.Active;//Configure the skillarg of firebolt, the caster is the skillactor of subsituted groove.
                     SkillFireBolt.sActor = SkillBody.ActorID;
@@ -124,7 +124,7 @@ namespace SagaMap.Skill.SkillDefinations.Elementaler
                     {
                         map.DeleteActor(SkillBody);
                         this.Deactivate();
-                    } 
+                    }
 
                 }
                 count++;

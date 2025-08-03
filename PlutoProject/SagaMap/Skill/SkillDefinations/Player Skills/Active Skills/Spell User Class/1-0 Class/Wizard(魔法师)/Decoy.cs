@@ -8,7 +8,7 @@ using SagaDB.Actor;
 
 namespace SagaMap.Skill.SkillDefinations.Wizard
 {
-    public class Decoy:ISkill
+    public class Decoy : ISkill
     {
         #region ISkill Members
 

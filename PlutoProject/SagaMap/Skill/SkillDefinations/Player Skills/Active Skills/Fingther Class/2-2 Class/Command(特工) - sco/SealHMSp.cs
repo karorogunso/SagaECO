@@ -27,7 +27,7 @@ namespace SagaMap.Skill.SkillDefinations.Command
         }
         public void Proc(Actor sActor, Actor dActor, SkillArg args, byte level)
         {
-            int lifetime = 1000  * level;
+            int lifetime = 1000 * level;
             int rate = 25 * level;
             if (SagaLib.Global.Random.Next(0, 99) < rate)
             {

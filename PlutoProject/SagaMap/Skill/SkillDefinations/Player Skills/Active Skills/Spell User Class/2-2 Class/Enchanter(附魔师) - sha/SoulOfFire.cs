@@ -79,7 +79,7 @@ namespace SagaMap.Skill.SkillDefinations.Enchanter
                 skill.Variable.Remove("SoulOfFire_min_atk3");
             skill.Variable.Add("SoulOfFire_min_atk3", MinAtk);
             actor.Status.min_atk3_skill = (short)MinAtk;
-                                        
+
 
             actor.Buff.MinAtkUp = true;
             actor.Buff.MaxAtkUp = true;

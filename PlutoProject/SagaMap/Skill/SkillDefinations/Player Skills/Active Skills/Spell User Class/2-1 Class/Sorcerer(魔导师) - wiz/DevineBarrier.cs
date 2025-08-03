@@ -28,7 +28,7 @@ namespace SagaMap.Skill.SkillDefinations.Sorcerer
 
             foreach (Actor act in affected)
             {
-                if (act.type == ActorType.PC  || act.type == ActorType.PARTNER || act.type == ActorType.PET)
+                if (act.type == ActorType.PC || act.type == ActorType.PARTNER || act.type == ActorType.PET)
                 {
                     if (act.type == ActorType.PC)
                     {

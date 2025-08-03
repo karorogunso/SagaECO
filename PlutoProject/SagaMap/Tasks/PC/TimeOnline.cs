@@ -28,7 +28,7 @@ namespace SagaMap.Tasks.PC
             ClientManager.EnterCriticalArea();
             try
             {
-                if(pc.TimeOnline[0].Day == DateTime.Now.Day)
+                if (pc.TimeOnline[0].Day == DateTime.Now.Day)
                     pc.TimeOnline[1].AddSeconds(1);
                 else
                 {

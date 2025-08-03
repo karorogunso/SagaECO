@@ -83,9 +83,9 @@ namespace SagaMap.Tasks.Golem
                         gatherSpan = new TimeSpan(0, map.Info.gatherInterval[GatherType.Food], 0);
                         nextGatherTime = DateTime.Now + gatherSpan;
                     }
-                    break;                    
+                    break;
             }
-            
+
         }
 
         public override void CallBack()
@@ -178,8 +178,8 @@ namespace SagaMap.Tasks.Golem
                                         Logger.LogItemGet(Logger.EventType.ItemGolemGet, this.golem.Owner.Name + "(" + this.golem.Owner.CharID + ")", newItem.BaseData.name + "(" + newItem.ItemID + ")",
                                             string.Format("GolemCollect Count:{0}", newItem.Stack), false);
                                     }
-            
-                                    golem.Owner.Inventory.AddItem(SagaDB.Item.ContainerType.GOLEMWAREHOUSE, newItem);                                    
+
+                                    golem.Owner.Inventory.AddItem(SagaDB.Item.ContainerType.GOLEMWAREHOUSE, newItem);
                                 }
                             }
                         }

@@ -9,7 +9,7 @@ namespace SagaMap.Skill.SkillDefinations.BountyHunter
     /// <summary>
     /// 2段砍擊（二段斬り）
     /// </summary>
-    public class ConSword:ISkill 
+    public class ConSword : ISkill
     {
         #region ISkill Members
         public int TryCast(ActorPC sActor, Actor dActor, SkillArg args)
@@ -18,11 +18,11 @@ namespace SagaMap.Skill.SkillDefinations.BountyHunter
         }
         public void Proc(Actor sActor, Actor dActor, SkillArg args, byte level)
         {
-            bool active = false ;
+            bool active = false;
             if (sActor.type == ActorType.PC)
             {
                 ActorPC pc = (ActorPC)sActor;
-                if (SkillHandler.Instance.isEquipmentRight(sActor,SagaDB.Item.ItemType.SWORD,SagaDB.Item.ItemType.SHORT_SWORD ,SagaDB.Item.ItemType.RAPIER))
+                if (SkillHandler.Instance.isEquipmentRight(sActor, SagaDB.Item.ItemType.SWORD, SagaDB.Item.ItemType.SHORT_SWORD, SagaDB.Item.ItemType.RAPIER))
                 {
                     active = true;
                 }

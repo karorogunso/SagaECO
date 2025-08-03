@@ -19,7 +19,7 @@ namespace SagaMap.Skill.SkillDefinations.ForceMaster
         }
         public void Proc(Actor sActor, Actor dActor, SkillArg args, byte level)
         {
-            
+
             int lifetime = (30 + level * 30) * 1000;
             int MdefDown = 50 + level * 10;
             ForceMasterBuff skill = new ForceMasterBuff(args.skill, sActor, lifetime, MdefDown);

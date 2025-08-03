@@ -69,7 +69,7 @@ namespace SagaMap.Skill.SkillDefinations.Breeder
                 skill.Variable.Remove("Encouragement_min_atk3");
             skill.Variable.Add("Encouragement_min_atk3", min_atk3_add);
             actor.Status.min_atk3_skill += (short)min_atk3_add;
-   
+
         }
         void EndEventHandler(Actor actor, DefaultBuff skill)
         {
@@ -90,7 +90,7 @@ namespace SagaMap.Skill.SkillDefinations.Breeder
 
             //最小攻擊
             actor.Status.min_atk3_skill -= (short)skill.Variable["Encouragement_min_atk3"];
-                  
+
         }
         #endregion
     }

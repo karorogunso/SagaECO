@@ -20,7 +20,7 @@ namespace SagaMap.Skill.SkillDefinations.Explorer
         #region ISkill Members
         public int TryCast(ActorPC sActor, Actor dActor, SkillArg args)
         {
-            if(sActor.Slave.Count<5)
+            if (sActor.Slave.Count < 5)
             {
                 return 0;
             }

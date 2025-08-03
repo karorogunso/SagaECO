@@ -10,7 +10,7 @@ namespace SagaMap.Skill.SkillDefinations.Sorcerer
     /// <summary>
     /// 瞬間移動（テレポート）
     /// </summary>
-    public class Teleport : ISkill 
+    public class Teleport : ISkill
     {
         #region ISkill Members
 
@@ -29,7 +29,7 @@ namespace SagaMap.Skill.SkillDefinations.Sorcerer
         public void Proc(Actor sActor, Actor dActor, SkillArg args, byte level)
         {
             Map map = Manager.MapManager.Instance.GetMap(sActor.MapID);
-            map.TeleportActor(sActor,SagaLib.Global.PosX8to16(args.x, map.Width),SagaLib.Global.PosY8to16(args.y, map.Height));
+            map.TeleportActor(sActor, SagaLib.Global.PosX8to16(args.x, map.Width), SagaLib.Global.PosY8to16(args.y, map.Height));
             DefaultBuff skill = new DefaultBuff(args.skill, dActor, "Teleport", 5000);
             skill.OnAdditionStart += this.StartEvent;
             skill.OnAdditionEnd += this.EndEvent;

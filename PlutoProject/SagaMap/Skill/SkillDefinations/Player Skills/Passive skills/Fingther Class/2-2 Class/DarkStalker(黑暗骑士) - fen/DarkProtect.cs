@@ -75,7 +75,7 @@ namespace SagaMap.Skill.SkillDefinations.DarkStalker
                 skill.Variable.Remove("DarkProtect_mdef_add");
             skill.Variable.Add("DarkProtect_mdef_add", mdef_add_add);
             actor.Status.mdef_add_skill += (short)mdef_add_add;
-                                        
+
         }
         void EndEventHandler(Actor actor, DefaultPassiveSkill skill)
         {
@@ -96,7 +96,7 @@ namespace SagaMap.Skill.SkillDefinations.DarkStalker
 
             //右魔防
             actor.Status.mdef_add_skill -= (short)skill.Variable["DarkProtect_mdef_add"];
-              
+
         }
         #endregion
     }

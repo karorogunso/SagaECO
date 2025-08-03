@@ -27,7 +27,7 @@ namespace SagaMap.Tasks.PC
             ClientManager.EnterCriticalArea();
             try
             {
-                if(client.Character.MP >= client.Character.MaxMP * 0.33f)
+                if (client.Character.MP >= client.Character.MaxMP * 0.33f)
                     count++;
                 if (count == 1)
                 {
@@ -35,7 +35,7 @@ namespace SagaMap.Tasks.PC
                     //SkillHandler.Instance.ShowEffectOnActor(client.Character, 5167);
                     SkillHandler.Instance.ShowEffectOnActor(client.Character, 4230);
                 }
-                else if (count == 3 && (client.Character.TInt["绽放次数"] >= 5 || (client.Character.Status.Playman > 0 && 
+                else if (count == 3 && (client.Character.TInt["绽放次数"] >= 5 || (client.Character.Status.Playman > 0 &&
                     client.Character.MP == client.Character.MaxMP && client.Character.Job == PC_JOB.HAWKEYE)))
                 {
                     client.Character.TInt["RangeAttackMark"] = 2;

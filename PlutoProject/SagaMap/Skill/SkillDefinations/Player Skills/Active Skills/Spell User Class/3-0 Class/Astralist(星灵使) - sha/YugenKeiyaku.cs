@@ -10,7 +10,7 @@ using SagaMap.Skill.Additions.Global;
 namespace SagaMap.Skill.SkillDefinations.Astralist
 {
     /// <summary>
-    /// ÓÄÐþÖ®ÆõÔ¼£º½£
+    /// ï¿½ï¿½ï¿½ï¿½Ö®ï¿½ï¿½Ô¼ï¿½ï¿½ï¿½ï¿½
     /// </summary>
     public class YugenKeiyaku : ISkill
     {
@@ -35,7 +35,7 @@ namespace SagaMap.Skill.SkillDefinations.Astralist
         }
         void StartEventHandler(Actor actor, DefaultBuff skill)
         {
-            //ÔÝÊ±ÕÒ²»µ½ÕýÈ·µÄÍ¼±ê
+            //ï¿½ï¿½Ê±ï¿½Ò²ï¿½ï¿½ï¿½ï¿½ï¿½È·ï¿½ï¿½Í¼ï¿½ï¿½
             Manager.MapManager.Instance.GetMap(actor.MapID).SendEventToAllActorsWhoCanSeeActor(Map.EVENT_TYPE.BUFF_CHANGE, null, actor, true);
         }
         void EndEventHandler(Actor actor, DefaultBuff skill)

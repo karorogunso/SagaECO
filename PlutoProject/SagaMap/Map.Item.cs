@@ -145,7 +145,7 @@ namespace SagaMap
                             }
                         }
                     }
-                    else if(party)
+                    else if (party)
                     {
                         Item item = null;
                         foreach (Actor i in owners)

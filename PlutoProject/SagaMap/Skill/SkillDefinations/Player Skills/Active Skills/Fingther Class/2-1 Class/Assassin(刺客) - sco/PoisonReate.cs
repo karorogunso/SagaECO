@@ -12,7 +12,7 @@ namespace SagaMap.Skill.SkillDefinations.Assassin
     /// <summary>
     /// 狂毒氣（狂気毒）
     /// </summary>
-    public class PoisonReate :  ISkill 
+    public class PoisonReate : ISkill
     {
         #region ISkill Members
         public int TryCast(ActorPC pc, Actor dActor, SkillArg args)
@@ -36,7 +36,7 @@ namespace SagaMap.Skill.SkillDefinations.Assassin
         {
             if (sActor.type == ActorType.PC)
             {
-                return SkillHandler.Instance.isEquipmentRight(sActor, ItemType.CLAW) || SkillHandler.Instance.CheckDEMRightEquip(sActor, SagaDB.Item.ItemType.PARTS_SLASH );
+                return SkillHandler.Instance.isEquipmentRight(sActor, ItemType.CLAW) || SkillHandler.Instance.CheckDEMRightEquip(sActor, SagaDB.Item.ItemType.PARTS_SLASH);
             }
             else
             {
@@ -82,7 +82,7 @@ namespace SagaMap.Skill.SkillDefinations.Assassin
         void StartEventHandler(Actor actor, DefaultBuff skill)
         {
             float spd = 0;
-            int level = skill.skill.Level, rate=0;
+            int level = skill.skill.Level, rate = 0;
             switch (level)
             {
                 case 1:
@@ -125,9 +125,9 @@ namespace SagaMap.Skill.SkillDefinations.Assassin
             actor.Status.aspd_skill_perc += spd;
             actor.Buff.DelayCancel = true;
             //中毒?
-            if (SkillHandler.Instance.CanAdditionApply(actor,actor, SkillHandler.DefaultAdditions.Poison, rate))
+            if (SkillHandler.Instance.CanAdditionApply(actor, actor, SkillHandler.DefaultAdditions.Poison, rate))
             {
-                Additions.Global.Poison nskill = new SagaMap.Skill.Additions.Global.Poison(skill.skill  , actor, 7000);
+                Additions.Global.Poison nskill = new SagaMap.Skill.Additions.Global.Poison(skill.skill, actor, 7000);
                 SkillHandler.ApplyAddition(actor, nskill);
             }
             Manager.MapManager.Instance.GetMap(actor.MapID).SendEventToAllActorsWhoCanSeeActor(Map.EVENT_TYPE.BUFF_CHANGE, null, actor, true);

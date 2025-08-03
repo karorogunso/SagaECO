@@ -36,8 +36,8 @@ namespace SagaMap.Skill.SkillDefinations.Scout
                 skill.OnAdditionEnd += this.EndEventHandler;
                 SkillHandler.ApplyAddition(realdActor, skill);
             }
-                
-            
+
+
         }
 
         void StartEventHandler(Actor actor, DefaultBuff skill)

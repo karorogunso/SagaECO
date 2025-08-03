@@ -56,4 +56,3 @@ namespace SagaMap.Skill.SkillDefinations.Global
         #endregion
     }
 }
-  

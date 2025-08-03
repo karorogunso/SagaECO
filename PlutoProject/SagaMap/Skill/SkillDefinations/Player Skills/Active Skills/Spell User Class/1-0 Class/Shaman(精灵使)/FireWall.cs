@@ -23,19 +23,19 @@ namespace SagaMap.Skill.SkillDefinations.Shaman
             List<ActorSkill> actorSkill = new List<ActorSkill>();
             int deltaX = 0; int deltaY = 0;
             int argX = (int)args.x; int argY = (int)args.y;
-            int castorX=(int)SagaLib.Global.PosX16to8(sActor.X,map.Width);
-            int castorY=(int)SagaLib.Global.PosY16to8(sActor.Y,map.Height);
+            int castorX = (int)SagaLib.Global.PosX16to8(sActor.X, map.Width);
+            int castorY = (int)SagaLib.Global.PosY16to8(sActor.Y, map.Height);
             deltaX = argX - castorX; deltaY = argY - castorY;
             Dictionary<int, int[]> pos = new Dictionary<int, int[]>();
             int n = 0; int flag = 0;
-            for(int i=0;i<=4;i++)
+            for (int i = 0; i <= 4; i++)
             {
-                ActorSkill actorT=new ActorSkill(args.skill,sActor);
+                ActorSkill actorT = new ActorSkill(args.skill, sActor);
                 actorSkill.Add(actorT);
                 actorSkill[i].e = new ActorEventHandlers.NullEventHandler();
                 actorSkill[i].MapID = sActor.MapID;
-                int[] posT=new int[2];posT[0]=0;posT[1]=0;
-                pos.Add(i,posT);
+                int[] posT = new int[2]; posT[0] = 0; posT[1] = 0;
+                pos.Add(i, posT);
             }
             if (deltaX != 0 || deltaY != 0)
             {
@@ -47,20 +47,20 @@ namespace SagaMap.Skill.SkillDefinations.Shaman
                         pos[0][0] = argX; pos[0][1] = argY;
                         pos[1][0] = argX + 1; pos[1][1] = argY;
                         pos[2][0] = argX - 1; pos[2][1] = argY;
-                        if(deltaY>0)
-                            flag=1;//Mark which kind of area was the wall setted.
+                        if (deltaY > 0)
+                            flag = 1;//Mark which kind of area was the wall setted.
                         else
-                            flag=2;
+                            flag = 2;
                     }
                     else
                     {
                         pos[0][0] = argX; pos[0][1] = argY;
                         pos[1][0] = argX; pos[1][1] = argY + 1;
                         pos[2][0] = argX; pos[2][1] = argY - 1;
-                        if(deltaX>0)
-                            flag=3;
+                        if (deltaX > 0)
+                            flag = 3;
                         else
-                            flag=4;
+                            flag = 4;
                     }
                 }
                 else
@@ -74,13 +74,13 @@ namespace SagaMap.Skill.SkillDefinations.Shaman
                         {
                             pos[3][0] = argX; pos[3][1] = argY + 1;
                             pos[4][0] = argX - 1; pos[4][1] = argY;
-                            flag=5;
+                            flag = 5;
                         }
                         else
                         {
                             pos[3][0] = argX; pos[3][1] = argY - 1;
                             pos[4][0] = argX + 1; pos[4][1] = argY;
-                            flag=6;
+                            flag = 6;
                         }
                     }
                     else
@@ -92,13 +92,13 @@ namespace SagaMap.Skill.SkillDefinations.Shaman
                         {
                             pos[3][0] = argX; pos[3][1] = argY - 1;
                             pos[4][0] = argX - 1; pos[4][1] = argY;
-                            flag=7;
+                            flag = 7;
                         }
                         else
                         {
                             pos[3][0] = argX; pos[3][1] = argY + 1;
                             pos[4][0] = argX + 1; pos[4][1] = argY;
-                            flag=8;
+                            flag = 8;
                         }
                     }
                 }
@@ -108,9 +108,9 @@ namespace SagaMap.Skill.SkillDefinations.Shaman
                 pos[0][0] = argX; pos[0][1] = argY;
                 pos[1][0] = argX; pos[1][1] = argY + 1;
                 pos[2][0] = argX; pos[2][1] = argY - 1;
-                flag=9;
+                flag = 9;
             }
-            
+
             foreach (ActorSkill i in actorSkill)
             {
                 if (pos[n][0] != 0 && pos[n][1] != 0)
@@ -123,7 +123,7 @@ namespace SagaMap.Skill.SkillDefinations.Shaman
                 }
                 n = n + 1;
             }
-            Activator timer = new Activator(sActor, args, level,flag,actorSkill);
+            Activator timer = new Activator(sActor, args, level, flag, actorSkill);
             timer.Activate();
 
 
@@ -156,13 +156,13 @@ namespace SagaMap.Skill.SkillDefinations.Shaman
                 this.period = 100;
                 this.dueTime = 0;
                 this.flag = flag;
-                
+
 
                 switch (level)
                 {
                     case 1:
                         factor = 0.25f;
-                        countMax = 4;  
+                        countMax = 4;
                         break;
                     case 2:
                         factor = 0.3f;
@@ -187,7 +187,7 @@ namespace SagaMap.Skill.SkillDefinations.Shaman
             public override void CallBack()
             {
                 //测试去除技能同步锁ClientManager.EnterCriticalArea();
-                short[] pos=new short[2];
+                short[] pos = new short[2];
                 int ii = 0;
                 List<Actor> affected = new List<Actor>();
                 List<Actor> affectedCheck = new List<Actor>();
@@ -199,9 +199,9 @@ namespace SagaMap.Skill.SkillDefinations.Shaman
                         {
                             affectedCheck.Clear();
                             skill.affectedActors.Clear();
-                            if (count[ii]<= countMax-1)
+                            if (count[ii] <= countMax - 1)
                             {
-                                affected = map.GetActorsArea(i,50, false);
+                                affected = map.GetActorsArea(i, 50, false);
                                 foreach (Actor j in affected)
                                 {
                                     if (!SkillHandler.Instance.CheckValidAttackTarget(caster, i))
@@ -219,20 +219,21 @@ namespace SagaMap.Skill.SkillDefinations.Shaman
                                             pos[1] = (short)(2 * j.Y - j.LastY);
                                             map.MoveActor(Map.MOVE_TYPE.START, j, pos, 500, 500);
                                             continue;
-                                        }                                     
+                                        }
                                     }
                                 }
                                 SkillHandler.Instance.MagicAttack(caster, affectedCheck, skill, Elements.Fire, factor);
                                 map.SendEventToAllActorsWhoCanSeeActor(Map.EVENT_TYPE.SKILL, skill, actorSkill[0], false);
                             }
                             else
-                            {   if(destroyFlag[ii]==false)
+                            {
+                                if (destroyFlag[ii] == false)
                                     map.DeleteActor(i);
                                 destroyFlag[ii] = true;
                             }
                             ii += 1;
                         }
-                        
+
                     }
                     else
                     {
@@ -240,7 +241,7 @@ namespace SagaMap.Skill.SkillDefinations.Shaman
                         foreach (Actor i in actorSkill)
                             map.DeleteActor(i);
                     }
-                    
+
                 }
                 catch (Exception ex)
                 {

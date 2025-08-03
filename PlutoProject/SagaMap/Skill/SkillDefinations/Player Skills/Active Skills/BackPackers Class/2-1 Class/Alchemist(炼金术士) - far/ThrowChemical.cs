@@ -16,52 +16,52 @@ namespace SagaMap.Skill.SkillDefinations.Alchemist
         #region ISkill Members
         public int TryCast(ActorPC pc, Actor dActor, SkillArg args)
         {
-                Map map = Manager.MapManager.Instance.GetMap(pc.MapID);
-                if (!map.CheckActorSkillInRange(SagaLib.Global.PosX8to16(args.x, map.Width), SagaLib.Global.PosY8to16(args.y, map.Height), 150))
+            Map map = Manager.MapManager.Instance.GetMap(pc.MapID);
+            if (!map.CheckActorSkillInRange(SagaLib.Global.PosX8to16(args.x, map.Width), SagaLib.Global.PosY8to16(args.y, map.Height), 150))
+            {
+                switch (args.skill.Level)
                 {
-                    switch (args.skill.Level)
-                    {
-                        case 1:
-                            if (SkillHandler.Instance.CountItem(pc, 10000308) > 0)
-                            {
-                                SkillHandler.Instance.TakeItem(pc, 10000308, 1);
-                                return 0;
-                            }
-                            return -2;
-                        case 2:
-                            if (SkillHandler.Instance.CountItem(pc, 10000303) > 0)
-                            {
-                                SkillHandler.Instance.TakeItem(pc, 10000303, 1);
-                                return 0;
-                            }
-                            return -2;
-                        case 3:
-                            if (SkillHandler.Instance.CountItem(pc, 10000302) > 0)
-                            {
-                                SkillHandler.Instance.TakeItem(pc, 10000302, 1);
-                                return 0;
-                            }
-                            return -2;
-                        case 4:
-                            if (SkillHandler.Instance.CountItem(pc, 10000300) > 0)
-                            {
-                                SkillHandler.Instance.TakeItem(pc, 10000300, 1);
-                                return 0;
-                            }
-                            return -2;
-                        case 5:
-                            if (SkillHandler.Instance.CountItem(pc, 10000307) > 0)
-                            {
-                                SkillHandler.Instance.TakeItem(pc, 10000307, 1);
-                                return 0;
-                            }
-                            return -2;
-                    }
-                    
+                    case 1:
+                        if (SkillHandler.Instance.CountItem(pc, 10000308) > 0)
+                        {
+                            SkillHandler.Instance.TakeItem(pc, 10000308, 1);
+                            return 0;
+                        }
+                        return -2;
+                    case 2:
+                        if (SkillHandler.Instance.CountItem(pc, 10000303) > 0)
+                        {
+                            SkillHandler.Instance.TakeItem(pc, 10000303, 1);
+                            return 0;
+                        }
+                        return -2;
+                    case 3:
+                        if (SkillHandler.Instance.CountItem(pc, 10000302) > 0)
+                        {
+                            SkillHandler.Instance.TakeItem(pc, 10000302, 1);
+                            return 0;
+                        }
+                        return -2;
+                    case 4:
+                        if (SkillHandler.Instance.CountItem(pc, 10000300) > 0)
+                        {
+                            SkillHandler.Instance.TakeItem(pc, 10000300, 1);
+                            return 0;
+                        }
+                        return -2;
+                    case 5:
+                        if (SkillHandler.Instance.CountItem(pc, 10000307) > 0)
+                        {
+                            SkillHandler.Instance.TakeItem(pc, 10000307, 1);
+                            return 0;
+                        }
+                        return -2;
                 }
-                return -17;
-            
-            
+
+            }
+            return -17;
+
+
         }
         public void Proc(Actor sActor, Actor dActor, SkillArg args, byte level)
         {
@@ -70,8 +70,8 @@ namespace SagaMap.Skill.SkillDefinations.Alchemist
             {
                 return;
             }
-                //建立設置型技能實體
-                ActorSkill actor = new ActorSkill(args.skill, sActor);
+            //建立設置型技能實體
+            ActorSkill actor = new ActorSkill(args.skill, sActor);
             //Map map = Manager.MapManager.Instance.GetMap(sActor.MapID);
             //設定技能位置
             actor.MapID = dActor.MapID;

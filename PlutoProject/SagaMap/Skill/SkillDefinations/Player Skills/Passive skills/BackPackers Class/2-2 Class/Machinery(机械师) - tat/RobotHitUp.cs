@@ -38,7 +38,7 @@ namespace SagaMap.Skill.SkillDefinations.Machinery
             int level = skill.skill.Level;
 
             //近命中
-            int hit_melee_add = (int)(actor.Status.hit_melee *( 0.08f + 0.02f * level));
+            int hit_melee_add = (int)(actor.Status.hit_melee * (0.08f + 0.02f * level));
             if (skill.Variable.ContainsKey("RobotHitUp_hit_melee"))
                 skill.Variable.Remove("RobotHitUp_hit_melee");
             skill.Variable.Add("RobotHitUp_hit_melee", hit_melee_add);
@@ -50,7 +50,7 @@ namespace SagaMap.Skill.SkillDefinations.Machinery
                 skill.Variable.Remove("RobotHitUp_hit_ranged");
             skill.Variable.Add("RobotHitUp_hit_ranged", hit_ranged_add);
             actor.Status.hit_ranged_skill += (short)hit_ranged_add;
-      
+
         }
         void EndEventHandler(Actor actor, DefaultPassiveSkill skill)
         {
@@ -59,7 +59,7 @@ namespace SagaMap.Skill.SkillDefinations.Machinery
 
             //遠命中
             actor.Status.hit_ranged_skill -= (short)skill.Variable["RobotHitUp_hit_ranged"];
-              
+
         }
         #endregion
     }

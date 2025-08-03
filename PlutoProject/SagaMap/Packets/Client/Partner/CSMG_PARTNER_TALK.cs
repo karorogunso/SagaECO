@@ -1,4 +1,4 @@
-﻿//Comment this out to deactivate the dead lock check!
+//Comment this out to deactivate the dead lock check!
 using SagaLib;
 using SagaMap.Network.Client;
 

@@ -14,7 +14,7 @@ namespace SagaMap.Tasks.System
     {
         string announce;
         string aname;
-        public TaskAnnounce(string taskname,string announce ,int period)
+        public TaskAnnounce(string taskname, string announce, int period)
         {
             this.aname = taskname;
             this.period = period;
@@ -37,7 +37,7 @@ namespace SagaMap.Tasks.System
                     /*if (i.Character.Account.GMLevel >= 100)
                         i.SendAnnounce(this.announce + " Task:" + this.aname + "period:"+period.ToString());
                     else*/
-                        i.SendAnnounce(this.announce);
+                    i.SendAnnounce(this.announce);
                 }
 
             }

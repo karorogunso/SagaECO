@@ -35,11 +35,11 @@ namespace SagaMap.Skill.SkillDefinations.Machinery
         }
         void StartEventHandler(Actor actor, DefaultPassiveSkill skill)
         {
-            actor.MaxHP += (uint)(0.07f + 0.03f * skill.skill.Level); 
+            actor.MaxHP += (uint)(0.07f + 0.03f * skill.skill.Level);
         }
         void EndEventHandler(Actor actor, DefaultPassiveSkill skill)
         {
-            actor.MaxHP -= (uint)(1.07f + 0.03f * skill.skill.Level); 
+            actor.MaxHP -= (uint)(1.07f + 0.03f * skill.skill.Level);
         }
         #endregion
     }

@@ -76,7 +76,7 @@ namespace SagaMap.Skill.SkillDefinations.Merchant
             actor.Status.min_atk3_skill += (short)min_atk3_add;
 
             //最大魔攻
-            int max_matk_add =MinMAtk[level];
+            int max_matk_add = MinMAtk[level];
             if (skill.Variable.ContainsKey("AtkUpOne_max_matk"))
                 skill.Variable.Remove("AtkUpOne_max_matk");
             skill.Variable.Add("AtkUpOne_max_matk", max_matk_add);
@@ -88,7 +88,7 @@ namespace SagaMap.Skill.SkillDefinations.Merchant
                 skill.Variable.Remove("AtkUpOne_min_matk");
             skill.Variable.Add("AtkUpOne_min_matk", min_matk_add);
             actor.Status.min_matk_skill += (short)min_matk_add;
-                                        
+
         }
         void EndEventHandler(Actor actor, DefaultBuff skill)
         {
@@ -115,7 +115,7 @@ namespace SagaMap.Skill.SkillDefinations.Merchant
 
             //最小魔攻
             actor.Status.min_matk_skill -= (short)skill.Variable["AtkUpOne_min_matk"];
-        
+
         }
         #endregion
     }

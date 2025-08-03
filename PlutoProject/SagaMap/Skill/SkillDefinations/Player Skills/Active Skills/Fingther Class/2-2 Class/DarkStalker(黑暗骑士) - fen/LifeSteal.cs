@@ -62,7 +62,7 @@ namespace SagaMap.Skill.SkillDefinations.DarkStalker
             //    hp_recovery += (uint)(hp * 0.8f);
             //}
             int dmgheal = (int)(-(dmg * 0.8f));
-            SkillHandler.Instance.CauseDamage(sActor, sActor,dmgheal);
+            SkillHandler.Instance.CauseDamage(sActor, sActor, dmgheal);
             SkillHandler.Instance.ShowVessel(sActor, dmgheal);
 
         }

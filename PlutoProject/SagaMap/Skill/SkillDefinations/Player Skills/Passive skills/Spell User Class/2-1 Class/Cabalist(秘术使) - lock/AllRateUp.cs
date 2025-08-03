@@ -23,10 +23,10 @@ namespace SagaMap.Skill.SkillDefinations.Cabalist
             AllRateUpBuff skill = new AllRateUpBuff(args.skill, sActor, rate[level]);
             SkillHandler.ApplyAddition(sActor, skill);
         }
-        public class AllRateUpBuff : DefaultPassiveSkill 
+        public class AllRateUpBuff : DefaultPassiveSkill
         {
             public float Rate = 0f;
-            public AllRateUpBuff(SagaDB.Skill.Skill skill, Actor actor,float rate)
+            public AllRateUpBuff(SagaDB.Skill.Skill skill, Actor actor, float rate)
                 : base(skill, actor, "AllRateUp", true)
             {
                 this.OnAdditionStart += this.StartEvent;

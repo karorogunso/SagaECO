@@ -94,8 +94,8 @@ namespace SagaMap.Skill.SkillDefinations.Guardian
                         }
                     }
                 }
-                
-                    
+
+
             }
 
             SkillHandler.Instance.PhysicalAttack(sActor, affected, args, sActor.WeaponElement, factor);

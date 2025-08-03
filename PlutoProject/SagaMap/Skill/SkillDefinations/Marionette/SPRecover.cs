@@ -11,7 +11,7 @@ namespace SagaMap.Skill.SkillDefinations.Marionette
     /// <summary>
     /// 木偶時的SP自然恢復
     /// </summary>
-    public class SPRecovery:ISkill
+    public class SPRecovery : ISkill
     {
         #region ISkill Members
 

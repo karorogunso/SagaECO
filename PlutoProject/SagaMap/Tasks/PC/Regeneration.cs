@@ -16,7 +16,7 @@ namespace SagaMap.Tasks.PC
         {
             this.dueTime = 5000;
             this.period = 5000;
-            this.client = client;            
+            this.client = client;
         }
 
         public override void CallBack()

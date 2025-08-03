@@ -57,7 +57,7 @@ namespace SagaMap.Skill.SkillDefinations.Druid
             //int rate = 70 + 10 * level;
             //if (SkillHandler.Instance.CanAdditionApply(sActor,dActor,"UndeadMdefDownOne", rate))
             //{
-                
+
             //}
             SkillHandler.Instance.MagicAttack(sActor, dActor, args, SagaLib.Elements.Holy, factor);
         }
@@ -77,7 +77,7 @@ namespace SagaMap.Skill.SkillDefinations.Druid
             //    skill.Variable.Remove("UndeadMdefDownOne_mdef_add");
             //skill.Variable.Add("UndeadMdefDownOne_mdef_add", mdef_add_add);
             //actor.Status.mdef_add_skill += (short)mdef_add_add;
-                                        
+
         }
         void EndEventHandler(Actor actor, DefaultBuff skill)
         {
@@ -86,7 +86,7 @@ namespace SagaMap.Skill.SkillDefinations.Druid
 
             ////右魔防
             //actor.Status.mdef_add_skill -= (short)skill.Variable["UndeadMdefDownOne_mdef_add"];
-           
+
         }
         #endregion
     }

@@ -14,7 +14,7 @@ namespace SagaMap.Tasks.System
     {
         public AutoSaveServerSvar()
         {
-            this.period = 120000;           
+            this.period = 120000;
         }
 
         public override void CallBack()

@@ -9,7 +9,7 @@ using SagaMap.Skill.Additions.Global;
 namespace SagaMap.Skill.SkillDefinations.Astralist
 {
     /// <summary>
-    /// MP¥³¥ß¥å¥Ë¥ª¥ó
+    /// MPï¿½ï¿½ï¿½ß¥ï¿½Ë¥ï¿½ï¿½ï¿½
     /// </summary>
     public class MPCommunion : ISkill
     {

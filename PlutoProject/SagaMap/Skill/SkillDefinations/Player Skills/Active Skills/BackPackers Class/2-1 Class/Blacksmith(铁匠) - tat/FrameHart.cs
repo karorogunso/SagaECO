@@ -11,12 +11,12 @@ namespace SagaMap.Skill.SkillDefinations.Blacksmith
     /// <summary>
     /// 火焰之心（フレイムハート）
     /// </summary>
-    public class FrameHart : ISkill 
+    public class FrameHart : ISkill
     {
         #region ISkill Members
         public int TryCast(ActorPC pc, Actor dActor, SkillArg args)
         {
-           return 0;
+            return 0;
         }
         public void Proc(Actor sActor, Actor dActor, SkillArg args, byte level)
         {
@@ -26,7 +26,7 @@ namespace SagaMap.Skill.SkillDefinations.Blacksmith
             skill.OnAdditionStart += this.StartEventHandler;
             skill.OnAdditionEnd += this.EndEventHandler;
             SkillHandler.ApplyAddition(realDActor, skill);
-            
+
         }
         void StartEventHandler(Actor actor, DefaultBuff skill)
         {
@@ -49,6 +49,6 @@ namespace SagaMap.Skill.SkillDefinations.Blacksmith
 
         }
 
-         #endregion
+        #endregion
     }
 }

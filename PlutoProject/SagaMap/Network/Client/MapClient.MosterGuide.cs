@@ -1,4 +1,4 @@
-﻿using SagaLib;
+using SagaLib;
 using SagaDB.Actor;
 using System;
 using System.Collections.Generic;

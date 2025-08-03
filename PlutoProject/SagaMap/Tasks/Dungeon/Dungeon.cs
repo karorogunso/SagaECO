@@ -36,7 +36,7 @@ namespace SagaMap.Tasks.Dungeon
                     dungeon.Destory(DestroyType.TimeOver);
                     return;
                 }
-                if (rest == 7200 ||                    
+                if (rest == 7200 ||
                     rest == 3600 ||
                     rest == 1800 ||
                     rest == 900 ||
@@ -79,7 +79,7 @@ namespace SagaMap.Tasks.Dungeon
             catch (Exception ex)
             {
                 Logger.ShowError(ex);
-            }            
+            }
         }
     }
 }

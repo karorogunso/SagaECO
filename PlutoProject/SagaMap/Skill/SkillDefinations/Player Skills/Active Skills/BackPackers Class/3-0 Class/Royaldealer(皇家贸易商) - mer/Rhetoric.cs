@@ -37,7 +37,7 @@ namespace SagaMap.Skill.SkillDefinations.Royaldealer
                 }
             }
 
-            
+
         }
         #endregion
         void StartEventHandler(Actor actor, DefaultBuff skill)

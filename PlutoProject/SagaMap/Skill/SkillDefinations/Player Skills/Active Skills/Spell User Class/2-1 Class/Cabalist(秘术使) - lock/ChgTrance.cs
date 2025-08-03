@@ -29,7 +29,7 @@ namespace SagaMap.Skill.SkillDefinations.Cabalist
         }
         void StartEventHandler(Actor actor, DefaultBuff skill)
         {
-            ActorPC pc=(ActorPC)actor;
+            ActorPC pc = (ActorPC)actor;
             switch (skill.skill.Level)
             {
                 case 1:
@@ -72,7 +72,7 @@ namespace SagaMap.Skill.SkillDefinations.Cabalist
             SkillHandler.Instance.TranceMob(pc, 0);
         }
 
-        void AddSkill(ActorPC actor,uint SkillID,byte lv)
+        void AddSkill(ActorPC actor, uint SkillID, byte lv)
         {
             var s = SkillFactory.Instance.GetSkill(SkillID, lv);
             s.NoSave = true;
@@ -83,7 +83,7 @@ namespace SagaMap.Skill.SkillDefinations.Cabalist
             var s = (from SagaDB.Skill.Skill x in actor.Skills
                      where x.ID == SkillID
                      select x).First();
-            actor.Skills.Remove(s.ID );
+            actor.Skills.Remove(s.ID);
         }
         #endregion
     }

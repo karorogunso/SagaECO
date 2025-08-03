@@ -1,4 +1,4 @@
-﻿using SagaLib;
+using SagaLib;
 using SagaMap.Network.Client;
 using System;
 using System.Collections.Generic;

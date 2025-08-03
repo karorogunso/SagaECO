@@ -15,7 +15,7 @@ namespace SagaMap.Tasks.PC
         ActorPC target;
         PossessionPosition pos;
         string comment;
-        public Possession(MapClient client, ActorPC target, PossessionPosition position, string comment,int reduce)
+        public Possession(MapClient client, ActorPC target, PossessionPosition position, string comment, int reduce)
         {
             if (reduce > 9)
                 reduce = 9;

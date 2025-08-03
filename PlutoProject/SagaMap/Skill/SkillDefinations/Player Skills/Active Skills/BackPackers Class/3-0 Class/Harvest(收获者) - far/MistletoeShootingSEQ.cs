@@ -31,22 +31,22 @@ namespace SagaMap.Skill.SkillDefinations.Harvest
         }
         public void Proc(Actor sActor, Actor dActor, SkillArg args, byte level)
         {
-            
+
             if (MobUse)
             {
                 level = 5;
             }
             //无法获取物理伤害值,暂时由普通治疗法术参数进行计算
-            float []factor = { 0, -0.6f, -1.48f, -3.96f, -5.355f, -9.28f }; ;
+            float[] factor = { 0, -0.6f, -1.48f, -3.96f, -5.355f, -9.28f }; ;
 
-            
+
             Map map = Manager.MapManager.Instance.GetMap(dActor.MapID);
             List<Actor> affected = map.GetActorsArea(dActor, 200, true);
             List<Actor> realAffected = new List<Actor>();
             //ActorPC pc = (ActorPC)sActor;
             foreach (Actor act in affected)
             {
-                if (act.type == ActorType.PC || act.type == ActorType.PARTNER || act.type == ActorType.PET )
+                if (act.type == ActorType.PC || act.type == ActorType.PARTNER || act.type == ActorType.PET)
                 {
                     realAffected.Add(act);
                 }

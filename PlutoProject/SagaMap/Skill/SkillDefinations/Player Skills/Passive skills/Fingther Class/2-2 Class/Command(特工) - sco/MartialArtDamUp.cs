@@ -10,7 +10,7 @@ namespace SagaMap.Skill.SkillDefinations.Command
     /// <summary>
     /// 特攻武術修練（体術マスタリー）
     /// </summary>
-    public class MartialArtDamUp : ISkill 
+    public class MartialArtDamUp : ISkill
     {
         #region ISkill Members
         public int TryCast(ActorPC sActor, Actor dActor, SkillArg args)

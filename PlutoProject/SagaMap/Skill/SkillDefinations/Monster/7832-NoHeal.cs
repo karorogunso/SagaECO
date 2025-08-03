@@ -16,7 +16,7 @@ namespace SagaMap.Skill.SkillDefinations.Monster
         #region ISkill Members
         public int TryCast(ActorPC sActor, Actor dActor, SkillArg args)
         {
-            if (dActor.Status.Additions.ContainsKey("Sacrifice")|| dActor.Status.Additions.ContainsKey("NoHeal"))
+            if (dActor.Status.Additions.ContainsKey("Sacrifice") || dActor.Status.Additions.ContainsKey("NoHeal"))
             {
                 return -1;
             }
@@ -32,7 +32,7 @@ namespace SagaMap.Skill.SkillDefinations.Monster
                 SkillHandler.ApplyAddition(dActor, skill);
             }
 
-                
+
         }
         void StartEventHandler(Actor actor, DefaultBuff skill)
         {

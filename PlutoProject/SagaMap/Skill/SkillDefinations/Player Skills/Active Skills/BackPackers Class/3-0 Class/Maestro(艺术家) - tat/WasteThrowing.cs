@@ -27,7 +27,7 @@ namespace SagaMap.Skill.SkillDefinations.Maestro
             }
             else
                 return -5;
-            
+
         }
 
         bool CheckPossible(Actor sActor)
@@ -111,7 +111,7 @@ namespace SagaMap.Skill.SkillDefinations.Maestro
                 {
                     factor += 1.55f;
                 }
-                else if (Enhance == 30 )
+                else if (Enhance == 30)
                 {
                     factor += 1.8f;
                 }

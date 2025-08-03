@@ -74,7 +74,7 @@ namespace SagaMap.Skill.SkillDefinations.Bard
                 //测试去除技能同步锁ClientManager.EnterCriticalArea();
                 try
                 {
-                    if (lifetime > 0 && counts >0)
+                    if (lifetime > 0 && counts > 0)
                     {
                         float factor = 0.37f + 0.43f * skill.skill.Level;
                         Map map = Manager.MapManager.Instance.GetMap(sActor.MapID);
@@ -104,7 +104,7 @@ namespace SagaMap.Skill.SkillDefinations.Bard
                                 }
                             }
                         }
-                        SkillHandler.Instance.MagicAttack(sActor, realAffected, skill, SagaLib.Elements.Holy , factor);
+                        SkillHandler.Instance.MagicAttack(sActor, realAffected, skill, SagaLib.Elements.Holy, factor);
                         lifetime -= this.period;
                     }
                     else

@@ -66,7 +66,7 @@ namespace SagaMap.Skill.SkillDefinations.Farmasist
             {
                 //同步鎖，表示之後的代碼是執行緒安全的，也就是，不允許被第二個執行緒同時訪問
                 //测试去除技能同步锁ClientManager.EnterCriticalArea();
-                uint HP_ADD=(uint)(10 * skill.skill.Level);
+                uint HP_ADD = (uint)(10 * skill.skill.Level);
                 try
                 {
                     skill.affectedActors.Clear();
@@ -76,7 +76,7 @@ namespace SagaMap.Skill.SkillDefinations.Farmasist
                         List<Actor> affected = map.GetActorsArea(actor, 200, false);
                         foreach (Actor act in affected)
                         {
-                            if (act.type == ActorType.PC || act.type== ActorType.PET || act.type== ActorType.SHADOW )
+                            if (act.type == ActorType.PC || act.type == ActorType.PET || act.type == ActorType.SHADOW)
                             {
                                 RecoverHP(act, HP_ADD);
                             }
@@ -97,7 +97,7 @@ namespace SagaMap.Skill.SkillDefinations.Farmasist
                 //解開同步鎖
                 //测试去除技能同步锁 ClientManager.LeaveCriticalArea();
             }
-            public void RecoverHP(Actor act,uint HP_Add)
+            public void RecoverHP(Actor act, uint HP_Add)
             {
                 SkillHandler.Instance.FixAttack(sActor, act, skill, Elements.Holy, -HP_Add);
                 map.SendEventToAllActorsWhoCanSeeActor(Map.EVENT_TYPE.SKILL, skill, actor, false);

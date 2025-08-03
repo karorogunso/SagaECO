@@ -10,7 +10,7 @@ namespace SagaMap.Skill.SkillDefinations.Druid
     /// <summary>
     /// 範圍治癒（エリアヒール）
     /// </summary>
-    public class AreaHeal :ISkill 
+    public class AreaHeal : ISkill
     {
         bool MobUse;
         public AreaHeal()
@@ -41,7 +41,7 @@ namespace SagaMap.Skill.SkillDefinations.Druid
             Map map = Manager.MapManager.Instance.GetMap(sActor.MapID);
             List<Actor> affected = map.GetActorsArea(sActor, 100, true);
             List<Actor> realAffected = new List<Actor>();
-            if(sActor.type==ActorType.PC)
+            if (sActor.type == ActorType.PC)
             {
                 ActorPC pc = (ActorPC)sActor;
                 foreach (Actor act in affected)
@@ -64,9 +64,9 @@ namespace SagaMap.Skill.SkillDefinations.Druid
                         realAffected.Add(act);
                     }
                 }
-                
+
             }
-            
+
             SkillHandler.Instance.MagicAttack(sActor, realAffected, args, SkillHandler.DefType.IgnoreAll, SagaLib.Elements.Holy, factor);
         }
 

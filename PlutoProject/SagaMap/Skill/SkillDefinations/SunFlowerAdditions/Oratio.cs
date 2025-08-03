@@ -26,7 +26,7 @@ namespace SagaMap.Skill.SkillDefinations.SunFlowerAdditions
             int lifetime = 300000;
             Map map = Manager.MapManager.Instance.GetMap(sActor.MapID);
             List<Actor> affected = map.GetActorsArea(sActor, 1500, true);
-             
+
             foreach (Actor act in affected)
             {
                 int numd = SagaLib.Global.Random.Next(1, 100);
@@ -43,8 +43,8 @@ namespace SagaMap.Skill.SkillDefinations.SunFlowerAdditions
                     arg.x = args.x;
                     arg.y = args.y;
                     map.SendEventToAllActorsWhoCanSeeActor(Map.EVENT_TYPE.SHOW_EFFECT, arg, sActor, true);
-                    
-                        
+
+
 
                 }
             }

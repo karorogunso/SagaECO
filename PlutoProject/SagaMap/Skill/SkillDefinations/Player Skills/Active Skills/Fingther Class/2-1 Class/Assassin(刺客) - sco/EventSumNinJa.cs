@@ -75,7 +75,7 @@ namespace SagaMap.Skill.SkillDefinations.Assassin
                 actor.Dex = pc.Dex >= 10 ? (ushort)(pc.Dex - 10) : (ushort)0;
                 actor.Agi = pc.Agi >= 10 ? (ushort)(pc.Agi - 10) : (ushort)0;
                 actor.Vit = pc.Vit >= 10 ? (ushort)(pc.Vit - 10) : (ushort)0;
-                actor.MaxHP = (uint)(pc.MaxHP * ( 0.5f * level));
+                actor.MaxHP = (uint)(pc.MaxHP * (0.5f * level));
                 actor.HP = (uint)(pc.HP * (0.5f * level));
                 actor.Speed = pc.Speed;
                 actor.BaseData.range = 1;
@@ -136,6 +136,6 @@ namespace SagaMap.Skill.SkillDefinations.Assassin
             }
         }
         #endregion
-       
+
     }
 }

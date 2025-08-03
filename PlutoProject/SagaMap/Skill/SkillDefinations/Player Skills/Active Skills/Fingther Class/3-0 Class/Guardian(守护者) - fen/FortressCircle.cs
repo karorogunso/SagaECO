@@ -146,7 +146,7 @@ namespace SagaMap.Skill.SkillDefinations.Guardian
         //        this.dueTime = 0;
 
         //    }
-        
+
         //    public override void CallBack()
         //    {
         //        //同步锁，表示之后的代码是线程安全的，也就是，不允许被第二个线程同时访问

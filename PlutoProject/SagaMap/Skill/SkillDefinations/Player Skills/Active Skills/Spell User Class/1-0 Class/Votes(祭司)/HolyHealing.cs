@@ -25,7 +25,7 @@ namespace SagaMap.Skill.SkillDefinations.Vates
         {
             SkillCD cd = new SkillCD(args.skill, sActor, "HolyHealing", 30000);
             SkillHandler.ApplyAddition(sActor, cd);
-           
+
             //创建设置型技能技能体
             ActorSkill actor = new ActorSkill(args.skill, sActor);
             Map map = Manager.MapManager.Instance.GetMap(sActor.MapID);
@@ -73,8 +73,8 @@ namespace SagaMap.Skill.SkillDefinations.Vates
                 this.period = 2000;
                 this.dueTime = 1500;
                 this.factor += 0.1f * level;
-                
-                
+
+
             }
             public override void CallBack()
             {

@@ -35,7 +35,7 @@ namespace SagaMap.Skill.SkillDefinations.Alchemist
                     SkillHandler.ApplyAddition(item, skill);
                     affected.Add(item);
                 }
-                
+
             }
             SkillHandler.Instance.PhysicalAttack(sActor, affected, args, sActor.WeaponElement, factor);
             //float factor = 0.5f + 0.5f * level;

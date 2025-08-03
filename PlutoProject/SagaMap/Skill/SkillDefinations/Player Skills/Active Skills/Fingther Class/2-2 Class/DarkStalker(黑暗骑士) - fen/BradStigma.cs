@@ -20,7 +20,7 @@ namespace SagaMap.Skill.SkillDefinations.DarkStalker
         }
         public void Proc(Actor sActor, Actor dActor, SkillArg args, byte level)
         {
-            
+
             int lifetime = 25000;
             SkillHandler.Instance.AttractMob(sActor, dActor);
             DefaultBuff skill = new DefaultBuff(args.skill, dActor, "BradStigma", lifetime);
@@ -28,7 +28,7 @@ namespace SagaMap.Skill.SkillDefinations.DarkStalker
             skill.OnAdditionEnd += this.EndEventHandler;
             SkillHandler.ApplyAddition(dActor, skill);
 
-    
+
             //闇屬性傷害提升 16% 20% 24% 28% 32% 
         }
         void StartEventHandler(Actor actor, DefaultBuff skill)

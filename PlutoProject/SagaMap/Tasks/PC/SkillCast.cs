@@ -42,7 +42,7 @@ namespace SagaMap.Tasks.PC
                     if (skill.argType == SkillArg.ArgType.Item_Cast)
                         client.OnItemCastComplete(skill);
                 }
-                this.Deactivate();                
+                this.Deactivate();
             }
             catch (Exception ex)
             {
